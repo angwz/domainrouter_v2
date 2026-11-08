@@ -2,7 +2,7 @@
 
 把一份手写的分流配置 `my.wei` 与各处收集的上游规则，编译成去重、合并、按 Mihomo 匹配机制优化的 rule-provider，以及 subconverter 直接可用的 `rulesets.toml`、`groups.toml`。GitHub Actions 每天刷新上游、验证并发布。
 
-> **状态** 0.1.0.dev0 · 核心构建、验证与每日流程已完成并在本地演练；进度见 [progress](docs/development/progress.md)。
+> **状态** 0.1.0 · 首个公开版本；进度见 [progress](docs/development/progress.md)。
 
 ```text
 my.wei · groups.toml ─┐
@@ -101,4 +101,4 @@ MATCH: 🐟 Final
 
 开发约定见 [CONTRIBUTING.md](CONTRIBUTING.md)，安全问题见 [SECURITY.md](SECURITY.md)。
 
-尚未选定开源许可证，首次公开发布前确定；在此之前，本仓库的代码不授予任何许可。第三方工具与数据的来源和许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+以 [GNU GPL v3.0 或更新版本](LICENSE) 发布（`GPL-3.0-or-later`）。第三方工具与数据的来源和许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

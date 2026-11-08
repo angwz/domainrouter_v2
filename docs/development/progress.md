@@ -42,6 +42,6 @@
 
 ## 下一步
 
-1. 选定许可证，补齐 `LICENSE` 与 `pyproject.toml` 的 `license` 字段。
-2. 按[首次启用](../guide/daily-automation.md#首次启用)推送仓库、试运行、打开发布、切换订阅。
+1. 按[首次启用](../guide/daily-automation.md#首次启用)创建仓库并推送、试运行、打开发布、切换订阅（许可证已定为 GPL-3.0-or-later）。
+2. 设计私有输入：让服务器网段等内容参与生成规则，但不出现在公开仓库中。
 3. 之后：MRS 输出（与 YAML 同目录同名）、Web、AI 建议。

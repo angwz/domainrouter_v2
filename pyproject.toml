@@ -1,10 +1,11 @@
 [project]
 name = "domainrouter_v2"
-version = "0.1.0.dev0"
+version = "0.1.0"
 description = "Compile a personal my.wei routing profile and upstream rule lists into optimized Mihomo rule-providers and subconverter TOML."
 readme = "README.md"
 requires-python = ">=3.13"
-# 许可证尚未选定（见 docs/decisions/0001），首次公开发布前补齐 license 字段。
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
 authors = [{ name = "angwz" }]
 keywords = ["mihomo", "clash", "subconverter", "rules", "routing"]
 classifiers = [
@@ -20,6 +21,12 @@ dependencies = [
     "pyyaml>=6.0.3,<7",
     "tomli-w>=1.2.0,<2",
 ]
+
+[project.urls]
+Homepage = "https://github.com/angwz/domainrouter_v2"
+Documentation = "https://github.com/angwz/domainrouter_v2/blob/main/docs/README.md"
+Changelog = "https://github.com/angwz/domainrouter_v2/blob/main/CHANGELOG.md"
+Issues = "https://github.com/angwz/domainrouter_v2/issues"
 
 [project.scripts]
 domainrouter_v2 = "domainrouter_v2.cli:main"
