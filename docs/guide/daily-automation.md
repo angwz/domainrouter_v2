@@ -1,8 +1,8 @@
 # 每日自动更新
 
-工作流 [`.github/workflows/daily-rules.yml`](../.github/workflows/daily-rules.yml) 每天刷新全部上游、重新构建、验证，通过后发布到 `release` 分支。
+工作流 [`.github/workflows/daily-rules.yml`](../../.github/workflows/daily-rules.yml) 每天刷新全部上游、重新构建、验证，通过后发布到 `release` 分支。
 
-> 当前状态：**每日流程已实现并在本地演练通过；远端仓库尚未创建，定时运行与发布均未启用。**
+> 代码推送到 GitHub 后，定时构建与验证即开始运行；只有设置了 `PUBLISH_ENABLED` 才会发布。当前状态见[进度](../development/progress.md)。
 
 ## 时间
 
@@ -12,7 +12,7 @@
 
 ## 每次运行做什么
 
-构建作业（只读权限）调用 [`scripts/daily-build.sh`](../scripts/daily-build.sh)：
+构建作业（只读权限）调用 [`scripts/daily-build.sh`](../../scripts/daily-build.sh)：
 
 1. 从 `state` 分支恢复每个来源上次成功的快照。
 2. `fetch`：获取全部上游。单个来源失败（网络错误、非 2xx、HTML 页面、空内容、格式异常、条目数骤降一半以上）时沿用它的旧快照，其余来源照常更新。新来源第一次就失败时，本次运行失败。
@@ -20,7 +20,7 @@
 4. `tools prepare` + `verify --level kernel`：语义层与内核层验证，任一不一致即失败。
 5. `publish`：构建并与 `release` 分支的当前内容比较。有变化才写入新文件和更新说明；更新说明同时写进本次运行的 Job Summary。
 
-发布作业仅在仓库变量 `PUBLISH_ENABLED` 为 `true` 时运行，并单独获得写权限。它调用 [`scripts/daily-publish.sh`](../scripts/daily-publish.sh)，把本次已验证的内容快进推送到 `release` 与 `state` 分支：
+发布作业仅在仓库变量 `PUBLISH_ENABLED` 为 `true` 时运行，并单独获得写权限。它调用 [`scripts/daily-publish.sh`](../../scripts/daily-publish.sh)，把本次已验证的内容快进推送到 `release` 与 `state` 分支：
 
 - 内容没变的分支不提交。
 - 从不强推；如果远端被并发改动，推送失败，本次运行失败。
@@ -35,16 +35,37 @@
 | `release` | `clash-domain/`、`clash-ipcidr/`、`clash-classic/`、`rulesets.toml`、`groups.toml`、`manifest.json`、`reports/` | 每日工作流 |
 | `state` | `sources/`（各来源规范化快照）、`status.json`（健康记录） | 每日工作流 |
 
-`reports/latest.md` 是最近一次有变化时的更新说明，`reports/changes.json` 是同样内容的机器可读版本。`reports/broad-rules.md` 是当前规则文件中的宽泛规则清单（见 [broad-rules](rules/broad-rules.md)），内容变化同样会触发发布。
+`reports/latest.md` 是最近一次有变化时的更新说明，`reports/changes.json` 是同样内容的机器可读版本。`reports/broad-rules.md` 是当前规则文件中的宽泛规则清单（见 [broad-rules](../rules/broad-rules.md)），内容变化同样会触发发布。
 
-## 启用步骤（M4b，需要你操作）
+## 首次启用
 
-1. 在 GitHub 创建 `angwz/domainrouter_v2` 并推送 `main`。
-2. 确认 `config/domainrouter_v2.toml` 的 `output.base_url` 指向 `https://raw.githubusercontent.com/angwz/domainrouter_v2/release`。
-3. 在 Actions 页面手动运行一次 *Daily rules*（此时尚未设置变量，只构建和验证，不发布），检查 Job Summary。
-4. 在 *Settings → Secrets and variables → Actions → Variables* 新增 `PUBLISH_ENABLED`，值为 `true`。
-5. 再手动运行一次，确认 `release` 与 `state` 分支已生成。
-6. 把 subconverter 引用的 `rulesets.toml`、`groups.toml` 地址改为 `release` 分支上的新地址，同时保留 v1 地址作为回滚入口。
+按顺序进行。前四步只需做一次，之后每天自动运行。
+
+**1. 推送代码**
+
+- 在 GitHub 创建公开仓库 `angwz/domainrouter_v2`（不勾选自动生成 README、LICENSE、.gitignore），推送 `main`。
+- 仓库必须公开：subconverter 通过 `raw.githubusercontent.com` 匿名读取规则文件。
+- `config/domainrouter_v2.toml` 的 `output.base_url` 应为 `https://raw.githubusercontent.com/angwz/domainrouter_v2/release`；仓库名不同时同步修改。
+
+**2. 检查 Actions 设置**（*Settings → Actions → General*）
+
+- *Actions permissions*：保持默认的 *Allow all actions*；如果改成了限制模式，需放行 `actions/*` 与 `astral-sh/setup-uv`。
+- *Workflow permissions*：保持默认的只读即可。工作流在发布作业中显式申请 `contents: write`。
+
+**3. 试运行**
+
+- 推送后 CI 会自动运行；在 Actions 页面确认 *CI* 通过。
+- 手动运行一次 *Daily rules*。此时尚未设置发布变量，只构建与验证，结果写在 Job Summary 中。
+
+**4. 打开发布**
+
+- 在 *Settings → Secrets and variables → Actions → Variables* 新增 `PUBLISH_ENABLED`，值为 `true`。
+- 再手动运行一次 *Daily rules*，确认出现 `release` 与 `state` 两个分支，并打开 `release/reports/latest.md` 检查。
+
+**5. 切换订阅**
+
+- 把 subconverter 引用的 `rulesets.toml`、`groups.toml` 改为 `release` 分支上的地址，保留 v1 地址作为回滚入口。
+- 新版本稳定运行一段时间后，再停用 v1 的工作流，避免两套流程同时更新。
 
 ## 回滚
 

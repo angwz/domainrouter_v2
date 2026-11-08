@@ -1,4 +1,4 @@
-# DomainRouter v2 构建配置（用户 profile）。字段说明见 docs/configuration.md。
+# DomainRouter v2 构建配置（维护者的 profile）。字段说明见 docs/guide/configuration.md。
 schema_version = 1
 project_root = ".."
 

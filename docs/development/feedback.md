@@ -1,39 +1,45 @@
-# 用户意见记录
+# 维护者意见
 
-> 按时间顺序记录用户对本项目提出的每一条意见，以及处理结果。每收到新意见就追加一条，已有条目只更新「处理」列，不改写原意。
-> 原话尽量照录（「」内），较长的意见做摘要。已形成正式决定的，以 [docs/decisions/](../decisions/) 为准。
+维护者对项目提出的每条意见及其处理结果，按时间排列，供维护者回顾、供后续接手的代理了解哪些方向已经讨论过。
 
-状态：✅ 已实现 · 🔄 部分实现 / 进行中 · 🕓 计划中 · ➖ 不做（附原因）
+- 每条意见用一句话概括其要求与动机，不摘录原话。
+- 新意见追加在末尾，编号连续；处理有进展时只更新「状态」与「落点」。
+- 已形成正式决定的，细节以 [decisions/](../decisions/) 为准。
 
-## 2026-11-08 · 项目启动与范围
+**状态** ✅ 已完成 · 🔄 进行中 · 🕓 已规划 · ➖ 不采纳
 
-| # | 意见 | 处理 | 位置 |
-| --- | --- | --- | --- |
-| 1 | 每日自动生成三类规则集是核心必需；Web 与 AI 暂不实施 | ✅ 每日工作流 HKT 04:17 + 手动触发 | [daily-automation](../daily-automation.md) |
-| 2 | 「上游改了规则是自然的……所以才设置每天更新一次」：上游每天跟随变化，不冻结 | ✅ 来源锁只作收据 | [0001](../decisions/0001-deviations-from-spec-1.5.md) #4 |
-| 3 | 「合并和精简是本项目的重点，要从 clash 的匹配效率出发……总体目标是 clash 的匹配效率最优」 | ✅ 按 Mihomo 真实数据结构优化，并实测 | [merge-cases §1](../rules/merge-cases.md)、[performance](../performance.md) |
-| 4 | MRS 不是重点，先生成 YAML；麻烦的话以后再做 | 🕓 推迟；放置方式已定（见 2026-11-09 #20） | [0001](../decisions/0001-deviations-from-spec-1.5.md) #1 |
-| 5 | 「没需求不要创造需求」：不要 base 和 external-config.toml | ✅ 只生成 rulesets.toml、groups.toml | [0001](../decisions/0001-deviations-from-spec-1.5.md) #2 |
-| 6 | 写合并规则案例文档，尽可能覆盖边界情况，保证合并有效 | ✅ 每个案例对应测试 | [merge-cases](../rules/merge-cases.md) |
-| 7 | 来源格式按各工具官方文档转换；没有官方文档的舍弃 | ✅ 不支持 Quantumult X | [0001](../decisions/0001-deviations-from-spec-1.5.md) #6 |
-| 8 | 上游自带的策略字段（含 `REJECT`）与参数是无效信息，预处理掉；策略由自己在 groups.toml 决定 | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) #7 |
-| 9 | 无法安全转换的规则，用现代化方式在每次更新说明中写明 | ✅ `reports/latest.md` | [report.py](../../src/domainrouter_v2/report.py) |
-| 10 | 「不要太借鉴老项目的……应该多借鉴互联网，进行现代化构思」 | ✅ 处理方案依据官方文档与现代项目 | [0001](../decisions/0001-deviations-from-spec-1.5.md) |
-| 11 | 对广告不敏感：「规则放哪块，就是我想要的哪块」，不做广告列表提醒；以后由 AI 给建议 | ✅ 不做提醒；AI 🕓 | [0001](../decisions/0001-deviations-from-spec-1.5.md) |
-| 12 | 末尾的 `GEOIP,CN: DIRECT` 不带 no-resolve 是刻意的：「按我写的原样保留吧」 | ✅ 手写规则原样保留 | [0001](../decisions/0001-deviations-from-spec-1.5.md) #8 |
-| 13 | 工程质量：审美克制清晰；README 简洁、细节进 docs；模块清晰、无死代码、不吞异常；文档与代码同步；CLAUDE.md、progress.md、decisions；小步交付并自查 | ✅ 长期有效 | [CLAUDE.md](../../CLAUDE.md) |
-| 14 | 来源失败：「用上次的副本吧，久了还没有……在该提示我的地方提示我这个没有了就行」 | ✅ 沿用旧副本；超过 7 天在更新说明顶部提示 | [0001](../decisions/0001-deviations-from-spec-1.5.md) #5 |
-| 15 | rulesets 数量不设上限，按当前需求生成；少一点也好；my.wei 随时会改，要灵活 | ✅ 相邻同目标合集合并成一组文件 | [merge-cases §9](../rules/merge-cases.md) |
-| 16 | 开始前问过：不需要先在 GitHub 创建仓库等准备吗？ | ➖ 按约定暂不创建远端，列为 M4b | [daily-automation](../daily-automation.md) |
+## 立项（2026-11-08）
 
-## 2026-11-09 · 交付后的意见
+| # | 意见 | 状态 | 落点 |
+| ---: | --- | :---: | --- |
+| 1 | 每天自动生成三类规则集是核心功能；Web 与 AI 暂缓 | ✅ | [每日自动更新](../guide/daily-automation.md) |
+| 2 | 上游每天跟随变化，来源锁只作记录，不冻结内容 | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) #4 |
+| 3 | 合并与精简是项目重心，以 Mihomo 的匹配效率为最终目标 | ✅ | [merge-cases §1](../rules/merge-cases.md)、[性能](../design/performance.md) |
+| 4 | MRS 不是重点，先输出 YAML | 🕓 | [0001](../decisions/0001-deviations-from-spec-1.5.md) #1，放置方式见 #22 |
+| 5 | 不为假想需求增加产物：不生成 base 与 external-config | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) #2 |
+| 6 | 用案例文档覆盖合并的各种边界情况，并以测试保证 | ✅ | [merge-cases](../rules/merge-cases.md) |
+| 7 | 来源格式只按官方文档转换；没有官方文档的格式不支持 | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) #6 |
+| 8 | 上游的策略字段与参数一律剥离，策略只由 groups.toml 决定 | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) #7 |
+| 9 | 无法安全转换的规则在每次更新说明中逐条说明 | ✅ | `reports/latest.md` |
+| 10 | 设计参考现代项目与官方资料，而非沿用 v1 实现 | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) |
+| 11 | 规则放在哪个分组即代表意图，不做广告类提醒；修改建议留给日后的 AI 功能 | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) |
+| 12 | 手写规则按原样保留，包括刻意不带 `no-resolve` 的 `GEOIP,CN` | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) #8 |
+| 13 | 工程质量的长期标准：克制的呈现、清晰的模块、文档与代码同步、小步交付并自查 | ✅ | [CLAUDE.md](../../CLAUDE.md) |
+| 14 | 来源失效时沿用上次的副本，长期失效只需提醒 | ✅ | [0001](../decisions/0001-deviations-from-spec-1.5.md) #5 |
+| 15 | 规则集数量随 my.wei 变化，不设上限，能少则少 | ✅ | [merge-cases §9](../rules/merge-cases.md) |
+| 16 | 开工前是否需要先在 GitHub 建仓库 | ➖ | 远端操作统一放到首次发布时 |
 
-| # | 意见 | 处理 | 位置 |
-| --- | --- | --- | --- |
-| 17 | 过滤 `DOMAIN-KEYWORD,ads` 这类太宽泛的关键词，维护一个从互联网收集的词表；`DOMAIN-KEYWORD,google` 这类「很可怕」，在单独的 md 中提醒发布了哪些；其他容易宽泛的规则也要提醒；「像 0.0.0.0/0 这类，有的话也应该被过滤！！！」 | ✅ 上游过宽规则过滤，宽泛规则列入 `reports/broad-rules.md`；手写规则只提醒 | [0002](../decisions/0002-filter-broad-upstream-rules.md)、[broad-rules](../rules/broad-rules.md) |
-| 18 | v1 的 release 已重跑恢复；64 条上限的问题「不用管」 | ✅ 迁移报告已更新；构建时仍保留提示 | [v1-report](../migration/v1-report.md) |
-| 19 | YAML 文件头「不够优雅简洁，太丑了」，v1 的更好；domain 排序要更讲究：`+.` 一级按字母，再二级……再 `*` 通配，单个主机名放底部 | ✅ `# KEY: value` 文件头；按覆盖范围从宽到窄排列；UPDATED 只随内容变化 | [merge-cases §10](../rules/merge-cases.md#10-规则文件的排列与文件头) |
-| 20 | 「我个人对审美要求偏高」，排序等是为了自己看着舒服；以后还会多次对合并排序提意见 | ✅ 记为长期偏好 | 本文件 |
-| 21 | 给 YAML 每条规则加同行注释：来自哪个上游、覆盖了哪些上游规则，方便检查合并算法；注释要兼顾审美 | ✅ 来源图例 + 对齐的同行注释；`explain --rule` 看完整来历；文件体积 +67%，Mihomo 加载时间无可测变化 | [merge-cases §10](../rules/merge-cases.md#10-规则文件的排列与文件头) |
-| 22 | 以后增加 MRS：放在 YAML 同目录还是更规范的位置？MRS 无法预览，无需注释，只要程序能读懂 | 🕓 计划：与 YAML 同目录、同名、扩展名 `.mrs`（MetaCubeX/meta-rules-dat 的做法）；只做 domain 与 ipcidr（Mihomo 的 MRS 不支持 classical）；不含注释 | — |
-| 23 | 单独维护一个文件，记录提过的每条意见，方便 Claude 以后继续，也方便自己查看 | ✅ 本文件；CLAUDE.md 要求每次追加 | 本文件 |
+## 首次交付之后（2026-11-09）
+
+| # | 意见 | 状态 | 落点 |
+| ---: | --- | :---: | --- |
+| 17 | 过滤 `ads`、`0.0.0.0/0` 这类范围过宽的上游规则，词表要有公开依据；品牌关键词等宽泛规则单独列清单提醒 | ✅ | [0002](../decisions/0002-filter-broad-upstream-rules.md)、[broad-rules](../rules/broad-rules.md) |
+| 18 | v1 发布已恢复；subconverter 的 64 条上限不影响实际使用 | ✅ | [v1 迁移](../history/v1-migration.md) |
+| 19 | 规则文件头应像 v1 一样简洁；domain 条目按 `+.` 层级 → 通配 → 精确主机名排列 | ✅ | [merge-cases §10](../rules/merge-cases.md#10-规则文件的排列与文件头) |
+| 20 | 排列与注释首先服务于人工阅读，后续会持续调整合并与排序的呈现 | ✅ | 长期偏好 |
+| 21 | 每条规则用同行注释标出来源，以及它合并、覆盖了哪些上游规则，便于审查合并算法 | ✅ | [merge-cases §10](../rules/merge-cases.md#10-规则文件的排列与文件头)、`explain --rule` |
+| 22 | 将来的 MRS 放在哪里：与 YAML 同目录、同名，扩展名 `.mrs`；只做 domain 与 ipcidr；不含注释 | 🕓 | 实施 MRS 时执行 |
+| 23 | 维护一份意见记录，便于双方回顾 | ✅ | 本文件 |
+| 24 | 意见记录不引用原话，统一写成中性总结 | ✅ | 本文件 |
+| 25 | 文档兼顾人与 AI 代理的阅读体验，可自由重组目录与段落 | ✅ | [文档地图](../README.md) |
+| 26 | 准备首次发布到 GitHub | 🔄 | [每日自动更新 · 首次启用](../guide/daily-automation.md#首次启用) |

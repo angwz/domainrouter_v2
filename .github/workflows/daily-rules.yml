@@ -1,4 +1,4 @@
-# 每日刷新上游 → 构建 → 验证 → 发布（docs/daily-automation.md）。
+# 每日刷新上游 → 构建 → 验证 → 发布（docs/guide/daily-automation.md）。
 # 构建与验证只有读权限；只有在仓库变量 PUBLISH_ENABLED 为 "true" 时，
 # 才由单独的发布作业取得写权限，把本次已验证的产物快进推送到 release 与 state 分支。
 name: Daily rules

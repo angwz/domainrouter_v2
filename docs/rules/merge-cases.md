@@ -42,7 +42,7 @@ Mihomo 对三类 rule-provider 的处理方式完全不同，这决定了所有�
 
 ## 2. 手写 `my.wei` 的域名语义
 
-手写自由行沿用规范 1.5 第 4.2 节（用户已确认的语义）。
+手写自由行的语义沿用[实施规范 1.5 第 4.2 节](../history/spec-1.5/01-foundations-and-input.md)，写法说明见 [my.wei 语法](../guide/my-wei.md)。
 
 | 输入 | 输出（domain 集合） | 原因 |
 | --- | --- | --- |
@@ -402,6 +402,6 @@ payload:
 
 完整来历用 `domainrouter_v2 explain --rule '+.us'` 查看，列出全部被合并、被覆盖的输入和来源的完整 URL。来源标注由 `provenance.py` 独立计算：对每条输入找出完整包含它的那条输出，不只依赖优化过程的记录；找不到时构建给出 `W_TRACE_GAP` 警告，说明合并算法可能有误。
 
-同行注释与 `payload:` 一起交给 YAML 解析器，解析器忽略注释，Mihomo 加载的条目数不变（内核层验证核对）。代价是文件体积，实测见 [performance](../performance.md)。
+同行注释与 `payload:` 一起交给 YAML 解析器，解析器忽略注释，Mihomo 加载的条目数不变（内核层验证核对）。代价是文件体积，实测见 [performance](../design/performance.md)。
 
 `build` 的产物不含 `UPDATED`，所以两次构建逐字节相同。发布时，内容（除 `UPDATED` 行外，含来源标注）与已发布版本相同的文件保留原字节和原时间，只有变化的文件写入新时间。这样每次提交只改动真正变化的文件，客户端也不会因为时间戳变化而重新下载。

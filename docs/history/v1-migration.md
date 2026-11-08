@@ -24,14 +24,13 @@
 
 每个合集的去重、覆盖与合并统计见构建生成的 `reports/latest.md`。
 
-## 需要你知道或决定的事
+## 迁移中的发现
 
-1. **v1 的 `release` 分支**曾在 2026-11-08 被清空（提交 `0addd6f`），用户已重新运行 v1 工作流恢复。
-2. **`rulesets.toml` 有 66 条**，超过 subconverter 外部配置（订阅链接 `config=`）的 64 条上限。用户确认不影响其使用方式；构建仍会给出 `W_RULESET_LIMIT` 提示。
-3. **宽泛规则**：当前上游中没有被过滤的条目，但有 177 条 DOMAIN-KEYWORD 等宽泛规则被列入 `reports/broad-rules.md`。其中一部分出现在意外的合集里，例如 `China`（DIRECT）中的 `DOMAIN-KEYWORD,microsoft`，`AI` 中的 `DOMAIN-KEYWORD,twitter`。判定规则见 [broad-rules](../rules/broad-rules.md)。
-4. **`GEOIP,CLOUDFLARE`** 依赖客户端使用的 GeoIP 数据库中存在 `CLOUDFLARE` 分类。已实测：固定版本的 MetaCubeX `geoip.metadb` 中，1.1.1.1 命中 `GEOIP,CLOUDFLARE`；其他 GeoIP 数据库可能没有这个分类。
-5. **MetaCubeX geosite 的 domain 版 YAML** 在转换时去掉了 `keyword` 与 `regexp` 条目，例如 `geolocation-!cn.yaml`。如果需要这些条目，可以改用其 `classical/` 目录下的同名文件。这只是建议，当前输入不做改动。
-6. **`GEOIP,CN: DIRECT` 不带 `no-resolve`**：按你的说明原样保留。它是唯一会在匹配阶段请求 DNS 解析的规则，每次构建的报告都会列出这一点。
+1. **规则集条数。** `rulesets.toml` 有 66 条，超过 subconverter 外部配置（订阅链接 `config=`）的 64 条上限；经确认不影响现有的接入方式，构建保留 `W_RULESET_LIMIT` 提示。
+2. **宽泛规则。** 上游中没有需要过滤的条目，但有 177 条 DOMAIN-KEYWORD 等宽泛规则列入 `reports/broad-rules.md`，其中一些出现在意料之外的合集里，例如 `China`（DIRECT）中的 `DOMAIN-KEYWORD,microsoft`、`AI` 中的 `DOMAIN-KEYWORD,twitter`。判定规则见 [broad-rules](../rules/broad-rules.md)。
+3. **`GEOIP,CLOUDFLARE`** 依赖客户端使用的 GeoIP 数据库中存在 `CLOUDFLARE` 分类。已实测：固定版本的 MetaCubeX `geoip.metadb` 中，1.1.1.1 命中 `GEOIP,CLOUDFLARE`；其他 GeoIP 数据库可能没有这个分类。
+4. **MetaCubeX geosite 的 domain 版 YAML** 在转换时去掉了 `keyword` 与 `regexp` 条目，例如 `geolocation-!cn.yaml`。如果需要这些条目，可以改用其 `classical/` 目录下的同名文件。这只是建议，当前输入不做改动。
+5. **`GEOIP,CN: DIRECT` 不带 `no-resolve`。** 这是有意的写法，按原样保留。它是唯一会在匹配阶段请求 DNS 解析的规则，每次构建的报告都会列出。
 
 ## 与 v1 行为的差异
 
@@ -49,4 +48,4 @@
 
 ## 切换步骤
 
-见[每日自动更新 · 启用步骤](../daily-automation.md#启用步骤m4b需要你操作)。v2 发布稳定后再停用 v1 的工作流，避免两套流程同时更新。
+见[每日自动更新 · 首次启用](../guide/daily-automation.md#首次启用)。

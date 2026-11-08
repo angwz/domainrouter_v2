@@ -65,7 +65,7 @@ https://example.org/rules.list                         # 格式自动识别
 @site https://www.example.com/some/page                # 只取主机名，按域名后缀处理
 ```
 
-可用格式：`auto`、`mihomo`、`domain`、`ipcidr`、`classical`、`surge`、`surge-domainset`、`loon`、`singbox`、`adguard`、`hosts`、`dnsmasq`、`clash-config`、`wei`。每种格式的语义和边界情况见[转换与合并案例](rules/merge-cases.md)。
+可用格式：`auto`、`mihomo`、`domain`、`ipcidr`、`classical`、`surge`、`surge-domainset`、`loon`、`singbox`、`adguard`、`hosts`、`dnsmasq`、`clash-config`、`wei`。每种格式的语义和边界情况见[转换与合并案例](../rules/merge-cases.md)。
 
 自动识别遇到有歧义的内容时会报错，并要求写明 `format=`。最常见的情况是列表以 `.` 开头：Surge DOMAIN-SET 中 `.x` 包含 x 本身，Mihomo 中不包含。
 
@@ -99,5 +99,5 @@ MATCH: 🐳 漏网の鱼
 - **内联规则**：`类型,值: 策略组[,no-resolve|src]`，参数按你写的原样保留。值中含逗号的规则（`DOMAIN-REGEX`、`AND`/`OR`/`NOT`）不能内联：subconverter 会重排含逗号的内联规则导致损坏，请放进合集。
 - **MATCH**（或 `FINAL`）必须有且只有一条，并且位于最后。
 - 目标必须是 `groups.toml` 中的组，或内置的 `DIRECT`、`REJECT` 等。
-- 相邻且目标相同的合集引用会合并成一组文件，命中结果不变（见[决定 0001](decisions/0001-deviations-from-spec-1.5.md)）。
+- 相邻且目标相同的合集引用会合并成一组文件，命中结果不变（见[决定 0001](../decisions/0001-deviations-from-spec-1.5.md)）。
 - 没有被 `[Rules]` 引用的合集不生成文件，构建时给出提示。被引用但最终没有任何规则的合集会报错，除非在配置的 `policy.allow_empty_collections` 中允许。

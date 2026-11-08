@@ -1,47 +1,47 @@
-# 实施进度
+# 进度
 
-> 唯一状态记录。区分「已实现」与「已验证」；过期内容直接覆盖。
+> 项目的唯一状态记录。区分「已实现」与「已验证」，过期内容直接覆盖，不保留流水账。
 
-## 当前
+## 现在
 
-- 里程碑：**M1–M4a 完成**；M4a 之后按用户反馈新增宽泛规则过滤与清单、v1 风格的简洁文件头（UPDATED 只随内容变化）、domain 条目按覆盖范围从宽到窄排列、每条规则的来源标注（[decisions/0002](../decisions/0002-filter-broad-upstream-rules.md)）。M4b（远端、发布、许可）未开始，需要用户授权。
-- 每日流程状态：**已实现并本地演练通过；远端定时与发布均未启用**（远端仓库尚未创建）。
+- **阶段**：核心功能完成，准备首次发布到 GitHub。远端仓库、定时运行与发布尚未启用。
+- **最近的改动**：宽泛规则过滤与清单（[0002](../decisions/0002-filter-broad-upstream-rules.md)）、v1 风格的文件头与从宽到窄的排列、逐条来源标注与 `explain --rule`、文档重组为 guide / rules / design / development / history。
 
-## 已完成
+## 能力一览
 
-| 内容 | 位置 | 已实现 | 已验证 |
-| --- | --- | --- | --- |
-| 决策与语义契约 | [decisions/0001](../decisions/0001-deviations-from-spec-1.5.md)、[merge-cases](../rules/merge-cases.md) | ✓ | 案例均有单元测试 |
-| 域名模式、包含判定、网段合并 | `model/` | ✓ | 穷举交叉校验 + 属性测试 |
-| 规则行转换、类型注册表、来源格式与自动识别 | `parse/`、`registry.py` | ✓ | 单元测试；真实 210 来源 0 失败 0 跳过 |
+| 能力 | 位置 | 已实现 | 已验证 |
+| --- | --- | :---: | --- |
+| 域名模式、包含判定、网段合并 | `model/` | ✓ | 穷举交叉校验与属性测试 |
+| 规则行转换、类型注册表、来源格式与自动识别 | `parse/`、`registry.py` | ✓ | 单元测试；真实 210 个来源 0 失败 0 跳过 |
 | my.wei 解析 | `parse/document.py`、`parse/freeline.py` | ✓ | 单元测试；v1 my.wei 0 错误 |
-| 优化与规划 | `optimize/`、`planner.py` | ✓ | 属性测试；真实数据语义层 + 内核层 0 不一致 |
-| 宽泛规则判定、上游过滤、清单 | `breadth.py`、`data/`、[broad-rules](../rules/broad-rules.md) | ✓ | 案例测试；真实数据过滤 0 条、列出宽泛规则 554 条 |
+| 优化与规划 | `optimize/`、`planner.py` | ✓ | 属性测试；真实数据语义层与内核层 0 不一致 |
+| 宽泛规则判定、上游过滤、清单 | `breadth.py`、`data/` | ✓ | 案例测试；真实数据过滤 0 条、列出 554 条 |
+| 来源标注与合并溯源 | `provenance.py`、`annotate.py` | ✓ | 单元与属性测试；真实数据 0 条输入无法溯源 |
 | 来源获取、快照、Happy Eyeballs | `sources/` | ✓ | 伪造传输测试；真实网络 |
-| 构建、输出（文件头、展示次序、UPDATED）、更新说明、发布暂存 | `build.py`、`emit.py`、`report.py`、`publish.py` | ✓ | 端到端测试；逐字节可重建；带文件头的文件经 Mihomo 加载条目数一致 |
+| 构建、输出、更新说明、发布暂存 | `build.py`、`emit.py`、`report.py`、`publish.py` | ✓ | 端到端测试；两次构建逐字节一致 |
 | 验证（语义层、内核层）、explain | `verify/`、`explain.py`、`tools/kernel-adapter/` | ✓ | Mihomo v1.19.33 实测 |
 | 工具锁与准备 | `tools.py`、`tools.lock.json` | ✓ | 下载并校验 SHA-256 |
-| 每日工作流、CI | `.github/workflows/`、`scripts/` | ✓ | 本地演练 6 场景通过；**未在 GitHub 上运行** |
-| 文档、开源资料、安装包 | `README.md`、`docs/`、`CONTRIBUTING.md` 等 | ✓ | 链接检查；wheel 仓库外安装运行 |
+| 每日工作流、CI | `.github/workflows/`、`scripts/` | ✓ | 本地演练 6 个场景；**尚未在 GitHub 上运行** |
+| 文档、开源资料、安装包 | `README.md`、`docs/` 等 | ✓ | 链接检查；wheel 在仓库外安装运行 |
 
-## 最近验证（2026-11-08 · Windows 10 x64 · Python 3.13.18 · uv 0.13.6）
+## 最近一次验证
 
-- `pytest`：417 passed（含 kernel 标记）；`ruff check`、`ruff format --check`、`mypy --strict`：通过。
-- 真实 profile：`build` 约 24 s（宽泛规则判定约 1.5 s、来源标注约 5 s）；规则文件 7.4 MB（含标注）；两次构建逐字节一致；`verify` 语义层 0 不一致；`verify --level kernel` 0 不一致（50,004 个请求），59 个带注释头的 provider 条目数与 Mihomo 加载数一致。
-- `scripts/rehearse-daily.sh`：6 个场景全部通过（语义层验证模式），连续 6 次运行均通过。
-- `uv build`：wheel 含包代码、工具锁与 `data/` 下两份数据文件；测试在仓库外安装运行。
-- 性能数据见 [performance.md](../performance.md)。
+2026-11-09 · Windows 10 x64 · Python 3.13.18 · uv 0.13.6
 
-## 已知问题与待核验
+- `pytest` 417 通过（含 kernel 标记）；`ruff check`、`ruff format --check`、`mypy --strict` 通过。
+- 真实 profile：`build` 约 24 s，规则文件 7.4 MB（含来源标注）；语义层与内核层 0 不一致（内核层 50,004 个请求），59 个 provider 的加载条目数与文件一致。
+- `scripts/rehearse-daily.sh` 6 个场景全部通过，连续 6 次。
+- 性能细节见 [performance](../design/performance.md)。
 
-- `rulesets.toml` 66 条，超过 subconverter 外部配置的 64 条上限：用户确认不影响其使用方式，保留提示。
-- subconverter 行为依据 fork 源码模拟，未在 VPS 实际运行；Linux 上的测试与性能需远端 CI 启用后补充。
-- 宽泛关键词表需随使用补充；DOMAIN-REGEX 的“匹配一切”用 Python `re` 近似判断。
-- 演练脚本曾有一次在场景 4 的流程步骤中途退出且无输出，之后连续 6 次未能复现；脚本已改为失败时打印日志末尾，再出现时可定位。
-- 许可证未选定。
+## 已知问题
 
-## 下一步（需用户决定）
+- subconverter 行为依据 fork 源码模拟，尚未在实际部署上验证；Linux 上的测试与性能待 CI 在 GitHub 上运行后补充。
+- 宽泛关键词表需随使用补充；DOMAIN-REGEX 是否匹配一切用 Python `re` 近似判断。
+- 演练脚本曾有一次在场景 4 中途退出且无输出，之后未能复现；脚本已改为失败时打印日志末尾。
+- `rulesets.toml` 66 条，超过 subconverter 外部配置的 64 条上限；不影响现有接入方式，保留提示。
 
-1. 审阅 merge-cases、[broad-rules](../rules/broad-rules.md) 与真实数据的宽泛规则清单，确认判定标准。
-2. M4b：选定许可证、创建远端仓库、手动运行一次每日工作流、设置 `PUBLISH_ENABLED`、切换 subconverter 引用（见 [daily-automation](../daily-automation.md)）。
-3. 可选：MRS 输出（需 subconverter 写出 `format`）、Web、AI 建议。
+## 下一步
+
+1. 选定许可证，补齐 `LICENSE` 与 `pyproject.toml` 的 `license` 字段。
+2. 按[首次启用](../guide/daily-automation.md#首次启用)推送仓库、试运行、打开发布、切换订阅。
+3. 之后：MRS 输出（与 YAML 同目录同名）、Web、AI 建议。

@@ -8,22 +8,22 @@
 
 1. 把交接 ZIP 传到新电脑，解压后将整个 `docs/` 放在 `domainrouter_v2` 项目根目录下。不要多套一层 `domainrouter_v2`；解压后应能看到 `domainrouter_v2/docs/v2-implementation-spec.md`。
 2. 用 VS Code 打开 `domainrouter_v2`，确认以下六个 Markdown 文件都在工作区里。
-3. 聊天框只粘贴 [claude-code-start.md](claude-code-start.md) 的短提示语，让 Claude Code 自己读取入口和四份分册。也可用文件 @ 引用选择该入口；不要把全部正文合并粘进聊天框。
+3. 聊天框只粘贴 [start-prompt.md](start-prompt.md) 的短提示语，让 Claude Code 自己读取入口和四份分册。也可用文件 @ 引用选择该入口；不要把全部正文合并粘进聊天框。
 4. Claude Code 按第 0.1 节只读获取旧仓库的固定提交，然后在当前工作区新建实现。新电脑无需有旧工程目录，也不使用旧电脑的用户名或盘符。
 
 ## 规范文件与阅读顺序
 
 | 顺序 | 文件 | 必读内容 |
 | --- | --- | --- |
-| 1 | [01：基础、输入与来源](v2/01-foundations-and-input.md) | 第 0～6 节：空工作区启动、远端迁移、命名、语义、解析、来源与快照 |
-| 2 | [02：核心架构、算法与排序](v2/02-engine-and-algorithms.md) | 第 7～10 节：模型、no-resolve、通配包含、去重合并、分区与排序 |
-| 3 | [03：产物、兼容、验证与 CLI](v2/03-artifacts-and-verification.md) | 第 11～14 节：MRS/TOML/base、subconverter 接入、正确性与性能、命令契约 |
-| 4 | [04：每日生成、开源交付与实施](v2/04-delivery-and-handoff.md) | 第 15～19 节：每日自动化、发布一致性、开源交付、阶段与启动提示 |
-| 启动 | [短提示语](claude-code-start.md) | 仅此内容需要粘贴；与第 19 节保持一致 |
+| 1 | [01：基础、输入与来源](01-foundations-and-input.md) | 第 0～6 节：空工作区启动、远端迁移、命名、语义、解析、来源与快照 |
+| 2 | [02：核心架构、算法与排序](02-engine-and-algorithms.md) | 第 7～10 节：模型、no-resolve、通配包含、去重合并、分区与排序 |
+| 3 | [03：产物、兼容、验证与 CLI](03-artifacts-and-verification.md) | 第 11～14 节：MRS/TOML/base、subconverter 接入、正确性与性能、命令契约 |
+| 4 | [04：每日生成、开源交付与实施](04-delivery-and-handoff.md) | 第 15～19 节：每日自动化、发布一致性、开源交付、阶段与启动提示 |
+| 启动 | [短提示语](start-prompt.md) | 仅此内容需要粘贴；与第 19 节保持一致 |
 
 以上四份分册都低于 50,000 字符。使用文件读取工具时也应逐份或分段读取，不能把工具截断当作已经读完。
 
-快速定位：[输入语义](v2/01-foundations-and-input.md#input-semantics) · [核心架构](v2/02-engine-and-algorithms.md#core-architecture) · [优化算法](v2/02-engine-and-algorithms.md#optimization) · [排序](v2/02-engine-and-algorithms.md#ordering) · [产物](v2/03-artifacts-and-verification.md#outputs) · [兼容](v2/03-artifacts-and-verification.md#compatibility) · [验证](v2/03-artifacts-and-verification.md#verification) · [实施阶段](v2/04-delivery-and-handoff.md#milestones)。
+快速定位：[输入语义](01-foundations-and-input.md#input-semantics) · [核心架构](02-engine-and-algorithms.md#core-architecture) · [优化算法](02-engine-and-algorithms.md#optimization) · [排序](02-engine-and-algorithms.md#ordering) · [产物](03-artifacts-and-verification.md#outputs) · [兼容](03-artifacts-and-verification.md#compatibility) · [验证](03-artifacts-and-verification.md#verification) · [实施阶段](04-delivery-and-handoff.md#milestones)。
 
 ## 本版特别确定的三件事
 
