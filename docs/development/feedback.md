@@ -48,3 +48,6 @@
 | 29 | 创建 GitHub 仓库；描述、主题等每一项元数据都认真填写，并先经维护者确认 | 🔄 | 首次发布 |
 | 30 | 版本号体现「第二代」：以 2 开头，首个公开版本为 2.0.0 | ✅ | `pyproject.toml`、[CHANGELOG](../../CHANGELOG.md) |
 | 31 | 许可证确定为 `GPL-3.0-or-later`；保留提交中的 Claude 共同作者署名；试运行通过后创建正式版本 v2.0.0 | 🔄 | 首次发布 |
+| 32 | 打开每日发布 | ✅ | `PUBLISH_ENABLED=true` |
+| 33 | 尽量不在 GitHub 上制造杂物：由代理决定 Dependabot、版本附件与 v1 仓库的处理方式 | ✅ | Dependabot 只保留提醒；Release 不附加构件；v1 待切换订阅后归档 |
+| 34 | 仓库主要自用：他人可以查看与提意见，但个性化规则不进入本仓库的发布；需要自用版本请 fork | ✅ | [CONTRIBUTING](../../CONTRIBUTING.md#这是一个自用仓库)、PR 仅限协作者 |

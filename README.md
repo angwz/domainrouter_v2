@@ -99,6 +99,6 @@ MATCH: 🐟 Final
 
 ## 参与与许可
 
-开发约定见 [CONTRIBUTING.md](CONTRIBUTING.md)，安全问题见 [SECURITY.md](SECURITY.md)。
+这是维护者的自用仓库：欢迎通过 Issue 提意见；想要自己的规则，请 fork 后修改 `my.wei`，副本不会影响这里的发布（[详情](CONTRIBUTING.md#这是一个自用仓库)）。开发约定见 [CONTRIBUTING.md](CONTRIBUTING.md)，安全问题见 [SECURITY.md](SECURITY.md)。
 
 以 [GNU GPL v3.0 或更新版本](LICENSE) 发布（`GPL-3.0-or-later`）。第三方工具与数据的来源和许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

@@ -1,5 +1,15 @@
 # 参与开发
 
+## 这是一个自用仓库
+
+仓库根目录的 `my.wei`、`subconverter_config/groups.toml` 与 `release` 分支上的规则，是维护者本人每天使用的配置。因此：
+
+- **欢迎提意见。** 发现转换错误、合并问题或想要的功能，请开 [Issue](https://github.com/angwz/domainrouter_v2/issues)，附上规则原文与期望结果。
+- **不接受个性化规则。** 添加或修改分流规则的请求不会进入本仓库的发布。
+- **想按自己的需要使用，请 fork。** 在自己的副本中修改 `my.wei`、`groups.toml`，把 `config/domainrouter_v2.toml` 的 `output.base_url` 改为自己仓库的地址，再按[首次启用](docs/guide/daily-automation.md#首次启用)打开每日流程。副本中的任何改动都不会影响本仓库。
+
+Pull request 仅对协作者开放；来自外部的工作流运行一律需要维护者批准。下面的内容供维护者与协作者参考。
+
 ## 环境
 
 - [uv](https://docs.astral.sh/uv/) 0.13 或更新；Python 3.13 由 uv 自动准备。

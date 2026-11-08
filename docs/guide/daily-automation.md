@@ -52,6 +52,9 @@
 - *Actions permissions*：保持默认的 *Allow all actions*；如果改成了限制模式，需放行 `actions/*` 与 `astral-sh/setup-uv`。
 - *Workflow permissions*：保持默认的只读即可。工作流在发布作业中显式申请 `contents: write`。
 - *Settings → Code security → Private vulnerability reporting*：开启。[SECURITY.md](../../SECURITY.md) 让报告者走这个入口。
+- *Settings → General → Pull requests*：只允许协作者创建。这是自用仓库，外部意见走 Issue，见 [CONTRIBUTING](../../CONTRIBUTING.md#这是一个自用仓库)。
+- *Settings → Actions → General → Approval for running fork pull request workflows*：要求所有外部贡献者都经批准。
+- *Settings → Code security*：保留 Dependabot alerts，关闭 Dependabot security updates（自动 PR）。`tools/kernel-adapter` 的依赖须与对照的 Mihomo 版本一致，不宜单独升级；相关提醒以「代码未使用」关闭。
 
 **3. 试运行**
 
