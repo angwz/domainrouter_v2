@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "tools": {
+    "mihomo": {
+      "version": "v1.19.33",
+      "purpose": "内核层验证：加载生成的 rule-provider 并按真实规则求值",
+      "license": "GPL-3.0，https://github.com/MetaCubeX/mihomo/blob/v1.19.33/LICENSE",
+      "platforms": {
+        "windows-amd64": {
+          "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.33/mihomo-windows-amd64-v1.19.33.zip",
+          "sha256": "6ab2180875f9f6fff8b19386d760daec257f66b45f72b3afc650634272fa837a",
+          "archive": "zip"
+        },
+        "linux-amd64": {
+          "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.33/mihomo-linux-amd64-v1.19.33.gz",
+          "sha256": "132f6f3edf9a65e62f04853aed3358472e0b2b7666daa8419edfa2ddf5bb6323",
+          "archive": "gz"
+        }
+      }
+    },
+    "go": {
+      "version": "go1.26.9",
+      "purpose": "编译内核层验证适配器（tools/kernel-adapter），与 Mihomo 发布构建同系列",
+      "license": "BSD-3-Clause，https://go.dev/LICENSE",
+      "platforms": {
+        "windows-amd64": {
+          "url": "https://go.dev/dl/go1.26.9.windows-amd64.zip",
+          "sha256": "d722201a9c0c086d1610e111c48203009af690892ed708072bd5ae20160e7a59",
+          "archive": "zip"
+        },
+        "linux-amd64": {
+          "url": "https://go.dev/dl/go1.26.9.linux-amd64.tar.gz",
+          "sha256": "42d158b4d8f7b61ac0a830567c940a86098fb7aac52e467a5ebec03ef5cc2f8d",
+          "archive": "tar.gz"
+        }
+      }
+    },
+    "geoip": {
+      "version": "meta-rules-dat@d5574ea0ab33",
+      "purpose": "内核层验证中 GEOIP 条件所需的地理数据",
+      "license": "geoip/geosite：MetaCubeX/meta-rules-dat（GPL-3.0 构建脚本，数据来源各自许可）；ASN：MaxMind GeoLite2，CC BY-SA 4.0，仅用于本地测试，不随项目分发",
+      "platforms": {
+        "any": {
+          "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/d5574ea0ab3358ebaae2991d28d09a0f8178b0ed/geoip.metadb",
+          "sha256": "4d7ee5304f75d71abf5f8cf5c43858a9273564415ec9017d26ad4105e6cc9e6b",
+          "archive": "raw",
+          "filename": "geoip.metadb"
+        }
+      }
+    },
+    "geosite": {
+      "version": "meta-rules-dat@d5574ea0ab33",
+      "purpose": "内核层验证中 GEOSITE 条件所需的域名数据",
+      "license": "geoip/geosite：MetaCubeX/meta-rules-dat（GPL-3.0 构建脚本，数据来源各自许可）；ASN：MaxMind GeoLite2，CC BY-SA 4.0，仅用于本地测试，不随项目分发",
+      "platforms": {
+        "any": {
+          "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/d5574ea0ab3358ebaae2991d28d09a0f8178b0ed/geosite.dat",
+          "sha256": "8bd792abb42742bc1deba2d6679edd193dd68becf4db56e57e9ab7b65b99375a",
+          "archive": "raw",
+          "filename": "GeoSite.dat"
+        }
+      }
+    },
+    "asn": {
+      "version": "meta-rules-dat@d5574ea0ab33",
+      "purpose": "内核层验证中 IP-ASN 条件所需的数据",
+      "license": "geoip/geosite：MetaCubeX/meta-rules-dat（GPL-3.0 构建脚本，数据来源各自许可）；ASN：MaxMind GeoLite2，CC BY-SA 4.0，仅用于本地测试，不随项目分发",
+      "platforms": {
+        "any": {
+          "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/d5574ea0ab3358ebaae2991d28d09a0f8178b0ed/GeoLite2-ASN.mmdb",
+          "sha256": "3f729dfdbca46d6bc83fe084e15e335cef702b46f9d9afb8feaede36180959f4",
+          "archive": "raw",
+          "filename": "ASN.mmdb"
+        }
+      }
+    }
+  }
+}

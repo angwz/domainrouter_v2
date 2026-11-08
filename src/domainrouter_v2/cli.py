@@ -12,6 +12,8 @@ from dataclasses import replace
 from datetime import UTC, datetime
 from pathlib import Path
 
+import httpx
+
 from domainrouter_v2 import __version__
 from domainrouter_v2.build import (
     BuildResult,
@@ -23,10 +25,14 @@ from domainrouter_v2.build import (
 )
 from domainrouter_v2.config import Config, ConfigError, load_config
 from domainrouter_v2.diagnostics import Code, Diagnostic, Level
+from domainrouter_v2.explain import explain
 from domainrouter_v2.publish import stage_release
 from domainrouter_v2.report import make_report
 from domainrouter_v2.sources.fetch import fetch_all
 from domainrouter_v2.sources.snapshot import StateStore
+from domainrouter_v2.tools import ToolError, load_specs, prepare
+from domainrouter_v2.verify.kernel import run_kernel_verification
+from domainrouter_v2.verify.semantic import verify_artifact
 
 EXIT_OK = 0
 EXIT_INTERNAL = 1
@@ -89,6 +95,19 @@ def _parser() -> argparse.ArgumentParser:
         "--summary", type=Path, default=None, help="另存一份更新说明（如 $GITHUB_STEP_SUMMARY）"
     )
     publish.set_defaults(handler=_publish)
+    tools_cmd = command("tools", "准备验证工具（Mihomo、Go），按锁定版本下载并校验摘要")
+    tools_cmd.add_argument("action", choices=["prepare"])
+    tools_cmd.set_defaults(handler=_tools)
+    verify = command(
+        "verify", "验证产物：semantic 为独立参考对照，kernel 另用真实 Mihomo 加载与匹配"
+    )
+    verify.add_argument("--level", choices=["semantic", "kernel"], default="semantic")
+    verify.set_defaults(handler=_verify)
+    explain_cmd = command("explain", "解释一个主机名或 IP 会命中哪条路由")
+    target = explain_cmd.add_mutually_exclusive_group(required=True)
+    target.add_argument("--host", help="主机名，例如 www.example.com")
+    target.add_argument("--ip", help="IP 地址，例如 192.0.2.1")
+    explain_cmd.set_defaults(handler=_explain)
     return parser
 
 
@@ -189,6 +208,54 @@ def _publish(config: Config, args: argparse.Namespace) -> int:
             handle.write(report.to_markdown())
     state = "已更新" if changed else "内容未变化，未改动"
     print(f"release 目录 {release_dir}：{state}")
+    return EXIT_OK
+
+
+def _tools(config: Config, args: argparse.Namespace) -> int:
+    try:
+        specs = load_specs()
+        for spec in specs.values():
+            path = prepare(config.state, spec)
+            print(f"✓ {spec.name} {spec.version}：{path}")
+    except (ToolError, httpx.HTTPError) as exc:
+        print(f"工具准备失败：{exc}", file=sys.stderr)
+        return EXIT_SOURCE
+    return EXIT_OK
+
+
+def _verify(config: Config, args: argparse.Namespace) -> int:
+    result = build(config, write=False)
+    if not result.ok or result.plan is None:
+        _print_diagnostics(result.diagnostics, args.verbose)
+        return _exit_code(result)
+    failed = 0
+    for names, artifact in result.plan.artifacts.items():
+        raw = [m for name in names for m in result.collection_members.get(name, [])]
+        outcome = verify_artifact(artifact, raw)
+        mark = "✓" if outcome.ok else "✗"
+        print(
+            f"{mark} {outcome.artifact}：域名探测 {outcome.domain_probes}，"
+            f"地址探测 {outcome.ip_probes}，不一致 {len(outcome.mismatches)}"
+        )
+        for mismatch in outcome.mismatches[:20]:
+            print(f"    {mismatch}", file=sys.stderr)
+        failed += not outcome.ok
+    if args.level == "kernel":
+        failed += run_kernel_verification(config, result)
+    print("验证通过" if not failed else f"验证失败：{failed} 项不一致")
+    return EXIT_OK if not failed else EXIT_VERIFY
+
+
+def _explain(config: Config, args: argparse.Namespace) -> int:
+    result = build(config, write=False)
+    if not result.ok:
+        _print_diagnostics(result.diagnostics, args.verbose)
+        return _exit_code(result)
+    try:
+        print(explain(result, host=args.host, ip=args.ip).render())
+    except ValueError as exc:
+        print(f"无法解析查询：{exc}", file=sys.stderr)
+        return EXIT_INPUT
     return EXIT_OK
 
 
