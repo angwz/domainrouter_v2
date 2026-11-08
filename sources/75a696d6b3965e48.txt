@@ -1,0 +1,20 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 19, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "854092fd6388ce2718463efda55e80c78a092ca5ac47b7fe89902020cde45436", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/oracle.yaml", "version": 1}
+d +.addthis.com
+d +.addthiscdn.com
+d +.addthisedge.com
+d +.ateam-oracle.com
+d +.bronto.com
+d +.covid19-rx.org
+d +.covid19rx.org
+d +.custhelp.com
+d +.java
+d +.java.com
+d +.java.net
+d +.oracle
+d +.oracle.com
+d +.oraclecloud.com
+d +.oraclefoundation.org
+d +.oracleimg.com
+d +.oracleinfinity.io
+d +.sun.com
+d +.virtualbox.org

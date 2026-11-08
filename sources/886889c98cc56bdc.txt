@@ -1,0 +1,2 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "58b7d138a245a055d257ae004589688c283ebb495b45865f3ba19aaadeac8c2d", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/gog%40cn.yaml", "version": 1}
+d gog.qtlglb.com

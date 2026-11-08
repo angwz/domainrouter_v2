@@ -1,0 +1,4 @@
+# {"detected_format": "auto→surge", "entries": 3, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "870e7e25d798e7f00338507f773b0eea4dfd15e25e9df0a27d5ae421ae1ab378", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list", "version": 1}
+d +.anthropic.com
+d +.claude.ai
+d cdn.usefathom.com

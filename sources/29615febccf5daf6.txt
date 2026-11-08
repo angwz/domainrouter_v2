@@ -1,0 +1,4 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 3, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "d35b18f68cf2e225110d4031132542975e1180615a6878a8cb3b459fdac07c6f", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cnbeta.yaml", "version": 1}
+d +.cnbeta.com
+d +.cnbeta.com.tw
+d +.cnbetacdn.com

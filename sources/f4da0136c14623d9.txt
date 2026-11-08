@@ -1,0 +1,21 @@
+# {"detected_format": "auto→surge", "entries": 20, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "329449efa2ba372b0be10e8bb1ced920b67d2918b88bc65bbdd4bc437f4442ce", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Wikimedia/Wikimedia.list", "version": 1}
+d +.mediawiki.org
+d +.toolforge.org
+d +.w.wiki
+d +.wikibooks.org
+d +.wikidata.org
+d +.wikileaks.org
+d +.wikimedia.org
+d +.wikimediacloud.org
+d +.wikimediafoundation.org
+d +.wikinews.org
+d +.wikipedia.com
+d +.wikipedia.org
+d +.wikiquote.org
+d +.wikisource.org
+d +.wikiversity.org
+d +.wikivoyage.org
+d +.wiktionary.org
+d +.wmcloud.org
+d +.wmflabs.org
+d +.wmfusercontent.org

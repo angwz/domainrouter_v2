@@ -1,0 +1,8 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 7, "fetched_at": "2026-11-08T23:58:09+00:00", "format": "auto", "invalid": 0, "raw_sha256": "ef077edc3d1e3f35d5f16e63cf3936ee5615dcc93880a679aa07aead3b882028", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/rockstar.yaml", "version": 1}
+d +.rockstargames.com
+d +.rockstarnorth.com
+d +.rsg.ms
+d +.rsg.sc
+d gamedownloads-rockstargames-com.akamaized.net
+d media-rockstargames-com.akamaized.net
+d videos-rockstargames-com.akamaized.net

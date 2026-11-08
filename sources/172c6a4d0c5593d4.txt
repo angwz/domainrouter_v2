@@ -1,0 +1,22 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 21, "fetched_at": "2026-11-08T23:58:15+00:00", "format": "auto", "invalid": 0, "raw_sha256": "4712014d6fcb434daf8b03b4740e37445109b42bc0e824f6acbce733ef92abb0", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.yaml", "version": 1}
+d +.cdn-telegram.org
+d +.comments.app
+d +.contest.com
+d +.fragment.com
+d +.graph.org
+d +.quiz.directory
+d +.t.me
+d +.tdesktop.com
+d +.telega.one
+d +.telegra.ph
+d +.telegram-cdn.org
+d +.telegram.dog
+d +.telegram.me
+d +.telegram.org
+d +.telegram.space
+d +.telesco.pe
+d +.tg.dev
+d +.ton.org
+d +.toncenter.com
+d +.tx.me
+d +.usercontent.dev

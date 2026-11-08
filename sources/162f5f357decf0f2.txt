@@ -1,0 +1,9 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 8, "fetched_at": "2026-11-08T23:58:07+00:00", "format": "auto", "invalid": 0, "raw_sha256": "2cc3313bd199d1d499d1d61865940290f6f95ec8c3fbe2bc93b7f98eb23ad8ae", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-remote-control.yaml", "version": 1}
+d +.anydesk.com
+d +.nomachine.com
+d +.rustdesk.com
+d +.teamviewer.cn
+d +.teamviewer.com
+d +.teamviewer.us
+d client-teamviewer-com.trafficmanager.net
+d teamviewer.com.cdn.cloudflare.net

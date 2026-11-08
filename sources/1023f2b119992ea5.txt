@@ -1,0 +1,5 @@
+# {"detected_format": "auto→surge", "entries": 4, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "bad645310af23d3266ff63913dae9e54f0295fa0b295c516b5ff388e902b9d2f", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaDNS/ChinaDNS.list", "version": 1}
+d +.dns.alidns.com
+d +.doh.360.cn
+d +.doh.pub
+n 1.12.12.12/32

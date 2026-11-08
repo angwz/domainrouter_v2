@@ -1,0 +1,11 @@
+# {"detected_format": "auto→surge", "entries": 10, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "a31f9e98c5a4fdd585a7c78b6f3a1994015ab54a57a3d82057bd17f278f6a76f", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt", "version": 1}
+d +.apple.com.cn
+d +.cn-ssl.ls.apple.com
+d +.cn.apple.com
+d +.cn.ls.apple.com
+d +.gspe19-cn-ssl.ls.apple.com
+d +.icloud.com.cn
+d 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+d api.smoot.apple.cn
+d appleintelligencefeedback.care.apple.com
+d gs-loc-cn.apple.com

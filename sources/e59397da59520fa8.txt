@@ -1,0 +1,13 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 12, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f9a29e5feefa0ff76887c7a8a3d581e68fef0df06b3fdb3173905b557c319ed3", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/reddit.yaml", "version": 1}
+d +.redd.it
+d +.reddit.app.link
+d +.reddit.com
+d +.reddit.map.fastly.net
+d +.redditblog.com
+d +.reddithelp.com
+d +.redditinc.com
+d +.redditmail.com
+d +.redditmedia.com
+d +.redditspace.com
+d +.redditstatic.com
+d +.redditstatus.com

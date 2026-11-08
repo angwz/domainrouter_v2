@@ -1,0 +1,2 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "caca53f82907d4facb16a705d986de31b382c00d0a3fdaba0f4cf3237d5529c7", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/intel%40cn.yaml", "version": 1}
+d +.intel.cn

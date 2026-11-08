@@ -1,0 +1,13 @@
+# {"detected_format": "auto→surge", "entries": 12, "fetched_at": "2026-11-08T23:58:07+00:00", "format": "auto", "invalid": 0, "raw_sha256": "649094b68cf54ea2ce890e6f4e4e4540f23c8bb44aa8f18aef61a6d26ddc34ea", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/ip/download.txt", "version": 1}
+d 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+n 162.208.16.0/24
+n 185.206.24.0/22
+n 2a0b:e40:1::/48
+n 2a0b:e40:2::/47
+n 2a0b:e41:1::/48
+n 2a0b:e42:1::/48
+n 2a0b:e43:1::/48
+n 2a0b:e44:1::/48
+n 2a0b:e45:1::/48
+n 66.203.126.0/23
+n 94.24.36.0/23

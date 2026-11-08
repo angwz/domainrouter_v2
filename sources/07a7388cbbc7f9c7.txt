@@ -1,0 +1,12 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 11, "fetched_at": "2026-11-08T23:58:18+00:00", "format": "auto", "invalid": 0, "raw_sha256": "b88ab9e8616ba6e09375d36b7c3b6b31faee46a9f7c7fd5132ab2cf70cadf89f", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.yaml", "version": 1}
+d +.api.global.bilibili.com
+d +.apm-misaka.biliapi.net
+d +.app.global.bilibili.com
+d +.bilibili.tv
+d +.biliintl.com
+d +.bstarstatic.com
+d +.p-bstarstatic.akamaized.net
+d +.upos-bstar-mirrorakam.akamaized.net
+d +.upos-bstar1-mirrorakam.akamaized.net
+d +.upos-sz-mirroralibstar1.bilivideo.com
+d +.upos-sz-mirrorcosbstar1.bilivideo.com

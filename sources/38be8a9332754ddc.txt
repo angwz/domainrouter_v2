@@ -1,0 +1,26 @@
+# {"detected_format": "auto→surge", "entries": 25, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "b564015e25104e50ea0b73ceee10fdf828905b4b572e5c80fa3c24d06e714407", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Oracle/Oracle.list", "version": 1}
+d +.a1cbafa5ea9a6480cb8e9ffba46cbad9-466059813.us-west-2.elb.amazonaws.com
+d +.addthis.com
+d +.addthis.com.edgekey.net
+d +.addthiscdn.com
+d +.addthisedge.com
+d +.ateam-oracle.com
+d +.bluekai.com
+d +.bronto.com
+d +.covid19-rx.org
+d +.covid19rx.org
+d +.eloqua.com
+d +.eloquaeditors.com
+d +.eloquapreview.com
+d +.en25.com
+d +.java
+d +.java.com
+d +.java.net
+d +.oracle
+d +.oracle.com
+d +.oraclecloud.com
+d +.oraclefoundation.org
+d +.oracleimg.com
+d +.oracleinfinity.io
+d +.responsys.net
+d +.sun.com

@@ -1,0 +1,9 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 8, "fetched_at": "2026-11-08T23:58:09+00:00", "format": "auto", "invalid": 0, "raw_sha256": "a4c505eeafab98d1e1e497270d6c9e974fa8a8c6ba7f060cb33915e411dff39e", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gog.yaml", "version": 1}
+d +.gog-services.com
+d +.gog-statics.com
+d +.gog.com
+d +.gogalaxy.com
+d +.insights-collector.gog.com
+d gog-cdn-lumen.secure2.footprint.net
+d gog-cdn.akamaized.net
+d gog.qtlglb.com

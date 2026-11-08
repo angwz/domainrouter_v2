@@ -1,0 +1,14 @@
+# {"detected_format": "auto→surge", "entries": 13, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "db8f69154426dca76792ab80b3ad6b0e2d078ebe0e52e76faec1724245a4ec49", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list", "version": 1}
+c DOMAIN-KEYWORD,colab
+c DOMAIN-KEYWORD,developerprofiles
+c DOMAIN-KEYWORD,generativelanguage
+d +.apis.google.com
+d +.bard.google.com
+d +.deepmind.com
+d +.deepmind.google
+d +.gemini.google.com
+d +.generativeai.google
+d +.proactivebackend-pa.googleapis.com
+d ai.google.dev
+d alkalimakersuite-pa.clients6.google.com
+d makersuite.google.com

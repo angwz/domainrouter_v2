@@ -1,0 +1,6 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 5, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "599c60f4538a2880508dbd236d542264e2b38557fee328ebc6672624fbbe132b", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/duolingo.yaml", "version": 1}
+d +.ads-api.duolingo.com
+d +.analytics.vpc.duolingo.com
+d +.duolingo.cn
+d +.duolingo.com
+d +.metrics.duolingo.com

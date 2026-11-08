@@ -1,0 +1,11 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 10, "fetched_at": "2026-11-08T23:58:11+00:00", "format": "auto", "invalid": 0, "raw_sha256": "a92dc4ffda45378fcfb51a7eea36407a529a14315c9df1e38d419a061b8872a3", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/niconico.yaml", "version": 1}
+d +.nico
+d +.nico.ms
+d +.nicochannel.jp
+d +.nicodic.jp
+d +.nicomanga.jp
+d +.niconico.com
+d +.nicoseiga.jp
+d +.nicovideo.jp
+d +.nimg.jp
+d +.simg.jp

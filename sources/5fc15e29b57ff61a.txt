@@ -1,0 +1,6 @@
+# {"detected_format": "auto→surge", "entries": 5, "fetched_at": "2026-11-08T23:58:09+00:00", "format": "auto", "invalid": 0, "raw_sha256": "03b90246ad58c5cd95cce3a58deee14f6707b0e6a46f8d0766df38d2d8cefcf9", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Rockstar/Rockstar.list", "version": 1}
+d +.gamedownloads-rockstargames-com.akamaized.net
+d +.media-rockstargames-com.akamaized.net
+d +.rockstargames.com
+d +.rsg.sc
+d +.videos-rockstargames-com.akamaized.net

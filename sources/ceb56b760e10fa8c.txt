@@ -1,0 +1,10 @@
+# {"detected_format": "auto→surge", "entries": 9, "fetched_at": "2026-11-08T23:58:07+00:00", "format": "auto", "invalid": 0, "raw_sha256": "22ec30f536fdd33fddaf14d40bec39101f11716f49cbcb22c3e3a0472d383f3e", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/RemoteDesktop/RemoteDesktop.list", "version": 1}
+c PROCESS-NAME,CrashReport.exe
+c PROCESS-NAME,DriverInstaller.exe
+c PROCESS-NAME,SunloginClient.exe
+c PROCESS-NAME,ToDesk.exe
+c PROCESS-NAME,ToDesk_Service.exe
+c PROCESS-NAME,ToDesk_Session.exe
+c PROCESS-NAME,ToDesk_Setup.exe
+c PROCESS-NAME,devcon.exe
+c PROCESS-NAME,mstsc.exe

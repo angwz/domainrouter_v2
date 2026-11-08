@@ -1,0 +1,10 @@
+# {"detected_format": "auto→surge", "entries": 9, "fetched_at": "2026-11-08T23:58:09+00:00", "format": "auto", "invalid": 0, "raw_sha256": "4b9fe5e5f0cef4c4b09a2e109ca4db00f1cc67ec45aae5c50fca3bdb72b61968", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list", "version": 1}
+d +.bing.com
+d +.bing.com.cn
+d +.bing.net
+d +.bingads.com
+d +.bingagencyawards.com
+d +.bingapistatistics.com
+d +.bingsandbox.com
+d +.bingvisualsearch.com
+d +.bingworld.com

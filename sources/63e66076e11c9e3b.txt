@@ -1,0 +1,16 @@
+# {"detected_format": "auto→surge", "entries": 15, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "ea721ee413f28c6b338c0777d52a9e0b66f5da0cbb9abb5a54a2cf82f5c21007", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/12306/12306.list", "version": 1}
+d +.12306.cn
+d +.95306.cn
+d +.95572.com
+d +.china-railway.com.cn
+d +.china-ric.com
+d +.crct.com
+d +.cre.cn
+d +.crecc.com.cn
+d +.creip.cn
+d +.crscl.com.cn
+d +.gzrailway.com.cn
+d +.nntlj.com
+d +.peoplerail.com
+d +.rails.cn
+d +.tdpress.com

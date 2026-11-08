@@ -1,0 +1,3 @@
+# {"detected_format": "auto→surge", "entries": 2, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f73f96b366fd50df7bbe079fa7582203db442e801290f4f5317e30c4631dfc82", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Duolingo/Duolingo.list", "version": 1}
+d +.duolingo.cn
+d +.duolingo.com

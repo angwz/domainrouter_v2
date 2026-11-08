@@ -1,0 +1,2105 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "002e649058dcadcf": {
+      "consecutive_failures": 0,
+      "etag": "W/\"cca816172204b371dd8947b04048f3bfae71289ca76945a527f9c32e393fd0eb\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "409cee1a04e691b033057429b3ecf2d3fb306ef199ec98316cbd5b4eab500084",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/netflix.yaml"
+    },
+    "008b3ec0423aef73": {
+      "consecutive_failures": 0,
+      "etag": "W/\"512dcba851a15b800e3b8eccb8558e612c6c02f549cf3dcab02f5ca15186d6a0\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8112c4b70412939a028de87b4c871e40b62aa30eda197034a55b5980297af134",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xbox/Xbox.list"
+    },
+    "01345f694c37249f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"9026c749b15b1ffd693fcef9d032db48aec91c26ce938f7dbb02ecacd5957ba0\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "cd4b526f5a17139c057cfbcf4554f0026e9360e81ea76d830027b8cfde4dd3dd",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/baidu.yaml"
+    },
+    "015b9589de9e75ab": {
+      "consecutive_failures": 0,
+      "etag": "W/\"7d338aee8fe8bb9fee939a6e5f0c9a398567acf26add223d7876d7c18e0eade9\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6aede2e962e4101b061a851f5615a5db3376a4c198b3b91177b36317e9faeffb",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.yaml"
+    },
+    "0200aa5ea0bde8f7": {
+      "consecutive_failures": 0,
+      "etag": "W/\"bc9fe0250754cac909d57d1efe9fc6fc48584f548130fd887130eac2bb95949f\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8549ed51f77fdaa4263d01bc790692fcfbdce14f908c6abc6ac4984383a7e5c6",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-public-tracker.yaml"
+    },
+    "0293607df14456b1": {
+      "consecutive_failures": 0,
+      "etag": "W/\"dc5025e5c769647f0214114060e765b4a5623d887f446108ae46dbb43e2d8cab\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "b3c1045eecd4af7f09b39f6b8a9c5cdcf5d936fa225fa9b03179ae79c97dbb45",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ea.yaml"
+    },
+    "02aa40e9b4d19aec": {
+      "consecutive_failures": 0,
+      "etag": "W/\"638e7cbad2d65b40c0934cb7dd935d7d11817c176333a61ca5f989706d991266\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a73158ed36c066995631c08f53fb39e653b1850d8b78cb0f4780e17de694246b",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/linkedin.yaml"
+    },
+    "02dbb3de20375dd0": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1698fc79633997c3ffe20bdb93422a8877158f7f90230380046fe0e059606868\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "660570f6613cc81ad4c590b18550a5235b1e7636ecc3ef3f90b8edf600f30134",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LinkedIn/LinkedIn.list"
+    },
+    "037ec4928dc25082": {
+      "consecutive_failures": 0,
+      "etag": "W/\"a4f6e2b726ae71e4cfb7969adeb30e47ffbcb7f75bf287f25ae21bc397b9872d\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4ce187a25fe79284addebf59cc7848cd31f5bbaae05cc83537a1345af5c49201",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/playstation.yaml"
+    },
+    "05ebbd3d45fe87b1": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1c6a8f1eff42033ed5f054efad28f0ead857a16a0c35e36eb0cdbfb47ae980bb\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ba1be46d27a2aa0b9503e888ae6814848f08556143d07affaaeb280c5c0be453",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon%40cn.yaml"
+    },
+    "073720a9322433cc": {
+      "consecutive_failures": 0,
+      "etag": "W/\"2eeb76b2ecfa95d4fbfecf79e35c2ffb\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "e99e1e589e7bb2c92f9f68dbfed59e3e1182adfb78eeedb8d74d62b5156dc348",
+      "url": "https://ruleset.skk.moe/Clash/ip/stream.txt"
+    },
+    "0774ab63c4e77f74": {
+      "consecutive_failures": 0,
+      "etag": "W/\"f42ef39481ca7df11cc533fea8652377d0b803c23bddb05d3a1618db3ac23504\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ce1f7bea47157c267e0da7da4d5bc68915aca5c24b4c126c7e27b4127a0dfc54",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.list"
+    },
+    "07a7388cbbc7f9c7": {
+      "consecutive_failures": 0,
+      "etag": "W/\"2d45b9f191c8b33bb1addf9b0d751d54e5dd655b42444006ce755cb929a15c9a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "b88ab9e8616ba6e09375d36b7c3b6b31faee46a9f7c7fd5132ab2cf70cadf89f",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.yaml"
+    },
+    "087b8a92ecc1d44a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"e57f18fc23cf34f3c030e77732adf93fbb114114301c4d2229de893ccebc76fe\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8f50bace89c96a7f770ca24350545e87dbc799f71e55238295623899f96f906a",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-cn.yaml"
+    },
+    "08c31ea9fff884bd": {
+      "consecutive_failures": 0,
+      "etag": "W/\"79c6b68fa38ef9c1b89afad6c0dbed73783823c053666aff65ff2e3182d3193c\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "c7cbcca7d00ea7b663f0745d451358c000c2f6dc568b0189f8daf5b32e2136b6",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownload/GameDownload.list"
+    },
+    "0945fd99b7d6d04d": {
+      "consecutive_failures": 0,
+      "etag": "W/\"a71b361ae577052d01c33f5633f24bc9199640a31a5f53b7bc3c6cd0048426c0\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "92faaf6277d5c868f5ee6fa49e65bf9c8a888f31c5333b499aae21cc2fe34cef",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list"
+    },
+    "0b17a001f24c9633": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0ece4d407d384ae0cc0d10f4e7bafa15\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "649094b68cf54ea2ce890e6f4e4e4540f23c8bb44aa8f18aef61a6d26ddc34ea",
+      "url": "https://ruleset.skk.moe/Clash/ip/download.txt"
+    },
+    "0b9eed248893add6": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c89ceabebc272b9d77011ee492b99da0800337a0370b99a7170a7bcf1585d2a3\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6dd590314a1a97378d1f3960cd4dbdb047d7ebfda0c7b10ba2bd9d17580904e3",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/xiaomi.yaml"
+    },
+    "0c4b61b9473e8323": {
+      "consecutive_failures": 0,
+      "etag": "W/\"7fbe17c8a9808b230c2cd52e84b187b2abab5a13059be1342ad0cc269caa9c43\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f03f9db1c0578c0e8df3042fbde2301b234e2b8ecb7d954fcb247aebfaa8b416",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tencent.yaml"
+    },
+    "0cb093921db082d9": {
+      "consecutive_failures": 0,
+      "etag": "W/\"dd5bef744b6f982bf61e922e72a36789cd1e064fe83d785f9b92bca61e8994cc\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "c16c48de7a7aa73e03ce8cf027b104f532581883fbe5fbb83e330bad9c7f755e",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Huawei/Huawei.list"
+    },
+    "0dce2576c45d5e35": {
+      "consecutive_failures": 0,
+      "etag": "W/\"67ea441bf35157f7147a0c84f9554dd823b55a4991528fb7e4744bd77bd0402c\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "12773330de34b84b7fd2f3f2af598480ea62d8574d8e9b8ae9d011a53c044d39",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list"
+    },
+    "1023f2b119992ea5": {
+      "consecutive_failures": 0,
+      "etag": "W/\"f7ea4d554fb3b8b344e6674b2c488f4bcabaff82af83723f08472eb3100a4270\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "bad645310af23d3266ff63913dae9e54f0295fa0b295c516b5ff388e902b9d2f",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaDNS/ChinaDNS.list"
+    },
+    "11a48b00f518dfdb": {
+      "consecutive_failures": 0,
+      "etag": "W/\"2f88b41cf41f321b1a171d913bc2f28650cd1c3deab91f98e6a1f7e1763ae8e0\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "7a025b3f8a88dfe9fe5157398c637edf2372f24c28d72871845b0651419847ff",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Amazon/Amazon.list"
+    },
+    "162f5f357decf0f2": {
+      "consecutive_failures": 0,
+      "etag": "W/\"6f0032f2cf51e2b4af151272235c1e99e9c4cd7463e6f2a70a65ded84364fb35\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "2cc3313bd199d1d499d1d61865940290f6f95ec8c3fbe2bc93b7f98eb23ad8ae",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-remote-control.yaml"
+    },
+    "164891eb93c5fd62": {
+      "consecutive_failures": 0,
+      "etag": "W/\"4b1bb372235ba72025ab3fefbf65c1fd87b669ec2f0fb850954a030407542f71\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "87bb7c0453f02fe8b409c0fd4118a97e03885d204541a6b791ecadceefeeb754",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gog/Gog.list"
+    },
+    "172c6a4d0c5593d4": {
+      "consecutive_failures": 0,
+      "etag": "W/\"719606031287a31ec18fd0d5af8ffaf5e525972274fad1f6cfbe6814282225ee\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4712014d6fcb434daf8b03b4740e37445109b42bc0e824f6acbce733ef92abb0",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.yaml"
+    },
+    "1767afbd4e10a3d5": {
+      "consecutive_failures": 0,
+      "etag": "W/\"e5f7fd581e6138356877cda7d0a637c73e3fd9a32b8137aad98054b0881277e3\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "56ecfad12dc88fa2fb12e917fb0b30b5cfbcb285f736ef0bbbddd7a1bb5914ab",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-media-cn.yaml"
+    },
+    "1b340780562b2088": {
+      "consecutive_failures": 0,
+      "etag": "W/\"f849ef5cdc4a382f07a58e08c75086ed89756f9b015daecf9e2b0c8a603a2f25\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "28719d4dc071e22d4162210a238c9198032e36ee1ffc8d31d4156517c5d9d9f6",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/chinaunicom.yaml"
+    },
+    "1be7fd22752ae1b3": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ae9edb993ddfd05ccc88e2c0102f015411b0fd3dbff9e4c2532eeeb82779f367\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "765bbbb2a09d8a7dfda4df6a167ee78862737eb98a53f81ab458c14c18a1189d",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-media.yaml"
+    },
+    "1c4f75a4a2f565d2": {
+      "consecutive_failures": 0,
+      "etag": "W/\"108d705e052a432ab5282254b801160a35909b978c9d91e3599d1eeaf9928f84\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "7ee5c5815a4706bd242fd8b218edfd431eea5d5348e34f17905ff3576b584fc6",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/adobe.yaml"
+    },
+    "1ce0cb25605b070e": {
+      "consecutive_failures": 0,
+      "etag": "W/\"59f5612eee5795526e6a31c4c3628f2eeaa33054df14f6052dd1559cd964c5b8\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "9ceac35682ac97d17223d90e08c4e56b52c072b1698d746a2d22444110318b57",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list"
+    },
+    "1df48e2113a591dd": {
+      "consecutive_failures": 0,
+      "etag": "W/\"9770ab91ac4b2aaee097f92f4d03e7d3a77ee4122c00d9640b69eab319d10d6f\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "1891c88d29248085c477cf8217e1a5e4e82c6a78e84d03dd899f64d39da9c820",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleProxy/AppleProxy.list"
+    },
+    "1ec8aaf3bb05ff93": {
+      "consecutive_failures": 0,
+      "etag": "W/\"d1dbc110cf87bb2592591c11fa05ce8ece4f1a5609d18d0b565539fb0b0f8927\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "1b71ea1fe8d42d34dc233a4c9aa41278b552584ed9175b645bde5f059be04993",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-social-media-cn.yaml"
+    },
+    "1fc192c6d8e3ff4a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ce16d5851c0d7e453d9a2f62a48888789a5159d71a777dc369ec16d75d803965\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "3182ca8785117ea083d3cb5655dfef14a38ac2bcf8347ef96ea8a5086a50859f",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml"
+    },
+    "1ffc472249847e58": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0fb778bedf3d7fb42e44972675831114973d7a457cf8e938ccae8f8ae0de155d\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list"
+    },
+    "20015dad0aebf6ce": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0431671125a5cefc8cd6ce3a34c73b0fad17c7b6ba7f1bbcd8a17cf1e4224cc8\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "870e7e25d798e7f00338507f773b0eea4dfd15e25e9df0a27d5ae421ae1ab378",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list"
+    },
+    "225cdd1a5c882c0f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"628610c04027f1ca604624c15244e4add3626359b49e37c1aaddeffb404627d1\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "db8f69154426dca76792ab80b3ad6b0e2d078ebe0e52e76faec1724245a4ec49",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list"
+    },
+    "231f15d7aa92f95a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"178e3b7e0405c3dd3461372704ecc620a58d321d738a76c3c9679227bab1378a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "69bc9a96ff5768d901270bad6f393b925e661ae13bd4ab4427c90a16bd451682",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/meituan.yaml"
+    },
+    "25af95e45e3b2895": {
+      "consecutive_failures": 0,
+      "etag": "W/\"40c38c559df34489ad1214de2ebfaf89ec107c3b629e2f07f3600fb92566cc90\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6dbfdc19293753fbe874dea6dec0f2a46427d6fe4e98e644854daa0180ced3ba",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+    },
+    "26170e20482760e2": {
+      "consecutive_failures": 0,
+      "etag": "W/\"2ffde89b1c6ca164fb9396faf8324bf0ab530fbb21d1a8fe4da793fa68b510ac\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a39a1c6a54d8c2b322be9d11dd7ab18f7ad45d6868c802f909cf408115abb1d3",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml"
+    },
+    "27a51a072263e01b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"553c27eedddb6cf1751711347fe6135c18b0c2abdefefc3b3283071e4681185d\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "9e679ef73dfc4984261af727ab70b9e81e6ae91a68e62bbe7c43a163bff43a77",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nodeseek.yaml"
+    },
+    "27aa36433b7cb51f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"26b979b2c92bb1247f7d08f9a73b8f23090e53b6be98446a36bc7b9067e7430e\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "54ea0bdc882ea1b61d90a9461d80946cfb3289c7cd4dbe9ea750109c4af149c0",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Niconico/Niconico.list"
+    },
+    "280d5afba68fe064": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0abb8d2e4feabea60a5f000c4493a3ec6ab219123a31f6a584ccd264ad8daaf6\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "af39782a0aa9d2e2fd87b6b6f1a236cd71518228a2dfcdfe1f55cacb5bf61e7c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AmazonCN/AmazonCN.list"
+    },
+    "29615febccf5daf6": {
+      "consecutive_failures": 0,
+      "etag": "W/\"5d0c44205b52946767aeab288e658a927e72ab4fb7de550fe136c3515aaeec8f\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "d35b18f68cf2e225110d4031132542975e1180615a6878a8cb3b459fdac07c6f",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cnbeta.yaml"
+    },
+    "29b280e596c67084": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c1c939f780dd5d31e1fc3bdf09fbce98acaa4c9b568b72339f5c51f12f672c6a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "caca53f82907d4facb16a705d986de31b382c00d0a3fdaba0f4cf3237d5529c7",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/intel%40cn.yaml"
+    },
+    "29b785f1b1711ca5": {
+      "consecutive_failures": 0,
+      "etag": "W/\"4cd01049e5e61257577954e6bc295543ee3a1e8620270e7c6bfe62d72db8d955\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "599c60f4538a2880508dbd236d542264e2b38557fee328ebc6672624fbbe132b",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/duolingo.yaml"
+    },
+    "2c7dc5e3dcc0f574": {
+      "consecutive_failures": 0,
+      "etag": "W/\"9df5471aa3ca66b6ce67bd8c12c6144c043faf04f86b5c875493a6e305624cfc\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a92dc4ffda45378fcfb51a7eea36407a529a14315c9df1e38d419a061b8872a3",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/niconico.yaml"
+    },
+    "2cf56f636b4c71fc": {
+      "consecutive_failures": 0,
+      "etag": "W/\"d68d5f69e925684e5edcd91369af3eb5\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6c65a1a343202aeab12279c427d72bf8f1508629d6b906f39accbe76fe58434e",
+      "url": "https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
+    },
+    "2d2feabd717c920e": {
+      "consecutive_failures": 0,
+      "etag": "W/\"82e07d7877c00ec5c5f82469197ec6401c1c199e9d6299e986f9a2e1a753f4e5\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "e6cb86432e5740e5eb5c5f2e2e8b5b24e850228542f63f8762a0dda3aacc6141",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml"
+    },
+    "2d74978d11bec76e": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0b224e657a68d15e30a8921081df64d5b7dba588e948375e0ef7f7f288056b26\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "29d3122c2777a6dba5be5da400b1d68999a2faaf6041da36e2b183bcd2a8d41c",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nintendo.yaml"
+    },
+    "3014dfbaf6981e33": {
+      "consecutive_failures": 0,
+      "etag": "W/\"b1b7a2aa9985f24c2336eea14ac1f77fe5110edf2365a10a55d37cd6e2202366\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "408348fbea471aa9b83fee1a34c08d07f5f7d85b321bae1fe0de809f8088829f",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.yaml"
+    },
+    "3078fe55757b59da": {
+      "consecutive_failures": 0,
+      "etag": "W/\"71b1da67c876d3da8259fe7f814dad62e807d1200504141ae089b6b17982e7d3\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "63ed1092c588beb377cad51b574c921ca113a880752b6c0b8c96b9ecc7f13366",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+    },
+    "30b30243f923e4c4": {
+      "consecutive_failures": 0,
+      "etag": "W/\"b69c726481db0d26af31c40528e796983f60b978300f1a8b2e528c26f88d88ea\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8df5a09035034ed72169f566ccc08779f30cebc2bf47681bf512fceef1296a68",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml"
+    },
+    "32c7ceed754a890a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"f2a8e4619acbbfb01d3292f9eb0617808dc353be35ed3dd9abfe973ee71f330e\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "9b441d075b8ec70c6df22d09b6b6d63bce06669f8a8f851ef7a12eccad675d4c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/China/China.list"
+    },
+    "335087fe1c7404fd": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c4f7f48e6c58c5897e55b0aeb2106b1a889368009aa50b320480f1432ccecdae\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4326065de15c90f44a0c0f9c7767c60857ee96c161f00abf2baa0eca55c8e8f1",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/okx.yaml"
+    },
+    "33d53accdb3d1120": {
+      "consecutive_failures": 0,
+      "etag": "W/\"459797ddb63b7fee89c433116def3d441aa42c78685ac9b5f93b1c73738b1f49\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f196c9b3c463248f474c7e77a205425ece4f5837e14a0f979b2c62cc7b9a0051",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.list"
+    },
+    "375e7d3bee48a749": {
+      "consecutive_failures": 0,
+      "etag": "W/\"d4a21ad8b1071e2ed53bbb90eb8bd9bba53edb7ab48d4432b86701fc6280688f\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "255c924e26503a11d8f1d96b696ca623140686c7d34512c935fef27210f8b0b4",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DMM/DMM.list"
+    },
+    "3813db0e0261e6ea": {
+      "consecutive_failures": 0,
+      "etag": "W/\"88ba534a64c2bceea205b907464b0cf9698adb0fdc8bef31d316ce0f59d7829a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "75093023b7a3b48d9316d6c5033b34c88c3af0eb8c87aa3096bdc9c0d108cd25",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bytedance.yaml"
+    },
+    "3815a4bda1a884da": {
+      "consecutive_failures": 0,
+      "etag": "W/\"455c35cb3913ffa2e02164dc375cb501b3770093d0ddb5740b2f6127fcf71c88\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "51a4140311a18a7e7bf942d3365721194974c12116e146db5f1fa5707d7afb18",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-games-!cn.yaml"
+    },
+    "38be8a9332754ddc": {
+      "consecutive_failures": 0,
+      "etag": "W/\"b2be6f4e8950f398d5bd8d9fd62c1cd84108e06adce68a8dbec1911b2288ae3b\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "b564015e25104e50ea0b73ceee10fdf828905b4b572e5c80fa3c24d06e714407",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Oracle/Oracle.list"
+    },
+    "38ceb95814eaf88b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"8f4016a4c9f70c639f87cfd85b45c5a450927c034dbda6b60071bdc2141e15d1\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4e4829591f7cb055bfe21c3c4ee2898c0849dc23f154eca7f5292da906611a9a",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/NetEase/NetEase.list"
+    },
+    "397fee53157b871c": {
+      "consecutive_failures": 0,
+      "etag": "W/\"2690bac6a252cf144f2a3b55ef2a96249cd7661acf6a14d84df20d1d6f3fac4e\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "e9e167c3d55f9f87a2093f0290b0bb99f6cf5d14f9210c6d8222bd45be6eb094",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Alibaba/Alibaba.list"
+    },
+    "3c200bf363adf453": {
+      "consecutive_failures": 0,
+      "etag": "W/\"7caab4e47edef72367942c726e74a34f0977a91158f0030f96c005c7ccb9e824\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "887a41613218b6593eba7f23fbbe7bd84b70c863f3bc3d3d289472770da8c164",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.yaml"
+    },
+    "3c9162b86e4a7292": {
+      "consecutive_failures": 0,
+      "etag": "W/\"00c18298bbddb7a3a4a7de51a1dd27d26470fd6cd5206adef7b82a8f04b07557\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "04ecf91cfb5898a906074a46bd62c2b946906950a408b451f36d70f628299077",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HuluJP/HuluJP.list"
+    },
+    "3e7e24576198a71e": {
+      "consecutive_failures": 0,
+      "etag": "W/\"548a65d2cd84a92a6f7629a9a283667bf0c5e2ed5add2f02676dd908a68d669b\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "af7bcb6f1182888e9e1bfbff9a9a2e542f6701329c5b3cb267ecf87f2740143c",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/netease.yaml"
+    },
+    "3f0588e46e5788a3": {
+      "consecutive_failures": 0,
+      "etag": "W/\"8a89f43a920db6dc22ddfe53d9557f2b7e422fc85b70dcac1f7507c5ce5edbe2\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "b8b08601c5f8e84d7e5728f4f9ae0d1d26d81b0846567cddf805460ef3eb8178",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/wikimedia.yaml"
+    },
+    "3f9efe38c6932d85": {
+      "consecutive_failures": 0,
+      "etag": "W/\"3e327893384eaff0efa31a9abd50e7f5133335f6cfc12ae4651452a3fd6a838d\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ee68bf42bf5666943067127776e40643f6f52bdd911152b1be62b3ecb187dc8e",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anthropic/Anthropic.list"
+    },
+    "3ffe475e11ce3b02": {
+      "consecutive_failures": 0,
+      "etag": "W/\"3a09f98d6101d9ce7b4421ac6b0125be838965dbd0066d1250f6ea925e45b6c9\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f7aa6107cccc145f47d02e0958472245ffd6b1fdf12cf1955ce0c8db54c24e09",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list"
+    },
+    "4523ab808e700920": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ab94fc9a2f5b4b60836afff472d229f45a2006db3fa0a36d7cc17c0cdf2ba95e\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "78c373bf461699eb96059cbac0cb9570e56ef447cfff5f7c4b4d78dab0ad996e",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cn.yaml"
+    },
+    "463dcf0e8d0bdc0f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"345cc8037846bad1c4409ac97e180c70dc10dd4d43cdac8bc1724d174892c2f8\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "65decf7849f37cbc66cff8e1155ea1d6344c748c6ead772db2f9e9c7e6a1d546",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list"
+    },
+    "464c77502871830a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"d7362f7fceb3040479bdaf52c8969c834658996e8a26ba0d3a18607953a741ac\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4082f9fc6ea66672ae3f86f0ef0db914d800ba6459aae976e9225a56343a3cad",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/intel.yaml"
+    },
+    "4702a22012077b6e": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1e32caa1bbaafb6452bebb7274923d311a3345cf2e6e5295188c2935161d6b42\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a76521dcfc7b79eb5aa7a52903d194c6f6f37eb306b3ccce7be9184aeb25d3eb",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/XiaoMi/XiaoMi.list"
+    },
+    "47a6b1710776a19a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"46f65a64649ee42ec5b94887243cd9c4881c87653cba5015d17bb601dc6a147a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "d13336c90dca1e73ab42da19c865e2e7f116d5288d061bc1bf9597fbc411d623",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.yaml"
+    },
+    "49b627798625b498": {
+      "consecutive_failures": 0,
+      "etag": "W/\"d3f46c2ffbfed4e7a975a4eadc9090b5add5f85ee2942eb669195f9e50009d30\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "c18ccd6fed85a8e6d213cbc998166a53d05cfea769748af83297f8170efc1557",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/IPTVOther/IPTVOther.list"
+    },
+    "4a5df5f8b6f7e4c8": {
+      "consecutive_failures": 0,
+      "etag": "W/\"767104808a4b38f7282543849bdf491aa9e3d7c1671c8e31b63c3adabe886bf6\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4ed23550ff8bd47fbae2e9b286fb6cf71b724f5a657cf4972be3987cecd18091",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PlayStation/PlayStation.list"
+    },
+    "4ade71e90a28c580": {
+      "consecutive_failures": 0,
+      "etag": "W/\"aa431402c5cf14f62b8d3a88dad7b88f79eaa9d1abf1e46a7f9bdb77ff1731a9\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "2f74f99c2f48a2133044b7f725faaa21a5621fd503c640599e1ac8b5eb48890b",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.list"
+    },
+    "4b40d5e7e5100aed": {
+      "consecutive_failures": 0,
+      "etag": "W/\"6e75635d9f2a9c27b3e46ac77c8bf05cef0521aee11375b595ba85b294ea4c02\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f892e0c94d56b72c6fdb7e12aab431b4203c5806edcc7453a46eb46433591005",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.yaml"
+    },
+    "4ca06a8d9fc5525f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0a3b0c177c8a75f5670fe67831594fa8ddac5bc2b6ad92531c656537e50c2458\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8872794c8dbd92fb85f4db34e49227510cdda315e4befd12812be1b502a68073",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cloudflare-cn.yaml"
+    },
+    "4d4a906da5693139": {
+      "consecutive_failures": 0,
+      "etag": "W/\"9aae47f898160fb267f0cad92ab353428829049500da9d53077efcacdd3039b7\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "cd2d3b360b3819a44ae140f42689b61a1231a50b569048238f7be04847c176e4",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/google.yaml"
+    },
+    "4d7e6dda0407aefc": {
+      "consecutive_failures": 0,
+      "etag": "W/\"18c1c13e3523eb0bdd3cabe0703c05745f420c6e8568b07c866f9c988db34b2e\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "834621d5df832a7275a302d4f08dccbcc18553d9aa801fdba428a2b4080e5781",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev%40cn.yaml"
+    },
+    "4d8f9eac3c2b44b4": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ec6a7210e73ddf652d1939f7a1759beb3c3c9ea2685b2dc1c209ce2000ff6c27\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "b6a5607200a67a6f581bd2ba6ee41b836d66f3d965db6e6fa50361304a041295",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UBI/UBI.list"
+    },
+    "4dbf77a2da17ed04": {
+      "consecutive_failures": 0,
+      "etag": "W/\"6bcdba05880f31cf68ce91abf09234be52f4887decffb8260ab6c04fe6b38eb8\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "22250247eafe3269eba4c5252c87631bb01ad740b2dbbea4e3a5142ec06a427c",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml"
+    },
+    "4fab523dea5d3ee4": {
+      "consecutive_failures": 0,
+      "etag": "W/\"96a9617be99c0b31a85df22357053c193689810f29074fbbbb122a2cb7e486ba\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "7aa772c67ebcbc1a6426aaecf9e9aac90bac2d0d2a0827a4118999968d5a7d8d",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-scholar-cn.yaml"
+    },
+    "5025f4667e1d962f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"090096afcea2ac3377505fcc894fd73f4e38502b3108745eca1dace975838649\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "215a55a63a7a8f963fc6122e803f876d66ce0c4233b9da8b26d932a7f5b1dcbd",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/chinatelecom.yaml"
+    },
+    "5178625e0840c548": {
+      "consecutive_failures": 0,
+      "etag": "W/\"65da70504dcc3969ad80d8ef04a64c36f8df062db32588f30e609847f49c1fef\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "034b1730ac0adb39a8a88685d6f6864a7070a14d722acbf8f3859806b28b92a4",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Binance/Binance.list"
+    },
+    "51931c4af2041808": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ac216db227b1fd73d914522e95f61e271201cde4eb6ef8aca1ef5d4d5d1a36a2\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "d8d380222268e99ecca6e8e94efc02f5df4ad68c7521f10b9e3fad6262ce8435",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia.list"
+    },
+    "526a494bb8beef16": {
+      "consecutive_failures": 0,
+      "etag": "W/\"08a27c60f813b04e0ba91bf4508a8774d6487221dd7ae7cb2b6d92573df82337\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6c606fb9e22b063044ba053e4428a440889a29b0725d9f36adb0f0941981fda0",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-bank-cn.yaml"
+    },
+    "54edf720489f0d69": {
+      "consecutive_failures": 0,
+      "etag": "W/\"5dc10c524b3845def5f3d6f5a8c739fd60f8ef734aa895862a6c6c97ff1a0e9d\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "5c621dd07aa573761eb712c220631047a3c284297dc8d1830dfa62dab7b2d7ca",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/MeiTuan/MeiTuan.list"
+    },
+    "5858eee73b33850e": {
+      "consecutive_failures": 0,
+      "etag": "W/\"741118633c6df12b6191fcab298a04959f65cfdc8d45333c2beaf086f8c2650b\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "81118a95c918abc455bb9f36657277be17b69533cd9cd13ad9f88b43b7dc92d5",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/lenovo.yaml"
+    },
+    "5b9b5807378147c5": {
+      "consecutive_failures": 0,
+      "etag": "W/\"cd6114cd87cea1bbc5bbdf7b80ecfdd30bb2fc0e482c21744a67e7ba978e9bbb\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6f4047cdbf6953cf5d9b38c4ccd6da7bc6f1acb91b7a87134f25d5b8f5d2408b",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list"
+    },
+    "5ea0ee63fa66bfed": {
+      "consecutive_failures": 0,
+      "etag": "W/\"64d2026f0a565a6391928107a0b597f995859b030e6c4097ca19cafc97de8cd7\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "d62761131d93b5079fc4d201f56b7ed8331dede7cee29ee8134189c3d21a9e23",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-wiki-cn.yaml"
+    },
+    "5f5be8bce7a29288": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c8b24f987e14f721113707a7d25d8907\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "27f6bab896e98ec9631fd187ff5147fb101260fc7a322c0dc994bbd27ed0a81f",
+      "url": "https://ruleset.skk.moe/Clash/ip/telegram.txt"
+    },
+    "5f95920ff233467f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"36f7850e9484f40f5f03d1799f57aad1a0d58ff7ed6602e548504bb6d6639710\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "47ad4e79ea85ae5c2d31cd9b8d7d9e5206cc09d371dba11d8d20e10d9da720c9",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam.yaml"
+    },
+    "5fc15e29b57ff61a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ba2c66d6bcd8b898ff6002ee21e626de1ee61ebbbb0c53620092a6a90fe6e561\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "03b90246ad58c5cd95cce3a58deee14f6707b0e6a46f8d0766df38d2d8cefcf9",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Rockstar/Rockstar.list"
+    },
+    "615fb90377b98820": {
+      "consecutive_failures": 0,
+      "etag": "W/\"397b6c8a33832a920f04bff169f6c3d7\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "cce8e6d0d94c090bd4928d2910804806f88fde88d8b774163b34f3d810426b84",
+      "url": "https://ruleset.skk.moe/Clash/non_ip/ai.txt"
+    },
+    "63e66076e11c9e3b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1df64d4a2f7aa5c35d77130e7d1bfa6bad62c8540cc69784da0da13b57247ec9\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ea721ee413f28c6b338c0777d52a9e0b66f5da0cbb9abb5a54a2cf82f5c21007",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/12306/12306.list"
+    },
+    "66e239cd2b2d84f1": {
+      "consecutive_failures": 0,
+      "etag": "W/\"4cd45f9ae2a3dd9ea9c5afd3c1ca97c93a4120f8dca110d0bc90e07315f35b6b\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list"
+    },
+    "6abcb8e76bb3e712": {
+      "consecutive_failures": 0,
+      "etag": "W/\"08a783146e6146274179c4901ec2b03c35f953a035349a24bbc528e306ee5c50\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "2169a4fb2ee64d01a8e16edb22abc1f87a6c8fb5e95768fffd2d3bcad8d86d04",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-game-platforms-download%40cn.yaml"
+    },
+    "6bd2a497c963a9c3": {
+      "consecutive_failures": 0,
+      "etag": "W/\"e5ab9ed1dfb4fe88bb36faaa74660909caff8af069c34abbf614839e8b35fa43\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8600d148e36f78cc16eadae624dac45020a28dc12311dfb4314ce589274d7613",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list"
+    },
+    "6bec53b7d8000eab": {
+      "consecutive_failures": 0,
+      "etag": "W/\"b30df707a761521754e6b4e6569e649e09516c5633f93601676875c6739b8bf6\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "bac83444eccfbed2d75326ab1c441fd2250f7eacfb6ddf3ac044a1d45423c249",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/USMedia/USMedia.list"
+    },
+    "6ee59721301fca27": {
+      "consecutive_failures": 0,
+      "etag": "W/\"46190be8b4064597689dafe2674d6332472d28109ea01db657f0e91828578d01\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "3b13b6dfcb94d207c474bf7ae4ee754d13aabac93f649e8e07bd3a6df8b785c3",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml"
+    },
+    "6f97cb93fd48eba1": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ba26470df93ac6a8d93a00e3deb52ea6a060cd13511f2140a43c60ed7a2ad780\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "310ddf2702367b9d9baa06ff6fd19f1ea9be5a3ad9796241ea7826ba668636de",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-game-accelerator-cn.yaml"
+    },
+    "7045d21548fc53ee": {
+      "consecutive_failures": 0,
+      "etag": "W/\"167bf4287dd8a65b322cd73401a6dd962ad698fcc976a3e899fc8a0dc9bbd980\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "71e6fff84f4c8b5c66740164af2c2e58d8c70eea976246d44a0822ae2bf77c00",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/xbox%40cn.yaml"
+    },
+    "719f1b618e22c3d4": {
+      "consecutive_failures": 0,
+      "etag": "W/\"5ef4fb726542df63eb5453673c8cf78d52f72b8bccda8ad7a24572c7e9539a4f\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "678d826470ff4749f74cf33f49c2dc2f4dde047f83df82196cbee95aecda1565",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/IPTVMainland/IPTVMainland.list"
+    },
+    "731d8d6dd18fc92d": {
+      "consecutive_failures": 0,
+      "etag": "W/\"41f7c203924626dce9b53d353669c6a13aa676b0767c8fcf78f343b59e9a5660\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "eee1945a601da063462eb0cb2784601513a180bf5ab78377904e4689573bfc65",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OKX/OKX.list"
+    },
+    "735ae8d108872927": {
+      "consecutive_failures": 0,
+      "etag": "W/\"276f5103c9133c754e9a1c93105daad1e27c2462407bf732cf68b36981ba02f6\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "477feeb5dd78c20b16308f02188dceaceb36b7b019719e96011947f04bb22196",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-porn.yaml"
+    },
+    "7429d4c64fa94473": {
+      "consecutive_failures": 0,
+      "etag": "W/\"20f73a1024e136533699da269b4d468931c049a71bab5ec9f68adbe434b42f99\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "669b0e0fe828a60578a9230b48006d6b97aa6242a392716223c3edefd9a2e1e7",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/meta.yaml"
+    },
+    "7462aedeaaf6c0b5": {
+      "consecutive_failures": 0,
+      "etag": "W/\"00116c88f4ce99fe8ac7fa8684d9fe91\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "c3549cee2590fd0f0ccd3febd77159d64cec7335361217f667b5de609248d7a3",
+      "url": "https://ruleset.skk.moe/Clash/domainset/game-download.txt"
+    },
+    "75a696d6b3965e48": {
+      "consecutive_failures": 0,
+      "etag": "W/\"e512007459aa4f56d3849fec1a77594e0da9ba27090bc50e116ccae4b369d588\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "854092fd6388ce2718463efda55e80c78a092ca5ac47b7fe89902020cde45436",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/oracle.yaml"
+    },
+    "75ede580cb646f5a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ea62a1f4e6afbcab04cd3e41c7b06c7b3c8201b5dd34567828ecd33560888844\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "eb93e905ea6eabea92130ba43194ea9a7974ca1cb5d934d018a8523dea58c67c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaIPsBGP/ChinaIPsBGP.list"
+    },
+    "77ec5e4a0260adcd": {
+      "consecutive_failures": 0,
+      "etag": "W/\"85d1a0bc5a0408637a5c1779fcdda449889d139620a7d286ae1d8ae8a3ea8b4d\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "48df64a9648e3551b357991a01f9577c89d6fa895ea96fed728eb10264ed3a02",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/NTPService/NTPService.list"
+    },
+    "78465b145b046b62": {
+      "consecutive_failures": 0,
+      "etag": "W/\"dbd4d62ff7f9956082448d8fcfba9e894f15cc9f9460dfa5393f6fa821fd6931\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "78cedfd87e436fff5ba5c720ece34c235566667526ac03a31d945c5334c70d85",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.list"
+    },
+    "79ae2a00e8e57ceb": {
+      "consecutive_failures": 0,
+      "etag": "W/\"dfc77f299cddff940f43290bdafb9b1e13b48932a949d16dff7576cc9dbb1e31\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ddf8e51eadb481849cd8146e7f1b55143c5bac1d3399f706445d5996c613085f",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list"
+    },
+    "79fe340bbcbbcaaa": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c053ca7c31d633425952d04adc9ee26a162f6277ca4feb25020bf9b8810efa6b\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "b804b6a6b87a3b0ab250445b205a735a394acd6e0d9c6c4c77fd21ebac854027",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaTelecom/ChinaTelecom.list"
+    },
+    "7aab000a2fba12f2": {
+      "consecutive_failures": 0,
+      "etag": "W/\"bb7b1378f1fdcb41b3a569f296f19684701cdae4c925600272678ad3aa94cc34\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a8e4819c3ee2ba71c06873769310ec012a3aa2e8fc54843168ae6edef6e75280",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list"
+    },
+    "7e9fd498e1d92029": {
+      "consecutive_failures": 0,
+      "etag": "W/\"866ad183d802de7558fb39b3214a36dc\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "bccbd162554d2cb56b16cdd59fbc2d1abec645bd53c9db18460137ffccbbc2a2",
+      "url": "https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
+    },
+    "7eecbe793d6bffae": {
+      "consecutive_failures": 0,
+      "etag": "W/\"3f02b659de3ebe00c33f36c855a49e741b0e6e1202b44050462443751e424b21\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "c1a5eeb16756254b8d30736054f76ca65d49a21144da4d4672d177aec56879af",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ByteDance/ByteDance.list"
+    },
+    "7fe8fbf6e59cab6a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"b85fa50e476e542ea18b1ca8c4ff0c04\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "48734bfe68dbf1e01c68a2b81931e000c50d8b824d3658704802b034908e6510",
+      "url": "https://ruleset.skk.moe/Clash/non_ip/download.txt"
+    },
+    "819439880e02fc01": {
+      "consecutive_failures": 0,
+      "etag": "W/\"70eb3d042afe6736c87744cc6a461b5eaa9eba33d1b4314785a460fdbce7b8c4\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "62bd3e5264608c11bcbf67b09b1d5c7b4d913f3325804adf40a802521607cc47",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nvidia.yaml"
+    },
+    "82b2b350c0924350": {
+      "consecutive_failures": 0,
+      "etag": "W/\"2bee6cee832f510860570e76a53fba1a6fdcaa312c2ef6fdbd4d90aebc8528d1\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8ac935cbe8c975ce285879c098859b93badf309c0d321a55291f486c54820f9e",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list"
+    },
+    "844a6d8db870b3dd": {
+      "consecutive_failures": 0,
+      "etag": "W/\"bc588a07f1a156c166c0482c217821a8ef5fc2381d3afc758c0f58f7db652835\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "910ad846c9a866e523372d02dd8d9518fa96256f337f19d34174c5d07699397f",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrivateTracker/PrivateTracker.list"
+    },
+    "84725bdd07ed7bbb": {
+      "consecutive_failures": 0,
+      "etag": "W/\"888b6f3ee167035a03ee833ea472d1edbd327dc06725bc8194ab83617fd8ad14\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "2dc12617edf3559d6d3b1360f933dda946f8110e53ebc6ef951ee6adfb03fd72",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tencent-games.yaml"
+    },
+    "85b8289a7382cab3": {
+      "consecutive_failures": 0,
+      "etag": "W/\"047ed03381255302f5ab2f37c573c14aedfe2586d23c9027f9b65a96c3a90695\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6ec5fb9a4ae5cbb621b4435641feb24714b6f4bf8a78af7ae66693b6d6ce3b40",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
+    },
+    "861c13ebb6a62361": {
+      "consecutive_failures": 0,
+      "etag": "W/\"2974effe05bc3847018c774522fdbfa0330c99ad612573614f95a869b27e3acc\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "d563f32cb2c294860f4a70ccb63c9a49c3bf0fa27ff9e094f1368f2faf91595e",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list"
+    },
+    "870552f77b68584f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"3096372a1a2de40fc29ab2e21e45b11f40ec917068223107b8651465fcd99457\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6b001003152c6ce33b2fe80667eb7ff1adc48549fb6a9678b583308567017715",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bing.yaml"
+    },
+    "886889c98cc56bdc": {
+      "consecutive_failures": 0,
+      "etag": "W/\"e6d12b59dd12ee0bd9a879834bee31ee8c17e59a81774a33dcd57e763544ae97\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "58b7d138a245a055d257ae004589688c283ebb495b45865f3ba19aaadeac8c2d",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/gog%40cn.yaml"
+    },
+    "8870665d61a7f1a1": {
+      "consecutive_failures": 0,
+      "etag": "W/\"4d72db2139f0a0b6eaf14f834d28ae67d347ece84a1874576ab64f9dc8b6c0b0\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "0832138646a9425340a62743e0a1f847f681b571b1d28d07372a97dd6fd46efd",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.list"
+    },
+    "8888767e8bc22613": {
+      "consecutive_failures": 0,
+      "etag": "W/\"051b6f7c908763ebbf492179cdb5099586c597ed98fca1fb6ee4fbf6b7828e96\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "d50190957169dab46966df8572bec3a8ab95714b220bf50ac5e8a86fb225a7df",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.yaml"
+    },
+    "89011a6f05bd66ff": {
+      "consecutive_failures": 0,
+      "etag": "W/\"6870780472233e03040164bf31897f0b1924373907ace7b32ae31ec18ccb1d73\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "c4a1a0ff25a613cc4602cca0e9256d6b453b311fb8c9c915412067ce4d6cb2bd",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Nvidia/Nvidia.list"
+    },
+    "894a478fa7b79828": {
+      "consecutive_failures": 0,
+      "etag": "W/\"35f076debba9ad4e767192beff2cd35f259468de2d9a7b70b9e427ab8833b214\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4c81c05f0897986244df9e201cd55e017c4d56c1d6a278d7c1449e77cd6e595b",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/alibaba.yaml"
+    },
+    "8b838ad17ca07acf": {
+      "consecutive_failures": 0,
+      "etag": "W/\"24237e597c5f60ba9ee84ac770a46de8\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "353e7f1244fe816019036274f13762ecaf25c29b3f4a01ab952fc3f1281626d3",
+      "url": "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
+    },
+    "8b925b9255d92381": {
+      "consecutive_failures": 0,
+      "etag": "W/\"9ec6a1c5983826036a3c0980dc0e0b9365542820a2edd416a8dfde76d1e286e5\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a87eab12c4b989c2f6f24f1069b89f2f9531e6ebac337b2d239d6e49055d1f83",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/dmm-porn.yaml"
+    },
+    "8d997a2df4cf6e15": {
+      "consecutive_failures": 0,
+      "etag": "W/\"6b8079806fe42f74a1409453de98086ced712d9b3c9f7a4dc39fee79657d485b\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ece90d6c9bbd29377e65a7aa1301e47c77b62f2fe9ba0955c938faf2976768dd",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaUnicom/ChinaUnicom.list"
+    },
+    "8de97d35a1510602": {
+      "consecutive_failures": 0,
+      "etag": "W/\"908fd677ad36defdb532b830e8b2f4e4d277a2bf21a3a28882bb4402e198f2b5\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "747563c96825bbd5f868be955543b0ca1979064e7b094f8aab08aafbce577c36",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.list"
+    },
+    "8e952dab75ec9e53": {
+      "consecutive_failures": 0,
+      "etag": "W/\"27d3a407215609019e15457c3c56a04bbf6bdcc425e6ddd4848c9a27f32ab5ee\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "2e281241faf2330828360d2ca2fe0369e5ba4a7a9cb4e579bb7e980f97b0879c",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/huawei.yaml"
+    },
+    "8ed41fe930bd3cb3": {
+      "consecutive_failures": 0,
+      "etag": "W/\"f825952519855a714f24fd57f563ef183290ece77bdb8d13361f9f52288bd9ee\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6eb14d13ebe0f4cd2be03cee4f4a8b245199a82225b515c01aab5b7d0e1353b9",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list"
+    },
+    "8f4e8223969af0bb": {
+      "consecutive_failures": 0,
+      "etag": "W/\"14c03843a3fadc462484550ae576314a0cdc73ad1fb4aa2f746663d9335e0239\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "db89b3852369e0a5428b3a5eceb7ba55a55af7d0382357b8990157259fde1c3c",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nvidia%40cn.yaml"
+    },
+    "8fe8ee52f26a4d5b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"fa5f113a6ee47db5d6c20e67cfe504488052a4c124e4f9c44fa1132c4db119a2\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "7a7adfe27f6cac5a55ef878e0caefc7042c2e8a24c86cb58383c6340da47c643",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-cryptocurrency.yaml"
+    },
+    "934ac3bb32f468ae": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c8126b4c71ec9da3cac01c497bcb2cc061c5884ff568f246c0aec077d9524b10\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "290ebccc4be56defc7d36f85d8c9777101548a4f2147ca29fe50b794c6a8dec7",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.list"
+    },
+    "9497d167676ce0dc": {
+      "consecutive_failures": 0,
+      "etag": "W/\"b438aa2b20f29148bdd01520c461037a2b9422c3cec87b00861fc09c5651d3df\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ab0857b5419f84ef49f23c69d3c2a896a181cf8c0129644d04158ef63aeec633",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tracker.yaml"
+    },
+    "970022d58484531a": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0abb8d2e4feabea60a5f000c4493a3ec6ab219123a31f6a584ccd264ad8daaf6\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "af39782a0aa9d2e2fd87b6b6f1a236cd71518228a2dfcdfe1f55cacb5bf61e7c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonCN/AmazonCN.list"
+    },
+    "9d836ada24cc56f0": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c67d1d568dc1900a5729531f155397a138f4736d7639ebb847b8546e5b3609c2\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f66b108b5a042004cded2b0d9fce240a9fb405a1331850c8a1e2364ecab988fa",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Intel/Intel.list"
+    },
+    "a17f1e343aa79fb1": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1d5448ea7e1865e3e3d25f6de646a5425f36d13c9ee1d65ad79bfa63784d3bd0\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "7bf95664c32f3baeac0e506412b234589d708cafdb5e58258d39ccd3aa5df3c5",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/facebook.yaml"
+    },
+    "a59868913c63275c": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c7799554d24c837837684d3f3a669d067928e2e5a7425564a38e92e43a8e727e\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8931d356f6fdd841a74cbc0bd19f32c1b8a2e97f27ab0e5dc2116b84d9c519d2",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/disney.yaml"
+    },
+    "a7d45f4027076d61": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ec5f03261ab8c3bb501cdc473212e0bd818e0a498e472abb84684d6a644389ba\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "628e65668a500d5882b0bcaeb417c630d6a148b30c181943b7da3ad048b34a73",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/twitter.yaml"
+    },
+    "a908a38ac1bdde31": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1ed81f357332c616563af12d8d038f4a0daac71620ec2823c2420121638146ab\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ca3cf3ea5051ed220c255fbccbdd93e477f1c558e26ada6bf3dbcc2ba0487da2",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Nintendo/Nintendo.list"
+    },
+    "aacfb7a050d0b4d7": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1c02d5b81809cc6c400e3983b9e00405cd3fdc19ef1b4f6abdd260e079889f49\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "c5cb5e82bd5dcd2e7287054cb934e8a6de6846d4874e7d9ee34f05a2b128f53f",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/xbox.yaml"
+    },
+    "aba8209d9b3ace3c": {
+      "consecutive_failures": 0,
+      "etag": "W/\"be61eea98c85d24ac64bed9f7303ac6199c227a44320d0adc7004347feb29743\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "167324d60eabc110e16496a7b12f077ec0e66f7b00524a919af10d6065086db6",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflare/Cloudflare.list"
+    },
+    "ac13f6b81d16a3e8": {
+      "consecutive_failures": 0,
+      "etag": "W/\"746f7c906a2fb7dfc40080933fe7c74cd2fba5f913548fe403db11aa270ecb2d\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f03c301bc6ef21349da52b377e164aa1518f5549188575bc08b4e4436651b620",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cn.yaml"
+    },
+    "ade39587595d076b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ade22ea9f523537925e1c35d9e4183ccf92a55bd216658ba5e9fff7c9088b0d8\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "020e742fe4a7084268af6aa52c4153bf5bfd54c4d7a17466f42cd3461609e32a",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list"
+    },
+    "af1863730f120403": {
+      "consecutive_failures": 0,
+      "etag": "W/\"f845b5e0044551f8ec78c01dbdefea28193d599ea4d244551c870349a44741c5\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f5ad2cdd08a83ab13986df4b51265b351263ce2b3530bfb066680064cbad9c29",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-cryptocurrency%40cn.yaml"
+    },
+    "b1c12c9302812b53": {
+      "consecutive_failures": 0,
+      "etag": "W/\"bab7505acc4f638b6465458c221ab4a59b08cc3a25944cabf743726e0dbb5391\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "82c144434e9199c524d95caa8e3659c9f6f1de9fd23b223a58b5d3c821923936",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list"
+    },
+    "b2aa2de6894f77a5": {
+      "consecutive_failures": 0,
+      "etag": "W/\"a9de64f0a9f248d40b1606d0e468d328\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a31f9e98c5a4fdd585a7c78b6f3a1994015ab54a57a3d82057bd17f278f6a76f",
+      "url": "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
+    },
+    "b3cd74b9cece1e3d": {
+      "consecutive_failures": 0,
+      "etag": "W/\"591e61b42aeb48d7427e94f9bc79b5168d88e8333b73caa6da09e319dd398c18\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "73a59a3896807bae9fbfc816846678ffd11d3472347643ef98a36c1a45884fad",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev-cn.yaml"
+    },
+    "b4dad5c1972df4bd": {
+      "consecutive_failures": 0,
+      "etag": "W/\"65dededcbdb829a94ebd6c00f975b8766d50efed77da508a65a4b40d9e56b74a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6ee615dbc0d4f25f05ec06724cb46eb68492af5b8b56b744f20ee8006c9cf2fa",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Scholar/Scholar.list"
+    },
+    "b6d587b1c5449979": {
+      "consecutive_failures": 0,
+      "etag": "W/\"05098803108e430e3c7cbca2bdf517ea348af5b850cd7c4899b3552342795fcf\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "0e99a027795b51c495e3bd97c854b147898c5e598ece47bd79515a419aab25e1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
+    },
+    "b7a9d0d59a0f0dd6": {
+      "consecutive_failures": 0,
+      "etag": "W/\"d3a38fc509e5f546eab8667a08e4083054019cc642ed60aedd6a8d62b5c42070\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "13f63a55d9a0b6eeb12b2cdb24e4b7ad679123fe068e2ad0470236f2a637fcb5",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaNoMedia/ChinaNoMedia.list"
+    },
+    "bb3a89fea724ebf8": {
+      "consecutive_failures": 0,
+      "etag": "W/\"610ed52c32fe7c9b0f7d2628bc9432de9720746842148afef0f450bc662c7684\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6923852cba5a803960373c6eb379d7746460ba3069e1564549bc63177ee3c20c",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml"
+    },
+    "bdbdeb6141a55695": {
+      "consecutive_failures": 0,
+      "etag": "W/\"e1fb7ab612243da0789d05ed733a204fbed0f9225d1cf95a8a0c7c6e792ab43a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f2f7cda5718c0ee063d6cc80d036d199e3236b6046f6aa525af4debe6a9a8862",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lenovo/Lenovo.list"
+    },
+    "bf4fcd3e45b6721b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0de4f56ce032b406a11774c6159c1af684d9ade4a5e35ac7505e49db4547e7a6\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "241e998fe692f1ad0cec29b66b95769bee656f4beb3b5ccd47f15b8e8935d5dc",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list"
+    },
+    "c16f97951dedce98": {
+      "consecutive_failures": 0,
+      "etag": "W/\"81f19bf3e093ca975a0d37f98cd4c780654db05bbc860558bd57c352127f5257\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "9d64e0fe06a55eea536c999c9a05ef35734772c140bf33d38bbec5a69f361f38",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list"
+    },
+    "c17451efbdd3c179": {
+      "consecutive_failures": 0,
+      "etag": "W/\"87415b7fa44aca8456f85a36d962c94b3f3dba6d26e4473c74a503b6c8582928\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ff53ece5feaab75a13455c467ff405f036a774a4c95cc068316500ebf9d78496",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/anthropic.yaml"
+    },
+    "c2e73eb67fcfba99": {
+      "consecutive_failures": 0,
+      "etag": "W/\"266f11ceefe20e4e45af789f994408537c7f38ef3367b1edc85374c887dca162\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "782ee367ef2d35cb2f9c24f3d7bc11abc050df5ad47a62563dd300e653e6d60b",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/jd.yaml"
+    },
+    "c491de0cff46dfae": {
+      "consecutive_failures": 0,
+      "etag": "W/\"7caab4e47edef72367942c726e74a34f0977a91158f0030f96c005c7ccb9e824\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "887a41613218b6593eba7f23fbbe7bd84b70c863f3bc3d3d289472770da8c164",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-chat-!cn.yaml"
+    },
+    "c7dfdeb776dbe757": {
+      "consecutive_failures": 0,
+      "etag": "W/\"52c7423f1d15f5281adf988c329e1f4518d10ca3565fedbd7dd0256519ce0486\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a40fa7946b2d34072382d8c8d2ecb2263f32bc426b2b4701fa0563e18c6501b5",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaIPs/ChinaIPs.list"
+    },
+    "caad5b99003d8515": {
+      "consecutive_failures": 0,
+      "etag": "W/\"e11ce2f998883f8b3d6f209400095b5ceccf69bec3c425c0c7f5e936880020ad\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "dd1ede7d38b60224a2d328fa2df263639addf78403bb6755174612e74597c3f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/chinamobile.yaml"
+    },
+    "cb1ac05b7b01b188": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c746dd892200ab1b124f4b90d870a542aa5ec8859bbd852dee3785d40086819f\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8437bd0bbf3214170f6601f3a9b34d45a7684c9e9f8d7554b608142be8a2e80b",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Reddit/Reddit.list"
+    },
+    "cb5794ab315209b8": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0dee9d45d3efa63b70eeae309f2c4cce284d8619220383fbc4c47eb5cb9e158e\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "633f22b6b9a0544ed64865ed0707c18127b175a175590fd93acb5a0bbd3581c3",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/binance.yaml"
+    },
+    "cc26cbfc3f1a36ee": {
+      "consecutive_failures": 0,
+      "etag": "W/\"5f85874e890998358567fbb7c5ad6c855e7dcecae5f1f8e61c8228c9b1725b07\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4fe49a0fd839fe32a88640ee891197bfd926faf70c2ea1c812383d02f16184e7",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Crypto/Crypto.list"
+    },
+    "cca205c4715fbb18": {
+      "consecutive_failures": 0,
+      "etag": "W/\"072741af1cd692d4262c550f56861016d0e785c134e6b4bd59ee8786935647a7\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "0b7a01784c5dfdb1a18d9051f4872c4078c6d5deb6a24f71bfe2bc06d96bb02a",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/JingDong/JingDong.list"
+    },
+    "cddda9407e297b36": {
+      "consecutive_failures": 0,
+      "etag": "W/\"58b753d4328eea8fc54a8e9b7fa9dee824d26250b1f7424f8c360e3f5b9d984c\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "0681b5fe90979c22cb6165f9b33e8bd451bbbe26e0537bd9bcc1fa69f437f6a9",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/steam%40cn.yaml"
+    },
+    "ceb56b760e10fa8c": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1b219e8a4a19af787111ebb97da7e596b669d613e84dc2ca428a85f119c5cbe2\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "22ec30f536fdd33fddaf14d40bec39101f11716f49cbcb22c3e3a0472d383f3e",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/RemoteDesktop/RemoteDesktop.list"
+    },
+    "cec9304320a3981c": {
+      "consecutive_failures": 0,
+      "etag": "W/\"0c034d28d19a702fddd9f53e0de2115ec5456e9d9b2ff481d955751447004a1f\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ef077edc3d1e3f35d5f16e63cf3936ee5615dcc93880a679aa07aead3b882028",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/rockstar.yaml"
+    },
+    "cef8a0bbfcc8f50d": {
+      "consecutive_failures": 0,
+      "etag": "W/\"13e00fc5f1a7c787dfbc0d9114453d7f16f1f075e1873a948c87644c537fd07a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "e9e9928f3b951309627d7b3e3f25bb6a3115a4f959bdb2b9b464127a32377fe8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cloudflare.yaml"
+    },
+    "cfd98ada2170aa2b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"fdd200b5d41ac5e77544527a2c6837079cd7fe7e8625b88fb8ebb1a13feddd19\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "64c836f2431ca0d4728cc545bb74280ee50c886e346040012e6cdd2f3eee3f97",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list"
+    },
+    "d1792c6b6826d346": {
+      "consecutive_failures": 0,
+      "etag": "W/\"02570a12515badc9f40687e4590344b9839f0c35e1cbcc5cb16282ac268e7f0c\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4b9fe5e5f0cef4c4b09a2e109ca4db00f1cc67ec45aae5c50fca3bdb72b61968",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list"
+    },
+    "d185219cb79bf230": {
+      "consecutive_failures": 0,
+      "etag": "W/\"413f9d5774fff31236e73c2b8be67a1d21b74c273dc7e0bccd2fbd9ea85a2487\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ec32854438b8ad4e2f2f2ee0d578834c667f1d0cec4c82357e34629452d2fc5d",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.yaml"
+    },
+    "d3fd09e49318d4b4": {
+      "consecutive_failures": 0,
+      "etag": "W/\"becea779f54db4842a081eb20e8df5b489408da85f7bacc875aecf323dcd08a1\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "eb0c9b420fbb29737d556a0748bc3c6fcfd1cda26402580da07690bf79a22589",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.list"
+    },
+    "d402c9de9c29dbd4": {
+      "consecutive_failures": 0,
+      "etag": "W/\"dc514af5f3f95c238b70af0f02926f7b92f227e5bcfec14d92f0f67549daa107\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "d665f274c517e512aaf7ee72eff8ade6bccfc7146be9fbc24f92707ef2a829ec",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Developer/Developer.list"
+    },
+    "d578bb0b4a94d02b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"45e8686a37b89075c11155812cea9b3e5d1e25adc092eab7db4a961688fe79ea\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "82d38dd4427bd7d915063c4ed4d877dc6fbe9d7e38a5f326ade1b012df37e090",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent.list"
+    },
+    "d89a68e1e6e4a917": {
+      "consecutive_failures": 0,
+      "etag": "W/\"660ecc956d1de5780969557a16caaa92bf5e5f10cefb6831fb74f601ce032af4\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "8aa8078a08299feee81b6927c4f0ac82b91df9c1ed96012dc5c1e78fa324c8fb",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMobile/ChinaMobile.list"
+    },
+    "da93db914133afcd": {
+      "consecutive_failures": 0,
+      "etag": "W/\"5218525e20be0b999de0e4d478987802272f2ac939d216481755a07ea32d2b77\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "39ec5ff6ffe564fcbe918e16807dba1a2ca58c18853a52ce7a6ce5d7aed55a0a",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DNS/DNS.list"
+    },
+    "dbc8be9da6021ed4": {
+      "consecutive_failures": 0,
+      "etag": "W/\"d31c28b2ee9e691b95317bda78caf52de858126d8392550ea895dac98fcc4ff6\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "462d69c6233e07f151d88c9ef286c53e4993706a139b5191669b7dfd0fd2b2dd",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ubisoft.yaml"
+    },
+    "dcae13fa1f390069": {
+      "consecutive_failures": 0,
+      "etag": "W/\"c6c853ebf514e2dcfc05aa066f0db200e1aa5c2518af874f70b05d430479a907\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "40c485dad07a502b12ced8878e66ed966e411ccd79ff4432f40e4c0f1b0a4476",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-gemini.yaml"
+    },
+    "ddb8ec735b287a9c": {
+      "consecutive_failures": 0,
+      "etag": "W/\"dbf0b80f04b07d75c295399ef06493df448e4919349f897c970d4af210971195\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "cef5ed733306f7324ab9f5403ff180f51d680e2b584b798ddab97e3f376f3e53",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/blizzard.yaml"
+    },
+    "de950ae107ddff41": {
+      "consecutive_failures": 0,
+      "etag": "W/\"523905466de2aa7ef93fb358001c45292563b96d27c8afc8c3876123a978f5d7\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "6e219c19c9b1c571041b2b0c71993d40f39b5961ef8933cdd816a4cb434c1656",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.yaml"
+    },
+    "e124cb03f6a19776": {
+      "consecutive_failures": 0,
+      "etag": "W/\"31b3fdb8cbab64622f1282d301edc17df5f240eb7709d3078a02d60489658f93\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "0ad288b453703097b76a4de611a0ae8526936825730c7024126895f01a151f8b",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-scholar-!cn.yaml"
+    },
+    "e27bb0b77b787910": {
+      "consecutive_failures": 0,
+      "etag": "W/\"3529b7c2da283dc65de2879864745438a898309f719460db4e81584ed1464508\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "bf253b8f7ee0a1728d215ba90b7909df61bff6aed0a8ad99ae71032f698b1648",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-pt.yaml"
+    },
+    "e59397da59520fa8": {
+      "consecutive_failures": 0,
+      "etag": "W/\"ccef8e581f5c9f00af485e8a8efdf4910374a5409c8fa6d26286d7a82a9a7271\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f9a29e5feefa0ff76887c7a8a3d581e68fef0df06b3fdb3173905b557c319ed3",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/reddit.yaml"
+    },
+    "e612e3ef57f06591": {
+      "consecutive_failures": 0,
+      "etag": "W/\"609954ef6321939ee6c2b84fe3edbfcba6c7c0a872537fa06b90c66c753ec408\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "0d505ff28db42c5220e3874d88fd3d458a34ea88b01ab71547259ebb89135088",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/alibaba%40!cn.yaml"
+    },
+    "e71d279bb772385b": {
+      "consecutive_failures": 0,
+      "etag": "W/\"d4253665ff7a40c49411d33b8a284e2d2a4258d3f3f5dc77ad7716c8c367d472\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "db52ba4d67a6225790c86db2bf300a3d9c554d42ef22334c5ab1cd576e75796d",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/amazon.yaml"
+    },
+    "e7a2d02299e51bf6": {
+      "consecutive_failures": 0,
+      "etag": "W/\"591e61b42aeb48d7427e94f9bc79b5168d88e8333b73caa6da09e319dd398c18\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "73a59a3896807bae9fbfc816846678ffd11d3472347643ef98a36c1a45884fad",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev-cn.yaml"
+    },
+    "e9e9627514356a45": {
+      "consecutive_failures": 0,
+      "etag": "W/\"93112f32263c43843db22c303d1692a63cc94e17abfe89a0be88b45a2e6f4352\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "0ccab4f1bb94504abc671f4c901cbccf3a8e4f871c1f8d30b785c87c7a58b446",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Blizzard/Blizzard.list"
+    },
+    "ea6896f3ab7ff7fc": {
+      "consecutive_failures": 0,
+      "etag": "W/\"be7ac38ce45490795e1884ec725c1e14\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "1cc7293548c9f251adf9e373a57bfef3501f6e6756d8234aed5415a5ead4e439",
+      "url": "https://ruleset.skk.moe/Clash/non_ip/microsoft.txt"
+    },
+    "eacbb9275c28b7d5": {
+      "consecutive_failures": 0,
+      "etag": "W/\"5eff8d0f6e9228d00ba14197eccdb04a20314cc83c231ff96e1569b29690648a\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "c2d851719a52114312cad0d70d9679d44d62c4123ec1bcac9d215dcfbb17e033",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Cloud/CloudCN/CloudCN.list"
+    },
+    "ec0f62ae1585be31": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1ecb3998c0ea5b8ae522ca201e625df8738936b309f97a9cfa6568052567fee4\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "83cd3c809f0cb781c695f6753246968a88178a375a74561a6b21e5752a74f960",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EA/EA.list"
+    },
+    "ef5b14c4ae3039f8": {
+      "consecutive_failures": 0,
+      "etag": "W/\"a49a53806c420879b0d12545168af04125fe43da768de27a2e85666ee9f7b657\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ac49361bba37ccd12f46dff78885ef07218d9dc9deb254d71d1c0431a7eb921a",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Baidu/Baidu.list"
+    },
+    "f05aa0b9a68cd638": {
+      "consecutive_failures": 0,
+      "etag": "W/\"95756e3a530fda73ef177a665a5fd75da872258242d0cf9f4d560c7ebb2e1a0c\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "82eab17c49d55e27aa122b63b9c1103e30713512d79dd10f81352dcc94ca3237",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Cryptocurrency/Cryptocurrency.list"
+    },
+    "f2e2ccc55e937d78": {
+      "consecutive_failures": 0,
+      "etag": "W/\"68ea89c6ba6df4d088fa6169fad7a01d08feaf0b2a46b5e36482da058e74d079\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "4dbf0883eb6b689f488daf172f7b0211b1ed21fcea3a4ed94ace4a3c30a841bb",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list"
+    },
+    "f305216534ebe57f": {
+      "consecutive_failures": 0,
+      "etag": "W/\"99c00d259f1cb409c707de701bb4d2cab85680e2ab15ead4d4f320a7e28d7397\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "23ffd05d669e6281e387aff5453ba3ab0d83321a00c6eb1b8045e866bc66d7b1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list"
+    },
+    "f355312e3c08af77": {
+      "consecutive_failures": 0,
+      "etag": "W/\"73aae7a049a9ec0245190b6120498385\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "87152d51177a81caaa49baaa8b776810abed514443d27f3312b48a514e14ce5e",
+      "url": "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
+    },
+    "f362d1a883dd56c3": {
+      "consecutive_failures": 0,
+      "etag": "W/\"9e44a2979eea21f18fb9e6b4b9c6c4e3e258315e2a73aa9e6434e4ab162c6331\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "7293d5938eb4e35e47f70bf9f158e8da34072b9b47b91f3381107d7a2612a335",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/dmm.yaml"
+    },
+    "f4da0136c14623d9": {
+      "consecutive_failures": 0,
+      "etag": "W/\"1a6ff5fe74cb6f4b931176eec95e1f03519001e7f289b3506486e64dd5dc96d7\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "329449efa2ba372b0be10e8bb1ced920b67d2918b88bc65bbdd4bc437f4442ce",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Wikimedia/Wikimedia.list"
+    },
+    "f56fdcb20e68d4f3": {
+      "consecutive_failures": 0,
+      "etag": "W/\"5a023b3d25e31caae09235e6155c7d7d984a58afd60d06982bc6e2fa4436ebce\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a6d05e864cb8f34ae73fb7ce448b6bc668f6dd1b72f4e35b86b5fdf26f0efc2f",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/x.yaml"
+    },
+    "f57cfe0afb0794e9": {
+      "consecutive_failures": 0,
+      "etag": "W/\"6ba5456396f8650fc96ea073bc7c482b17a46a2e45771bdfbab6c674ef61a3d4\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "f73f96b366fd50df7bbe079fa7582203db442e801290f4f5317e30c4631dfc82",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Duolingo/Duolingo.list"
+    },
+    "f960d4f9ac71e7be": {
+      "consecutive_failures": 0,
+      "etag": "W/\"9bf07d8cea4b20fb08212bdce6eef2753f8276471c965478b1629de68d670820\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "dcc8723729aa0cff68fe5b0edf9f9b785d8584ef62e24c15f3aa8e7ef99457f3",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/facebook.yaml"
+    },
+    "fb602fa1f905165c": {
+      "consecutive_failures": 0,
+      "etag": "W/\"26e8bd3d5932e13d4a721a74c206b1d3dfdd3dccea0368c10722979e5b403e19\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "a4c505eeafab98d1e1e497270d6c9e974fa8a8c6ba7f060cb33915e411dff39e",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gog.yaml"
+    },
+    "fc179e1d6331d819": {
+      "consecutive_failures": 0,
+      "etag": "W/\"2676a7bd640a3bf9fa415220ea902e57ec7a056cca1d183f3f9f97d4227baaeb\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "e1197204ea146067ae722d9cd5efbcdaa1167d2ef40e48dd10fdd10ce70a07c1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Adobe/Adobe.list"
+    },
+    "fe478933d63b4ceb": {
+      "consecutive_failures": 0,
+      "etag": "W/\"9b33d4c21714721931c2739a8f43a1e0610d16dc13aecf458b02f1f2ebf4dae0\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "ae9cb64c87c13e6d3fc7fa728ec73caac46e22d8bd9b3c0022a12274d431b3f4",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/azure.yaml"
+    },
+    "fe47f4449473a770": {
+      "consecutive_failures": 0,
+      "etag": "W/\"a6bb6df55782ff555cfb7f52e2978211f863e112eaa92124e34e7fb79049a9ad\"",
+      "first_failure": "",
+      "format": "auto",
+      "last_error": "",
+      "last_modified": "",
+      "raw_sha256": "34f561470c0ce30e61ce5dfd0532ba2174f547b3d3b5b3d140ac7c47238e6439",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/CloudGlobal/CloudGlobal.list"
+    }
+  }
+}

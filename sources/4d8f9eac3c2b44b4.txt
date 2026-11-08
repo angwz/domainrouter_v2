@@ -1,0 +1,6 @@
+# {"detected_format": "auto→surge", "entries": 5, "fetched_at": "2026-11-08T23:58:09+00:00", "format": "auto", "invalid": 0, "raw_sha256": "b6a5607200a67a6f581bd2ba6ee41b836d66f3d965db6e6fa50361304a041295", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UBI/UBI.list", "version": 1}
+d +.ubi.com
+d +.ubisoft-orbit-savegames.s3.amazonaws.com
+d +.ubisoft-uplay-savegames.s3.amazonaws.com
+d +.ubisoft.com
+d +.uplay.com

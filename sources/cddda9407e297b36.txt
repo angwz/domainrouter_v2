@@ -1,0 +1,20 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 19, "fetched_at": "2026-11-08T23:58:07+00:00", "format": "auto", "invalid": 0, "raw_sha256": "0681b5fe90979c22cb6165f9b33e8bd451bbbe26e0537bd9bcc1fa69f437f6a9", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/steam%40cn.yaml", "version": 1}
+d +.client-update.queniuqe.com
+d +.csgo.com.cn
+d +.csgo.wmsj.cn
+d +.dl.steam.clngaa.com
+d +.dota2.com.cn
+d +.dota2.wmsj.cn
+d +.gstore.val.manlaxy.com
+d +.st.dl.bscstorage.net
+d +.st.dl.eccdnx.com
+d +.st.dl.pinyuncloud.com
+d +.steamchina.com
+d +.steampowered.com.8686c.com
+d +.steamserver.net
+d +.steamstatic.com.8686c.com
+d +.steamusercontent.com
+d +.wmsjsteam.com
+d alibaba.cdn.steampipe.steamcontent.com
+d lv.queniujq.cn
+d xz.pphimalayanrt.com

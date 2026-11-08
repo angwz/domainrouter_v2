@@ -1,0 +1,25 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 25, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "2169a4fb2ee64d01a8e16edb22abc1f87a6c8fb5e95768fffd2d3bcad8d86d04", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-game-platforms-download%40cn.yaml", "version": 1}
+d alibaba.cdn.steampipe.steamcontent.com
+d assets1.xboxlive.cn
+d assets2.xboxlive.cn
+d blzdist-d3.necdn.leihuo.netease.com
+d blzdist-di.necdn.leihuo.netease.com
+d blzdist-hs.necdn.leihuo.netease.com
+d blzdist-ow.necdn.leihuo.netease.com
+d blzdist-phx.necdn.leihuo.netease.com
+d blzdist-wow.necdn.leihuo.netease.com
+d cdn-ali.content.steamchina.com
+d cdn-qc.content.steamchina.com
+d cdn-ws.content.steamchina.com
+d dl.delivery.mp.microsoft.com
+d dl.steam.clngaa.com
+d epicgames-download1-1251447533.file.myqcloud.com
+d lv.queniujq.cn
+d st-bak.viv.wanwang.space
+d st.dl.bscstorage.net
+d st.dl.eccdnx.com
+d tlu.dl.delivery.mp.microsoft.com
+d trts.baishancdnx.cn
+d ubisoftconnect.eo-edgefunctions7.com
+d uplaypc-s-ubisoft.cdn.ubionline.com.cn
+d xz.pphimalayanrt.com

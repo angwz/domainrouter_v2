@@ -1,0 +1,26 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 25, "fetched_at": "2026-11-08T23:58:21+00:00", "format": "auto", "invalid": 0, "raw_sha256": "28719d4dc071e22d4162210a238c9198032e36ee1ffc8d31d4156517c5d9d9f6", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/chinaunicom.yaml", "version": 1}
+d +.10010.com
+d +.10010.com.cn
+d +.10155.com
+d +.114menhu.com
+d +.169ol.com
+d +.chinaunicom.cn
+d +.chinaunicom.com
+d +.chinaunicom.com.cn
+d +.chinaunicom.com.hk
+d +.chinaunicomglobal.com
+d +.cuguplus.com
+d +.cuniq.com
+d +.cuniq.sg
+d +.mychinaunicom.com
+d +.smartont.net
+d +.unicom
+d +.unicompayment.com
+d +.wo-adv.cn
+d +.wo.cn
+d +.wo.com.cn
+d +.wo116114.com
+d +.wocloud.com.cn
+d +.woread.com.cn
+d +.wosms.cn
+d +.xn--8y0a063a

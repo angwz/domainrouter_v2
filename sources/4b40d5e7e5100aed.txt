@@ -1,0 +1,17 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 16, "fetched_at": "2026-11-08T23:58:19+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f892e0c94d56b72c6fdb7e12aab431b4203c5806edcc7453a46eb46433591005", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.yaml", "version": 1}
+d +.1drv.com
+d +.livefilestore.com
+d +.microsoftpersonalcontent.com
+d +.oneclient.sfx.ms
+d +.onedrive
+d +.onedrive.com
+d +.onedrive.live.com
+d +.onedriveupdater
+d +.photos.live.com
+d +.sharepoint.cn
+d +.sharepoint.com
+d +.sharepointonline.com
+d +.skydrive.wns.windows.com
+d +.spoprod-a.akamaihd.net
+d +.storage.live.com
+d +.storage.msn.com

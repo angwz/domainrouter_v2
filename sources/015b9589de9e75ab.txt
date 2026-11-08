@@ -1,0 +1,25 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 24, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "6aede2e962e4101b061a851f5615a5db3376a4c198b3b91177b36317e9faeffb", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.yaml", "version": 1}
+d +.chat.com
+d +.chatgpt.com
+d +.chatgpt.livekit.cloud
+d +.chatgpt.site
+d +.crixet.com
+d +.host.livekit.cloud
+d +.oaistatic.com
+d +.oaistatsig.com
+d +.oaiusercontent.com
+d +.openai.com
+d +.openai.com.cdn.cloudflare.net
+d +.openai.org
+d +.sora.com
+d +.turn.livekit.cloud
+d browser-intake-datadoghq.com
+d o33249.ingest.sentry.io
+d o33249.ingest.us.sentry.io
+d openai.qualtrics.com
+d openaiapi-site.azureedge.net
+d openaiassets.blob.core.windows.net
+d openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+d openaicom.imgix.net
+d openaicomproductionae4b.blob.core.windows.net
+d production-openaicom-storage.azureedge.net

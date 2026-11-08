@@ -1,0 +1,21 @@
+# {"detected_format": "auto→surge", "entries": 20, "fetched_at": "2026-11-08T23:58:11+00:00", "format": "auto", "invalid": 0, "raw_sha256": "255c924e26503a11d8f1d96b696ca623140686c7d34512c935fef27210f8b0b4", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DMM/DMM.list", "version": 1}
+d +.akabeesoft2.com
+d +.akabeesoft3.com
+d +.akatsukiworks.com
+d +.alicesoft.com
+d +.api-p.videomarket.jp
+d +.cosmiccute.com
+d +.ddo.jp
+d +.dmm-extension.com
+d +.dmm.co.jp
+d +.dmm.com
+d +.dmm.hk
+d +.dmmapis.com
+d +.dmmrex.com
+d +.hibiki-site.com
+d +.minori.ph
+d +.navismithapis-cdn.com
+d +.tenco.cc
+d +.wheel-soft.com
+n 125.6.189.7/32
+n 203.104.209.7/32

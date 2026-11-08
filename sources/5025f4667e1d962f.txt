@@ -1,0 +1,22 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 21, "fetched_at": "2026-11-08T23:58:21+00:00", "format": "auto", "invalid": 0, "raw_sha256": "215a55a63a7a8f963fc6122e803f876d66ce0c4233b9da8b26d932a7f5b1dcbd", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/chinatelecom.yaml", "version": 1}
+d +.189.cn
+d +.189cube.com
+d +.189smarthome.com
+d +.21cn.com
+d +.bestpay.cn
+d +.bestpay.com.cn
+d +.chinatelecom-h.com
+d +.chinatelecom.com.cn
+d +.chinatelecomglobal.com
+d +.chinatelecomhk.com
+d +.chntel.com
+d +.ctexcel.ca
+d +.ctexcel.com
+d +.ctexcel.com.hk
+d +.ctexcel.fr
+d +.ctexcel.us
+d +.dlife.cn
+d +.mnc011.mcc460.pub.3gppnetwork.org
+d +.play.cn
+d +.tv189.com
+d +.vnet.cn

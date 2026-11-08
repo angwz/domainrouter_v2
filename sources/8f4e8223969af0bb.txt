@@ -1,0 +1,5 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 4, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "db89b3852369e0a5428b3a5eceb7ba55a55af7d0382357b8990157259fde1c3c", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nvidia%40cn.yaml", "version": 1}
+d +.geforce.cn
+d +.gputechconf.cn
+d +.nvidia.cn
+d cn.download.nvidia.com

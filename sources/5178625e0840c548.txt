@@ -1,0 +1,13 @@
+# {"detected_format": "auto→surge", "entries": 12, "fetched_at": "2026-11-08T23:58:12+00:00", "format": "auto", "invalid": 0, "raw_sha256": "034b1730ac0adb39a8a88685d6f6864a7070a14d722acbf8f3859806b28b92a4", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Binance/Binance.list", "version": 1}
+d +.appsflayer.com
+d +.binance.cloud
+d +.binance.com
+d +.binance.me
+d +.binancecnt.com
+d +.binancefuture.com
+d +.bnappzh.co
+d +.bnbstatic.com
+d +.bnbzh.ac
+d +.bntrace.com
+d +.saasexch.cc
+d +.saasexch.com

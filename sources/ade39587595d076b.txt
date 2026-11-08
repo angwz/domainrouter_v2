@@ -1,0 +1,14 @@
+# {"detected_format": "auto→surge", "entries": 13, "fetched_at": "2026-11-08T23:58:19+00:00", "format": "auto", "invalid": 0, "raw_sha256": "020e742fe4a7084268af6aa52c4153bf5bfd54c4d7a17466f42cd3461609e32a", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list", "version": 1}
+d +.amemv.com
+d +.douyincdn.com
+d +.douyinpic.com
+d +.douyinstatic.com
+d +.douyinvod.com
+d +.idouyinvod.com
+d +.ixigua.com
+d +.ixiguavideo.com
+d +.pstatp.com
+d +.snssdk.com
+d +.toutiao.com
+d lf3-static.bytednsdoc.com
+d v5-dy-o-abtest.zjcdn.com

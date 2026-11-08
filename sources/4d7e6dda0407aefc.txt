@@ -1,0 +1,25 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 24, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "834621d5df832a7275a302d4f08dccbcc18553d9aa801fdba428a2b4080e5781", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev%40cn.yaml", "version": 1}
+d +.cdn.jetbrains.com
+d +.jetbrains.com.cn
+d +.microsoftreactor.cn
+d +.microsoftreactor.com.cn
+d +.reactorms.com.cn
+d +.researchkit.cn
+d +.researchkit.com.cn
+d +.swiftui.cn
+d +.swiftui.com.cn
+d cdn-cn.apple-mapkit.com
+d cdn-cn1.apple-mapkit.com
+d cdn-cn2.apple-mapkit.com
+d cdn-cn3.apple-mapkit.com
+d cdn-cn4.apple-mapkit.com
+d cdn.ampproject.org
+d cdn.apple-mapkit.com
+d cdn1.apple-mapkit.com
+d cdn2.apple-mapkit.com
+d cdn3.apple-mapkit.com
+d cdn4.apple-mapkit.com
+d crashlyticsreports-pa.googleapis.com
+d download.visualstudio.microsoft.com
+d firebase-settings.crashlytics.com
+d update.crashlytics.com

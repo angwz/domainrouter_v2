@@ -1,0 +1,25 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 24, "fetched_at": "2026-11-08T23:58:19+00:00", "format": "auto", "invalid": 0, "raw_sha256": "8df5a09035034ed72169f566ccc08779f30cebc2bf47681bf512fceef1296a68", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.yaml", "version": 1}
+d +.fast.com
+d +.netflix.ca
+d +.netflix.com
+d +.netflix.com.edgesuite.net
+d +.netflix.net
+d +.netflixdnstest0.com
+d +.netflixdnstest1.com
+d +.netflixdnstest10.com
+d +.netflixdnstest2.com
+d +.netflixdnstest3.com
+d +.netflixdnstest4.com
+d +.netflixdnstest5.com
+d +.netflixdnstest6.com
+d +.netflixdnstest7.com
+d +.netflixdnstest8.com
+d +.netflixdnstest9.com
+d +.netflixinvestor.com
+d +.netflixtechblog.com
+d +.nflxext.com
+d +.nflximg.com
+d +.nflximg.net
+d +.nflxsearch.net
+d +.nflxso.net
+d +.nflxvideo.net

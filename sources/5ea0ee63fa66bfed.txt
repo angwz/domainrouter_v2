@@ -1,0 +1,16 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 15, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "d62761131d93b5079fc4d201f56b7ed8331dede7cee29ee8134189c3d21a9e23", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-wiki-cn.yaml", "version": 1}
+d +.allhistory.com
+d +.chaz.fun
+d +.fgo.wiki
+d +.huijistatic.com
+d +.huijiwiki.com
+d +.mbalib.com
+d +.mcmod.cn
+d +.pwsannong.com
+d +.qiuwen.wiki
+d +.qiuwenbaike.cn
+d +.sec-wiki.com
+d +.shidianbaike.com
+d +.zdic.net
+d app.moegirl.org.cn
+d storage.moegirl.org.cn

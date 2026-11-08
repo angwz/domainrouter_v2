@@ -1,0 +1,11 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 10, "fetched_at": "2026-11-08T23:58:12+00:00", "format": "auto", "invalid": 0, "raw_sha256": "4326065de15c90f44a0c0f9c7767c60857ee96c161f00abf2baa0eca55c8e8f1", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/okx.yaml", "version": 1}
+d +.okex.com
+d +.oklink.com
+d +.okx-dns.com
+d +.okx-dns1.com
+d +.okx-dns2.com
+d +.okx.ac
+d +.okx.cab
+d +.okx.com
+d +.okx.com.cdn.cloudflare.net
+d +.xlayer.tech

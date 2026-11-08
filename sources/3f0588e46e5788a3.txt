@@ -1,0 +1,19 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 18, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "b8b08601c5f8e84d7e5728f4f9ae0d1d26d81b0846567cddf805460ef3eb8178", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/wikimedia.yaml", "version": 1}
+d +.mediawiki.org
+d +.toolforge.org
+d +.w.wiki
+d +.wikibooks.org
+d +.wikidata.org
+d +.wikimedia.org
+d +.wikimediacloud.org
+d +.wikimediafoundation.org
+d +.wikinews.org
+d +.wikipedia.org
+d +.wikiquote.org
+d +.wikisource.org
+d +.wikiversity.org
+d +.wikivoyage.org
+d +.wiktionary.org
+d +.wmcloud.org
+d +.wmflabs.org
+d +.wmfusercontent.org

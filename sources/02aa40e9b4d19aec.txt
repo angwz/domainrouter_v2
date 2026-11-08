@@ -1,0 +1,13 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 12, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "a73158ed36c066995631c08f53fb39e653b1850d8b78cb0f4780e17de694246b", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/linkedin.yaml", "version": 1}
+d +.bizographics.com
+d +.l-0005.dc-msedge.net
+d +.l-0005.l-msedge.net
+d +.licdn.cn
+d +.licdn.com
+d +.linkedin.at
+d +.linkedin.cn
+d +.linkedin.com
+d +.lnkd.in
+d e122475.dscg.akamaiedge.net
+d licdn.cn.cdn20.com
+d linkedin.sc.omtrdc.net

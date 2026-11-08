@@ -1,0 +1,11 @@
+# {"detected_format": "auto→surge", "entries": 10, "fetched_at": "2026-11-08T23:58:07+00:00", "format": "auto", "invalid": 0, "raw_sha256": "48734bfe68dbf1e01c68a2b81931e000c50d8b824d3658704802b034908e6510", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/non_ip/download.txt", "version": 1}
+c DOMAIN-WILDCARD,*.s3.*.backblazeb2.com
+c DOMAIN-WILDCARD,cdn-*.comaps.app
+c DOMAIN-WILDCARD,cdn-*.comaps.tech
+c DOMAIN-WILDCARD,cdn-*.organicmaps.app
+c DOMAIN-WILDCARD,dl-*.mypikpak.com
+c DOMAIN-WILDCARD,download*.mediafire.com
+c DOMAIN-WILDCARD,ftp.??.debian.org
+c DOMAIN-WILDCARD,ftp.??.freebsd.org
+c DOMAIN-WILDCARD,s3.*.backblazeb2.com
+d 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe

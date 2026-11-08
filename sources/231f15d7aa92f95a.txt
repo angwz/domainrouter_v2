@@ -1,0 +1,20 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 19, "fetched_at": "2026-11-08T23:58:21+00:00", "format": "auto", "invalid": 0, "raw_sha256": "69bc9a96ff5768d901270bad6f393b925e661ae13bd4ab4427c90a16bd451682", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/meituan.yaml", "version": 1}
+d +.100.me
+d +.51ping.com
+d +.baobaoaichi.cn
+d +.ddcorp.net
+d +.ddfresh.net
+d +.ddimg.mobi
+d +.ddmaicai.net
+d +.ddmc.mobi
+d +.dduser.mobi
+d +.ddxq.mobi
+d +.dianping.com
+d +.dpfile.com
+d +.imaicai.mobi
+d +.maoyan.com
+d +.meituan.com
+d +.meituan.net
+d +.mtyun.com
+d +.neixin.cn
+d +.sankuai.com

@@ -1,0 +1,26 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 25, "fetched_at": "2026-11-08T23:58:09+00:00", "format": "auto", "invalid": 0, "raw_sha256": "cef5ed733306f7324ab9f5403ff180f51d680e2b584b798ddab97e3f376f3e53", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/blizzard.yaml", "version": 1}
+d +.battle.net
+d +.blizzard.com
+d +.blizzardgearstore.com
+d +.blz-contentstack.com
+d +.diablo.com
+d +.diablo3.com
+d +.diablo4.com
+d +.diabloimmortal.com
+d +.firesidegatherings.com
+d +.heroesofthestorm.com
+d +.playhearthstone.com
+d +.playoverwatch.com
+d +.playwarcraft3.com
+d +.starcraft.com
+d +.starcraft2.com
+d +.worldofwarcraft.com
+d blizzard.nefficient.co.kr
+d blizzcon-a.akamaihd.net
+d blzddist1-a.akamaihd.net
+d blzddistkr1-a.akamaihd.net
+d blzmedia-a.akamaihd.net
+d blznav.akamaized.net
+d bnetcmsus-a.akamaihd.net
+d bnetproduct-a.akamaihd.net
+d bnetshopus.akamaized.net

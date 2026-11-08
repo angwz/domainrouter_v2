@@ -1,0 +1,6 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 5, "fetched_at": "2026-11-08T23:58:09+00:00", "format": "auto", "invalid": 0, "raw_sha256": "4ce187a25fe79284addebf59cc7848cd31f5bbaae05cc83537a1345af5c49201", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/playstation.yaml", "version": 1}
+d +.playstation
+d +.playstation.com
+d +.playstation.net
+d +.playstationnetwork.com
+d +.sonyentertainmentnetwork.com

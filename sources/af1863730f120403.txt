@@ -1,0 +1,2 @@
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f5ad2cdd08a83ab13986df4b51265b351263ce2b3530bfb066680064cbad9c29", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-cryptocurrency%40cn.yaml", "version": 1}
+d +.oklink.com

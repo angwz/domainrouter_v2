@@ -1,0 +1,18 @@
+# {"detected_format": "auto→surge", "entries": 17, "fetched_at": "2026-11-08T23:58:07+00:00", "format": "auto", "invalid": 0, "raw_sha256": "82c144434e9199c524d95caa8e3659c9f6f1de9fd23b223a58b5d3c821923936", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list", "version": 1}
+d +.cm.steampowered.com
+d +.steamchina.com
+d +.steamcontent.com
+d +.steamserver.net
+d +.steamusercontent.com
+d csgo.wmsj.cn
+d dl.steam.clngaa.com
+d dl.steam.ksyna.com
+d dota2.wmsj.cn
+d st.dl.bscstorage.net
+d st.dl.eccdnx.com
+d st.dl.pinyuncloud.com
+d steampipe.steamcontent.tnkjmec.com
+d steampowered.com.8686c.com
+d steamstatic.com.8686c.com
+d wmsjsteam.com
+d xz.pphimalayanrt.com

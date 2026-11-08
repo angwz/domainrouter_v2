@@ -1,0 +1,9 @@
+# {"detected_format": "auto→surge", "entries": 8, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "8437bd0bbf3214170f6601f3a9b34d45a7684c9e9f8d7554b608142be8a2e80b", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Reddit/Reddit.list", "version": 1}
+d +.redd.it
+d +.reddit.com
+d +.redditmail.com
+d +.redditmedia.com
+d +.redditstatic.com
+d +.reddituploads.com
+d +.reddituploads.com.cdn-cf.behance.net
+d +.reddituploads.com.cdn-cf.dropbox.com

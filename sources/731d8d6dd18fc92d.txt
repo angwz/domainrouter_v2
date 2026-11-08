@@ -1,0 +1,4 @@
+# {"detected_format": "auto→surge", "entries": 3, "fetched_at": "2026-11-08T23:58:13+00:00", "format": "auto", "invalid": 0, "raw_sha256": "eee1945a601da063462eb0cb2784601513a180bf5ab78377904e4689573bfc65", "skipped": 0, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OKX/OKX.list", "version": 1}
+d +.okex.com
+d +.oklink.com
+d +.okx.com
