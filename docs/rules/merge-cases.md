@@ -295,6 +295,8 @@ behavior 自动判断：`payload` 全是 `TYPE,值` → classical；全是地址
 
 ## 7. classical 的去重与跨类型关系
 
+去重之前，上游中范围过宽的规则（如 `DOMAIN-KEYWORD,ads`）已被过滤，见 [broad-rules](broad-rules.md)。下表的输入都是过滤后仍保留的规则。
+
 | 同一合集中的输入 | 输出 | 原因 |
 | --- | --- | --- |
 | `DOMAIN-KEYWORD,ads` 出现两次 | 一条 | 规范化文本相同 |

@@ -30,9 +30,16 @@
 
 ## 规则数据
 
-本项目不内置任何第三方规则数据。`my.wei` 引用的上游（例如 blackmatrix7/ios_rule_script、MetaCubeX/meta-rules-dat、ruleset.skk.moe）在运行时下载，各自适用其作者的许可与使用条款。`release` 分支发布的规则文件由这些数据转换、合并而来，再分发时请遵守相应上游的条款。
+本项目不内置第三方规则列表。`my.wei` 引用的上游（例如 blackmatrix7/ios_rule_script、MetaCubeX/meta-rules-dat、ruleset.skk.moe）在运行时下载，各自适用其作者的许可与使用条款。`release` 分支发布的规则文件由这些数据转换、合并而来，再分发时请遵守相应上游的条款。
 
 `state` 分支保存的是规范化后的成员，不是上游原文，但仍源自上游数据，同样适用上述说明。
+
+## 打包的数据（随仓库与 wheel 分发）
+
+| 文件 | 内容 | 来源 | 许可 |
+| --- | --- | --- | --- |
+| `src/domainrouter_v2/data/public_suffix_icann.txt` | Public Suffix List 的 ICANN 段（去注释，IDN 转为 punycode） | [publicsuffix/list@7a21dc3](https://github.com/publicsuffix/list/blob/7a21dc3491d43db036124fdd6a3a77d1cc44ad8a/public_suffix_list.dat) | MPL-2.0 |
+| `src/domainrouter_v2/data/broad_keywords.txt` | 宽泛关键词表：本项目整理的词表，部分词选自 SecLists 的 DNS 标签统计 | [danielmiessler/SecLists@6106054](https://github.com/danielmiessler/SecLists/blob/61060549893d61b428d2184bb719abf23b4b3f13/Discovery/DNS/subdomains-top1million-5000.txt) | 选词来源为 MIT |
 
 ## 参考实现
 

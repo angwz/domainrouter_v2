@@ -17,6 +17,7 @@ my.wei + groups.toml ──┐
 - **读懂多种来源格式**：Mihomo、Surge、Loon、sing-box、AdGuard DNS、hosts、dnsmasq，全部按各自官方文档的语义转换；只保留匹配条件，上游自带的策略（`DIRECT`、`REJECT` 等）和附加参数一律剥离。
 - **精确去重与合并**：域名按完整标签判断包含关系（含 `*` 通配），IP 网段按区间精确合并，结果既不扩大也不缩小匹配范围。
 - **为匹配效率规划输出**：能放进 domain/ipcidr 集合的条件都放进集合（内核中为 O(1)/O(log n) 查找），classical 只保留集合表达不了的条件并按成本排序；相邻且目标相同的合集合并成一组文件，减少 RULE-SET 条数。
+- **拦住过宽的上游规则**：`DOMAIN-KEYWORD,ads`、`0.0.0.0/0`、`NETWORK,UDP` 这类接近“全部流量”的上游条目会被过滤；关键词、GEOIP、整个公共后缀等宽泛规则逐条列入清单供你检查（[判定规则](docs/rules/broad-rules.md)）。
 - **不擅自改你的意图**：手写规则按原样保留，`[Rules]` 顺序就是匹配优先级。
 - **每天自动更新**：上游变化就重新生成；内容没变不提交；某个上游失败时沿用它上次成功的内容，并在更新说明里提醒。
 - **有证据的验证**：独立参考实现对照优化前后的匹配结果，再用固定版本 Mihomo 的真实规则引擎复核。
@@ -43,8 +44,10 @@ uv run --locked domainrouter_v2 explain --host video.cdn.example.org
 clash-domain/Streaming.yaml      clash-domain/Work.yaml
 clash-ipcidr/Streaming-ipcidr.yaml  clash-ipcidr/Work-ipcidr.yaml
 clash-classic/Streaming-classic.yaml  clash-classic/Work-classic.yaml
-rulesets.toml  groups.toml  manifest.json
+rulesets.toml  groups.toml  manifest.json  reports/broad-rules.md
 ```
+
+每个规则文件开头有注释，说明合集、条目数、策略组和来源；classical 文件按规则类型分节。注释里不写时间，所以内容不变时文件也不变。
 
 使用自己的配置时，编辑仓库根目录的 `my.wei`、`subconverter_config/groups.toml` 和 `config/domainrouter_v2.toml`，然后：
 
@@ -79,6 +82,7 @@ MATCH: 🐟 Final
 | --- | --- |
 | my.wei 语法与语义 | [docs/my-wei.md](docs/my-wei.md) |
 | 来源格式、去重合并的全部案例 | [docs/rules/merge-cases.md](docs/rules/merge-cases.md) |
+| 宽泛规则的过滤与提醒 | [docs/rules/broad-rules.md](docs/rules/broad-rules.md) |
 | 配置文件 | [docs/configuration.md](docs/configuration.md) |
 | 接入 subconverter | [docs/subconverter.md](docs/subconverter.md) |
 | 每日自动更新、启用与回滚 | [docs/daily-automation.md](docs/daily-automation.md) |

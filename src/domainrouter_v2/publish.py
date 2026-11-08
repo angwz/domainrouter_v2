@@ -28,15 +28,16 @@ def stage_release(release_dir: Path, files: dict[str, bytes], report: RunReport)
             for stale in directory.glob("*.yaml"):
                 if f"{partition.directory}/{stale.name}" not in files:
                     stale.unlink()
-    for path, data in files.items():
-        if path in PUBLISHED_FILES or path.split("/", 1)[0] in {p.directory for p in PARTITIONS}:
-            target = release_dir / path
-            target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(data)
     reports = release_dir / REPORT_DIR
     if reports.exists():
         shutil.rmtree(reports)
     reports.mkdir()
+    for path, data in files.items():
+        top = path.split("/", 1)[0]
+        if path in PUBLISHED_FILES or top in {p.directory for p in PARTITIONS} or top == REPORT_DIR:
+            target = release_dir / path
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
     (reports / "latest.md").write_bytes(report.to_markdown())
     (reports / "changes.json").write_bytes(report.to_json())
     return True

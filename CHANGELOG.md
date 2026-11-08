@@ -13,3 +13,5 @@
 - 来源快照与健康检查；上游失败时沿用上次成功的内容。
 - 命令：`check`、`fetch`、`build`、`publish`、`verify`（语义层/内核层）、`explain`、`tools prepare`。
 - 每日 GitHub Actions 工作流与本地演练脚本。
+- 宽泛规则：过滤上游中过宽的规则（通用词关键词、`0.0.0.0/0`、`NETWORK`、含 80/443 的 `DST-PORT` 等），并把所有宽泛规则列入随发布的 `reports/broad-rules.md`；手写规则只提醒。
+- 规则文件头注释（合集、条目数、策略组、来源）与 classical 按类型分节。

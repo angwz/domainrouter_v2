@@ -13,8 +13,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-from domainrouter_v2.build import BuildResult, inline_dns_routes
+from domainrouter_v2.build import BROAD_REPORT, BuildResult, inline_dns_routes
 from domainrouter_v2.config import Config
+from domainrouter_v2.emit import read_payload
 from domainrouter_v2.planner import PARTITIONS
 
 MAX_LISTED = 200
@@ -31,16 +32,6 @@ class FileChange:
     @property
     def changed(self) -> bool:
         return bool(self.added or self.removed)
-
-
-def read_payload(data: bytes) -> list[str]:
-    """读取本项目写出的 provider 文件（每行一个单引号条目）。"""
-    items: list[str] = []
-    for line in data.decode("utf-8").splitlines():
-        stripped = line.strip()
-        if stripped.startswith("- '") and stripped.endswith("'"):
-            items.append(stripped[3:-1].replace("''", "'"))
-    return items
 
 
 def diff_files(previous_dir: Path | None, files: dict[str, bytes]) -> list[FileChange]:
@@ -107,6 +98,8 @@ class RunReport:
     optimization: list[dict[str, Any]]
     dns_routes: list[str]
     stale_days: int
+    broad_filtered: list[dict[str, str]] = field(default_factory=list)
+    broad_new: list[dict[str, str]] = field(default_factory=list)
 
     @property
     def changed(self) -> bool:
@@ -132,6 +125,7 @@ class RunReport:
             "skipped": [{"reason": r, "count": n, "example": e} for r, n, e in self.skipped],
             "optimization": self.optimization,
             "dns_routes": self.dns_routes,
+            "broad": {"filtered": self.broad_filtered, "new": self.broad_new},
         }
         return (json.dumps(data, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
 
@@ -156,6 +150,7 @@ class RunReport:
             lines.append("")
             lines += [f"- {s['url']}（失败 {s['failed_days']} 天：{s['error']}）" for s in dead]
             lines.append("")
+        lines += self._broad_section()
         lines += ["## 来源", ""]
         fresh = sum(1 for s in self.sources if not s["failures"])
         lines.append(
@@ -198,6 +193,28 @@ class RunReport:
             lines += [f"- `{route}`" for route in self.dns_routes]
         return ("\n".join(lines) + "\n").encode("utf-8")
 
+    def _broad_section(self) -> list[str]:
+        """宽泛规则放在来源之前：过滤与新增都需要用户留意。完整清单见 broad-rules.md。"""
+        lines = ["## 宽泛规则", ""]
+        lines.append(
+            f"本次过滤上游规则 {len(self.broad_filtered)} 条，"
+            f"新发布的宽泛规则 {len(self.broad_new)} 条。"
+            "完整清单见 [broad-rules.md](broad-rules.md)。"
+        )
+        if self.broad_filtered:
+            lines += ["", "| 已过滤 | 原因 | 合集 | 来源 |", "| --- | --- | --- | --- |"]
+            lines += [
+                f"| `{f['rule']}` | {f['reason']} | {f['collection']} | {f['source']} |"
+                for f in self.broad_filtered[:MAX_LISTED]
+            ]
+        if self.broad_new:
+            lines += ["", "| 新发布 | 说明 | 文件 |", "| --- | --- | --- |"]
+            lines += [
+                f"| `{n['rule']}` | {n['reason']} | `{n['path']}` |"
+                for n in self.broad_new[:MAX_LISTED]
+            ]
+        return [*lines, ""]
+
 
 def _listing(title: str, items: list[str]) -> list[str]:
     if not items:
@@ -223,7 +240,7 @@ def make_report(
         previous_dir is None
         or not (previous_dir / name).exists()
         or (previous_dir / name).read_bytes() != result.files[name]
-        for name in ("rulesets.toml", "groups.toml")
+        for name in ("rulesets.toml", "groups.toml", BROAD_REPORT)
     )
     sources = []
     for source in result.sources:
@@ -257,6 +274,17 @@ def make_report(
                 + max(0, artifact.network_input - len(artifact.networks)),
             }
         )
+    added = {(c.path, item) for c in changes for item in c.added}
+    broad_new = [
+        {"path": listing.path, "rule": rule.text, "reason": rule.verdict.reason}
+        for listing in result.broad
+        for rule in listing.rules
+        if (listing.path, rule.text) in added
+    ]
+    broad_filtered = [
+        {"rule": f.text, "reason": f.verdict.reason, "collection": f.collection, "source": f.source}
+        for f in sorted(result.filtered, key=lambda f: (f.collection, f.text, f.source))
+    ]
     return RunReport(
         generated_at=now.isoformat(timespec="seconds"),
         generation=manifest["generation"],
@@ -267,4 +295,6 @@ def make_report(
         optimization=optimization,
         dns_routes=inline_dns_routes(result.profile),
         stale_days=config.fetch.stale_warning_days,
+        broad_filtered=broad_filtered,
+        broad_new=broad_new,
     )

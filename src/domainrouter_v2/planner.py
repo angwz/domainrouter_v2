@@ -60,6 +60,7 @@ class Artifact:
     domain_events: DomainEvents
     classical_events: ClassicalEvents
     network_input: int
+    targets: tuple[str, ...] = ()  # 引用该块的策略组，按 [Rules] 顺序
 
     def members(self, partition: Partition) -> list[Member]:
         if partition is DOMAIN:
@@ -139,6 +140,8 @@ def build_plan(
             if names_for_route is None:
                 continue  # 已并入前一块
             artifact = plan.artifacts[names_for_route]
+            if route.target not in artifact.targets:
+                artifact.targets = (*artifact.targets, route.target)
             parts = artifact.partitions()
             if not parts:
                 if set(names_for_route) <= allow_empty:

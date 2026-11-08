@@ -11,7 +11,12 @@ from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).parents[1]
-ALLOWED_DATA = {"domainrouter_v2/py.typed", "domainrouter_v2/tools.lock.json"}
+ALLOWED_DATA = {
+    "domainrouter_v2/py.typed",
+    "domainrouter_v2/tools.lock.json",
+    "domainrouter_v2/data/broad_keywords.txt",
+    "domainrouter_v2/data/public_suffix_icann.txt",
+}
 
 
 def test_project_identity() -> None:

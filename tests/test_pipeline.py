@@ -11,8 +11,9 @@ import pytest
 from domainrouter_v2.build import build
 from domainrouter_v2.cli import main
 from domainrouter_v2.config import load_config
+from domainrouter_v2.emit import read_payload
 from domainrouter_v2.publish import stage_release
-from domainrouter_v2.report import make_report, read_payload
+from domainrouter_v2.report import make_report
 
 EXAMPLE = Path(__file__).parents[1] / "examples" / "minimal"
 NOW = datetime(2026, 11, 8, tzinfo=UTC)

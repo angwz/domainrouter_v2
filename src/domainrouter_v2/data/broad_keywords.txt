@@ -1,0 +1,124 @@
+# 宽泛关键词表：上游 DOMAIN-KEYWORD 的关键词与下列任一词相同时，整条规则被过滤。
+# 比较前关键词转小写，并去掉首尾的 "." 与 "-"（如 "analytics." 视为 "analytics"）。
+# 手写在 my.wei 中的规则不受此表影响。判定规则见 docs/rules/broad-rules.md。
+#
+# 收录原则：只收通用词，不收品牌名（google、telegram 等只提醒，不过滤）。
+# 通用词作为子串，会命中大量无关域名，例如 ads 会命中 uploads、downloads、roads。
+# 每行一个词；"#" 开头为注释。维护时请注明依据。
+
+# [A] 最常见的 DNS 标签：SecLists Discovery/DNS/subdomains-top1million-5000.txt
+#     前 1000 名中的通用词（MIT 许可，提交 61060549893d61b428d2184bb719abf23b4b3f13）。
+#     这些词本身就是大量网站的子域名，作为关键词几乎必然误伤。
+www
+mail
+email
+webmail
+smtp
+imap
+pop
+ftp
+dns
+vpn
+api
+cdn
+cloud
+web
+dev
+test
+demo
+beta
+staging
+admin
+portal
+login
+auth
+account
+sso
+secure
+support
+help
+docs
+wiki
+blog
+forum
+news
+chat
+media
+image
+images
+img
+video
+videos
+photo
+photos
+music
+live
+stream
+radio
+app
+apps
+mobile
+shop
+store
+pay
+payment
+download
+downloads
+upload
+update
+static
+assets
+content
+files
+file
+data
+cache
+proxy
+gateway
+server
+service
+services
+status
+monitor
+stats
+stat
+home
+info
+search
+host
+hosting
+office
+game
+games
+play
+social
+share
+ads
+analytics
+track
+tracker
+tracking
+log
+logs
+click
+metrics
+report
+reports
+promo
+marketing
+sync
+push
+online
+open
+new
+
+# [B] 主流广告/隐私规则集中实际用作 DOMAIN-KEYWORD 的通用词：
+#     blackmatrix7/ios_rule_script Advertising、ACL4SSR BanAD；
+#     ClashX 规则指南以 DOMAIN-KEYWORD,ads 为例提示“谨慎使用”。
+advert
+adserver
+adservice
+adsystem
+# 拼音：广告、分析
+guanggao
+fenxi

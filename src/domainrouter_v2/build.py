@@ -11,14 +11,23 @@ import tempfile
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from domainrouter_v2.breadth import (
+    Breadth,
+    BreadthPolicy,
+    FileListing,
+    FilteredRule,
+    ListedRule,
+    Verdict,
+    render_listing,
+)
 from domainrouter_v2.config import Config
 from domainrouter_v2.diagnostics import Code, Diagnostic, error, has_errors, warning
 from domainrouter_v2.emit import render_outputs, sha256
 from domainrouter_v2.groups import is_known_target, validate_groups
 from domainrouter_v2.model.profile import LocalMember, Profile, RouteKind, SourceRef
-from domainrouter_v2.model.rule import Member
+from domainrouter_v2.model.rule import Member, render_member
 from domainrouter_v2.parse.document import parse_profile
-from domainrouter_v2.planner import Plan, build_plan
+from domainrouter_v2.planner import PARTITIONS, Plan, build_plan
 from domainrouter_v2.sources.snapshot import Snapshot, StateStore, source_id
 
 
@@ -40,6 +49,8 @@ class BuildResult:
     files: dict[str, bytes] = field(default_factory=dict)
     sources: list[SourceState] = field(default_factory=list)
     collection_members: dict[str, list[Member]] = field(default_factory=dict)
+    filtered: list[FilteredRule] = field(default_factory=list)
+    broad: list[FileListing] = field(default_factory=list)
 
     @property
     def ok(self) -> bool:
@@ -116,19 +127,85 @@ def load_sources(config: Config, result: BuildResult, *, required: bool) -> None
             )
 
 
-def collect_members(result: BuildResult) -> None:
+BROAD_REPORT = "reports/broad-rules.md"
+
+
+class Classifier:
+    """按成员缓存判定结果：同一条规则常出现在多个来源和合集中。"""
+
+    def __init__(self) -> None:
+        self.policy = BreadthPolicy.load()
+        self.cache: dict[Member, Verdict] = {}
+
+    def __call__(self, member: Member) -> Verdict:
+        verdict = self.cache.get(member)
+        if verdict is None:
+            verdict = self.cache[member] = self.policy.classify(member)
+        return verdict
+
+
+def collect_members(result: BuildResult) -> Classifier:
+    """汇总每个合集的成员，并过滤上游中的 EXCESSIVE 规则（手写规则只提醒）。"""
     assert result.profile is not None
+    classify = Classifier()
     snapshots = {s.sid: s.snapshot for s in result.sources}
     for name, collection in result.profile.collections.items():
         members: list[Member] = []
         for item in collection.items:
             if isinstance(item, LocalMember):
                 members.append(item.member)
-            else:
-                snap = snapshots.get(source_id(item.url, item.format, item.exclude_types))
-                if snap is not None:
-                    members.extend(snap.members())
+                verdict = classify(item.member)
+                if verdict.level is Breadth.EXCESSIVE:
+                    result.diagnostics.append(
+                        warning(
+                            Code.BROAD_RULE,
+                            f"手写规则范围过大（{verdict.reason}），按原样保留："
+                            f"{render_member(item.member)}",
+                            item.span,
+                        )
+                    )
+                continue
+            snap = snapshots.get(source_id(item.url, item.format, item.exclude_types))
+            if snap is None:
+                continue
+            for member in snap.members():
+                verdict = classify(member)
+                if verdict.level is Breadth.EXCESSIVE:
+                    result.filtered.append(
+                        FilteredRule(render_member(member), verdict, name, item.url)
+                    )
+                else:
+                    members.append(member)
         result.collection_members[name] = members
+    if result.filtered:
+        result.diagnostics.append(
+            warning(
+                Code.BROAD_FILTERED,
+                f"过滤了 {len(result.filtered)} 条范围过大的上游规则，详见 {BROAD_REPORT}",
+            )
+        )
+    return classify
+
+
+def broad_listing(result: BuildResult, classify: Classifier) -> list[FileListing]:
+    """已发布规则文件中范围较大的条目，按文件列出。"""
+    assert result.plan is not None and result.profile is not None
+    listings: list[FileListing] = []
+    for artifact in result.plan.artifacts.values():
+        handwritten = {
+            item.member
+            for name in artifact.collections
+            for item in result.profile.collections[name].locals
+        }
+        for partition in PARTITIONS:
+            rules = tuple(
+                ListedRule(render_member(m), verdict, m in handwritten)
+                for m in artifact.members(partition)
+                if (verdict := classify(m)).level is not Breadth.NARROW
+            )
+            if rules:
+                listings.append(FileListing(artifact.path(partition), artifact.targets, rules))
+    return sorted(listings, key=lambda listing: listing.path)
 
 
 def build(config: Config, *, write: bool = True) -> BuildResult:
@@ -140,7 +217,7 @@ def build(config: Config, *, write: bool = True) -> BuildResult:
     load_sources(config, result, required=True)
     if not result.ok:
         return result
-    collect_members(result)
+    classify = collect_members(result)
     plan = build_plan(
         result.profile,
         result.collection_members,
@@ -155,15 +232,19 @@ def build(config: Config, *, write: bool = True) -> BuildResult:
     source_hashes = {
         s.sid: s.snapshot.content_sha256 for s in result.sources if s.snapshot is not None
     }
+    result.broad = broad_listing(result, classify)
     result.files = render_outputs(
         plan,
+        result.profile,
         groups_bytes,
+        {BROAD_REPORT: render_listing(result.filtered, result.broad)},
         inputs={
             "rules": sha256(rules_bytes),
             "groups": sha256(groups_bytes),
             "sources": dict(sorted(source_hashes.items())),
         },
         settings={"base_url": config.base_url, "interval_seconds": config.interval_seconds},
+        report_url=config.resource_url("reports/latest.md"),
     )
     if write:
         write_tree(config.output, result.files)

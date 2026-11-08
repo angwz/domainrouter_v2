@@ -29,7 +29,7 @@ import yaml
 
 from domainrouter_v2.build import BuildResult
 from domainrouter_v2.config import Config
-from domainrouter_v2.emit import provider_yaml
+from domainrouter_v2.emit import provider_yaml, read_payload
 from domainrouter_v2.model.domain import DomainPattern
 from domainrouter_v2.model.ip import Network
 from domainrouter_v2.model.rule import Member
@@ -255,7 +255,7 @@ def run_kernel(config: Config, result: BuildResult) -> KernelResult:
                     line["provider"]: line["count"] for line in lines if line["kind"] == "provider"
                 }
                 for name, (_, path) in providers.items():
-                    expected_counts[name] = len(files[path].decode("utf-8").splitlines()) - 1
+                    expected_counts[name] = len(read_payload(files[path]))
                     if loaded.get(name) != expected_counts[name]:
                         outcome.count_mismatches.append(
                             f"{name}：文件 {expected_counts[name]} 条，"

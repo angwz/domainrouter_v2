@@ -26,14 +26,12 @@
 
 ## 需要你知道或决定的事
 
-1. **v1 的 `release` 分支目前是空的。** 2026-11-08 读取时，其最新提交为 `0addd6f`「Clear release branch」，分支中没有任何文件。如果 subconverter 仍引用 v1 地址，现在可能取不到规则。这不影响 v2，但切换前请确认。
-2. **`rulesets.toml` 有 66 条，超过 subconverter 外部配置（订阅链接 `config=`）的 64 条上限。** 在 pref 中导入不受影响。如果你用的是 `config=` 方式，可以选择以下任一做法：
-   - 改为在 pref 中导入；
-   - 让 `[Rules]` 中目标相同的合集相邻，它们会自动合并成一组文件（调整顺序会改变匹配优先级，只在确认不影响结果时这样做）；
-   - 减少内联规则。
-3. **`GEOIP,CLOUDFLARE`** 依赖客户端使用的 GeoIP 数据库中存在 `CLOUDFLARE` 分类。已实测：固定版本的 MetaCubeX `geoip.metadb` 中，1.1.1.1 命中 `GEOIP,CLOUDFLARE`；其他 GeoIP 数据库可能没有这个分类。
-4. **MetaCubeX geosite 的 domain 版 YAML** 在转换时去掉了 `keyword` 与 `regexp` 条目，例如 `geolocation-!cn.yaml`。如果需要这些条目，可以改用其 `classical/` 目录下的同名文件。这只是建议，当前输入不做改动。
-5. **`GEOIP,CN: DIRECT` 不带 `no-resolve`**：按你的说明原样保留。它是唯一会在匹配阶段请求 DNS 解析的规则，每次构建的报告都会列出这一点。
+1. **v1 的 `release` 分支**曾在 2026-11-08 被清空（提交 `0addd6f`），用户已重新运行 v1 工作流恢复。
+2. **`rulesets.toml` 有 66 条**，超过 subconverter 外部配置（订阅链接 `config=`）的 64 条上限。用户确认不影响其使用方式；构建仍会给出 `W_RULESET_LIMIT` 提示。
+3. **宽泛规则**：当前上游中没有被过滤的条目，但有 177 条 DOMAIN-KEYWORD 等宽泛规则被列入 `reports/broad-rules.md`。其中一部分出现在意外的合集里，例如 `China`（DIRECT）中的 `DOMAIN-KEYWORD,microsoft`，`AI` 中的 `DOMAIN-KEYWORD,twitter`。判定规则见 [broad-rules](../rules/broad-rules.md)。
+4. **`GEOIP,CLOUDFLARE`** 依赖客户端使用的 GeoIP 数据库中存在 `CLOUDFLARE` 分类。已实测：固定版本的 MetaCubeX `geoip.metadb` 中，1.1.1.1 命中 `GEOIP,CLOUDFLARE`；其他 GeoIP 数据库可能没有这个分类。
+5. **MetaCubeX geosite 的 domain 版 YAML** 在转换时去掉了 `keyword` 与 `regexp` 条目，例如 `geolocation-!cn.yaml`。如果需要这些条目，可以改用其 `classical/` 目录下的同名文件。这只是建议，当前输入不做改动。
+6. **`GEOIP,CN: DIRECT` 不带 `no-resolve`**：按你的说明原样保留。它是唯一会在匹配阶段请求 DNS 解析的规则，每次构建的报告都会列出这一点。
 
 ## 与 v1 行为的差异
 
@@ -46,6 +44,8 @@
 | 格式识别 | 按字符串猜测 | 按各格式官方语义；有歧义时要求指定 |
 | 发布 | 强推 release、每次建 Release | 快进推送、内容不变不提交、失败保留上一版 |
 | 生成 `rulesets.toml` | 逐个探测已发布 URL 是否 200 | 由本次构建的产物清单决定 |
+| 宽泛规则 | 不处理 | 过滤上游中的过宽规则，宽泛规则列入 `reports/broad-rules.md` |
+| 文件头注释 | 名称、作者、仓库、更新时间、各类型条目数 | 合集、条目数（ipcidr 分 IPv4/IPv6）、策略组、来源列表、更新说明链接；classical 按类型分节。不写时间，内容不变时文件不变，不产生空提交 |
 
 ## 切换步骤
 

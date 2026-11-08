@@ -6,12 +6,12 @@
 fetch（联网）                     build（不联网）
 ───────────────                  ─────────────────────────────────────────────────────────
 上游 URL ─▶ 下载 ─▶ 健康检查 ─▶ 快照   my.wei ─▶ 解析 ─┐
-                                 快照 ─────────────────┼─▶ 合集成员 ─▶ 规划与优化 ─▶ 输出
+                                 快照 ─────────────────┼─▶ 合集成员 ─▶ 宽泛规则过滤 ─▶ 规划与优化 ─▶ 输出
                                  groups.toml ─▶ 校验 ──┘
 ```
 
 - **fetch** 是唯一联网的步骤：并发下载、健康检查、解析并规范化，成功后把来源的成员写成快照。失败时保留上次成功的快照。
-- **build** 只读快照与输入文件，结果确定：同样的输入两次构建逐字节相同。出现任何错误都不写出，已有的输出目录保持不变。
+- **build** 只读快照与输入文件，结果确定：同样的输入两次构建逐字节相同。出现任何错误都不写出，已有的输出目录保持不变。汇总合集成员时，过滤上游中范围过宽的规则（[broad-rules](rules/broad-rules.md)）。
 - **publish** = build + 与上次发布比较 + 生成更新说明 + 暂存到 release 目录；内容没变时什么也不写。
 
 ## 模块
@@ -22,9 +22,10 @@ fetch（联网）                     build（不联网）
 | `registry.py` | 规则类型注册表：分区、成本次序、是否目标 IP 条件、同义名 |
 | `parse/` | `my.wei` 文档与自由行、规则行转换（剥离策略与参数）、安全 YAML、各来源格式适配器与自动识别 |
 | `sources/` | 下载（含 Happy Eyeballs 连接竞速）、健康检查、快照与健康记录 |
+| `breadth.py`、`data/` | 宽泛规则判定（关键词表、Public Suffix List）、上游过宽规则过滤、`reports/broad-rules.md` |
 | `optimize/` | domain 集合去重与包含消除、classical 去重与成本排序 |
 | `planner.py` | 路由块（相邻同目标合并）、分区、文件命名与碰撞处理、rulesets 条目 |
-| `emit.py` | provider YAML、TOML、确定性 manifest |
+| `emit.py` | provider YAML（含文件头与 classical 分节注释）、TOML、确定性 manifest |
 | `build.py` | 构建编排与原子写出 |
 | `report.py`、`publish.py` | 更新说明与 release 暂存 |
 | `explain.py` | 命中解释 |
@@ -32,7 +33,7 @@ fetch（联网）                     build（不联网）
 | `tools.py` | 验证工具的锁定、下载与校验 |
 | `cli.py` | 命令行 |
 
-依赖方向：`cli` → `build`/`report`/`publish`/`verify` → `planner`/`optimize`/`parse`/`sources` → `model`/`registry`/`diagnostics`。`model` 不依赖其他模块；只有 `sources` 和 `tools` 访问网络。
+依赖方向：`cli` → `build`/`report`/`publish`/`verify` → `planner`/`optimize`/`parse`/`sources`/`breadth` → `model`/`registry`/`diagnostics`。`model` 不依赖其他模块；只有 `sources` 和 `tools` 访问网络。
 
 ## 关键算法
 
