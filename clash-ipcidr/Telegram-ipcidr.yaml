@@ -1,0 +1,25 @@
+# NAME: Telegram
+# GROUP: 🛸 Telegram
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: ipcidr
+# TOTAL: 14
+# IP-CIDR: 10
+# IP-CIDR6: 4
+# SOURCE A: blackmatrix7 · Telegram/Telegram.list
+# SOURCE B: ruleset.skk.moe · ip/telegram.txt
+payload:
+  - '5.28.192.0/18'       # A
+  - '91.105.192.0/23'     # B
+  - '91.108.0.0/16'       # A  覆盖 91.108.4.0/22 B, 91.108.8.0/21 B 等 4 条
+  - '95.161.64.0/20'      # B
+  - '109.239.140.0/24'    # A
+  - '139.59.210.98/32'    # A
+  - '149.154.160.0/20'    # A B
+  - '185.76.151.0/24'     # B
+  - '194.221.250.50/32'   # B
+  - '196.55.216.167/32'   # A
+  - '2001:67c:4e8::/48'   # A B
+  - '2001:b28:f23c::/47'  # A  覆盖 2001:b28:f23c::/48 B, 2001:b28:f23d::/48 B
+  - '2001:b28:f23f::/48'  # A B
+  - '2a0a:f280::/29'      # A  覆盖 2a0a:f280::/32 B

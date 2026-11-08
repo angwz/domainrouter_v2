@@ -1,0 +1,685 @@
+# NAME: OneDrive
+# GROUP: ⛅ OneDrive
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 672
+# SOURCE A: MetaCubeX · geosite/onedrive.yaml
+# SOURCE B: blackmatrix7 · OneDrive/OneDrive.list
+# SOURCE C: MetaCubeX · geosite/category-pt.yaml
+# SOURCE D: MetaCubeX · geosite/category-public-tracker.yaml
+# SOURCE E: MetaCubeX · geosite/tracker.yaml
+# SOURCE F: blackmatrix7 · PrivateTracker/PrivateTracker.list
+payload:
+  - '+.onedrive'               # A
+  - '+.onedriveupdater'        # A
+  - '+.1drv.com'               # A B
+  - '+.1ptba.com'              # C E F
+  - '+.2xfree.org'             # E F
+  - '+.52dic.vip'              # C
+  - '+.52pt.site'              # C E F
+  - '+.aidoru-online.me'       # E F
+  - '+.all4nothin.net'         # D  合并 all4nothin.net D
+  - '+.alpharatio.cc'          # E F
+  - '+.animebytes.tv'          # C E F
+  - '+.animetorrents.me'       # E F
+  - '+.anthelion.me'           # E F
+  - '+.asiancinema.me'         # E F
+  - '+.audiences.me'           # C E F
+  - '+.avgv.cc'                # E F
+  - '+.avistaz.to'             # C E F
+  - '+.awesome-hd.me'          # E F
+  - '+.beitai.pt'              # C E F
+  - '+.beyond-hd.me'           # C E F
+  - '+.bibliotik.me'           # C E F
+  - '+.bit-hdtv.com'           # D
+  - '+.bitpt.cn'               # C
+  - '+.bitseduce.com'          # D
+  - '+.bittorrent.com'         # E F
+  - '+.biztorrents.com'        # D
+  - '+.blackcats-games.net'    # D
+  - '+.blutopia.cc'            # C E F
+  - '+.broadcasthe.net'        # C E F
+  - '+.btschool.club'          # E F  覆盖 +.pt.btschool.club C
+  - '+.bwtorrents.tv'          # E F
+  - '+.byr.pt'                 # C E F
+  - '+.carpt.net'              # C
+  - '+.ccfbits.org'            # C E F
+  - '+.cgpeers.com'            # E F
+  - '+.chdbits.co'             # C E F
+  - '+.chdbits.xyz'            # C
+  - '+.chddiy.xyz'             # C
+  - '+.cinefiles.info'         # C
+  - '+.cinemageddon.net'       # E F
+  - '+.cinematik.net'          # E F
+  - '+.cinemaz.to'             # C E F
+  - '+.concertos.live'         # E F
+  - '+.creditracker.net'       # E F
+  - '+.cyanbug.net'            # C
+  - '+.dicmusic.club'          # E F
+  - '+.dicmusic.com'           # C
+  - '+.digitalcore.club'       # C
+  - '+.discfan.net'            # E F
+  - '+.dmhy.best'              # C
+  - '+.dmhy.org'               # C  覆盖 +.u2.dmhy.org E F, share.dmhy.org D
+  - '+.dxdhd.com'              # E F
+  - '+.eastgame.org'           # C E F
+  - '+.elitezones.ro'          # D  合并 elitezones.ro D
+  - '+.empornium.me'           # E F
+  - '+.et8.org'                # C E F
+  - '+.exoticaz.to'            # C E F
+  - '+.extremlymtorrents.ws'   # E F
+  - '+.filelist.io'            # C E F
+  - '+.freerainbowtables.com'  # D  合并 freerainbowtables.com D
+  - '+.gainbound.net'          # E F
+  - '+.gazellegames.net'       # C E F
+  - '+.genesis-sp.org'         # D
+  - '+.gfxpeers.net'           # E F
+  - '+.greatposterwall.com'    # C
+  - '+.haidan.video'           # C
+  - '+.hd-space.org'           # E F
+  - '+.hd-torrents.org'        # E F
+  - '+.hd4.xyz'                # E F
+  - '+.hd4fans.org'            # E F  覆盖 +.pt.hd4fans.org C
+  - '+.hdarea.club'            # C
+  - '+.hdarea.co'              # E F
+  - '+.hdatmos.club'           # C E F
+  - '+.hdbd.us'                # E F
+  - '+.hdbits.org'             # C E F
+  - '+.hdchina.org'            # C E F
+  - '+.hdcity.city'            # C E F
+  - '+.hdcmct.org'             # C
+  - '+.hddolby.com'            # C E F
+  - '+.hdfans.org'             # C E F
+  - '+.hdhome.org'             # C E F
+  - '+.hdkyl.in'               # C
+  - '+.hdkylin.top'            # C
+  - '+.hdkylin.work'           # C
+  - '+.hdmayi.com'             # C
+  - '+.hdpost.top'             # E F
+  - '+.hdpt.xyz'               # C
+  - '+.hdroute.org'            # E F
+  - '+.hdsky.me'               # C E F
+  - '+.hdstreet.club'          # E F
+  - '+.hdtime.org'             # C E F
+  - '+.hdupt.com'              # E F  覆盖 +.pt.hdupt.com C
+  - '+.hdvideo.one'            # C
+  - '+.hdzone.me'              # C E F
+  - '+.hhan.club'              # C
+  - '+.hhanclub.net'           # C
+  - '+.hhanclub.top'           # C E F
+  - '+.hitpt.com'              # C E F
+  - '+.hitpt.org'              # E F
+  - '+.ianon.app'              # C
+  - '+.icc2022.com'            # C
+  - '+.icetorrent.org'         # E F
+  - '+.ilovelemonhd.me'        # C
+  - '+.iptorrents.com'         # C E F
+  - '+.j99.info'               # E F
+  - '+.joyhd.net'              # E F
+  - '+.jpopsuki.eu'            # C E F
+  - '+.jptv.club'              # C
+  - '+.kamept.com'             # E F
+  - '+.karagarga.in'           # E F
+  - '+.keepfrds.com'           # C E F
+  - '+.kufei.com'              # C
+  - '+.kufei.org'              # C
+  - '+.landof.tv'              # E F
+  - '+.leaguehd.com'           # E F
+  - '+.learnbits.me'           # D
+  - '+.leaves.red'             # C
+  - '+.legittorrents.info'     # D
+  - '+.lemonhd.club'           # C
+  - '+.lemonhd.net'            # C
+  - '+.lemonhd.org'            # C E F
+  - '+.livefilestore.com'      # A B
+  - '+.lztr.me'                # E F
+  - '+.m-team.cc'              # C E F
+  - '+.m-team.io'              # C
+  - '+.madsrevolution.net'     # E F
+  - '+.megatorrents.kg'        # D
+  - '+.microsoftpersonalcontent.com'  # A B
+  - '+.moecat.best'            # E F
+  - '+.morethan.tv'            # E F
+  - '+.morethantv.me'          # C
+  - '+.msg.vg'                 # E F
+  - '+.mt.cc'                  # C
+  - '+.mvgroup.org'            # D  合并 mvgroup.org D  覆盖 mvgforumtracker.mvgroup.org D
+  - '+.myanonamouse.net'       # C E F
+  - '+.nanyangpt.com'          # C E F
+  - '+.ncore.cc'               # E F
+  - '+.nebulance.io'           # C E F
+  - '+.nexushd.org'            # C
+  - '+.nicept.net'             # C E F
+  - '+.nnm-club.cc'            # D
+  - '+.nnm-club.info'          # D
+  - '+.npupt.com'              # C E F
+  - '+.onedrive.com'           # A B
+  - '+.open.cd'                # C E F
+  - '+.oppaiti.me'             # E F
+  - '+.orpheus.network'        # C E F
+  - '+.ourbits.club'           # C E F
+  - '+.pandapt.net'            # C
+  - '+.passthepopcorn.me'      # C E F
+  - '+.peckservers.com'        # D
+  - '+.piggo.me'               # C
+  - '+.pornbits.net'           # E F
+  - '+.privatehd.to'           # C E F
+  - '+.ptcafe.club'            # C
+  - '+.ptchdbits.co'           # C
+  - '+.ptchina.org'            # C
+  - '+.pterclub.com'           # C E F
+  - '+.pterclub.net'           # C
+  - '+.pthome.net'             # C E F
+  - '+.ptsbao.club'            # C E F
+  - '+.pttime.org'             # C E F
+  - '+.pttime.top'             # C
+  - '+.pussytorrents.org'      # E F  覆盖 tracker.pussytorrents.org D
+  - '+.qingwa.pro'             # E F
+  - '+.rainbowisland.co'       # C
+  - '+.redacted.ch'            # E F
+  - '+.redacted.sh'            # C
+  - '+.rousi.zip'              # C
+  - '+.sdbits.org'             # E F
+  - '+.searchtor.to'           # D
+  - '+.sharepoint.cn'          # A
+  - '+.sharepoint.com'         # A B
+  - '+.sharepointonline.com'   # A B
+  - '+.sharkpt.net'            # C E F
+  - '+.shnflac.net'            # D
+  - '+.siambt.com'             # D
+  - '+.skyey2.com'             # C E F
+  - '+.skyeysnow.com'          # C
+  - '+.soulvoice.club'         # E F  覆盖 +.pt.soulvoice.club C
+  - '+.sportscult.org'         # C
+  - '+.springsunday.net'       # C E F
+  - '+.superbits.org'          # C
+  - '+.thegeeks.bz'            # D
+  - '+.theoccult.bz'           # D
+  - '+.theplace.bz'            # D
+  - '+.thetradersden.org'      # D
+  - '+.thevault.bz'            # D
+  - '+.tju.pt'                 # C E F
+  - '+.tjupt.org'              # C E F
+  - '+.torrentday.com'         # E F
+  - '+.torrentleech.cc'        # C
+  - '+.torrentleech.org'       # C E F  覆盖 tracker.torrentleech.org D
+  - '+.torrentseeds.org'       # E F
+  - '+.torrentsnipe.info'      # D
+  - '+.totheglory.im'          # C E F
+  - '+.tribalmixes.com'        # D
+  - '+.trontv.com'             # E F
+  - '+.tvnihon.com'            # D
+  - '+.ubits.club'             # C
+  - '+.uhdbits.org'            # C E F
+  - '+.ultrahd.net'            # C
+  - '+.wintersakura.net'       # C
+  - '+.worldboxingvideoarchive.com'  # D
+  - '+.xwt-classics.net'       # D
+  - '+.yuwabits.net'           # D
+  - '+.zhuque.in'              # C
+  - '+.zmpt.cc'                # C
+  - '+.zone-torrent.net'       # D
+  - '+.bt.byr.cn'              # C E F
+  - '+.classix-unlimited.co.uk'  # E F
+  - '+.neu6.edu.cn'            # C  覆盖 +.bt.neu6.edu.cn E F
+  - '+.nwsuaf6.edu.cn'         # E F  覆盖 +.pt.nwsuaf6.edu.cn C
+  - '+.oneclient.sfx.ms'       # A B
+  - '+.onedrive.live.com'      # A B
+  - '+.photos.live.com'        # A B
+  - '+.pt.0ff.cc'              # C
+  - '+.pt.upxin.net'           # C
+  - '+.share.ilolicon.com'     # C
+  - '+.sjtu.edu.cn'            # E F  覆盖 +.pt.sjtu.edu.cn C
+  - '+.spoprod-a.akamaihd.net'  # A B
+  - '+.storage.live.com'       # A B
+  - '+.storage.msn.com'        # A B
+  - '+.torrent.eu.org'         # D  覆盖 tracker.torrent.eu.org D E F
+  - '+.xauat6.edu.cn'          # E F
+  - '+.hudbt.hust.edu.cn'      # C E F
+  - '+.pt.xauat.edu.cn'        # C
+  - '+.skydrive.wns.windows.com'  # A B
+  - '004430.xyz'               # E F
+  - '0123456789nonexistent.com'  # D
+  - '021912.xyz'               # E F
+  - '60-fps.org'               # D
+  - '6ahddutb1ucc3cp.ru'       # D E F
+  - 'aboutbeautifulgallopinghorsesinthegreenpasture.online'  # D E F
+  - 'aegir.sexy'               # D
+  - 'alltorrents.net'          # D
+  - 'amigacity.xyz'            # D
+  - 'anidex.moe'               # D
+  - 'baibako.tv'               # D
+  - 'beertracker.ml'           # D
+  - 'big-boss-tracker.net'     # D
+  - 'bithq.org'                # D
+  - 'blackz.ro'                # D
+  - 'bluebird-hd.org'          # D
+  - 'bt-club.ws'               # D
+  - 'btracker.top'             # D
+  - 'buny.uk'                  # D
+  - 'ch3oh.ru'                 # D
+  - 'concen.org'               # D
+  - 'coppersurfer.tk'          # D
+  - 'data-bg.net'              # D
+  - 'datascene.net'            # D
+  - 'deviloid.net'             # D
+  - 'ed2k.vip'                 # D
+  - 'ehtracker.org'            # D
+  - 'epider.me'                # D
+  - 'evan.im'                  # D E F
+  - 'explodie.org'             # D
+  - 'finbytes.org'             # D
+  - 'funfile.org'              # D
+  - 'hdreactor.org'            # D
+  - 'jutone.com'               # D
+  - 'kaztorka.org'             # D
+  - 'kinorun.com'              # D
+  - 'leet-tracker.moe'         # D E F
+  - 'martin-gebhardt.eu'       # D E F
+  - 'masters-tb.com'           # D
+  - 'mediaclub.tv'             # D
+  - 'milliontorrent.pl'        # D
+  - 'mixfiend.com'             # D
+  - 'moonburrow.club'          # D
+  - 'music-torrent.net'        # D
+  - 'new-line.net'             # D
+  - 'odd-hd.fr'                # D
+  - 'openbittorrent.com'       # D
+  - 'opentor.org'              # D E F
+  - 'opentracker.io'           # D
+  - 'opentrackr.org'           # D
+  - 'orgtgju.org'              # E F
+  - 'potuk.com'                # D
+  - 'pow7.com'                 # D
+  - 'proaudiotorrents.org'     # D
+  - 'pubt.net'                 # D
+  - 'ryjer.com'                # D
+  - 'seeders-paradise.org'     # D
+  - 'seedpeer.net'             # E F
+  - 'servandroidkino.ru'       # D
+  - 'shahidrazi.online'        # D E F
+  - 'shubt.net'                # D
+  - 'siambit.com'              # D
+  - 'su-data.com'              # D
+  - 'tc-boxing.com'            # D
+  - 'tehconnection.eu'         # D
+  - 'torrent-team.net'         # D
+  - 'torrentclub.online'       # D E F
+  - 'torrents-nn.cn'           # D
+  - 'torrentsmd.com'           # D E F
+  - 'torrentzilla.org'         # D
+  - 'tracker.bz'               # D
+  - 'tracker810.xyz'           # D
+  - 'uabits.today'             # E F
+  - 'uatracker.net'            # D
+  - 'wepzone.net'              # D
+  - 'xbtrutor.com'             # D
+  - 'xtremewrestlingtorrents.net'  # D
+  - 'zer0day.ch'               # E F
+  - 'zupix.online'             # D
+  - '0d.kebhana.mx'            # D
+  - '10.rarbg.com'             # D
+  - '12.rarbg.me'              # D
+  - '1337.abcvg.info'          # D E F
+  - '1c.premierzal.ru'         # D
+  - '6.pocketnet.app'          # D
+  - '7.rarbg.me'               # D
+  - '7.rarbg.to'               # D
+  - '8.rarbg.com'              # D
+  - '8.rarbg.to'               # D
+  - '9.rarbg.com'              # D
+  - '9.rarbg.me'               # D
+  - '9.rarbg.to'               # D
+  - 'a.leopard-raws.org'       # D
+  - 'academic-p2p.appspot.com'  # D
+  - 'admin.52ywp.com'          # E F
+  - 'announce.partis.si'       # D
+  - 'archive.torrentonline.cc'  # E F
+  - 'atrack.pow7.com'          # D
+  - 'banananetwork.qzz.io'     # E F
+  - 'bandito.byterunner.io'    # D
+  - 'bigfoot1942.sektori.org'  # D
+  - 'bittorrent-tracker.e-n-c-r-y-p-t.net'  # D E F
+  - 'bt-tracker.gamexp.ru'     # D
+  - 'bt.3dmgame.com'           # D
+  - 'bt.ali213.net'            # D
+  - 'bt.beatrice-raws.org'     # D
+  - 'bt.bontal.net'            # D
+  - 'bt.edwardk.info'          # D
+  - 'bt.firebit.org'           # D
+  - 'bt.hliang.com'            # D
+  - 'bt.ktrackers.com'         # D
+  - 'bt.okmp3.ru'              # D E F
+  - 'bt.poletracker.org'       # D
+  - 'bt.ptlsp.com'             # D
+  - 'bt.rer.lol'               # D
+  - 'bt.rghost.net'            # D
+  - 'bt.sc-ol.com'             # D
+  - 'bt.unionpeer.org'         # D
+  - 'bt.zlofenix.org'          # D
+  - 'bt1.archive.org'          # D E F
+  - 'bt1.xxxxbt.cc'            # D
+  - 'bt2.54new.com'            # D
+  - 'bt2.archive.org'          # D E F
+  - 'bt2.edwardk.info'         # D
+  - 'bt4.t-ru.org'             # D
+  - 'btfile.sdo.com'           # D
+  - 'bttracker.debian.org'     # D
+  - 'btx.anifilm.tv'           # D
+  - 'bubu.mapfactor.com'       # D
+  - 'bvarf.tracker.sh'         # D E F
+  - 'bz.tracker.bz'            # D
+  - 'canardscitrons.nohost.me'  # D
+  - 'carbon-bonsai-621.appspot.com'  # D
+  - 'coeus.torrentonline.cc'   # E F
+  - 'exodus.desync.com'        # D E F
+  - 'extracker.dahrkael.net'   # D
+  - 'fh2.cmp-gaming.com'       # D
+  - 'free.publictracker.xyz'   # D
+  - 'git.vulnix.sh'            # D
+  - 'home.yxgz.club'           # D
+  - 'inferno.demonoid.is'      # D
+  - 'ipv4.rer.lol'             # D
+  - 'ipv4announce.sktorrent.eu'  # D E F
+  - 'irrenhaus.dyndns.dk'      # D
+  - 'isk.richardsw.club'       # D
+  - 'mail.artixlinux.org'      # D
+  - 'metal.iplay.ro'           # D
+  - 'movies.zsw.ca'            # D
+  - 'ns575949.ip-51-222-82.net'  # E F
+  - 'nyaa.tracker.wf'          # D E F
+  - 'obey.torrentonline.cc'    # E F
+  - 'oh.fuuuuuck.com'          # D
+  - 'open-tracker.demonoid.ch'  # D
+  - 'open.acgnxtracker.com'    # D
+  - 'open.acgtracker.com'      # D
+  - 'open.demonii.com'         # D E F
+  - 'open.demonoid.ch'         # D E F
+  - 'open.dstud.io'            # D
+  - 'open.free-tracker.ga'     # D
+  - 'open.ftorrent.com'        # E F
+  - 'open.lolicon.eu'          # D
+  - 'open.nyaatorrents.info'   # D
+  - 'open.stealth.si'          # D E F
+  - 'open.touki.ru'            # D
+  - 'open.tracker.cl'          # D
+  - 'open.tracker.ink'         # D E F
+  - 'open.trackerlist.xyz'     # D
+  - 'open.u-p.pw'              # D
+  - 'open.xxtor.com'           # D
+  - 'opentracker.acgnx.com'    # D
+  - 'opentracker.acgnx.se'     # D
+  - 'oscar.reyesleon.xyz'      # D
+  - 'p2p.0g.cx'                # D
+  - 'p2p.publictracker.xyz'    # D
+  - 'p4p.arenabg.com'          # D E F
+  - 'peertube.cpy.re'          # D
+  - 'pirate.t-1.org'           # D
+  - 'public.demonoid.ch'       # D
+  - 'pybittrack.retiolus.net'  # E F
+  - 'qg.lorzl.gq'              # D
+  - 'rekcart.duckdns.org'      # E F
+  - 'retracker.hotplug.ru'     # E F
+  - 'retracker.lanta.me'       # D
+  - 'retracker.spark-rostov.ru'  # D
+  - 'retracker01-msk-virt.corbina.net'  # D
+  - 'run.publictracker.xyz'    # D
+  - 'secure.pow7.com'          # D
+  - 'share.camoe.cn'           # D
+  - 'share.hkg-fansub.info'    # D
+  - 'sugoi.pomf.se'            # D
+  - 'sukebei.tracker.wf'       # D
+  - 't-115.rhcloud.com'        # D
+  - 't.213891.xyz'             # D E F
+  - 't.acg.rip'                # D
+  - 't.btcland.xyz'            # D
+  - 't.nyaatracker.com'        # D
+  - 't.overflow.biz'           # D E F
+  - 't.zerg.pw'                # D
+  - 't1.aag.moe'               # D
+  - 't1.hloli.org'             # D
+  - 't1.leech.ie'              # D
+  - 't1.pow7.com'              # D
+  - 't2.leech.ie'              # D
+  - 't2.pow7.com'              # D
+  - 't3.leech.ie'              # D
+  - 'tamas3.ynh.fr'            # D
+  - 'torrent.arjlover.net'     # D
+  - 'torrent.fedoraproject.org'  # D
+  - 'torrent.hificode.in'      # D
+  - 'torrent.mp3quran.net'     # D
+  - 'torrent.resonatingmedia.com'  # D
+  - 'torrent.rus.ec'           # D
+  - 'torrent.ubuntu.com'       # D
+  - 'torrents.artixlinux.org'  # D
+  - 'torrents.hikarinokiseki.com'  # D
+  - 'torrents.linuxmint.com'   # D
+  - 'torrents.tmtime.dev'      # E F
+  - 'tr.abiir.top'             # E F
+  - 'tr.bangumi.moe'           # D
+  - 'tr.burnabyhighstar.com'   # D
+  - 'tr.fuckbitcoin.xyz'       # D
+  - 'tr.highstar.shop'         # D E F
+  - 'tr.kxmp.cf'               # D E F
+  - 'tr.nyacat.pw'             # D E F
+  - 'tr.zukizuki.org'          # D E F
+  - 'tr4ck3r.duckdns.org'      # D E F
+  - 'tracker-de.ololosh.space'  # D
+  - 'tracker-udp.gbitt.info'   # D E F
+  - 'tracker-zhuqiy.dgj055.icu'  # D
+  - 'tracker.004430.xyz'       # E F
+  - 'tracker.0x7c0.com'        # D
+  - 'tracker.1h.is'            # D E F
+  - 'tracker.23794.top'        # D
+  - 'tracker.36dm.com'         # D
+  - 'tracker.7471.top'         # E F
+  - 'tracker.acgnx.se'         # D
+  - 'tracker.alaskantf.com'    # D
+  - 'tracker.ali213.net'       # D
+  - 'tracker.anima.nz'         # D
+  - 'tracker.anirena.com'      # D
+  - 'tracker.artixlinux.org'   # D
+  - 'tracker.aruku.ovh'        # E F
+  - 'tracker.auctor.tv'        # D E F
+  - 'tracker.baltracker.net'   # D
+  - 'tracker.belmult.online'   # D
+  - 'tracker.birkenwald.de'    # D
+  - 'tracker.bitcoinindia.space'  # D
+  - 'tracker.bitsearch.to'     # D
+  - 'tracker.bittor.pw'        # D E F
+  - 'tracker.bluefrog.pw'      # E F
+  - 'tracker.breizh.pm'        # D E F
+  - 'tracker.bt-hash.com'      # D
+  - 'tracker.bt4g.com'         # D E F
+  - 'tracker.btcake.com'       # D
+  - 'tracker.btsync.gq'        # D
+  - 'tracker.cloudbase.store'  # D
+  - 'tracker.cloudit.top'      # D
+  - 'tracker.coppersurfer.tk'  # D
+  - 'tracker.corpscorp.online'  # D E F
+  - 'tracker.cubonegro.lol'    # D
+  - 'tracker.cutie.dating'     # D
+  - 'tracker.cyberia.is'       # D
+  - 'tracker.darkness.services'  # D
+  - 'tracker.ddunlimited.net'  # D E F
+  - 'tracker.deadorbit.nl'     # D
+  - 'tracker.dhitechnical.com'  # D E F
+  - 'tracker.dler.com'         # D E F
+  - 'tracker.dler.org'         # D E F
+  - 'tracker.dm258.cn'         # D
+  - 'tracker.dmcomic.org'      # D
+  - 'tracker.ducks.party'      # D E F
+  - 'tracker.dump.cl'          # D
+  - 'tracker.edkj.club'        # D
+  - 'tracker.electro-torrent.pl'  # D
+  - 'tracker.enitin.xyz'       # D
+  - 'tracker.etree.org'        # D
+  - 'tracker.ex.ua'            # D
+  - 'tracker.expli.top'        # D
+  - 'tracker.fansub.id'        # D
+  - 'tracker.farted.net'       # D
+  - 'tracker.fatkhoala.org'    # D
+  - 'tracker.fdn.fr'           # D
+  - 'tracker.filemail.com'     # D E F
+  - 'tracker.files.fm'         # D
+  - 'tracker.flatuslifir.is'   # E F
+  - 'tracker.fnix.net'         # D E F
+  - 'tracker.foreverpirates.co'  # D
+  - 'tracker.frozen-layer.com'  # D
+  - 'tracker.frozen-layer.net'  # D
+  - 'tracker.funfile.org'      # D
+  - 'tracker.gbitt.info'       # D
+  - 'tracker.gcrenwp.top'      # D E F
+  - 'tracker.gcrreen.xyz'      # D
+  - 'tracker.gcvchp.com'       # D
+  - 'tracker.ghostchu-services.top'  # D
+  - 'tracker.gigatorrents.ws'  # D
+  - 'tracker.gmi.gd'           # D E F
+  - 'tracker.grepler.com'      # D
+  - 'tracker.healthcareindia.store'  # D
+  - 'tracker.hifitechindia.com'  # D
+  - 'tracker.hismz.cn'         # E F
+  - 'tracker.imgoingto.icu'    # D
+  - 'tracker.internetwarriors.net'  # D
+  - 'tracker.iperson.xyz'      # E F
+  - 'tracker.ipfsscan.io'      # D
+  - 'tracker.ipv6tracker.org'  # D
+  - 'tracker.istole.it'        # D
+  - 'tracker.jamesthebard.net'  # D
+  - 'tracker.jdx3.org'         # D
+  - 'tracker.jiesen.life'      # D
+  - 'tracker.kali.org'         # D
+  - 'tracker.kamigami.org'     # D
+  - 'tracker.ktxp.com'         # D
+  - 'tracker.kuroy.me'         # E F
+  - 'tracker.leechers-paradise.org'  # D
+  - 'tracker.leechshield.link'  # D E F
+  - 'tracker.lilithraws.cf'    # D
+  - 'tracker.lilithraws.org'   # D
+  - 'tracker.linkomanija.org'  # D
+  - 'tracker.lintk.me'         # D
+  - 'tracker.loligirl.cn'      # D
+  - 'tracker.minglong.org'     # D
+  - 'tracker.mininova.org'     # D
+  - 'tracker.moeblog.cn'       # D
+  - 'tracker.moeking.me'       # D
+  - 'tracker.monikadesign.uk'  # D
+  - 'tracker.moxing.party'     # D
+  - 'tracker.mywaifu.best'     # D E F
+  - 'tracker.nekomi.cn'        # E F
+  - 'tracker.netmap.top'       # D
+  - 'tracker.nighthawk.pw'     # D
+  - 'tracker.nyaa.vc'          # E F
+  - 'tracker.open-internet.nl'  # D
+  - 'tracker.openbittorrent.com'  # D
+  - 'tracker.opentorrent.top'  # E F
+  - 'tracker.opentrackr.org'   # D E F
+  - 'tracker.openwebtorrent.com'  # E F
+  - 'tracker.picotorrent.one'  # D
+  - 'tracker.pirateparty.gr'   # D
+  - 'tracker.playground.ru'    # E F
+  - 'tracker.plx.im'           # D E F
+  - 'tracker.pmman.tech'       # D E F
+  - 'tracker.pow7.com'         # D
+  - 'tracker.privateseedbox.xyz'  # E F
+  - 'tracker.prq.to'           # D
+  - 'tracker.publicbt.com'     # D
+  - 'tracker.publictracker.xyz'  # E F
+  - 'tracker.qingwapt.org'     # E F
+  - 'tracker.qu.ax'            # D E F
+  - 'tracker.renfei.net'       # D E F
+  - 'tracker.rescuecrew7.com'  # D
+  - 'tracker.sbsub.com'        # D
+  - 'tracker.sharebro.in'      # E F
+  - 'tracker.shittyurl.org'    # D
+  - 'tracker.skillindia.site'  # D
+  - 'tracker.sktorrent.net'    # D
+  - 'tracker.skyts.cn'         # D
+  - 'tracker.skyts.net'        # D E F
+  - 'tracker.srv00.com'        # D
+  - 'tracker.startwork.cv'     # D E F
+  - 'tracker.t-1.org'          # D E F
+  - 'tracker.t-rb.org'         # D
+  - 'tracker.tallpenguin.org'  # D
+  - 'tracker.tambovnet.org'    # D
+  - 'tracker.tamersunion.org'  # D
+  - 'tracker.tasvideos.org'    # D
+  - 'tracker.tfile.me'         # D
+  - 'tracker.theempire.bz'     # D
+  - 'tracker.theoks.net'       # D E F
+  - 'tracker.therarbg.com'     # D
+  - 'tracker.therarbg.to'      # D
+  - 'tracker.thinelephant.org'  # D
+  - 'tracker.tiny-vps.com'     # D
+  - 'tracker.token.ro'         # D
+  - 'tracker.torrentbytes.net'  # D
+  - 'tracker.torrentsnows.com'  # D
+  - 'tracker.torrenty.org'     # D
+  - 'tracker.torrust-demo.com'  # D
+  - 'tracker.trackerfix.com'   # D
+  - 'tracker.trancetraffic.com'  # D
+  - 'tracker.tricitytorrents.com'  # D
+  - 'tracker.tritan.gg'        # D E F
+  - 'tracker.tryhackx.org'     # D E F
+  - 'tracker.uraniumhexafluori.de'  # D
+  - 'tracker.vanitycore.co'    # D
+  - 'tracker.vraphim.com'      # D
+  - 'tracker.vulnix.sh'        # D
+  - 'tracker.waaa.moe'         # D E F
+  - 'tracker.wildkat.net'      # E F
+  - 'tracker.xdvdz.com'        # D
+  - 'tracker.xfapi.top'        # D
+  - 'tracker.xiaoduola.xyz'    # D
+  - 'tracker.xn--djrq4gl4hvoi.top'  # E F
+  - 'tracker.yemekyedim.com'   # D E F
+  - 'tracker.yume-hatsuyuki.moe'  # E F
+  - 'tracker.zer0day.to'       # D
+  - 'tracker.zhuqiy.com'       # D E F
+  - 'tracker.zond.org'         # D
+  - 'tracker.zupix.online'     # D
+  - 'tracker1.520.jp'          # D E F
+  - 'tracker1.ctix.cn'         # D
+  - 'tracker1.itzmx.com'       # D E F
+  - 'tracker1.myporn.club'     # D
+  - 'tracker2.ctix.cn'         # D
+  - 'tracker2.dler.com'        # D
+  - 'tracker2.dler.org'        # D E F
+  - 'tracker2.itzmx.com'       # D E F
+  - 'tracker2.torrentino.com'  # D
+  - 'tracker3.dler.org'        # D
+  - 'tracker3.itzmx.com'       # D E F
+  - 'tracker3.torrentino.com'  # D
+  - 'tracker4.dler.org'        # D
+  - 'tracker4.itzmx.com'       # D E F
+  - 'tracker7.dler.org'        # D
+  - 'trackers.mlsub.net'       # D
+  - 'trackers.ptlsp.com'       # D
+  - 'ttk2.nbaonlineservice.com'  # D
+  - 'u.peer-exchange.download'  # D
+  - 'v6.vito-tracker.space'    # E F
+  - 'wg.mortis.me'             # D
+  - 'whybother.torrentonline.cc'  # E F
+  - 'ws.peer.ooo'              # D
+  - 'www.wareztorrent.com'     # E F
+  - 'y.paranoid.agency'        # D
+  - 'y.t-1.org'                # D
+  - 'yolo.liberbear.com'       # D
+  - 'yuptracker-eu.gaijinent.com'  # E F
+  - 'z.paranoid.agency'        # D
+  - 'anime-tracker.aruku.kro.kr'  # E F
+  - 'cerf.cs.umd.edu'          # E F
+  - 'd40969.acod.regrucolo.ru'  # D
+  - 'denis.stalker.upeer.me'   # D
+  - 'h4.trakx.nibba.trade'     # D
+  - 'ipv4.tracker.harry.lu'    # D
+  - 'public.tracker.vraphim.com'  # D
+  - 'retracker.ip.ncnet.ru'    # D
+  - 'torrent.tracker.durukanbal.com'  # D E F
+  - 'torrent.unix-ag.uni-kl.de'  # D
+  - 'tracker.manager.itislove.cz'  # E F
+  - 'tracker.manager.v6.navy'  # E F
+  - 'tracker.tntvillage.scambioetico.org'  # D
+  - 'tracker.tvunderground.org.ru'  # D
+  - 'tracker.zhuqiy.dgj055.icu'  # E F
+  - 'udp.tracker.projectk.org'  # D E F

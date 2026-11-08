@@ -1,0 +1,17 @@
+# NAME: HK
+# GROUP: 🛫 香港专线
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 6
+# SOURCE A: my.wei
+# SOURCE B: blackmatrix7 · PayPal/PayPal.list
+# SOURCE C: blackmatrix7 · Steam/Steam.list
+# SOURCE D: blackmatrix7 · GitHub/GitHub.list
+payload:
+  - 'DOMAIN-KEYWORD,annas-archive'    # A
+  - 'DOMAIN-KEYWORD,github'           # D
+  - 'DOMAIN-KEYWORD,paypal'           # B
+  - 'DOMAIN-KEYWORD,steambroadcast'   # C
+  - 'DOMAIN-KEYWORD,steamstore'       # C
+  - 'DOMAIN-KEYWORD,steamuserimages'  # C

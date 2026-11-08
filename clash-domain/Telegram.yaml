@@ -1,0 +1,39 @@
+# NAME: Telegram
+# GROUP: 🛸 Telegram
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 28
+# SOURCE A: MetaCubeX · geosite/telegram.yaml
+# SOURCE B: blackmatrix7 · Telegram/Telegram.list
+# SOURCE C: ruleset.skk.moe · non_ip/telegram.txt
+# SOURCE D: ruleset.skk.moe · ip/telegram.txt
+payload:
+  - '+.cdn-telegram.org'  # A B C
+  - '+.comments.app'      # A B
+  - '+.contest.com'       # A B
+  - '+.fragment.com'      # A
+  - '+.graph.org'         # A B C
+  - '+.legra.ph'          # B C
+  - '+.mbrx.app'          # B
+  - '+.quiz.directory'    # A B
+  - '+.stel.com'          # B
+  - '+.t.me'              # A B C
+  - '+.tdesktop.com'      # A B C
+  - '+.telega.one'        # A B C
+  - '+.telegra.ph'        # A B C
+  - '+.telegram-cdn.org'  # A B
+  - '+.telegram.dog'      # A B C
+  - '+.telegram.me'       # A B C
+  - '+.telegram.org'      # A B C
+  - '+.telegram.space'    # A B C
+  - '+.telegramdownload.com'  # B
+  - '+.telesco.pe'        # A B C
+  - '+.tg.dev'            # A B C
+  - '+.ton.org'           # A
+  - '+.toncenter.com'     # A
+  - '+.tx.me'             # A B C
+  - '+.usercontent.dev'   # A B
+  - 'api.imem.app'        # B
+  - 'api.swiftgram.app'   # B
+  - '7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe'  # C D

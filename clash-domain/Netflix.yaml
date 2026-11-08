@@ -1,0 +1,41 @@
+# NAME: Netflix
+# GROUP: 🎬 Netflix
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 32
+# SOURCE A: MetaCubeX · geosite/netflix.yaml
+# SOURCE B: blackmatrix7 · Netflix/Netflix.list
+payload:
+  - '+.cookielaw.org'            # B
+  - '+.fast.com'                 # A B
+  - '+.flxvpn.net'               # B
+  - '+.netflix.ca'               # A B
+  - '+.netflix.com'              # A B
+  - '+.netflix.net'              # A B
+  - '+.netflixdnstest0.com'      # A B
+  - '+.netflixdnstest1.com'      # A B
+  - '+.netflixdnstest10.com'     # A B
+  - '+.netflixdnstest2.com'      # A B
+  - '+.netflixdnstest3.com'      # A B
+  - '+.netflixdnstest4.com'      # A B
+  - '+.netflixdnstest5.com'      # A B
+  - '+.netflixdnstest6.com'      # A B
+  - '+.netflixdnstest7.com'      # A B
+  - '+.netflixdnstest8.com'      # A B
+  - '+.netflixdnstest9.com'      # A B
+  - '+.netflixinvestor.com'      # A B
+  - '+.netflixstudios.com'       # B
+  - '+.netflixtechblog.com'      # A B
+  - '+.nflxext.com'              # A B
+  - '+.nflximg.com'              # A B
+  - '+.nflximg.net'              # A B
+  - '+.nflxsearch.net'           # A B
+  - '+.nflxso.net'               # A B
+  - '+.nflxvideo.net'            # A B
+  - '+.onetrust.com'             # B
+  - '+.netflix.com.au'           # B
+  - '+.us-west-2.amazonaws.com'  # B
+  - '+.netflix.com.edgesuite.net'  # A B  合并 netflix.com.edgesuite.net B
+  - 'h-netflix.online-metrix.net'  # B
+  - 'e13252.dscg.akamaiedge.net'  # B

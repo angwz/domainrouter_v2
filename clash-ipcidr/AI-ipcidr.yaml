@@ -1,0 +1,36 @@
+# NAME: AI
+# GROUP: 🗨️ ChatGPT
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: ipcidr
+# TOTAL: 23
+# IP-CIDR: 20
+# IP-CIDR6: 3
+# SOURCE A: blackmatrix7 · Twitter/Twitter.list
+# SOURCE B: MetaCubeX · geoip/twitter.yaml
+# SOURCE C: blackmatrix7 · Copilot/Copilot.list
+# SOURCE D: blackmatrix7 · OpenAI/OpenAI.list
+payload:
+  - '8.25.194.0/23'        # B
+  - '8.25.196.0/23'        # B
+  - '24.199.123.28/32'     # C D
+  - '64.23.132.171/32'     # C D
+  - '64.63.0.0/18'         # B
+  - '69.12.56.0/21'        # B
+  - '69.195.160.0/19'      # A
+  - '103.252.112.0/22'     # B
+  - '104.244.41.0/24'      # B
+  - '104.244.42.0/24'      # B
+  - '104.244.44.0/22'      # B
+  - '185.45.4.0/22'        # B
+  - '188.64.224.0/21'      # B
+  - '192.48.236.0/23'      # B
+  - '192.133.76.0/22'      # A B
+  - '199.16.156.0/22'      # B
+  - '199.59.148.0/22'      # A B
+  - '199.96.56.0/21'       # A  覆盖 199.96.56.0/23 B
+  - '202.160.128.0/22'     # A B
+  - '209.237.192.0/19'     # A  覆盖 209.237.208.0/24 B
+  - '2400:6680:f000::/36'  # B
+  - '2606:1f80:f000::/36'  # B
+  - '2a04:9d40:f000::/36'  # B

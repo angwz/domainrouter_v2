@@ -1,0 +1,21 @@
+# NAME: OneDrive
+# GROUP: ⛅ OneDrive
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 9
+# DOMAIN-KEYWORD: 7
+# PROCESS-NAME: 2
+# SOURCE A: blackmatrix7 · OneDrive/OneDrive.list
+# SOURCE B: blackmatrix7 · PrivateTracker/PrivateTracker.list
+payload:
+  - 'DOMAIN-KEYWORD,1drv'           # A
+  - 'DOMAIN-KEYWORD,announce'       # B
+  - 'DOMAIN-KEYWORD,chdbits'        # B
+  - 'DOMAIN-KEYWORD,m-team'         # B
+  - 'DOMAIN-KEYWORD,onedrive'       # A
+  - 'DOMAIN-KEYWORD,skydrive'       # A
+  - 'DOMAIN-KEYWORD,torrent'        # B
+
+  - 'PROCESS-NAME,OneDrive'         # A
+  - 'PROCESS-NAME,OneDriveUpdater'  # A

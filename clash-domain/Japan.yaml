@@ -1,0 +1,302 @@
+# NAME: Japan
+# GROUP: 🌺 日本专线
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 285
+# SOURCE A: my.wei
+# SOURCE B: MetaCubeX · geosite/amazon.yaml
+# SOURCE C: blackmatrix7 · Amazon/Amazon.list
+# SOURCE D: MetaCubeX · geosite/dmm.yaml
+# SOURCE E: blackmatrix7 · DMM/DMM.list
+# SOURCE F: MetaCubeX · geosite/dmm-porn.yaml
+# SOURCE G: blackmatrix7 · Spotify/Spotify.list
+# SOURCE H: MetaCubeX · geosite/niconico.yaml
+# SOURCE I: blackmatrix7 · Niconico/Niconico.list
+# SOURCE J: blackmatrix7 · HuluJP/HuluJP.list
+payload:
+  - '+.amazon'                 # B C
+  - '+.aws'                    # B C
+  - '+.imdb'                   # B C
+  - '+.jp'                     # A  覆盖 +.aboutamazon.jp B C, +.amazon.jp B C 等 29 条
+  - '+.kindle'                 # B C
+  - '+.nico'                   # H  覆盖 +.dmc.nico I
+  - '+.xn--cckwcxetd'          # B C
+  - '+.xn--jlq480n2rg'         # B C
+  - '+.yamaxun'                # B C
+  - '+.zappos'                 # B C
+  - '+.a2z.com'                # B C
+  - '+.aboutamazon.cn'         # B C
+  - '+.aboutamazon.com'        # B C
+  - '+.aboutamazon.de'         # B C
+  - '+.aboutamazon.es'         # B C
+  - '+.aboutamazon.eu'         # B C
+  - '+.aboutamazon.fr'         # B C
+  - '+.aboutamazon.in'         # B C
+  - '+.aboutamazon.it'         # B C
+  - '+.aboutamazon.pl'         # B C
+  - '+.aboutamazon.sg'         # B
+  - '+.acmvalidations.com'     # B C
+  - '+.acmvalidationsaws.com'  # B C
+  - '+.aesworkshops.com'       # B C
+  - '+.aiv-cdn.net'            # B C
+  - '+.aiv-delivery.net'       # C
+  - '+.akabeesoft2.com'        # E
+  - '+.akabeesoft3.com'        # E
+  - '+.akatsukiworks.com'      # E
+  - '+.alexa.com'              # B C
+  - '+.alexafund.cn'           # B C
+  - '+.alicesoft.com'          # E
+  - '+.amaaozn.com'            # B C
+  - '+.amazon-adsystem.com'    # B C
+  - '+.amazon-fashions.com'    # B C
+  - '+.amazon-jp-recruiting.com'  # B C
+  - '+.amazon-lantern.com'     # B C
+  - '+.amazon-launchpad.com'   # B C
+  - '+.amazon.ae'              # B C
+  - '+.amazon.ca'              # B C
+  - '+.amazon.cl'              # B
+  - '+.amazon.cn'              # B C
+  - '+.amazon.com'             # B C
+  - '+.amazon.de'              # B C
+  - '+.amazon.dev'             # B
+  - '+.amazon.eg'              # B
+  - '+.amazon.es'              # B C
+  - '+.amazon.fr'              # B C
+  - '+.amazon.ie'              # B
+  - '+.amazon.in'              # B C
+  - '+.amazon.it'              # B C
+  - '+.amazon.jobs'            # B C
+  - '+.amazon.lu'              # B
+  - '+.amazon.nl'              # B C
+  - '+.amazon.pl'              # B
+  - '+.amazon.red'             # B C
+  - '+.amazon.sa'              # B
+  - '+.amazon.se'              # B
+  - '+.amazon.sg'              # B C
+  - '+.amazonalexavoxcon.com'  # B C
+  - '+.amazonauthorinsights.com'  # B C
+  - '+.amazonaws-china.com'    # B C
+  - '+.amazonaws.biz'          # B
+  - '+.amazonaws.cn'           # B
+  - '+.amazonaws.com'          # B C
+  - '+.amazonaws.info'         # B
+  - '+.amazonaws.net'          # B
+  - '+.amazonaws.org'          # B
+  - '+.amazonaws.tv'           # B C
+  - '+.amazonbusiness.cn'      # B C
+  - '+.amazonbusiness.org'     # B C
+  - '+.amazonbusinessblog.com'  # B C
+  - '+.amazonchoice.cn'        # B C
+  - '+.amazonchoices.cn'       # B C
+  - '+.amazoncognito.com'      # B
+  - '+.amazondevicesupport.com'  # B C
+  - '+.amazonfctours.com'      # B C
+  - '+.amazonianblog.com'      # B C
+  - '+.amazonimages.com'       # B C
+  - '+.amazoninspire.cn'       # B C
+  - '+.amazonlaunchpad.cn'     # B C
+  - '+.amazonlaunchpad.com'    # B C
+  - '+.amazonliterarypartnership.com'  # B C
+  - '+.amazonlumberyard.wang'  # B C
+  - '+.amazonnow.cn'           # B C
+  - '+.amazonpay.com'          # B C
+  - '+.amazonpay.in'           # B C
+  - '+.amazonprimevideo.cn'    # B C
+  - '+.amazonprimevideos.com'  # B C
+  - '+.amazonsdi.com'          # B C
+  - '+.amazonses.com'          # B
+  - '+.amazonstudiosguilds.com'  # B C
+  - '+.amazontools.com'        # C
+  - '+.amazontours.com'        # C
+  - '+.amazontrust.com'        # B C
+  - '+.amazonuniversity.jobs'  # C
+  - '+.amazonvideo.cc'         # B C
+  - '+.amazonvideo.com'        # B C
+  - '+.amazonvideodirect.com'  # B C
+  - '+.amazonwebservices.cn'   # B
+  - '+.amazonwebservices.com'  # B
+  - '+.amazonworkdocs.cn'      # B C
+  - '+.amazonworkdocs.com'     # B C
+  - '+.amplifyapp.com'         # B C
+  - '+.amplifyframework.com'   # B C
+  - '+.amzn.asia'              # B C
+  - '+.amzn.com'               # B C
+  - '+.amzn.to'                # B C
+  - '+.amzndns-cn.biz'         # B
+  - '+.amzndns-cn.cn'          # B
+  - '+.amzndns-cn.com'         # B
+  - '+.amzndns-cn.net'         # B
+  - '+.amzndns.com'            # B
+  - '+.amzndns.net'            # B
+  - '+.amzndns.org'            # B
+  - '+.amznl.com'              # B C
+  - '+.assoc-amazon.cn'        # B C
+  - '+.associates-amazon.com'  # B C
+  - '+.audible.com'            # B C
+  - '+.aws-border.cn'          # B
+  - '+.aws-icp-domain-manager.cn'  # B
+  - '+.aws-iot-hackathon.com'  # B C
+  - '+.aws.com'                # B
+  - '+.aws.dev'                # B
+  - '+.awsapprunner.com'       # B
+  - '+.awsapps.cn'             # B
+  - '+.awsapps.com'            # B
+  - '+.awsautopilot.com'       # B C
+  - '+.awsautoscaling.com'     # B C
+  - '+.awsbraket.com'          # B C
+  - '+.awscloud.com'           # C
+  - '+.awscommandlineinterface.com'  # B C
+  - '+.awsedstart.com'         # B C
+  - '+.awseducate.com'         # B C
+  - '+.awseducate.net'         # B C
+  - '+.awseducate.org'         # B C
+  - '+.awsglobalaccelerator.com'  # B
+  - '+.awsloft-johannesburg.com'  # B C
+  - '+.awsloft-stockholm.com'  # B C
+  - '+.awssecworkshops.com'    # B C
+  - '+.awsstatic.cn'           # B
+  - '+.awsstatic.com'          # B C
+  - '+.awsthinkbox.com'        # B C
+  - '+.awstrack.me'            # B C
+  - '+.awstrust.com'           # B C
+  - '+.awswaf.com'             # B
+  - '+.bitget.com'             # A
+  - '+.bluekai.com'            # D
+  - '+.boxofficemojo.com'      # B C
+  - '+.byspotify.com'          # G
+  - '+.cdkworkshop.com'        # B C
+  - '+.cloudfront-cn.net'      # B
+  - '+.cloudfront-test.cn'     # B
+  - '+.cloudfront.cn'          # B
+  - '+.cloudfront.com'         # B
+  - '+.cloudfront.net'         # B C  覆盖 d1v5ir2lpwr8os.cloudfront.net B, d22qjgkvxw22r6.cloudfront.net B 等 5 条
+  - '+.containersonaws.com'    # B C
+  - '+.cosmiccute.com'         # E
+  - '+.createspace.com'        # B C
+  - '+.dmm-extension.com'      # D E
+  - '+.dmm.com'                # D E  覆盖 +.ad.games.dmm.com D
+  - '+.dmm.hk'                 # E
+  - '+.dmmapis.com'            # D E
+  - '+.dmmrex.com'             # D E F
+  - '+.elasticbeanstalk.com'   # B C
+  - '+.gameon-masters.com'     # B C
+  - '+.gdansk-amazon.com'      # B C
+  - '+.hibiki-site.com'        # E
+  - '+.im-apps.net'            # D
+  - '+.images-amazon.com'      # B C
+  - '+.imdb.com'               # B C
+  - '+.imdb.to'                # B C
+  - '+.kindle.cn'              # B C
+  - '+.kindle.com'             # B C
+  - '+.kindle.de'              # B C
+  - '+.kindle.es'              # B C
+  - '+.kindle.fr'              # B C
+  - '+.kindle.in'              # B C
+  - '+.kindle.it'              # B C
+  - '+.kindleoasis.cn'         # B C
+  - '+.kindleoasis.com'        # B C
+  - '+.kindleoasis.info'       # B C
+  - '+.kindleoasis.org'        # B C
+  - '+.kindleoasis.us'         # B C
+  - '+.kindleoasisnews.com'    # B C
+  - '+.kindleproject.com'      # B C
+  - '+.ladsp.com'              # D
+  - '+.llnwd.net'              # C
+  - '+.media-amazon.com'       # B C
+  - '+.media-imdb.com'         # B C
+  - '+.minori.ph'              # E
+  - '+.navismithapis-cdn.com'  # E
+  - '+.nico.ms'                # H
+  - '+.niconico.com'           # H I
+  - '+.nwcdcloud.cn'           # B
+  - '+.nwcddns.cn'             # B
+  - '+.nwcdinfosec.cn'         # B
+  - '+.prime-video.com'        # B C
+  - '+.primeday.cn'            # B C
+  - '+.primeday.info'          # B C
+  - '+.primevideo.cc'          # B C
+  - '+.primevideo.com'         # B C
+  - '+.primevideo.info'        # B C
+  - '+.primevideo.org'         # B C
+  - '+.primevideo.tv'          # B C
+  - '+.pscdn.co'               # G
+  - '+.pv-cdn.net'             # B C
+  - '+.route53.cn'             # B
+  - '+.scdn.co'                # G
+  - '+.seattlespheres.com'     # B C
+  - '+.serving-sys.com'        # B
+  - '+.siege-amazon.com'       # B C  覆盖 static.siege-amazon.com B
+  - '+.socdm.com'              # D I
+  - '+.spoti.fi'               # G
+  - '+.spotify-everywhere.com'  # G
+  - '+.spotify.com'            # G
+  - '+.spotify.design'         # G
+  - '+.spotifycdn.com'         # G
+  - '+.spotifycdn.net'         # G
+  - '+.spotifycharts.com'      # G
+  - '+.spotifycodes.com'       # G
+  - '+.spotifyforbrands.com'   # G
+  - '+.spotifyjobs.com'        # G
+  - '+.spotilocal.com'         # G
+  - '+.ss2.us'                 # B
+  - '+.ssl-images-amazon.com'  # B C  覆盖 images-cn-8.ssl-images-amazon.com B, images-cn.ssl-images-amazon.com B 等 5 条
+  - '+.tenco.cc'               # E
+  - '+.thinkboxsoftware.com'   # B C
+  - '+.tospotify.com'          # G
+  - '+.ueberamazon.de'         # B C
+  - '+.wfm.com'                # B C
+  - '+.wheel-soft.com'         # E
+  - '+.wholecitiesfoundation.org'  # B C
+  - '+.wholefoods.com'         # B C
+  - '+.wholefoodsmarket.com'   # B C
+  - '+.wholekidsfoundation.org'  # B C
+  - '+.wholeplanetfoundation.org'  # B C
+  - '+.yamaxun.cn'             # B C
+  - '+.yamaxun.com'            # B C
+  - '+.z.cn'                   # B C
+  - '+.a2z.org.cn'             # B
+  - '+.aboutamazon.co.uk'      # B C
+  - '+.aboutamazon.com.au'     # B C
+  - '+.alexafund.com.cn'       # B C
+  - '+.amazon.co.uk'           # B C  覆盖 msh.amazon.co.uk B
+  - '+.amazon.co.za'           # B
+  - '+.amazon.com.au'          # B C
+  - '+.amazon.com.be'          # B
+  - '+.amazon.com.br'          # B C
+  - '+.amazon.com.co'          # B
+  - '+.amazon.com.mx'          # B C
+  - '+.amazon.com.ng'          # B
+  - '+.amazon.com.tr'          # B C
+  - '+.amazonaws.co.uk'        # B C
+  - '+.amazonaws.com.cn'       # B C
+  - '+.amazonbusiness.com.cn'  # B C
+  - '+.amazonchoice.com.cn'    # B C
+  - '+.amazonchoices.com.cn'   # B C
+  - '+.amazoninspire.com.cn'   # B C
+  - '+.amazonlaunchpad.com.cn'  # B C
+  - '+.amazonlending.com.cn'   # B C
+  - '+.amazonnow.com.cn'       # B C
+  - '+.amazonprimevideo.com.cn'  # B C
+  - '+.amazonwebservices.com.cn'  # B
+  - '+.amazonworkdocs.com.cn'  # B C
+  - '+.amzndns.co.uk'          # B
+  - '+.asfiovnxocqpcry.com.cn'  # B
+  - '+.audio-ak-spotify-com.akamaized.net'  # G
+  - '+.avodmp4s3ww-a.akamaihd.net'  # C
+  - '+.awsapps.com.cn'         # B
+  - '+.heads4-ak-spotify-com.akamaized.net'  # G
+  - '+.kindle.co.uk'           # B C
+  - '+.kindleoasis.com.cn'     # B C
+  - '+.nwcdcloud.com.cn'       # B
+  - '+.primeday.com.cn'        # B C
+  - '+.sagemaker.com.cn'       # B
+  - '+.spotify-com.akamaized.net'  # G
+  - '+.spotify.app.link'       # G
+  - '+.wholefoodsmarket.co.uk'  # B C
+  - 'audio4-ak-spotify-com.akamaized.net'  # G
+  - 'cdn-spotify-experiments.conductrics.com'  # G
+  - 'heads-ak-spotify-com.akamaized.net'  # G
+  - 'spotify.com.edgesuite.net'  # G
+  - 'spotify.map.fastly.net'   # G
+  - 'spotify.map.fastlylb.net'  # G

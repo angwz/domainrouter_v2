@@ -1,0 +1,888 @@
+# NAME: Google
+# GROUP: 📩 Google
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 879
+# SOURCE A: MetaCubeX · geosite/google.yaml
+# SOURCE B: blackmatrix7 · Google/Google.list
+payload:
+  - '+.android'             # A
+  - '+.chrome'              # A
+  - '+.dclk'                # A
+  - '+.gbiz'                # A
+  - '+.gle'                 # A  覆盖 +.c.gle B, +.chat.gle B 等 4 条
+  - '+.gmail'               # A
+  - '+.goog'                # A  覆盖 +.pki.goog B, +.prod-controlbe.floonet.goog B 等 20 条
+  - '+.google'              # A  覆盖 +.adtrafficquality.google A, +.blog.google B 等 3 条
+  - '+.guge'                # A
+  - '+.hangout'             # A
+  - '+.nexus'               # A
+  - '+.xn--flw351e'         # A
+  - '+.xn--qcka1pmc'        # A
+  - '+.youtube'             # A
+  - '+.0emm.com'            # A B
+  - '+.1e100.net'           # A B
+  - '+.1ucrs.com'           # A B
+  - '+.265.com'             # A B
+  - '+.2mdn-cn.net'         # A B  合并 2mdn-cn.net A
+  - '+.2mdn.net'            # A B  合并 2mdn.net A
+  - '+.466453.com'          # A B
+  - '+.abc.xyz'             # B
+  - '+.actifio.com'         # A
+  - '+.adgoogle.net'        # A B
+  - '+.admeld.com'          # A B
+  - '+.admob-cn.com'        # A B  合并 admob-cn.com A
+  - '+.admob.com'           # A B  覆盖 c.admob.com A
+  - '+.adsense.com'         # A B
+  - '+.adsensecustomsearchads.com'  # A B
+  - '+.adsenseformobileapps.com'  # A B
+  - '+.advertisercommunity.com'  # A B
+  - '+.advertiserscommunity.com'  # A B
+  - '+.adwords-community.com'  # A B
+  - '+.adwords.com'         # A B
+  - '+.adwordsexpress.com'  # A B
+  - '+.ai.studio'           # A
+  - '+.amp.dev'             # B
+  - '+.ampproject.com'      # B
+  - '+.ampproject.net'      # B
+  - '+.ampproject.org'      # B
+  - '+.android.com'         # A B
+  - '+.androidify.com'      # A B
+  - '+.androidtv.com'       # B
+  - '+.angulardart.org'     # A B
+  - '+.api.ai'              # A B
+  - '+.apigee.com'          # A B
+  - '+.app-ads-services.com'  # A
+  - '+.app-analytics-services-att.com'  # A
+  - '+.app-analytics-services.com'  # A B  合并 app-analytics-services.com A
+  - '+.app-measurement-cn.com'  # A B  合并 app-measurement-cn.com A
+  - '+.app-measurement.com'  # A B  合并 app-measurement.com A
+  - '+.app-measurement.net'  # B
+  - '+.appbridge.ca'        # A B
+  - '+.appbridge.io'        # A B
+  - '+.appbridge.it'        # A B
+  - '+.appspot.com'         # A B
+  - '+.apture.com'          # A B
+  - '+.area120.com'         # A B
+  - '+.asp-cc.com'          # A B
+  - '+.autodraw.com'        # A B
+  - '+.bandpage.com'        # A B
+  - '+.baselinestudy.com'   # A B
+  - '+.baselinestudy.org'   # A B
+  - '+.bazel.build'         # A B
+  - '+.bdn.dev'             # A B  覆盖 redirector.bdn.dev A
+  - '+.beatthatquote.com'   # A B
+  - '+.blink.org'           # A B
+  - '+.blogblog.com'        # A B
+  - '+.blogger.com'         # A B
+  - '+.blogspot.ae'         # A B
+  - '+.blogspot.al'         # A B
+  - '+.blogspot.am'         # A B
+  - '+.blogspot.ba'         # A B
+  - '+.blogspot.be'         # A B
+  - '+.blogspot.bg'         # A B
+  - '+.blogspot.bj'         # A B
+  - '+.blogspot.ca'         # A B
+  - '+.blogspot.cf'         # A B
+  - '+.blogspot.ch'         # A B
+  - '+.blogspot.cl'         # A B
+  - '+.blogspot.com'        # A B
+  - '+.blogspot.cv'         # A B
+  - '+.blogspot.cz'         # A B
+  - '+.blogspot.de'         # A B
+  - '+.blogspot.dk'         # A B
+  - '+.blogspot.fi'         # A B
+  - '+.blogspot.fr'         # A B
+  - '+.blogspot.gr'         # A B
+  - '+.blogspot.hk'         # A B
+  - '+.blogspot.hr'         # A B
+  - '+.blogspot.hu'         # A B
+  - '+.blogspot.ie'         # A B
+  - '+.blogspot.in'         # A B
+  - '+.blogspot.is'         # A B
+  - '+.blogspot.it'         # A B
+  - '+.blogspot.jp'         # A B
+  - '+.blogspot.kr'         # A B
+  - '+.blogspot.li'         # A B
+  - '+.blogspot.lt'         # A B
+  - '+.blogspot.lu'         # A B
+  - '+.blogspot.md'         # A B
+  - '+.blogspot.mk'         # A B
+  - '+.blogspot.mx'         # A B
+  - '+.blogspot.my'         # A B
+  - '+.blogspot.nl'         # A B
+  - '+.blogspot.no'         # A B
+  - '+.blogspot.pe'         # A B
+  - '+.blogspot.pt'         # A B
+  - '+.blogspot.qa'         # A B
+  - '+.blogspot.re'         # A B
+  - '+.blogspot.ro'         # A B
+  - '+.blogspot.rs'         # A B
+  - '+.blogspot.ru'         # A B
+  - '+.blogspot.se'         # A B
+  - '+.blogspot.sg'         # A B
+  - '+.blogspot.si'         # A B
+  - '+.blogspot.sk'         # A B
+  - '+.blogspot.sn'         # A B
+  - '+.blogspot.td'         # A B
+  - '+.blogspot.tw'         # A B
+  - '+.blogspot.ug'         # A B
+  - '+.blogspot.vn'         # A B
+  - '+.brocaproject.com'    # A B
+  - '+.brotli.org'          # A B
+  - '+.bumpshare.com'       # A B
+  - '+.bumptop.ca'          # A B
+  - '+.bumptop.com'         # A B
+  - '+.bumptop.net'         # A B
+  - '+.bumptop.org'         # A B
+  - '+.bumptunes.com'       # A B
+  - '+.campuslondon.com'    # A B
+  - '+.capitalg.com'        # B
+  - '+.certificate-transparency.dev'  # B
+  - '+.certificate-transparency.org'  # A B
+  - '+.charlestonroadregistry.com'  # A B
+  - '+.chrome.com'          # A B
+  - '+.chromebook.com'      # A B
+  - '+.chromecast.com'      # A B
+  - '+.chromeexperiments.com'  # B
+  - '+.chromeos.dev'        # A B
+  - '+.chromercise.com'     # B
+  - '+.chromestatus.com'    # A B
+  - '+.chromium.org'        # A B
+  - '+.chronicle.security'  # A B
+  - '+.chroniclesec.com'    # A B
+  - '+.cloudburstresearch.com'  # A B
+  - '+.cloudfunctions.net'  # A B
+  - '+.cloudproxy.app'      # A B
+  - '+.cloudrobotics.com'   # A B
+  - '+.cobrasearch.com'     # A B
+  - '+.codespot.com'        # A B
+  - '+.conscrypt.com'       # A B
+  - '+.conscrypt.org'       # A B
+  - '+.cookiechoices.org'   # A B
+  - '+.coova.com'           # A B
+  - '+.coova.net'           # A B
+  - '+.coova.org'           # A B
+  - '+.crashlytics.com'     # A B  覆盖 firebase-settings.crashlytics.com A, update.crashlytics.com A
+  - '+.crbug.com'           # B
+  - '+.creativelab5.com'    # B
+  - '+.crossmediapanel.com'  # A B
+  - '+.crr.com'             # A B
+  - '+.crrev.com'           # B
+  - '+.cs4hs.com'           # A B
+  - '+.dart.dev'            # A B
+  - '+.dartlang.org'        # A B
+  - '+.dartpad.dev'         # A B
+  - '+.dartsearch-cn.net'   # B  合并 dartsearch-cn.net A
+  - '+.dartsearch.net'      # A B  覆盖 clickserve.dartsearch.net A
+  - '+.data-vocabulary.org'  # B
+  - '+.dataliberation.org'  # A B
+  - '+.debug.com'           # A B
+  - '+.debugproject.com'    # A B
+  - '+.deepmind.com'        # A B
+  - '+.deja.com'            # B
+  - '+.deps.dev'            # A B
+  - '+.deps.info'           # A B
+  - '+.devsitetest.how'     # A B
+  - '+.dialogflow.com'      # A B
+  - '+.digisfera.com'       # B
+  - '+.digitalassetlinks.org'  # A B
+  - '+.digitalattackmap.com'  # B
+  - '+.docs.new'            # A
+  - '+.doubleclick-cn.net'  # A B  合并 doubleclick-cn.net A
+  - '+.doubleclick.cn'      # A
+  - '+.doubleclick.com'     # A B
+  - '+.doubleclick.net'     # A B  合并 doubleclick.net A
+  - '+.episodic.com'        # A B
+  - '+.fastlane.ci'         # A B
+  - '+.fastlane.tools'      # A B
+  - '+.feedburner.com'      # A B
+  - '+.fflick.com'          # A B
+  - '+.financeleadsonline.com'  # A B
+  - '+.firebase.com'        # A
+  - '+.firebase.dev'        # A
+  - '+.firebase.io'         # A
+  - '+.firebaseapp.com'     # A B
+  - '+.firebaseio.com'      # A B
+  - '+.fitbit.com'          # A
+  - '+.flutter.dev'         # A B
+  - '+.flutterapp.com'      # A B
+  - '+.foofle.com'          # A B
+  - '+.froogle.com'         # A B
+  - '+.fuchsia.dev'         # A B
+  - '+.g-tun.com'           # A B
+  - '+.g.cn'                # A B
+  - '+.g.co'                # A B
+  - '+.g.dev'               # A B
+  - '+.g.page'              # A B
+  - '+.gateway.dev'         # A B
+  - '+.gcr.io'              # A B
+  - '+.gerritcodereview.com'  # A B
+  - '+.get.app'             # A B
+  - '+.get.dev'             # A B
+  - '+.get.how'             # A B
+  - '+.get.new'             # A
+  - '+.get.page'            # A B
+  - '+.get.rsvp'            # A
+  - '+.getbumptop.com'      # A B
+  - '+.getmdl.io'           # B
+  - '+.getoutline.org'      # B
+  - '+.ggoogle.com'         # A B
+  - '+.ggpht.cn'            # A
+  - '+.ggpht.com'           # A
+  - '+.gipscorp.com'        # A B
+  - '+.gkecnapps.cn'        # A B
+  - '+.globaledu.org'       # A B
+  - '+.gmail.com'           # A B
+  - '+.gmodules.com'        # A B
+  - '+.go-lang.com'         # A B
+  - '+.go-lang.net'         # A B
+  - '+.go-lang.org'         # A B
+  - '+.go.dev'              # A B
+  - '+.godoc.org'           # A B
+  - '+.gogle.com'           # A B
+  - '+.gogole.com'          # A B
+  - '+.golang.com'          # A B
+  - '+.golang.net'          # A B
+  - '+.golang.org'          # A B
+  - '+.gonglchuangl.net'    # A B  合并 gonglchuangl.net A
+  - '+.gongyichuangyi.net'  # B  合并 gongyichuangyi.net A
+  - '+.goo.gl'              # A B
+  - '+.googel.com'          # A B
+  - '+.googil.com'          # A B
+  - '+.googl.com'           # A B
+  - '+.google-access.net'   # A
+  - '+.google-analytics-cn.com'  # A B  合并 google-analytics-cn.com A
+  - '+.google-analytics.com'  # A B  合并 google-analytics.com A
+  - '+.google-syndication.com'  # A B
+  - '+.google.ad'           # A B
+  - '+.google.ae'           # A B  覆盖 scholar.google.ae A
+  - '+.google.al'           # A B
+  - '+.google.am'           # A B
+  - '+.google.as'           # A B
+  - '+.google.at'           # A B  覆盖 scholar.google.at A
+  - '+.google.az'           # A B
+  - '+.google.ba'           # A B
+  - '+.google.be'           # A B  覆盖 scholar.google.be A
+  - '+.google.berlin'       # A B
+  - '+.google.bf'           # A B
+  - '+.google.bg'           # A B  覆盖 scholar.google.bg A
+  - '+.google.bi'           # A B
+  - '+.google.bj'           # A B
+  - '+.google.bs'           # A B
+  - '+.google.bt'           # A B
+  - '+.google.by'           # A B
+  - '+.google.ca'           # A B  覆盖 scholar.google.ca A
+  - '+.google.cat'          # A B  覆盖 scholar.google.cat A
+  - '+.google.cd'           # A B
+  - '+.google.cf'           # A B
+  - '+.google.cg'           # A B
+  - '+.google.ch'           # A B  覆盖 scholar.google.ch A
+  - '+.google.ci'           # A B
+  - '+.google.cl'           # A B  覆盖 scholar.google.cl A
+  - '+.google.cm'           # A B
+  - '+.google.cn'           # A B  覆盖 scholar.google.cn A
+  - '+.google.co'           # A
+  - '+.google.com'          # A B  覆盖 +.adservice.google.com A, +.analytics-alv.google.com A 等 54 条
+  - '+.google.cv'           # A B
+  - '+.google.cz'           # A B  覆盖 scholar.google.cz A
+  - '+.google.de'           # A B  覆盖 scholar.google.de A
+  - '+.google.dev'          # A B  覆盖 ai.google.dev A
+  - '+.google.dj'           # A B
+  - '+.google.dk'           # A B  覆盖 scholar.google.dk A
+  - '+.google.dm'           # A B
+  - '+.google.dz'           # A B
+  - '+.google.ee'           # A B
+  - '+.google.es'           # A B  覆盖 scholar.google.es A
+  - '+.google.fi'           # A B  覆盖 scholar.google.fi A
+  - '+.google.fm'           # A B
+  - '+.google.fr'           # A B  覆盖 scholar.google.fr A
+  - '+.google.ga'           # A B
+  - '+.google.ge'           # A B
+  - '+.google.gg'           # A B
+  - '+.google.gl'           # A B
+  - '+.google.gm'           # A B
+  - '+.google.gr'           # A B  覆盖 scholar.google.gr A
+  - '+.google.gy'           # A B
+  - '+.google.hn'           # A B  覆盖 scholar.google.hn A
+  - '+.google.hr'           # A B  覆盖 scholar.google.hr A
+  - '+.google.ht'           # A B
+  - '+.google.hu'           # A B  覆盖 scholar.google.hu A
+  - '+.google.ie'           # A B
+  - '+.google.im'           # A B
+  - '+.google.iq'           # A B
+  - '+.google.is'           # A B  覆盖 scholar.google.is A
+  - '+.google.it'           # A B  覆盖 scholar.google.it A
+  - '+.google.je'           # A B
+  - '+.google.jo'           # A B
+  - '+.google.kg'           # A B
+  - '+.google.ki'           # A B
+  - '+.google.kz'           # A B
+  - '+.google.la'           # A B
+  - '+.google.li'           # A B  覆盖 scholar.google.li A
+  - '+.google.lk'           # A B
+  - '+.google.lt'           # A B  覆盖 scholar.google.lt A
+  - '+.google.lu'           # A B  覆盖 scholar.google.lu A
+  - '+.google.lv'           # A B  覆盖 scholar.google.lv A
+  - '+.google.md'           # A B
+  - '+.google.me'           # A B
+  - '+.google.mg'           # A B
+  - '+.google.mk'           # A B
+  - '+.google.ml'           # A B
+  - '+.google.mn'           # A B
+  - '+.google.ms'           # A B
+  - '+.google.mu'           # A B
+  - '+.google.mv'           # A B
+  - '+.google.mw'           # A B
+  - '+.google.ne'           # A B
+  - '+.google.net'          # A B
+  - '+.google.nl'           # A B  覆盖 scholar.google.nl A
+  - '+.google.no'           # A B  覆盖 scholar.google.no A
+  - '+.google.nr'           # A B
+  - '+.google.nu'           # A B
+  - '+.google.org'          # A B
+  - '+.google.pl'           # A B  覆盖 scholar.google.pl A
+  - '+.google.pn'           # A B
+  - '+.google.ps'           # A B
+  - '+.google.pt'           # A B  覆盖 scholar.google.pt A
+  - '+.google.ro'           # A B  覆盖 scholar.google.ro A
+  - '+.google.rs'           # A B
+  - '+.google.ru'           # A B  覆盖 scholar.google.ru A
+  - '+.google.rw'           # A B
+  - '+.google.sc'           # A B
+  - '+.google.se'           # A B  覆盖 scholar.google.se A
+  - '+.google.sh'           # A B
+  - '+.google.si'           # A B  覆盖 scholar.google.si A
+  - '+.google.sk'           # A B  覆盖 scholar.google.sk A
+  - '+.google.sm'           # A B
+  - '+.google.sn'           # A B
+  - '+.google.so'           # A B
+  - '+.google.sr'           # A B
+  - '+.google.st'           # A B
+  - '+.google.td'           # A B
+  - '+.google.tg'           # A B
+  - '+.google.tl'           # A B
+  - '+.google.tm'           # A B
+  - '+.google.tn'           # A B
+  - '+.google.to'           # A B
+  - '+.google.tt'           # A B
+  - '+.google.ventures'     # A B
+  - '+.google.vg'           # A B
+  - '+.google.vu'           # A B
+  - '+.google.ws'           # A B
+  - '+.googleacquisitionmigration.com'  # A B
+  - '+.googleadapis.com'    # A B
+  - '+.googleads-cn.com'    # A
+  - '+.googleads.com'       # A  覆盖 +.clickserver.googleads.com B, clickserver.googleads.com A
+  - '+.googleadservices-cn.com'  # A B  合并 googleadservices-cn.com A
+  - '+.googleadservices.com'  # A B  合并 googleadservices.com A
+  - '+.googleadsserving.cn'  # A
+  - '+.googleanalytics.com'  # A B  合并 googleanalytics.com A
+  - '+.googleapis-cn.com'   # B  合并 googleapis-cn.com A
+  - '+.googleapis.cn'       # A B
+  - '+.googleapis.com'      # A B  覆盖 antigravity-pa.googleapis.com A, antigravity.googleapis.com A 等 33 条
+  - '+.googleapps-cn.com'   # B  合并 googleapps-cn.com A
+  - '+.googleapps.com'      # A B
+  - '+.googlearth.com'      # A B
+  - '+.googleblog.com'      # A B
+  - '+.googlebot.com'       # A B
+  - '+.googlecapital.com'   # A B
+  - '+.googlecert.net'      # A B
+  - '+.googlecnapps.cn'     # A B
+  - '+.googlecode.com'      # A B
+  - '+.googlecommerce.com'  # A B
+  - '+.googledanmark.com'   # A B
+  - '+.googledomains.com'   # A B
+  - '+.googledrive.com'     # A B
+  - '+.googlee.com'         # A B
+  - '+.googleearth.com'     # A B
+  - '+.googlefiber.com'     # A B
+  - '+.googlefiber.net'     # A B
+  - '+.googlefinland.com'   # A B
+  - '+.googleflights-cn.net'  # B  合并 googleflights-cn.net A
+  - '+.googlemail.com'      # A B
+  - '+.googlemaps.com'      # A B
+  - '+.googlemashups.com'   # B
+  - '+.googleoptimize-cn.com'  # A B  合并 googleoptimize-cn.com A
+  - '+.googleoptimize.com'  # A B  合并 googleoptimize.com A
+  - '+.googlepagecreator.com'  # A B
+  - '+.googlephotos.com'    # A B
+  - '+.googleplay.com'      # A B
+  - '+.googleplus.com'      # A B
+  - '+.googlescholar.com'   # B
+  - '+.googlesource.com'    # A B  覆盖 android.googlesource.com A
+  - '+.googlestore.com'     # A B
+  - '+.googlesverige.com'   # A B
+  - '+.googlesyndication-cn.com'  # A B  合并 googlesyndication-cn.com A
+  - '+.googlesyndication.com'  # A B  合并 googlesyndication.com A
+  - '+.googletagmanager-cn.com'  # A B  合并 googletagmanager-cn.com A
+  - '+.googletagmanager.com'  # A B  合并 googletagmanager.com A
+  - '+.googletagservices-cn.com'  # A B  合并 googletagservices-cn.com A
+  - '+.googletagservices.com'  # A B  合并 googletagservices.com A
+  - '+.googletraveladservices-cn.com'  # A B  合并 googletraveladservices-cn.com A
+  - '+.googletraveladservices.com'  # A B  合并 googletraveladservices.com A
+  - '+.googleusercontent.com'  # A B  覆盖 scholar.googleusercontent.com A, yt3.googleusercontent.com A
+  - '+.googlevads-cn.com'   # A B  合并 googlevads-cn.com A
+  - '+.googleventures.com'  # A B
+  - '+.googlevideo.com'     # A
+  - '+.googlezip.net'       # A
+  - '+.googlr.com'          # A B
+  - '+.goolge.com'          # A B
+  - '+.gooogle.com'         # A B
+  - '+.gridaware.app'       # A B
+  - '+.gsrc.io'             # A B
+  - '+.gstatic-cn.com'      # B  合并 gstatic-cn.com A
+  - '+.gstatic.cn'          # A B
+  - '+.gstatic.com'         # A B  覆盖 checkin.gstatic.com A, connectivitycheck.gstatic.com A 等 10 条
+  - '+.gstaticcnapps.cn'    # A B
+  - '+.gsuite.com'          # A B
+  - '+.gv.com'              # B
+  - '+.gvt0.com'            # A B
+  - '+.gvt1-cn.com'         # A B
+  - '+.gvt1.com'            # A  覆盖 +.redirector.gvt1.com B, +.redirector.gcpcdn.gvt1.com B 等 8 条
+  - '+.gvt2-cn.com'         # A B
+  - '+.gvt2.com'            # A  覆盖 +.beacons.gvt2.com B, +.beacons2.gvt2.com B 等 8 条
+  - '+.gvt3.com'            # A B
+  - '+.gvt5.com'            # A B
+  - '+.gvt6.com'            # A B
+  - '+.gvt7.com'            # A B
+  - '+.gvt9.com'            # A B
+  - '+.gwtproject.org'      # B
+  - '+.haplorrhini.com'     # A
+  - '+.hdrplusdata.org'     # A B
+  - '+.hey.boo'             # A
+  - '+.hindiweb.com'        # A B
+  - '+.html5rocks.com'      # A B
+  - '+.hwgo.com'            # A B
+  - '+.iam.soy'             # A B
+  - '+.iamremarkable.org'   # A B
+  - '+.idx.dev'             # A
+  - '+.igoogle.com'         # A B
+  - '+.impermium.com'       # A B
+  - '+.itasoftware.com'     # A B
+  - '+.j2objc.org'          # A B
+  - '+.jibemobile.com'      # A B
+  - '+.kaggle.com'          # A B
+  - '+.kaggle.io'           # A B
+  - '+.kaggle.net'          # A
+  - '+.kaggleusercontent.com'  # A
+  - '+.keyhole.com'         # A B
+  - '+.keytransparency.com'  # A B
+  - '+.keytransparency.foo'  # A B
+  - '+.keytransparency.org'  # A B
+  - '+.lanternal.com'       # A B
+  - '+.like.com'            # A B
+  - '+.madewithcode.com'    # A B
+  - '+.material.io'         # A B
+  - '+.mdialog.com'         # A B
+  - '+.meet.new'            # A B
+  - '+.mfg-inspector.com'   # A B
+  - '+.mobileview.page'     # A B
+  - '+.moodstocks.com'      # A B
+  - '+.near.by'             # A B
+  - '+.nest.com'            # A B
+  - '+.neverware.com'       # B
+  - '+.new.day'             # A
+  - '+.nomulus.foo'         # A B
+  - '+.oasisfeng.com'       # B  覆盖 gtm.oasisfeng.com A
+  - '+.oauthz.com'          # A B
+  - '+.on.here'             # A B
+  - '+.on2.com'             # A B
+  - '+.onefifteen.net'      # A B
+  - '+.onefifteen.org'      # A B
+  - '+.oneworldmanystories.com'  # A B
+  - '+.opensourceinsight.dev'  # A B
+  - '+.opensourceinsights.dev'  # A B
+  - '+.openthread.io'       # A B
+  - '+.openweave.io'        # A B
+  - '+.openxla.org'         # A
+  - '+.orbitera.com'        # A B
+  - '+.page.link'           # A B
+  - '+.pagespeedmobilizer.com'  # A B
+  - '+.pageview.mobi'       # A B
+  - '+.panoramio.com'       # A B
+  - '+.partylikeits1986.org'  # A B
+  - '+.paxlicense.org'      # A B
+  - '+.picasa.com'          # A B
+  - '+.picasaweb.com'       # A B
+  - '+.picasaweb.net'       # A B
+  - '+.picasaweb.org'       # A B
+  - '+.picnik.com'          # A B
+  - '+.pittpatt.com'        # A B
+  - '+.pixate.com'          # A B
+  - '+.plus.codes'          # B
+  - '+.polymer-project.org'  # A B
+  - '+.polymerproject.org'  # A B
+  - '+.postini.com'         # A B
+  - '+.privacysandbox.com'  # A B
+  - '+.projectara.com'      # A B
+  - '+.projectbaseline.com'  # A B
+  - '+.pub.dev'             # A
+  - '+.publishproxy.com'    # A B
+  - '+.qiao-cn.com'         # B  合并 qiao-cn.com A
+  - '+.questvisual.com'     # A B
+  - '+.quickoffice.com'     # A B
+  - '+.quiksee.com'         # A B
+  - '+.recaptcha-cn.net'    # B  合并 recaptcha-cn.net A  覆盖 www.recaptcha-cn.net A
+  - '+.recaptcha.net'       # B  合并 recaptcha.net A  覆盖 www.recaptcha.net A
+  - '+.redhotlabs.com'      # B
+  - '+.revolv.com'          # A B
+  - '+.ridepenguin.com'     # A B
+  - '+.run.app'             # A B
+  - '+.savethedate.foo'     # A B
+  - '+.saynow.com'          # A B
+  - '+.schema.org'          # B
+  - '+.schemer.com'         # A B
+  - '+.screenwisetrends.com'  # A B
+  - '+.screenwisetrendspanel.com'  # A B
+  - '+.shattered.io'        # B
+  - '+.sheets.new'          # A
+  - '+.slides.new'          # A
+  - '+.snapseed.com'        # A B
+  - '+.solveforx.com'       # A B
+  - '+.stadia.dev'          # A B
+  - '+.stcroixmosquito.com'  # A B
+  - '+.stcroixmosquitoproject.com'  # A B
+  - '+.studywatchbyverily.com'  # A B
+  - '+.studywatchbyverily.org'  # A B
+  - '+.stxmosquito.com'     # A B
+  - '+.stxmosquitoproject.com'  # A B
+  - '+.stxmosquitoproject.net'  # A B
+  - '+.stxmosquitoproject.org'  # A B
+  - '+.synergyse.com'       # A B
+  - '+.teachparentstech.org'  # B
+  - '+.tenor.com'           # A
+  - '+.tensorflow.org'      # A B
+  - '+.tfhub.dev'           # A B
+  - '+.thecleversense.com'  # A B
+  - '+.thegooglestore.com'  # A B
+  - '+.thinkquarterly.com'  # A B
+  - '+.thinkwithgoogle.com'  # A B
+  - '+.tiltbrush.com'       # A B
+  - '+.txcloud.net'         # A B
+  - '+.txvia.com'           # A B
+  - '+.unfiltered.news'     # A B
+  - '+.urchin.com'          # A B  覆盖 service.urchin.com A
+  - '+.useplannr.com'       # A B
+  - '+.usvimosquito.com'    # A B
+  - '+.usvimosquitoproject.com'  # A B
+  - '+.v8.dev'              # A B
+  - '+.v8project.org'       # A B
+  - '+.velostrata.com'      # A B
+  - '+.verily.com'          # B
+  - '+.verilylifesciences.com'  # A B
+  - '+.verilystudyhub.com'  # A B
+  - '+.verilystudywatch.com'  # A B
+  - '+.verilystudywatch.org'  # A B
+  - '+.wallet.com'          # A B
+  - '+.waveprotocol.org'    # B
+  - '+.waymo.com'           # B
+  - '+.waze.com'            # A B
+  - '+.web.app'             # A B
+  - '+.web.dev'             # A B
+  - '+.webappfieldguide.com'  # A B
+  - '+.webmproject.org'     # A B
+  - '+.webpkgcache.com'     # A B
+  - '+.webrtc.org'          # A B
+  - '+.weltweitwachsen.de'  # A B
+  - '+.whatbrowser.org'     # A B
+  - '+.whats.new'           # A
+  - '+.widevine.com'        # A B  覆盖 cn.widevine.com A
+  - '+.withgoogle.com'      # A B
+  - '+.withyoutube.com'     # A
+  - '+.womenwill.com'       # A B
+  - '+.womenwill.id'        # A B
+  - '+.womenwill.in'        # A B
+  - '+.womenwill.mx'        # A B
+  - '+.x.company'           # A B
+  - '+.x.team'              # A B
+  - '+.xn--9kr7l.com'       # A B
+  - '+.xn--9trs65b.com'     # A B
+  - '+.xn--flw351e.com'     # A B
+  - '+.xn--ggle-55da.com'   # A B
+  - '+.xn--gogl-0nd52e.com'  # A B
+  - '+.xn--gogl-1nd42e.com'  # A B
+  - '+.xn--ngstr-lra8j.com'  # A B  覆盖 redirector.xn--ngstr-lra8j.com A
+  - '+.xn--p8j9a0d9c9a.xn--q9jyb4c'  # A B
+  - '+.xplr.co'             # A B
+  - '+.youtu.be'            # A
+  - '+.youtube-nocookie.com'  # A
+  - '+.youtube.ae'          # A
+  - '+.youtube.al'          # A
+  - '+.youtube.am'          # A
+  - '+.youtube.at'          # A
+  - '+.youtube.az'          # A
+  - '+.youtube.ba'          # A
+  - '+.youtube.be'          # A
+  - '+.youtube.bg'          # A
+  - '+.youtube.bh'          # A
+  - '+.youtube.bo'          # A
+  - '+.youtube.by'          # A
+  - '+.youtube.ca'          # A
+  - '+.youtube.cat'         # A
+  - '+.youtube.ch'          # A
+  - '+.youtube.cl'          # A
+  - '+.youtube.co'          # A
+  - '+.youtube.com'         # A  覆盖 +.ads.youtube.com A
+  - '+.youtube.cr'          # A
+  - '+.youtube.cz'          # A
+  - '+.youtube.de'          # A
+  - '+.youtube.dk'          # A
+  - '+.youtube.ee'          # A
+  - '+.youtube.es'          # A
+  - '+.youtube.fi'          # A
+  - '+.youtube.fr'          # A
+  - '+.youtube.ge'          # A
+  - '+.youtube.gr'          # A
+  - '+.youtube.gt'          # A
+  - '+.youtube.hk'          # A
+  - '+.youtube.hr'          # A
+  - '+.youtube.hu'          # A
+  - '+.youtube.ie'          # A
+  - '+.youtube.in'          # A
+  - '+.youtube.iq'          # A
+  - '+.youtube.is'          # A
+  - '+.youtube.it'          # A
+  - '+.youtube.jo'          # A
+  - '+.youtube.jp'          # A
+  - '+.youtube.kr'          # A
+  - '+.youtube.kz'          # A
+  - '+.youtube.la'          # A
+  - '+.youtube.lk'          # A
+  - '+.youtube.lt'          # A
+  - '+.youtube.lu'          # A
+  - '+.youtube.lv'          # A
+  - '+.youtube.ly'          # A
+  - '+.youtube.ma'          # A
+  - '+.youtube.md'          # A
+  - '+.youtube.me'          # A
+  - '+.youtube.mk'          # A
+  - '+.youtube.mn'          # A
+  - '+.youtube.mx'          # A
+  - '+.youtube.my'          # A
+  - '+.youtube.ng'          # A
+  - '+.youtube.ni'          # A
+  - '+.youtube.nl'          # A
+  - '+.youtube.no'          # A
+  - '+.youtube.pa'          # A
+  - '+.youtube.pe'          # A
+  - '+.youtube.ph'          # A
+  - '+.youtube.pk'          # A
+  - '+.youtube.pl'          # A
+  - '+.youtube.pr'          # A
+  - '+.youtube.pt'          # A
+  - '+.youtube.qa'          # A
+  - '+.youtube.ro'          # A
+  - '+.youtube.rs'          # A
+  - '+.youtube.ru'          # A
+  - '+.youtube.sa'          # A
+  - '+.youtube.se'          # A
+  - '+.youtube.sg'          # A
+  - '+.youtube.si'          # A
+  - '+.youtube.sk'          # A
+  - '+.youtube.sn'          # A
+  - '+.youtube.soy'         # A
+  - '+.youtube.sv'          # A
+  - '+.youtube.tn'          # A
+  - '+.youtube.tv'          # A
+  - '+.youtube.ua'          # A
+  - '+.youtube.ug'          # A
+  - '+.youtube.uy'          # A
+  - '+.youtube.vn'          # A
+  - '+.youtubeeducation.com'  # A  覆盖 redirector.c.youtubeeducation.com A
+  - '+.youtubefanfest.com'  # A
+  - '+.youtubegaming.com'   # A
+  - '+.youtubego.com'       # A
+  - '+.youtubego.id'        # A
+  - '+.youtubego.in'        # A
+  - '+.youtubekids.com'     # A
+  - '+.youtubemobilesupport.com'  # A
+  - '+.yt.be'               # A
+  - '+.ytimg.com'           # A
+  - '+.zukunftswerkstatt.de'  # A B
+  - '+.zynamics.com'        # B
+  - '+.apps5.oingo.com'     # B  合并 apps5.oingo.com A
+  - '+.avail.googleflights.net'  # B  合并 avail.googleflights.net A
+  - '+.blogspot.co.at'      # A B
+  - '+.blogspot.co.id'      # A B
+  - '+.blogspot.co.il'      # A B
+  - '+.blogspot.co.ke'      # A B
+  - '+.blogspot.co.nz'      # A B
+  - '+.blogspot.co.uk'      # A B
+  - '+.blogspot.co.za'      # A B
+  - '+.blogspot.com.ar'     # A B
+  - '+.blogspot.com.au'     # A B
+  - '+.blogspot.com.br'     # A B
+  - '+.blogspot.com.by'     # A B
+  - '+.blogspot.com.co'     # A B
+  - '+.blogspot.com.cy'     # A B
+  - '+.blogspot.com.ee'     # A B
+  - '+.blogspot.com.eg'     # A B
+  - '+.blogspot.com.es'     # A B
+  - '+.blogspot.com.mt'     # A B
+  - '+.blogspot.com.ng'     # A B
+  - '+.blogspot.com.tr'     # A B
+  - '+.blogspot.com.uy'     # A B
+  - '+.clickserve.cc-dt.com'  # B  合并 clickserve.cc-dt.com A
+  - '+.google.co.ao'        # A B
+  - '+.google.co.bw'        # A B
+  - '+.google.co.ck'        # A B
+  - '+.google.co.cr'        # A B  覆盖 scholar.google.co.cr A
+  - '+.google.co.id'        # A B  覆盖 scholar.google.co.id A
+  - '+.google.co.il'        # A B  覆盖 scholar.google.co.il A
+  - '+.google.co.in'        # A B  覆盖 scholar.google.co.in A
+  - '+.google.co.jp'        # A B  覆盖 scholar.google.co.jp A
+  - '+.google.co.ke'        # A B
+  - '+.google.co.kr'        # A B  覆盖 scholar.google.co.kr A
+  - '+.google.co.ls'        # A B
+  - '+.google.co.ma'        # A B
+  - '+.google.co.mz'        # A B
+  - '+.google.co.nz'        # A B  覆盖 scholar.google.co.nz A
+  - '+.google.co.th'        # A B  覆盖 scholar.google.co.th A
+  - '+.google.co.tz'        # A B
+  - '+.google.co.ug'        # A B
+  - '+.google.co.uk'        # A B  覆盖 scholar.google.co.uk A
+  - '+.google.co.uz'        # A B
+  - '+.google.co.ve'        # A B  覆盖 scholar.google.co.ve A
+  - '+.google.co.vi'        # A B
+  - '+.google.co.za'        # A B  覆盖 scholar.google.co.za A
+  - '+.google.co.zm'        # A B
+  - '+.google.co.zw'        # A B
+  - '+.google.com.af'       # A B
+  - '+.google.com.ag'       # A B
+  - '+.google.com.ai'       # A B
+  - '+.google.com.ar'       # A B  覆盖 scholar.google.com.ar A
+  - '+.google.com.au'       # A B  覆盖 scholar.google.com.au A
+  - '+.google.com.bd'       # A B
+  - '+.google.com.bh'       # A B
+  - '+.google.com.bn'       # A B
+  - '+.google.com.bo'       # A B  覆盖 scholar.google.com.bo A
+  - '+.google.com.br'       # A B  覆盖 scholar.google.com.br A
+  - '+.google.com.bz'       # A B
+  - '+.google.com.co'       # A B  覆盖 scholar.google.com.co A
+  - '+.google.com.cu'       # A B  覆盖 scholar.google.com.cu A
+  - '+.google.com.cy'       # A B
+  - '+.google.com.do'       # A B  覆盖 scholar.google.com.do A
+  - '+.google.com.ec'       # A B  覆盖 scholar.google.com.ec A
+  - '+.google.com.eg'       # A B  覆盖 scholar.google.com.eg A
+  - '+.google.com.et'       # A B
+  - '+.google.com.fj'       # A B
+  - '+.google.com.gh'       # A B
+  - '+.google.com.gi'       # A B
+  - '+.google.com.gt'       # A B  覆盖 scholar.google.com.gt A
+  - '+.google.com.hk'       # A B  覆盖 scholar.google.com.hk A
+  - '+.google.com.jm'       # A B
+  - '+.google.com.kh'       # A B
+  - '+.google.com.kw'       # A B
+  - '+.google.com.lb'       # A B
+  - '+.google.com.ly'       # A B  覆盖 scholar.google.com.ly A
+  - '+.google.com.mm'       # A B
+  - '+.google.com.mt'       # A B
+  - '+.google.com.mx'       # A B  覆盖 scholar.google.com.mx A
+  - '+.google.com.my'       # A B  覆盖 scholar.google.com.my A
+  - '+.google.com.na'       # A B
+  - '+.google.com.ng'       # A B
+  - '+.google.com.ni'       # A B  覆盖 scholar.google.com.ni A
+  - '+.google.com.np'       # A B
+  - '+.google.com.om'       # A B
+  - '+.google.com.pa'       # A B  覆盖 scholar.google.com.pa A
+  - '+.google.com.pe'       # A B  覆盖 scholar.google.com.pe A
+  - '+.google.com.pg'       # A B
+  - '+.google.com.ph'       # A B  覆盖 scholar.google.com.ph A
+  - '+.google.com.pk'       # A B  覆盖 scholar.google.com.pk A
+  - '+.google.com.pr'       # A B  覆盖 scholar.google.com.pr A
+  - '+.google.com.py'       # A B  覆盖 scholar.google.com.py A
+  - '+.google.com.qa'       # A B
+  - '+.google.com.sa'       # A B
+  - '+.google.com.sb'       # A B
+  - '+.google.com.sg'       # A B  覆盖 scholar.google.com.sg A
+  - '+.google.com.sl'       # A B
+  - '+.google.com.sv'       # A B  覆盖 scholar.google.com.sv A
+  - '+.google.com.tj'       # A B
+  - '+.google.com.tr'       # A B  覆盖 scholar.google.com.tr A
+  - '+.google.com.tw'       # A B  覆盖 scholar.google.com.tw A
+  - '+.google.com.ua'       # A B  覆盖 scholar.google.com.ua A
+  - '+.google.com.uy'       # A B  覆盖 scholar.google.com.uy A
+  - '+.google.com.vc'       # A B
+  - '+.google.com.vn'       # A B  覆盖 scholar.google.com.vn A
+  - '+.googlecompare.co.uk'  # A B
+  - '+.howtogetmo.co.uk'    # A B
+  - '+.qpx.googleflights.net'  # B  合并 qpx.googleflights.net A
+  - '+.thinkquarterly.co.uk'  # A B
+  - '+.womenwill.com.br'    # A B
+  - '+.www.destinationurl.com'  # B  合并 www.destinationurl.com A
+  - '+.www.pxcc.com'        # B  合并 www.pxcc.com A
+  - '+.youtube.co.ae'       # A
+  - '+.youtube.co.at'       # A
+  - '+.youtube.co.cr'       # A
+  - '+.youtube.co.hu'       # A
+  - '+.youtube.co.id'       # A
+  - '+.youtube.co.il'       # A
+  - '+.youtube.co.in'       # A
+  - '+.youtube.co.jp'       # A
+  - '+.youtube.co.ke'       # A
+  - '+.youtube.co.kr'       # A
+  - '+.youtube.co.ma'       # A
+  - '+.youtube.co.nz'       # A
+  - '+.youtube.co.th'       # A
+  - '+.youtube.co.tz'       # A
+  - '+.youtube.co.ug'       # A
+  - '+.youtube.co.uk'       # A
+  - '+.youtube.co.ve'       # A
+  - '+.youtube.co.za'       # A
+  - '+.youtube.co.zw'       # A
+  - '+.youtube.com.ar'      # A
+  - '+.youtube.com.au'      # A
+  - '+.youtube.com.az'      # A
+  - '+.youtube.com.bd'      # A
+  - '+.youtube.com.bh'      # A
+  - '+.youtube.com.bo'      # A
+  - '+.youtube.com.br'      # A
+  - '+.youtube.com.by'      # A
+  - '+.youtube.com.co'      # A
+  - '+.youtube.com.do'      # A
+  - '+.youtube.com.ec'      # A
+  - '+.youtube.com.ee'      # A
+  - '+.youtube.com.eg'      # A
+  - '+.youtube.com.es'      # A
+  - '+.youtube.com.gh'      # A
+  - '+.youtube.com.gr'      # A
+  - '+.youtube.com.gt'      # A
+  - '+.youtube.com.hk'      # A
+  - '+.youtube.com.hn'      # A
+  - '+.youtube.com.hr'      # A
+  - '+.youtube.com.jm'      # A
+  - '+.youtube.com.jo'      # A
+  - '+.youtube.com.kw'      # A
+  - '+.youtube.com.lb'      # A
+  - '+.youtube.com.lv'      # A
+  - '+.youtube.com.ly'      # A
+  - '+.youtube.com.mk'      # A
+  - '+.youtube.com.mt'      # A
+  - '+.youtube.com.mx'      # A
+  - '+.youtube.com.my'      # A
+  - '+.youtube.com.ng'      # A
+  - '+.youtube.com.ni'      # A
+  - '+.youtube.com.om'      # A
+  - '+.youtube.com.pa'      # A
+  - '+.youtube.com.pe'      # A
+  - '+.youtube.com.ph'      # A
+  - '+.youtube.com.pk'      # A
+  - '+.youtube.com.pt'      # A
+  - '+.youtube.com.py'      # A
+  - '+.youtube.com.qa'      # A
+  - '+.youtube.com.ro'      # A
+  - '+.youtube.com.sa'      # A
+  - '+.youtube.com.sg'      # A
+  - '+.youtube.com.sv'      # A
+  - '+.youtube.com.tn'      # A
+  - '+.youtube.com.tr'      # A
+  - '+.youtube.com.tw'      # A
+  - '+.youtube.com.ua'      # A
+  - '+.youtube.com.uy'      # A
+  - '+.youtube.com.ve'      # A
+  - '+.youtubego.co.id'     # A
+  - '+.youtubego.co.in'     # A
+  - '+.youtubego.com.br'    # A
+  - 'google-ohttp-relay-safebrowsing.fastly-edge.com'  # A

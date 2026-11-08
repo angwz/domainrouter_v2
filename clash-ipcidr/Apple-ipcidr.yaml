@@ -1,0 +1,23 @@
+# NAME: Apple
+# GROUP: 🍎 Apple
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: ipcidr
+# TOTAL: 13
+# IP-CIDR: 10
+# IP-CIDR6: 3
+# SOURCE A: blackmatrix7 · Apple/Apple.list
+payload:
+  - '17.0.0.0/8'        # A
+  - '63.92.224.0/19'    # A
+  - '65.199.22.0/23'    # A
+  - '139.178.128.0/18'  # A
+  - '144.178.0.0/19'    # A
+  - '144.178.36.0/22'   # A
+  - '144.178.48.0/20'   # A
+  - '192.35.50.0/24'    # A
+  - '198.183.17.0/24'   # A
+  - '205.180.175.0/24'  # A
+  - '2403:300::/32'     # A
+  - '2620:149::/32'     # A
+  - '2a01:b740::/32'    # A

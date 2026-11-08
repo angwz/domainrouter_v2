@@ -1,0 +1,828 @@
+{
+  "artifacts": [
+    {
+      "behavior": "classical",
+      "collections": [
+        "AI"
+      ],
+      "entries": 8,
+      "format": "yaml",
+      "path": "clash-classic/AI-classic.yaml",
+      "sha256": "9c8b3f5d71abe3e2fc5e602cee6c1a6b7459ffe4fa5a18739897bbd53939866a"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "America"
+      ],
+      "entries": 4,
+      "format": "yaml",
+      "path": "clash-classic/America-classic.yaml",
+      "sha256": "0ed91cfc0aec08cdbc19e53489efa9bbcfc49409df5abd69383e0acfbefbe7d1"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Apple"
+      ],
+      "entries": 20,
+      "format": "yaml",
+      "path": "clash-classic/Apple-classic.yaml",
+      "sha256": "d432dbd88b7190a22f73354bef909b6a528e3fa755d7d71521943ff7f502d130"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Bilibili"
+      ],
+      "entries": 7,
+      "format": "yaml",
+      "path": "clash-classic/Bilibili-classic.yaml",
+      "sha256": "6091c9ec5c3c32c293b480753e230c1af7756b916cc90ac626ccbced24c54d89"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "China"
+      ],
+      "entries": 101,
+      "format": "yaml",
+      "path": "clash-classic/China-classic.yaml",
+      "sha256": "33760a1dc06aa8d092d0021f4b8cdb47862faa81a2095ea8eb9fd56305c8bf4a"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "ChinaMedia"
+      ],
+      "entries": 15,
+      "format": "yaml",
+      "path": "clash-classic/ChinaMedia-classic.yaml",
+      "sha256": "715bf65155e7123f21df2fa6cf70b07a144a03325aef5be3c9ffa8be9c3fd961"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Direct"
+      ],
+      "entries": 53,
+      "format": "yaml",
+      "path": "clash-classic/Direct-classic.yaml",
+      "sha256": "23051101c1661a350a1117bc4b74f0423f77db1265969545ce01a1257092ecd4"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Google"
+      ],
+      "entries": 11,
+      "format": "yaml",
+      "path": "clash-classic/Google-classic.yaml",
+      "sha256": "592653edc4cd2efcb3bfad7987f49a7a1f19c343a3210b63b0cd5b5ffa83cabb"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "HK"
+      ],
+      "entries": 6,
+      "format": "yaml",
+      "path": "clash-classic/HK-classic.yaml",
+      "sha256": "1d9218602d1d51470fbca1b10c6a5d4a7db4064f44d5debcf55e627b5f5bb2b3"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Japan"
+      ],
+      "entries": 4,
+      "format": "yaml",
+      "path": "clash-classic/Japan-classic.yaml",
+      "sha256": "0cc797c7e34d5338528bb2ebf205cfdde7c4fbf1a7c684b44043ddebcbb3be6a"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Media"
+      ],
+      "entries": 42,
+      "format": "yaml",
+      "path": "clash-classic/Media-classic.yaml",
+      "sha256": "4fa86cfb4aba2aed465276e5d5955d16369be3b29410efb4d3d4f4dc54a47167"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Microsoft"
+      ],
+      "entries": 7,
+      "format": "yaml",
+      "path": "clash-classic/Microsoft-classic.yaml",
+      "sha256": "3ee8140c42919d51b3212817e92edcb616f0247ebc4190ecb7412531238bee20"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "NS"
+      ],
+      "entries": 1,
+      "format": "yaml",
+      "path": "clash-classic/NS-classic.yaml",
+      "sha256": "f867fbe2f4be6ba8d60191a4d87be983ffa919845cba45459a59c1b94aaa28d1"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Netflix"
+      ],
+      "entries": 5,
+      "format": "yaml",
+      "path": "clash-classic/Netflix-classic.yaml",
+      "sha256": "3d2cc09af11721805112ec54239ba0a471f48274f63223af6670e29e18205e91"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "OneDrive"
+      ],
+      "entries": 9,
+      "format": "yaml",
+      "path": "clash-classic/OneDrive-classic.yaml",
+      "sha256": "291e82f302878f686f9157801e9c5c98a61ad90d6a75b770f28d2444bee72ade"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Proxy"
+      ],
+      "entries": 39,
+      "format": "yaml",
+      "path": "clash-classic/Proxy-classic.yaml",
+      "sha256": "51f037e6df4cef6032e945eb0eea75b3d844c9b3ec6dd1c8d50f8d3a65160e54"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Singapore"
+      ],
+      "entries": 7,
+      "format": "yaml",
+      "path": "clash-classic/Singapore-classic.yaml",
+      "sha256": "098f03dbdc3e2b5df7e3bca66a7725e14c0090c794c82a344c024f17c03a06f0"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Telegram"
+      ],
+      "entries": 12,
+      "format": "yaml",
+      "path": "clash-classic/Telegram-classic.yaml",
+      "sha256": "91d09bb69b3ca3df24e5309851b28c7cd5dd21f747efac232136b86e4f23055b"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "Tencent"
+      ],
+      "entries": 1,
+      "format": "yaml",
+      "path": "clash-classic/Tencent-classic.yaml",
+      "sha256": "88d329c8cf6eff0f4c55e639924246439c20a21dd5cee89d206b8b7ca65865de"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "TikTok"
+      ],
+      "entries": 3,
+      "format": "yaml",
+      "path": "clash-classic/TikTok-classic.yaml",
+      "sha256": "9a13b9ee3963a4abbf2d43926689ddf61d76e34b69afc510e5f5bf1fa2ba0f53"
+    },
+    {
+      "behavior": "classical",
+      "collections": [
+        "YouTube"
+      ],
+      "entries": 1,
+      "format": "yaml",
+      "path": "clash-classic/YouTube-classic.yaml",
+      "sha256": "8fae2e45cc4e31bfb063ca8b7a83bb7fbbbe00456f06d3ac9c68b1ef4fa5ac16"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "AI"
+      ],
+      "entries": 304,
+      "format": "yaml",
+      "path": "clash-domain/AI.yaml",
+      "sha256": "2a4d0a01af6bf9230bec08639e8baa9f2c3e421df7dac22c87631bfdd994f533"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "America"
+      ],
+      "entries": 1683,
+      "format": "yaml",
+      "path": "clash-domain/America.yaml",
+      "sha256": "a1eeaaab6ab85fb9a5bffd353762dc433078da68d66cfe5a2f01d9c459846b54"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Apple"
+      ],
+      "entries": 1561,
+      "format": "yaml",
+      "path": "clash-domain/Apple.yaml",
+      "sha256": "9152600b655a74e7aa7e9322e1fea5e2bf1c773353913a22b8e7941828f64729"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Bilibili"
+      ],
+      "entries": 1161,
+      "format": "yaml",
+      "path": "clash-domain/Bilibili.yaml",
+      "sha256": "bd98bde0a7a4ce285468b35b3e5a2b00d8cac2f361d7da9e4e20879b2c8252ea"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "China"
+      ],
+      "entries": 110750,
+      "format": "yaml",
+      "path": "clash-domain/China.yaml",
+      "sha256": "56fabd839aa72338827f34926cb8899daa5da6dc4c432113e42ce0cd46b792b5"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "ChinaMedia"
+      ],
+      "entries": 5502,
+      "format": "yaml",
+      "path": "clash-domain/ChinaMedia.yaml",
+      "sha256": "1ea70d21969278c0c812e7b1199017a3cffcf58e4511e205f1089df5e3dddc6f"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Direct"
+      ],
+      "entries": 1979,
+      "format": "yaml",
+      "path": "clash-domain/Direct.yaml",
+      "sha256": "942fca9b8583d0233497b492484eb9fcb6f5fd04801ffaac55577ad81cb02a39"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Google"
+      ],
+      "entries": 879,
+      "format": "yaml",
+      "path": "clash-domain/Google.yaml",
+      "sha256": "2f38d3cb7847e9aafdc2c6b9cd3a805153401714e9d3a7e8891c3dbe9750d055"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "HK"
+      ],
+      "entries": 1296,
+      "format": "yaml",
+      "path": "clash-domain/HK.yaml",
+      "sha256": "f196094aad78d1b0066f9fa3bfa9e687cedae5bcac141b84bbbeb8e1ed7e0284"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Japan"
+      ],
+      "entries": 285,
+      "format": "yaml",
+      "path": "clash-domain/Japan.yaml",
+      "sha256": "25ef5a525319dd7f1703f97a383f651ee1293c060c05ec2571e76e7104f2757e"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Media"
+      ],
+      "entries": 11104,
+      "format": "yaml",
+      "path": "clash-domain/Media.yaml",
+      "sha256": "aa601ad0258041b5ea7e2bf01e3ec844ae6c44eeba17dbc72cd4d049ef56100a"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Microsoft"
+      ],
+      "entries": 763,
+      "format": "yaml",
+      "path": "clash-domain/Microsoft.yaml",
+      "sha256": "20351bee1b79a58a71ef65f9ac000b9270acffb5efceba04d2662f784e6f3ab0"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "NS"
+      ],
+      "entries": 7,
+      "format": "yaml",
+      "path": "clash-domain/NS.yaml",
+      "sha256": "3ba34664c1aa027cd2e0eceed7e744895221ec8aeb4bd2945ef390e66085f0d8"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Netflix"
+      ],
+      "entries": 32,
+      "format": "yaml",
+      "path": "clash-domain/Netflix.yaml",
+      "sha256": "8c145f4f8d1cf9cd66379ca803df8af3f4b70e784a2abfeffa7a962d5d5a50b5"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "OneDrive"
+      ],
+      "entries": 672,
+      "format": "yaml",
+      "path": "clash-domain/OneDrive.yaml",
+      "sha256": "ef59d58ed9dba84f5f037f75670db728aaa03ff318e37acca4ad97702f61c25c"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Proxy"
+      ],
+      "entries": 29844,
+      "format": "yaml",
+      "path": "clash-domain/Proxy.yaml",
+      "sha256": "3583bcf72c6cf3ba7882a9a27af87df5d13a906e11f9ba97b2d4640f57aee563"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Singapore"
+      ],
+      "entries": 943,
+      "format": "yaml",
+      "path": "clash-domain/Singapore.yaml",
+      "sha256": "f973ac79bc6b93a8093039efc3023e31182df7c88f68f75feada35f37fbdbe67"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Telegram"
+      ],
+      "entries": 28,
+      "format": "yaml",
+      "path": "clash-domain/Telegram.yaml",
+      "sha256": "260b440035922977e18cdcf8f77bade682f952fb2a435906d133a118bbe983cc"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Tencent"
+      ],
+      "entries": 2597,
+      "format": "yaml",
+      "path": "clash-domain/Tencent.yaml",
+      "sha256": "1553e18e0852aaf9b6dd0aa0640d4642d2feff05d2e2c5aeaef5b746bd8b1213"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "TikTok"
+      ],
+      "entries": 58,
+      "format": "yaml",
+      "path": "clash-domain/TikTok.yaml",
+      "sha256": "22811dc29a9c19903fc8c5ecbd424435f26338cf4785bc8b95b0810dd6fc3ca1"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "YouTube"
+      ],
+      "entries": 180,
+      "format": "yaml",
+      "path": "clash-domain/YouTube.yaml",
+      "sha256": "646b43121cc3394ede0402427acc59883c1509df81e1c9d9375dfc226a303571"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "AI"
+      ],
+      "entries": 23,
+      "format": "yaml",
+      "path": "clash-ipcidr/AI-ipcidr.yaml",
+      "sha256": "b74eea78bbf157770145f9ef7c34c6d60906f9cb9140e398f1dd87b5d3b8ee37"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Apple"
+      ],
+      "entries": 13,
+      "format": "yaml",
+      "path": "clash-ipcidr/Apple-ipcidr.yaml",
+      "sha256": "9a2940ecec0d508cb4112ae79c4956ca842ef48745b3b83b2a109f9c75b60e6b"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Bilibili"
+      ],
+      "entries": 9,
+      "format": "yaml",
+      "path": "clash-ipcidr/Bilibili-ipcidr.yaml",
+      "sha256": "55a1a1955effff1dd78de09a840f2184ea7ee6a2ccdb32d868b1276ec29b8ebe"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "China"
+      ],
+      "entries": 12569,
+      "format": "yaml",
+      "path": "clash-ipcidr/China-ipcidr.yaml",
+      "sha256": "1db1ccced2a62b03a844f67a8809b061e56d55495271d414d0d58e3b0d81717f"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "ChinaMedia"
+      ],
+      "entries": 1730,
+      "format": "yaml",
+      "path": "clash-ipcidr/ChinaMedia-ipcidr.yaml",
+      "sha256": "67157aca256450b75b8bc91a412dbdf1ee5e748530a1bd209739fc811ee734cb"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Direct"
+      ],
+      "entries": 530,
+      "format": "yaml",
+      "path": "clash-ipcidr/Direct-ipcidr.yaml",
+      "sha256": "6f5065ead5f1c7d7959df215845d06f6b351e05a9f96f6a507e4bfa2e44b88d8"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Google"
+      ],
+      "entries": 8426,
+      "format": "yaml",
+      "path": "clash-ipcidr/Google-ipcidr.yaml",
+      "sha256": "8e20d7210dc92d65d32bc3594ea11879b4b7372c65787be36627e2bc380452d2"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "HK"
+      ],
+      "entries": 2715,
+      "format": "yaml",
+      "path": "clash-ipcidr/HK-ipcidr.yaml",
+      "sha256": "0d3180a89773027b340d7d3b18d06ad20bf102d6eef55367889767035c5c30ac"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Japan"
+      ],
+      "entries": 19,
+      "format": "yaml",
+      "path": "clash-ipcidr/Japan-ipcidr.yaml",
+      "sha256": "6ea1243ce66d4a65b8183d99241b8893a4ce8be5f790770c743bff9b68c093f7"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Media"
+      ],
+      "entries": 1439,
+      "format": "yaml",
+      "path": "clash-ipcidr/Media-ipcidr.yaml",
+      "sha256": "826a44aa342dcf706ef3592713cbf9935cbb982af0bb394cf19c61f850883caf"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Netflix"
+      ],
+      "entries": 1121,
+      "format": "yaml",
+      "path": "clash-ipcidr/Netflix-ipcidr.yaml",
+      "sha256": "28d13187739080ea5cebfccbc1cbe871d5104180899874086aa68b6b876c5fd4"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "OneDrive"
+      ],
+      "entries": 3,
+      "format": "yaml",
+      "path": "clash-ipcidr/OneDrive-ipcidr.yaml",
+      "sha256": "3ebf7186c0519bc3159ac0de01c1b8e476c8f3c86ccb8399a68cca5c47997b3c"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Proxy"
+      ],
+      "entries": 119,
+      "format": "yaml",
+      "path": "clash-ipcidr/Proxy-ipcidr.yaml",
+      "sha256": "856c78d857e4b7b90a007b55f99cce798f943db9ed936e12177736d669fde89c"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Singapore"
+      ],
+      "entries": 142,
+      "format": "yaml",
+      "path": "clash-ipcidr/Singapore-ipcidr.yaml",
+      "sha256": "a2c331041285ab5c86800d1e5b5f06e012a800c124df0e37ac80e2ec75150c06"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Telegram"
+      ],
+      "entries": 14,
+      "format": "yaml",
+      "path": "clash-ipcidr/Telegram-ipcidr.yaml",
+      "sha256": "7cb07d1a60d2d80eb93879511f4e4582c419017f1544dfe2955835af64832ca6"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Tencent"
+      ],
+      "entries": 52,
+      "format": "yaml",
+      "path": "clash-ipcidr/Tencent-ipcidr.yaml",
+      "sha256": "196a8c0a3b7beac4f4af428d648575eca71ac9f84f1c74afad772cecc56b7294"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "YouTube"
+      ],
+      "entries": 3,
+      "format": "yaml",
+      "path": "clash-ipcidr/YouTube-ipcidr.yaml",
+      "sha256": "9e30c49cd54a52ddf2a2eac004820b588d3412c8f8a2153d61d1b0d444397c33"
+    }
+  ],
+  "engine": "276af4d75a9501387d8c371747ace58b84539c924d919ace579fa4d8fef20c54",
+  "generation": "573ab7699ee2b9ceff0435827bc150620ca04a0d8bcb0c6a9a7421effdfbd327",
+  "generator": "domainrouter_v2 2.0.0",
+  "groups": {
+    "sha256": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2"
+  },
+  "inputs": {
+    "groups": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2",
+    "rules": "78b0c5841ac9afea58c6a6183c41b8697b11236719e2c90b463c65597ddada01",
+    "sources": {
+      "002e649058dcadcf": "47cbef120375369cc598bde820ca051fa22aadd0c3f6ba0a5ecdcac7012b8895",
+      "008b3ec0423aef73": "aeab215b54dbef79fde0cc21a554e10bed27c5e1303b856c5f15e3f893e016f8",
+      "01345f694c37249f": "6abdbe3af3f0edbe03288f9b7cd4963361824a2fbf1cd40307d58a395f43da18",
+      "015b9589de9e75ab": "5e12e3faf1fefe6970fb7e3101ace27917a30fc379a1c4ec0cd2927cce30a8dc",
+      "0200aa5ea0bde8f7": "2d0b5b114e79f2bfafd0f8da2cb3252c66ea144c341a9dc8b73f93a71d8e156c",
+      "0293607df14456b1": "559ea68db96af2c0e09cb7f2697f642f092f4ef47c11db7b31448db01faedf7b",
+      "02aa40e9b4d19aec": "42f2909450021fcbad762faf3a9ff6d1b6ba732c361d0fab2eaf7a26a3491f9e",
+      "02dbb3de20375dd0": "42f2909450021fcbad762faf3a9ff6d1b6ba732c361d0fab2eaf7a26a3491f9e",
+      "037ec4928dc25082": "bb3a8f7c5df74366a945640234188b6cedd3bbc05d8b8a66092fb8603ebb1133",
+      "05ebbd3d45fe87b1": "a24d5ee2264665a04fd7e248b10fa051950b2cfe36c28da8baab6fa224cd8e75",
+      "073720a9322433cc": "2e29b14f0cd754310abe86a11a6d75b20a5a2cb4079320d7304524d5a38d763a",
+      "0774ab63c4e77f74": "b37bf316a3199a8be4da836b9f3c661fc9a386c903689e7ce5851cfbd2c742dc",
+      "07a7388cbbc7f9c7": "993abf52a2f101a324bc847a592acf43cb46b6303ae57a965b6dadc205f19e4d",
+      "087b8a92ecc1d44a": "065fe8c35b4da4b04df4b5a841d9fa6e0bd3b7df6753b7169efba33af524c410",
+      "08c31ea9fff884bd": "48c17b359431ac09d31c79f5f4056a32c04a9662463bba6fb9276b72153b2554",
+      "0945fd99b7d6d04d": "9c382dcc49fd787f3df74e43d3d07846274112f1698ab33d5757f602e305e108",
+      "0b17a001f24c9633": "dcf3e066fc43cd658ac35f3eff00b4ef06c5b92f14bb9efed03de2d3b8f9b1c8",
+      "0b9eed248893add6": "012837887295a5f2c2586930b7ec72c6d9de56eb7e62935bc0bb792eaa842110",
+      "0c4b61b9473e8323": "3836a56f9b76de049b33b67ee13d3097122bcf9509d1c418d52eac474eb5e8db",
+      "0cb093921db082d9": "9e73fbf88e1abb46160673158f364514ab553808add6c1665ff84e741345e1bf",
+      "0dce2576c45d5e35": "2e02f9a73959b4b2b244d37fbc5ae49e0bb6c1882d751da75b937a9c0477a4ac",
+      "1023f2b119992ea5": "b8fa95833ebb52523667e592e48ffd85cfbb0478805190773121fb1507e490ee",
+      "11a48b00f518dfdb": "42b95eb88da5a534873b69d5f978af44ce9e7d6e54ba24dd50498fa0ad83a427",
+      "162f5f357decf0f2": "283fd4316aa458037b6f31bfea09266acdae95dd556f79fb36d4930cafc77ab4",
+      "164891eb93c5fd62": "7e0134f4bd99a59d56d1da86ae4656d6fd68b2881a98a8c6b980f13bcca58e5f",
+      "172c6a4d0c5593d4": "338b940a47df539263127eacac1f6222a908dbd63e9cde33652071d47c2382d5",
+      "1767afbd4e10a3d5": "e31afa6e5449a99eeaa0e18a6a9e91f6473908ba07a0d40556ab1905c81f57ad",
+      "1b340780562b2088": "bb8789b726e8b690a88af7ee4137b3274835b4bae5e0e4ff9c1f11b7f0d67367",
+      "1be7fd22752ae1b3": "5c778439ace9bf32e0c187c3192d9d53ace8daf55da7232741fef19cae811bb6",
+      "1c4f75a4a2f565d2": "d71211f283c2604a7c0427ab744f5e0365798c28b92077bdc42d38f6812cfc15",
+      "1ce0cb25605b070e": "661ae23a78ffa34c0211ce16d30963d4eee2b9bcc27eaeae41224633db95bf5e",
+      "1df48e2113a591dd": "0356f6d775ec135120853c4584b9b3cc8390bab683ab63d2b5ec2d0cfc436e1a",
+      "1ec8aaf3bb05ff93": "834e82c8a32936c563e44193fdaac05aa6deb1dbb5185d5838b34496110b6ede",
+      "1fc192c6d8e3ff4a": "5a30a3ad2576f3ab3584546ec1b659d252001a1a2e6123d2aa5e7df299773699",
+      "1ffc472249847e58": "dd69a6ce903949f2602638c0e61aa4268670d0a9ff8f781578aeb83a238c383d",
+      "20015dad0aebf6ce": "36666d05953ac95577a92bfe5f238550c16281cadcbba81df2ff59952aa8f8dd",
+      "225cdd1a5c882c0f": "0f9653a442a29c482e8cbea431e8c9b33118f6a100edcbd1b5e304fbd7c7d5a3",
+      "231f15d7aa92f95a": "738c64544dc5413ba1bdf205af5dffa653666df3a0a6c027b96697933ef15fe1",
+      "25af95e45e3b2895": "bcefccc866d8abd8ed2b02f22c653bd4c98587c38175fe1d49f29be6d98ca2d6",
+      "26170e20482760e2": "a626ac6b013782303695a2aed7f17f68f1cbe7113ccb7fb5f31aaba76b9bc8f1",
+      "27a51a072263e01b": "7ef6a83da2bc924732db6061f2b7abfefd383cfac98c9b77537fef263d8d09cd",
+      "27aa36433b7cb51f": "02b9be29b3da23b4c87ea7c0492211a06ba3783492f3ceafaaf68245e8e9f522",
+      "280d5afba68fe064": "35fcec182c82a2d3cf6a04e5953fccaeaf92dba0d2f971a397683d1b045ce284",
+      "29615febccf5daf6": "5280b7872a6d6811f8e20851e98ce3c93d12e381fb132cbe09272a698f742dcf",
+      "29b280e596c67084": "9b7c632624ee6ac6c83079ac9bb7bf51a0a2b21b4571e53b19b2f1178d99580e",
+      "29b785f1b1711ca5": "27f1a719927a6f74c265c1526962d3c458d3ab7c517d499fbd085564a51a9b2d",
+      "2c7dc5e3dcc0f574": "8ffaf2a529d885db65f42810287398015552efdf774f243afecb37a04b2f2bed",
+      "2cf56f636b4c71fc": "32c17229e9ef97096b0591816cc79b8fd46858d746d77680e387e3d18bbd0ce3",
+      "2d2feabd717c920e": "1503f7e7d43ac10d38dcf1bded60627f0ef6c92dc7ff613262b6ac5dd10e5ac2",
+      "2d74978d11bec76e": "cd8b192cd63cbdd3e123378257e97d3a5e7fa76dcf7bbf6b4c3b437da282bfdd",
+      "3014dfbaf6981e33": "0bd3d7603c0aacb61ea698a077589c3db7a854f1c6c9e0580eabdeb2e69af207",
+      "3078fe55757b59da": "f86c89ca3c0180d412fd5f1c75dca15537a84f9d0d600ac47922867bf2768bc1",
+      "30b30243f923e4c4": "e39363d9aeeacd93e76194f39ff83b5c5cbbca847b2c3280eee5301d2114249d",
+      "32c7ceed754a890a": "877f282ca5e869b21f876581c2c88d100f31753cfb19ded21c7685f7e1cd00d4",
+      "335087fe1c7404fd": "f0d5e1b04bc272da0120686a0be76bf746cf5530cf4a239f2022147f1be9c2f5",
+      "33d53accdb3d1120": "614a34d69ee5d4a2e5936db0234d0eff5e61db0394aa99872e624182b03a85ce",
+      "375e7d3bee48a749": "b85585e3a67e92aa2a04a91c833f5889a9c67a2dd149e91b2c46190e72baa05e",
+      "3813db0e0261e6ea": "9059d66b5d01cf8198bb2438ce6b42c48440ed5309bedbe9dfb74742367b65b1",
+      "3815a4bda1a884da": "c55abc9c560f248233d3c13274a16121f2dc13d3e58ba95f55ce0bae6bfab3c5",
+      "38be8a9332754ddc": "4c4a8c979519e43dffee50b8bd8471f90c4505782d615c70f114f4c93a50709c",
+      "38ceb95814eaf88b": "f4f030d3fbb9275f0f0495a9f07631f70f62b70ef9105500e0e6f3561371faf5",
+      "397fee53157b871c": "0d26a0deda6deac028354208cc86c41c8d88ef33f052ead8933ab32d516f1c2d",
+      "3c200bf363adf453": "942f69ded48ea7c22ae46838176796f2679d004002d41fb92a7be60d88359da8",
+      "3c9162b86e4a7292": "a48999f2bda07c77536236a5c4084323158e8fcf5f4f082dcdd5fe9c95c6bcfa",
+      "3e7e24576198a71e": "8abf400d3a73ad4222dcd9cf7fc2ece85c62a6dd3c344cc19c6f77148fc9f4af",
+      "3f0588e46e5788a3": "3a88c4da6b373f498236f658f62ce694c89dab19b3b5e8b53d4be99c6edba9c4",
+      "3f9efe38c6932d85": "93ffcadcc8fd3ab012f8b6f2d57e70443ca8ed2f619ba178175e85c21eae4734",
+      "3ffe475e11ce3b02": "dcfe2498face7fe73bf36945e69f6f13dd7501b564df7aab8797980d31b3b5b5",
+      "4523ab808e700920": "669fa0aaedc5e26a7b7a42842e76a0332c151f93402fbcb04508dc7f73ae1dd0",
+      "463dcf0e8d0bdc0f": "23664e623e615ff67bb35fc2edca189c34bd371c67aa87d5afefc1c763cff163",
+      "464c77502871830a": "8f8789395b55fbbc9d16d66e588f8d6acb9d5b761f4a9cc5f3901e49a6503ff3",
+      "4702a22012077b6e": "7a995a3092d36486cd5e34f4a34842cceb0cbf5fdf4972255f9a9277f87a487a",
+      "47a6b1710776a19a": "fcb1c5fda601d0c87c8066c9ec814f7fcb6443d6836703ae8746abc761573b08",
+      "49b627798625b498": "45c8ee6c5f06c3caab454fbf98a9609c12576f673553372a813379324b2ab14c",
+      "4a5df5f8b6f7e4c8": "3ccb2eed026bc9944efde65b020e6b5444c5cfc5df6bb64191b828ff7fde1a3e",
+      "4ade71e90a28c580": "1439b798167ff8db69fbe63be1be21a861f437399e829d16de9cf8428a39190e",
+      "4b40d5e7e5100aed": "f387e3cd6acac7c0746d92d015a3ace108621229f4baf49a052c23b1437bb177",
+      "4ca06a8d9fc5525f": "7a680e0c1d5fc1902915a2a020a3d5d255d6cb3329f37efd7552c3ae6a141f63",
+      "4d4a906da5693139": "2e17bdb7037254356ad5a21bf7ddf6569fd04c483ecdb9da30a4e7ada71fb9e0",
+      "4d7e6dda0407aefc": "a6246de78459a4a93fb5f66b7c2a77a6f4b51ac256f39a060eac978558a72de9",
+      "4d8f9eac3c2b44b4": "38ef6215ebf6cf6caf7449f9e45c99b2acd758472913b85d47de5c05b4f76308",
+      "4dbf77a2da17ed04": "0198aaf3f2c442da5a165493786ade5c7957fd423aada36fd4edbc8f593be243",
+      "4fab523dea5d3ee4": "2dd14e5f987c24db37114d13de930e976fa2f864028dec5adff768b78b61b4a3",
+      "5025f4667e1d962f": "9a0e3362266b1b10da3b8bc50e0937effea730871d5607c36467e6dda45c84fd",
+      "5178625e0840c548": "113f065eab71ee3757d421e922811d7524e89f01b9b504e68f74cec160cba5e7",
+      "51931c4af2041808": "b3eafdf49925b98ded07fc6c0981aade5001322b043ba8155c62eb3af1c29509",
+      "526a494bb8beef16": "ecd9c3f530634abd1e1b2c9b970499ca3254de5477360635a761fd2e77363257",
+      "54edf720489f0d69": "5ddfaee990f29d00cfc710ea5abc5bb88545f998b13b731f0f8fcd2e2bfacd9c",
+      "5858eee73b33850e": "8422355ef6be8458547e966b501dfaa546be3cd1098ba03a745aedd6398f0d58",
+      "5b9b5807378147c5": "c9a9b098a63cad0bf3556856ade09887b337a9451f6321aae931f1f94c357025",
+      "5ea0ee63fa66bfed": "f5fd8efc7967181463831b2a0cab154523df94ea63b7a8190db13de5c93d73a0",
+      "5f5be8bce7a29288": "666d712a9ce20a7a78d57c16cd551bfd09bf2147d2344ffd2f3c03de71bc848e",
+      "5f95920ff233467f": "41091193ee23f3d8ac72beaef1869eb9ab637b77d6e179e3bb406bb14f5aa0d9",
+      "5fc15e29b57ff61a": "304fb4f9198fcaaed3d2b3d75d9156ddc69829d71d5b93644727e787305a65ba",
+      "615fb90377b98820": "a3095d096a3b8d133b39fbf8cc04b8c445e00c814fd3ce720640b80fcb817286",
+      "63e66076e11c9e3b": "ba630cc657fdefec32a9504cfa30ba51863074a77df80a1c1187d5d7f76a6c4d",
+      "66e239cd2b2d84f1": "1dc5665d6b5a65f743c751c4f7f0d6d18c95ab15c84e99dac02fdddb9909e2d0",
+      "6abcb8e76bb3e712": "eca853dc29652a945aa826eaa5853bc0893dc5e2a3ca792c8db1db631843b9d7",
+      "6bd2a497c963a9c3": "fd13413904ccfcf48fb76670c1a1be4a5a6dda7067fc56cba0e0158ebd69d10e",
+      "6bec53b7d8000eab": "86a26562d7fd05f7a1d2c47b989620310338ffdf212e7c1f35a403e6d9ce54dc",
+      "6ee59721301fca27": "5b051fec32d1c1742da48fe4959ebc2d92c441fa7a5046484234535afe602709",
+      "6f97cb93fd48eba1": "093de7e96982fe2ba4cd07fbf187bcbee26c0bc9d331fafc7e5b842e35fe36ba",
+      "7045d21548fc53ee": "338d5fbbd9034025d2438a97733f0f955b494f8ffb37ba34e6affbb56358e2c3",
+      "719f1b618e22c3d4": "0fa05b163bd1a5dd3a13635cacad069b8adba791a759b345b2410dbfe1fcd1aa",
+      "731d8d6dd18fc92d": "1097f959dbb14dd5d11a8836c91315f605a190b9ee6fbb472ad1eaa6f9499ec6",
+      "735ae8d108872927": "ff0e61e5c723a01b5c4f2a4111422476e13b620fd3c82ed164601d5137306823",
+      "7429d4c64fa94473": "314e36d4039667a4c3c88b71986ef120dc5b1951e8ab0279d7d40612d5553ab7",
+      "7462aedeaaf6c0b5": "d05841b6ca9b12c6fcc0abe9e5998515cded1e1bddc061bb3f2305bda21fe366",
+      "75a696d6b3965e48": "932678d14988a20df011bb5445187e6ae40468f3bb1236ad7a09390e9d9727c1",
+      "75ede580cb646f5a": "88670be703495ee0c0a67a949cb48d91ab0664b939afb6c6bdbbedf220da2ae1",
+      "77ec5e4a0260adcd": "a718a5915ce4713d468ca56f0ab0b121b16ec7037ed039e3f9bb8ad854d64b10",
+      "78465b145b046b62": "33c75b7d6c20696c0ae8b6283b01743090c4f61d7c5fcdabdc3bfbb9aef3b198",
+      "79ae2a00e8e57ceb": "c87239fcb8bd3807eee87a11c61a83cfdc5ed9a961f3b2bdf8856423ee3c08d5",
+      "79fe340bbcbbcaaa": "a30b99a52bee93bd2276acd66cac0f847436e76f2fe78b61c8b9659e088f640e",
+      "7aab000a2fba12f2": "31159938b7bce019908768085e508066d03e675a78b836a9864ebb5b7c0ccba3",
+      "7e9fd498e1d92029": "6122ae26722aae4d1bd0b2a0b9b1890503adb88c0bb41492dcd256fa9b25c7b7",
+      "7eecbe793d6bffae": "574961a5d6502eb239ccc3d7552debb1ef3354e0db75745e93f9b9b7c1212e52",
+      "7fe8fbf6e59cab6a": "a427e35e391a2d5631580fb9925066f0bf62638a27699c760e5a268de605f38e",
+      "819439880e02fc01": "6874c9eca6ecc3eaf44c8b4cdb3ddf23a3a065b9c57fecf35734a669343485ac",
+      "82b2b350c0924350": "4f75d374e8ef82b0b97b8481b6d797d9994fe85e854db04a515243f6d01bed06",
+      "844a6d8db870b3dd": "69c6db2dc32c69bd8acf6a8f12e2f8d0725b4832b7638ae3bd0644911a5c6b4b",
+      "84725bdd07ed7bbb": "03454d1c7eb48636078e6abf43ce97a5b838a9d3f7b29e822db699172091c1fe",
+      "85b8289a7382cab3": "a97112e0743de466e20b831b6ec6cdad4f480abee14641efe99662fb233131ab",
+      "861c13ebb6a62361": "143155fbf5624a519ea68516b1e9bc1211d086d776e08c0ae4a217bce793a01f",
+      "870552f77b68584f": "26b0dd013a5d40b0a39fc510a151b30c90948f4dee9f9b0d7a8604ea9ed044f5",
+      "886889c98cc56bdc": "6a7ee9f4dfc8aa64324e7ea52305c85c68d5a257619ad2449024599173c73658",
+      "8870665d61a7f1a1": "91af79b5f7dce56347765bfa68b88f43d3ad5976ac688d47fecab26616abdd39",
+      "8888767e8bc22613": "08cc59c67499399bccaec00e02ccc9cae527b91a6336b41b033a1b36b5a42615",
+      "89011a6f05bd66ff": "637c1536cd80e3296855185a34e9e2d8bcf850a4f3f747309265e8ef1d418ccc",
+      "894a478fa7b79828": "a949939d3e2c454aa347024be5599f0b57e4949561a7069fa742367b4d024bd5",
+      "8b838ad17ca07acf": "8f0efaa1d59f37913f77475b3705c54f51077ec27c80294b4b1506e91a2823bb",
+      "8b925b9255d92381": "d06dac68816da84d86d92e53179813b2f21e3a7d5c27c10c5804104c8cf0268c",
+      "8d997a2df4cf6e15": "0af66ff2cbd47129f9af631c57522cd2045c6276ac9caf3b250cf9a45d7f6d1e",
+      "8de97d35a1510602": "caad3e7fe7411e2a772b7b4d9c6cad5d1dff53d930016704f1b1daf177c2f3fd",
+      "8e952dab75ec9e53": "15b219069c2d758c35c7c134e6f6b78cd349a900283ad7560f2c1f58c650ad44",
+      "8ed41fe930bd3cb3": "0e1927562d286f413803c4d83fc0c6d53ba9b4595ceebeb667de29d78a29132f",
+      "8f4e8223969af0bb": "8442dadb89c172a3e3b7a6abd63a6e68841936855777e5bd67934992c61a7f51",
+      "8fe8ee52f26a4d5b": "e6a5cc257b1b4a43eb1921ec0a56fdbca51068ad2eb475d437b378fc04ca2bb4",
+      "934ac3bb32f468ae": "15fde1cf5f118d69a0fbdbe98de6b15155dbc6478698ce321fc84828d1f55465",
+      "9497d167676ce0dc": "a6b31f1cead7bcb6d47630537ff8e8588a111e8a2beff5b82a54b1f6fed3bff3",
+      "970022d58484531a": "35fcec182c82a2d3cf6a04e5953fccaeaf92dba0d2f971a397683d1b045ce284",
+      "9d836ada24cc56f0": "2cbbebe860a57a92180a6548d6c10d8651f9469cdef0d5ed32736340b86b4eb5",
+      "a17f1e343aa79fb1": "ca4d74223cfc4f7264cb7f4d59b5b8d990d8c5dec8006bc7177bb9a87a7f73e6",
+      "a59868913c63275c": "50a452d28073ffdea408bf7d0cbe8788b3dd26dac6f71265ee6c7e0792a26fbf",
+      "a7d45f4027076d61": "cfe6579ec05c1e7348283f61840575fa768db7e14c4d08460434b8540bdf5f9f",
+      "a908a38ac1bdde31": "fb338f95ff0383a50373db0336f2d9ae2bef60dc7144a934b970bbf61b718c97",
+      "aacfb7a050d0b4d7": "17be1423f06d245bd29995b1bcf776c735dcca64cf0c097b907b7aafd24a8815",
+      "aba8209d9b3ace3c": "3a4926e1e445c4b9f4daa016a7d40ba89f80fa1fcc8097df5451ab9ed837ccc1",
+      "ac13f6b81d16a3e8": "a478fb90179c4abd4dbddcc8712a5be3b37c15445349041f2206d0cbcf164d20",
+      "ade39587595d076b": "ae3a23b1b5ea7c05ee6be86a9d867f36f2e193dfda03f756b0021a296631c90b",
+      "af1863730f120403": "9c018e1bcac31313ef5c8476d23e3bf882a3527e79aba5910ccb49821765e5a4",
+      "b1c12c9302812b53": "74bdd50d0a8a6e84a8b1287f2b7b288239c90c4f989b244601c5abff94eae3c5",
+      "b2aa2de6894f77a5": "ef97c1e6049a9c8d8d384148b5328cf4888a57e504ade41a2fc21d3182c1318c",
+      "b3cd74b9cece1e3d": "88723b299e35974679a24ecd3b1fcf74059b56b2b01fdeae4523a16d73feb394",
+      "b4dad5c1972df4bd": "73825aa63ed16bc15ed5438d7985aecc20421e3746ff5e7433e9b184560126a6",
+      "b6d587b1c5449979": "94c350e7a7982971f9a9ef615a62134e705e067e611e0ae0617413a5286f6674",
+      "b7a9d0d59a0f0dd6": "5687ca1ef2edb8b1bc6ee25d51069c486cb06fe31f21808467a34e833faa8105",
+      "bb3a89fea724ebf8": "10e7f38728d034894c147165513fadc05404102607a54ef63af59f877472514c",
+      "bdbdeb6141a55695": "643c6189255d59d047316bca04706e2964c93a210dafd9535e1746be87344905",
+      "bf4fcd3e45b6721b": "b4467c2028e0e394a14a14c1c1aefc8685aebf0aa771df338c2664420f6703f7",
+      "c16f97951dedce98": "6474449d5bee0431a831f9e609f215cd9d3f617379b1395464eead2dc0095181",
+      "c17451efbdd3c179": "bc31b0e2c3e6d8011b7c914cfd44f22c8984fc7bda33c06586947d50e676f9bb",
+      "c2e73eb67fcfba99": "d385f1f8f40955906018868379f896b7aec5d886e4c95ded14c6e789aa5e4616",
+      "c491de0cff46dfae": "942f69ded48ea7c22ae46838176796f2679d004002d41fb92a7be60d88359da8",
+      "c7dfdeb776dbe757": "8edb16918c7e37485ece855982afb58532f8806ff9a1070c8ee3fd8fe645d7cc",
+      "caad5b99003d8515": "235af59193ea86aa59ef17ed3943608f8795cade1159fdaf61a68653b683c58e",
+      "cb1ac05b7b01b188": "4663d2a3db628a5c34a3b5e0ec54d0f2edad660c9584d1b86a629add3236fd10",
+      "cb5794ab315209b8": "490ff7a0fab7956eddcef46a7f53ccca84ef0dcd43132eacb8843adabdf542da",
+      "cc26cbfc3f1a36ee": "d74787e0082c8fda036bf501e653dac51e1a0b7c58888c75f6da65d194005a90",
+      "cca205c4715fbb18": "e10673e5626570e137cb3f5dda96395aefc12cbd16c3e0603210464336a42c17",
+      "cddda9407e297b36": "82c0cf593f07dcb9b6ec4a3626df6174b231f6ae5646eabd6346309dae2e8ac0",
+      "ceb56b760e10fa8c": "88b1eda9d2192ff278a805e980be940248d5784b5f6bb795f299887acedb5f36",
+      "cec9304320a3981c": "9e095049a7a50be30b5ec3a490f80f6ef4a50ae3d2f9917b3ad15c6148386383",
+      "cef8a0bbfcc8f50d": "817cea869eaa27dc8916550f443865efeba5401120d090c1fbc5e9f5be62465d",
+      "cfd98ada2170aa2b": "60b7b0a9516ad85c6cd3e7a53ba3162d94f733538dc61c65ad314d69ee368c1e",
+      "d1792c6b6826d346": "5376ab8507faff0d0d38ce14f0546038b191ea926283222c37d6a20f19352747",
+      "d185219cb79bf230": "b5f0381c612ac46cf75d1d50c8ce07468828d0ee06b93a8e4948ef0543136c42",
+      "d3fd09e49318d4b4": "f6312cd99de958cb1c74e64ef5c1dca4ddee72214dc5daaeeb3241fc84a78104",
+      "d402c9de9c29dbd4": "896a8078ed3be52d1d10461336f918859c23c7da8459f2d89e45729cdde37e4c",
+      "d578bb0b4a94d02b": "e426ab48fbc4de18a830247576b6833e5bca368da4b13b093a4f281e46a245ab",
+      "d89a68e1e6e4a917": "f8121769e34edfb7612d9d64f7ad5e41666c528e97b551f73c910e83e810ede0",
+      "da93db914133afcd": "97cbfe1e02f5b9b7c38b232cd0a3f48ce0d6d8167c430761ccf8cf998ff2a5be",
+      "dbc8be9da6021ed4": "5fd37609b90cfb23bd6e7bfff569652c82a01c50806e17667ffd12c8356104c0",
+      "dcae13fa1f390069": "5915b15f30c46b1cb2a6657ef5fa5e9317ee7433dbdbd625d4bd9a3d0e9d5261",
+      "ddb8ec735b287a9c": "26b216c7f5f480a165155cfdca941726b799835c1b0403b18bc9852ee064bb61",
+      "de950ae107ddff41": "29993de2cfea44ff07be4bf63e78a889c64c22a3663ef2e85c13b71ad1b9a295",
+      "e124cb03f6a19776": "0c158cc78e8006154ef71ba31099cb387fc9401440b62acc87a75c50d49fcf4a",
+      "e27bb0b77b787910": "425bb95b6b10418e31ee91aded9dd5ed464a8a4b4e6d457632e6c7fa5be5159b",
+      "e59397da59520fa8": "964cff1123aca9d529c4aec6eaf8af8bcecac5c8d7f8ccaa8d84002e8001ba84",
+      "e612e3ef57f06591": "cedd78b95fb3147edd284c094928e868c778e8e1987c80a80b8dc20a302293a4",
+      "e71d279bb772385b": "0adaea58f73efbbe2a986cd4bfd8ee95153ec267decddb9ade9364f2abd3991f",
+      "e7a2d02299e51bf6": "88723b299e35974679a24ecd3b1fcf74059b56b2b01fdeae4523a16d73feb394",
+      "e9e9627514356a45": "995a4d29dfc86abab9b39ce0140ecdb5fe21fe4d7e38fec43bf0caace52b525e",
+      "ea6896f3ab7ff7fc": "8934a03f2d4e4247fb63ed98407a478d024b4c90ce558a55597796e781384fe8",
+      "eacbb9275c28b7d5": "45bf148ec2905f7593030750e35b2033ce98a3f42bf1018b8556a22aac94aa60",
+      "ec0f62ae1585be31": "b7e99bf5388f0fd4843fef366b03a89137853be8f8b96ef48dacfc32e6b2aa9f",
+      "ef5b14c4ae3039f8": "793c6596bd4aa8d2df7ca993bba7d2e75f0a56c4cec4466aeecedf783b0b3be3",
+      "f05aa0b9a68cd638": "d513f7f4270906b4932b6d53ec1165c8becdd0ba321e59644925f3ce8a356e52",
+      "f2e2ccc55e937d78": "0b39c235d3161401082156f646cce3ee3d262e8919e14879f61ffef64a1e175e",
+      "f305216534ebe57f": "9a61defcb5246b947d067565d54fb483b94943dd56346185a798b7558e5e98aa",
+      "f355312e3c08af77": "3c3c9c84eb60f9a6b3df19641f163f033f716110697570ed5206cd342a316325",
+      "f362d1a883dd56c3": "054c18f53e6af76de34e8fe1fa1671e65e7556246f49fb7badf2487e85e6e50e",
+      "f4da0136c14623d9": "714c21ef617d496bbb6b8e703226226690824173b90aec02ab2eab8bd471a629",
+      "f56fdcb20e68d4f3": "d55830f987df2ad879ea4f4ba0e7a9759682c667e35697bd497cb702a07dafbf",
+      "f57cfe0afb0794e9": "31d4613b40f237f91dd31e2304645e941b37dad8d89cb5effd7b6a7f69f47500",
+      "f960d4f9ac71e7be": "1c826cef72b600f6486fdaae2270245019e352b77fcb5f145e4841342d012882",
+      "fb602fa1f905165c": "f25e60df602a47d9d8271dfa008d4102250c3c1a61b62c309679ae86ae68f264",
+      "fc179e1d6331d819": "c38071db1b489e18648fa9d4201b31ad59d6d7e3ef8b698abfd2dfb43acbb727",
+      "fe478933d63b4ceb": "58c1b44413a3daee0dfe3418f74f0cf0bc3c3303f010503e3104b6d3af747fe1",
+      "fe47f4449473a770": "f79a536d82dac5ff7319eda27ed8423bb7689339d41a02467b99db4897ac329e"
+    }
+  },
+  "reports": {
+    "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
+  },
+  "rulesets": {
+    "entries": 66,
+    "sha256": "e77e35f024aa010e537aa49d79ea1aa23d0acd1dcf78326cc0292307094d1f24"
+  },
+  "schema_version": 1,
+  "settings": {
+    "base_url": "https://raw.githubusercontent.com/angwz/domainrouter_v2/release",
+    "interval_seconds": 21600
+  }
+}

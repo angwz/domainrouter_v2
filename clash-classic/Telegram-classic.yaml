@@ -1,0 +1,25 @@
+# NAME: Telegram
+# GROUP: 🛸 Telegram
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 12
+# DOMAIN-KEYWORD: 1
+# IP-ASN: 5
+# PROCESS-NAME: 6
+# SOURCE A: blackmatrix7 · Telegram/Telegram.list
+payload:
+  - 'DOMAIN-KEYWORD,nicegram'            # A
+
+  - 'IP-ASN,211157,no-resolve'           # A
+  - 'IP-ASN,44907,no-resolve'            # A
+  - 'IP-ASN,59930,no-resolve'            # A
+  - 'IP-ASN,62014,no-resolve'            # A
+  - 'IP-ASN,62041,no-resolve'            # A
+
+  - 'PROCESS-NAME,Telegram.exe'          # A
+  - 'PROCESS-NAME,nekox.messenger'       # A
+  - 'PROCESS-NAME,org.telegram.messenger'  # A
+  - 'PROCESS-NAME,telegram-desktop'      # A
+  - 'PROCESS-NAME,tw.nekomimi.nekogram'  # A
+  - 'PROCESS-NAME,xyz.nextalone.nagram'  # A

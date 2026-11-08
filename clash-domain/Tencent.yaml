@@ -1,0 +1,2609 @@
+# NAME: Tencent
+# GROUP: DIRECT
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 2597
+# SOURCE A: blackmatrix7 · WeChat/WeChat.list
+# SOURCE B: blackmatrix7 · TencentVideo/TencentVideo.list
+# SOURCE C: MetaCubeX · geosite/tencent-games.yaml
+# SOURCE D: MetaCubeX · geosite/tencent.yaml
+# SOURCE E: blackmatrix7 · Tencent/Tencent.list
+payload:
+  - '+.001dl.cn'              # E
+  - '+.002dl.cn'              # E
+  - '+.003dl.cn'              # E
+  - '+.004dl.cn'              # E
+  - '+.005dl.cn'              # E
+  - '+.006dl.cn'              # E
+  - '+.007dl.cn'              # E
+  - '+.007url.cn'             # E
+  - '+.008dl.cn'              # E
+  - '+.009dl.cn'              # E
+  - '+.011dl.cn'              # E
+  - '+.012dl.cn'              # E
+  - '+.013dl.cn'              # E
+  - '+.014dl.cn'              # E
+  - '+.015dl.cn'              # E
+  - '+.016dl.cn'              # E
+  - '+.017dl.cn'              # E
+  - '+.018dl.cn'              # E
+  - '+.019dl.cn'              # E
+  - '+.020dl.cn'              # E
+  - '+.1010gamer.com'         # E
+  - '+.1700.cn'               # E
+  - '+.17look.com'            # E
+  - '+.17roco.com'            # C D E
+  - '+.1browser.net'          # E
+  - '+.2sos.cn'               # E
+  - '+.31i9ti.com'            # E
+  - '+.4short.cn'             # E
+  - '+.4surl.cn'              # E
+  - '+.51poweron.com'         # E
+  - '+.6tktrd.com'            # E
+  - '+.700chat.com'           # E
+  - '+.7888.com'              # E
+  - '+.7grandcross.com'       # E
+  - '+.91facts.com'           # E
+  - '+.97ting.com'            # D
+  - '+.9uma.cn'               # E
+  - '+.abetterchoice.cn'      # E
+  - '+.accessibility-union.cn'  # E
+  - '+.accessibility-union.com'  # E
+  - '+.accessibility-union.net'  # E
+  - '+.accessibility-union.org'  # E
+  - '+.accessibilityunion.cn'  # E
+  - '+.accessibilityunion.com'  # E
+  - '+.accessibilityunion.net'  # E
+  - '+.accessibilityunion.org'  # E
+  - '+.acclb.com'             # E
+  - '+.acclb.net'             # E
+  - '+.acctdns.com'           # D E
+  - '+.acctdns.net'           # D E
+  - '+.acimg.cn'              # D E
+  - '+.addpcn.com'            # E
+  - '+.adshonor.net'          # E
+  - '+.agcloudcs.com'         # E
+  - '+.agpolis.com'           # E
+  - '+.aigclsp.com'           # E
+  - '+.aireads.cn'            # D
+  - '+.aitangyou.com'         # E
+  - '+.aitransfy.com'         # D E
+  - '+.aizools.com'           # E
+  - '+.aka700.com'            # E
+  - '+.aka700.net'            # E
+  - '+.alloyteam.com'         # D E
+  - '+.ams-aigc.com'          # E
+  - '+.animate.art'           # E
+  - '+.anticheatexpert.com'   # C D E
+  - '+.anxin.link'            # E
+  - '+.aoxingrelang.com'      # E
+  - '+.apaas-zone-test.com'   # D E
+  - '+.apcdns.com'            # E
+  - '+.apcdns.net'            # D E
+  - '+.apdcdn.com'            # D E
+  - '+.apdcdn.net'            # D E
+  - '+.api-vod-qcloud.com'    # E
+  - '+.apigateway.info'       # E
+  - '+.apigwtencent.com'      # D E
+  - '+.aqtwpc.com'            # E
+  - '+.aqtwwxemail.com'       # E
+  - '+.aquaterra.cn'          # E
+  - '+.aquaterramail.com'     # E
+  - '+.arenabreakoutcn.com'   # E
+  - '+.armaf.org'             # E
+  - '+.arthubdam.com'         # E
+  - '+.ating.info'            # E
+  - '+.autodnsv1.com'         # E
+  - '+.autodnsv1.net'         # E
+  - '+.autolabautobus.cn'     # E
+  - '+.backupdesktopcloud.com'  # E
+  - '+.battlecare.net'        # C D E
+  - '+.bcfmglobal.com'        # C D E
+  - '+.behaviac.com'          # E
+  - '+.bgrwgglz.com'          # E
+  - '+.binaryai.cn'           # E
+  - '+.binaryai.net'          # E
+  - '+.binaryai.tech'         # E
+  - '+.binglianhuajianzhan.com'  # D
+  - '+.bitosscdn.com'         # E
+  - '+.bj-tencentclb.cloud'   # E
+  - '+.bj-tencentclb.com'     # E
+  - '+.bj-tencentclb.net'     # E
+  - '+.bj-tencentclb.work'    # E
+  - '+.bjjr-tencentclb.cloud'  # E
+  - '+.bjjr-tencentclb.com'   # E
+  - '+.bjjr-tencentclb.net'   # E
+  - '+.bjjr-tencentclb.work'  # E
+  - '+.bjxingzheng.com'       # E
+  - '+.bk-cdn.cn'             # E
+  - '+.bkapigw.com'           # D E
+  - '+.bkapps.com'            # D E
+  - '+.bkcloud.cc'            # E
+  - '+.bkclouds.cc'           # D E
+  - '+.bkcode.net'            # E
+  - '+.bktencent.com'         # D E
+  - '+.boodo.com'             # E
+  - '+.boombeach.cn'          # E
+  - '+.box-anchor.com'        # E
+  - '+.bqqpx.com'             # E
+  - '+.brawlstars.cn'         # C D E
+  - '+.build9s.io'            # D E
+  - '+.building9s.io'         # E
+  - '+.byodonline.com'        # D E
+  - '+.c1channel.com'         # E
+  - '+.ca-tencentclb.cloud'   # E
+  - '+.ca-tencentclb.com'     # E
+  - '+.ca-tencentclb.net'     # E
+  - '+.ca-tencentclb.work'    # E
+  - '+.calatopia.com'         # E
+  - '+.carbonxprogram.com'    # E
+  - '+.cd-tencentclb.cloud'   # E
+  - '+.cd-tencentclb.com'     # E
+  - '+.cd-tencentclb.net'     # E
+  - '+.cd-tencentclb.work'    # E
+  - '+.cdn-go.cn'             # D E
+  - '+.cdn2-go.cn'            # E
+  - '+.cdndoctor.com'         # D E
+  - '+.cdngot.com'            # D E
+  - '+.cdnoutcheck.com'       # E
+  - '+.cdntip.com'            # D E
+  - '+.cdntipbak.com'         # E
+  - '+.cdntips.com'           # D E
+  - '+.cdntips.net'           # D E  覆盖 00713915daab0be43def5c338c02c80b.dlied1.cdntips.net B, 17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net B
+  - '+.cdnv1.cn'              # D E
+  - '+.cdnv2.cn'              # D E
+  - '+.cdnv3.cn'              # D E
+  - '+.cdnv4-go.cn'           # E
+  - '+.cemodule.com'          # E
+  - '+.cemsurveys.com'        # E
+  - '+.cemsurveys.net'        # E
+  - '+.cfmeutencent.com'      # E
+  - '+.cfmna-tencent.com'     # E
+  - '+.cfmseatencent.com'     # E
+  - '+.cfogc.com'             # E
+  - '+.cfogc.net'             # E
+  - '+.cgoec-tencentclb.cloud'  # E
+  - '+.cgoec-tencentclb.com'  # E
+  - '+.cgoec-tencentclb.net'  # E
+  - '+.cgoec-tencentclb.work'  # E
+  - '+.chatdrama.cn'          # D
+  - '+.chatdrama.net'         # D
+  - '+.chatqidian.cn'         # D
+  - '+.chatqidian.net'        # D
+  - '+.chattext.cn'           # D
+  - '+.chatwrite.net'         # D
+  - '+.chatxiaoxiang.com'     # D
+  - '+.chatyuewen.cn'         # D
+  - '+.chinatechie.cn'        # E
+  - '+.chinatechie.com'       # E
+  - '+.chinatechie.net'       # E
+  - '+.chinatechinsights.com'  # E
+  - '+.chuhai.group'          # E
+  - '+.clashminigame.cn'      # E
+  - '+.clashofclans.cn'       # E
+  - '+.clashroyale.cn'        # E
+  - '+.cloud-industry-delivery.site'  # D E
+  - '+.cloud-rtc.com'         # E
+  - '+.cloud-rtc.net'         # E
+  - '+.cloudacc1.com'         # E
+  - '+.cloudacc1.net'         # E
+  - '+.cloudbase.cn'          # D E
+  - '+.cloudbase.net'         # D E
+  - '+.cloudcdnv1.cn'         # E
+  - '+.cloudidaas.com'        # D E
+  - '+.cloudmarket-apigw.com'  # E
+  - '+.cloudpages.cn'         # E
+  - '+.cloudsec1.com'         # E
+  - '+.cloudsec1.net'         # E
+  - '+.cloudses.com'          # E
+  - '+.cloudsesbk.cn'         # E
+  - '+.cloudsite.vip'         # D E
+  - '+.cloudstudio-app.net'   # E
+  - '+.cloudstudio.club'      # E
+  - '+.cloudstudio.run'       # E
+  - '+.cloudstudio.work'      # E
+  - '+.clsshare.cn'           # E
+  - '+.clsshare.com'          # E
+  - '+.cmfu.com'              # E
+  - '+.cmgdb.cn'              # E
+  - '+.cmgdb.com'             # E
+  - '+.cnb.cool'              # D E
+  - '+.cnb.run'               # E
+  - '+.cnb.space'             # D E
+  - '+.cncqcloud.com'         # D E
+  - '+.cocdn.cn'              # E
+  - '+.codebuddy.info'        # E
+  - '+.codebuddy.net'         # E
+  - '+.codebuddy.pro'         # E
+  - '+.codebuddy.work'        # E
+  - '+.codehub.cn'            # E
+  - '+.codeweixin.com'        # E
+  - '+.coding-io.com'         # E
+  - '+.coding-newsletter.com'  # E
+  - '+.coding.love'           # E
+  - '+.coding.me'             # D E
+  - '+.coding.net'            # D E
+  - '+.codingcorp.net'        # E
+  - '+.codm.com'              # C D E
+  - '+.cofile.net'            # E
+  - '+.computeinit.com'       # D E
+  - '+.comsenz.com'           # D E
+  - '+.coolsite.vip'          # D E
+  - '+.cosdnsresolve-wxzf.com'  # E
+  - '+.cosdnsresolve.com'     # E
+  - '+.cq-tencentclb.cloud'   # E
+  - '+.cq-tencentclb.com'     # E
+  - '+.cq-tencentclb.net'     # E
+  - '+.cq-tencentclb.work'    # E
+  - '+.crmpower.cn'           # E
+  - '+.cross-zone.com'        # E
+  - '+.crtrcloud.com'         # E
+  - '+.crystalskeleton.com'   # E
+  - '+.csec-tencentclb.cloud'  # E
+  - '+.csec-tencentclb.com'   # E
+  - '+.csec-tencentclb.net'   # E
+  - '+.csec-tencentclb.work'  # E
+  - '+.ctgia.com'             # E
+  - '+.cunhao.net'            # E
+  - '+.cunistatic.cn'         # E
+  - '+.cxyfjd.com'            # E
+  - '+.dafenghk.cn'           # E
+  - '+.dafenghk.com'          # E
+  - '+.dafenghk.net'          # E
+  - '+.dashenw.cn'            # E
+  - '+.dashenw.com'           # E
+  - '+.daxuepc.com'           # E
+  - '+.dayucdntip.com'        # E
+  - '+.dayugf.com'            # E
+  - '+.dayugslb.cn'           # E
+  - '+.dayugslb.com'          # E
+  - '+.dayulego.com'          # E
+  - '+.dayulegobak.com'       # E
+  - '+.dbmeta.net'            # E
+  - '+.dcloudlive.com'        # D E
+  - '+.dcloudlive.net'        # D E
+  - '+.dcloudsp.com'          # D E
+  - '+.dcloudsp.net'          # D E
+  - '+.dcloudstc.com'         # D E
+  - '+.dcloudstc.net'         # D E
+  - '+.dcloudvod.com'         # D E
+  - '+.dcloudvod.net'         # D E
+  - '+.de-tencentclb.cloud'   # E
+  - '+.de-tencentclb.com'     # E
+  - '+.de-tencentclb.net'     # E
+  - '+.de-tencentclb.work'    # E
+  - '+.deltaverse.cn'         # E
+  - '+.deltaverse.net'        # E
+  - '+.devcopilot.cn'         # E
+  - '+.developwechat.com'     # E
+  - '+.developweixin.com'     # E
+  - '+.devweixin.com'         # E
+  - '+.dgs-td2.com'           # E
+  - '+.dh5a.com'              # E
+  - '+.discuz.chat'           # E
+  - '+.discuz.com'            # E
+  - '+.discuz.net'            # D E
+  - '+.discuz.org'            # D E
+  - '+.dishu3.com'            # D
+  - '+.dllzff.cn'             # E
+  - '+.dns.pub'               # D E
+  - '+.dnsapi.cn'             # D E
+  - '+.dnse0.cn'              # D E
+  - '+.dnse0.com'             # D E
+  - '+.dnse0.net'             # E
+  - '+.dnse1.cn'              # D E
+  - '+.dnse1.com'             # D E
+  - '+.dnse1.net'             # E
+  - '+.dnse2.cn'              # D E
+  - '+.dnse2.com'             # D E
+  - '+.dnse2.net'             # E
+  - '+.dnse3.cn'              # D E
+  - '+.dnse3.com'             # D E
+  - '+.dnse3.net'             # E
+  - '+.dnse4.cn'              # D E
+  - '+.dnse4.com'             # D E
+  - '+.dnse4.net'             # E
+  - '+.dnse5.cn'              # D E
+  - '+.dnse5.com'             # D E
+  - '+.dnse5.net'             # E
+  - '+.dnse6.com'             # E
+  - '+.dnse6.net'             # E
+  - '+.dnse7.com'             # E
+  - '+.dnse7.net'             # E
+  - '+.dnse8.com'             # E
+  - '+.dnse8.net'             # E
+  - '+.dnse9.com'             # E
+  - '+.dnse9.net'             # E
+  - '+.dnsoe1.com'            # E
+  - '+.dnsoe2.com'            # E
+  - '+.dnsoe3.com'            # E
+  - '+.dnsoe4.com'            # E
+  - '+.dnsoe5.com'            # E
+  - '+.dnsoe6.com'            # E
+  - '+.dnspod.cn'             # D E
+  - '+.dnspod.com'            # D E
+  - '+.dnspod.mobi'           # D E
+  - '+.dnspod.net'            # D E
+  - '+.dnspod.org'            # D E
+  - '+.dnstest.vip'           # E
+  - '+.dnsv1.com'             # D E
+  - '+.dnsv2.com'             # D E
+  - '+.dnsv20.com'            # E
+  - '+.dnsv3.com'             # D E
+  - '+.dnsv4.com'             # D E
+  - '+.dnsv5.com'             # D E
+  - '+.dnsxv1.com'            # E
+  - '+.dnsxv1.net'            # E
+  - '+.dnsxv2.com'            # E
+  - '+.dnsxv2.net'            # E
+  - '+.dnsxv3.com'            # E
+  - '+.dnsxv3.net'            # E
+  - '+.dnsxv4.com'            # E
+  - '+.dnsxv4.net'            # E
+  - '+.dnsxv5.com'            # E
+  - '+.dnsxv5.net'            # E
+  - '+.doh.pub'               # D E
+  - '+.dot.pub'               # D
+  - '+.dothework.cn'          # D E
+  - '+.douyu.com'             # E
+  - '+.douyu.tv'              # E
+  - '+.douyuba.cn'            # E
+  - '+.douyucdn.cn'           # E
+  - '+.douyucdn2.cn'          # E
+  - '+.douyupcdn.cn'          # E
+  - '+.douyuscdn.com'         # E
+  - '+.douyutv.com'           # E
+  - '+.doyonoc.com'           # E
+  - '+.drm-lic-dom.net'       # E
+  - '+.dyinglightcommunity.cn'  # E
+  - '+.dyspcdntip.com'        # E
+  - '+.e-jitp-dom.com'        # E
+  - '+.e-jitp-dom.net'        # E
+  - '+.e-jitp-glo.com'        # E
+  - '+.e-jitp-glo.net'        # E
+  - '+.easyfunfun.com'        # E
+  - '+.econtactsplus.com'     # E
+  - '+.ectencent.cn'          # D E
+  - '+.ectencent.com'         # E
+  - '+.edgeone-ai-dev.com'    # E
+  - '+.edgeone-ai.com'        # E
+  - '+.edgeone-browser-rendering-dev.com'  # E
+  - '+.edgeone-browser-rendering.com'  # E
+  - '+.edgeone.cool'          # D E
+  - '+.edgeone.run'           # E
+  - '+.edgeone.site'          # E
+  - '+.edgeonedl1.com'        # E
+  - '+.edgeonedl1.net'        # E
+  - '+.edgeonedy1.com'        # D E
+  - '+.edgeonedy1.net'        # E
+  - '+.edgeonestic1.com'      # E
+  - '+.edgeonestic1.net'      # E
+  - '+.edgeonetcp1.com'       # E
+  - '+.edgeonetcp1.net'       # E
+  - '+.edgeonev1.com'         # E
+  - '+.edgeonev1.net'         # E
+  - '+.edgeonev2.com'         # E
+  - '+.edgeonev2.net'         # E
+  - '+.edgeonev3.com'         # E
+  - '+.edgeonev3.net'         # E
+  - '+.edgeonev4.com'         # E
+  - '+.edgeonev4.net'         # E
+  - '+.edgeonev5.com'         # E
+  - '+.edgeonev5.net'         # E
+  - '+.edgeonevod1.com'       # E
+  - '+.edgeonevod1.net'       # E
+  - '+.edgep.net'             # E
+  - '+.edgesrv.com'           # E
+  - '+.edulivevideo.com'      # E
+  - '+.eedzvv.com'            # E
+  - '+.embed-cloudstudio.net'  # E
+  - '+.eo-edgefunctions.cn'   # E
+  - '+.eo-edgefunctions.com'  # E
+  - '+.eo-edgefunctions1.com'  # E
+  - '+.eo-edgefunctions2.com'  # E
+  - '+.eo-edgefunctions3.com'  # E
+  - '+.eo-edgefunctions4.com'  # E
+  - '+.eo-edgefunctions5.com'  # E
+  - '+.eo-edgefunctions6.com'  # E
+  - '+.eo-edgefunctions7.com'  # E
+  - '+.eo-edgefunctions8.com'  # E
+  - '+.eo-edgefunctions9.com'  # E
+  - '+.eo-preview.com'        # E
+  - '+.eo-shieldspace.com'    # E
+  - '+.eo-vod.com'            # E
+  - '+.eo-vod1.com'           # E
+  - '+.eo-vod2.com'           # E
+  - '+.eo-vod3.com'           # E
+  - '+.eo-vod4.com'           # E
+  - '+.eo-vod5.com'           # E
+  - '+.eo-vpcgw.com'          # E
+  - '+.eoacc2.com'            # E
+  - '+.eoacme-dev.com'        # E
+  - '+.eoacme0.cn'            # E
+  - '+.eoacme0.com'           # E
+  - '+.eoacme1.com'           # E
+  - '+.eoacme2.com'           # E
+  - '+.eoacme3.com'           # E
+  - '+.eofreqctrl.com'        # E
+  - '+.eofreqctrlbk.com'      # E
+  - '+.eogamewechat.com'      # E
+  - '+.eovod.com'             # E
+  - '+.epeo.net'              # E
+  - '+.esports-console.com'   # E
+  - '+.esportsreg.cn'         # E
+  - '+.esportsreg.com'        # E
+  - '+.essurl.cn'             # E
+  - '+.essurl.com'            # D E
+  - '+.ettdns.com'            # E
+  - '+.ettdns.net'            # E
+  - '+.ettdnsv.com'           # E
+  - '+.ettdnsv.net'           # E
+  - '+.events.pub'            # E
+  - '+.exmailgz.com'          # D E
+  - '+.extqq.com'             # E
+  - '+.eyaodev.xyz'           # E
+  - '+.fanxingliveshow.com'   # D
+  - '+.fatfreader.com'        # E
+  - '+.feie.work'             # E
+  - '+.ffbuddy.com'           # C D E
+  - '+.fhzggame.com'          # E
+  - '+.financetcloud.cn'      # E
+  - '+.financetcloud.com'     # E
+  - '+.fitgroup.com'          # E
+  - '+.flzhan.cn'             # E
+  - '+.flzhan.com'            # E
+  - '+.forceclouds.com'       # E
+  - '+.foxmail.com'           # D E
+  - '+.fsight.ai'             # E
+  - '+.fsight.cn'             # E
+  - '+.fsightai.com'          # E
+  - '+.fsllq.com'             # E
+  - '+.fsphere.cn'            # D E
+  - '+.fusure.com'            # E
+  - '+.fusureum.com'          # E
+  - '+.futurenetlab.com'      # E
+  - '+.fyab.net'              # E
+  - '+.fyak.net'              # E
+  - '+.fyal.net'              # E
+  - '+.fyan.net'              # E
+  - '+.fyat.net'              # E
+  - '+.fyau.net'              # E
+  - '+.fyaw.net'              # E
+  - '+.fyec.net'              # E
+  - '+.fyeds.com'             # D E
+  - '+.fyeds0.com'            # D E
+  - '+.fyeds1.com'            # D E
+  - '+.fyeds2.com'            # E
+  - '+.fyeds3.com'            # D E
+  - '+.fyeds4.com'            # D E
+  - '+.fyeds5.com'            # D E
+  - '+.fyeds6.com'            # D E
+  - '+.fyeds7.com'            # D E
+  - '+.fyeds8.com'            # D E
+  - '+.fyeds9.com'            # D E
+  - '+.fymall0.com'           # D E
+  - '+.fymall1.com'           # D E
+  - '+.fymall2.com'           # E
+  - '+.fymall3.com'           # E
+  - '+.fymall4.com'           # D E
+  - '+.fymall5.com'           # E
+  - '+.fymall6.com'           # E
+  - '+.fymall7.com'           # D E
+  - '+.fymall8.com'           # E
+  - '+.fymall9.com'           # D E
+  - '+.fymallqa0.com'         # D E
+  - '+.fymallqa1.com'         # D E
+  - '+.fymallqa2.com'         # D E
+  - '+.fymallqa3.com'         # D E
+  - '+.fymallqa4.com'         # D E
+  - '+.fymallqa5.com'         # E
+  - '+.fymallqa6.com'         # E
+  - '+.fymallqa7.com'         # D E
+  - '+.fymallqa8.com'         # E
+  - '+.fymallqa9.com'         # D E
+  - '+.fynb.net'              # E
+  - '+.fypage.cn'             # E
+  - '+.fypage.com'            # E
+  - '+.fypt.net'              # E
+  - '+.fzec-tencentclb.cloud'  # E
+  - '+.fzec-tencentclb.com'   # E
+  - '+.fzec-tencentclb.net'   # E
+  - '+.fzec-tencentclb.work'  # E
+  - '+.g-proxy.com'           # E
+  - '+.g0wx.cn'               # E
+  - '+.gaapqcloud.com'        # D E
+  - '+.gaaptest.com'          # E
+  - '+.galileo.work'          # E
+  - '+.galileosight.cn'       # E
+  - '+.galiosight.cn'         # E
+  - '+.gamebonfire.com'       # C D E
+  - '+.gamegocenter.cn'       # E
+  - '+.gamegocenter.com'      # E
+  - '+.gamegocenter.net'      # E
+  - '+.gameitop.com'          # C D E
+  - '+.gameloop.com'          # C D E
+  - '+.gameloop.fun'          # E
+  - '+.gaqcloud.cn'           # E
+  - '+.gaqcloud.com'          # E
+  - '+.gaqcloud.net'          # E
+  - '+.gaqcloud1.com'         # E
+  - '+.gaqcloud2.com'         # E
+  - '+.gaqcloudbackup.cn'     # E
+  - '+.gaqcloudbackup.com'    # E
+  - '+.gaqcloudbackup.net'    # E
+  - '+.gautomator.com'        # E
+  - '+.gcloudcs.com'          # C D E
+  - '+.gcloudcstest.com'      # C D E
+  - '+.gcloudcstestonly.com'  # C D E
+  - '+.gclouddolphin.com'     # C D E
+  - '+.gcloudgbs.com'         # E
+  - '+.gcloudsdk.com'         # C D E
+  - '+.gcloudsvcs.com'        # C D E
+  - '+.gdtadx.com'            # E
+  - '+.gdtimg.com'            # D E
+  - '+.geekpwn.com'           # E
+  - '+.ggoplay.com'           # D
+  - '+.ggowan.com'            # D
+  - '+.gitdrone.cn'           # D E
+  - '+.globaltenpay.cn'       # E
+  - '+.globaltenpay.com'      # E
+  - '+.gmedev.cn'             # D E
+  - '+.gmertc.com'            # E
+  - '+.go2map.com'            # D
+  - '+.gongyi.net'            # E
+  - '+.goto-game.cn'          # E
+  - '+.goto-game.com'         # C D E
+  - '+.goto-game.mobi'        # C D E
+  - '+.goto-game.net'         # E
+  - '+.goto-game.org'         # C D E
+  - '+.gotolink.net'          # C D E
+  - '+.govqcloud.com'         # D E
+  - '+.govtcloud.cn'          # E
+  - '+.gqqsm.com'             # E
+  - '+.grouppic.cn'           # E
+  - '+.gsadds.com'            # D E
+  - '+.gslbauto.com'          # E
+  - '+.gtgres.com'            # C D E
+  - '+.gtimg.cn'              # D E  覆盖 +.pgdt.gtimg.cn B D
+  - '+.gtimg.com'             # D E  覆盖 +.lbs.gtimg.com A, +.qqvideo.gtimg.com B 等 4 条
+  - '+.gtm.pub'               # D E
+  - '+.guguyuyin.com'         # E
+  - '+.guichuideng.com'       # E
+  - '+.gz-tencentclb.cloud'   # E
+  - '+.gz-tencentclb.com'     # E
+  - '+.gz-tencentclb.net'     # E
+  - '+.gz-tencentclb.work'    # E
+  - '+.gzlwycft-tencentclb.cloud'  # E
+  - '+.gzlwycft-tencentclb.com'  # E
+  - '+.gzlwycft-tencentclb.net'  # E
+  - '+.gzlwycft-tencentclb.work'  # E
+  - '+.gzopen-tencentclb.cloud'  # E
+  - '+.gzopen-tencentclb.com'  # E
+  - '+.gzopen-tencentclb.net'  # E
+  - '+.gzopen-tencentclb.work'  # E
+  - '+.gzwxzf-tencentclb.cloud'  # E
+  - '+.gzwxzf-tencentclb.com'  # E
+  - '+.gzwxzf-tencentclb.net'  # E
+  - '+.gzwxzf-tencentclb.work'  # E
+  - '+.hacker5t2ohub.com'     # E
+  - '+.haihub.cn'             # E
+  - '+.haihub.co'             # E
+  - '+.haina.com'             # E
+  - '+.haina.net'             # E
+  - '+.haiwaioo.com'          # E
+  - '+.happyhlddz.com'        # C D
+  - '+.hayday-game.cn'        # E
+  - '+.haydaypop.cn'          # C D E
+  - '+.hdyxgame.com'          # C D
+  - '+.helixapp.cn'           # E
+  - '+.helmicro.com'          # E
+  - '+.heyyo.com'             # E
+  - '+.hfeec-tencentclb.cloud'  # E
+  - '+.hfeec-tencentclb.com'  # E
+  - '+.hfeec-tencentclb.net'  # E
+  - '+.hfeec-tencentclb.work'  # E
+  - '+.hgyrnk.com'            # E
+  - '+.himoral.com'           # E
+  - '+.himorale.com'          # E
+  - '+.hk-tencentclb.cloud'   # E
+  - '+.hk-tencentclb.com'     # E
+  - '+.hk-tencentclb.net'     # E
+  - '+.hk-tencentclb.work'    # E
+  - '+.hkgcloudcs.com'        # C D E
+  - '+.hongxiu.com'           # D E
+  - '+.hostacc.net'           # E
+  - '+.hostacc1.com'          # E
+  - '+.hostacc2.com'          # E
+  - '+.hr-welink.com'         # D E
+  - '+.hrcwelink.com'         # E
+  - '+.html5mark.com'         # E
+  - '+.huajiangai.com'        # E
+  - '+.huamengxiaoshuo.com'   # E
+  - '+.huya.com'              # E
+  - '+.huyagame.cn'           # E
+  - '+.huyaos.com'            # E
+  - '+.hzec-tencentclb.cloud'  # E
+  - '+.hzec-tencentclb.com'   # E
+  - '+.hzec-tencentclb.net'   # E
+  - '+.hzec-tencentclb.work'  # E
+  - '+.iamvloger.com'         # E
+  - '+.iamvlogger.com'        # E
+  - '+.icpenguin.com'         # E
+  - '+.icpenguin.net'         # E
+  - '+.idcgcloudcs.com'       # D E
+  - '+.idqqimg.com'           # D E
+  - '+.iemiq.com'             # D E
+  - '+.ifjqq.com'             # E
+  - '+.igamecj.com'           # E
+  - '+.igcdn.cn'              # E
+  - '+.igtm-meeting-tencent.cn'  # E
+  - '+.igtm-meeting-tencent.com'  # D E
+  - '+.igtm-yuanbao.cn'       # E
+  - '+.igtm-yuanbao.com'      # E
+  - '+.igtm.pub'              # D E
+  - '+.ihappystudio.cn'       # C D E
+  - '+.ihappystudio.com'      # C D E
+  - '+.ihappystudio.net'      # E
+  - '+.ijkxt.com'             # E
+  - '+.ilcweloc.com'          # E
+  - '+.imagefuture101.com'    # E
+  - '+.imcq.net'              # E
+  - '+.imlianpu.com'          # E
+  - '+.imok.net'              # E
+  - '+.imqq.cn'               # E
+  - '+.imqq.com'              # D E
+  - '+.imqq.net'              # E
+  - '+.imweb.io'              # D E
+  - '+.in-tencentclb.cloud'   # E
+  - '+.in-tencentclb.com'     # E
+  - '+.in-tencentclb.net'     # E
+  - '+.in-tencentclb.work'    # E
+  - '+.in.th'                 # E
+  - '+.incentivepower.cn'     # E
+  - '+.insightpower.cn'       # E
+  - '+.intencent.com'         # E
+  - '+.intlgame.cn'           # E
+  - '+.intltencentcos.com'    # D
+  - '+.ioasaas.com'           # E
+  - '+.iot-tencent.com'       # A D E
+  - '+.iqmie.com'             # E
+  - '+.isa0.cn'               # E
+  - '+.isd.com'               # D E
+  - '+.ispqcloud.com'         # D E
+  - '+.itddo2page.com'        # E
+  - '+.itopplay.com'          # E
+  - '+.itopsdk.com'           # D E
+  - '+.ivweb.io'              # D E
+  - '+.iwiki.com'             # E
+  - '+.jerpx.com'             # E
+  - '+.jiangzidushu.com'      # E
+  - '+.jiangzikanshu.cn'      # E
+  - '+.jiangzikanshu.com'     # E
+  - '+.jiangziyuedu.com'      # E
+  - '+.jkt-tencentclb.cloud'  # E
+  - '+.jkt-tencentclb.com'    # E
+  - '+.jkt-tencentclb.net'    # E
+  - '+.jkt-tencentclb.work'   # E
+  - '+.jnec-tencentclb.cloud'  # E
+  - '+.jnec-tencentclb.com'   # E
+  - '+.jnec-tencentclb.net'   # E
+  - '+.jnec-tencentclb.work'  # E
+  - '+.joox.com'              # E
+  - '+.joyworkshop.com'       # E
+  - '+.jp-tencentclb.cloud'   # E
+  - '+.jp-tencentclb.com'     # E
+  - '+.jp-tencentclb.net'     # E
+  - '+.jp-tencentclb.work'    # E
+  - '+.juluape.com'           # E
+  - '+.jxemailbk.cn'          # E
+  - '+.jxqy.city'             # E
+  - '+.kefu01.com'            # E
+  - '+.kgimg.com'             # D
+  - '+.kglink.cn'             # D  覆盖 +.adserviceretry.kglink.cn D
+  - '+.koowo.cn'              # D
+  - '+.koowo.com'             # D
+  - '+.kr-tencentclb.cloud'   # E
+  - '+.kr-tencentclb.com'     # E
+  - '+.kr-tencentclb.net'     # E
+  - '+.kr-tencentclb.work'    # E
+  - '+.kting.info'            # E
+  - '+.ktv.com'               # D
+  - '+.kugoo.com'             # D
+  - '+.kugou.com'             # D  覆盖 +.adserviceretry.kugou.com D, +.ads.service.kugou.com D
+  - '+.kugou.net'             # D
+  - '+.kugouaudio.com'        # D
+  - '+.kugouipv6.com'         # D
+  - '+.kugoukid.com'          # D
+  - '+.kugouliveshow.com'     # D
+  - '+.kugouringtone.com'     # D
+  - '+.kugousenior.com'       # D
+  - '+.kugoustore.com'        # D
+  - '+.kugouvoice.com'        # D
+  - '+.kugouyouth.com'        # D
+  - '+.kuledushu.com'         # E
+  - '+.kuwo.cn'               # D
+  - '+.kwsou.cn'              # E
+  - '+.l1xn.cn'               # E
+  - '+.labycore.cn'           # C D E
+  - '+.lazyaudio.com'         # E
+  - '+.leshare.work'          # E
+  - '+.levelinfinite.com'     # C D
+  - '+.lexiang-app.com'       # E
+  - '+.lexiang-asset.com'     # E
+  - '+.lexiang-asset.net'     # E
+  - '+.lexiang-ops.com'       # E
+  - '+.lexiangla.com'         # E
+  - '+.lexiangla.net'         # E
+  - '+.lic-slf-dom.com'       # E
+  - '+.lic-slf-dom.net'       # E
+  - '+.light-cos.cn'          # E
+  - '+.light-cos.com'         # E
+  - '+.lightalk.com'          # E
+  - '+.lightalk.me'           # E
+  - '+.lightbox.games'        # E
+  - '+.lightspeed-dc.com'     # E
+  - '+.lightspeed-lic.com'    # E
+  - '+.lightspeed-og.com'     # E
+  - '+.liuyunflow.com'        # E
+  - '+.lldlf.cn'              # E
+  - '+.lldlf.com'             # E
+  - '+.localxcafe.com'        # E
+  - '+.lrts.me'               # D E
+  - '+.lssdexternal.com'      # E
+  - '+.ludosuperstar.cn'      # C D E
+  - '+.ludosuperstar.com'     # E
+  - '+.ludoworld.cn'          # E
+  - '+.ludoworld.net'         # C D E
+  - '+.m1.run'                # D E
+  - '+.m6.run'                # D E
+  - '+.m9.run'                # D E
+  - '+.ma.run'                # D E
+  - '+.magicwatchface.com'    # E
+  - '+.mahjongai.cn'          # E
+  - '+.mahjongai.com'         # E
+  - '+.mahjongai.net'         # C D E
+  - '+.mahjongcup.cn'         # C D E
+  - '+.mahjongcup.com'        # C D E
+  - '+.mahjongcup.net'        # C D E
+  - '+.mandnsv1.com'          # E
+  - '+.mandnsv1.net'          # E
+  - '+.map-tencent.cn'        # E
+  - '+.map-tencent.com'       # E
+  - '+.maplecheck.tech'       # E
+  - '+.maxgamehub.com'        # E
+  - '+.me-tencent.com'        # E
+  - '+.meitusiyu.com'         # E
+  - '+.metalrevolution.com'   # C D E
+  - '+.mgobe-webattle.com'    # E
+  - '+.mgse.info'             # E
+  - '+.mh2u.cn'               # E
+  - '+.microaiav.com'         # E
+  - '+.midasbuy.com'          # C D
+  - '+.miloli.info'           # E
+  - '+.mini-program-acc.com'  # E
+  - '+.minishops.co'          # E
+  - '+.mjxpay.com'            # E
+  - '+.mmatch.tech'           # E
+  - '+.mmbizurl.cn'           # D E
+  - '+.mmecimage.cn'          # E
+  - '+.mmqidian.com'          # E
+  - '+.mobilemgr-global.com'  # E
+  - '+.mobilemgr-global.net'  # E
+  - '+.moco-game.cn'          # E
+  - '+.molo.cn'               # E
+  - '+.moneydata.hk'          # E
+  - '+.morefunstudio.com'     # E
+  - '+.mps.live'              # E
+  - '+.mqqurl.com'            # E
+  - '+.mqzoneapp.com'         # E
+  - '+.mrrvendor.com'         # E
+  - '+.msdkpass.com'          # E
+  - '+.msstatic.com'          # E
+  - '+.mszdld.cn'             # C D E
+  - '+.mszdld.com'            # C D E
+  - '+.mszdld.net'            # C D E
+  - '+.mting.info'            # D E
+  - '+.multimodalmatch.com'   # E
+  - '+.mxflutter.com'         # E
+  - '+.my-cpaas.com'          # E
+  - '+.my-imcloud.com'        # D E
+  - '+.my-qcloud.com'         # D E
+  - '+.my-tcloud.com'         # E
+  - '+.myapp.com'             # D E
+  - '+.myappdl1.com'          # E
+  - '+.myappdl1.net'          # E
+  - '+.myappdl2.com'          # E
+  - '+.myappdl2.net'          # E
+  - '+.myelasticsearch.com'   # D E
+  - '+.mylightsite.com'       # E
+  - '+.myoed.com'             # E
+  - '+.myqcloud.cn'           # E
+  - '+.myqcloud.com'          # D E  覆盖 +.ap-bangkok.myqcloud.com D, +.ap-hongkong.myqcloud.com D 等 21 条
+  - '+.myqcloud.net'          # E
+  - '+.myrtx.com'             # E
+  - '+.mytencentes.com'       # E
+  - '+.mytt.com'              # E
+  - '+.nagcloudcs.com'        # C D E
+  - '+.nazarstudios.com'      # E
+  - '+.nba.com'               # E
+  - '+.neuroxiv.cn'           # E
+  - '+.neuroxiv.com'          # E
+  - '+.neuroxiv.net'          # E
+  - '+.next-bei.com'          # E
+  - '+.next-playground.com'   # E
+  - '+.nextplayground.cn'     # E
+  - '+.nextplayground.com'    # E
+  - '+.nextstudios.com'       # C D E
+  - '+.nextworkshop.net'      # C D E
+  - '+.nikke-en.com'          # C D
+  - '+.nintendoswitch.cn'     # E
+  - '+.nj-tencentclb.cloud'   # E
+  - '+.nj-tencentclb.com'     # E
+  - '+.nj-tencentclb.net'     # E
+  - '+.nj-tencentclb.work'    # E
+  - '+.njiabe.com'            # E
+  - '+.njmapp.com'            # E
+  - '+.njxfcft-tencentclb.cloud'  # E
+  - '+.njxfcft-tencentclb.com'  # E
+  - '+.njxfcft-tencentclb.net'  # E
+  - '+.njxfcft-tencentclb.work'  # E
+  - '+.nktzj.cn'              # E
+  - '+.nohost.pro'            # E
+  - '+.nrzb0.com'             # E
+  - '+.oedcdn.cn'             # E
+  - '+.onebrowser.net'        # E
+  - '+.onexmail.com'          # D E
+  - '+.onezapp.com'           # E
+  - '+.onlygamefans.com'      # E
+  - '+.onwork.com'            # E
+  - '+.openapp.run'           # D E
+  - '+.opencloudos.tech'      # E
+  - '+.opendatacenter.cn'     # E
+  - '+.opengame0.com'         # E
+  - '+.openhippy.com'         # E
+  - '+.openmidas.com'         # D E
+  - '+.oracle-on-qcloud.cn'   # E
+  - '+.oracle-tencent.cn'     # D
+  - '+.oracle-tencent.com'    # D
+  - '+.oracle-tencent.net'    # D E
+  - '+.oracle-tencent.org'    # E
+  - '+.orange-ci.net'         # E
+  - '+.overseasops.com'       # E
+  - '+.ovscdns.com'           # D E
+  - '+.ovscdns.net'           # D E
+  - '+.oywtv.com'             # E
+  - '+.p-sig-dom.com'         # E
+  - '+.p-sig-dom.net'         # E
+  - '+.pag.art'               # E
+  - '+.pagedoo.cn'            # E
+  - '+.pagedoo.com'           # E
+  - '+.palmda.com'            # E
+  - '+.pcmgr-global.com'      # E
+  - '+.pcmgr-global.net'      # E
+  - '+.pdm.tech'              # E
+  - '+.peiwanlu.com'          # E
+  - '+.pengyou.com'           # E
+  - '+.pengyou.net'           # E
+  - '+.pfif.cn'               # E
+  - '+.pgosglobal.com'        # E
+  - '+.pinyin.cn'             # D
+  - '+.playbattleaces.com'    # E
+  - '+.plusrtc.com'           # E
+  - '+.pn1waq.com'            # D E
+  - '+.pokercup.net'          # E
+  - '+.polarismesh.cn'        # E
+  - '+.potops.cn'             # E
+  - '+.potops.com'            # E
+  - '+.poweron.cc'            # E
+  - '+.prayaya.com'           # E
+  - '+.prayaya.net'           # E
+  - '+.prayaya.org'           # E
+  - '+.private-tech.cn'       # E
+  - '+.prizesapp.com'         # E
+  - '+.projectserval.cn'      # E
+  - '+.projectserval.com'     # E
+  - '+.proximabeta.com'       # C D E
+  - '+.pts-ai-texture.com'    # E
+  - '+.pts.games'             # E
+  - '+.pubghelper.com'        # C D E
+  - '+.pubgno1.cn'            # C D E
+  - '+.pubgtool.com'          # C D E
+  - '+.putdl.com'             # E
+  - '+.qbanking.cn'           # E
+  - '+.qbview.com'            # E
+  - '+.qcdne.cn'              # E
+  - '+.qcdne.com'             # E
+  - '+.qcdnlog.com'           # E
+  - '+.qcdntest.cn'           # E
+  - '+.qcdntest.com'          # E
+  - '+.qcdntest.net'          # E
+  - '+.qclivecdn.cn'          # E
+  - '+.qclivecdn.com'         # E
+  - '+.qcloud-edumall.com'    # D E
+  - '+.qcloud.com'            # D E
+  - '+.qcloud.la'             # D E
+  - '+.qcloudapps.com'        # D E
+  - '+.qcloudcdn.cn'          # E
+  - '+.qcloudcdn.com'         # D E
+  - '+.qcloudcdnsrc.com'      # E
+  - '+.qcloudcdntest.cn'      # D E
+  - '+.qcloudcjgj.cn'         # E
+  - '+.qcloudcjgj.com'        # E
+  - '+.qcloudclass.com'       # D E
+  - '+.qcloudcos.cn'          # D E
+  - '+.qcloudcos.com'         # D E
+  - '+.qcloudcos.net'         # E
+  - '+.qcloudecdn.com'        # E
+  - '+.qclouder.com'          # D E
+  - '+.qcloudestate.com'      # E
+  - '+.qcloudgme.com'         # D E
+  - '+.qcloudimg.com'         # D E
+  - '+.qcloudipv6.com'        # D E
+  - '+.qcloudmail.com'        # E
+  - '+.qcloudmailbk.cn'       # E
+  - '+.qcloudmarket.com'      # D E
+  - '+.qcloudns.com'          # D E
+  - '+.qcloudocdn.com'        # E
+  - '+.qcloudoceanus.com'     # E
+  - '+.qcloudsmartiot.com'    # D E
+  - '+.qcloudtcic.com'        # D E
+  - '+.qcloudteo.com'         # E
+  - '+.qcloudtiw.com'         # D E
+  - '+.qcloudtrip.com'        # D E
+  - '+.qcloudtt.com'          # D E
+  - '+.qcloudwaf.com'         # D E
+  - '+.qcloudwzgj.cn'         # E
+  - '+.qcloudwzgj.com'        # E
+  - '+.qcloudzygj.cn'         # E
+  - '+.qcloudzygj.com'        # E
+  - '+.qcly.xyz'              # E
+  - '+.qd.ink'                # D
+  - '+.qdcloudsolution.com'   # E
+  - '+.qdd.gd'                # E
+  - '+.qdd.gg'                # E
+  - '+.qdd.la'                # E
+  - '+.qdkefu.com'            # E
+  - '+.qdmm.com'              # D E
+  - '+.qdstsy.cn'             # E
+  - '+.qdurl.cc'              # E
+  - '+.qdwebim.com'           # D E
+  - '+.qdwenxue.com'          # E
+  - '+.qdwpa.com'             # E
+  - '+.qeoacc.com'            # E
+  - '+.qeoacc.net'            # E
+  - '+.qeodns.com'            # D E
+  - '+.qeodns.net'            # D E
+  - '+.qgodb.cn'              # E
+  - '+.qgodb.com'             # E
+  - '+.qidian-cos-backup.com'  # E
+  - '+.qidian-cos.com'        # E
+  - '+.qidian.cn'             # E
+  - '+.qidian.com'            # D E
+  - '+.qidianmm.com'          # E
+  - '+.qiejingsu.com'         # E
+  - '+.qieracing.com'         # E
+  - '+.qingliaoapp.com'       # E
+  - '+.qjia.com'              # E
+  - '+.qlippie.com'           # E
+  - '+.qlivecdn.cn'           # E
+  - '+.qlivecdn.com'          # D E
+  - '+.qlivecloud.com'        # E
+  - '+.qlivertc.cn'           # E
+  - '+.qlivertc.com'          # E
+  - '+.qlivertc2.cn'          # E
+  - '+.qlivertc2.com'         # E
+  - '+.qlivewebrtc.cn'        # E
+  - '+.qlivewebrtc.com'       # E
+  - '+.qlivewebrtc2.cn'       # E
+  - '+.qlivewebrtc2.com'      # E
+  - '+.qlogo.cn'              # A D E
+  - '+.qmail.com'             # E
+  - '+.qmrms.com'             # E
+  - '+.qmtjgame.com'          # E
+  - '+.qpic.cn'               # A D E
+  - '+.qpimg.cn'              # E
+  - '+.qplus.com'             # E
+  - '+.qplusstatic.com'       # E
+  - '+.qq.com'                # D E  覆盖 +.ad.qq.com D, +.adnet.qq.com D 等 77 条
+  - '+.qq.design'             # D E
+  - '+.qq.travel'             # E
+  - '+.qq.wang'               # D E
+  - '+.qq.xn--fiqs8s'         # D E
+  - '+.qq.zone'               # E
+  - '+.qqbrowser.mobi'        # E
+  - '+.qqcfw.net'             # E
+  - '+.qqclass.com'           # E
+  - '+.qqclock.com'           # E
+  - '+.qqdr.com'              # E
+  - '+.qqexpert.cn'           # E
+  - '+.qqexpert.com'          # E
+  - '+.qqfamily.com'          # E
+  - '+.qqgameapp.com'         # C D E
+  - '+.qqgamedesign.com'      # D E
+  - '+.qqgamemall.com'        # E
+  - '+.qqgames.com'           # E
+  - '+.qqhangjia.cn'          # E
+  - '+.qqhangjia.com'         # E
+  - '+.qqhaoma.com'           # E
+  - '+.qqhaoma.net'           # E
+  - '+.qqimage.cn'            # E
+  - '+.qqimage.net'           # E
+  - '+.qqimg.net'             # E
+  - '+.qqjapan.com'           # E
+  - '+.qqmail.com'            # D E
+  - '+.qqmapyx.com'           # E
+  - '+.qqmra.cn'              # D E
+  - '+.qqmra.com'             # D E
+  - '+.qqmusic.com'           # D
+  - '+.qqmusic.store'         # E
+  - '+.qqnaozhong.com'        # E
+  - '+.qqopenapp.com'         # E
+  - '+.qqplusapp.com'         # E
+  - '+.qqservice.mobi'        # E
+  - '+.qqspark.com'           # E
+  - '+.qqumall.com'           # E
+  - '+.qqun.com'              # E
+  - '+.qqurl.com'             # E
+  - '+.qqwebapp.com'          # E
+  - '+.qqwiki.com'            # E
+  - '+.qqwinner.com'          # E
+  - '+.qrobot.com'            # E
+  - '+.qstatic.com'           # E
+  - '+.qtslog.com'            # E
+  - '+.qutecall.com'          # E
+  - '+.qutechat.com'          # E
+  - '+.qutemessenger.com'     # E
+  - '+.qutetalk.com'          # E
+  - '+.qutevoice.com'         # E
+  - '+.qwebapp.com'           # E
+  - '+.qy-tencentclb.cloud'   # E
+  - '+.qy-tencentclb.com'     # E
+  - '+.qy-tencentclb.net'     # E
+  - '+.qy-tencentclb.work'    # E
+  - '+.qymdb.cn'              # E
+  - '+.qymdb.com'             # E
+  - '+.qyunapp.com'           # D E
+  - '+.qyuner.com'            # E
+  - '+.qyxa-tencentclb.cloud'  # E
+  - '+.qyxa-tencentclb.com'   # E
+  - '+.qyxa-tencentclb.net'   # E
+  - '+.qyxa-tencentclb.work'  # E
+  - '+.qzone.com'             # D E
+  - '+.qzoneapp.com'          # E
+  - '+.randongada.com'        # E
+  - '+.raycim.com'            # E
+  - '+.raydata-asset.com'     # E
+  - '+.raydata-mobile.com'    # E
+  - '+.raydata-open.com'      # E
+  - '+.raydata-web.com'       # E
+  - '+.raydata.cc'            # E
+  - '+.raydata.info'          # E
+  - '+.raydata.pro'           # E
+  - '+.raydataasset.com'      # E
+  - '+.raydatamobile.com'     # E
+  - '+.raydataopen.com'       # E
+  - '+.raydataweb.com'        # E
+  - '+.raykite.club'          # E
+  - '+.raykite.cn'            # E
+  - '+.raykite.com'           # E
+  - '+.raykite.info'          # E
+  - '+.raykite.net'           # E
+  - '+.raykite.vip'           # E
+  - '+.raykite.xyz'           # E
+  - '+.raynext.cn'            # E
+  - '+.raynext.info'          # E
+  - '+.rbxcdn.cn'             # E
+  - '+.rdcv1.com'             # E
+  - '+.rdcv1.net'             # E
+  - '+.rdgz.org'              # E
+  - '+.reachentrophy.cn'      # E
+  - '+.readnovel.com'         # D E
+  - '+.realcybertron.com'     # C D E
+  - '+.realmofswords.com'     # E
+  - '+.ricenter.cn'           # E
+  - '+.ringofelysium.com'     # E
+  - '+.ringofelysiumonline.com'  # E
+  - '+.rmall-solution.com'    # E
+  - '+.rmwxgame.com'          # C D E
+  - '+.roblox.cn'             # C D E
+  - '+.robloxdev.cn'          # C D
+  - '+.romzj.com'             # E
+  - '+.rongshuxia.com'        # D
+  - '+.rootjl.com'            # E
+  - '+.rtxapp.com'            # E
+  - '+.rtxonline.com'         # E
+  - '+.rumt-sg.com'           # D
+  - '+.rumt-us.com'           # D
+  - '+.rumt-zh.com'           # D E
+  - '+.ruyh.cn'               # E
+  - '+.rxwsls.com'            # E
+  - '+.rxwsls.net'            # E
+  - '+.s-tech.com'            # E
+  - '+.s0ox.cn'               # E
+  - '+.sa-tencentclb.cloud'   # E
+  - '+.sa-tencentclb.com'     # E
+  - '+.sa-tencentclb.net'     # E
+  - '+.sa-tencentclb.work'    # E
+  - '+.safejmp.cn'            # E
+  - '+.safejmp.com'           # E
+  - '+.safejmp.net'           # E
+  - '+.sagsaas.com'           # E
+  - '+.sao-tencentclb.cloud'  # E
+  - '+.sao-tencentclb.com'    # E
+  - '+.sao-tencentclb.net'    # E
+  - '+.sao-tencentclb.work'   # E
+  - '+.sccreator.cn'          # C D E
+  - '+.sccreators.cn'         # C D
+  - '+.scescdn.cn'            # C D E
+  - '+.scid.cn'               # C D E
+  - '+.scl0.cn'               # E
+  - '+.scratchmirror.com'     # E
+  - '+.scratchmirror.net'     # E
+  - '+.scsentry.cn'           # C D E
+  - '+.sdaswq.com'            # E
+  - '+.serverlesscloud.cn'    # D E
+  - '+.servicewechat.com'     # A D E
+  - '+.serviceweixin.com'     # E
+  - '+.sfapower.cn'           # E
+  - '+.sg-tencentclb.cloud'   # E
+  - '+.sg-tencentclb.com'     # E
+  - '+.sg-tencentclb.net'     # E
+  - '+.sg-tencentclb.work'    # E
+  - '+.sg.cn'                 # D
+  - '+.sgrastudio.com'        # E
+  - '+.sgtmos.com'            # D
+  - '+.sgurl.cn'              # E
+  - '+.sgyeyou.com'           # D
+  - '+.sgyouxi.com'           # D
+  - '+.sh-tencentclb.cloud'   # E
+  - '+.sh-tencentclb.com'     # E
+  - '+.sh-tencentclb.net'     # E
+  - '+.sh-tencentclb.work'    # E
+  - '+.shadc-tencentclb.cloud'  # E
+  - '+.shadc-tencentclb.com'  # E
+  - '+.shadc-tencentclb.net'  # E
+  - '+.shadc-tencentclb.work'  # E
+  - '+.sheec-tencentclb.cloud'  # E
+  - '+.sheec-tencentclb.com'  # E
+  - '+.sheec-tencentclb.net'  # E
+  - '+.sheec-tencentclb.work'  # E
+  - '+.shhqcft-tencentclb.cloud'  # E
+  - '+.shhqcft-tencentclb.com'  # E
+  - '+.shhqcft-tencentclb.net'  # E
+  - '+.shhqcft-tencentclb.work'  # E
+  - '+.shhqcftfzhj-tencentclb.cloud'  # E
+  - '+.shhqcftfzhj-tencentclb.com'  # E
+  - '+.shhqcftfzhj-tencentclb.net'  # E
+  - '+.shhqcftfzhj-tencentclb.work'  # E
+  - '+.shhqcftfzhjtencentclb.cloud'  # E
+  - '+.shjr-tencentclb.cloud'  # E
+  - '+.shjr-tencentclb.com'   # E
+  - '+.shjr-tencentclb.net'   # E
+  - '+.shjr-tencentclb.work'  # E
+  - '+.shuame.com'            # E
+  - '+.shurl.cn'              # E
+  - '+.shwxzf-tencentclb.cloud'  # E
+  - '+.shwxzf-tencentclb.com'  # E
+  - '+.shwxzf-tencentclb.net'  # E
+  - '+.shwxzf-tencentclb.work'  # E
+  - '+.shwxzfjpyzc-tencentclb.cloud'  # E
+  - '+.shwxzfjpyzc-tencentclb.com'  # E
+  - '+.shwxzfjpyzc-tencentclb.net'  # E
+  - '+.shwxzfjpyzc-tencentclb.work'  # E
+  - '+.silvertek.cn'          # E
+  - '+.sixjoy.com'            # E
+  - '+.sjwec-tencentclb.cloud'  # E
+  - '+.sjwec-tencentclb.com'  # E
+  - '+.sjwec-tencentclb.net'  # E
+  - '+.sjwec-tencentclb.work'  # E
+  - '+.skydweller.cn'         # C D
+  - '+.smoba.net'             # E
+  - '+.smtcdns.com'           # D E  覆盖 +.v.smtcdns.com B
+  - '+.smtcdns.net'           # D E
+  - '+.snapplay.com'          # E
+  - '+.snoba.net'             # E
+  - '+.sogo.com'              # D
+  - '+.sogou-compress.com'    # E
+  - '+.sogou-diskmgr.com'     # E
+  - '+.sogou-inc.com'         # D
+  - '+.sogou-inner.com'       # E
+  - '+.sogou-kantu-pic.com'   # E
+  - '+.sogou-kantu.com'       # E
+  - '+.sogou-op.org'          # D
+  - '+.sogou-pdf.com'         # E
+  - '+.sogou-wallpaper.com'   # E
+  - '+.sogou.cn'              # D
+  - '+.sogou.com'             # D  覆盖 +.inte.sogou.com D, +.lu.sogou.com D 等 5 条
+  - '+.sogou.net'             # D
+  - '+.sogoucdn.com'          # D  覆盖 +.inte.sogoucdn.com D, +.lu.sogoucdn.com D 等 3 条
+  - '+.sogoucdndl.com'        # D
+  - '+.sogouimecdn.com'       # D
+  - '+.soso.com'              # D E
+  - '+.sososnap.com'          # D
+  - '+.spark-page.com'        # E
+  - '+.spark-page0.com'       # E
+  - '+.spark-page1.com'       # E
+  - '+.spark-page2.com'       # E
+  - '+.spark-page3.com'       # E
+  - '+.spark-page4.com'       # E
+  - '+.spark-page5.com'       # E
+  - '+.spark-page6.com'       # E
+  - '+.spark-page7.com'       # E
+  - '+.spark-page8.com'       # E
+  - '+.spark-page9.com'       # E
+  - '+.spcdntip.com'          # D E
+  - '+.spcdntipbak.com'       # D E
+  - '+.spcloudhw.com'         # D E
+  - '+.spcloudhw.net'         # D E
+  - '+.squadbusters-game.cn'  # E
+  - '+.squadbustersgame.cn'   # E
+  - '+.srccdn.com'            # E
+  - '+.srccdn2.com'           # E
+  - '+.srcge.com'             # E
+  - '+.srmkp.cn'              # D E
+  - '+.starlakelab.com'       # D E
+  - '+.stor-helper.com'       # E
+  - '+.sundaydragon.com'      # E
+  - '+.supercellcommunity.cn'  # C D E
+  - '+.supercellsupport.cn'   # C D E
+  - '+.superfix.cn'           # E
+  - '+.superfix.com'          # E
+  - '+.surveyqq.com'          # E
+  - '+.swd7.cn'               # E
+  - '+.systemserviceable.com'  # E
+  - '+.syurl.cn'              # E
+  - '+.syxlgame.com'          # C D
+  - '+.szjr-tencentclb.cloud'  # E
+  - '+.szjr-tencentclb.com'   # E
+  - '+.szjr-tencentclb.net'   # E
+  - '+.szjr-tencentclb.work'  # E
+  - '+.szjxcft-tencentclb.cloud'  # E
+  - '+.szjxcft-tencentclb.com'  # E
+  - '+.szjxcft-tencentclb.net'  # E
+  - '+.szjxcft-tencentclb.work'  # E
+  - '+.szsycft-tencentclb.cloud'  # E
+  - '+.szsycft-tencentclb.com'  # E
+  - '+.szsycft-tencentclb.net'  # E
+  - '+.szsycft-tencentclb.work'  # E
+  - '+.szx-tencentclb.cloud'  # E
+  - '+.szx-tencentclb.com'    # E
+  - '+.szx-tencentclb.net'    # E
+  - '+.szx-tencentclb.work'   # E
+  - '+.szyxlx.cn'             # E
+  - '+.t-npm.com'             # E
+  - '+.t-tlearning.com'       # E
+  - '+.tadsim.cn'             # E
+  - '+.tadsim.com'            # E
+  - '+.tadsim.net'            # E
+  - '+.tailuosi.cn'           # E
+  - '+.tairos.cc'             # E
+  - '+.tairos.net'            # E
+  - '+.tairos.tech'           # E
+  - '+.tamaegis.com'          # D E
+  - '+.tamlab.net'            # E
+  - '+.tanlive.cn'            # E
+  - '+.tanlive.com'           # E
+  - '+.taotao.com'            # E
+  - '+.tapd-app.com'          # E
+  - '+.tapd-devops.cn'        # E
+  - '+.tapd-private.cn'       # E
+  - '+.tapd.cn'               # D E
+  - '+.tav-global.com'        # E
+  - '+.tav-global.net'        # E
+  - '+.tbaas.tech'            # E
+  - '+.tbizmail.com'          # E
+  - '+.tcbautomation.cn'      # E
+  - '+.tcbe.cn'               # E
+  - '+.tcbqcloud.cn'          # E
+  - '+.tcbqcloud.com'         # E
+  - '+.tcdlive.com'           # D E
+  - '+.tcdndl1.cn'            # E
+  - '+.tcdndl2.cn'            # E
+  - '+.tcdndl3.cn'            # E
+  - '+.tcdndl4.cn'            # E
+  - '+.tcdneo.com'            # E
+  - '+.tcdneo.net'            # E
+  - '+.tcdnhw.com'            # D E
+  - '+.tcdnhw.net'            # E
+  - '+.tcdnkc.com'            # E
+  - '+.tcdnkcbak.com'         # D E
+  - '+.tcdnlive.com'          # D E
+  - '+.tcdnlivebak1.com'      # D E
+  - '+.tcdnlivebak2.com'      # D E
+  - '+.tcdnlp.com'            # E
+  - '+.tcdnos.com'            # D E
+  - '+.tcdnos.net'            # D E
+  - '+.tcdnstc1.cn'           # E
+  - '+.tcdnstc2.cn'           # E
+  - '+.tcdnstc3.cn'           # E
+  - '+.tcdnstc4.cn'           # E
+  - '+.tcdntip.com'           # D E
+  - '+.tcdnvod.com'           # D E
+  - '+.tcdnvod1.cn'           # E
+  - '+.tcdnvod2.cn'           # E
+  - '+.tcdnvod3.cn'           # E
+  - '+.tcdnvod4.cn'           # E
+  - '+.tcdnvodbak.com'        # D E
+  - '+.tcdnvodnew.com'        # E
+  - '+.tcdnx1.cn'             # E
+  - '+.tcdnx2.cn'             # E
+  - '+.tcdnzb.com'            # E
+  - '+.tced-transsion.com'    # E
+  - '+.tcedshare.cn'          # E
+  - '+.tcedshare.com'         # E
+  - '+.tcfmglobal.com'        # C D E
+  - '+.tchy.net'              # E
+  - '+.tcimage.cn'            # E
+  - '+.tcloudbase.com'        # D E
+  - '+.tcloudbase.net'        # D E
+  - '+.tcloudbaseapi.com'     # E
+  - '+.tcloudbaseapp.com'     # D E
+  - '+.tcloudbaseappbp.cn'    # E
+  - '+.tcloudbasegateway.com'  # E
+  - '+.tcloudbasestatic.com'  # E
+  - '+.tcloudbh.com'          # E
+  - '+.tcloudbi.com'          # D E
+  - '+.tclouddrive.com'       # D E
+  - '+.tcloudedu.com'         # D E
+  - '+.tcloudhw.com'          # D E
+  - '+.tcloudhw.net'          # D E
+  - '+.tcloudlive.cn'         # E
+  - '+.tcloudlive.com'        # E
+  - '+.tcloudscdn.com'        # D E
+  - '+.tcloudscdn.net'        # D E
+  - '+.tcmppcloud.com'        # E
+  - '+.tcsdk.com'             # E
+  - '+.td2cn.com'             # E
+  - '+.tdlcdn.com'            # E
+  - '+.tdlcdn.net'            # E
+  - '+.tdns127.com'           # E
+  - '+.tdnsdl1.cn'            # D E
+  - '+.tdnsdl2.cn'            # D E
+  - '+.tdnsdl3.cn'            # D E
+  - '+.tdnsdl4.cn'            # D E
+  - '+.tdnsdl5.cn'            # D E
+  - '+.tdnsdlovs1.com'        # E
+  - '+.tdnsdlovs2.com'        # E
+  - '+.tdnsdlovs3.com'        # E
+  - '+.tdnsdlovs4.com'        # E
+  - '+.tdnsdlovs5.com'        # E
+  - '+.tdnsdp.com'            # E
+  - '+.tdnsdp1.cn'            # E
+  - '+.tdnsdp2.cn'            # E
+  - '+.tdnsdp3.cn'            # E
+  - '+.tdnsdp4.cn'            # E
+  - '+.tdnsdp5.cn'            # E
+  - '+.tdnsdpovs1.com'        # E
+  - '+.tdnsdpovs2.com'        # E
+  - '+.tdnsdpovs3.com'        # E
+  - '+.tdnsdpovs4.com'        # E
+  - '+.tdnsdpovs5.com'        # E
+  - '+.tdnslive1.cn'          # E
+  - '+.tdnslive2.cn'          # E
+  - '+.tdnslive3.cn'          # E
+  - '+.tdnslive4.cn'          # E
+  - '+.tdnslive5.cn'          # E
+  - '+.tdnsliveovs1.com'      # E
+  - '+.tdnsliveovs2.com'      # E
+  - '+.tdnsliveovs3.com'      # E
+  - '+.tdnsliveovs4.com'      # E
+  - '+.tdnsliveovs5.com'      # E
+  - '+.tdnspub.com'           # E
+  - '+.tdnspub.net'           # E
+  - '+.tdnssp1.cn'            # E
+  - '+.tdnssp2.cn'            # E
+  - '+.tdnssp3.cn'            # E
+  - '+.tdnssp4.cn'            # E
+  - '+.tdnssp5.cn'            # E
+  - '+.tdnsspovs1.com'        # E
+  - '+.tdnsspovs2.com'        # E
+  - '+.tdnsspovs3.com'        # E
+  - '+.tdnsspovs4.com'        # E
+  - '+.tdnsspovs5.com'        # E
+  - '+.tdnsstic1.cn'          # D E
+  - '+.tdnsstic2.cn'          # E
+  - '+.tdnsstic3.cn'          # E
+  - '+.tdnsstic4.cn'          # E
+  - '+.tdnsstic5.cn'          # E
+  - '+.tdnssticovs1.com'      # E
+  - '+.tdnssticovs2.com'      # E
+  - '+.tdnssticovs3.com'      # E
+  - '+.tdnssticovs4.com'      # E
+  - '+.tdnssticovs5.com'      # E
+  - '+.tdnsv1.com'            # D E
+  - '+.tdnsv1.net'            # D E
+  - '+.tdnsv10.com'           # D E
+  - '+.tdnsv10.net'           # D E
+  - '+.tdnsv11.com'           # D E
+  - '+.tdnsv11.net'           # D E
+  - '+.tdnsv12.com'           # D E
+  - '+.tdnsv12.net'           # D E
+  - '+.tdnsv13.com'           # D E
+  - '+.tdnsv13.net'           # D E
+  - '+.tdnsv14.com'           # D E
+  - '+.tdnsv14.net'           # D E
+  - '+.tdnsv15.com'           # D E
+  - '+.tdnsv15.net'           # D E
+  - '+.tdnsv2.com'            # D E
+  - '+.tdnsv2.net'            # D E
+  - '+.tdnsv3.com'            # D E
+  - '+.tdnsv3.net'            # D E
+  - '+.tdnsv4.com'            # D E
+  - '+.tdnsv4.net'            # D E
+  - '+.tdnsv5.com'            # D E
+  - '+.tdnsv5.net'            # D E
+  - '+.tdnsv6.com'            # D E
+  - '+.tdnsv6.net'            # D E
+  - '+.tdnsv7.com'            # D E
+  - '+.tdnsv7.net'            # D E
+  - '+.tdnsv8.com'            # D E
+  - '+.tdnsv8.net'            # D E
+  - '+.tdnsv9.com'            # D E
+  - '+.tdnsv9.net'            # D E
+  - '+.tdnsvod1.cn'           # E
+  - '+.tdnsvod2.cn'           # E
+  - '+.tdnsvod3.cn'           # E
+  - '+.tdnsvod4.cn'           # E
+  - '+.tdnsvod5.cn'           # E
+  - '+.tdnsvodovs1.com'       # E
+  - '+.tdnsvodovs2.com'       # E
+  - '+.tdnsvodovs3.com'       # E
+  - '+.tdnsvodovs4.com'       # E
+  - '+.tdnsvodovs5.com'       # E
+  - '+.tdnsx1.com'            # D E
+  - '+.techo.chat'            # D E
+  - '+.techo.pub'             # E
+  - '+.techo.show'            # E
+  - '+.teemo.cn'              # D
+  - '+.tefscloud.com'         # D E
+  - '+.tefscloud.net'         # D E
+  - '+.ten.design'            # E
+  - '+.tenant-zone-dev.com'   # D E
+  - '+.tencdns.com'           # E
+  - '+.tencdns.net'           # D E
+  - '+.tencent-blackboard.com'  # E
+  - '+.tencent-cloud.cn'      # D E
+  - '+.tencent-cloud.com'     # D E
+  - '+.tencent-cloud.net'     # D E  覆盖 apd-pcdnvodstat.teg.tencent-cloud.net B, apd-pcdnwxlogin.teg.tencent-cloud.net A 等 3 条
+  - '+.tencent-education.com'  # E
+  - '+.tencent-gcloud.com'    # C D E
+  - '+.tencent-qejs.com'      # E
+  - '+.tencent.cn'            # D E
+  - '+.tencent.com'           # D E  覆盖 +.tpstelemetry.tencent.com D
+  - '+.tencent.design'        # D E
+  - '+.tencent.net'           # D E
+  - '+.tencentads.cn'         # E
+  - '+.tencentads.com'        # E
+  - '+.tencentads.net'        # E
+  - '+.tencentadx.com'        # E
+  - '+.tencentanxin.com'      # E
+  - '+.tencentapigw.cn'       # E
+  - '+.tencentapigw.com'      # E
+  - '+.tencentapis.com'       # E
+  - '+.tencentapp.com'        # E
+  - '+.tencentapps.com'       # D E
+  - '+.tencentart.cn'         # E
+  - '+.tencentbh.cn'          # E
+  - '+.tencentbh.com'         # E
+  - '+.tencentbyod.com'       # D E
+  - '+.tencentcdb.cn'         # D E
+  - '+.tencentcdb.com'        # D E
+  - '+.tencentcds.cn'         # E
+  - '+.tencentcds.com'        # E
+  - '+.tencentcfs.cn'         # E
+  - '+.tencentcfs.com'        # E
+  - '+.tencentci.cn'          # E
+  - '+.tencentciam.cn'        # E
+  - '+.tencentciam.com'       # E
+  - '+.tencentclb.cc'         # E
+  - '+.tencentclb.cloud'      # E
+  - '+.tencentclb.cn'         # D E
+  - '+.tencentclb.com'        # D E
+  - '+.tencentclb.host'       # E
+  - '+.tencentclb.info'       # E
+  - '+.tencentclb.link'       # E
+  - '+.tencentclb.net'        # E
+  - '+.tencentclb.online'     # E
+  - '+.tencentclb.plus'       # E
+  - '+.tencentclb.pro'        # E
+  - '+.tencentclb.site'       # E
+  - '+.tencentclb.space'      # E
+  - '+.tencentclb.team'       # E
+  - '+.tencentclb.tech'       # E
+  - '+.tencentclb.top'        # E
+  - '+.tencentclb.vip'        # E
+  - '+.tencentclb.work'       # E
+  - '+.tencentclb.zone'       # E
+  - '+.tencentcloud-aiot.com'  # D E
+  - '+.tencentcloud-demo.com'  # E
+  - '+.tencentcloud.com'      # D
+  - '+.tencentcloud.io'       # E
+  - '+.tencentcloudapi.cn'    # E
+  - '+.tencentcloudapi.com'   # D E
+  - '+.tencentcloudapimarket.com'  # E
+  - '+.tencentcloudapp.cn'    # E
+  - '+.tencentcloudapp.com'   # E
+  - '+.tencentcloudbase.cn'   # E
+  - '+.tencentcloudbase.com'  # E
+  - '+.tencentcloudbase.net'  # E
+  - '+.tencentcloudclub.com'  # D E
+  - '+.tencentcloudcore.cn'   # E
+  - '+.tencentcloudcore.com'  # E
+  - '+.tencentcloudcr.com'    # D E
+  - '+.tencentcloudga.com'    # E
+  - '+.tencentcloudga001.cn'  # E
+  - '+.tencentcloudga001.com'  # E
+  - '+.tencentcloudga001.net'  # E
+  - '+.tencentcloudga002.cn'  # E
+  - '+.tencentcloudga002.com'  # E
+  - '+.tencentcloudga002.net'  # E
+  - '+.tencentcloudga003.cn'  # E
+  - '+.tencentcloudga003.com'  # E
+  - '+.tencentcloudga003.net'  # E
+  - '+.tencentcloudga004.cn'  # E
+  - '+.tencentcloudga004.com'  # E
+  - '+.tencentcloudga004.net'  # E
+  - '+.tencentcloudga005.cn'  # E
+  - '+.tencentcloudga005.com'  # E
+  - '+.tencentcloudga005.net'  # E
+  - '+.tencentcloudga006.cn'  # E
+  - '+.tencentcloudga006.com'  # E
+  - '+.tencentcloudga006.net'  # E
+  - '+.tencentcloudga007.cn'  # E
+  - '+.tencentcloudga007.com'  # E
+  - '+.tencentcloudga007.net'  # E
+  - '+.tencentcloudga008.cn'  # E
+  - '+.tencentcloudga008.com'  # E
+  - '+.tencentcloudga008.net'  # E
+  - '+.tencentcloudga009.cn'  # E
+  - '+.tencentcloudga009.com'  # E
+  - '+.tencentcloudga009.net'  # E
+  - '+.tencentcloudga010.cn'  # E
+  - '+.tencentcloudga010.com'  # E
+  - '+.tencentcloudga010.net'  # E
+  - '+.tencentcloudga011.cn'  # E
+  - '+.tencentcloudga011.com'  # E
+  - '+.tencentcloudga011.net'  # E
+  - '+.tencentcloudga012.cn'  # E
+  - '+.tencentcloudga012.com'  # E
+  - '+.tencentcloudga012.net'  # E
+  - '+.tencentcloudga013.cn'  # E
+  - '+.tencentcloudga013.com'  # E
+  - '+.tencentcloudga013.net'  # E
+  - '+.tencentcloudga014.cn'  # E
+  - '+.tencentcloudga014.com'  # E
+  - '+.tencentcloudga014.net'  # E
+  - '+.tencentcloudga015.cn'  # E
+  - '+.tencentcloudga015.com'  # E
+  - '+.tencentcloudga015.net'  # E
+  - '+.tencentcloudga016.cn'  # E
+  - '+.tencentcloudga016.com'  # E
+  - '+.tencentcloudga016.net'  # E
+  - '+.tencentcloudga017.cn'  # E
+  - '+.tencentcloudga017.com'  # E
+  - '+.tencentcloudga017.net'  # E
+  - '+.tencentcloudga018.cn'  # E
+  - '+.tencentcloudga018.com'  # E
+  - '+.tencentcloudga018.net'  # E
+  - '+.tencentcloudga019.cn'  # E
+  - '+.tencentcloudga019.com'  # E
+  - '+.tencentcloudga019.net'  # E
+  - '+.tencentcloudga020.cn'  # E
+  - '+.tencentcloudga020.com'  # E
+  - '+.tencentcloudga020.net'  # E
+  - '+.tencentcloudga021.cn'  # E
+  - '+.tencentcloudga021.com'  # E
+  - '+.tencentcloudga021.net'  # E
+  - '+.tencentcloudga022.cn'  # E
+  - '+.tencentcloudga022.com'  # E
+  - '+.tencentcloudga022.net'  # E
+  - '+.tencentcloudga023.cn'  # E
+  - '+.tencentcloudga023.com'  # E
+  - '+.tencentcloudga023.net'  # E
+  - '+.tencentcloudga024.cn'  # E
+  - '+.tencentcloudga024.com'  # E
+  - '+.tencentcloudga024.net'  # E
+  - '+.tencentcloudga025.cn'  # E
+  - '+.tencentcloudga025.com'  # E
+  - '+.tencentcloudga025.net'  # E
+  - '+.tencentcloudga026.cn'  # E
+  - '+.tencentcloudga026.com'  # E
+  - '+.tencentcloudga026.net'  # E
+  - '+.tencentcloudga027.cn'  # E
+  - '+.tencentcloudga027.com'  # E
+  - '+.tencentcloudga027.net'  # E
+  - '+.tencentcloudga028.cn'  # E
+  - '+.tencentcloudga028.com'  # E
+  - '+.tencentcloudga028.net'  # E
+  - '+.tencentcloudga029.cn'  # E
+  - '+.tencentcloudga029.com'  # E
+  - '+.tencentcloudga029.net'  # E
+  - '+.tencentcloudga030.cn'  # E
+  - '+.tencentcloudga030.com'  # E
+  - '+.tencentcloudga030.net'  # E
+  - '+.tencentcloudipv6.com'  # E
+  - '+.tencentcloudlab.com'   # E
+  - '+.tencentcloudlive.cn'   # E
+  - '+.tencentcloudlive.com'  # E
+  - '+.tencentcloudmarket.com'  # D E
+  - '+.tencentcloudmq.cn'     # E
+  - '+.tencentcloudmq.com'    # E
+  - '+.tencentcloudns.com'    # D E
+  - '+.tencentcloudsandbox.com'  # E
+  - '+.tencentcloudsec.com'   # D E
+  - '+.tencentcloudses.com'   # D E
+  - '+.tencentcloudsso.cn'    # E
+  - '+.tencentcloudsso.com'   # E
+  - '+.tencentcls.cn'         # E
+  - '+.tencentcls.com'        # E
+  - '+.tencentcmq.com'        # E
+  - '+.tencentcode.cn'        # E
+  - '+.tencentcode.com'       # E
+  - '+.tencentcomics.com'     # E
+  - '+.tencentconsulting.com'  # E
+  - '+.tencentcos.cloud'      # E
+  - '+.tencentcos.cn'         # D E  覆盖 +.ap-bangkok.tencentcos.cn D, +.ap-hongkong.tencentcos.cn D 等 13 条
+  - '+.tencentcos.com'        # D E  覆盖 +.ap-bangkok.tencentcos.com D, +.ap-hongkong.tencentcos.com D 等 13 条
+  - '+.tencentcos.net'        # E
+  - '+.tencentcs.cn'          # D E
+  - '+.tencentcs.com'         # D E
+  - '+.tencentcsms.com'       # E
+  - '+.tencentdayu.cn'        # E
+  - '+.tencentdayu.com'       # D E
+  - '+.tencentdb.cn'          # E
+  - '+.tencentdb.com'         # D E
+  - '+.tencentddos.cn'        # E
+  - '+.tencentddos.com'       # E
+  - '+.tencentdevices.com'    # D E
+  - '+.tencentdigitalassistant.com'  # D E
+  - '+.tencentdmp.com'        # E
+  - '+.tencentdms.com'        # D E
+  - '+.tencentedi.com'        # E
+  - '+.tencentehs.com'        # E
+  - '+.tencenteiam.com'       # D E
+  - '+.tencentelasticsearch.cn'  # E
+  - '+.tencentelasticsearch.com'  # D E
+  - '+.tencentemr.com'        # E
+  - '+.tencentes.cn'          # E
+  - '+.tencentes.com'         # E
+  - '+.tencentexpert.cn'      # E
+  - '+.tencentexpert.com'     # E
+  - '+.tencentfanyi.com'      # E
+  - '+.tencentff.com'         # E
+  - '+.tencentfilm.com'       # E
+  - '+.tencentfoundation.org'  # E
+  - '+.tencentga.com'         # E
+  - '+.tencentgames.co'       # E
+  - '+.tencentgames.com'      # C D
+  - '+.tencentgames.us'       # E
+  - '+.tencentgme.com'        # E
+  - '+.tencentgoosefs.cn'     # E
+  - '+.tencentgse.com'        # E
+  - '+.tencentgy.com'         # E
+  - '+.tencenthangjia.cn'     # E
+  - '+.tencenthangjia.com'    # E
+  - '+.tencenthttpdns.cn'     # E
+  - '+.tencentiam.com'        # E
+  - '+.tencenticp.cn'         # E
+  - '+.tencenticp.com'        # E
+  - '+.tencentid.com'         # D E
+  - '+.tencentidaas.com'      # E
+  - '+.tencentidentity.cn'    # E
+  - '+.tencentidentity.com'   # D E
+  - '+.tencentimage.cn'       # E
+  - '+.tencentimage.com'      # E
+  - '+.tencentimage.net'      # E
+  - '+.tencentiotcloud.com'   # E
+  - '+.tencentiotmedia.com'   # E
+  - '+.tencentipv6.com'       # E
+  - '+.tencentiss.cn'         # E
+  - '+.tencentivc.cn'         # E
+  - '+.tencentlab.cn'         # E
+  - '+.tencentlegalservices.com'  # E
+  - '+.tencentlink.com'       # E
+  - '+.tencentlkfz.com'       # E
+  - '+.tencentlog.com'        # E
+  - '+.tencentmdb.cn'         # E
+  - '+.tencentmdb.com'        # E
+  - '+.tencentmeeting.com'    # E
+  - '+.tencentmfa.cn'         # E
+  - '+.tencentmfa.com'        # E
+  - '+.tencentmind.com'       # E
+  - '+.tencentmiying.com'     # D
+  - '+.tencentmovie.com'      # E
+  - '+.tencentmusic.com'      # D E  覆盖 +.ad.tencentmusic.com D, +.adstats.tencentmusic.com D 等 3 条
+  - '+.tencentntp.cn'         # E
+  - '+.tencentoa.com'         # E
+  - '+.tencentoceanus.com'    # E
+  - '+.tencentpay.com'        # E
+  - '+.tencentpic.com'        # E
+  - '+.tencentproxy.com'      # D E
+  - '+.tencentrce.cn'         # E
+  - '+.tencentrce.com'        # E
+  - '+.tencentrcpcsdk.cn'     # E
+  - '+.tencentrcpcsdk.com'    # E
+  - '+.tencentresearch.com'   # E
+  - '+.tencentrio.com'        # D E
+  - '+.tencentscf.cn'         # E
+  - '+.tencentscf.com'        # E
+  - '+.tencentsecsdk.cn'      # E
+  - '+.tencentsecsdk.com'     # E
+  - '+.tencentserverless.cn'  # E
+  - '+.tencentserverless.com'  # E
+  - '+.tencentservicewatcher.com'  # E
+  - '+.tencentses.com'        # E
+  - '+.tencentsite.com'       # E
+  - '+.tencentsmh.cn'         # E
+  - '+.tencentsmhcname.cn'    # E
+  - '+.tencentsmhcname.com'   # E
+  - '+.tencentsmhuc.cn'       # E
+  - '+.tencentsmhuc.com'      # E
+  - '+.tencentsource.com'     # E
+  - '+.tencentstart.com'      # C D E
+  - '+.tencentsuite.com'      # E
+  - '+.tencentsurvey.com'     # E
+  - '+.tencentsurvey.net'     # E
+  - '+.tencenttcr.cn'         # E
+  - '+.tencenttcr.com'        # E
+  - '+.tencenttdai.com'       # E
+  - '+.tencenttdmq.cn'        # E
+  - '+.tencenttdmq.com'       # E
+  - '+.tencenttds.com'        # E
+  - '+.tencenttid.com'        # D E
+  - '+.tencenttione.com'      # E
+  - '+.tencenttree.com'       # E
+  - '+.tencenttrtc.com'       # E
+  - '+.tencenttymaas.cn'      # E
+  - '+.tencenttymaas.com'     # E
+  - '+.tencentuc.cn'          # E
+  - '+.tencentud.com'         # E
+  - '+.tencentvpc.cn'         # E
+  - '+.tencentvpc.com'        # E
+  - '+.tencentweiban.com'     # E
+  - '+.tencentwemeet.club'    # D E
+  - '+.tencentwepark.com'     # D E
+  - '+.tencentwf.cn'          # E
+  - '+.tencentwf.com'         # E
+  - '+.tencentwsd.cn'         # E
+  - '+.tencentwukong.com'     # E
+  - '+.tencentxinge.com'      # E
+  - '+.tencentyouth.com'      # E
+  - '+.tencentyun.com'        # D E
+  - '+.tencentzhzf.com'       # E
+  - '+.tencity.com'           # E
+  - '+.tendbcluster.cn'       # E
+  - '+.tendbcluster.com'      # D E
+  - '+.tendbcluster.net'      # E
+  - '+.tendis.cn'             # E
+  - '+.tendis.net'            # D E
+  - '+.tengmed.cn'            # E
+  - '+.tengmed.com'           # D E
+  - '+.tengyunqq.com'         # E
+  - '+.tenovatech.com'        # E
+  - '+.tenpay.com'            # A D E
+  - '+.tenpayglobal.com'      # D
+  - '+.tensure.com'           # E
+  - '+.tenwukong.com'         # E
+  - '+.teo-rum.com'           # E
+  - '+.teoacc.com'            # E
+  - '+.teoacc.net'            # E
+  - '+.teodns.com'            # E
+  - '+.teodns.net'            # E
+  - '+.territorypower.cn'     # E
+  - '+.testinsight.net'       # E
+  - '+.testmeet.cn'           # D E
+  - '+.testmrrvendor.com'     # E
+  - '+.testsparkling.com'     # E
+  - '+.testwaf.com'           # D E
+  - '+.texasholdemcup.cn'     # C D E
+  - '+.texasholdemcup.com'    # C D E
+  - '+.texasholdemcup.net'    # C D E
+  - '+.tez-tencentclb.cloud'  # E
+  - '+.tez-tencentclb.com'    # E
+  - '+.tez-tencentclb.net'    # E
+  - '+.tfogc.com'             # D E
+  - '+.tfogc.net'             # E
+  - '+.tgametalent.com'       # E
+  - '+.tgovcloud.com'         # D E
+  - '+.th-tencentclb.cloud'   # E
+  - '+.th-tencentclb.com'     # E
+  - '+.th-tencentclb.net'     # E
+  - '+.th-tencentclb.work'    # E
+  - '+.thecss.cn'             # E
+  - '+.thegreatwallpro.cn'    # E
+  - '+.thepredictivemodel.com'  # E
+  - '+.tiantiancaige.com'     # E
+  - '+.tianxiawuzei.org'      # E
+  - '+.tianyutest.com'        # E
+  - '+.tidaas.com'            # D E
+  - '+.timedl.com'            # E
+  - '+.timibase.com'          # C D E
+  - '+.timmerse.com'          # D E
+  - '+.tingbook.com'          # D E
+  - '+.tingmall.com'          # D
+  - '+.tisi.org'              # E
+  - '+.titanm.com'            # E
+  - '+.tjstats.com'           # D
+  - '+.tlbsbigdata.com'       # E
+  - '+.tlinkaccess.cn'        # E
+  - '+.tlinkaccess.com'       # E
+  - '+.tlinkaccess2.cn'       # E
+  - '+.tlinkaccess2.com'      # E
+  - '+.tliveapi.cn'           # E
+  - '+.tliveapi.com'          # E
+  - '+.tliveapi2.cn'          # E
+  - '+.tliveapi2.com'         # E
+  - '+.tliveapp.cn'           # E
+  - '+.tliveapp.com'          # E
+  - '+.tliveauth.cn'          # E
+  - '+.tliveauth.com'         # E
+  - '+.tliveauth2.cn'         # E
+  - '+.tliveauth2.com'        # E
+  - '+.tlivecdn.cn'           # E
+  - '+.tlivecdn.com'          # D E
+  - '+.tlivecdnv1.cn'         # E
+  - '+.tlivecdnv1.com'        # E
+  - '+.tlivecdnv2.cn'         # E
+  - '+.tlivecdnv2.com'        # E
+  - '+.tlivecdnv3.cn'         # E
+  - '+.tlivecdnv3.com'        # E
+  - '+.tlivecdnv4.cn'         # E
+  - '+.tlivecdnv4.com'        # E
+  - '+.tlivecloud.com'        # E
+  - '+.tlivecontroller.cn'    # E
+  - '+.tlivecontroller.com'   # E
+  - '+.tlivecontroller2.cn'   # E
+  - '+.tlivecontroller2.com'  # E
+  - '+.tlivedal.cn'           # E
+  - '+.tlivedal.com'          # E
+  - '+.tlivedal2.cn'          # E
+  - '+.tlivedal2.com'         # E
+  - '+.tlivedeliver.com'      # E
+  - '+.tlivedispatch.cn'      # E
+  - '+.tlivedispatch.com'     # E
+  - '+.tlivedispatch2.cn'     # E
+  - '+.tlivedispatch2.com'    # E
+  - '+.tlivedns.cn'           # E
+  - '+.tlivedns.com'          # E
+  - '+.tlivedns2.cn'          # E
+  - '+.tlivedns2.com'         # E
+  - '+.tlivednsv1.cn'         # E
+  - '+.tlivednsv1.com'        # E
+  - '+.tlivegslb.cn'          # E
+  - '+.tlivegslb.com'         # E
+  - '+.tlivehttpdns.com'      # E
+  - '+.tlivehttpdns2.com'     # E
+  - '+.tliveigtm.cn'          # E
+  - '+.tliveigtm.com'         # E
+  - '+.tliveigtm2.cn'         # E
+  - '+.tliveigtm2.com'        # E
+  - '+.tliveigtm3.cn'         # E
+  - '+.tliveigtm3.com'        # E
+  - '+.tlivemcdn.cn'          # E
+  - '+.tlivemcdn.com'         # D E
+  - '+.tlivemcdnsched.cn'     # E
+  - '+.tlivemcdnsched.com'    # E
+  - '+.tliveplay.com'         # E
+  - '+.tliveplaydemo.com'     # E
+  - '+.tliveproxy.cn'         # E
+  - '+.tliveproxy.com'        # E
+  - '+.tliveproxy2.cn'        # E
+  - '+.tliveproxy2.com'       # E
+  - '+.tlivepush.cn'          # E
+  - '+.tlivepush.com'         # D E
+  - '+.tlivepush2.com'        # E
+  - '+.tlivertc.cn'           # E
+  - '+.tlivertc.com'          # E
+  - '+.tlivertc2.cn'          # E
+  - '+.tlivertc2.com'         # E
+  - '+.tlivesdk.cn'           # E
+  - '+.tlivesdk.com'          # E
+  - '+.tlivesdk2.cn'          # E
+  - '+.tlivesdk2.com'         # E
+  - '+.tlivesdkconfig.cn'     # E
+  - '+.tlivesdkconfig.com'    # E
+  - '+.tlivesdkconfig2.cn'    # E
+  - '+.tlivesdkconfig2.com'   # E
+  - '+.tlivesource.com'       # D E
+  - '+.tlivesrc.cn'           # E
+  - '+.tlivesrc.com'          # E
+  - '+.tlivesrc2.cn'          # E
+  - '+.tlivesrc2.com'         # E
+  - '+.tlivesrcaccess.cn'     # E
+  - '+.tlivesrcaccess.com'    # E
+  - '+.tlivesrcaccess2.cn'    # E
+  - '+.tlivesrcaccess2.com'   # E
+  - '+.tlivesrcapp.cn'        # E
+  - '+.tlivesrcapp.com'       # E
+  - '+.tlivesrcapp2.cn'       # E
+  - '+.tlivesrcapp2.com'      # E
+  - '+.tlivesrcdemo.com'      # E
+  - '+.tlivesrcschedule.cn'   # E
+  - '+.tlivesrcschedule.com'  # E
+  - '+.tlivesrcschedule2.cn'  # E
+  - '+.tlivesrcschedule2.com'  # E
+  - '+.tlivessl.cn'           # E
+  - '+.tlivessl.com'          # E
+  - '+.tlivessl2.cn'          # E
+  - '+.tlivessl2.com'         # E
+  - '+.tlivestability.com'    # E
+  - '+.tlivestability2.com'   # E
+  - '+.tlivestream.cn'        # E
+  - '+.tlivestream.com'       # E
+  - '+.tlivestream2.cn'       # E
+  - '+.tlivestream2.com'      # E
+  - '+.tliveupload.cn'        # E
+  - '+.tliveupload.com'       # E
+  - '+.tliveupload2.cn'       # E
+  - '+.tliveupload2.com'      # E
+  - '+.tliveweb.cn'           # E
+  - '+.tliveweb.com'          # E
+  - '+.tliveweb2.cn'          # E
+  - '+.tliveweb2.com'         # E
+  - '+.tlivewebrtc.cn'        # E
+  - '+.tlivewebrtc.com'       # E
+  - '+.tlivewebrtc2.cn'       # E
+  - '+.tlivewebrtc2.com'      # E
+  - '+.tlivewebrtcpush.cn'    # E
+  - '+.tlivewebrtcpush.com'   # E
+  - '+.tlivewebrtcpush2.cn'   # E
+  - '+.tlivewebrtcpush2.com'  # E
+  - '+.tlivewebrtcpushsch.cn'  # E
+  - '+.tlivewebrtcpushsch.com'  # E
+  - '+.tlivewebrtcpushsch2.cn'  # E
+  - '+.tlivewebrtcpushsch2.com'  # E
+  - '+.tmc-youqun.com'        # E
+  - '+.tmcdl.cn'              # E
+  - '+.tmcqd.cn'              # E
+  - '+.tmcyx.cn'              # E
+  - '+.tmecd.com'             # E
+  - '+.tmfcloud.com'          # E
+  - '+.tmgdb.cn'              # E
+  - '+.tmgdb.com'             # E
+  - '+.tmigrate.com'          # E
+  - '+.tnebula.cn'            # E
+  - '+.tnebula.net'           # E
+  - '+.todolist.chat'         # E
+  - '+.todolist.email'        # E
+  - '+.todolist.pub'          # E
+  - '+.tos.cn'                # E
+  - '+.totope.com'            # E
+  - '+.tourismshow.cn'        # D E
+  - '+.tourismuser.cn'        # D E
+  - '+.tpdmp.com'             # E
+  - '+.tpe-tencentclb.cloud'  # E
+  - '+.tpe-tencentclb.com'    # E
+  - '+.tpe-tencentclb.net'    # E
+  - '+.tpe-tencentclb.work'   # E
+  - '+.tpiccdn.com'           # E
+  - '+.tpiccdn.net'           # E
+  - '+.tqapp.cn'              # E
+  - '+.tqapp.com'             # E
+  - '+.tqapp.net'             # E
+  - '+.tquic.net'             # E
+  - '+.tri.cn'                # E
+  - '+.trimg.cn'              # E
+  - '+.trpc.center'           # E
+  - '+.trpc.group'            # E
+  - '+.trpc.tech'             # E
+  - '+.trtccloud.com'         # E
+  - '+.trtccloud.net'         # E
+  - '+.trtcrecover.com'       # E
+  - '+.trtcube-license.cn'    # E
+  - '+.tsa-lp.com'            # E
+  - '+.tsa-page.com'          # E
+  - '+.tsa-page0.com'         # E
+  - '+.tsa-page1.com'         # E
+  - '+.tsa-page2.com'         # E
+  - '+.tsa-page3.com'         # E
+  - '+.tsa-page4.com'         # E
+  - '+.tsa-page5.com'         # E
+  - '+.tsa-page6.com'         # E
+  - '+.tsapage.com'           # E
+  - '+.tsasc.cn'              # E
+  - '+.tsd0.cn'               # E
+  - '+.tsecdapi.com'          # E
+  - '+.tsepcn.com'            # E
+  - '+.tsm-license-test.com'  # E
+  - '+.tsm-license.com'       # E
+  - '+.tsm0.cn'               # E
+  - '+.tsn-tencentclb.cloud'  # E
+  - '+.tsn-tencentclb.com'    # E
+  - '+.tsn-tencentclb.net'    # E
+  - '+.tsn-tencentclb.work'   # E
+  - '+.tsn0.cn'               # E
+  - '+.tsparkling.com'        # D E
+  - '+.tswjs.net'             # E
+  - '+.tswjs.org'             # E
+  - '+.tts0.cn'               # E
+  - '+.ttsim.cn'              # E
+  - '+.ttsim.com'             # E
+  - '+.ttsim.net'             # E
+  - '+.tuicross.com'          # E
+  - '+.tvodapi.com'           # E
+  - '+.tvodapibk.com'         # E
+  - '+.twsapp.com'            # E
+  - '+.tx-exhibition.com'     # D E
+  - '+.txacc1.com'            # E
+  - '+.txacc1.net'            # E
+  - '+.txbanche.com'          # E
+  - '+.txbyod.com'            # D E
+  - '+.txcdns.com'            # E
+  - '+.txcdns.net'            # E
+  - '+.txclivecdn.cn'         # E
+  - '+.txclivecdn.com'        # E
+  - '+.txcloudlive.cn'        # E
+  - '+.txcloudlive.com'       # E
+  - '+.txcode.com'            # E
+  - '+.txcxjd.com'            # E
+  - '+.txdl1.com'             # E
+  - '+.txdl1.net'             # E
+  - '+.txdl2.com'             # E
+  - '+.txdl2.net'             # E
+  - '+.txelive.cn'            # E
+  - '+.txelive.com'           # E
+  - '+.txelvb.cn'             # E
+  - '+.txelvb.com'            # E
+  - '+.txeo.net'              # E
+  - '+.txhttpdns.cn'          # E
+  - '+.txhttpdns.net'         # E
+  - '+.txidc.wang'            # D E
+  - '+.txleshare.com'         # E
+  - '+.txlivecdn.cn'          # E
+  - '+.txlivecdn.com'         # D E
+  - '+.txlivecdn2.com'        # E
+  - '+.txmdb.cn'              # E
+  - '+.txmdb.com'             # E
+  - '+.txresearch.com'        # E
+  - '+.txscdn.com'            # E
+  - '+.txtyxg.com'            # D E
+  - '+.txvideo1.com'          # E
+  - '+.txvideo2.com'          # E
+  - '+.txyscdn.com'           # D E
+  - '+.txyscdn.net'           # D E
+  - '+.tym0.cn'               # E
+  - '+.tyn0.cn'               # E
+  - '+.tyu0.cn'               # E
+  - '+.tyxcdn.com'            # E
+  - '+.tyxcdn.net'            # E
+  - '+.u-con-dom.com'         # E
+  - '+.u-con-dom.net'         # E
+  - '+.uatmrrvendor.com'      # E
+  - '+.ugc-up-dom.com'        # E
+  - '+.ugc-up-dom.net'        # E
+  - '+.ugcimg.cn'             # E
+  - '+.ugdtimg.com'           # D E
+  - '+.uisa0.cn'              # E
+  - '+.ultimatemusic.cn'      # D
+  - '+.um.run'                # D E
+  - '+.uncnn.cn'              # D E
+  - '+.univod.cn'             # E
+  - '+.upqzfile.com'          # E
+  - '+.upqzfilebk.com'        # E
+  - '+.url.cn'                # D E
+  - '+.urldx.cn'              # E
+  - '+.urlget.cn'             # E
+  - '+.urlsecajog.com'        # E
+  - '+.urlshare.cn'           # E
+  - '+.usao5.cn'              # E
+  - '+.usao8.cn'              # E
+  - '+.usao8.com'             # E
+  - '+.use-tencentclb.cloud'  # E
+  - '+.use-tencentclb.com'    # E
+  - '+.use-tencentclb.net'    # E
+  - '+.use-tencentclb.work'   # E
+  - '+.usw-tencentclb.cloud'  # E
+  - '+.usw-tencentclb.com'    # E
+  - '+.usw-tencentclb.net'    # E
+  - '+.usw-tencentclb.work'   # E
+  - '+.v-jitp-dom.com'        # E
+  - '+.v-jitp-dom.net'        # E
+  - '+.v-jitp-glo.com'        # E
+  - '+.v-jitp-glo.net'        # E
+  - '+.v2xdatacenter.com'     # E
+  - '+.v2xdatasource.com'     # E
+  - '+.v2xengine.com'         # E
+  - '+.vcloudlive.com'        # E
+  - '+.vcloudlive.net'        # E
+  - '+.vcloudsp.com'          # E
+  - '+.vcloudsp.net'          # E
+  - '+.vcloudstc.com'         # D E
+  - '+.vcloudstc.net'         # D E
+  - '+.vcloudvod.com'         # D E
+  - '+.vcloudvod.net'         # E
+  - '+.vendor-src-eo.com'     # E
+  - '+.videohudong.com'       # E
+  - '+.videoxiaoyouxi.com'    # C D E
+  - '+.videoyx.com'           # E
+  - '+.vigtm-meeting-tencent.cn'  # E
+  - '+.vigtm-meeting-tencent.com'  # E
+  - '+.vip-lexiang.com'       # E
+  - '+.vitaloffice.life'      # E
+  - '+.vlinkapi.com'          # E
+  - '+.vod-backup.net'        # E
+  - '+.vod-bk-qcloud.com'     # E
+  - '+.vod-content.com'       # E
+  - '+.vod-content.net'       # E
+  - '+.vod-eo.com'            # E
+  - '+.vod-eo1.com'           # E
+  - '+.vod-eo2.com'           # E
+  - '+.vod-eo3.com'           # E
+  - '+.vod-eo4.com'           # E
+  - '+.vod-eo5.com'           # E
+  - '+.vod-igtm.com'          # E
+  - '+.vod-pro.com'           # E
+  - '+.vod-qcloud.com'        # E
+  - '+.vod-test.com'          # E
+  - '+.vod-upload.com'        # E
+  - '+.vodapis.com'           # E
+  - '+.vodapisbk.com'         # E
+  - '+.vodeoapi.com'          # E
+  - '+.vodeoapibk.com'        # E
+  - '+.vodeointernal.com'     # E
+  - '+.vodinternal.com'       # E
+  - '+.vodinternalbk.com'     # E
+  - '+.vodplayvideo.com'      # E
+  - '+.vodplayvideo.net'      # E
+  - '+.vodpro-upload.com'     # E
+  - '+.vodpro-upload1.com'    # E
+  - '+.vodpro-upload2.com'    # E
+  - '+.vodpro-uploadbk.com'   # E
+  - '+.vodtcbk.com'           # D E
+  - '+.vodxl-qcloud.com'      # E
+  - '+.voovlive.com'          # E
+  - '+.voovlive.net'          # E
+  - '+.voovmeeting.com'       # E
+  - '+.voovnow.com'           # E
+  - '+.vulrange.com'          # E
+  - '+.vurl.fun'              # E
+  - '+.vurl.link'             # E
+  - '+.vurl.pro'              # E
+  - '+.vurl.tech'             # E
+  - '+.vurl1.cn'              # E
+  - '+.vurl3.vip'             # E
+  - '+.vxo7tu.com'            # D E
+  - '+.wangzherongyao.com'    # E
+  - '+.wanjiashow.com'        # E
+  - '+.wannianqingjianzhan.com'  # D
+  - '+.warframeofficial.com'  # E
+  - '+.wavecommittee.com'     # E
+  - '+.wcbygame.com'          # C D E
+  - '+.we-park.cn'            # E
+  - '+.we-pass.com'           # E
+  - '+.webacc.net'            # E
+  - '+.webnovel.com'          # D
+  - '+.websec1.com'           # E
+  - '+.websec1.net'           # E
+  - '+.wechat.com'            # A D E
+  - '+.wechat.design'         # E
+  - '+.wechat.me'             # E
+  - '+.wechat.org'            # E
+  - '+.wechatapp.com'         # E
+  - '+.wechatapp.us'          # E
+  - '+.wechatauthdemo.com'    # E
+  - '+.wechatdevelop.com'     # E
+  - '+.wechatlegal.cn'        # E
+  - '+.wechatlegal.com'       # E
+  - '+.wechatlegal.net'       # A E
+  - '+.wechatmessenger.com'   # E
+  - '+.wechatmessenger.us'    # E
+  - '+.wechatos.net'          # A
+  - '+.wechatpay.cn'          # D E
+  - '+.wechatpay.com'         # A E
+  - '+.wecom.work'            # E
+  - '+.wedev.cool'            # E
+  - '+.wedeveloper.com'       # E
+  - '+.wegame.com'            # C D E
+  - '+.wegamedesign.com'      # E
+  - '+.wegamedeveloper.com'   # D E
+  - '+.wegamemail.com'        # E
+  - '+.wegameplus.com'        # C D E
+  - '+.weiaixiaoshuo.com'     # E
+  - '+.weicunmall.com'        # E
+  - '+.weishi.com'            # D E
+  - '+.weisurvey.com'         # E
+  - '+.weisurvey.net'         # E
+  - '+.weixin.com'            # A D E
+  - '+.weixinbridge.com'      # A D E  覆盖 +.badjs.weixinbridge.com D
+  - '+.weixindevelop.com'     # E
+  - '+.weixinsxy.com'         # A D E
+  - '+.weiyun.com'            # D E
+  - '+.weknow.io'             # E
+  - '+.weparks.cn'            # E
+  - '+.wesimiot.com'          # E
+  - '+.wesing-game.com'       # E
+  - '+.wesingapp.cn'          # E
+  - '+.wesingapp.com'         # E
+  - '+.wesure.cn'             # D
+  - '+.wesure100.com'         # D
+  - '+.wetest.cn'             # E
+  - '+.wetest.host'           # E
+  - '+.wetest.net'            # E
+  - '+.wetest.org'            # E
+  - '+.wetestlab.cn'          # E
+  - '+.wetestlab.net'         # E
+  - '+.wetv.vip'              # D E
+  - '+.wetvinfo.com'          # D E  覆盖 +.htrace.wetvinfo.com D
+  - '+.weui.io'               # D E
+  - '+.wework-pro.com'        # E
+  - '+.wework-studio.com'     # D E
+  - '+.wgimg.com'             # E
+  - '+.whec-tencentclb.cloud'  # E
+  - '+.whec-tencentclb.com'   # E
+  - '+.whec-tencentclb.net'   # E
+  - '+.whec-tencentclb.work'  # E
+  - '+.whyrtc.com'            # E
+  - '+.wisefx.cn'             # E
+  - '+.wisefx.com'            # E
+  - '+.withzz.com'            # E
+  - '+.wizsci.com'            # E
+  - '+.wkdimg.com'            # E
+  - '+.wkzstencent.com'       # E
+  - '+.wltong.cn'             # E
+  - '+.wltong.com'            # E
+  - '+.wnspic.com'            # E
+  - '+.wnspicbk.com'          # E
+  - '+.wnsqzone.com'          # E
+  - '+.wnsqzonebk.com'        # E
+  - '+.woa.com'               # E
+  - '+.wqstatic.com'          # E
+  - '+.wsstplay.com'          # E
+  - '+.wting.info'            # D E
+  - '+.wujicode.cn'           # E
+  - '+.wujicode.com'          # E
+  - '+.wujisite.com'          # E
+  - '+.wujistatic.com'        # E
+  - '+.wxamedia.com'          # E
+  - '+.wxaurl.cn'             # D E
+  - '+.wxcloudrun.com'        # D E
+  - '+.wxgamemini.com'        # E
+  - '+.wxgateway.com'         # D E
+  - '+.wxgmkt.com'            # E
+  - '+.wxgongkaike.com'       # E
+  - '+.wxlagame.com'          # E
+  - '+.wxlivecdn.com'         # D E
+  - '+.wxmpurl.cn'            # D E
+  - '+.wxpayglobal.cn'        # E
+  - '+.wxpayui.com'           # E
+  - '+.wxscan.cn'             # E
+  - '+.wxshops.co'            # E
+  - '+.wxutil.com'            # E
+  - '+.wxworklive.com'        # E
+  - '+.wxxd.co'               # E
+  - '+.wzrygcht.com'          # E
+  - '+.xbec-tencentclb.cloud'  # E
+  - '+.xbec-tencentclb.com'   # E
+  - '+.xbec-tencentclb.net'   # E
+  - '+.xbec-tencentclb.work'  # E
+  - '+.xdxiaoshuo.com'        # E
+  - '+.xga0.cn'               # E
+  - '+.xgamecenter.com'       # E
+  - '+.xgz0.cn'               # E
+  - '+.xgz1.cn'               # E
+  - '+.xgz2.cn'               # E
+  - '+.xiangrikuijianzhan.com'  # D
+  - '+.xiangrikuisite.com'    # D
+  - '+.xijingjianzhan.com'    # E
+  - '+.xijingjianzhan0.com'   # E
+  - '+.xijingjianzhan1.com'   # E
+  - '+.xijingjianzhan2.com'   # E
+  - '+.xijingjianzhan3.com'   # E
+  - '+.xijingjianzhan4.com'   # E
+  - '+.xijingjianzhan5.com'   # E
+  - '+.xijingjianzhan6.com'   # E
+  - '+.xijingjianzhan7.com'   # E
+  - '+.xijingjianzhan8.com'   # E
+  - '+.xijingjianzhan9.com'   # E
+  - '+.ximalaya.com'          # D  覆盖 +.adbehavior.ximalaya.com D, +.adse.ximalaya.com D 等 3 条
+  - '+.xindongdinglv.com'     # E
+  - '+.xinyan.cn'             # D
+  - '+.xinyueclub.com'        # E
+  - '+.xiyec-tencentclb.cloud'  # E
+  - '+.xiyec-tencentclb.com'  # E
+  - '+.xiyec-tencentclb.net'  # E
+  - '+.xiyec-tencentclb.work'  # E
+  - '+.xmcdn.com'             # D
+  - '+.xn--owtw8cc49ajfl.cn'  # C D
+  - '+.xn--r70as2s.xn--fiqs8s'  # D E
+  - '+.xqa1.cn'               # E
+  - '+.xqd1.cn'               # E
+  - '+.xqg1.cn'               # E
+  - '+.xqk1.cn'               # E
+  - '+.xqymuy.com'            # D E
+  - '+.xqz0.cn'               # E
+  - '+.xs.cn'                 # D E
+  - '+.xs8.cn'                # D E
+  - '+.xuz0.cn'               # E
+  - '+.xxsy.com'              # E
+  - '+.xxsy.net'              # D E
+  - '+.xxsypro.com'           # D
+  - '+.yakgamer.com'          # E
+  - '+.yayagushi.cn'          # E
+  - '+.yayagushi.com'         # E
+  - '+.yeyousg.com'           # D
+  - '+.yfsail.net'            # E
+  - '+.yidiancun.cn'          # E
+  - '+.yidianliulan.cn'       # D
+  - '+.yidianliulan.com'      # D
+  - '+.yirgalab.com'          # E
+  - '+.ym.link'               # E
+  - '+.ym.run'                # D E
+  - '+.ymzxconf.com'          # E
+  - '+.yqacg.com'             # E
+  - '+.yuewen.com'            # D E
+  - '+.yufuid.com'            # D E
+  - '+.yufuid.net'            # D E
+  - '+.yunassess.com'         # E
+  - '+.yunji.work'            # E
+  - '+.yunjitele.com'         # D E
+  - '+.yuntus.cn'             # E
+  - '+.yuntus.com'            # E
+  - '+.yuntus.net'            # E
+  - '+.yuweikuijianzhan.com'  # D
+  - '+.yux.team'              # E
+  - '+.ywurl.cn'              # E
+  - '+.ywurl.com'             # E
+  - '+.yxdmgame.com'          # C D
+  - '+.yximg.cn'              # C D E
+  - '+.yxsgame.com'           # E
+  - '+.yxwsgame.com'          # C D
+  - '+.yxzggame.com'          # E
+  - '+.yzyxgame.com'          # C D
+  - '+.zcjbgame.com'          # C D
+  - '+.zenvideo.cn'           # E
+  - '+.zhiqi.info'            # E
+  - '+.zhixinliancos.cn'      # E
+  - '+.zhixunfang.com'        # E
+  - '+.zhjmp.cn'              # E
+  - '+.zhn0.cn'               # E
+  - '+.zhuoyuegame.cn'        # E
+  - '+.zhuoyuegame.com'       # C D E
+  - '+.zhuoyuegame.net'       # E
+  - '+.zjdwz.cn'              # E
+  - '+.zjump.cn'              # E
+  - '+.zndls.com'             # E
+  - '+.znzcompass.com'        # E
+  - '+.znzcompass.net'        # E
+  - '+.ztcv1.cn'              # E
+  - '+.ztcv2.cn'              # E
+  - '+.ztcv3.cn'              # E
+  - '+.ztnwork.com'           # E
+  - '+.zulllv.com'            # E
+  - '+.zw-tencentclb.cloud'   # E
+  - '+.zw-tencentclb.com'     # E
+  - '+.zw-tencentclb.net'     # E
+  - '+.zw-tencentclb.work'    # E
+  - '+.zxgcloud.com'          # E
+  - '+.zxgstock.com'          # E
+  - '+.accessibility-union.net.cn'  # E
+  - '+.accessibility-union.org.cn'  # E
+  - '+.accessibilityunion.com.cn'  # E
+  - '+.accessibilityunion.net.cn'  # E
+  - '+.accessibilityunion.org.cn'  # E
+  - '+.aquaterra.com.cn'      # E
+  - '+.businessinchina.com.cn'  # E
+  - '+.chinatechie.com.cn'    # E
+  - '+.cloudbase.com.cn'      # E
+  - '+.cloudsesbk.com.cn'     # E
+  - '+.clsshare.com.cn'       # E
+  - '+.cmgdb.com.cn'          # E
+  - '+.cofile.com.cn'         # E
+  - '+.cofile.net.cn'         # E
+  - '+.dafenghk.com.cn'       # E
+  - '+.dafenghk.hk.cn'        # E
+  - '+.dnspod.com.cn'         # D E
+  - '+.dnsv1.com.cn'          # D E
+  - '+.dnsv10.com.cn'         # E
+  - '+.dnsv11.com.cn'         # E
+  - '+.dnsv12.com.cn'         # E
+  - '+.dnsv6.com.cn'          # E
+  - '+.dnsv7.com.cn'          # E
+  - '+.dnsv8.com.cn'          # E
+  - '+.dnsv9.com.cn'          # E
+  - '+.ectencent.com.cn'      # D E
+  - '+.foxmail.com.cn'        # D E
+  - '+.fsight.com.cn'         # E
+  - '+.fsight.net.cn'         # E
+  - '+.fsllq.com.cn'          # E
+  - '+.fypage.com.cn'         # E
+  - '+.gaapacc001.com.cn'     # E
+  - '+.gaapacc002.com.cn'     # E
+  - '+.gaapacc003.com.cn'     # E
+  - '+.gaapacc004.com.cn'     # E
+  - '+.gaapacc005.com.cn'     # E
+  - '+.gaapacc006.com.cn'     # E
+  - '+.gaapacc007.com.cn'     # E
+  - '+.gaapacc008.com.cn'     # E
+  - '+.gaapacc009.com.cn'     # E
+  - '+.gaapacc010.com.cn'     # E
+  - '+.gaapacc011.com.cn'     # E
+  - '+.gaapacc012.com.cn'     # E
+  - '+.gaapacc013.com.cn'     # E
+  - '+.gaapacc014.com.cn'     # E
+  - '+.gaapacc015.com.cn'     # E
+  - '+.gaapacc016.com.cn'     # E
+  - '+.gaapacc017.com.cn'     # E
+  - '+.gaapacc018.com.cn'     # E
+  - '+.gaapacc019.com.cn'     # E
+  - '+.gaapacc020.com.cn'     # E
+  - '+.gaapacc021.com.cn'     # E
+  - '+.gaapacc022.com.cn'     # E
+  - '+.gaapacc023.com.cn'     # E
+  - '+.gaapacc024.com.cn'     # E
+  - '+.gaapacc025.com.cn'     # E
+  - '+.gaapacc026.com.cn'     # E
+  - '+.gaapacc027.com.cn'     # E
+  - '+.gaapacc028.com.cn'     # E
+  - '+.gaapacc029.com.cn'     # E
+  - '+.gaapacc030.com.cn'     # E
+  - '+.gaapdns.com.cn'        # E
+  - '+.gaapqcloud.com.cn'     # E
+  - '+.gaapqcloudbackup01.com.cn'  # E
+  - '+.gaapqcloudbackup02.com.cn'  # E
+  - '+.gaapqcloudbackup03.com.cn'  # E
+  - '+.gaqcloud.com.cn'       # E
+  - '+.gaqcloudbackup.com.cn'  # E
+  - '+.goto-game.com.cn'      # E
+  - '+.goto-game.net.cn'      # C D E
+  - '+.gtimg.com.cn'          # D E
+  - '+.himoral.com.cn'        # E
+  - '+.ign.com.cn'            # E
+  - '+.imqq.com.cn'           # E
+  - '+.imqq.net.cn'           # E
+  - '+.imqq.org.cn'           # E
+  - '+.industryai.com.cn'     # E
+  - '+.jrzk.net.cn'           # D E
+  - '+.jxemailbk.com.cn'      # E
+  - '+.kachabank.com.cn'      # E
+  - '+.kxmz.org.cn'           # E
+  - '+.myqcloud.com.cn'       # E
+  - '+.nextplayground.com.cn'  # E
+  - '+.nintendoswitch.com.cn'  # E
+  - '+.nokialumia.com.cn'     # E
+  - '+.oracle-tencent.com.cn'  # D
+  - '+.oracle-tencent.net.cn'  # D E
+  - '+.pfif.com.cn'           # E
+  - '+.pfif.net.cn'           # E
+  - '+.qcdntest.com.cn'       # E
+  - '+.qcloudcdn.com.cn'      # E
+  - '+.qcloudcos.com.cn'      # D E
+  - '+.qcloudmailbk.com.cn'   # E
+  - '+.qgodb.com.cn'          # E
+  - '+.qq.cn.com'             # D E
+  - '+.qq.com.cn'             # D E
+  - '+.qqimage.com.cn'        # E
+  - '+.qqimage.net.cn'        # E
+  - '+.qymdb.com.cn'          # E
+  - '+.raykite.com.cn'        # E
+  - '+.raynext.com.cn'        # E
+  - '+.ronghe-edu.org.cn'     # E
+  - '+.rongheedu.org.cn'      # E
+  - '+.rtx.com.cn'            # D E
+  - '+.sogou.com.cn'          # D
+  - '+.soso.com.cn'           # D
+  - '+.ssibility-union.com.cn'  # E
+  - '+.superfix.com.cn'       # E
+  - '+.tairos.ac.cn'          # E
+  - '+.tapd.com.cn'           # E
+  - '+.tcbqcloud.com.cn'      # E
+  - '+.tcedshare.com.cn'      # E
+  - '+.tcloudbaseappbp.com.cn'  # E
+  - '+.tdnsdl1.com.cn'        # D E
+  - '+.tdnsdl2.com.cn'        # D E
+  - '+.tdnsdl3.com.cn'        # D E
+  - '+.tdnsdl4.com.cn'        # D E
+  - '+.tdnsdl5.com.cn'        # D E
+  - '+.tdnsdp1.com.cn'        # E
+  - '+.tdnsdp2.com.cn'        # E
+  - '+.tdnsdp3.com.cn'        # E
+  - '+.tdnsdp4.com.cn'        # E
+  - '+.tdnsdp5.com.cn'        # E
+  - '+.tdnslive1.com.cn'      # E
+  - '+.tdnslive2.com.cn'      # E
+  - '+.tdnslive3.com.cn'      # E
+  - '+.tdnslive4.com.cn'      # E
+  - '+.tdnslive5.com.cn'      # E
+  - '+.tdnssp1.com.cn'        # E
+  - '+.tdnssp2.com.cn'        # E
+  - '+.tdnssp3.com.cn'        # E
+  - '+.tdnssp4.com.cn'        # E
+  - '+.tdnssp5.com.cn'        # E
+  - '+.tdnsstic1.com.cn'      # E
+  - '+.tdnsstic2.com.cn'      # E
+  - '+.tdnsstic3.com.cn'      # E
+  - '+.tdnsstic4.com.cn'      # E
+  - '+.tdnsstic5.com.cn'      # E
+  - '+.tdnsvod1.com.cn'       # E
+  - '+.tdnsvod2.com.cn'       # E
+  - '+.tdnsvod3.com.cn'       # E
+  - '+.tdnsvod4.com.cn'       # E
+  - '+.tdnsvod5.com.cn'       # E
+  - '+.tencent.co.id'         # D E
+  - '+.tencent.com.cn'        # D E
+  - '+.tencent.com.hk'        # D E
+  - '+.tencent.net.cn'        # D E
+  - '+.tencentapigw.com.cn'   # E
+  - '+.tencentbh.com.cn'      # E
+  - '+.tencentcdb.com.cn'     # D E
+  - '+.tencentcds.com.cn'     # E
+  - '+.tencentcfs.com.cn'     # E
+  - '+.tencentci.com.cn'      # E
+  - '+.tencentciam.com.cn'    # E
+  - '+.tencentclb.com.cn'     # D E
+  - '+.tencentclb.net.cn'     # E
+  - '+.tencentcloudapi.com.cn'  # E
+  - '+.tencentcloudapp.com.cn'  # E
+  - '+.tencentcloudga001.com.cn'  # E
+  - '+.tencentcloudga002.com.cn'  # E
+  - '+.tencentcloudga003.com.cn'  # E
+  - '+.tencentcloudga004.com.cn'  # E
+  - '+.tencentcloudga005.com.cn'  # E
+  - '+.tencentcloudga006.com.cn'  # E
+  - '+.tencentcloudga007.com.cn'  # E
+  - '+.tencentcloudga008.com.cn'  # E
+  - '+.tencentcloudga009.com.cn'  # E
+  - '+.tencentcloudga010.com.cn'  # E
+  - '+.tencentcloudga011.com.cn'  # E
+  - '+.tencentcloudga012.com.cn'  # E
+  - '+.tencentcloudga013.com.cn'  # E
+  - '+.tencentcloudga014.com.cn'  # E
+  - '+.tencentcloudga015.com.cn'  # E
+  - '+.tencentcloudga016.com.cn'  # E
+  - '+.tencentcloudga017.com.cn'  # E
+  - '+.tencentcloudga018.com.cn'  # E
+  - '+.tencentcloudga019.com.cn'  # E
+  - '+.tencentcloudga020.com.cn'  # E
+  - '+.tencentcloudga021.com.cn'  # E
+  - '+.tencentcloudga022.com.cn'  # E
+  - '+.tencentcloudga023.com.cn'  # E
+  - '+.tencentcloudga024.com.cn'  # E
+  - '+.tencentcloudga025.com.cn'  # E
+  - '+.tencentcloudga026.com.cn'  # E
+  - '+.tencentcloudga027.com.cn'  # E
+  - '+.tencentcloudga028.com.cn'  # E
+  - '+.tencentcloudga029.com.cn'  # E
+  - '+.tencentcloudga030.com.cn'  # E
+  - '+.tencentcos.com.cn'     # D E  覆盖 +.ap-bangkok.tencentcos.com.cn D, +.ap-hongkong.tencentcos.com.cn D 等 13 条
+  - '+.tencentcs.com.cn'      # E
+  - '+.tencentdb.com.cn'      # E
+  - '+.tencentelasticsearch.com.cn'  # E
+  - '+.tencentes.com.cn'      # E
+  - '+.tencenticp.com.cn'     # E
+  - '+.tencentidentity.com.cn'  # E
+  - '+.tencentimage.com.cn'   # E
+  - '+.tencentimage.net.cn'   # E
+  - '+.tencentiss.com.cn'     # E
+  - '+.tencentmdb.com.cn'     # E
+  - '+.tencentmfa.com.cn'     # E
+  - '+.tencentntp.com.cn'     # E
+  - '+.tencentrce.com.cn'     # E
+  - '+.tencentrcpcsdk.com.cn'  # E
+  - '+.tencentscf.com.cn'     # E
+  - '+.tencentsecsdk.com.cn'  # E
+  - '+.tencentsmh.com.cn'     # E
+  - '+.tencentsmhcname.com.cn'  # E
+  - '+.tencentsmhuc.com.cn'   # E
+  - '+.tencenttcr.com.cn'     # E
+  - '+.tencenttdmq.com.cn'    # E
+  - '+.tencenttymaas.com.cn'  # E
+  - '+.tencentvpc.com.cn'     # E
+  - '+.tencentwf.com.cn'      # E
+  - '+.tengjia.net.cn'        # E
+  - '+.tenpayglobal.com.cn'   # E
+  - '+.testjrzk.net.cn'       # D E
+  - '+.timatrix.com.cn'       # D E
+  - '+.tlivecdn.com.cn'       # E
+  - '+.tlivepush.com.cn'      # E
+  - '+.tmgdb.com.cn'          # E
+  - '+.txmdb.com.cn'          # E
+  - '+.visvice.com.cn'        # E
+  - '+.visvise.com.cn'        # E
+  - '+.wechatpay.com.hk'      # E
+  - '+.wechatpay.com.my'      # E
+  - '+.wegame.com.cn'         # C D E
+  - '+.werepository.com.cn'   # C D E
+  - '+.wqsnx.org.cn'          # E
+  - '+.yufuid.com.cn'         # D E
+  - '+.yuntus.com.cn'         # E
+  - 'slife.xy-asia.com'       # A

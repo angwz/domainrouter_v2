@@ -1,0 +1,11 @@
+# NAME: OneDrive
+# GROUP: ⛅ OneDrive
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: ipcidr
+# TOTAL: 3
+# SOURCE A: blackmatrix7 · PrivateTracker/PrivateTracker.list
+payload:
+  - '52.58.128.163/32'    # A
+  - '207.241.226.111/32'  # A
+  - '207.241.231.226/32'  # A

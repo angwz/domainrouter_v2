@@ -1,0 +1,32 @@
+# NAME: Apple
+# GROUP: 🍎 Apple
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 20
+# DOMAIN-KEYWORD: 7
+# PROCESS-NAME: 13
+# SOURCE A: blackmatrix7 · Apple/Apple.list
+# SOURCE B: blackmatrix7 · AppleProxy/AppleProxy.list
+payload:
+  - 'DOMAIN-KEYWORD,apple-support.akadns.net'  # A
+  - 'DOMAIN-KEYWORD,apple.com.akadns.net'   # A
+  - 'DOMAIN-KEYWORD,apple.com.edgekey.net'  # A
+  - 'DOMAIN-KEYWORD,buy.itunes.apple.com'   # A
+  - 'DOMAIN-KEYWORD,icloud.com.akadns.net'  # A
+  - 'DOMAIN-KEYWORD,smp-device'             # A
+  - 'DOMAIN-KEYWORD,testflight'             # A
+
+  - 'PROCESS-NAME,CoreLocationAgent'        # A
+  - 'PROCESS-NAME,LookupViewService'        # A B
+  - 'PROCESS-NAME,Music'                    # A
+  - 'PROCESS-NAME,TV'                       # A
+  - 'PROCESS-NAME,WeatherWidget'            # A
+  - 'PROCESS-NAME,apsd'                     # A
+  - 'PROCESS-NAME,com.apple.Maps'           # A
+  - 'PROCESS-NAME,com.apple.geod'           # A
+  - 'PROCESS-NAME,findmydevice-user-agent'  # A
+  - 'PROCESS-NAME,fmfd'                     # A
+  - 'PROCESS-NAME,mapspushd'                # A
+  - 'PROCESS-NAME,netbiosd'                 # A
+  - 'PROCESS-NAME,trustd'                   # A

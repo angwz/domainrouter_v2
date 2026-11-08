@@ -1,0 +1,14 @@
+# NAME: TikTok
+# GROUP: 📱 TikTok
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 3
+# DOMAIN-KEYWORD: 2
+# PROCESS-NAME: 1
+# SOURCE A: blackmatrix7 · TikTok/TikTok.list
+payload:
+  - 'DOMAIN-KEYWORD,musical.ly'              # A
+  - 'DOMAIN-KEYWORD,tiktok'                  # A
+
+  - 'PROCESS-NAME,com.zhiliaoapp.musically'  # A

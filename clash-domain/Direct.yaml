@@ -1,0 +1,2021 @@
+# NAME: Direct
+# GROUP: DIRECT
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 1979
+# SOURCE A: my.wei
+# SOURCE B: ruleset.skk.moe · non_ip/microsoft_cdn.txt
+# SOURCE C: ruleset.skk.moe · domainset/game-download.txt
+# SOURCE D: ruleset.skk.moe · non_ip/download.txt
+# SOURCE E: ruleset.skk.moe · ip/download.txt
+# SOURCE F: blackmatrix7 · Lan/Lan.list
+# SOURCE G: blackmatrix7 · GameDownload/GameDownload.list
+# SOURCE H: blackmatrix7 · GameDownloadCN/GameDownloadCN.list
+# SOURCE I: MetaCubeX · geosite/steam%40cn.yaml
+# SOURCE J: blackmatrix7 · SteamCN/SteamCN.list
+# SOURCE K: MetaCubeX · geosite/category-scholar-cn.yaml
+# SOURCE L: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev-cn.yaml
+# SOURCE M: MetaCubeX · geosite/cloudflare-cn.yaml
+# SOURCE N: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonCN/AmazonCN.list
+# SOURCE O: MetaCubeX · geosite/amazon%40cn.yaml
+# SOURCE P: MetaCubeX · geosite/category-game-accelerator-cn.yaml
+# SOURCE Q: MetaCubeX · geosite/category-remote-control.yaml
+# SOURCE R: blackmatrix7 · Download/Download.list
+# SOURCE S: blackmatrix7 · NTPService/NTPService.list
+# SOURCE T: blackmatrix7 · IPTVMainland/IPTVMainland.list
+# SOURCE U: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AmazonCN/AmazonCN.list
+# SOURCE V: MetaCubeX · geosite/category-bank-cn.yaml
+# SOURCE W: MetaCubeX · geosite/category-ai-cn.yaml
+# SOURCE X: MetaCubeX · geosite/gog%40cn.yaml
+# SOURCE Y: MetaCubeX · geosite/category-wiki-cn.yaml
+# SOURCE Z: blackmatrix7 · ChinaDNS/ChinaDNS.list
+# SOURCE AA: blackmatrix7 · 12306/12306.list
+# SOURCE AB: MetaCubeX · geosite/category-cryptocurrency%40cn.yaml
+# SOURCE AC: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev-cn.yaml
+# SOURCE AD: MetaCubeX · geosite/category-dev%40cn.yaml
+# SOURCE AE: MetaCubeX · geosite/category-game-platforms-download%40cn.yaml
+# SOURCE AF: MetaCubeX · geosite/intel%40cn.yaml
+# SOURCE AG: MetaCubeX · geosite/nvidia%40cn.yaml
+# SOURCE AH: MetaCubeX · geosite/oracle.yaml
+# SOURCE AI: blackmatrix7 · Oracle/Oracle.list
+payload:
+  - '+.java'                       # AH AI
+  - '+.oracle'                     # AH AI
+  - '+.12306.cn'                   # AA
+  - '+.16q.cn'                     # K
+  - '+.3dmjiasu.com'               # P
+  - '+.51ccd.com'                  # K
+  - '+.5read.com'                  # K
+  - '+.95306.cn'                   # AA
+  - '+.95508.com'                  # V
+  - '+.95516.com'                  # V
+  - '+.95516.net'                  # V
+  - '+.95572.com'                  # AA
+  - '+.99jiasu.net'                # P
+  - '+.aardio.com'                 # L AC
+  - '+.abchina.com'                # V
+  - '+.aboutamazon.cn'             # N O U
+  - '+.acl4.ssr'                   # F
+  - '+.addthis.com'                # AH AI
+  - '+.addthiscdn.com'             # AH AI
+  - '+.addthisedge.com'            # AH AI
+  - '+.ai-indeed.com'              # W
+  - '+.ai-yyds.com'                # A
+  - '+.aichaoxing.com'             # K
+  - '+.airitilibrary.cn'           # K
+  - '+.aispeech.com'               # W
+  - '+.aixcoder.com'               # L AC
+  - '+.akspeedy.com'               # P
+  - '+.alexafund.cn'               # N O U
+  - '+.allhistory.com'             # Y
+  - '+.amazon.cn'                  # N O U
+  - '+.amazonaws.cn'               # N O U
+  - '+.amazonbusiness.cn'          # N O U
+  - '+.amazonchoice.cn'            # N O U
+  - '+.amazonchoices.cn'           # N O U
+  - '+.amazoninspire.cn'           # N O U
+  - '+.amazonlaunchpad.cn'         # N O U
+  - '+.amazonnow.cn'               # N O U
+  - '+.amazonprimevideo.cn'        # N O U
+  - '+.amazonwebservices.cn'       # O
+  - '+.amazonworkdocs.cn'          # N O U
+  - '+.amzndns-cn.biz'             # O
+  - '+.amzndns-cn.cn'              # O
+  - '+.amzndns-cn.com'             # O
+  - '+.amzndns-cn.net'             # O
+  - '+.ancientbooks.cn'            # K
+  - '+.antafu.com'                 # W
+  - '+.antaq.com'                  # W
+  - '+.anydesk.com'                # Q
+  - '+.aorizon.cn'                 # W
+  - '+.apabi.com'                  # K
+  - '+.api-building.fun'           # W
+  - '+.apifox.cn'                  # L AC
+  - '+.apifox.com'                 # L AC
+  - '+.apipost.cn'                 # L AC
+  - '+.apipost.net'                # L AC
+  - '+.askdiandian.com'            # W
+  - '+.asktug.com'                 # L AC
+  - '+.assoc-amazon.cn'            # N O U
+  - '+.ateam-oracle.com'           # AH AI
+  - '+.atomgit.com'                # L AC
+  - '+.aws-border.cn'              # N O U
+  - '+.aws-icp-domain-manager.cn'  # N O U
+  - '+.awsapps.cn'                 # N O U
+  - '+.awsstatic.cn'               # N O U
+  - '+.bagevm.com'                 # A
+  - '+.baichuan-ai.com'            # W
+  - '+.baltamatica.cn'             # L AC
+  - '+.baltamatica.com'            # L AC
+  - '+.baltamatica.net'            # L AC
+  - '+.bankcomm.cn'                # V
+  - '+.bankcomm.com'               # V
+  - '+.benfuip.com'                # P
+  - '+.bigmodel.cn'                # W
+  - '+.bisheng.cn'                 # L AC
+  - '+.bishengcompiler.cn'         # L AC
+  - '+.biubiu001.com'              # P
+  - '+.bjinfobank.com'             # K
+  - '+.blogjava.net'               # L AC
+  - '+.bluekai.com'                # AI
+  - '+.blyun.com'                  # K
+  - '+.bohejiasuqi.com'            # P
+  - '+.bosc.cn'                    # V
+  - '+.bronto.com'                 # AH AI
+  - '+.building.fun'               # W
+  - '+.butterfly-static.cn'        # W
+  - '+.butterflyai.cn'             # W
+  - '+.cae.cn'                     # K
+  - '+.cas.cn'                     # K
+  - '+.ccspeed.cn'                 # P
+  - '+.cdrcb.com'                  # V
+  - '+.cdrcbank.com'               # V
+  - '+.cebbank.com'                # V
+  - '+.cf-china.info'              # M
+  - '+.cf-ns.com'                  # M
+  - '+.cf-ns.net'                  # M
+  - '+.cf-ns.site'                 # M
+  - '+.cf-ns.tech'                 # M
+  - '+.cftest5.cn'                 # M
+  - '+.cftest6.cn'                 # M
+  - '+.cftest7.com'                # M
+  - '+.cftest8.com'                # M
+  - '+.chaoxing.cc'                # K
+  - '+.chaoxing.com'               # K
+  - '+.chaoxingv.com'              # K
+  - '+.chatglm.cn'                 # W
+  - '+.chaz.fun'                   # Y
+  - '+.china-ric.com'              # AA
+  - '+.chinabooktrading.com'       # K
+  - '+.chinapay.com'               # V
+  - '+.chinaums.com'               # V
+  - '+.chinaunionpay.com'          # V
+  - '+.chinaunionpay.net'          # V
+  - '+.chinaxiv.org'               # K
+  - '+.chndoi.org'                 # K
+  - '+.clawhub-mirror.com'         # W
+  - '+.cldisk.com'                 # K
+  - '+.cloudflare-cn.com'          # M
+  - '+.cloudflareanycast.net'      # M
+  - '+.cloudflarechina.cn'         # M
+  - '+.cloudflarecn.net'           # M
+  - '+.cloudflareglobal.net'       # M
+  - '+.cloudflareinsights-cn.com'  # M
+  - '+.cloudflareperf.com'         # M
+  - '+.cloudflareprod.com'         # M
+  - '+.cloudflarestaging.com'      # M
+  - '+.cloudflarestoragegw.com'    # M
+  - '+.cloudfront-cn.net'          # O
+  - '+.cloudfront-test.cn'         # N O U
+  - '+.cloudfront.cn'              # N O U
+  - '+.cnb.cool'                   # L AC
+  - '+.cnb.space'                  # L AC
+  - '+.cnbksy.com'                 # K
+  - '+.cnblogs.com'                # L AC
+  - '+.cnblogs.vip'                # L AC
+  - '+.cnitblog.com'               # L AC
+  - '+.cnki.net'                   # K
+  - '+.cnsciedu.com'               # K
+  - '+.cnthinkers.com'             # K
+  - '+.cnweblog.com'               # L AC
+  - '+.cocos.com'                  # L AC
+  - '+.codebuddy.cn'               # W
+  - '+.codechina.net'              # L AC
+  - '+.coding.me'                  # L AC
+  - '+.coding.net'                 # L AC
+  - '+.covid19-rx.org'             # AH AI
+  - '+.covid19rx.org'              # AH AI
+  - '+.coze-dns-01.com'            # W
+  - '+.coze.cn'                    # W
+  - '+.coze.email'                 # W
+  - '+.coze.site'                  # W
+  - '+.cozeapp.net'                # W
+  - '+.cozebaas.cn'                # W
+  - '+.cozebuild.com'              # W
+  - '+.cozecdn.com'                # W
+  - '+.cozedeploy.com'             # W
+  - '+.cozefn.cn'                  # W
+  - '+.cozeide.cn'                 # W
+  - '+.cozesdk.com'                # W
+  - '+.cozetest.cn'                # W
+  - '+.cozetest2.cn'               # W
+  - '+.cozetest3.cn'               # W
+  - '+.cppblog.com'                # L AC
+  - '+.cqvip.com'                  # K
+  - '+.crct.com'                   # AA
+  - '+.cre.cn'                     # AA
+  - '+.creip.cn'                   # AA
+  - '+.crggcn.com'                 # K
+  - '+.csdn.com'                   # L AC
+  - '+.csdn.net'                   # L AC
+  - '+.csdnimg.cn'                 # L AC
+  - '+.cspro.org'                  # K
+  - '+.csto.com'                   # L AC
+  - '+.csxbank.com'                # V
+  - '+.cueme.cn'                   # W
+  - '+.cup62.cn'                   # V
+  - '+.custhelp.com'               # AH
+  - '+.cxbiji.com'                 # K
+  - '+.datasea.cn'                 # L AC
+  - '+.dayainfo.com'               # K
+  - '+.dbbuilding.fun'             # W
+  - '+.deepseek.com'               # W
+  - '+.deepseeksvc.com'            # W
+  - '+.dengguobi.com'              # L AC
+  - '+.devui.design'               # L AC
+  - '+.diandianlife.top'           # W
+  - '+.digitalfyre.com'            # A
+  - '+.doh.pub'                    # Z
+  - '+.doubao-dev.com'             # W
+  - '+.doubao.com'                 # W
+  - '+.doubaoapps.com'             # W
+  - '+.doubaocdn.com'              # W
+  - '+.doudou.com'                 # W
+  - '+.dui.ai'                     # W
+  - '+.duiopen.com'                # W
+  - '+.dumate.cn'                  # W
+  - '+.duxiu.com'                  # K
+  - '+.ejoy.com'                   # L AC
+  - '+.eloqua.com'                 # AI
+  - '+.eloquaeditors.com'          # AI
+  - '+.eloquapreview.com'          # AI
+  - '+.en25.com'                   # AI
+  - '+.epicgamescdn.com'           # C
+  - '+.er07.com'                   # K
+  - '+.ersjk.com'                  # K
+  - '+.et-api.com'                 # P
+  - '+.et001.com'                  # P
+  - '+.favonis.cloud'              # W
+  - '+.favonis.com'                # W
+  - '+.favonis.space'              # W
+  - '+.faxingbao.com'              # W
+  - '+.fbank.com'                  # V
+  - '+.fgo.wiki'                   # Y
+  - '+.fhyx.com'                   # P
+  - '+.fnjiasu.com'                # P
+  - '+.frontjs.com'                # L AC
+  - '+.funjsq.com'                 # P
+  - '+.gangwan.com'                # P
+  - '+.geforce.cn'                 # AG
+  - '+.ggkuai.com'                 # P
+  - '+.gijsq.com'                  # P
+  - '+.gitbook.cn'                 # L AC
+  - '+.gitchat.cn'                 # L AC
+  - '+.gitcode.com'                # L AC
+  - '+.gitcode.net'                # L AC
+  - '+.gitee.com'                  # L AC
+  - '+.gitee.io'                   # L AC
+  - '+.gneec.com'                  # L AC
+  - '+.gneec3.com'                 # L AC
+  - '+.gneec4.com'                 # L AC
+  - '+.gneec7.com'                 # L AC
+  - '+.golink.com'                 # P
+  - '+.golinkapi.com'              # P
+  - '+.golinkcn.com'               # P
+  - '+.goproxy.cn'                 # L AC
+  - '+.goproxy.io'                 # L AC
+  - '+.gputechconf.cn'             # AG
+  - '+.green.cloud'                # A
+  - '+.greencloudvps.com'          # A
+  - '+.gtarsc.com'                 # K
+  - '+.guaiku.com'                 # P
+  - '+.hailuoai.com'               # W
+  - '+.happyhorse.cn'              # W
+  - '+.happyshrimp.cn'             # W
+  - '+.harmonyos.com'              # L AC
+  - '+.hi-butterfly.cn'            # W
+  - '+.hiascend.cn'                # L AC
+  - '+.hiascend.com'               # L AC
+  - '+.hiclc.com'                  # L AC
+  - '+.hikunpeng.cn'               # L AC
+  - '+.hikunpeng.com'              # L AC
+  - '+.hikunpeng.net'              # L AC
+  - '+.hisilicon.com'              # L AC
+  - '+.hiwifi.com'                 # F
+  - '+.home.arpa'                  # F
+  - '+.hongbo100.com'              # K
+  - '+.houyicaiji.com'             # L AC
+  - '+.htcases.com'                # K
+  - '+.htjsq.com'                  # P
+  - '+.htjsq.mobi'                 # P
+  - '+.huaweiapaas.com'            # L AC
+  - '+.huijistatic.com'            # Y
+  - '+.huijiwiki.com'              # Y
+  - '+.hwshu.com'                  # K
+  - '+.hytung.cn'                  # K
+  - '+.ibangbank.com'              # V
+  - '+.ibcet.org'                  # K
+  - '+.ifconfig.me'                # A
+  - '+.incopat.com'                # K
+  - '+.infini-cloud.net'           # A
+  - '+.instreet.com'               # W
+  - '+.intel.cn'                   # AF
+  - '+.iteye.com'                  # L AC
+  - '+.java.com'                   # AH AI
+  - '+.java.net'                   # AH AI
+  - '+.jinglingbiaozhu.com'        # L AC
+  - '+.jinrishici.com'             # L AC
+  - '+.juejin.cn'                  # L AC
+  - '+.juejin.im'                  # L AC
+  - '+.kaifayun.com'               # L AC
+  - '+.kaihong.com'                # L AC
+  - '+.kakaxing.com'               # W
+  - '+.kcbebank.com'               # V
+  - '+.kechuangai.com'             # W
+  - '+.kimi.com'                   # W
+  - '+.kindle.cn'                  # N O U
+  - '+.kindleoasis.cn'             # N O U
+  - '+.kk1.vip'                    # P
+  - '+.kling-ai.com'               # W
+  - '+.klingai.com'                # W
+  - '+.kshbank.cn'                 # V
+  - '+.lala.gg'                    # A
+  - '+.lawyee.org'                 # K
+  - '+.leigod.cn'                  # P
+  - '+.leigod.com'                 # P
+  - '+.leigodjsq.com'              # P
+  - '+.leike.cc'                   # F
+  - '+.liblib.art'                 # W
+  - '+.liblib.cloud'               # W
+  - '+.liblib.tv'                  # W
+  - '+.libvideo.com'               # K
+  - '+.lightlayer.net'             # A
+  - '+.linka2a.net'                # W
+  - '+.liuxing.com'                # P
+  - '+.lnlib.net'                  # K
+  - '+.lorhf.com'                  # P
+  - '+.ls66.cn'                    # P
+  - '+.lxjiasu.com'                # P
+  - '+.maoxiangai.com'             # W
+  - '+.marscode.cn'                # W
+  - '+.mbalib.com'                 # Y
+  - '+.mcbaas.work'                # W
+  - '+.mcdemo.show'                # W
+  - '+.mchost.guru'                # W
+  - '+.mcmod.cn'                   # Y
+  - '+.mcprev.cn'                  # W
+  - '+.mcpworld.com'               # W
+  - '+.medalink.cn'                # K
+  - '+.medicexam.net'              # K
+  - '+.meta.law'                   # W
+  - '+.metaso.cn'                  # W
+  - '+.miaibox.com'                # W
+  - '+.miaoda.cn'                  # W
+  - '+.miaoyanai.com'              # W
+  - '+.microsoftreactor.cn'        # AD
+  - '+.mindspore.cn'               # L AC
+  - '+.minimaxi.com'               # W
+  - '+.mndqlib.net'                # K
+  - '+.moonshot.cn'                # W
+  - '+.ms-bank.cn'                 # V
+  - '+.mti100.com'                 # K
+  - '+.my.router'                  # F
+  - '+.mybank.cn'                  # V
+  - '+.myparallelstory.com'        # W
+  - '+.mysxl.cn'                   # L AC
+  - '+.n.cn'                       # W
+  - '+.namiso.com'                 # W
+  - '+.neohytung.com'              # K
+  - '+.newupbank.com'              # V
+  - '+.nihaoafrica.org'            # K
+  - '+.nihaorwanda.cn'             # K
+  - '+.nmrdata.com'                # K
+  - '+.nn.com'                     # P
+  - '+.nnbooster.com'              # P
+  - '+.nnthink.com'                # L AC
+  - '+.nntlj.com'                  # AA
+  - '+.noi.cn'                     # K
+  - '+.nomachine.com'              # Q
+  - '+.nssd.cn'                    # K
+  - '+.nvidia.cn'                  # AG
+  - '+.nwcdcloud.cn'               # N O U
+  - '+.nwcddns.cn'                 # N O U
+  - '+.nwcdinfosec.cn'             # N O U
+  - '+.obriccloud.com'             # W
+  - '+.obricclouddw.com'           # W
+  - '+.oceancloudapi.com'          # W
+  - '+.oend.net'                   # L AC
+  - '+.oklink.com'                 # AB
+  - '+.oojsq.com'                  # P
+  - '+.openkylin.top'              # L AC
+  - '+.openmidas.com'              # L AC
+  - '+.openvela.com'               # L AC
+  - '+.oracle.com'                 # AH AI
+  - '+.oraclecloud.com'            # AH AI
+  - '+.oraclefoundation.org'       # AH AI
+  - '+.oracleimg.com'              # AH AI
+  - '+.oracleinfinity.io'          # AH AI
+  - '+.oschina.net'                # L AC
+  - '+.owsgo.com'                  # L AC
+  - '+.p.to'                       # F
+  - '+.peiluyou.com'               # F
+  - '+.peoplerail.com'             # AA
+  - '+.pgyer.com'                  # L AC
+  - '+.phicomm.me'                 # F
+  - '+.php.cn'                     # L AC
+  - '+.phpweblog.net'              # L AC
+  - '+.picpic-ai.cn'               # W
+  - '+.pingcap.cn'                 # L AC
+  - '+.pingcap.com'                # L AC
+  - '+.pingcode.com'               # L AC
+  - '+.pixeldance.com'             # W
+  - '+.pkulaw.com'                 # K
+  - '+.plex.direct'                # F
+  - '+.primeday.cn'                # N O U
+  - '+.psbc.com'                   # V
+  - '+.pwsannong.com'              # Y
+  - '+.qbittorrent.org'            # R
+  - '+.qianwen.com'                # W
+  - '+.qianwenai.com'              # W
+  - '+.qiuwen.wiki'                # Y
+  - '+.qiuwenbaike.cn'             # Y
+  - '+.qiyou.cn'                   # P
+  - '+.qq.design'                  # L AC
+  - '+.qqgamedesign.com'           # L AC
+  - '+.qwen.ai'                    # W
+  - '+.qwenlm.ai'                  # W
+  - '+.racknerd.com'               # A
+  - '+.rails.cn'                   # AA
+  - '+.rdfybk.com'                 # K
+  - '+.researchkit.cn'             # AD
+  - '+.responsys.net'              # AI
+  - '+.resset.com'                 # K
+  - '+.rmbgame.net'                # P
+  - '+.route53.cn'                 # N O U
+  - '+.router.ctc'                 # F
+  - '+.routerlogin.com'            # F
+  - '+.ruby-china.org'             # L AC
+  - '+.rubyconfchina.org'          # L AC
+  - '+.rustdesk.com'               # Q
+  - '+.rwkv.cn'                    # W
+  - '+.rwkv.com'                   # W
+  - '+.saasops.tech'               # L AC
+  - '+.safeskill.cn'               # W
+  - '+.sbsjk.com'                  # K
+  - '+.sciencechina.cn'            # K
+  - '+.sec-wiki.com'               # Y
+  - '+.segmentfault.com'           # L AC
+  - '+.senseaudio.cn'              # W
+  - '+.senseavatar.com'            # W
+  - '+.sensecore.cn'               # W
+  - '+.sensefoundry.cn'            # W
+  - '+.sensenova.cn'               # W
+  - '+.sensetime.com'              # W
+  - '+.shidianbaike.com'           # Y
+  - '+.shrbank.com'                # V
+  - '+.shunjing.xin'               # W
+  - '+.sifou.com'                  # L AC
+  - '+.skillhub.cn'                # W
+  - '+.sleeplesshorizon.cn'        # W
+  - '+.sslawy.com'                 # K
+  - '+.sslibrary.com'              # K
+  - '+.ssreader.cn'                # K
+  - '+.ssvideo.cn'                 # K
+  - '+.steam302.xyz'               # P
+  - '+.steamchina.com'             # I J  覆盖 cdn-ali.content.steamchina.com H AE, cdn-qc.content.steamchina.com H AE 等 3 条
+  - '+.steamcontent.com'           # C G J  覆盖 alibaba.cdn.steampipe.steamcontent.com I AE
+  - '+.steampp.net'                # P
+  - '+.steamserver.net'            # I J
+  - '+.steamusercontent.com'       # I J
+  - '+.sun.com'                    # AH AI
+  - '+.suningbank.com'             # V
+  - '+.superlib.com'               # K
+  - '+.superlib.net'               # K
+  - '+.swiftui.cn'                 # AD
+  - '+.sxl.cn'                     # L AC
+  - '+.sxlcdn.cn'                  # L AC
+  - '+.sxlcdn.com'                 # L AC
+  - '+.tapnow.top'                 # W
+  - '+.tctpwebankcdn.net'          # V
+  - '+.tcwqqdy.guru'               # W
+  - '+.tdpress.com'                # AA
+  - '+.teachblog.net'              # L AC
+  - '+.teamviewer.cn'              # Q
+  - '+.teamviewer.com'             # Q
+  - '+.teamviewer.us'              # Q
+  - '+.teleows.com'                # L AC
+  - '+.tencent-cloud.cn'           # L AC
+  - '+.tencent-cloud.com'          # L AC
+  - '+.tencent.design'             # L AC
+  - '+.tencentcloud.com'           # L AC
+  - '+.tendawifi.com'              # F
+  - '+.teracloud.jp'               # A
+  - '+.tiangong.cn'                # W
+  - '+.tidb.ai'                    # L AC
+  - '+.tidb.net'                   # L AC
+  - '+.tidbcloud.com'              # L AC
+  - '+.tikv.org'                   # L AC
+  - '+.tipdm.org'                  # L AC
+  - '+.tjstats.com'                # L AC
+  - '+.tmjiasuqi.com'              # P
+  - '+.tokyotrial.cn'              # K
+  - '+.tongxianghuicn.com'         # K
+  - '+.tongyi.com'                 # W
+  - '+.tplinkwifi.net'             # F
+  - '+.tplogin.cn'                 # F
+  - '+.tracup.com'                 # L AC
+  - '+.trae.cn'                    # W
+  - '+.trae.guru'                  # W
+  - '+.ts.net'                     # F
+  - '+.twscholar.com'              # K
+  - '+.u3d.cn'                     # L AC
+  - '+.ubuntukylin.com'            # L AC
+  - '+.umajor.net'                 # K
+  - '+.unionpay.com'               # V
+  - '+.unionpay.net'               # V
+  - '+.unionpayintl.cn'            # V
+  - '+.unionpayintl.com'           # V
+  - '+.unionpaysecure.com'         # V
+  - '+.unity.cn'                   # L AC  覆盖 +.unityads.unity.cn L AC, +.splash-ads.cdn.unity.cn L AC
+  - '+.unity3dcloud.cn'            # L AC
+  - '+.unitychina.cn'              # L AC  覆盖 +.ads.unitychina.cn L AC, +.splash-ads.unitychina.cn L AC 等 3 条
+  - '+.uonline-sh.com'             # K
+  - '+.uonline-sh.net'             # K
+  - '+.vipexam.org'                # K
+  - '+.virtualbox.org'             # AH
+  - '+.waifushangcheng.com'        # P
+  - '+.wbweilicai.com'             # V
+  - '+.webank.com'                 # V
+  - '+.webankcdn.net'              # V
+  - '+.weboss.hk'                  # L AC
+  - '+.wegamedeveloper.com'        # L AC
+  - '+.wegobank.cn'                # V
+  - '+.weixinbridge.com'           # L AC  覆盖 +.badjs.weixinbridge.com L AC
+  - '+.wenxin-ge.com'              # K
+  - '+.weui.io'                    # L AC
+  - '+.wf.pub'                     # K
+  - '+.whccb.com'                  # V
+  - '+.wifi.cmcc'                  # F
+  - '+.wmsjsteam.com'              # I  合并 wmsjsteam.com J
+  - '+.workbuddy.cn'               # W
+  - '+.wxsbank.com'                # V
+  - '+.xa-bank.com'                # V
+  - '+.xiaoaiassist.com'           # W
+  - '+.xiaohuanxiong.com'          # W
+  - '+.xiaomimimo.com'             # W
+  - '+.xiezuocat.com'              # W
+  - '+.xingyeai.com'               # W
+  - '+.xitu.io'                    # L AC
+  - '+.xuexi365.com'               # K
+  - '+.xuexi365.net'               # K
+  - '+.xuexitong.com'              # K
+  - '+.xunyou.com'                 # P
+  - '+.xunyou.mobi'                # P
+  - '+.xwbank.com'                 # V
+  - '+.xxghh.biz'                  # P
+  - '+.xxtmail.com'                # K
+  - '+.yamaxun.cn'                 # N O U
+  - '+.yebaojiasu.com'             # P
+  - '+.yiigle.com'                 # K
+  - '+.yillionbank.com'            # V
+  - '+.ylike.net'                  # K
+  - '+.ymbank.com'                 # V
+  - '+.yoma.cn'                    # W
+  - '+.yuelun.com'                 # P
+  - '+.yzsgo.com'                  # W
+  - '+.z-bank.com'                 # V
+  - '+.z.ai'                       # W
+  - '+.z.cn'                       # N O U
+  - '+.zaifan.com'                 # K
+  - '+.zdic.net'                   # Y
+  - '+.zgcbank.com'                # V
+  - '+.zhiexa.com'                 # W
+  - '+.zhihang100.com'             # K
+  - '+.zhipuai.cn'                 # W
+  - '+.zhipucn.com'                # W
+  - '+.zsyyb.cn'                   # K
+  - '+.zte.home'                   # F
+  - '+.zuidaima.com'               # L AC
+  - '+.10.in-addr.arpa'            # F
+  - '+.127.in-addr.arpa'           # F
+  - '+.a2z.org.cn'                 # N O U
+  - '+.alexafund.com.cn'           # N O U
+  - '+.amazonaws.com.cn'           # N O U
+  - '+.amazonbusiness.com.cn'      # N O U
+  - '+.amazonchoice.com.cn'        # N O U
+  - '+.amazonchoices.com.cn'       # N O U
+  - '+.amazoninspire.com.cn'       # N O U
+  - '+.amazonlaunchpad.com.cn'     # N O U
+  - '+.amazonlending.com.cn'       # N O U
+  - '+.amazonnow.com.cn'           # N O U
+  - '+.amazonprimevideo.com.cn'    # N O U
+  - '+.amazonwebservices.com.cn'   # N O U
+  - '+.amazonworkdocs.com.cn'      # N O U
+  - '+.asfiovnxocqpcry.com.cn'     # N O U
+  - '+.awsapps.com.cn'             # N O U
+  - '+.baltamatica.org.cn'         # L AC
+  - '+.bankofbeijing.com.cn'       # V
+  - '+.bocd.com.cn'                # V
+  - '+.bsb.com.cn'                 # V
+  - '+.ccf.org.cn'                 # K
+  - '+.cdn.blizzard.com'           # C  覆盖 eu.cdn.blizzard.com G, kr.cdn.blizzard.com G 等 3 条
+  - '+.cdn.ea.com'                 # C  覆盖 ssl-lvlt.cdn.ea.com G
+  - '+.cdn.jetbrains.com'          # AD
+  - '+.cdn.nintendo.net'           # C
+  - '+.cdn.ubi.com'                # C G
+  - '+.cgbchina.com.cn'            # V
+  - '+.china-railway.com.cn'       # AA
+  - '+.chinaunionpay.com.cn'       # V
+  - '+.cib.com.cn'                 # V
+  - '+.cidp.com.cn'                # K
+  - '+.citibank.com.cn'            # V
+  - '+.client-update.queniuqe.com'  # I
+  - '+.cm.steampowered.com'        # J
+  - '+.cmbc.com.cn'                # V
+  - '+.cnki.com.cn'                # K
+  - '+.content.steampowered.com'   # C
+  - '+.crecc.com.cn'               # AA
+  - '+.crscl.com.cn'               # AA
+  - '+.csdl.ac.cn'                 # K
+  - '+.csdn.net.cn'                # L AC
+  - '+.csgo.com.cn'                # I
+  - '+.csgo.wmsj.cn'               # I  合并 csgo.wmsj.cn J
+  - '+.ctldl.windowsupdate.com'    # B
+  - '+.cup.com.cn'                 # V
+  - '+.data.pharmacodia.com'       # K
+  - '+.dl.playstation.net'         # C  覆盖 +.ares.dl.playstation.net A, +.zeus.dl.playstation.net A 等 7 条
+  - '+.dns.alidns.com'             # Z
+  - '+.doh.360.cn'                 # Z
+  - '+.dota2.com.cn'               # I
+  - '+.dota2.wmsj.cn'              # I  合并 dota2.wmsj.cn J
+  - '+.download.epicgames.com'     # C  合并 download.epicgames.com G
+  - '+.download.windowsupdate.com'  # B
+  - '+.drcnet.com.cn'              # K
+  - '+.dyn.riotcdn.net'            # C G
+  - '+.egdownload.fastly-edge.com'  # C
+  - '+.gneec.com.cn'               # L AC
+  - '+.gzrailway.com.cn'           # AA
+  - '+.hikunpeng.com.cn'           # L AC
+  - '+.hisilicon.com.cn'           # L AC
+  - '+.hsbc.com.cn'                # V
+  - '+.hsbcinsurance.com.cn'       # V
+  - '+.hsbcqh.com.cn'              # V
+  - '+.hunyuan.tencent.com'        # W
+  - '+.hxb.com.cn'                 # V
+  - '+.iscas.ac.cn'                # K
+  - '+.jetbrains.com.cn'           # AD
+  - '+.jiasu.bohe.com'             # P
+  - '+.kindleoasis.com.cn'         # N O U
+  - '+.kiwivm.64clouds.com'        # A
+  - '+.las.ac.cn'                  # K
+  - '+.marscode.com.cn'            # W
+  - '+.microsoftreactor.com.cn'    # AD
+  - '+.njcb.com.cn'                # V
+  - '+.ntp.aliyun.com'             # S
+  - '+.ntp.tencent.com'            # S
+  - '+.ntp1.aliyun.com'            # S
+  - '+.ntp2.aliyun.com'            # S
+  - '+.ntp3.aliyun.com'            # S
+  - '+.ntp4.aliyun.com'            # S
+  - '+.ntp5.aliyun.com'            # S
+  - '+.ntp6.aliyun.com'            # S
+  - '+.ntp7.aliyun.com'            # S
+  - '+.nwcdcloud.com.cn'           # N O U
+  - '+.officecdn.microsoft.com'    # B
+  - '+.onebank.com.cn'             # V
+  - '+.pishu.com.cn'               # K
+  - '+.pool.ntp.org'               # S
+  - '+.primeday.com.cn'            # N O U
+  - '+.programmer.com.cn'          # L AC
+  - '+.programmer.net.cn'          # L AC
+  - '+.qianwen.aliyun.com'         # W
+  - '+.reactorms.com.cn'           # AD
+  - '+.researchkit.com.cn'         # AD
+  - '+.sagemaker.com.cn'           # N O U
+  - '+.sdx.microsoft.com'          # B
+  - '+.spdb.com.cn'                # V
+  - '+.ssreader.com.cn'            # K
+  - '+.ssvideo.com.cn'             # K
+  - '+.storeedge.microsoft.com'    # B
+  - '+.study360.com.cn'            # K
+  - '+.swiftui.com.cn'             # AD
+  - '+.time.apple.com'             # S
+  - '+.time.nist.gov'              # S
+  - '+.time.windows.com'           # S
+  - '+.time1.aliyun.com'           # S
+  - '+.time1.apple.com'            # S
+  - '+.time1.google.com'           # S
+  - '+.time1.tencentyun.com'       # S
+  - '+.time2.aliyun.com'           # S
+  - '+.time2.apple.com'            # S
+  - '+.time2.google.com'           # S
+  - '+.time2.tencentyun.com'       # S
+  - '+.time3.aliyun.com'           # S
+  - '+.time3.apple.com'            # S
+  - '+.time3.google.com'           # S
+  - '+.time3.tencentyun.com'       # S
+  - '+.time4.aliyun.com'           # S
+  - '+.time4.apple.com'            # S
+  - '+.time4.google.com'           # S
+  - '+.time4.tencentyun.com'       # S
+  - '+.time5.aliyun.com'           # S
+  - '+.time5.apple.com'            # S
+  - '+.time5.tencentyun.com'       # S
+  - '+.time6.aliyun.com'           # S
+  - '+.time6.apple.com'            # S
+  - '+.time7.aliyun.com'           # S
+  - '+.time7.apple.com'            # S
+  - '+.tongyi.aliyun.com'          # W
+  - '+.trae.com.cn'                # W
+  - '+.unihan.com.cn'              # K
+  - '+.uu.163.com'                 # P
+  - '+.wanfangdata.com.cn'         # K
+  - '+.wind.com.cn'                # K
+  - '+.xinghuo.xfyun.cn'           # W
+  - '+.xuexi365.com.cn'            # K
+  - '+.yiyan.baidu.com'            # W
+  - '+.yuanbao.tencent.com'        # W
+  - '+.yuanqi.tencent.com'         # W
+  - '+.zaifan.com.cn'              # K
+  - '+.100.100.in-addr.arpa'       # F
+  - '+.101.100.in-addr.arpa'       # F
+  - '+.102.100.in-addr.arpa'       # F
+  - '+.103.100.in-addr.arpa'       # F
+  - '+.104.100.in-addr.arpa'       # F
+  - '+.105.100.in-addr.arpa'       # F
+  - '+.106.100.in-addr.arpa'       # F
+  - '+.107.100.in-addr.arpa'       # F
+  - '+.108.100.in-addr.arpa'       # F
+  - '+.109.100.in-addr.arpa'       # F
+  - '+.110.100.in-addr.arpa'       # F
+  - '+.111.100.in-addr.arpa'       # F
+  - '+.112.100.in-addr.arpa'       # F
+  - '+.113.100.in-addr.arpa'       # F
+  - '+.114.100.in-addr.arpa'       # F
+  - '+.115.100.in-addr.arpa'       # F
+  - '+.116.100.in-addr.arpa'       # F
+  - '+.117.100.in-addr.arpa'       # F
+  - '+.118.100.in-addr.arpa'       # F
+  - '+.119.100.in-addr.arpa'       # F
+  - '+.120.100.in-addr.arpa'       # F
+  - '+.121.100.in-addr.arpa'       # F
+  - '+.122.100.in-addr.arpa'       # F
+  - '+.123.100.in-addr.arpa'       # F
+  - '+.124.100.in-addr.arpa'       # F
+  - '+.125.100.in-addr.arpa'       # F
+  - '+.126.100.in-addr.arpa'       # F
+  - '+.127.100.in-addr.arpa'       # F
+  - '+.16.172.in-addr.arpa'        # F
+  - '+.168.192.in-addr.arpa'       # F
+  - '+.17.172.in-addr.arpa'        # F
+  - '+.18.172.in-addr.arpa'        # F
+  - '+.19.172.in-addr.arpa'        # F
+  - '+.20.172.in-addr.arpa'        # F
+  - '+.21.172.in-addr.arpa'        # F
+  - '+.22.172.in-addr.arpa'        # F
+  - '+.23.172.in-addr.arpa'        # F
+  - '+.24.172.in-addr.arpa'        # F
+  - '+.25.172.in-addr.arpa'        # F
+  - '+.254.169.in-addr.arpa'       # F
+  - '+.26.172.in-addr.arpa'        # F
+  - '+.27.172.in-addr.arpa'        # F
+  - '+.28.172.in-addr.arpa'        # F
+  - '+.29.172.in-addr.arpa'        # F
+  - '+.30.172.in-addr.arpa'        # F
+  - '+.31.172.in-addr.arpa'        # F
+  - '+.64.100.in-addr.arpa'        # F
+  - '+.65.100.in-addr.arpa'        # F
+  - '+.66.100.in-addr.arpa'        # F
+  - '+.67.100.in-addr.arpa'        # F
+  - '+.68.100.in-addr.arpa'        # F
+  - '+.69.100.in-addr.arpa'        # F
+  - '+.70.100.in-addr.arpa'        # F
+  - '+.71.100.in-addr.arpa'        # F
+  - '+.72.100.in-addr.arpa'        # F
+  - '+.73.100.in-addr.arpa'        # F
+  - '+.74.100.in-addr.arpa'        # F
+  - '+.75.100.in-addr.arpa'        # F
+  - '+.76.100.in-addr.arpa'        # F
+  - '+.77.100.in-addr.arpa'        # F
+  - '+.78.100.in-addr.arpa'        # F
+  - '+.79.100.in-addr.arpa'        # F
+  - '+.80.100.in-addr.arpa'        # F
+  - '+.81.100.in-addr.arpa'        # F
+  - '+.82.100.in-addr.arpa'        # F
+  - '+.83.100.in-addr.arpa'        # F
+  - '+.84.100.in-addr.arpa'        # F
+  - '+.85.100.in-addr.arpa'        # F
+  - '+.86.100.in-addr.arpa'        # F
+  - '+.87.100.in-addr.arpa'        # F
+  - '+.88.100.in-addr.arpa'        # F
+  - '+.89.100.in-addr.arpa'        # F
+  - '+.90.100.in-addr.arpa'        # F
+  - '+.91.100.in-addr.arpa'        # F
+  - '+.92.100.in-addr.arpa'        # F
+  - '+.93.100.in-addr.arpa'        # F
+  - '+.94.100.in-addr.arpa'        # F
+  - '+.95.100.in-addr.arpa'        # F
+  - '+.96.100.in-addr.arpa'        # F
+  - '+.97.100.in-addr.arpa'        # F
+  - '+.98.100.in-addr.arpa'        # F
+  - '+.99.100.in-addr.arpa'        # F
+  - '+.addthis.com.edgekey.net'    # AI
+  - '+.cn.ntp.org.cn'              # S
+  - '+.content.cdp.bethesda.net'   # C  合并 content.cdp.bethesda.net G
+  - '+.d.f.ip6.arpa'               # F
+  - '+.de.ntp.org.cn'              # S
+  - '+.dl.steam.clngaa.com'        # I  合并 dl.steam.clngaa.com H J AE
+  - '+.download.cdp.bethesda.net'  # C  合并 download.cdp.bethesda.net G
+  - '+.download.dm.origin.com'     # C  合并 download.dm.origin.com G
+  - '+.download.visualstudio.microsoft.com'  # B  合并 download.visualstudio.microsoft.com AD
+  - '+.edu.ntp.org.cn'             # S
+  - '+.gstore.val.manlaxy.com'     # I
+  - '+.hk.ntp.org.cn'              # S
+  - '+.ina.ntp.org.cn'             # S
+  - '+.jp.ntp.org.cn'              # S
+  - '+.kr.ntp.org.cn'              # S
+  - '+.localhost.ptlogin2.qq.com'  # F
+  - '+.localhost.sec.qq.com'       # F
+  - '+.ntp.cloud.aliyuncs.com'     # S
+  - '+.ntp.sjtu.edu.cn'            # S
+  - '+.ntp1.cloud.aliyuncs.com'    # S
+  - '+.ntp10.cloud.aliyuncs.com'   # S
+  - '+.ntp11.cloud.aliyuncs.com'   # S
+  - '+.ntp12.cloud.aliyuncs.com'   # S
+  - '+.ntp2.cloud.aliyuncs.com'    # S
+  - '+.ntp3.cloud.aliyuncs.com'    # S
+  - '+.ntp4.cloud.aliyuncs.com'    # S
+  - '+.ntp5.cloud.aliyuncs.com'    # S
+  - '+.ntp6.cloud.aliyuncs.com'    # S
+  - '+.ntp7.cloud.aliyuncs.com'    # S
+  - '+.ntp8.cloud.aliyuncs.com'    # S
+  - '+.ntp9.cloud.aliyuncs.com'    # S
+  - '+.s1a.time.edu.cn'            # S
+  - '+.s1b.time.edu.cn'            # S
+  - '+.s1c.time.edu.cn'            # S
+  - '+.s1d.time.edu.cn'            # S
+  - '+.s1e.time.edu.cn'            # S
+  - '+.s2a.time.edu.cn'            # S
+  - '+.s2b.time.edu.cn'            # S
+  - '+.s2c.time.edu.cn'            # S
+  - '+.s2d.time.edu.cn'            # S
+  - '+.s2e.time.edu.cn'            # S
+  - '+.s2f.time.edu.cn'            # S
+  - '+.s2g.time.edu.cn'            # S
+  - '+.s2h.time.edu.cn'            # S
+  - '+.s2k.time.edu.cn'            # S
+  - '+.s2m.time.edu.cn'            # S
+  - '+.sgp.ntp.org.cn'             # S
+  - '+.st.dl.bscstorage.net'       # I  合并 st.dl.bscstorage.net H J AE
+  - '+.st.dl.eccdnx.com'           # I  合并 st.dl.eccdnx.com H J AE
+  - '+.st.dl.pinyuncloud.com'      # I  合并 st.dl.pinyuncloud.com J
+  - '+.steampowered.com.8686c.com'  # I  合并 steampowered.com.8686c.com J
+  - '+.steamstatic.com.8686c.com'  # I  合并 steamstatic.com.8686c.com J
+  - '+.time.asia.apple.com'        # S
+  - '+.time.pool.aliyun.com'       # S
+  - '+.time1.cloud.tencent.com'    # S
+  - '+.time2.cloud.tencent.com'    # S
+  - '+.time3.cloud.tencent.com'    # S
+  - '+.time4.cloud.tencent.com'    # S
+  - '+.time5.cloud.tencent.com'    # S
+  - '+.tw.ntp.org.cn'              # S
+  - '+.us.ntp.org.cn'              # S
+  - '+.wup.eshop.nintendo.net'     # C
+  - '+.wup.shop.nintendo.net'      # C
+  - '+.100.51.198.in-addr.arpa'    # F
+  - '+.113.0.203.in-addr.arpa'     # F
+  - '+.2.0.192.in-addr.arpa'       # F
+  - '+.8.e.f.ip6.arpa'             # F
+  - '+.9.e.f.ip6.arpa'             # F
+  - '+.a.e.f.ip6.arpa'             # F
+  - '+.a1cbafa5ea9a6480cb8e9ffba46cbad9-466059813.us-west-2.elb.amazonaws.com'  # AI
+  - '+.azuremigrate.download.prss.microsoft.com'  # B
+  - '+.azuremigratetest.download.prss.microsoft.com'  # B
+  - '+.azurestackhub.download.prss.microsoft.com'  # B
+  - '+.azurestackhubuat.download.prss.microsoft.com'  # B
+  - '+.b.e.f.ip6.arpa'             # F
+  - '+.cbdstest.download.prss.microsoft.com'  # B
+  - '+.collaborate.download.prss.microsoft.com'  # B
+  - '+.collaborateppe.download.prss.microsoft.com'  # B
+  - '+.dl.delivery.mp.microsoft.com'  # B  合并 dl.delivery.mp.microsoft.com H AE  覆盖 tlu.dl.delivery.mp.microsoft.com H AE
+  - '+.dreamspark.download.prss.microsoft.com'  # B
+  - '+.dreamsparkuat.download.prss.microsoft.com'  # B
+  - '+.itacademy.download.prss.microsoft.com'  # B
+  - '+.itacademyuat.download.prss.microsoft.com'  # B
+  - '+.kis.v2.scr.kaspersky-labs.com'  # F
+  - '+.lex.download.prss.microsoft.com'  # B
+  - '+.lexuat.download.prss.microsoft.com'  # B
+  - '+.mbs.download.prss.microsoft.com'  # B
+  - '+.mpnbenefits.download.prss.microsoft.com'  # B
+  - '+.mpnbenefitsrtl.download.prss.microsoft.com'  # B
+  - '+.mpnbenefitsrtluat.download.prss.microsoft.com'  # B
+  - '+.msdn.download.prss.microsoft.com'  # B
+  - '+.msdprod-ad.download.prss.microsoft.com'  # B
+  - '+.msproduct.download.prss.microsoft.com'  # B
+  - '+.myvs.download.prss.microsoft.com'  # B
+  - '+.oemsoc.download.prss.microsoft.com'  # B
+  - '+.oemsocuat.download.prss.microsoft.com'  # B
+  - '+.officemkt.download.prss.microsoft.com'  # B
+  - '+.officemktuat.download.prss.microsoft.com'  # B
+  - '+.osrelease.download.prss.microsoft.com'  # B
+  - '+.pdl.wow.battlenet.com.cn'   # H
+  - '+.rsm.download.prss.microsoft.com'  # B
+  - '+.software.download.prss.microsoft.com'  # B
+  - '+.storecorefulfillment.download.prss.microsoft.com'  # B
+  - '+.surface.download.prss.microsoft.com'  # B
+  - '+.surface.downloads.prss.microsoft.com'  # B
+  - '+.vlportal.download.prss.microsoft.com'  # B
+  - '+.volic.download.prss.microsoft.com'  # B
+  - '+.vscode.download.prss.microsoft.com'  # B
+  - '+.vz.download.prss.microsoft.com'  # B
+  - '+.windbg.download.prss.microsoft.com'  # B
+  - '+.255.255.255.255.in-addr.arpa'  # F
+  - '+.b.c2r.ts.cdn.office.net'    # B
+  - '+.f.c2r.ts.cdn.office.net'    # B
+  - '+.8.b.d.0.1.0.0.2.ip6.arpa'   # F
+  - '+.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa'  # F
+  - 'asusrouter.com'               # F
+  - 'gayotv.net'                   # T
+  - 'nettvpro.live'                # T
+  - 'scdytv.cn'                    # T
+  - 'scdytv.com'                   # T
+  - 'ssdyapp.cn'                   # T
+  - 'ytrmtzx.com'                  # T
+  - '1-fss24-s0.streamhoster.com'  # T
+  - '156zy.suyunbo.tv'             # T
+  - '1b6467f415.iok.la'            # T
+  - '1hdru-hls-otcnet.cdnvideo.ru'  # T
+  - '24tl.qingk.cn'                # T
+  - '3g.dzsm.com'                  # T
+  - '59ec5453559f0.streamlock.net'  # T
+  - '5c3639aa99149.streamlock.net'  # T
+  - 'a.xttv.top'                   # T
+  - 'abclive2-lh.akamaihd.net'     # T
+  - 'agsj.appcoo.com'              # T
+  - 'ahhs.chinashadt.com'          # T
+  - 'ahhsdb.chinashadt.com'        # T
+  - 'ai.zhaomi.cn'                 # W
+  - 'aka-amd-njpwworld-hls-enlive.akamaized.net'  # T
+  - 'amdlive-ch03-ctnd-com.akamaized.net'  # T
+  - 'aplay.gztv.com'               # T
+  - 'app.qatv.cn'                  # T
+  - 'app.xygdcm.com'               # T
+  - 'app.yixianfabu.com'           # T
+  - 'as-hls-ww-live.akamaized.net'  # T
+  - 'assets1.xboxlive.cn'          # H AE
+  - 'assets1.xboxlive.com'         # C G
+  - 'assets2.xboxlive.cn'          # H AE
+  - 'assets2.xboxlive.com'         # C G
+  - 'astro1.rastream.com'          # T
+  - 'audio-live.radio.cn'          # T
+  - 'audiolive.rbc.cn'             # T
+  - 'badong-live21.cjyun.org'      # T
+  - 'bananlive.cbg.cn'             # T
+  - 'bbstv.clouducs.com'           # T
+  - 'bililive.kksmg.com'           # T
+  - 'bktvplay.gdnewmedia.cc'       # T
+  - 'bl.ainaxi.cn'                 # T
+  - 'blzddist1-a.akamaihd.net'     # C G
+  - 'blzddist2-a.akamaihd.net'     # C
+  - 'blzddist3-a.akamaihd.net'     # C
+  - 'blzddistkr1-a.akamaihd.net'   # C G
+  - 'bsyll.qingk.cn'               # T
+  - 'cbsnewshd-lh.akamaihd.net'    # T
+  - 'cclive.aniu.tv'               # T
+  - 'cclive2.aniu.tv'              # T
+  - 'cdn-cn.apple-mapkit.com'      # AD
+  - 'cdn-cn1.apple-mapkit.com'     # AD
+  - 'cdn-cn2.apple-mapkit.com'     # AD
+  - 'cdn-cn3.apple-mapkit.com'     # AD
+  - 'cdn-cn4.apple-mapkit.com'     # AD
+  - 'cdn-patch.swtor.com'          # C
+  - 'cdn-videos.akamaized.net'     # T
+  - 'cdn.ampproject.org'           # AD
+  - 'cdn.apple-mapkit.com'         # AD
+  - 'cdn.hkdtmb.com'               # T
+  - 'cdn1.apple-mapkit.com'        # AD
+  - 'cdn2.apple-mapkit.com'        # AD
+  - 'cdn3.apple-mapkit.com'        # AD
+  - 'cdn4.apple-mapkit.com'        # AD
+  - 'cgntv-glive.ofsdelivery.net'  # T
+  - 'channellive.leshantv.net'     # T
+  - 'chaoan.chaoantv.com'          # T
+  - 'chengkoulive2.cbg.cn'         # T
+  - 'chibi-live21.cjyun.org'       # T
+  - 'chyd-wsvod.wasu.tv'           # T
+  - 'cinb1.peoplevideo.cn'         # T
+  - 'client-teamviewer-com.trafficmanager.net'  # Q
+  - 'cnpull.sccnfb.com'            # T
+  - 'content-origin.steampowered.com'  # C
+  - 'crashlyticsreports-pa.googleapis.com'  # AD
+  - 'cueme-api.quark.cn'           # W
+  - 'czlive.czgd.tv'               # T
+  - 'd9af5a60.edmonst.net'         # T
+  - 'dayeyun-live21.cjyun.org'     # T
+  - 'dazulive.cbg.cn'              # T
+  - 'devlivepull.migucloud.com'    # T
+  - 'dianjianglive.cbg.cn'         # T
+  - 'dist.blizzard.com'            # C
+  - 'dlgarenanow-a.akamaihd.net'   # C
+  - 'dlhls-cdn-mp.zhanqi.tv'       # T
+  - 'download.xbox.com'            # C
+  - 'download2.epicgames.com'      # C G
+  - 'download3.epicgames.com'      # C G
+  - 'download4.epicgames.com'      # C G
+  - 'dslive.grtn.cn'               # T
+  - 'dstpush1.retalltech.com'      # T
+  - 'dtrmlive.qhdtrm.cn'           # T
+  - 'dxplay.scwy.cn'               # T
+  - 'dyscdnali1.douyucdn.cn'       # T
+  - 'edge2.yntv.cn'                # T
+  - 'encoder3.ywcity.cn'           # T
+  - 'enshi-live21.cjyun.org'       # T
+  - 'epicgames-download1.akamaized.net'  # C G
+  - 'f24hls-i.akamaihd.net'        # T
+  - 'fash1043.cloudycdn.services'  # T
+  - 'fastly-download.epicgames.com'  # C G
+  - 'file.hhtv.cc'                 # T
+  - 'file.lasatv.cn'               # T
+  - 'file.pebtv.cn'                # T
+  - 'file.qmxrmt.com'              # T
+  - 'file.xsbnrtv.cn'              # T
+  - 'file.yizu.tv'                 # T
+  - 'file.ysxtv.cn'                # T
+  - 'firebase-settings.crashlytics.com'  # AD
+  - 'fjnh.chinashadt.com'          # T
+  - 'fjnhdb.chinashadt.com'        # T
+  - 'fjpc.chinashadt.com'          # T
+  - 'fjsh.chinashadt.com'          # T
+  - 'fm901.cityfm.tw'              # T
+  - 'fm929.cityfm.tw'              # T
+  - 'fm971.cityfm.tw'              # T
+  - 'fm983.cityfm.tw'              # T
+  - 'fmcdn.jin10.com'              # T
+  - 'fms.yyrtv.com'                # T
+  - 'gamedownloads-rockstargames-com.akamaized.net'  # C G
+  - 'gddb.chinashadt.com'          # T
+  - 'gdhj.chinashadt.com'          # T
+  - 'glive.grtn.cn'                # T
+  - 'gog-cdn-fastly-cp77.gog.com'  # C
+  - 'gog-cdn-fastly.gog.com'       # C
+  - 'gog.qtlglb.com'               # X
+  - 'gpb-hls.streamguys1.com'      # T
+  - 'guangshui-live21.cjyun.org'   # T
+  - 'gztr.chinashadt.com'          # T
+  - 'h5.baojinews.com'             # T
+  - 'hb2stream1.baoxinwen.com'     # T
+  - 'hbbz.chinashadt.com'          # T
+  - 'hbca.chinashadt.com'          # T
+  - 'hbcb.chinashadt.com'          # T
+  - 'hbcx.chinashadt.com'          # T
+  - 'hbdg.chinashadt.com'          # T
+  - 'hbfc.chinashadt.com'          # T
+  - 'hbgt.chinashadt.com'          # T
+  - 'hbhh.chinashadt.com'          # T
+  - 'hbjx.chinashadt.com'          # T
+  - 'hblc.chinashadt.com'          # T
+  - 'hblh.chinashadt.com'          # T
+  - 'hblq.chinashadt.com'          # T
+  - 'hblxx.chinashadt.com'         # T
+  - 'hblz.chinashadt.com'          # T
+  - 'hbnq.chinashadt.com'          # T
+  - 'hbpx.chinashadt.com'          # T
+  - 'hbry.chinashadt.com'          # T
+  - 'hbsh.chinashadt.com'          # T
+  - 'hbsx.chinashadt.com'          # T
+  - 'hbsz.chinashadt.com'          # T
+  - 'hbwq.chinashadt.com'          # T
+  - 'hbxx.chinashadt.com'          # T
+  - 'hbyn.chinashadt.com'          # T
+  - 'hbzq.chinashadt.com'          # T
+  - 'hbzqdb.chinashadt.com'        # T
+  - 'hbzx.chinashadt.com'          # T
+  - 'hbzz.chinashadt.com'          # T
+  - 'hebcx.chinashadt.com'         # T
+  - 'henanxx.chinashadt.com'       # T
+  - 'hhab.chinashadt.com'          # T
+  - 'hindiabp-lh.akamaihd.net'     # T
+  - 'hljwc.chinashadt.com'         # T
+  - 'hls-1.wamu.org'               # T
+  - 'hls-ott-zhibo.wasu.tv'        # T
+  - 'hls-video01.cdnvideo.ru'      # T
+  - 'hls.cdn.ua'                   # T
+  - 'hls.dhtv.cn'                  # T
+  - 'hls.hkbtv.cn'                 # T
+  - 'hls.hsrtv.cn'                 # T
+  - 'hls.kqed.org'                 # T
+  - 'hls.mlink.tv'                 # T
+  - 'hls.ningxiahuangheyun.com'    # T
+  - 'hls.nntv.cn'                  # T
+  - 'hls.qguiyang.com'             # T
+  - 'hls.quklive.com'              # T
+  - 'hls.qxtv0763.com'             # T
+  - 'hls.weathertv.cn'             # T
+  - 'hls.wiseqx.com'               # T
+  - 'hls.wlrn.mobi'                # T
+  - 'hlsv2.quklive.com'            # T
+  - 'hndc.chinashadt.com'          # T
+  - 'hnhs.chinashadt.com'          # T
+  - 'hnhx.chinashadt.com'          # T
+  - 'hnmc.chinashadt.com'          # T
+  - 'hnmq.chinashadt.com'          # T
+  - 'hnnz.chinashadt.com'          # T
+  - 'hnqf.chinashadt.com'          # T
+  - 'hnsd.chinashadt.com'          # T
+  - 'hnsf.chinashadt.com'          # T
+  - 'hnsy.chinashadt.com'          # T
+  - 'hntj.chinashadt.com'          # T
+  - 'hntk.chinashadt.com'          # T
+  - 'hntvpull.8686c.com'           # T
+  - 'hnyc.chinashadt.com'          # T
+  - 'hnyx.chinashadt.com'          # T
+  - 'hnyz.chinashadt.com'          # T
+  - 'hongan-live21.cjyun.org'      # T
+  - 'honghu-live21.cjyun.org'      # T
+  - 'hpull.kktv8.com'              # T
+  - 'hslive.hsnewsnet.com'         # T
+  - 'huanggang-live21.cjyun.org'   # T
+  - 'hw-m-l.cztv.com'              # T
+  - 'hw-play.lezhibo.com'          # T
+  - 'hwapi.yunshicloud.com'        # T
+  - 'icecast-ruvr.cdnvideo.ru'     # T
+  - 'ihzlh.linker.cc'              # T
+  - 'images-cn-8.ssl-images-amazon.com'  # O
+  - 'images-cn.ssl-images-amazon.com'  # O
+  - 'instant.arubanetworks.com'    # F
+  - 'iptv.ac.cn'                   # T
+  - 'jc-qlive-play.jingchangkan.cn'  # T
+  - 'jiangjinlive.cbg.cn'          # T
+  - 'jiangling-live21.cjyun.org'   # T
+  - 'jiayu-live21.cjyun.org'       # T
+  - 'jingmen-live21.cjyun.org'     # T
+  - 'jingzhou-live21.cjyun.org'    # T
+  - 'jintan-tv-ori-hls.jstv.com'   # T
+  - 'jpts.sinovision.net'          # T
+  - 'jrlive.jrntv.com'             # T
+  - 'jsbh.chinashadt.com'          # T
+  - 'jsby.chinashadt.com'          # T
+  - 'jssn.chinashadt.com'          # T
+  - 'jsylivealone302.iqilu.com'    # T
+  - 'juyunlive.juyun.tv'           # T
+  - 'jvc.flashapp.cn'              # T
+  - 'jxay.chinashadt.com'          # T
+  - 'jxlive.jxrmtzx.com'           # T
+  - 'jxsg.chinashadt.com'          # T
+  - 'jxwz.chinashadt.com'          # T
+  - 'jxyx.chinashadt.com'          # T
+  - 'jxyz.chinashadt.com'          # T
+  - 'jzdb.jztvnews.com'            # T
+  - 'jzlive.jztvnews.com'          # T
+  - 'kaixianlive.cbg.cn'           # T
+  - 'kcrw.streamguys1.com'         # T
+  - 'kjzz.streamguys1.com'         # T
+  - 'klmyyun.chinavas.com'         # T
+  - 'klmyzb.rcsxzx.com'            # T
+  - 'kpbs-wowza.streamguys1.com'   # T
+  - 'kut-hls.streamguys1.com'      # T
+  - 'kwmu-flash.streamguys1.com'   # T
+  - 'l.cztvcloud.com'              # T
+  - 'l2.weihai.tv'                 # T
+  - 'lb.streaming.sk'              # T
+  - 'lbzb.yd-data.com'             # T
+  - 'level3.blizzard.com'          # C G
+  - 'lglivepull.sznews.com'        # T
+  - 'lichuan-live21.cjyun.org'     # T
+  - 'linxinbf.fst1994.cn'          # T
+  - 'live-350k.streamingfast.net'  # T
+  - 'live-cdn.gxxw.com'            # T
+  - 'live-dft-hls-yf.jstv.com'     # T
+  - 'live-echotv.cdnvideo.ru'      # T
+  - 'live-stream.lsxrmtzx.com'     # T
+  - 'live-wx.wifiwx.com'           # T
+  - 'live.0359tv.com'              # T
+  - 'live.0793.tv'                 # T
+  - 'live.ahsz.tv'                 # T
+  - 'live.appwuhan.com'            # T
+  - 'live.aqbtv.cn'                # T
+  - 'live.bcrmtzx.com'             # T
+  - 'live.bhtv.cc'                 # T
+  - 'live.btgdt.com'               # T
+  - 'live.bygd.cn'                 # T
+  - 'live.cgtn.com'                # T
+  - 'live.china-latv.com'          # T
+  - 'live.cjyun.org'               # T
+  - 'live.czmarathon.net'          # T
+  - 'live.cztv.cc'                 # T
+  - 'live.daningtv.com'            # T
+  - 'live.dxhmt.cn'                # T
+  - 'live.funhillmedia.com'        # T
+  - 'live.funhillrm.com'           # T
+  - 'live.gnrtv.com'               # T
+  - 'live.gprmt.cn'                # T
+  - 'live.gxqztv.com'              # T
+  - 'live.hhtv.cc'                 # T
+  - 'live.hn0746.com'              # T
+  - 'live.hndachao.cn'             # T
+  - 'live.hnxttv.com'              # T
+  - 'live.hnzzzzzdst.com'          # T
+  - 'live.hrtonline.cn'            # T
+  - 'live.huairtv.com'             # T
+  - 'live.hyxrmt.com'              # T
+  - 'live.hznet.tv'                # T
+  - 'live.ilinyi.net'              # T
+  - 'live.iwcmt.cn'                # T
+  - 'live.jiaodong.net'            # T
+  - 'live.jinchuanrmt.com'         # T
+  - 'live.jyrmtzx.com'             # T
+  - 'live.kanwz.net'               # T
+  - 'live.lsrmw.cn'                # T
+  - 'live.lxzc.net'                # T
+  - 'live.lyg1.com'                # T
+  - 'live.massp.cn'                # T
+  - 'live.mudu.tv'                 # T
+  - 'live.nbs.cn'                  # T
+  - 'live.newslqy.com'             # T
+  - 'live.ntdimg.com'              # T
+  - 'live.pybtv.cn'                # T
+  - 'live.qinyangtv.com'           # T
+  - 'live.qxndt.com'               # T
+  - 'live.qztvxwgj.com'            # T
+  - 'live.rdxmt.com'               # T
+  - 'live.scbtv.cn'                # T
+  - 'live.sccxtv.com'              # T
+  - 'live.schdxww.com'             # T
+  - 'live.schstv.com'              # T
+  - 'live.sctvcloud.com'           # T
+  - 'live.sfrmt.com'               # T
+  - 'live.sichuanmianning.com'     # T
+  - 'live.sjsgdzx.com'             # T
+  - 'live.sjsrm.com'               # T
+  - 'live.spccmc.com'              # T
+  - 'live.streamingfast.net'       # T
+  - 'live.strmtzx.cn'              # T
+  - 'live.todaydunhuang.com'       # T
+  - 'live.tongdaotv.com'           # T
+  - 'live.tvbaoji.com'             # T
+  - 'live.txcmapp.com'             # T
+  - 'live.wanyuannews.com'         # T
+  - 'live.wifizs.cn'               # T
+  - 'live.wjyanghu.com'            # T
+  - 'live.xmcdn.com'               # T
+  - 'live.xtgdw.cn'                # T
+  - 'live.xysrmt.cn'               # T
+  - 'live.yantaitv.cn'             # T
+  - 'live.ybtvyun.com'             # T
+  - 'live.yichuntv.com'            # T
+  - 'live.yingxi.tv'               # T
+  - 'live.yjtvw.com'               # T
+  - 'live.ylwltv.com'              # T
+  - 'live.ynbit.com'               # T
+  - 'live.ynurl.com'               # T
+  - 'live.yqrtv.com'               # T
+  - 'live.ysxtv.cn'                # T
+  - 'live.zhihuizq.com'            # T
+  - 'live.zjmc.tv'                 # T
+  - 'live.zmmek.com'               # T
+  - 'live.zohi.tv'                 # T
+  - 'live.zscz0768.com'            # T
+  - 'live.zzbtv.com'               # T
+  - 'live.zzyxxw.com'              # T
+  - 'live02.rfi.fr'                # T
+  - 'live1.fzntv.cn'               # T
+  - 'live1.habctv.com'             # T
+  - 'live1.jcbctv.com'             # T
+  - 'live1.rdxmt.com'              # T
+  - 'live1.scmstv.cn'              # T
+  - 'live1.wuhubtv.com'            # T
+  - 'live2.asbctv.com'             # T
+  - 'live2.hzitv.cn'               # T
+  - 'live2.ntdimg.com'             # T
+  - 'live2.qxndt.com'              # T
+  - 'live2.scmstv.cn'              # T
+  - 'live2018.wuhunews.cn'         # T
+  - 'livealone302.iqilu.com'       # T
+  - 'liveanevia.mncnow.id'         # T
+  - 'livear.cgtn.com'              # T
+  - 'livebroadcast.ccwb.cn'        # T
+  - 'livebroadcastys.ccwb.cn'      # T
+  - 'livecdn.dmqhyadmin.com'       # T
+  - 'livecdn.fptplay.net'          # T
+  - 'livecdnh2.tvanywhere.ae'      # T
+  - 'lived.dmqhyadmin.com'         # T
+  - 'livees.cgtn.com'              # T
+  - 'liveetkqq.sobeycache.com'     # T
+  - 'liveflash.sxrtv.com'          # T
+  - 'livefr.cgtn.com'              # T
+  - 'livehqy.chinamcache.com'      # T
+  - 'livehuiz.sobeycache.com'      # T
+  - 'livejdrmt.chinamcache.com'    # T
+  - 'livejieyang.chinamcache.com'  # T
+  - 'livejnedu.chinamcache.com'    # T
+  - 'liveop.cctv.cn'               # T
+  - 'liveout.xntv.tv'              # T
+  - 'liveout.ycxrmt.cn'            # T
+  - 'livepgc.chinamcache.com'      # T
+  - 'liveplay-kk.rtxapp.com'       # T
+  - 'liveplay.lztvnet.com'         # T
+  - 'liveplay.rednet.cn'           # T
+  - 'lives.jnnews.tv'              # T
+  - 'livesdong.chinamcache.com'    # T
+  - 'liveshowbak2.kan0512.com'     # T
+  - 'livesydst.chinamcache.com'    # T
+  - 'livetongl.chinamcache.com'    # T
+  - 'liveynbsdst.chinamcache.com'  # T
+  - 'livezzutv.chinamcache.com'    # T
+  - 'living.muzhifm.com'           # T
+  - 'lms.csytv.com'                # T
+  - 'lmt.kjzx.net'                 # T
+  - 'lmt.scqstv.com'               # T
+  - 'local.adguard.org'            # F
+  - 'ls.qingting.fm'               # T
+  - 'luzhi.xuyongrongmei.com'      # T
+  - 'lv.queniujq.cn'               # I AE
+  - 'lxfile.lxxcb.cn'              # T
+  - 'lzlive.vojs.cn'               # T
+  - 'm.567it.com'                  # T
+  - 'm3u8channel-bx.wuxianyaan.com'  # T
+  - 'm3u8channel-ms.wuxianyaan.com'  # T
+  - 'm3u8channel-sm.wuxianyaan.com'  # T
+  - 'm3u8channel-yc.wuxianyaan.com'  # T
+  - 'm3u8channel-yj.wuxianyaan.com'  # T
+  - 'm3u8channel.wuxianyaan.com'   # T
+  - 'media.bbrtv.com'              # T
+  - 'media.fantv.hk'               # T
+  - 'media.trrtv.com'              # T
+  - 'media.vtibet.com'             # T
+  - 'mediaprima.rastream.com'      # T
+  - 'mms.ldntv.cn'                 # T
+  - 'mobile.ccdntech.com'          # T
+  - 'movie.mcas.jp'                # T
+  - 'ms3.yichuntv.com'             # T
+  - 'nanchuanlive.cbg.cn'          # T
+  - 'nclive.grtn.cn'               # T
+  - 'newvideo.dangtutv.cn'         # T
+  - 'newvod.ahbbtv.com'            # T
+  - 'ngcdn001.cnr.cn'              # T
+  - 'ngcdn002.cnr.cn'              # T
+  - 'ngcdn003.cnr.cn'              # T
+  - 'ngcdn004.cnr.cn'              # T
+  - 'ngcdn005.cnr.cn'              # T
+  - 'ngcdn006.cnr.cn'              # T
+  - 'ngcdn007.cnr.cn'              # T
+  - 'ngcdn008.cnr.cn'              # T
+  - 'ngcdn009.cnr.cn'              # T
+  - 'ngcdn010.cnr.cn'              # T
+  - 'ngcdn011.cnr.cn'              # T
+  - 'ngcdn012.cnr.cn'              # T
+  - 'ngcdn013.cnr.cn'              # T
+  - 'ngcdn014.cnr.cn'              # T
+  - 'ngcdn016.cnr.cn'              # T
+  - 'ngcdn017.cnr.cn'              # T
+  - 'ngcdn025.cnr.cn'              # T
+  - 'nhkw-zh-hlscomp.akamaized.net'  # T
+  - 'nhkwlive-xjp.akamaized.net'   # T
+  - 'njgdmm-wshls.homecdn.com'     # T
+  - 'njzb.scnj.tv'                 # T
+  - 'nlive.zjkgdcs.com'            # T
+  - 'nprnat-i.akamaihd.net'        # T
+  - 'nsszds.f3322.net'             # T
+  - 'oasisauth.h3c.com'            # F
+  - 'ocj2.kksmg.com'               # T
+  - 'onsitecdn.cbgcloud.com'       # T
+  - 'origin-a.akamaihd.net'        # C G
+  - 'ott-live.olympicchannel.com'  # T
+  - 'ott.mobaibox.com'             # T
+  - 'ott3.ysbn.cn'                 # T
+  - 'p1-juejin.byteimg.com'        # L AC
+  - 'p2-juejin.byteimg.com'        # L AC
+  - 'p2.weizan.cn'                 # T
+  - 'p2bj.weizan.cn'               # T
+  - 'p3-juejin.byteimg.com'        # L AC
+  - 'p4-juejin.byteimg.com'        # L AC
+  - 'p4.weizan.cn'                 # T
+  - 'p5-juejin.byteimg.com'        # L AC
+  - 'p6-juejin.byteimg.com'        # L AC
+  - 'p7-juejin.byteimg.com'        # L AC
+  - 'p8-juejin.byteimg.com'        # L AC
+  - 'p9-juejin.byteimg.com'        # L AC
+  - 'packagespc.xboxlive.com'      # C G
+  - 'palive.patv123.com'           # T
+  - 'pdlive.lyuncloud.com'         # T
+  - 'pengshuilive.cbg.cn'          # T
+  - 'pf-cdn-content-prod.azureedge.net'  # C
+  - 'pili-live-hls-cqgx.tianma3600.com'  # T
+  - 'pili-live-hls-qhnqapp2020.sobeylive.com'  # T
+  - 'pili-live-hls.hebitv.com'     # T
+  - 'pili-live-hls.hfmt.net'       # T
+  - 'pili-live-hls.jnbctv.com'     # T
+  - 'pili-live-hls.js-news.cn'     # T
+  - 'pili-live-hls.lzxrmtzx.com'   # T
+  - 'pili-live-hls.nanxunfb.com'   # T
+  - 'pili-live-hls.panews.cn'      # T
+  - 'pili-live-hls.szttkk.cn'      # T
+  - 'pili-live-hls.ttcmzx.cn'      # T
+  - 'pili-live-hls.wzpy.cn'        # T
+  - 'pili-live-hls.ybcxjd.com'     # T
+  - 'pili-live-rtmp.scmxtv.com'    # T
+  - 'play-live.21cs.cn'            # T
+  - 'play-sh.quklive.com'          # T
+  - 'play.cxsm.com'                # T
+  - 'play.hhnynews.com'            # T
+  - 'play.jinnantv.top'            # T
+  - 'play.kankanlive.com'          # T
+  - 'play.scrstv.com'              # T
+  - 'play.sngdxsn.com'             # T
+  - 'play.wuhunews.cn'             # T
+  - 'player.200877926.top'         # T
+  - 'player.521fanli.cn'           # T
+  - 'player.ioioz.com'             # T
+  - 'player.juyun.tv'              # T
+  - 'player2.juyun.tv'             # T
+  - 'playfmaliyun.3xgd.com'        # T
+  - 'pluslive.jiaxingren.com'      # T
+  - 'pluslive.wrbtv.cn'            # T
+  - 'pluslive.zhxww.net'           # T
+  - 'pluslive1.sjzntv.cn'          # T
+  - 'pull.dayuntongzhou.com'       # T
+  - 'pull.hnedutv.com'             # T
+  - 'pull.hrbtv.net'               # T
+  - 'qdxmtlive.qwmedia.cn'         # T
+  - 'qianjianglive.cbg.cn'         # T
+  - 'qkqxzb.qingk.cn'              # T
+  - 'qqlivepull.seedata.top'       # T
+  - 'quehuamtyoutlive.ijntv.cn'    # T
+  - 'qxlmlive.cbg.cn'              # T
+  - 'qxlmlive9.cbg.cn'             # T
+  - 'radiolive.sxrtv.com'          # T
+  - 'rfcmedia.streamguys1.com'     # T
+  - 'rfimonde-lh.akamaihd.net'     # T
+  - 'rmlive.lzxrmtzx.com'          # T
+  - 'rmtv24hweblive-lh.akamaihd.net'  # T
+  - 'router.asus.com'              # F
+  - 'rthklive1-lh.akamaihd.net'    # T
+  - 'rthklive2-lh.akamaihd.net'    # T
+  - 'rtsp.zmgdcm.cn'               # T
+  - 'rtvcdn.com.au'                # T
+  - 'satellitepull.cnr.cn'         # T
+  - 'scgctvshow.sctv.com'          # T
+  - 'sdbz.chinashadt.com'          # T
+  - 'sddc.chinashadt.com'          # T
+  - 'sdjx.chinashadt.com'          # T
+  - 'sdlq.chinashadt.com'          # T
+  - 'sdlqx.chinashadt.com'         # T
+  - 'sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net'  # T
+  - 'sdpl.chinashadt.com'          # T
+  - 'sdqz.chinashadt.com'          # T
+  - 'sdwd.chinashadt.com'          # T
+  - 'seb.sason.top'                # T
+  - 'setmeup.arubanetworks.com'    # F
+  - 'sfy2011.hj0758.cn'            # T
+  - 'shou.city1000.cn'             # T
+  - 'sj.smarttaixing.com'          # T
+  - 'sk.cri.cn'                    # T
+  - 'slvedio.slradio.cn'           # T
+  - 'snlive.scsntv.com'            # T
+  - 'sobeylingyun02pull.sobeylive.com'  # T
+  - 'sohucao.duapp.com'            # T
+  - 'steampipe-kr.akamaized.net'   # C G
+  - 'steampipe-partner.akamaized.net'  # C G
+  - 'steampipe.akamaized.net'      # C G
+  - 'steamusercontent-a.akamaihd.net'  # G
+  - 'stream.0515yc.cn'             # T
+  - 'stream.0554news.com'          # T
+  - 'stream.ahrtv.cn'              # T
+  - 'stream.ahwanyun.cn'           # T
+  - 'stream.appwuhan.com'          # T
+  - 'stream.baoxinwen.com'         # T
+  - 'stream.bzcm.net'              # T
+  - 'stream.chinactv.com'          # T
+  - 'stream.cqbntv.com'            # T
+  - 'stream.dybtv.com'             # T
+  - 'stream.gsjqtv.com'            # T
+  - 'stream.guihet.com'            # T
+  - 'stream.gxqztv.com'            # T
+  - 'stream.haining.tv'            # T
+  - 'stream.haixitv.cn'            # T
+  - 'stream.hhek.cn'               # T
+  - 'stream.hmgbtv.com'            # T
+  - 'stream.hndt.com'              # T
+  - 'stream.houstonpublicmedia.org'  # T
+  - 'stream.hrbtv.net'             # T
+  - 'stream.hsqtv.cn'              # T
+  - 'stream.icelook.cn'            # T
+  - 'stream.ihytv.com'             # T
+  - 'stream.ijatv.com'             # T
+  - 'stream.jinjiang.tv'           # T
+  - 'stream.jzgbdst.cn'            # T
+  - 'stream.lyxltv.com'            # T
+  - 'stream.mastvnet.com'          # T
+  - 'stream.nbbltv.com'            # T
+  - 'stream.pznews.com'            # T
+  - 'stream.qhbtv.com'             # T
+  - 'stream.smntv.cn'              # T
+  - 'stream.snrtv.com'             # T
+  - 'stream.sxsztv.com'            # T
+  - 'stream.thmz.com'              # T
+  - 'stream.tstv.cn'               # T
+  - 'stream.tstvxmt.com'           # T
+  - 'stream.wbez.org'              # T
+  - 'stream.wfcmw.cn'              # T
+  - 'stream.wifizs.cn'             # T
+  - 'stream.xctv.news'             # T
+  - 'stream.yishuweb.cn'           # T
+  - 'stream.ysbtv.net'             # T
+  - 'stream.zhxwzx.com'            # T
+  - 'stream.zhystv.com'            # T
+  - 'stream.zjjrtv.com'            # T
+  - 'stream.zzgd.tv'               # T
+  - 'stream.zztvzd.com'            # T
+  - 'stream0.tv41.ru'              # T
+  - 'stream01.dqtv123.com'         # T
+  - 'stream1.0763f.com'            # T
+  - 'stream1.ahrtv.cn'             # T
+  - 'stream1.huaihai.tv'           # T
+  - 'stream1.jletv.cn'             # T
+  - 'stream1.jlntv.cn'             # T
+  - 'stream1.shopch.jp'            # T
+  - 'stream10.jlntv.cn'            # T
+  - 'stream11.jlntv.cn'            # T
+  - 'stream2.ahrtv.cn'             # T
+  - 'stream2.cprnetwork.org'       # T
+  - 'stream2.hndt.com'             # T
+  - 'stream2.jlntv.cn'             # T
+  - 'stream2.xiancity.cn'          # T
+  - 'stream3.hljtv.com'            # T
+  - 'stream3.hndt.com'             # T
+  - 'stream3.xiancity.cn'          # T
+  - 'stream4.jlntv.cn'             # T
+  - 'stream5.jlntv.cn'             # T
+  - 'stream8.jlntv.cn'             # T
+  - 'streaming.czgd.cn'            # T
+  - 'streaming.sltv.net'           # T
+  - 'streamipcf.akamaized.net'     # T
+  - 'sxjc.chinashadt.com'          # T
+  - 'sxll.chinashadt.com'          # T
+  - 'sxlx.chinashadt.com'          # T
+  - 'sxty.chinashadt.com'          # T
+  - 'sxws.chinashadt.com'          # T
+  - 'sxxx.chinashadt.com'          # T
+  - 'tl.gscm.tv'                   # T
+  - 'tmpstream.hyrtv.cn'           # T
+  - 'tp01.videocc.net'             # T
+  - 'trtcanlitv-lh.akamaihd.net'   # T
+  - 'trts.baishancdnx.cn'          # H AE
+  - 'ts1.ijntv.cn'                 # T
+  - 'ts2.ijntv.cn'                 # T
+  - 'ts4.ijntv.cn'                 # T
+  - 'tv-hls.juyun.tv'              # T
+  - 'tv-live.ynkmit.com'           # T
+  - 'tv.cctbn.com'                 # T
+  - 'tv.cnbeijing.xyz'             # T
+  - 'tv.dzsm.com'                  # T
+  - 'tv.jrsncn.com'                # T
+  - 'tv.lanjingfm.com'             # T
+  - 'tv.nknews.org'                # T
+  - 'tv.scwlqw.cn'                 # T
+  - 'tv.zkxww.com'                 # T
+  - 'tvfile.lzgbdst.com'           # T
+  - 'tvlive.siqiangame.com'        # T
+  - 'tvlive.zmdtvw.cn'             # T
+  - 'tvpull.dxhmt.cn'              # T
+  - 'tvpull.smartwq.cn'            # T
+  - 'ubisoftconnect.eo-edgefunctions7.com'  # AE
+  - 'uni6rtmp.tulix.tv'            # T
+  - 'update.crashlytics.com'       # AD
+  - 'v.xstv.net'                   # T
+  - 'v1.one-tv.com'                # T
+  - 'vfile.cfrtv.cn'               # T
+  - 'video.dztv.tv'                # T
+  - 'video.xyxrmt.com'             # T
+  - 'vip888.kuyun99.com'           # T
+  - 'visit.jjbctv.com'             # T
+  - 'voa-lh.akamaihd.net'          # T
+  - 'vod.lsiptv.cn'                # T
+  - 'vod.qhdcm.com'                # T
+  - 'vod.scjygd.com'               # T
+  - 'vod.zzlknews.cn'              # T
+  - 'vss.cbnmtv.com'               # T
+  - 'w3.wifijiangyin.com'          # T
+  - 'wanzhoulive.cbg.cn'           # T
+  - 'wcnc-lh.akamaihd.net'         # T
+  - 'weather-lh.akamaihd.net'      # T
+  - 'web-play.pptv.com'            # T
+  - 'weblive.hebtv.com'            # T
+  - 'wosu.streamguys1.com'         # T
+  - 'wowza-stream.wbur.org'        # T
+  - 'wtmtylive.yunshicloud.com'    # T
+  - 'wuqiao.chinashadt.com'        # T
+  - 'wuwm.streamguys1.com'         # T
+  - 'www.asusrouter.com'           # F
+  - 'www.cbsnews.com'              # T
+  - 'www.filmon.com'               # T
+  - 'www.guzhenm.com'              # T
+  - 'www.pxitv.com'                # T
+  - 'www.sgmsw.cn'                 # T
+  - 'www.soundvideostar.com'       # T
+  - 'www.szmgiptv.com'             # T
+  - 'www.wxhcgbds.com'             # T
+  - 'www.ynbit.com'                # T
+  - 'www.zlnews.cn'                # T
+  - 'xhalive.qwmedia.cn'           # T
+  - 'xianfeng-live21.cjyun.org'    # T
+  - 'xiangyang-live21.cjyun.org'   # T
+  - 'xianning-live21.cjyun.org'    # T
+  - 'xiaochang-live21.cjyun.org'   # T
+  - 'xiaogan-live21.cjyun.org'     # T
+  - 'xvcf1.xboxlive.com'           # C G
+  - 'xvcf2.xboxlive.com'           # C G
+  - 'xz.pphimalayanrt.com'         # H I J AE
+  - 'yangxin-live21.cjyun.org'     # T
+  - 'yd-m-l.cztv.com'              # T
+  - 'yf-m-l.cztv.com'              # T
+  - 'yichang-live21.cjyun.org'     # T
+  - 'yidushi-live21.cjyun.org'     # T
+  - 'yixing-tv-ori-hls.jstv.com'   # T
+  - 'youku.cdn2-youku.com'         # T
+  - 'yslk.chinashadt.com'          # T
+  - 'yuanan-live21.cjyun.org'      # T
+  - 'yubeilive.cbg.cn'             # T
+  - 'yunshangdawu-live21.cjyun.org'  # T
+  - 'zb-live.ynurl.com'            # T
+  - 'zb.dehua.tv'                  # T
+  - 'zb.hezegd.com'                # T
+  - 'zb.pzhgd.com'                 # T
+  - 'zbbf2.ahbztv.com'             # T
+  - 'zbxclive.cbg.cn'              # T
+  - 'zhibo.ajbtv.com'              # T
+  - 'zhibo.hkstv.tv'               # T
+  - 'zhjz.chinashadt.com'          # T
+  - 'zhpull.dxhmt.cn'              # T
+  - 'zhxx.chinashadt.com'          # T
+  - 'zhz.gxhzxw.com'               # T
+  - 'zigui-live21.cjyun.org'       # T
+  - 'zjstyhls.tianma3600.com'      # T
+  - 'zqy-live.nanyuecloud.com'     # T
+  - 'zsxj.chinashadt.com'          # T
+  - 'zuikzy.win7i.com'             # T
+  - 'zycfcdn.gdwlcloud.com'        # T
+  - 'zzlive.zzc-media.com'         # T
+  - 'zzq12345.gearhostpreview.com'  # T
+  - '1.cache.applinzi.com'         # T
+  - '12371alic.v.myalicdn.com'     # T
+  - '14033.live.streamtheworld.com'  # T
+  - '19183.live.streamtheworld.com'  # T
+  - '1yp7hc5p.live.sxmty.com'      # T
+  - '20573.hlsplay.aodianyun.com'  # T
+  - '21084.liveplay.myqcloud.com'  # T
+  - '22283.live.streamtheworld.com'  # T
+  - '22393.live.streamtheworld.com'  # T
+  - '3017ugjo.live2.danghongyun.com'  # T
+  - '30515.hlsplay.aodianyun.com'  # T
+  - '30539.hlsplay.aodianyun.com'  # T
+  - '30814.hlsplay.aodianyun.com'  # T
+  - '31022.hlsplay.aodianyun.com'  # T
+  - '31182.hlsplay.aodianyun.com'  # T
+  - '32004.hlsplay.aodianyun.com'  # T
+  - '32553.hlsplay.aodianyun.com'  # T
+  - '33058.hlsplay.aodianyun.com'  # T
+  - '33789.hlsplay.aodianyun.com'  # T
+  - '33809.hlsplay.aodianyun.com'  # T
+  - '34253.hlsplay.aodianyun.com'  # T
+  - '34540.hlsplay.aodianyun.com'  # T
+  - '34766.hlsplay.aodianyun.com'  # T
+  - '34911.hlsplay.aodianyun.com'  # T
+  - '35848.hlsplay.aodianyun.com'  # T
+  - '35908.hlsplay.aodianyun.com'  # T
+  - '36009.hlsplay.aodianyun.com'  # T
+  - '36133.hlsplay.aodianyun.com'  # T
+  - '36221.hlsplay.aodianyun.com'  # T
+  - '36476.hlsplay.aodianyun.com'  # T
+  - '36514.hlsplay.aodianyun.com'  # T
+  - '36526.hlsplay.aodianyun.com'  # T
+  - '36941.hlsplay.aodianyun.com'  # T
+  - '36979.hlsplay.aodianyun.com'  # T
+  - '38472.hlsplay.aodianyun.com'  # T
+  - '3gvod.zjgonline.com.cn'       # T
+  - '4521.hlsplay.aodianyun.com'   # T
+  - '568slnjf.live.sxmty.com'      # T
+  - '7sycrzf7.live.sxmty.com'      # T
+  - '83awgyp5.live.sxmty.com'      # T
+  - 'a.live.hnradio.com'           # T
+  - 'ablive.abatv.com.cn'          # T
+  - 'al.hls.huya.com'              # T
+  - 'aldirect.hls.huya.com'        # T
+  - 'antvlive.ab5c6921.cdnviet.com'  # T
+  - 'aod.xjbs.com.cn'              # T
+  - 'app.moegirl.org.cn'           # Y
+  - 'baidu.live.cqccn.com'         # T
+  - 'cast.news98.com.tw'           # T
+  - 'cast.uforadio.com.tw'         # T
+  - 'cctvalih5ca.v.myalicdn.com'   # T
+  - 'cctvtxyh5ca.liveplay.myqcloud.com'  # T
+  - 'cdn-out.iqy.sc96655.com'      # T
+  - 'cdn.gdlive.gdmain.com'        # T
+  - 'cdnpull.0471tv.org.cn'        # T
+  - 'changyang.live.cjyun.org'     # T
+  - 'client.hikarifield.co.jp'     # G
+  - 'cm.wshls.homecdn.com'         # T
+  - 'cn.download.nvidia.com'       # AG
+  - 'cstv.live.wscdns.com'         # T
+  - 'cstvpull.live.wscdns.com'     # T
+  - 'ctt.rgd.com.cn'               # T
+  - 'cztv.wshls.homecdn.com'       # T
+  - 'dafeng-tv-hls.cm.jstv.com'    # T
+  - 'dbiptv.sn.chinamobile.com'    # T
+  - 'devpgclive.cmc.dyrmt.com'     # T
+  - 'dl.steam.ksyna.com'           # J
+  - 'dlhls.cdn.zhanqi.tv'          # T
+  - 'dlhls.live.cnlive.com'        # T
+  - 'donghai-tv-hls.cm.jstv.com'   # T
+  - 'dongtai-tv-hls.cm.jstv.com'   # T
+  - 'download.hikarifield.co.jp'   # C G
+  - 'embl.emsyd.jrem.cn'           # T
+  - 'enshi.live.cjyun.org'         # T
+  - 'epicgames-download1-1251447533.file.myqcloud.com'  # H AE
+  - 'ezhou.live.cjyun.org'         # T
+  - 'file.mb.leshantv.net'         # T
+  - 'file.ncntv.com.cn'            # T
+  - 'fvsln5ps.live.sxmty.com'      # T
+  - 'ganyu-tv-hls.cm.jstv.com'     # T
+  - 'gaoyou-tv-hls.cm.jstv.com'    # T
+  - 'gcalic.v.myalicdn.com'        # T
+  - 'gccncc.v.wscdns.com'          # T
+  - 'gctxyc.liveplay.myqcloud.com'  # T
+  - 'ggpagerl.live.sxmty.com'      # T
+  - 'gog-cdn-lumen.secure2.footprint.net'  # G
+  - 'gslbserv.itv.cmvideo.cn'      # T
+  - 'haian-tv-hls.cm.jstv.com'     # T
+  - 'haiyan.liveyun.hoge.cn'       # T
+  - 'hellotv-iptv.uwp.ac.cn'       # T
+  - 'hgwfkx5eb6j8bf3pd0c.exp.bcelive.com'  # T
+  - 'hls.liveshow.bdstatic.com'    # T
+  - 'hongan.live.cjyun.org'        # T
+  - 'httpdvb.slave.nx96200.cn'     # T
+  - 'httpdvb.slave.ttcatv.tv'      # T
+  - 'httpdvb.slave.yqdtv.com'      # T
+  - 'huaiyin-tv-hls.cm.jstv.com'   # T
+  - 'huanggang.live.cjyun.org'     # T
+  - 'huaweicdn.hb.chinamobile.com'  # T
+  - 'hwottcdn.ln.chinamobile.com'  # T
+  - 'hwrr.jx.chinamobile.com'      # T
+  - 'iptv.pdsu.edu.cn'             # T
+  - 'itv.ahau.edu.cn'              # T
+  - 'ivi.bupt.edu.cn'              # T
+  - 'jiawang-tv-hls.cm.jstv.com'   # T
+  - 'js.hls.huya.com'              # T
+  - 'jwcdnqx.hebyun.com.cn'        # T
+  - 'jwliveqxzb.hebyun.com.cn'     # T
+  - 'jwplay.hebyun.com.cn'         # T
+  - 'kid.hfcatv.com.cn'            # T
+  - 'ksdlive.gwpd.iqilu.com'       # T
+  - 'l2fpdktp.live.sxmty.com'      # T
+  - 'l2yx82zv.live2.danghongyun.com'  # T
+  - 'laifeng.live.cjyun.org'       # T
+  - 'lbyzztfe.live.sxmty.com'      # T
+  - 'lianshui-tv-hls.cm.jstv.com'  # T
+  - 'live-hls.ihzlh.linker.cc'     # T
+  - 'live.aikan.miguvideo.com'     # T
+  - 'live.aiyicheng.com.cn'        # T
+  - 'live.cloud.yanews.cn'         # T
+  - 'live.cms.anhuinews.com'       # T
+  - 'live.erdszs.org.cn'           # T
+  - 'live.g3proxy.lecloud.com'     # T
+  - 'live.gslb.letv.com'           # T
+  - 'live.hannews.com.cn'          # T
+  - 'live.hd.hdbs.cn'              # T
+  - 'live.jinnews.com.cn'          # T
+  - 'live.jmtv.com.cn'             # T
+  - 'live.plus.hugd.com'           # T
+  - 'live.rzw.com.cn'              # T
+  - 'live.sdetv.com.cn'            # T
+  - 'live.shaoxing.com.cn'         # T
+  - 'live.ugratv.cdnvideo.ru'      # T
+  - 'live.wxjy.com.cn'             # T
+  - 'live.xn--kprp9vt3co1csxbnw2bdmep13c3h9a.xn--55qw42g.cn'  # T
+  - 'live.zgthxw.org.cn'           # T
+  - 'live02.jxtvcn.com.cn'         # T
+  - 'live1.cloud.nbtv.cn'          # T
+  - 'live1.fhtv.net.cn'            # T
+  - 'live1.gatv.com.cn'            # T
+  - 'live1.kxm.xmtv.cn'            # T
+  - 'live1.lytv.com.cn'            # T
+  - 'live1.nty.tv189.com'          # T
+  - 'live1.plus.hugd.com'          # T
+  - 'live1.plus.wifizs.cn'         # T
+  - 'live2.gatv.com.cn'            # T
+  - 'live2.lytv.com.cn'            # T
+  - 'live2.plus.hebtv.com'         # T
+  - 'live3.nty.tv189.com'          # T
+  - 'live3.plus.hebtv.com'         # T
+  - 'live5.plus.hebtv.com'         # T
+  - 'live6.plus.hebtv.com'         # T
+  - 'live7.hbtv.com.cn'            # T
+  - 'live7.plus.hebtv.com'         # T
+  - 'livechina.cntv.wscdns.com'    # T
+  - 'livepgc.cmc.ningxiahuangheyun.com'  # T
+  - 'livewai.sdetv.com.cn'         # T
+  - 'liveyc.cmc.yuechirmt.cn'      # T
+  - 'localhost.weixin.qq.com'      # F
+  - 'luotian.live.cjyun.org'       # T
+  - 'm.m3u8.wifiwx.com'            # T
+  - 'm3u8-kd.channel.ganzitv.com'  # T
+  - 'm3u8.channel.dzsm.com'        # T
+  - 'm3u8.channel.ganzitv.com'     # T
+  - 'm3u8.channel.i0834.cn'        # T
+  - 'm3u8.channel.luzhoubs.com'    # T
+  - 'm3u8.channel.yatv.tv'         # T
+  - 'm3u8.channellive.lcbtv.com'   # T
+  - 'm3u8.file.leshantv.net'       # T
+  - 'm3u8.lschannel.yatv.tv'       # T
+  - 'm3u8.mschannel.yatv.tv'       # T
+  - 'm3u8.smchannel.yatv.tv'       # T
+  - 'm3u8.ycchannel.yatv.tv'       # T
+  - 'm3u8.yjchannel.yatv.tv'       # T
+  - 'media.hndyjyfw.gov.cn'        # T
+  - 'media.joycorp.co.kr'          # T
+  - 'mgugaklive.nowcdn.co.kr'      # T
+  - 'muspz2pi.live.sxmty.com'      # T
+  - 'n18.rcs.revma.com'            # T
+  - 'nczbpull.ncntv.com.cn'        # T
+  - 'necgokr2-724.acs.wecandeo.com'  # T
+  - 'nis.stream.publicradio.org'   # T
+  - 'open.live-web.timetv.cn'      # T
+  - 'ott.fj.chinamobile.com'       # T
+  - 'ott.js.chinamobile.com'       # T
+  - 'ottrrs.hl.chinamobile.com'    # T
+  - 'peixian-tv-hls.cm.jstv.com'   # T
+  - 'pili-live-hdl.hsyapp.sobeylingyun.com'  # T
+  - 'pili-live-hdl.zhdd.tianma3600.com'  # T
+  - 'pili-live-hls.140.i2863.com'  # T
+  - 'pili-live-hls.171.i2863.com'  # T
+  - 'pili-live-hls.212.i2863.com'  # T
+  - 'pili-live-hls.217.i2863.com'  # T
+  - 'pili-live-hls.221.i2863.com'  # T
+  - 'pili-live-hls.66.i2863.com'   # T
+  - 'pili-live-hls.ahtc.tianma3600.com'  # T
+  - 'pili-live-hls.blnews.com.cn'  # T
+  - 'pili-live-hls.cyyapp2019.sobeylive.com'  # T
+  - 'pili-live-hls.guangde.ahxmgk.com'  # T
+  - 'pili-live-hls.jhh.ddcpc.cn'   # T
+  - 'pili-live-hls.jrts.tianma3600.com'  # T
+  - 'pili-live-hls.jxxw.com.cn'    # T
+  - 'pili-live-hls.livekpdst.sobeycache.com'  # T
+  - 'pili-live-hls.livelztlj.sobeycache.com'  # T
+  - 'pili-live-hls.livewafangd.sobeycache.com'  # T
+  - 'pili-live-hls.nmgapp12019.sobeylive.com'  # T
+  - 'pili-live-hls.qnlive.appwuhan.com'  # T
+  - 'pili-live-hls.yldst.sobeylive.com'  # T
+  - 'pili-live-rtmp.143.i2863.com'  # T
+  - 'pili-live-rtmp.207.i2863.com'  # T
+  - 'pili-live-rtmp.210.i2863.com'  # T
+  - 'pili-live-rtmp.212.i2863.com'  # T
+  - 'pili-live-rtmp.56.i2863.com'  # T
+  - 'pili-live-rtmp.luan2.hfmt.net'  # T
+  - 'pili-live-rtmp.tvliving.gdmztv.com'  # T
+  - 'pili-publish.living.ksrmtzx.com'  # T
+  - 'pili-publish.yzxw.newaircloud.com'  # T
+  - 'play-dgv-xhncloud.voc.com.cn'  # T
+  - 'play.cec-tv.com.cn'           # T
+  - 'play.cytv01.cygbdst.com'      # T
+  - 'qichun.live.cjyun.org'        # T
+  - 'qmmqvzoz.live.sxmty.com'      # T
+  - 'r.gslb.lecloud.com'           # T
+  - 'res-1.cdn.office.net'         # B
+  - 'res-2.cdn.office.net'         # B
+  - 'res.cdn.office.net'           # B
+  - 'rudong-tv-hls.cm.jstv.com'    # T
+  - 'sc.rrs.169ol.com'             # T
+  - 'shuyang-tv-hls.cm.jstv.com'   # T
+  - 'sihong-tv-hls.cm.jstv.com'    # T
+  - 'siyang-tv-hls.cm.jstv.com'    # T
+  - 'slive.ytn.co.kr'              # T
+  - 'st-bak.viv.wanwang.space'     # AE
+  - 'static.hikarifield.co.jp'     # C
+  - 'steam.apac.qtlglb.com'        # C
+  - 'steam.eca.qtlglb.com'         # C G
+  - 'steam.naeu.qtlglb.com'        # C G
+  - 'steam.ru.qtlglb.com'          # C G
+  - 'steampipe.steamcontent.tnkjmec.com'  # H J
+  - 'storage.moegirl.org.cn'       # Y
+  - 'stream.fhtv.net.cn'           # T
+  - 'stream.gsqytv.com.cn'         # T
+  - 'stream.gstv.com.cn'           # T
+  - 'stream.jinhua.com.cn'         # T
+  - 'stream.jmtv.com.cn'           # T
+  - 'stream.lytv.net.cn'           # T
+  - 'stream.rcs.revma.com'         # T
+  - 'stream.rzw.com.cn'            # T
+  - 'stream.slave.jxtvnet.tv'      # T
+  - 'stream.superfm99-1.com.tw'    # T
+  - 'stream.ycgbtv.com.cn'         # T
+  - 'stream2.jinhua.com.cn'        # T
+  - 'stream2.liveyun.hoge.cn'      # T
+  - 'stream4.liveyun.hoge.cn'      # T
+  - 'streamer.ksntv.com.cn'        # T
+  - 'suining-tv-hls.cm.jstv.com'   # T
+  - 'suizhou.source.cjyun.org'     # T
+  - 'taishun.news01.yunshanit.com'  # T
+  - 'test5.btzx.com.cn'            # T
+  - 'traffic.jbh.tjbh.com'         # T
+  - 'tv.drs.dzxw.net'              # T
+  - 'tv.drs.ganzitv.com'           # T
+  - 'tv.drs.hhtv.cc'               # T
+  - 'tv.drs.lzgbdst.com'           # T
+  - 'tv.jlu.edu.cn'                # T
+  - 'tv.pull.hebtv.com'            # T
+  - 'tv.uwp.ac.cn'                 # T
+  - 'tvdrs.wsrtv.com.cn'           # T
+  - 'tvfile.jjrm.org.cn'           # T
+  - 'tvfile.mcrm.org.cn'           # T
+  - 'tx.hls.huya.com'              # T
+  - 'txdirect.hls.huya.com'        # T
+  - 'ucdn.sd.chinamobile.com'      # T
+  - 'v.btzx.com.cn'                # T
+  - 'video.hannews.com.cn'         # T
+  - 'w1.livecdn.yicai.com'         # T
+  - 'womlive.cloud.wo.cn'          # T
+  - 'wowza.montevideo.com.uy'      # T
+  - 'wowza.ner.gov.tw'             # T
+  - 'wpc.124ce.sigmacdn.net'       # T
+  - 'wshls.live.migucloud.com'     # T
+  - 'wuxue.live.cjyun.org'         # T
+  - 'www.nxtv.com.cn'              # T
+  - 'www.thtv.org.cn'              # T
+  - 'www.ycen.com.cn'              # T
+  - 'xiangyang.live.cjyun.org'     # T
+  - 'xianning.live.cjyun.org'      # T
+  - 'xiaochang.live.cjyun.org'     # T
+  - 'xiaogan.live.cjyun.org'       # T
+  - 'xinl.live.maxtv.cn'           # T
+  - 'xjlive.xjsc.gov.cn'           # T
+  - 'xkmspyxn.live.sxmty.com'      # T
+  - 'xuanen.live.cjyun.org'        # T
+  - 'yandu-tv-hls.cm.jstv.com'     # T
+  - 'yangzhong-tv-hls.cm.jstv.com'  # T
+  - 'yiling.live.cjyun.org'        # T
+  - 'yingcheng.live.cjyun.org'     # T
+  - 'yizheng-tv-hls.cm.jstv.com'   # T
+  - 'yunshangyunmeng.live.cjyun.org'  # T
+  - 'ywotttv.bj.chinamobile.com'   # T
+  - 'zhongxiang.live.cjyun.org'    # T
+  - 'zigui.live.cjyun.org'         # T
+  - 'zv.3gv.ifeng.com'             # T
+  - '6.mms.vlog.xuite.net'         # T
+  - 'aljazeera-eng-hd-live.hls.adaptive.level3.net'  # T
+  - 'amdlive-ch01.ctnd.com.edgesuite.net'  # T
+  - 'amdlive-ch03.ctnd.com.edgesuite.net'  # T
+  - 'amdlive.ctnd.com.edgesuite.net'  # T
+  - 'b.ds.ch.dingtoo.com'          # T
+  - 'blizzard.gcdn.cloudn.co.kr'   # C G
+  - 'blzdist-d3.necdn.leihuo.netease.com'  # AE
+  - 'blzdist-di.necdn.leihuo.netease.com'  # AE
+  - 'blzdist-hs.necdn.leihuo.netease.com'  # AE
+  - 'blzdist-ow.necdn.leihuo.netease.com'  # AE
+  - 'blzdist-phx.necdn.leihuo.netease.com'  # AE
+  - 'blzdist-wow.necdn.leihuo.netease.com'  # AE
+  - 'cctv1.vtime.cntv.dnion.com'   # T
+  - 'cctv13.vtime.cntv.dnion.com'  # T
+  - 'dayeyun.live.tempsource.cjyun.org'  # T
+  - 'edge.music-choice-play-chaina1.top.comcast.net'  # T
+  - 'edge.steam-dns.top.comcast.net'  # C G
+  - 'flv.drs.tv.yatv.tv'           # T
+  - 'gcbsc.v.live.baishancdnx.cn'  # T
+  - 'gslbmeiah.cdn.hk.chinamobile.com'  # T
+  - 'guangshui.live.tempsource.cjyun.org'  # T
+  - 'hefeng.live.tempsource.cjyun.org'  # T
+  - 'hms24nc1972679559.live.aikan.miguvideo.com'  # T
+  - 'hms363nc1880172761.live.aikan.miguvideo.com'  # T
+  - 'httpdvb.slave.bfgd.com.cn'    # T
+  - 'httpdvb.slave.homed.hrtn.net'  # T
+  - 'jiayu.live.tempsource.cjyun.org'  # T
+  - 'keonline.shanghai.liveplay.qq.com'  # T
+  - 'lichuan.live.tempsource.cjyun.org'  # T
+  - 'live.plus.jinhua.com.cn'      # T
+  - 'live2.plus.jinhua.com.cn'     # T
+  - 'livecdn.pull.cdbs.com.cn'     # T
+  - 'local.live.jxtvcn.com.cn'     # T
+  - 'localhost.work.weixin.qq.com'  # F
+  - 'm-tvlmedia.public.bcs.ysten.com'  # T
+  - 'm3u8.channel.wsrtv.com.cn'    # T
+  - 'pili-live-hls.lyzx.live.chinacici.cn'  # T
+  - 'pili-live-hls.poyang.jxxw.com.cn'  # T
+  - 'pl1.cloud.dayang.com.cn'      # T
+  - 'res-h3.public.cdn.office.net'  # B
+  - 'shbu.live.bestvcdn.com.cn'    # T
+  - 'statics.teams.cdn.office.net'  # B
+  - 'store.ovp.wsrtv.com.cn'       # T
+  - 'teamviewer.com.cdn.cloudflare.net'  # Q
+  - 'tvfile.jy.lsrm.org.cn'        # T
+  - 'tvfile.mb.lsrm.org.cn'        # T
+  - 'tvfile.sw.lsrm.org.cn'        # T
+  - 'tx.liveplay.live.kugou.com'   # T
+  - 'uplaypc-s-ubisoft.cdn.ubionline.com.cn'  # G H AE
+  - 'wshdl.load.cdn.zhanqi.tv'     # T
+  - 'yf.m.l.cztv.com'              # T
+  - 'yunshangdawu.live.tempsource.cjyun.org'  # T
+  - 'bst.broadcast.live.bestvcdn.com.cn'  # T
+  - 'e1.vdowowza.vip.hk1.tvb.com'  # T
+  - 'hwltc.tv.cdn.zj.chinamobile.com'  # T
+  - 'starfish.bj.aliyun.001.qingting.fm'  # T
+  - 'starfish.bj.aliyun.002.qingting.fm'  # T
+  - 'starfish.bj.aliyun.005.qingting.fm'  # T
+  - 'starfish.bj.aliyun.006.qingting.fm'  # T
+  - 'starfish.bj.aliyun.007.qingting.fm'  # T
+  - 'starfish.hz.aliyun.005.qingting.fm'  # T
+  - 'starfish.hz.aliyun.006.qingting.fm'  # T
+  - 'starfish.hz.aliyun.007.qingting.fm'  # T
+  - 'starfish.qd.aliyun.001.qingting.fm'  # T
+  - 'starfish.qd.aliyun.005.qingting.fm'  # T
+  - 'gs.hdp.ds.lunbocl.ott.cibntv.net'  # T
+  - '7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe'  # B C D E

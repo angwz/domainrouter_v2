@@ -1,0 +1,1174 @@
+# NAME: Bilibili
+# GROUP: 📺 哔哩哔哩
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 1161
+# SOURCE A: MetaCubeX · geosite/bilibili.yaml
+# SOURCE B: blackmatrix7 · BiliBili/BiliBili.list
+# SOURCE C: MetaCubeX · geosite/biliintl.yaml
+# SOURCE D: blackmatrix7 · DouYin/DouYin.list
+# SOURCE E: MetaCubeX · geosite/bytedance.yaml
+# SOURCE F: blackmatrix7 · ByteDance/ByteDance.list
+payload:
+  - '+.2333333333333.com'     # F
+  - '+.365yg.com'             # E F
+  - '+.99uri.cn'              # E
+  - '+.99uri.com'             # E
+  - '+.acg.tv'                # A B
+  - '+.acgvideo.com'          # A B
+  - '+.activity-dy.com'       # E
+  - '+.activity-wbsj.com'     # E
+  - '+.activity-zhendingtech.com'  # E F
+  - '+.activity01.com'        # E
+  - '+.activity02.com'        # E
+  - '+.activity03.com'        # E
+  - '+.activity04.com'        # E
+  - '+.activity05.com'        # E
+  - '+.activitybyte.com'      # E F
+  - '+.ai-guardrail.com'      # E
+  - '+.ai-kaleidoscope.com'   # E
+  - '+.aigc-cloud.com'        # E
+  - '+.aigcarena.com'         # F
+  - '+.aihst8.com'            # E F
+  - '+.aka815.net'            # E
+  - '+.ali-api-test.net'      # E
+  - '+.ali-gtm-01.net'        # E
+  - '+.ali-gtm-pressure.com'  # E
+  - '+.ali-restore.net'       # E
+  - '+.amemv.cn'              # E F
+  - '+.amemv.com'             # D E F
+  - '+.amemv.net'             # E F
+  - '+.animetamashi.cn'       # A B
+  - '+.animetamashi.com'      # A B
+  - '+.anitama.cn'            # A B
+  - '+.anitama.net'           # A B
+  - '+.anycross.com'          # E
+  - '+.api-building.fun'      # E
+  - '+.applogcdn.com'         # E
+  - '+.arco.design'           # E
+  - '+.ark-doc-resources.cn'  # E
+  - '+.artistrylab.net'       # F
+  - '+.auto-validation.com'   # E
+  - '+.awemeughun.com'        # E
+  - '+.awemeuglang.com'       # E
+  - '+.awemeugsoul.com'       # E
+  - '+.awemeugwave.com'       # E
+  - '+.b23.tv'                # A B
+  - '+.baike.com'             # E F
+  - '+.baikevod.com'          # E
+  - '+.baka.im'               # B
+  - '+.baseopendev.com'       # E
+  - '+.bcy.net'               # F
+  - '+.bcyimg.com'            # F
+  - '+.bdactivity.com'        # E F
+  - '+.bdcglb.com'            # E
+  - '+.bdcgslb.com'           # E
+  - '+.bdcgtm.com'            # E
+  - '+.bdeglb.com'            # E
+  - '+.bdegnine.com'          # E
+  - '+.bdegslb.com'           # E
+  - '+.bdegtm.com'            # E
+  - '+.bdgslb.com'            # E F
+  - '+.bdispatch.com'         # E
+  - '+.bdispatch.net'         # E
+  - '+.bdns-api-test.net'     # E
+  - '+.bdns-boe.com'          # E
+  - '+.bdns-boe.net'          # E
+  - '+.bdns-gtm-01.net'       # E
+  - '+.bdns-gtm-pressure.com'  # E
+  - '+.bdns-restore.net'      # E
+  - '+.bdns-test.com'         # E
+  - '+.bdns-test.net'         # E
+  - '+.bdppe.net'             # E
+  - '+.bdsagslb.com'          # E
+  - '+.bdsagslbtest.com'      # E
+  - '+.bdurl.net'             # F  覆盖 +.dig.bdurl.net E
+  - '+.bdxiguaimg.com'        # E F
+  - '+.bdxigualive.com'       # E
+  - '+.bdxiguastatic.com'     # E F
+  - '+.bdxiguavod.com'        # E F
+  - '+.bdzjdsagslb.com'       # E
+  - '+.betaband.net'          # E
+  - '+.betadance.net'         # E
+  - '+.betastar.cn'           # E F
+  - '+.bfcdnbf.com'           # E
+  - '+.bfcdnrd.com'           # E
+  - '+.bfcdnsc.com'           # E
+  - '+.bhgslb.com'            # E
+  - '+.bhgtm.com'             # E
+  - '+.bigfun.cn'             # A B
+  - '+.bigfunapp.cn'          # A B
+  - '+.bili22.cn'             # A B
+  - '+.bili2233.cn'           # A B
+  - '+.bili23.cn'             # A B
+  - '+.bili33.cn'             # A B
+  - '+.biliapi.com'           # A B
+  - '+.biliapi.net'           # A B  覆盖 +.apm-misaka.biliapi.net C
+  - '+.bilibili.cc'           # A B
+  - '+.bilibili.cn'           # A B
+  - '+.bilibili.co'           # B
+  - '+.bilibili.com'          # A B  覆盖 +.api.global.bilibili.com C, +.app.global.bilibili.com C
+  - '+.bilibili.net'          # A B
+  - '+.bilibili.tv'           # A B C
+  - '+.bilibiligame.cn'       # A B
+  - '+.bilibiligame.co'       # A B
+  - '+.bilibiligame.net'      # A B
+  - '+.bilibilipay.cn'        # A B
+  - '+.bilibilipay.com'       # A B
+  - '+.bilicdn1.com'          # A B
+  - '+.bilicdn2.com'          # A B
+  - '+.bilicdn3.com'          # A B
+  - '+.bilicdn4.com'          # A B
+  - '+.bilicdn5.com'          # A B
+  - '+.bilicomic.com'         # A
+  - '+.bilicomics.com'        # A B
+  - '+.biligame.cn'           # B
+  - '+.biligame.co'           # A B
+  - '+.biligame.com'          # A B
+  - '+.biligame.net'          # A B
+  - '+.biligo.com'            # A B
+  - '+.biliimg.com'           # A B
+  - '+.biliintl.co'           # B
+  - '+.biliintl.com'          # A B C
+  - '+.biliplus.com'          # B
+  - '+.bilivideo.cn'          # A B
+  - '+.bilivideo.com'         # A B  覆盖 +.upos-sz-mirroralibstar1.bilivideo.com C, +.upos-sz-mirrorcosbstar1.bilivideo.com C
+  - '+.bilivideo.net'         # A B
+  - '+.blmpb.com'             # E
+  - '+.boxdouyin.com'         # E
+  - '+.bpgslbcn.com'          # E
+  - '+.bpigagtm.com'          # E
+  - '+.bpigagtm.net'          # E
+  - '+.bplslb.com'            # E
+  - '+.bpltm.com'             # E
+  - '+.bqtalk.com'            # F
+  - '+.bstarstatic.com'       # C  覆盖 p.bstarstatic.com B
+  - '+.building.fun'          # E
+  - '+.butterfly-static.cn'   # E
+  - '+.butterflyai.cn'        # E
+  - '+.buydouke.com'          # E F
+  - '+.bvfcdn.com'            # E
+  - '+.bvfcdn2.com'           # E
+  - '+.bvfcdn3.com'           # E
+  - '+.bvglb.com'             # E
+  - '+.bvgslb.com'            # E
+  - '+.bvgtm.com'             # E
+  - '+.bx0byte.com'           # E
+  - '+.byte-dns.com'          # E
+  - '+.byte-dns.net'          # E
+  - '+.byte-edge.com'         # E
+  - '+.byte-edgeworker.com'   # E
+  - '+.byte-gslb.com'         # E
+  - '+.byte-test.cn'          # E
+  - '+.byte-test.com'         # E
+  - '+.byte-test.net'         # E
+  - '+.byte-ticket.com'       # F
+  - '+.byte00.com'            # E
+  - '+.byte00.net'            # E
+  - '+.byte000.com'           # E
+  - '+.byte008.com'           # E
+  - '+.byte7bw.net'           # E
+  - '+.byteac.com'            # E F
+  - '+.byteacct.com'          # E
+  - '+.byteacctimg.com'       # E
+  - '+.byteactivity.com'      # E F
+  - '+.byteactivity11.com'    # E
+  - '+.byteactivity12.com'    # E
+  - '+.byteactivity13.com'    # E
+  - '+.byteactivity14.com'    # E
+  - '+.byteactivity15.com'    # E
+  - '+.byteactivity16.com'    # E
+  - '+.byteadverts.com'       # E
+  - '+.byteapi.com'           # E
+  - '+.byteapk.cn'            # F
+  - '+.byteapk.com'           # F
+  - '+.bytecdn.cn'            # E F
+  - '+.bytecdn.com'           # E F
+  - '+.bytecdn.net'           # E
+  - '+.bytecdntp.com'         # E F
+  - '+.bytecimg.com'          # E
+  - '+.bytecloud.com'         # E
+  - '+.byted-dast.com'        # E
+  - '+.byted-edu.com'         # E
+  - '+.byted-static.com'      # E F
+  - '+.byted-ug.com'          # E
+  - '+.byted.org'             # E F
+  - '+.bytedance-boe.net'     # E
+  - '+.bytedance.cn'          # E F
+  - '+.bytedance.com'         # E F
+  - '+.bytedance.net'         # E F
+  - '+.bytedance.org'         # E F
+  - '+.bytedanceapi.com'      # E F
+  - '+.bytedancehermestest.com'  # E
+  - '+.bytedanceoss.net'      # F
+  - '+.bytedancevod.com'      # F
+  - '+.bytedapm.com'          # E
+  - '+.bytedcdn.com'          # E
+  - '+.bytedeliver.com'       # E
+  - '+.bytedgames.com'        # E
+  - '+.bytedns.com'           # E
+  - '+.bytedns.net'           # E F
+  - '+.bytedns1.com'          # E F
+  - '+.bytedns2.com'          # E F
+  - '+.bytedns3.com'          # E
+  - '+.bytedns4.com'          # E
+  - '+.bytedns5.com'          # E
+  - '+.bytedns6.com'          # E
+  - '+.bytedns7.com'          # E
+  - '+.bytednsdoc.com'        # E F  覆盖 lf3-static.bytednsdoc.com D
+  - '+.bytedsocial.com'       # E
+  - '+.byteeffecttos.com'     # F
+  - '+.bytefae.com'           # E
+  - '+.bytefast.net'          # E
+  - '+.bytefcdn.com'          # E F
+  - '+.bytefcdnrd-tob.com'    # E
+  - '+.bytefcdnrd.com'        # E F
+  - '+.bytegecko.com'         # E F
+  - '+.bytegeckoext.com'      # E
+  - '+.byteglb.com'           # E
+  - '+.bytegoofy.com'         # E F
+  - '+.bytegqpo.net'          # E
+  - '+.bytegrowth.com'        # E
+  - '+.bytegslb.com'          # E F
+  - '+.bytehiservice.com'     # E
+  - '+.bytehouse.cn'          # E
+  - '+.bytehwm.com'           # E F
+  - '+.byteics.com'           # E
+  - '+.byteics.net'           # E
+  - '+.byteimg.com'           # E F  覆盖 p1-juejin.byteimg.com E, p2-juejin.byteimg.com E 等 14 条
+  - '+.byteimgc.com'          # E
+  - '+.byteinspire.cn'        # E
+  - '+.byteinspire.com'       # E
+  - '+.byteintl.net'          # E
+  - '+.bytelb.com'            # E
+  - '+.bytelb.net'            # E F
+  - '+.bytelb000.net'         # E
+  - '+.bytelove.cn'           # F
+  - '+.bytemaimg.com'         # E F
+  - '+.bytemastatic.com'      # E
+  - '+.bytemedi.com'          # E
+  - '+.bytenewst.com'         # E
+  - '+.byteoc.com'            # E
+  - '+.byteorg.com'           # E
+  - '+.byteorge.com'          # E
+  - '+.byteoversea.com'       # E
+  - '+.byteoversea.net'       # E
+  - '+.byteplus-api-test.com'  # E
+  - '+.byteplusapi-test.com'  # E
+  - '+.bytepluses-test.com'   # E
+  - '+.bytepluspcs-test.com'  # E
+  - '+.byteq5k.com'           # E
+  - '+.byteq8u.net'           # E
+  - '+.bytertcmedia.com'      # E
+  - '+.bytescm.com'           # E F
+  - '+.bytesfield.com'        # F
+  - '+.bytesmanager.com'      # F
+  - '+.bytespeech.com'        # E
+  - '+.bytesslb.net'          # E
+  - '+.bytesyscdn.com'        # F
+  - '+.bytetcc.com'           # E F
+  - '+.bytetech.info'         # E
+  - '+.bytetos.com'           # E F
+  - '+.bytetraffic.net'       # E
+  - '+.bytetstatic.com'       # E
+  - '+.bytetstatic.net'       # E
+  - '+.byteurl.cn'            # E F
+  - '+.bytevalk.com'          # E
+  - '+.bytevcloudapi.com'     # E
+  - '+.bytevcloudvod.com'     # E
+  - '+.bytevdn-boe.com'       # E
+  - '+.bytevdn.com'           # E
+  - '+.bytewebservice.com'    # E
+  - '+.bytexns.cn'            # E
+  - '+.bytexns.com'           # E
+  - '+.bytexns.net'           # E
+  - '+.bytexopen.com'         # E
+  - '+.bytexservice.com'      # E F
+  - '+.cache4ever.com'        # E
+  - '+.cache666.com'          # E
+  - '+.capcut.cn'             # E
+  - '+.capcut.com'            # E
+  - '+.capcutcdn-us.com'      # E
+  - '+.capturetheflag.fun'    # F
+  - '+.cdn-build.com'         # F
+  - '+.cdn-build.net'         # F
+  - '+.cdnbuild.com'          # E
+  - '+.cdnbuild.net'          # E
+  - '+.cdndns1.com'           # E F
+  - '+.cdndns2.com'           # E F
+  - '+.celersyn.com'          # E
+  - '+.changdunovel.com'      # E F
+  - '+.cici.com'              # E
+  - '+.ciciai.com'            # E
+  - '+.ciciaicdn.com'         # E
+  - '+.clawhub-mirror.com'    # E
+  - '+.clawhubmirror.com'     # E
+  - '+.clawsentry.cn'         # E
+  - '+.cloudendpoint.cn'      # E
+  - '+.commonpcs-test.com'    # E
+  - '+.commonpcs.com'         # E
+  - '+.cookicut.com'          # E F
+  - '+.corari.com'            # B
+  - '+.coze-dns-01.com'       # E
+  - '+.coze.cn'               # E
+  - '+.coze.com'              # E
+  - '+.coze.email'            # E
+  - '+.coze.site'             # E
+  - '+.cozeapp.net'           # E
+  - '+.cozebaas.cn'           # E
+  - '+.cozebuild.com'         # E
+  - '+.cozecdn.com'           # E
+  - '+.cozedeploy.com'        # E
+  - '+.cozefn.cn'             # E
+  - '+.cozeide.cn'            # E
+  - '+.cozesdk.com'           # E
+  - '+.cozetest.cn'           # E
+  - '+.cozetest2.cn'          # E
+  - '+.cozetest3.cn'          # E
+  - '+.csjplatform.com'       # E F
+  - '+.ctobsnssdk.com'        # E
+  - '+.dailygn.com'           # E F
+  - '+.datawindexmarket.com'  # E
+  - '+.dbbuilding.fun'        # E
+  - '+.dcarapi.com'           # E F
+  - '+.dcarimg.com'           # E F
+  - '+.dcarlive.com'          # E F
+  - '+.dcarstatic.com'        # E F
+  - '+.dcarvod.com'           # E F
+  - '+.dcdapp.com'            # E F
+  - '+.dola.com'              # E
+  - '+.dongchedi.com'         # E F
+  - '+.dongchediapp.com'      # E F
+  - '+.dou.top'               # F
+  - '+.doubao-dev.com'        # E
+  - '+.doubao.cn'             # F
+  - '+.doubao.com'            # E F
+  - '+.doubaoapps.com'        # E
+  - '+.doubaocdn.com'         # E
+  - '+.doubo03.com'           # E
+  - '+.doudou.com'            # E
+  - '+.douyin.com'            # E F
+  - '+.douyinact.com'         # E F
+  - '+.douyinact.net'         # E F
+  - '+.douyincdn.com'         # D E F
+  - '+.douyinclips.com'       # F
+  - '+.douyincloud.net'       # E
+  - '+.douyincloud.run'       # E
+  - '+.douyinec.com'          # E F
+  - '+.douyinfe.com'          # E
+  - '+.douyinhanyu.com'       # F
+  - '+.douyinliving.com'      # E F
+  - '+.douyinmusicclips.com'  # F
+  - '+.douyinmusicpromotion.com'  # E
+  - '+.douyinmusicvideo.com'  # F
+  - '+.douyinpay.com'         # E
+  - '+.douyinpic.com'         # D E F
+  - '+.douyinshortvideo.com'  # F
+  - '+.douyinstatic.com'      # D E F
+  - '+.douyinvideo.net'       # F
+  - '+.douyinvod.com'         # D E F
+  - '+.draftstatic.com'       # E
+  - '+.dreamcast.hk'          # A B
+  - '+.druid.vip'             # E
+  - '+.duoshan.com'           # E
+  - '+.dycloud.run'           # E
+  - '+.dycloudbk.com'         # E
+  - '+.dyhgames.com'          # B
+  - '+.dymusictape.com'       # F
+  - '+.dymusicvideo.com'      # F
+  - '+.dyshortvideo.com'      # F
+  - '+.dyvideotape.com'       # F
+  - '+.ecom-lightapp.com'     # F
+  - '+.ecombdapi.com'         # E F
+  - '+.ecombdimg.com'         # E F
+  - '+.ecombdstatic.com'      # E F
+  - '+.ecombdvod.com'         # E F
+  - '+.edge-byted.com'        # E
+  - '+.edgeceler.com'         # E
+  - '+.emr-volces.com'        # E
+  - '+.faceu.com'             # E F
+  - '+.faceu.mobi'            # E F
+  - '+.faceu.net'             # F
+  - '+.falconsending.com'     # E
+  - '+.fanqiecopyright.com'   # E F
+  - '+.fanqienovel.com'       # E
+  - '+.fanqieopen.com'        # E F
+  - '+.fanqieopenpic.com'     # E F
+  - '+.fanqieopenstatic.com'  # E F
+  - '+.fanqieopenvod.com'     # E F
+  - '+.fanqiesdk.com'         # E F
+  - '+.fanqiesdkpic.com'      # E F
+  - '+.fanqiesdkstatic.com'   # E F
+  - '+.fanqiesdkvod.com'      # E F
+  - '+.fedlearner.net'        # E
+  - '+.feelgood.cn'           # E F
+  - '+.fei-shu.cn'            # E
+  - '+.feilian.cn'            # E
+  - '+.feiliao.com'           # F
+  - '+.feishu-3rd-party-services.com'  # E
+  - '+.feishu-boe.net'        # E
+  - '+.feishu-customer.cn'    # E
+  - '+.feishu-pre.cn'         # E
+  - '+.feishu-pre.net'        # E
+  - '+.feishu-psc.cn'         # E
+  - '+.feishu-staging.cn'     # E
+  - '+.feishu.cn'             # E F
+  - '+.feishu.net'            # E
+  - '+.feishuapp-cdn.net'     # E
+  - '+.feishuapp.cn'          # E
+  - '+.feishuapp.com'         # E
+  - '+.feishucdn.com'         # E F
+  - '+.feishudoc.cn'          # E
+  - '+.feishudoc.com'         # E
+  - '+.feishuhuiyi.cn'        # E
+  - '+.feishuhuiyi.com'       # E
+  - '+.feishuimg-boe.com'     # E
+  - '+.feishuimg-pre.com'     # E
+  - '+.feishuimg.com'         # E
+  - '+.feishukacdn.com'       # E
+  - '+.feishumeetings.cn'     # E
+  - '+.feishumeetings.com'    # E
+  - '+.feishuoffice.cn'       # E
+  - '+.feishuoffice.com'      # E
+  - '+.feishuopenplatformrecord.com'  # E
+  - '+.feishupkg.com'         # E
+  - '+.feishustatus.cn'       # E
+  - '+.feishuvc.cn'           # E
+  - '+.feishuvc.com'          # E
+  - '+.findskill.com'         # E
+  - '+.flgff.cn'              # E
+  - '+.fqnovel-op.com'        # E F
+  - '+.fqnovel.com'           # E F  覆盖 log3-applog-hl.fqnovel.com E, log3-applog.fqnovel.com E 等 8 条
+  - '+.fqnovelim.com'         # E F
+  - '+.fqnovelop.com'         # E F
+  - '+.fqnovelpic.com'        # E F
+  - '+.fqnovelstatic.com'     # E F
+  - '+.fqnovelvod.com'        # E F
+  - '+.fqopenplatform.com'    # E
+  - '+.fullluckcalendar.com'  # F
+  - '+.gcloudcache.com'       # E
+  - '+.getfeishu.cn'          # E
+  - '+.getfeishu.com'         # E
+  - '+.getsays.cn'            # E
+  - '+.getsays.com'           # E
+  - '+.gifshow.com'           # F
+  - '+.gogokid.com'           # E F
+  - '+.goodluckcalendar.com'  # F
+  - '+.goofy-edge.cn'         # F
+  - '+.gslbdns.com'           # E
+  - '+.gslbdns.net'           # E
+  - '+.haimian.com'           # E
+  - '+.hapierxia.com'         # E
+  - '+.hapipixia.com'         # E
+  - '+.hapiyixia.com'         # E
+  - '+.hdslb.com'             # A B
+  - '+.hdslb.net'             # B
+  - '+.hdslb.org'             # A B
+  - '+.healthybaike.com'      # F
+  - '+.heycan.com'            # F
+  - '+.hi-butterfly.cn'       # E
+  - '+.hijackorg.net'         # F
+  - '+.hotsoonapp.cn'         # F
+  - '+.hotsoonapp.com'        # F
+  - '+.hotsoonapp.net'        # F
+  - '+.hotsoonvideo.cn'       # F
+  - '+.hotsoonvideo.com'      # F
+  - '+.hotsoonvideo.net'      # F
+  - '+.hotsoonzb.cn'          # F
+  - '+.hotsoonzb.com'         # F
+  - '+.hotsoonzb.net'         # F
+  - '+.hsz71.cn'              # E
+  - '+.huasheng.cn'           # A
+  - '+.huaxiong.com'          # E F
+  - '+.huoshan.com'           # E F
+  - '+.huoshancdn.com'        # E F
+  - '+.huoshanfake.com'       # E
+  - '+.huoshangroup.com'      # E F
+  - '+.huoshanimg.com'        # E F
+  - '+.huoshanlive.com'       # E F
+  - '+.huoshanparty.com'      # E F
+  - '+.huoshanstatic.com'     # E F
+  - '+.huoshante8.com'        # E F
+  - '+.huoshanvideo.cn'       # E F
+  - '+.huoshanvideo.net'      # E F
+  - '+.huoshanvod.com'        # E F
+  - '+.huoshanxiaoshipin.cn'  # E F
+  - '+.huoshanxiaoshipin.net'  # E F
+  - '+.huoshanzhibo.cn'       # E F
+  - '+.huoshanzhibo.com'      # E F
+  - '+.huoshanzhibo.net'      # E F
+  - '+.hypercachenet.com'     # E
+  - '+.hypercachenode.com'    # E
+  - '+.ibdxiguaimg.com'       # E
+  - '+.ibdxigualive.com'      # E
+  - '+.ibdxiguastatic.com'    # E
+  - '+.ibdxiguavod.com'       # E
+  - '+.ibytedapm.com'         # E F
+  - '+.ibytedtos.com'         # E
+  - '+.ibyteimg.com'          # E  覆盖 p16-tiktok-dm-sticker-sign-sg.ibyteimg.com E
+  - '+.ibytepluses-test.com'  # E
+  - '+.iccvlog.com'           # E
+  - '+.icphoto.cn'            # E F
+  - '+.idouyinliving.com'     # E
+  - '+.idouyinpic.com'        # E F
+  - '+.idouyinstatic.com'     # E F
+  - '+.idouyinvod.com'        # D E F
+  - '+.iesdouyin.com'         # E F
+  - '+.iesdouyin.net'         # E F
+  - '+.ieshs.cn'              # F
+  - '+.ieshs.com'             # F
+  - '+.ieshs.net'             # F
+  - '+.ieshuodong.cn'         # E F
+  - '+.ieshuodong.net'        # E F
+  - '+.ieshuoshan.cn'         # F
+  - '+.ieshuoshan.com'        # F
+  - '+.ieshuoshan.net'        # F
+  - '+.ifeilian.cn'           # E
+  - '+.ifeilian.com'          # E
+  - '+.iga-pages.com'         # E
+  - '+.ihaohaoxuexi.com'      # E F
+  - '+.ihst8.com'             # E F
+  - '+.ihuoshanimg.com'       # E F
+  - '+.ihuoshanlive.com'      # E
+  - '+.ihuoshanstatic.com'    # E
+  - '+.ihuoshanvod.com'       # E F
+  - '+.iluckysf.net'          # E
+  - '+.im9.com'               # A B
+  - '+.inluckcalendar.com'    # F
+  - '+.inspirecloud.cn'       # E
+  - '+.inspirecloud.com'      # E
+  - '+.instreet.com'          # E
+  - '+.isealsuite.com'        # E
+  - '+.itmanager.club'        # E
+  - '+.itoutiaoliving.com'    # E
+  - '+.ivolces-test.com'      # E
+  - '+.ivolces.cn'            # E
+  - '+.ivolces.com'           # E
+  - '+.ixgvideo.com'          # E F
+  - '+.ixigua.com'            # D E F
+  - '+.ixiguavideo.com'       # D E F
+  - '+.jianying.com'          # E
+  - '+.jimeng.com'            # E
+  - '+.jinritemai-inc.com'    # F
+  - '+.jinritemai.com'        # E F
+  - '+.jinritoutiao.com'      # F
+  - '+.jiyi.biz'              # F
+  - '+.jiyi.top'              # F
+  - '+.jiyunhudong.cn'        # F
+  - '+.jiyunhudong.com'       # F
+  - '+.jiyunhudong.net'       # F
+  - '+.jokecommunity.cn'      # E F
+  - '+.jokecommunity.com'     # E F
+  - '+.jokecommunity.net'     # E F
+  - '+.jstti.com'             # E F
+  - '+.jtamac.com'            # E F
+  - '+.juejin.cn'             # E F
+  - '+.juejin.im'             # E F
+  - '+.juliangyinqing.cn'     # F
+  - '+.juliangyinqing.com'    # F
+  - '+.juliangyinqing.net'    # F
+  - '+.juneyaotravelvolc.com'  # E
+  - '+.kesong.co'             # E
+  - '+.kfcbest.com'           # E
+  - '+.knightedge.com'        # F
+  - '+.kolbuyer.cn'           # E F
+  - '+.kspkg.com'             # F
+  - '+.kuailepipixia.com'     # E
+  - '+.kych5.com'             # E
+  - '+.lackvc.cn'             # E
+  - '+.lark-passport-qa-sg.net'  # E
+  - '+.lark.cn'               # E
+  - '+.larkcloud.com'         # E
+  - '+.larkcloud.net'         # E
+  - '+.larkfn.com'            # E
+  - '+.larkmeetings.cn'       # E
+  - '+.larkmeetings.com'      # E
+  - '+.larkoffice.com'        # E
+  - '+.larkofficeapp-boe.com'  # E
+  - '+.larkofficeapp-pre.com'  # E
+  - '+.larkofficeapp.com'     # E
+  - '+.larkofficeboe.com'     # E
+  - '+.larkofficecdn.com'     # E
+  - '+.larkofficeimg.com'     # E
+  - '+.larkofficepkg.com'     # E
+  - '+.larkofficepre.com'     # E
+  - '+.larkrooms.cn'          # E
+  - '+.larkrooms.com'         # E
+  - '+.larksuite-pre.com'     # E
+  - '+.larksuite.com'         # E F
+  - '+.larksuitecdn.com'      # E F
+  - '+.larksuiteimg-boe.com'  # E
+  - '+.larksuiteimg-pre.com'  # E
+  - '+.larksuiteimg.com'      # E
+  - '+.larkvc.com'            # E
+  - '+.letsign.com'           # E
+  - '+.lifexue.com'           # E
+  - '+.lingovalley-cdn.cn'    # F
+  - '+.livecdnstatic.com'     # E
+  - '+.livesaascdn.com'       # E
+  - '+.livesaasvolccdn.com'   # E
+  - '+.local-ip.online'       # E
+  - '+.luckforcalendar.com'   # F
+  - '+.luckincalendar.com'    # F
+  - '+.luckycalendar.cn'      # F
+  - '+.luckysf.net'           # E
+  - '+.maidouke.com'          # F
+  - '+.maoer.com'             # A
+  - '+.maoercdn.com'          # A B
+  - '+.maoxiangai.com'        # E
+  - '+.marscode.cn'           # E F
+  - '+.marscode.com'          # E
+  - '+.mcbaas.work'           # E
+  - '+.mcbbs.net'             # B
+  - '+.mcdemo.show'           # E
+  - '+.mchost.guru'           # E
+  - '+.mcprev.cn'             # E
+  - '+.mediaainet.com'        # E
+  - '+.meegobeta.com'         # E
+  - '+.mincdn.com'            # A B
+  - '+.missevan.com'          # A
+  - '+.mobilelegends.com'     # F
+  - '+.modernjs.cn'           # E
+  - '+.moonton.com'           # F
+  - '+.multilingual-volc.com'  # E
+  - '+.muscdn.com'            # E
+  - '+.musical.ly'            # E
+  - '+.muyewx.com'            # E F
+  - '+.myimis.com'            # E
+  - '+.myparallelstory.com'   # E
+  - '+.ndcpp.com'             # E F
+  - '+.neihancommunity.cn'    # E F
+  - '+.neihancommunity.com'   # E F
+  - '+.neihancommunity.net'   # E F
+  - '+.neihandiantai.cn'      # F
+  - '+.neihandiantai.com'     # F
+  - '+.neihanshequ.cn'        # F
+  - '+.neihanshequ.com'       # F
+  - '+.nextvid.net'           # E
+  - '+.neyetwatcher.com'      # E
+  - '+.nhlink.cn'             # F
+  - '+.nhurl.cn'              # F
+  - '+.novelfm.com'           # E F
+  - '+.novelfmpic.com'        # E F
+  - '+.novelfmstatic.com'     # E F
+  - '+.novelfmvod.com'        # E F
+  - '+.nvsgames.cn'           # E F
+  - '+.obriccloud.com'        # E
+  - '+.obricclouddw.com'      # E
+  - '+.oceancloudapi.com'     # E
+  - '+.oceanengine.cn'        # F
+  - '+.oceanengine.com'       # E F
+  - '+.okr.cn'                # E
+  - '+.okr.com'               # E
+  - '+.omini-shield.com'      # E
+  - '+.oortgslb.com'          # E F
+  - '+.open-douyin.com'       # E
+  - '+.openbcs.com'           # E
+  - '+.openve.cn'             # E
+  - '+.openviking.net'        # E
+  - '+.originalimg.com'       # E
+  - '+.originalstatic.com'    # E
+  - '+.originalvod.com'       # E
+  - '+.pacmantwo.com'         # E F
+  - '+.pangle.cn'             # E F
+  - '+.pangolin-dsp-toutiao-b.com'  # E F
+  - '+.pangolin-dsp-toutiao.com'  # E F
+  - '+.pangolin-sdk-toutiao-b.com'  # E F
+  - '+.pangolin-sdk-toutiao.com'  # E F
+  - '+.pangolin-sdk-toutiao1.com'  # E F
+  - '+.panplayable-toutiao-b.com'  # E F
+  - '+.panplayable-toutiao.com'  # E F
+  - '+.pglstatp-sdk-toutiao.com'  # E
+  - '+.pglstatp-snssdk-toutiao.com'  # E
+  - '+.pglstatp-toutiao-b.com'  # E F
+  - '+.pglstatp-toutiao.com'  # E F
+  - '+.picpic-ai.cn'          # E
+  - '+.pipix.com'             # E F
+  - '+.pipixiaha.com'         # E
+  - '+.pixeldance.com'        # E
+  - '+.piyipiba.com'          # E
+  - '+.ppkankan01.com'        # E
+  - '+.ppxhhh.com'            # E
+  - '+.ppximg.com'            # E
+  - '+.ppxstatic.com'         # E
+  - '+.ppxvod.com'            # E
+  - '+.pstatp.com'            # D E F  覆盖 +.sf3-ttcdn-tos.pstatp.com E
+  - '+.qingfuwu.cn'           # E
+  - '+.qingfuwu.com'          # E
+  - '+.qingfuwuapi.cn'        # E
+  - '+.qingfuwucdn.com'       # E
+  - '+.qingfuwucdn.net'       # E
+  - '+.qishui.cn'             # E
+  - '+.qishui.com'            # E
+  - '+.qishuimusic.cn'        # E
+  - '+.qmoji.mobi'            # F
+  - '+.qmoji.net'             # F
+  - '+.qualitycloud.top'      # E
+  - '+.qwconnect.top'         # F
+  - '+.qznovel.com'           # E
+  - '+.qznovelpic.com'        # E F
+  - '+.qznovelstatic.com'     # E F
+  - '+.qznovelvod.com'        # E F
+  - '+.ribaoapi.com'          # F
+  - '+.ribaocdn.com'          # F
+  - '+.rsproxy.cn'            # E
+  - '+.samasty.com'           # E F
+  - '+.sealsuite.com'         # E
+  - '+.sealsuite.net'         # E
+  - '+.searchpstatp.com'      # E
+  - '+.searchstatic.com'      # E
+  - '+.searchtoutiaolive.com'  # E
+  - '+.securityfeishu.cn'     # E
+  - '+.securityfs.cn'         # E
+  - '+.semi.design'           # F
+  - '+.sharejoytech.com'      # B
+  - '+.shidianguji.com'       # E
+  - '+.shoppingads.cn'        # E F
+  - '+.sinf-test.net'         # E
+  - '+.sinf.net'              # E
+  - '+.sinflb.net'            # E
+  - '+.slbauto.com'           # E
+  - '+.smartisan.cn'          # F
+  - '+.smartisan.com'         # F
+  - '+.smartisanos.cn'        # F
+  - '+.smartisanos.com'       # F
+  - '+.sms18.com'             # E
+  - '+.smtcdns.net'           # B
+  - '+.snssdk.com'            # D E  覆盖 +.bds.snssdk.com E, +.extlog.snssdk.com E 等 8 条
+  - '+.speedifyvolcai.com'    # E
+  - '+.speedifyvolcaiv2.com'  # E
+  - '+.statusfeishu.cn'       # E
+  - '+.statuslarkoffice.com'  # E
+  - '+.supercachenet.com'     # E
+  - '+.supercachenode.com'    # E
+  - '+.szacq.cn'              # E
+  - '+.tcwqqdy.guru'          # E
+  - '+.tekkenthree.com'       # E F
+  - '+.temaiapi.com'          # F
+  - '+.tetrisone.com'         # E F
+  - '+.thelarkcloud.com'      # E
+  - '+.tiapi.cn'              # E
+  - '+.tiapi.net'             # E
+  - '+.tik-tokapi.com'        # E
+  - '+.tiktok-minis.com'      # E
+  - '+.tiktok-row.net'        # E
+  - '+.tiktok.com'            # E  覆盖 +.analytics.tiktok.com E
+  - '+.tiktokcdn-eu.com'      # E
+  - '+.tiktokcdn-us.com'      # E
+  - '+.tiktokcdn.com'         # E
+  - '+.tiktokd.net'           # E
+  - '+.tiktokd.org'           # E
+  - '+.tiktokeu-cdn.com'      # E
+  - '+.tiktokglobalshopv.com'  # E
+  - '+.tiktokminis.us'        # E
+  - '+.tiktokrow-cdn.com'     # E
+  - '+.tiktokshop.com'        # E
+  - '+.tiktokstaticb.com'     # E
+  - '+.tiktokv.com'           # E
+  - '+.tiktokv.eu'            # E
+  - '+.tiktokv.us'            # E
+  - '+.tiktokvapp.com'        # E
+  - '+.tiktokw.eu'            # E
+  - '+.tiktokw.us'            # E
+  - '+.tiquality.cn'          # F
+  - '+.tlbapm.com'            # E
+  - '+.toscdn.com'            # E F
+  - '+.toutiao.com'           # D E F  覆盖 +.ad.toutiao.com E
+  - '+.toutiao11.com'         # E F
+  - '+.toutiao12.com'         # E F
+  - '+.toutiao13.com'         # E F
+  - '+.toutiao14.com'         # E F
+  - '+.toutiao15.com'         # E F
+  - '+.toutiaoapi.com'        # E F
+  - '+.toutiaocdn.cn'         # E F
+  - '+.toutiaocdn.com'        # E F
+  - '+.toutiaocdn.net'        # E F
+  - '+.toutiaocloud.cn'       # E F
+  - '+.toutiaocloud.com'      # E F
+  - '+.toutiaocloud.net'      # E F
+  - '+.toutiaohao.cn'         # F
+  - '+.toutiaohao.com'        # E F
+  - '+.toutiaohao.net'        # E F
+  - '+.toutiaoimg.cn'         # E F
+  - '+.toutiaoimg.com'        # E F
+  - '+.toutiaoimg.net'        # E F
+  - '+.toutiaojisu.com'       # E F
+  - '+.toutiaolite.com'       # E F
+  - '+.toutiaolite1.com'      # E F
+  - '+.toutiaolite2.com'      # E F
+  - '+.toutiaoliving.com'     # E
+  - '+.toutiaopage.com'       # E F
+  - '+.toutiaopan.com'        # E
+  - '+.toutiaopanapi.com'     # E
+  - '+.toutiaopic.com'        # E
+  - '+.toutiaoribao.cn'       # F
+  - '+.toutiaoribao.net'      # F
+  - '+.toutiaostatic.com'     # E F
+  - '+.toutiaovod.com'        # E F
+  - '+.toutiaowap.cn'         # E F
+  - '+.toutiaowap.com'        # E F
+  - '+.toutiaowap.net'        # E F
+  - '+.tr-test-ali.net'       # E
+  - '+.tr-test.net'           # E
+  - '+.tr-testboe.net'        # E
+  - '+.trae.ai'               # E
+  - '+.trae.cn'               # E F
+  - '+.trae.guru'             # E
+  - '+.ttbyte.cn'             # E F
+  - '+.ttbyte.com'            # E F
+  - '+.ttbyte.net'            # E F
+  - '+.ttcdn-us.com'          # E
+  - '+.ttgslb.com'            # E
+  - '+.ttgtm.com'             # E
+  - '+.ttjisu.com'            # E F
+  - '+.ttlivecdn.com'         # E
+  - '+.ttoverseaus.net'       # E
+  - '+.ttwebview.com'         # E
+  - '+.ttwstatic.com'         # E
+  - '+.ugapk.cn'              # F
+  - '+.ugapk.com'             # F
+  - '+.ugh5.cn'               # F
+  - '+.ugsdk.cn'              # F
+  - '+.ugshare-img.com'       # E
+  - '+.ugurl.cc'              # F
+  - '+.ugurl.cn'              # F
+  - '+.ulikecam.cn'           # F
+  - '+.ulikecam.com'          # E F
+  - '+.ulikecam.mobi'         # F
+  - '+.ulikecam.net'          # F
+  - '+.ulpay.com'             # E
+  - '+.ultracachenode.com'    # E
+  - '+.updream.cn'            # A
+  - '+.v2ig.cn'               # E
+  - '+.v2mg.cn'               # E
+  - '+.v2xg.cn'               # E
+  - '+.varchserverqa.com'     # F
+  - '+.vcloud-byte.com'       # E
+  - '+.vcloudapi.com'         # E
+  - '+.ve-imcloud.com'        # E
+  - '+.ve-trafficroute.com'   # E
+  - '+.ve-trafficroute.net'   # E
+  - '+.vecdnlb.com'           # E
+  - '+.vecloudgame.com'       # E
+  - '+.vedcdnlb.com'          # E
+  - '+.vedsalb.com'           # E
+  - '+.veefdev.com'           # E
+  - '+.veew-alb-cn1.com'      # E
+  - '+.veew-alb-cn2.com'      # E
+  - '+.veew-alb-ts.com'       # E
+  - '+.vegalb.com'            # E
+  - '+.vegslb.com'            # E
+  - '+.vegtm.net'             # E
+  - '+.veicplive.com'         # E
+  - '+.veigagslb.com'         # E
+  - '+.veigagslb.net'         # E
+  - '+.vemarsdev.com'         # E
+  - '+.vemarsstatic.com'      # E
+  - '+.vemarsweb.com'         # E
+  - '+.vertciot.com'          # E
+  - '+.vestack-beta.com'      # E
+  - '+.vestack-cicd.com'      # E
+  - '+.vestack-preview.com'   # E
+  - '+.vestack-sandbox.com'   # E
+  - '+.vestack.cloud'         # E
+  - '+.vfcdnrd.com'           # E
+  - '+.vireala.com'           # F
+  - '+.vireala.net'           # F
+  - '+.visactor.com'          # F
+  - '+.vlabimg.com'           # E
+  - '+.vlabstatic.com'        # E
+  - '+.vlabvod.com'           # E
+  - '+.vol1.cn'               # E
+  - '+.vol6.cn'               # E
+  - '+.volc-dns.com'          # E
+  - '+.volc-dns.net'          # E
+  - '+.volc-dns.pub'          # E
+  - '+.volc-embed.com'        # E
+  - '+.volcadocean.com'       # E
+  - '+.volcadvc.com'          # E
+  - '+.volcalb.com'           # E
+  - '+.volcanicengine.com'    # E
+  - '+.volcanoaisearchshare.com'  # E
+  - '+.volcanoarkshare.com'   # E
+  - '+.volcapig.com'          # E
+  - '+.volcapp.com'           # E
+  - '+.volcappbuilder.com'    # E
+  - '+.volcautovod.com'       # E
+  - '+.volcbiz.com'           # E
+  - '+.volcca.cn'             # E
+  - '+.volcca.com'            # E
+  - '+.volcca.net'            # E
+  - '+.volccdn.cn'            # E
+  - '+.volccdn.com'           # E F
+  - '+.volccdn1.com'          # E
+  - '+.volccdn2.com'          # E
+  - '+.volccloudidentity.com'  # E
+  - '+.volcdcdnlb.net'        # E
+  - '+.volcddos.com'          # E
+  - '+.volcddos001.com'       # E
+  - '+.volcdem.com'           # E F
+  - '+.volcdlspace.cn'        # E
+  - '+.volcdn.com'            # E
+  - '+.volcdns-test.com'      # E
+  - '+.volcdns-test.net'      # E
+  - '+.volcdns.com'           # E
+  - '+.volcdns.pub'           # E
+  - '+.volcdsagslb.net'       # E
+  - '+.volcdsalb.net'         # E
+  - '+.volceapi.com'          # E
+  - '+.volceapplog.com'       # E F
+  - '+.volcecr.com'           # E
+  - '+.volcecw.com'           # E
+  - '+.volcenginapi.com'      # E
+  - '+.volcengine-api-test.com'  # E
+  - '+.volcengine-api.cn'     # E
+  - '+.volcengine-api.com'    # E
+  - '+.volcengine-dns.com'    # E
+  - '+.volcengine-dns.net'    # E
+  - '+.volcengine.cn'         # E
+  - '+.volcengine.com'        # E F
+  - '+.volcengine.net'        # E
+  - '+.volcenginealb.com'     # E
+  - '+.volcengineapi-test.com'  # E
+  - '+.volcengineapi.cn'      # E
+  - '+.volcengineapi.com'     # E
+  - '+.volcenginedns.com'     # E
+  - '+.volcenginedns.net'     # E
+  - '+.volcenginepaas.com'    # E
+  - '+.volces-test.com'       # E
+  - '+.volces.cn'             # E
+  - '+.volces.com'            # E F
+  - '+.volcfake.com'          # E
+  - '+.volcfcdn.com'          # E
+  - '+.volcfcdnbyte.com'      # E
+  - '+.volcfcdndvs.com'       # E
+  - '+.volcfcdndvs1.com'      # E
+  - '+.volcfcdndvs2.com'      # E
+  - '+.volcfcdndvs3.com'      # E
+  - '+.volcfcdnplus.com'      # E
+  - '+.volcfcdnrd.com'        # E
+  - '+.volcfcdnsc.com'        # E
+  - '+.volcfxgjrtm.com'       # E
+  - '+.volcgalb.net'          # E
+  - '+.volcgroup.com'         # E
+  - '+.volcgslb-b.com'        # E
+  - '+.volcgslb-mlt.com'      # E
+  - '+.volcgslb-mltb.com'     # E
+  - '+.volcgslb.com'          # E
+  - '+.volcgtm-b.com'         # E
+  - '+.volcgtm.com'           # E
+  - '+.volciad.com'           # E
+  - '+.volcimagex.cn'         # E
+  - '+.volcimagex.com'        # E
+  - '+.volcimagex.net'        # E
+  - '+.volcimagextest.com'    # E
+  - '+.volcisms.com'          # E
+  - '+.volclivebyte.com'      # E
+  - '+.volclivedemo.com'      # E
+  - '+.volclivedvs.com'       # E
+  - '+.volcliveplus.com'      # E
+  - '+.volclivesaas01.com'    # E
+  - '+.volclivesaas02.com'    # E
+  - '+.volclivesaas03.com'    # E
+  - '+.volclivesaas04.com'    # E
+  - '+.volclivesaas05.com'    # E
+  - '+.volclivesaasbp.com'    # E
+  - '+.volclivesaascdn.com'   # E
+  - '+.volcmagicpage.com'     # E
+  - '+.volcmcdn1.com'         # E
+  - '+.volcmcdn2.com'         # E
+  - '+.volcmcdn3.com'         # E
+  - '+.volcmcdn4.com'         # E
+  - '+.volcmcdnalias.com'     # E
+  - '+.volcmcdnalias1.com'    # E
+  - '+.volcmcdnalias2.com'    # E
+  - '+.volcmcdnsched1.com'    # E
+  - '+.volcmcdnsched2.com'    # E
+  - '+.volcmcp.com'           # E
+  - '+.volcmedialive.com'     # E
+  - '+.volcmedialivecn.com'   # E
+  - '+.volcmedialivecnn.com'  # E
+  - '+.volcmgs.com'           # E
+  - '+.volcmlt-b.com'         # E
+  - '+.volcmlt.com'           # E
+  - '+.volcmusecdn.com'       # E
+  - '+.volcocic.com'          # E
+  - '+.volcopjrtm.com'        # E
+  - '+.volcpartner.com'       # E
+  - '+.volcpartner.net'       # E
+  - '+.volcpcs-test.com'      # E
+  - '+.volcpcs.com'           # E
+  - '+.volcproxy-boe.net'     # E
+  - '+.volcproxy-test.net'    # E
+  - '+.volcproxy.net'         # E
+  - '+.volcsdns-test.com'     # E
+  - '+.volcsdns.cn'           # E
+  - '+.volcsdns.com'          # E
+  - '+.volcsdns.net'          # E
+  - '+.volcsirius.com'        # E F
+  - '+.volcsiriusbd.com'      # E
+  - '+.volcspaceeduc.com'     # E
+  - '+.volcstack.com'         # E
+  - '+.volctracer.com'        # E
+  - '+.volctrack.com'         # E
+  - '+.volctraffic.com'       # E
+  - '+.volctranscdn.com'      # E
+  - '+.volcvehicle.com'       # E
+  - '+.volcvideo.com'         # E
+  - '+.volcvms.com'           # E
+  - '+.volcvod.com'           # E
+  - '+.volcwaf.com'           # E
+  - '+.volcwaf001.com'        # E
+  - '+.voleai.com'            # E
+  - '+.volx.cn'               # E
+  - '+.vscenevideo.com'       # E
+  - '+.woaihuoshan.com'       # E F
+  - '+.wohst8.com'            # E F
+  - '+.writingo-editor.com'   # E
+  - '+.writingo.net'          # E
+  - '+.wtturl.cn'             # E F
+  - '+.wukong.com'            # E F
+  - '+.wukongwenda.cn'        # E F
+  - '+.wukongwenda.com'       # E F
+  - '+.xck31.cn'              # E
+  - '+.xflowedge.com'         # E
+  - '+.xiaohe.cn'             # E
+  - '+.xiaoxiaapi.com'        # E
+  - '+.xiguaapp.cn'           # E F
+  - '+.xiguaapp.com'          # E F
+  - '+.xiguashipin.cn'        # E F
+  - '+.xiguashipin.net'       # E F
+  - '+.xiguavideo.cn'         # E F
+  - '+.xiguavideo.net'        # E F
+  - '+.xingtu.cn'             # E
+  - '+.xitu.io'               # E F
+  - '+.xsgtvacct.com'         # E
+  - '+.xyf61.cn'              # E
+  - '+.yhgfb-cn-static.com'   # E F
+  - '+.yo9.com'               # A B
+  - '+.yoma.cn'               # E
+  - '+.youdianyisi.com'       # F
+  - '+.ytxptd.cn'             # E
+  - '+.ytxptz.cn'             # E
+  - '+.zebracdn.com'          # E
+  - '+.zijieapi.cn'           # E
+  - '+.zijieapi.com'          # E F  覆盖 +.log.zijieapi.com E, ads3-normal-hl.zijieapi.com E 等 5 条
+  - '+.zijieapi.net'          # E
+  - '+.zijiecdn.cn'           # E F
+  - '+.zijiecdn.com'          # E F
+  - '+.zijiecdn.net'          # E F
+  - '+.zijiedj.com'           # E
+  - '+.zijieimg.cn'           # E F
+  - '+.zijieimg.com'          # E F
+  - '+.zijieimg.net'          # E F
+  - '+.zijietiaodong.com'     # E
+  - '+.zijieurl.cn'           # E F
+  - '+.zijieurl.com'          # E F
+  - '+.zijieurl.net'          # E F
+  - '+.zijiewap.cn'           # E F
+  - '+.zijiewap.com'          # E F
+  - '+.zijiewap.net'          # E F
+  - '+.zilrms.com'            # E F
+  - '+.ziyrta.com'            # E F
+  - '+.zjbyte.cn'             # E F
+  - '+.zjbyte.com'            # E F
+  - '+.zjbyte.net'            # E F
+  - '+.zjcdn.com'             # E F  覆盖 v5-dy-o-abtest.zjcdn.com D
+  - '+.zjfcdn.com'            # E
+  - '+.zjgslb.com'            # E F
+  - '+.zjurl.cn'              # F
+  - '+.zjytxd.cn'             # E
+  - '+.zjytxp.cn'             # E
+  - '+.zlinkurl.cn'           # E F
+  - '+.zlinkurl.com'          # F
+  - '+.zml81.cn'              # E
+  - '+.zvip.cn'               # E
+  - '+.ai-guardrail.com.cn'   # E
+  - '+.byteplus-api-test.com.cn'  # E
+  - '+.byteplus-api.com.cn'   # E
+  - '+.byteplusapi-test.com.cn'  # E
+  - '+.byteplusapi.com.cn'    # E
+  - '+.bytepluses.com.cn'     # E
+  - '+.faceu.com.cn'          # F
+  - '+.gogokid.com.cn'        # E F
+  - '+.ibytepluses.com.cn'    # E
+  - '+.marscode.com.cn'       # E
+  - '+.neihandiantai.com.cn'  # F
+  - '+.okr.com.cn'            # E
+  - '+.p-bstarstatic.akamaized.net'  # C  合并 p-bstarstatic.akamaized.net B
+  - '+.qishui.com.cn'         # E
+  - '+.qishuimusic.com.cn'    # E
+  - '+.tiquality.com.cn'      # F
+  - '+.toutiaohao.com.cn'     # F
+  - '+.trae.com.cn'           # E F
+  - '+.upos-bstar-mirrorakam.akamaized.net'  # C  合并 upos-bstar-mirrorakam.akamaized.net B
+  - '+.upos-bstar1-mirrorakam.akamaized.net'  # C  合并 upos-bstar1-mirrorakam.akamaized.net B
+  - '+.upos-hz-mirrorakam.akamaized.net'  # B  合并 upos-hz-mirrorakam.akamaized.net A
+  - '+.uposdash-302-bilivideo.yfcdn.net'  # B
+  - '+.ve-omnishield.com.cn'  # E
+  - '+.yueantech.com.cn'      # F
+  - '+.larksuite.com.ttdns1.com'  # E
+  - '+.larksuite.com.ttdns2.com'  # E
+  - '+.tiktokcdn-us.com.edgesuite.net'  # E
+  - '+.tiktokcdn.com.akamaized.net'  # E
+  - '+.tiktokcdn.com.edgesuite.net'  # E
+  - '+.tiktokv.com.edgekey.net'  # E
+  - '+.tiktokv.com.edgesuite.net'  # E
+  - '+.hdslb.com.w.kunlunhuf.com'  # B
+  - '+.hdslb.com.w.kunlunpi.com'  # B
+  - '0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com'  # B
+  - '0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com'  # B
+  - '0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com'  # B
+  - '113-219-145-1.ksyungslb.com'  # B
+  - '114-236-92-129.ksyungslb.com'  # B
+  - '180-101-74-1.ksyungslb.com'  # B
+  - '1geadrmttge3nhcjwgazdope.ourdvsss.com'  # B
+  - '1geadrmttge3nhcjwgwzdqqe.ourdvsss.com'  # B
+  - '1gr3uomttgr31hcjo8yzdnco.ourdvsss.com'  # B
+  - '1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com'  # B
+  - '1gr3uomttgr31hcjtgezdkcy.ourdvsss.com'  # B
+  - '1gr4uqmtt8y41hcjigazdqca.ourdvsss.com'  # B
+  - '1gr4uqmtt8y41hcjigazdqce.ourdvsss.com'  # B
+  - '1gr4uqmtt8y41hcjigazdqco.ourdvsss.com'  # B
+  - '1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com'  # B
+  - '1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj38yzdcca.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj38yzdcco.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj38yzdkca.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj38yzdkco.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com'  # B
+  - '1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com'  # B
+  - '1graukmttga4nhcjtgozdgce.ourdvsss.com'  # B
+  - '218-91-225-1.ksyungslb.com'  # B
+  - '219-155-150-1.ksyungslb.com'  # B
+  - '222-188-6-1.ksyungslb.com'  # B
+  - '36-104-134-1.ksyungslb.com'  # B
+  - '36-25-252-1.ksyungslb.com'  # B
+  - '3ge3drmttga5nhcbqge3ur.ourdvsss.com'  # B
+  - '3geauymtsgrzdnqbofa5do.ourdvsss.com'  # B
+  - '3geauymtsgrzdnqbofa5dy.ourdvsss.com'  # B
+  - '3geauymtsgrzdrcbzfahue.ourdvsss.com'  # B
+  - '3geauymtsgrzdrcbzfahuk.ourdvsss.com'  # B
+  - '4go41hcjtgazdoctqge4o.ourdvsss.com'  # B
+  - 'p16-tiktokcdn-com.akamaized.net'  # E
+  - 'roovza-launches.appsflyersdk.com'  # E
+  - '112-81-125-43.dhost.00cdn.com'  # B
+  - 'bytedance.map.fastly.net'  # E
+  - 'roovza.inapps.appsflyersdk.com'  # E
+  - 'roovza.launches.appsflyersdk.com'  # E
+  - 'roovza.skadsdk.appsflyersdk.com'  # E

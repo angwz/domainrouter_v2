@@ -1,0 +1,19 @@
+# NAME: Microsoft
+# GROUP: 🪟 Microsoft
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 7
+# DOMAIN-KEYWORD: 5
+# PROCESS-NAME: 2
+# SOURCE A: blackmatrix7 · Microsoft/Microsoft.list
+# SOURCE B: ruleset.skk.moe · non_ip/microsoft.txt
+payload:
+  - 'DOMAIN-KEYWORD,1drv'           # A B
+  - 'DOMAIN-KEYWORD,hotmail'        # B
+  - 'DOMAIN-KEYWORD,microsoft'      # A B
+  - 'DOMAIN-KEYWORD,onedrive'       # A
+  - 'DOMAIN-KEYWORD,skydrive'       # A
+
+  - 'PROCESS-NAME,OneDrive'         # A
+  - 'PROCESS-NAME,OneDriveUpdater'  # A

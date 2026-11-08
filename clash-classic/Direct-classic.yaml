@@ -1,0 +1,73 @@
+# NAME: Direct
+# GROUP: DIRECT
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 53
+# DST-PORT: 1
+# SRC-PORT: 1
+# DOMAIN-KEYWORD: 5
+# DOMAIN-WILDCARD: 9
+# PROCESS-NAME: 37
+# SOURCE A: my.wei
+# SOURCE B: ruleset.skk.moe · non_ip/download.txt
+# SOURCE C: blackmatrix7 · RemoteDesktop/RemoteDesktop.list
+# SOURCE D: blackmatrix7 · Download/Download.list
+payload:
+  - 'DST-PORT,9993'                      # A
+
+  - 'SRC-PORT,9993'                      # A
+
+  - 'DOMAIN-KEYWORD,aria2'               # D
+  - 'DOMAIN-KEYWORD,thunder'             # D
+  - 'DOMAIN-KEYWORD,xlliveud'            # D
+  - 'DOMAIN-KEYWORD,xunlei'              # D
+  - 'DOMAIN-KEYWORD,yunpan'              # D
+
+  - 'DOMAIN-WILDCARD,*.s3.*.backblazeb2.com'  # B
+  - 'DOMAIN-WILDCARD,cdn-*.comaps.app'   # B
+  - 'DOMAIN-WILDCARD,cdn-*.comaps.tech'  # B
+  - 'DOMAIN-WILDCARD,cdn-*.organicmaps.app'  # B
+  - 'DOMAIN-WILDCARD,dl-*.mypikpak.com'  # B
+  - 'DOMAIN-WILDCARD,download*.mediafire.com'  # B
+  - 'DOMAIN-WILDCARD,ftp.??.debian.org'  # B
+  - 'DOMAIN-WILDCARD,ftp.??.freebsd.org'  # B
+  - 'DOMAIN-WILDCARD,s3.*.backblazeb2.com'  # B
+
+  - 'PROCESS-NAME,BitComet'              # D
+  - 'PROCESS-NAME,BitComet.exe'          # D
+  - 'PROCESS-NAME,BitComet_x64.exe'      # D
+  - 'PROCESS-NAME,CrashReport.exe'       # C
+  - 'PROCESS-NAME,DownloadService'       # D
+  - 'PROCESS-NAME,DownloadService.exe'   # D
+  - 'PROCESS-NAME,DriverInstaller.exe'   # C
+  - 'PROCESS-NAME,Folx'                  # D
+  - 'PROCESS-NAME,Folx.exe'              # D
+  - 'PROCESS-NAME,NetTransport'          # D
+  - 'PROCESS-NAME,NetTransport.exe'      # D
+  - 'PROCESS-NAME,SunloginClient.exe'    # C
+  - 'PROCESS-NAME,Thunder'               # D
+  - 'PROCESS-NAME,Thunder.exe'           # D
+  - 'PROCESS-NAME,ToDesk.exe'            # C
+  - 'PROCESS-NAME,ToDesk_Service.exe'    # C
+  - 'PROCESS-NAME,ToDesk_Session.exe'    # C
+  - 'PROCESS-NAME,ToDesk_Setup.exe'      # C
+  - 'PROCESS-NAME,Transmission'          # D
+  - 'PROCESS-NAME,Transmission.exe'      # D
+  - 'PROCESS-NAME,WebTorrent'            # D
+  - 'PROCESS-NAME,WebTorrent.exe'        # D
+  - 'PROCESS-NAME,WebTorrentHelper'      # D
+  - 'PROCESS-NAME,WebTorrentHelper.exe'  # D
+  - 'PROCESS-NAME,Weiyun'                # D
+  - 'PROCESS-NAME,Weiyun.exe'            # D
+  - 'PROCESS-NAME,aria2c'                # D
+  - 'PROCESS-NAME,aria2c.exe'            # D
+  - 'PROCESS-NAME,baidunetdisk.exe'      # D
+  - 'PROCESS-NAME,devcon.exe'            # C
+  - 'PROCESS-NAME,fdm'                   # D
+  - 'PROCESS-NAME,fdm.exe'               # D
+  - 'PROCESS-NAME,mstsc.exe'             # C
+  - 'PROCESS-NAME,qbittorrent'           # D
+  - 'PROCESS-NAME,qbittorrent.exe'       # D
+  - 'PROCESS-NAME,uTorrent'              # D
+  - 'PROCESS-NAME,uTorrent.exe'          # D

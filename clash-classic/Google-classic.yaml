@@ -1,0 +1,22 @@
+# NAME: Google
+# GROUP: 📩 Google
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 11
+# DOMAIN-KEYWORD: 5
+# PROCESS-NAME: 6
+# SOURCE A: blackmatrix7 · Google/Google.list
+payload:
+  - 'DOMAIN-KEYWORD,appspot'               # A
+  - 'DOMAIN-KEYWORD,blogspot'              # A
+  - 'DOMAIN-KEYWORD,gmail'                 # A
+  - 'DOMAIN-KEYWORD,google'                # A
+  - 'DOMAIN-KEYWORD,recaptcha'             # A
+
+  - 'PROCESS-NAME,BackupandSync'           # A
+  - 'PROCESS-NAME,GoogleDriveFS.exe'       # A
+  - 'PROCESS-NAME,com.android.vending'     # A
+  - 'PROCESS-NAME,com.google.android.gms'  # A
+  - 'PROCESS-NAME,com.google.android.gsf'  # A
+  - 'PROCESS-NAME,com.google.android.play.games'  # A

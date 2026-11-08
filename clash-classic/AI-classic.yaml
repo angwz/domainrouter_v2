@@ -1,0 +1,23 @@
+# NAME: AI
+# GROUP: 🗨️ ChatGPT
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 8
+# DOMAIN-KEYWORD: 6
+# IP-ASN: 2
+# SOURCE A: blackmatrix7 · Twitter/Twitter.list
+# SOURCE B: blackmatrix7 · Copilot/Copilot.list
+# SOURCE C: ruleset.skk.moe · non_ip/ai.txt
+# SOURCE D: blackmatrix7 · Gemini/Gemini.list
+# SOURCE E: blackmatrix7 · OpenAI/OpenAI.list
+payload:
+  - 'DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com'  # C
+  - 'DOMAIN-KEYWORD,colab'                                # D
+  - 'DOMAIN-KEYWORD,developerprofiles'                    # D
+  - 'DOMAIN-KEYWORD,generativelanguage'                   # D
+  - 'DOMAIN-KEYWORD,openai'                               # C E  覆盖 openaicom-api B
+  - 'DOMAIN-KEYWORD,twitter'                              # A
+
+  - 'IP-ASN,14061,no-resolve'                             # B
+  - 'IP-ASN,20473,no-resolve'                             # B E

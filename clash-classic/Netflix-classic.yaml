@@ -1,0 +1,16 @@
+# NAME: Netflix
+# GROUP: 🎬 Netflix
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 5
+# DOMAIN-KEYWORD: 4
+# PROCESS-NAME: 1
+# SOURCE A: blackmatrix7 · Netflix/Netflix.list
+payload:
+  - 'DOMAIN-KEYWORD,apiproxy-device-prod-nlb-'  # A
+  - 'DOMAIN-KEYWORD,dualstack.apiproxy-'        # A
+  - 'DOMAIN-KEYWORD,dualstack.ichnaea-web-'     # A
+  - 'DOMAIN-KEYWORD,netflixdnstest'             # A
+
+  - 'PROCESS-NAME,com.netflix.mediaclient'      # A

@@ -1,0 +1,67 @@
+# NAME: TikTok
+# GROUP: 📱 TikTok
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 58
+# SOURCE A: MetaCubeX · geosite/tiktok.yaml
+# SOURCE B: blackmatrix7 · TikTok/TikTok.list
+payload:
+  - '+.bytedapm.com'                   # A B
+  - '+.bytegecko-i18n.com'             # B
+  - '+.byteintlapi.com'                # B
+  - '+.byteoversea.com'                # B
+  - '+.capcut.com'                     # B
+  - '+.capcutapi.com'                  # B
+  - '+.capcutapi.us'                   # B
+  - '+.capcutstatic.com'               # B
+  - '+.ibytedtos.com'                  # B
+  - '+.ibyteimg.com'                   # B  覆盖 p16-tiktok-dm-sticker-sign-sg.ibyteimg.com A
+  - '+.ipstatp.com'                    # B
+  - '+.isnssdk.com'                    # B
+  - '+.marscode.com'                   # B
+  - '+.muscdn.com'                     # A B
+  - '+.musical.ly'                     # A B
+  - '+.sgpstatp.com'                   # B
+  - '+.snssdk.com'                     # B
+  - '+.tik-tokapi.com'                 # A B
+  - '+.tiktok-minis.com'               # A
+  - '+.tiktok-row.net'                 # A
+  - '+.tiktok.com'                     # A B  覆盖 +.analytics.tiktok.com A
+  - '+.tiktokcdn-eu.com'               # A
+  - '+.tiktokcdn-us.com'               # A B
+  - '+.tiktokcdn.com'                  # A B
+  - '+.tiktokd.net'                    # A B
+  - '+.tiktokd.org'                    # A B
+  - '+.tiktokeu-cdn.com'               # A
+  - '+.tiktokglobalshopv.com'          # A
+  - '+.tiktokminis.us'                 # A
+  - '+.tiktokmusic.app'                # B
+  - '+.tiktokrow-cdn.com'              # A
+  - '+.tiktokshop.com'                 # A
+  - '+.tiktokstaticb.com'              # A
+  - '+.tiktokv.com'                    # A B
+  - '+.tiktokv.eu'                     # A
+  - '+.tiktokv.us'                     # A B
+  - '+.tiktokvapp.com'                 # A
+  - '+.tiktokw.eu'                     # A
+  - '+.tiktokw.us'                     # A
+  - '+.trae.ai'                        # B
+  - '+.ttcdn-us.com'                   # A
+  - '+.ttlivecdn.com'                  # A
+  - '+.ttoverseaus.net'                # A
+  - '+.ttwebview.com'                  # B
+  - '+.ttwstatic.com'                  # A
+  - '+.tiktokcdn-us.com.edgesuite.net'  # A
+  - '+.tiktokcdn.com.akamaized.net'    # A
+  - '+.tiktokcdn.com.edgesuite.net'    # A
+  - '+.tiktokv.com.edgekey.net'        # A
+  - '+.tiktokv.com.edgesuite.net'      # A
+  - 'lf16-effectcdn.byteeffecttos-g.com'  # B
+  - 'lf16-pkgcdn.pitaya-clientai.com'  # B
+  - 'p16-tiktokcdn-com.akamaized.net'  # A B
+  - 'roovza-launches.appsflyersdk.com'  # A
+  - 'trae-api-sg.mchost.guru'          # B
+  - 'roovza.inapps.appsflyersdk.com'   # A
+  - 'roovza.launches.appsflyersdk.com'  # A
+  - 'roovza.skadsdk.appsflyersdk.com'  # A

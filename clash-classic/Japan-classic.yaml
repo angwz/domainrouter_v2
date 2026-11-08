@@ -1,0 +1,16 @@
+# NAME: Japan
+# GROUP: 🌺 日本专线
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 4
+# DOMAIN-KEYWORD: 2
+# PROCESS-NAME: 2
+# SOURCE A: blackmatrix7 · Amazon/Amazon.list
+# SOURCE B: blackmatrix7 · Spotify/Spotify.list
+payload:
+  - 'DOMAIN-KEYWORD,avoddashs'                       # A
+  - 'DOMAIN-KEYWORD,spotify'                         # B
+
+  - 'PROCESS-NAME,com.amazon.avod.thirdpartyclient'  # A
+  - 'PROCESS-NAME,com.spotify.music'                 # B

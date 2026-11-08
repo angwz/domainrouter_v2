@@ -1,0 +1,16 @@
+# NAME: Bilibili
+# GROUP: 📺 哔哩哔哩
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 7
+# SOURCE A: blackmatrix7 · BiliBili/BiliBili.list
+# SOURCE B: blackmatrix7 · ByteDance/ByteDance.list
+payload:
+  - 'PROCESS-NAME,com.bilibili.app.blue'     # A
+  - 'PROCESS-NAME,com.bilibili.app.in'       # A
+  - 'PROCESS-NAME,com.bilibili.comic'        # A
+  - 'PROCESS-NAME,com.bilibili.comic.intl'   # A
+  - 'PROCESS-NAME,com.zhiliaoapp.musically'  # B
+  - 'PROCESS-NAME,tv.danmaku.bili'           # A
+  - 'PROCESS-NAME,tv.danmaku.bilibilihd'     # A

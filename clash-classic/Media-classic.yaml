@@ -1,0 +1,55 @@
+# NAME: Media
+# GROUP: 🛖 国际流媒体
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 42
+# DOMAIN-KEYWORD: 26
+# PROCESS-NAME: 16
+# SOURCE A: blackmatrix7 · GlobalMedia/GlobalMedia.list
+# SOURCE B: ruleset.skk.moe · non_ip/stream.txt
+# SOURCE C: blackmatrix7 · Disney/Disney.list
+payload:
+  - 'DOMAIN-KEYWORD,abematv.akamaized.net'   # A
+  - 'DOMAIN-KEYWORD,anthropic'               # A
+  - 'DOMAIN-KEYWORD,apiproxy-device-prod-nlb-'  # A B
+  - 'DOMAIN-KEYWORD,avoddashs'               # A B
+  - 'DOMAIN-KEYWORD,bbcfmt'                  # A B
+  - 'DOMAIN-KEYWORD,claude'                  # A
+  - 'DOMAIN-KEYWORD,discovery.uplynk.com'    # A
+  - 'DOMAIN-KEYWORD,dualstack.apiproxy-'     # A B
+  - 'DOMAIN-KEYWORD,dualstack.ichnaea-web-'  # A B
+  - 'DOMAIN-KEYWORD,hamivideo.cdn.hinet.net'  # A
+  - 'DOMAIN-KEYWORD,hbogoasia'               # A
+  - 'DOMAIN-KEYWORD,japonx'                  # A
+  - 'DOMAIN-KEYWORD,japronx'                 # A
+  - 'DOMAIN-KEYWORD,jooxweb-api'             # A B
+  - 'DOMAIN-KEYWORD,netflixdnstest'          # A B
+  - 'DOMAIN-KEYWORD,nivod'                   # A
+  - 'DOMAIN-KEYWORD,nowtv100'                # A B
+  - 'DOMAIN-KEYWORD,olevod'                  # A
+  - 'DOMAIN-KEYWORD,rthklive'                # A B
+  - 'DOMAIN-KEYWORD,spotify'                 # A  覆盖 -spotify-com B
+  - 'DOMAIN-KEYWORD,tiktokcdn'               # A  覆盖 -tiktokcdn-com B
+  - 'DOMAIN-KEYWORD,ttvnw'                   # A
+  - 'DOMAIN-KEYWORD,tvbanywhere'             # A B
+  - 'DOMAIN-KEYWORD,uk-live'                 # A B
+  - 'DOMAIN-KEYWORD,voddazn'                 # A B
+  - 'DOMAIN-KEYWORD,youtube'                 # A
+
+  - 'PROCESS-NAME,com.amazon.avod.thirdpartyclient'  # B
+  - 'PROCESS-NAME,com.bstar.intl'            # B
+  - 'PROCESS-NAME,com.disney.datg.videoplatforms.android.abc'  # C
+  - 'PROCESS-NAME,com.disney.disneyplus'     # C
+  - 'PROCESS-NAME,com.hktve.viutv'           # B
+  - 'PROCESS-NAME,com.hulu.plus'             # B
+  - 'PROCESS-NAME,com.linecorp.linetv'       # B
+  - 'PROCESS-NAME,com.netflix.mediaclient'   # B
+  - 'PROCESS-NAME,com.tencent.ibg.joox'      # B
+  - 'PROCESS-NAME,com.twgood.android'        # B
+  - 'PROCESS-NAME,com.viu.pad'               # A B
+  - 'PROCESS-NAME,com.viu.phone'             # A B
+  - 'PROCESS-NAME,com.vuclip.viu'            # A B
+  - 'PROCESS-NAME,music'                     # B
+  - 'PROCESS-NAME,tv'                        # B
+  - 'PROCESS-NAME,tv.twitch.android.app'     # B

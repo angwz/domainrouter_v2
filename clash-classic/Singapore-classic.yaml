@@ -1,0 +1,19 @@
+# NAME: Singapore
+# GROUP: 🧊 新加坡专线
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 7
+# DOMAIN-KEYWORD: 6
+# IP-ASN: 1
+# SOURCE A: blackmatrix7 · Crypto/Crypto.list
+# SOURCE B: blackmatrix7 · Facebook/Facebook.list
+payload:
+  - 'DOMAIN-KEYWORD,binance'   # A
+  - 'DOMAIN-KEYWORD,facebook'  # B
+  - 'DOMAIN-KEYWORD,fbcdn'     # B
+  - 'DOMAIN-KEYWORD,huobi'     # A
+  - 'DOMAIN-KEYWORD,metamask'  # A
+  - 'DOMAIN-KEYWORD,okx'       # A
+
+  - 'IP-ASN,32934,no-resolve'  # B

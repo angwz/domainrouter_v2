@@ -1,0 +1,122 @@
+# NAME: China
+# GROUP: DIRECT
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 101
+# DOMAIN-KEYWORD: 50
+# GEOSITE: 1
+# IP-ASN: 1
+# PROCESS-NAME: 49
+# SOURCE A: my.wei
+# SOURCE B: blackmatrix7 · ChinaMax/ChinaMax.list
+# SOURCE C: blackmatrix7 · ChinaMaxNoMedia/ChinaMaxNoMedia.list
+# SOURCE D: blackmatrix7 · ChinaMaxNoIP/ChinaMaxNoIP.list
+# SOURCE E: blackmatrix7 · ChinaNoMedia/ChinaNoMedia.list
+# SOURCE F: blackmatrix7 · Direct/Direct.list
+# SOURCE G: blackmatrix7 · China/China.list
+payload:
+  - 'DOMAIN-KEYWORD,.tmall.com'           # B C D E G
+  - 'DOMAIN-KEYWORD,alicdn'               # B C D E G
+  - 'DOMAIN-KEYWORD,alipay'               # B C D E G
+  - 'DOMAIN-KEYWORD,aliyun'               # B C D E G
+  - 'DOMAIN-KEYWORD,amp-api.podcasts.apple.com'  # F
+  - 'DOMAIN-KEYWORD,anti-ad.net'          # F
+  - 'DOMAIN-KEYWORD,api-adservices.apple.com'  # F
+  - 'DOMAIN-KEYWORD,api.smoot.apple.cn'   # F
+  - 'DOMAIN-KEYWORD,api.smoot.apple.com'  # F
+  - 'DOMAIN-KEYWORD,aw-s.tripcdn.com'     # F
+  - 'DOMAIN-KEYWORD,ax1x.com'             # F
+  - 'DOMAIN-KEYWORD,baidu'                # B C D E G
+  - 'DOMAIN-KEYWORD,beplay'               # B C D E G
+  - 'DOMAIN-KEYWORD,bfzycdn.com'          # F
+  - 'DOMAIN-KEYWORD,bilibili'             # B D
+  - 'DOMAIN-KEYWORD,buy.itunes.apple.com'  # F
+  - 'DOMAIN-KEYWORD,cnki.net'             # F
+  - 'DOMAIN-KEYWORD,ctc.qzs.qzone.qq.com'  # F
+  - 'DOMAIN-KEYWORD,deepdyve'             # F
+  - 'DOMAIN-KEYWORD,els-cdn'              # F
+  - 'DOMAIN-KEYWORD,elsevier'             # F
+  - 'DOMAIN-KEYWORD,ess.apple.com'        # F
+  - 'DOMAIN-KEYWORD,gsa.apple.com'        # F
+  - 'DOMAIN-KEYWORD,hnagroup'             # B C D
+  - 'DOMAIN-KEYWORD,humb.apple.com'       # F
+  - 'DOMAIN-KEYWORD,icloud.com'           # F
+  - 'DOMAIN-KEYWORD,ls.apple.com'         # F
+  - 'DOMAIN-KEYWORD,microsoft'            # E G
+  - 'DOMAIN-KEYWORD,o.lencr.org'          # F
+  - 'DOMAIN-KEYWORD,officecdn'            # B C D E G
+  - 'DOMAIN-KEYWORD,pkulaw'               # F
+  - 'DOMAIN-KEYWORD,push.apple.com'       # F
+  - 'DOMAIN-KEYWORD,qiyi'                 # B D
+  - 'DOMAIN-KEYWORD,readcube'             # F
+  - 'DOMAIN-KEYWORD,sciencedirect'        # F
+  - 'DOMAIN-KEYWORD,ssl.apple.com'        # F
+  - 'DOMAIN-KEYWORD,stripe'               # B C D
+  - 'DOMAIN-KEYWORD,taobao'               # B C D E G
+  - 'DOMAIN-KEYWORD,trip.com'             # F
+  - 'DOMAIN-KEYWORD,ttcdn-tos.kkimg.cc'   # F
+  - 'DOMAIN-KEYWORD,vip.ffzy-online'      # F
+  - 'DOMAIN-KEYWORD,vip.ffzy-play'        # F
+  - 'DOMAIN-KEYWORD,vip.kuaikan-cdn'      # F
+  - 'DOMAIN-KEYWORD,vip.lz-cdn'           # F
+  - 'DOMAIN-KEYWORD,wanfangdata'          # F
+  - 'DOMAIN-KEYWORD,wb_ad'                # F
+  - 'DOMAIN-KEYWORD,weather-adge.apple.com'  # F
+  - 'DOMAIN-KEYWORD,weather-edge.apple.com'  # F
+  - 'DOMAIN-KEYWORD,weibo'                # B C D
+  - 'DOMAIN-KEYWORD,westlawchina'         # F
+
+  - 'GEOSITE,geolocation-cn'              # A
+
+  - 'IP-ASN,132203,no-resolve'            # B C
+
+  - 'PROCESS-NAME,BaiduNetdisk_mac'       # F
+  - 'PROCESS-NAME,BitComet'               # F
+  - 'PROCESS-NAME,ClashX'                 # F
+  - 'PROCESS-NAME,DownloadService'        # F
+  - 'PROCESS-NAME,Folx'                   # F
+  - 'PROCESS-NAME,LocalSend'              # F
+  - 'PROCESS-NAME,LogiOptions'            # F
+  - 'PROCESS-NAME,LogiOptionsDaemon'      # F
+  - 'PROCESS-NAME,NetTransport'           # F
+  - 'PROCESS-NAME,SunloginClient_Desktop'  # F
+  - 'PROCESS-NAME,SunloginClient_Helper'  # F
+  - 'PROCESS-NAME,Thunder'                # B C D F
+  - 'PROCESS-NAME,Thunder.exe'            # B C D
+  - 'PROCESS-NAME,ThunderVIP'             # F
+  - 'PROCESS-NAME,Transmission'           # F
+  - 'PROCESS-NAME,UUBooster'              # F
+  - 'PROCESS-NAME,WebTorrent'             # F
+  - 'PROCESS-NAME,WebTorrentHelper'       # F
+  - 'PROCESS-NAME,amuled'                 # F
+  - 'PROCESS-NAME,aria2c'                 # F
+  - 'PROCESS-NAME,clash'                  # F
+  - 'PROCESS-NAME,cloudflared'            # F
+  - 'PROCESS-NAME,com.bilibili.app.blue'  # B C D
+  - 'PROCESS-NAME,com.bilibili.app.in'    # B C D
+  - 'PROCESS-NAME,com.bilibili.comic'     # B C D
+  - 'PROCESS-NAME,com.bilibili.comic.intl'  # B C D
+  - 'PROCESS-NAME,com.jjwxc.reader'       # B C D
+  - 'PROCESS-NAME,com.qiyi.video'         # B C D
+  - 'PROCESS-NAME,com.taobao.taobao'      # B C D
+  - 'PROCESS-NAME,com.xiaomi.mibrain.speech'  # B C D
+  - 'PROCESS-NAME,com.zhiliaoapp.musically'  # B C D
+  - 'PROCESS-NAME,fdm'                    # F
+  - 'PROCESS-NAME,parsecd'                # F
+  - 'PROCESS-NAME,privoxy'                # F
+  - 'PROCESS-NAME,qBittorrent'            # F
+  - 'PROCESS-NAME,qbittorrent*'           # F
+  - 'PROCESS-NAME,qbittorrent-nox'        # F
+  - 'PROCESS-NAME,ss-local'               # F
+  - 'PROCESS-NAME,tailscaled'             # F
+  - 'PROCESS-NAME,transmission-daemon'    # F
+  - 'PROCESS-NAME,transmission-qt'        # F
+  - 'PROCESS-NAME,trojan'                 # F
+  - 'PROCESS-NAME,trojan-go'              # F
+  - 'PROCESS-NAME,tv.danmaku.bili'        # B C D
+  - 'PROCESS-NAME,tv.danmaku.bilibilihd'  # B C D
+  - 'PROCESS-NAME,uTorrent'               # F
+  - 'PROCESS-NAME,v2ray'                  # F
+  - 'PROCESS-NAME,xray'                   # F
+  - 'PROCESS-NAME,小米云服务.exe'         # B C D

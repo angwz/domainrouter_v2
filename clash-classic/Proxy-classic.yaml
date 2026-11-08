@@ -1,0 +1,54 @@
+# NAME: Proxy
+# GROUP: 🌠 节点选择
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: classical
+# TOTAL: 39
+# DOMAIN-KEYWORD: 36
+# GEOSITE: 2
+# PROCESS-NAME: 1
+# SOURCE A: my.wei
+# SOURCE B: blackmatrix7 · Proxy/Proxy.list
+# SOURCE C: blackmatrix7 · Global/Global.list
+payload:
+  - 'DOMAIN-KEYWORD,1drv'        # B C
+  - 'DOMAIN-KEYWORD,1e100'       # B C
+  - 'DOMAIN-KEYWORD,abema'       # B C
+  - 'DOMAIN-KEYWORD,amazon'      # C
+  - 'DOMAIN-KEYWORD,appledaily'  # B C
+  - 'DOMAIN-KEYWORD,avoddashs'   # C
+  - 'DOMAIN-KEYWORD,avtb'        # B C
+  - 'DOMAIN-KEYWORD,bbcfmt'      # C
+  - 'DOMAIN-KEYWORD,beetalk'     # B C
+  - 'DOMAIN-KEYWORD,blogspot'    # B C
+  - 'DOMAIN-KEYWORD,dlercloud'   # B C
+  - 'DOMAIN-KEYWORD,dropbox'     # B C
+  - 'DOMAIN-KEYWORD,facebook'    # B C
+  - 'DOMAIN-KEYWORD,fbcdn'       # B C
+  - 'DOMAIN-KEYWORD,gmail'       # B C
+  - 'DOMAIN-KEYWORD,google'      # B C
+  - 'DOMAIN-KEYWORD,instagram'   # B C
+  - 'DOMAIN-KEYWORD,jav'         # C
+  - 'DOMAIN-KEYWORD,musical.ly'  # C
+  - 'DOMAIN-KEYWORD,onedrive'    # B C
+  - 'DOMAIN-KEYWORD,paypal'      # B C
+  - 'DOMAIN-KEYWORD,pinterest'   # C
+  - 'DOMAIN-KEYWORD,porn'        # B C
+  - 'DOMAIN-KEYWORD,sci-hub'     # B C
+  - 'DOMAIN-KEYWORD,skydrive'    # B C
+  - 'DOMAIN-KEYWORD,spotify'     # B C
+  - 'DOMAIN-KEYWORD,telegram'    # B C
+  - 'DOMAIN-KEYWORD,tiktok'      # C
+  - 'DOMAIN-KEYWORD,ttvnw'       # B C
+  - 'DOMAIN-KEYWORD,twimg'       # C
+  - 'DOMAIN-KEYWORD,twitter'     # B C
+  - 'DOMAIN-KEYWORD,uk-live'     # B C
+  - 'DOMAIN-KEYWORD,voddazn'     # C
+  - 'DOMAIN-KEYWORD,whatsapp'    # B C
+  - 'DOMAIN-KEYWORD,wikileaks'   # C
+  - 'DOMAIN-KEYWORD,youtube'     # B C
+
+  - 'GEOSITE,geolocation-!cn'    # A
+  - 'GEOSITE,geolocation-cn@!cn'  # A
+
+  - 'PROCESS-NAME,LookupViewService'  # C

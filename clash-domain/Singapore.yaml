@@ -1,0 +1,961 @@
+# NAME: Singapore
+# GROUP: 🧊 新加坡专线
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 943
+# SOURCE A: my.wei
+# SOURCE B: MetaCubeX · geosite/category-cryptocurrency.yaml
+# SOURCE C: blackmatrix7 · Crypto/Crypto.list
+# SOURCE D: blackmatrix7 · Cryptocurrency/Cryptocurrency.list
+# SOURCE E: MetaCubeX · geosite/binance.yaml
+# SOURCE F: blackmatrix7 · Binance/Binance.list
+# SOURCE G: MetaCubeX · geosite/okx.yaml
+# SOURCE H: blackmatrix7 · OKX/OKX.list
+# SOURCE I: MetaCubeX · geosite/facebook.yaml
+# SOURCE J: blackmatrix7 · Facebook/Facebook.list
+# SOURCE K: MetaCubeX · geosite/meta.yaml
+payload:
+  - '+.sg'                    # A
+  - '+.1inch.io'              # B C
+  - '+.1ml.com'               # C
+  - '+.aave.com'              # B C
+  - '+.aboutfacebook.com'     # I J K
+  - '+.accessfacebookfromschool.com'  # I J K
+  - '+.accountkit.com'        # J K
+  - '+.acebooik.com'          # I J K
+  - '+.acebook.com'           # I J K
+  - '+.achat-followers-instagram.com'  # J K
+  - '+.acheter-followers-instagram.com'  # J K
+  - '+.acheterdesfollowersinstagram.com'  # J K
+  - '+.acheterfollowersinstagram.com'  # J K
+  - '+.acinq.co'              # C
+  - '+.advancediddetection.com'  # I J K
+  - '+.aex.com'               # C D
+  - '+.aicoin.com'            # C D
+  - '+.aimoon.com'            # C D
+  - '+.appsflayer.com'        # F
+  - '+.apy999.com'            # C
+  - '+.arbitrum.io'           # C
+  - '+.askfacebook.net'       # I J K
+  - '+.askfacebook.org'       # I J K
+  - '+.asproex.com'           # B C
+  - '+.asproexapi.com'        # B C
+  - '+.atdmt2.com'            # I J K
+  - '+.atlasdmt.com'          # I J K
+  - '+.atlasonepoint.com'     # I J K
+  - '+.atmeta.com'            # K
+  - '+.atscaleconference.com'  # J K
+  - '+.avax.network'          # C
+  - '+.base.org'              # B
+  - '+.bestchange.com'        # B
+  - '+.bestchange.net'        # B
+  - '+.bestchange.ru'         # B
+  - '+.bibox.com'             # C D
+  - '+.binance.cc'            # B D E
+  - '+.binance.charity'       # B E
+  - '+.binance.cloud'         # B D E F
+  - '+.binance.co'            # B E
+  - '+.binance.com'           # B D E F
+  - '+.binance.im'            # D
+  - '+.binance.info'          # B E
+  - '+.binance.me'            # B D E F
+  - '+.binance.net'           # B E
+  - '+.binance.org'           # B E
+  - '+.binance.us'            # B D E
+  - '+.binance.vision'        # B E
+  - '+.binanceapi.com'        # B E
+  - '+.binancecnt.com'        # B E F
+  - '+.binancefuture.com'     # F
+  - '+.binanceru.net'         # B E
+  - '+.binancezh.be'          # B E
+  - '+.binancezh.biz'         # B E
+  - '+.binancezh.cc'          # B E
+  - '+.binancezh.co'          # B E
+  - '+.binancezh.com'         # B E
+  - '+.binancezh.info'        # B E
+  - '+.binancezh.ink'         # B E
+  - '+.binancezh.kim'         # B E
+  - '+.binancezh.link'        # B E
+  - '+.binancezh.live'        # B E
+  - '+.binancezh.mobi'        # B E
+  - '+.binancezh.net'         # B E
+  - '+.binancezh.pro'         # B E
+  - '+.binancezh.sh'          # B E
+  - '+.binancezh.top'         # B E
+  - '+.bingx.com'             # B
+  - '+.binoculus.com'         # J K
+  - '+.bisq.io'               # B C
+  - '+.bisq.network'          # B C
+  - '+.bitbank.cc'            # B C
+  - '+.bitcoin.it'            # C
+  - '+.bitcoin.org'           # B C
+  - '+.bitcoincore.org'       # B
+  - '+.bitcoinity.org'        # C
+  - '+.bitcoinmagazine.com'   # C
+  - '+.bitcointalk.org'       # C D
+  - '+.bitcoinvisuals.com'    # C
+  - '+.bitderiv.com'          # C
+  - '+.bitfinex.com'          # B C D
+  - '+.bitflyer.com'          # B C
+  - '+.bitflyer.jp'           # B C
+  - '+.bitget.com'            # B
+  - '+.bithumb.com'           # C D
+  - '+.bitlayer.org'          # B
+  - '+.bitmex.com'            # B C D
+  - '+.bitquick.co'           # B C
+  - '+.bitsquare.io'          # B C
+  - '+.bitstamp.net'          # B C D
+  - '+.bittrex.com'           # B C D
+  - '+.blast.io'              # B
+  - '+.block.one'             # C
+  - '+.blockchain.com'        # B C
+  - '+.blockchair.com'        # B C
+  - '+.blockchair.net'        # B
+  - '+.blockfrost.io'         # B
+  - '+.bloks.io'              # C
+  - '+.bmwweb.solutions'      # B E
+  - '+.bnappweb.black'        # B E
+  - '+.bnappzh.co'            # C D F
+  - '+.bnappzh.com'           # C D
+  - '+.bnappzh.mobi'          # C
+  - '+.bnbchain.org'          # B E
+  - '+.bnbstatic.com'         # B C D E F
+  - '+.bnbzh.ac'              # F
+  - '+.bntrace.com'           # B C D E F
+  - '+.boba.network'          # C
+  - '+.bookstagram.com'       # J K
+  - '+.botorch.org'           # J K
+  - '+.bsappapi.cc'           # B E
+  - '+.bsappapi.com'          # B E
+  - '+.bscdnweb.com'          # B E
+  - '+.bscscan.com'           # C
+  - '+.btc.com'               # C
+  - '+.buck.build'            # J K
+  - '+.buckbuild.com'         # J K
+  - '+.buyingfacebooklikes.com'  # I J K
+  - '+.buyoculus.com'         # J K
+  - '+.byabcde.com'           # B
+  - '+.byapis.com'            # B
+  - '+.byapps.net'            # B
+  - '+.bybdc6.com'            # B
+  - '+.bybit-global.com'      # B
+  - '+.bybit.biz'             # B
+  - '+.bybit.cloud'           # B
+  - '+.bybit.com'             # B C D
+  - '+.bybitglobal.com'       # B
+  - '+.bycbe.com'             # B
+  - '+.bycsi.com'             # B
+  - '+.byd3c3.com'            # B
+  - '+.bymj.io'               # B
+  - '+.bytetree.com'          # C
+  - '+.bytick.com'            # B
+  - '+.careersatfb.com'       # I J K
+  - '+.carstagram.com'        # J K
+  - '+.cbeci.org'             # C
+  - '+.cdninstagram.com'      # J K
+  - '+.celebgramme.com'       # I J K
+  - '+.cex.io'                # B C
+  - '+.chainalysis.com'       # C
+  - '+.chainbroker.io'        # C
+  - '+.chainid.network'       # B
+  - '+.chickstagram.com'      # J K
+  - '+.china-facebook.com'    # I J K
+  - '+.chippay.com'           # C
+  - '+.clearpool.finance'     # B
+  - '+.click-url.com'         # I J K
+  - '+.coin.dance'            # C
+  - '+.coinalyze.net'         # B
+  - '+.coinbase.com'          # B C D
+  - '+.coincheck.com'         # C D
+  - '+.coincheckup.com'       # C
+  - '+.coincodex.com'         # C
+  - '+.coindesk.com'          # B
+  - '+.coingate.com'          # B
+  - '+.coingecko.com'         # B C D
+  - '+.coinglass.com'         # B
+  - '+.coinmap.org'           # B
+  - '+.coinmarketcap.com'     # B C D
+  - '+.coinmetrics.io'        # C
+  - '+.coinonecore.com'       # B C
+  - '+.coinonecorp.com'       # B C
+  - '+.coinowo.com'           # C
+  - '+.cointrendz.com'        # C
+  - '+.como-hackearfacebook.com'  # I J K
+  - '+.componentkit.org'      # J K
+  - '+.compound.finance'      # C
+  - '+.coredao.org'           # B
+  - '+.crowdtangle.com'       # I J K
+  - '+.crunchbase.com'        # C
+  - '+.crypto.com'            # B
+  - '+.crypto51.app'          # C
+  - '+.cryptoart.io'          # C
+  - '+.cryptocompare.com'     # B C
+  - '+.cryptofees.info'       # C
+  - '+.cryptoid.info'         # B
+  - '+.cryptomus.com'         # B
+  - '+.cryptoquant.com'       # C
+  - '+.cryptorank.io'         # C
+  - '+.cryptoslam.io'         # C
+  - '+.curve.fi'              # B
+  - '+.cyberx.com'            # B
+  - '+.dacebook.com'          # I J K
+  - '+.dapp.review'           # C
+  - '+.dappradar.com'         # C
+  - '+.dcabtc.com'            # C
+  - '+.debank.com'            # B C D
+  - '+.defieye.io'            # C
+  - '+.defillama.com'         # C
+  - '+.defipulse.com'         # C
+  - '+.defirate.com'          # C
+  - '+.delets.cash'           # B
+  - '+.delets.online'         # B
+  - '+.deribit.com'           # B
+  - '+.devcon.org'            # B C
+  - '+.dextools.io'           # C
+  - '+.digiconomist.net'      # C
+  - '+.dlfacebook.com'        # I J K
+  - '+.dogecoin.com'          # B C
+  - '+.dotfacebook.com'       # I J K
+  - '+.dotfacebook.net'       # I J K
+  - '+.dovemetrics.com'       # C
+  - '+.draftjs.org'           # J K
+  - '+.dropsearn.com'         # C
+  - '+.drpc.org'              # B
+  - '+.duneanalytics.com'     # C
+  - '+.dydx.exchange'         # B C
+  - '+.earni.fi'              # C
+  - '+.eos.io'                # C
+  - '+.eosflare.io'           # C
+  - '+.eospark.com'           # C
+  - '+.eostracker.io'         # C
+  - '+.ethereum-magicians.org'  # C
+  - '+.ethereum.cn'           # C
+  - '+.ethereum.foundation'   # B C
+  - '+.ethereum.org'          # B C
+  - '+.ethermine.org'         # C
+  - '+.ethernodes.org'        # C
+  - '+.etherscan.com'         # C
+  - '+.etherscan.io'          # B C D
+  - '+.ethfans.org'           # C
+  - '+.ethgasstation.info'    # C
+  - '+.ewapool.net'           # C
+  - '+.expresswifi.com'       # I J K
+  - '+.f2pool.com'            # C
+  - '+.f8.com'                # J K
+  - '+.faacebok.com'          # I J K
+  - '+.faacebook.com'         # I J K
+  - '+.faasbook.com'          # I J K
+  - '+.facbebook.com'         # I J K
+  - '+.facbeok.com'           # I J K
+  - '+.facboo.com'            # I J K
+  - '+.facbook.com'           # I J K
+  - '+.facbool.com'           # I J K
+  - '+.facboox.com'           # I J K
+  - '+.faccebook.com'         # I J K
+  - '+.faccebookk.com'        # I J K
+  - '+.facdbook.com'          # I J K
+  - '+.facdebook.com'         # I J K
+  - '+.face-book.com'         # I J K
+  - '+.faceabook.com'         # I J K
+  - '+.facebboc.com'          # I J K
+  - '+.facebbook.com'         # I J K
+  - '+.facebboook.com'        # I J K
+  - '+.facebcook.com'         # I J K
+  - '+.facebdok.com'          # I J K
+  - '+.facebgook.com'         # I J K
+  - '+.facebhook.com'         # I J K
+  - '+.facebkkk.com'          # I J K
+  - '+.facebo-ok.com'         # I J K
+  - '+.faceboak.com'          # I J K
+  - '+.facebock.com'          # I J K
+  - '+.facebocke.com'         # I J K
+  - '+.facebof.com'           # I J K
+  - '+.faceboik.com'          # I J K
+  - '+.facebok.com'           # I J K
+  - '+.facebokbook.com'       # I J K
+  - '+.facebokc.com'          # I J K
+  - '+.facebokk.com'          # I J K
+  - '+.facebokok.com'         # I J K
+  - '+.faceboks.com'          # I J K
+  - '+.facebol.com'           # I J K
+  - '+.facebolk.com'          # I J K
+  - '+.facebomok.com'         # I J K
+  - '+.faceboo.com'           # I J K
+  - '+.facebooa.com'          # I J K
+  - '+.faceboob.com'          # I J K
+  - '+.faceboobok.com'        # I J K
+  - '+.facebooc.com'          # I J K
+  - '+.faceboock.com'         # I J K
+  - '+.facebood.com'          # I J K
+  - '+.facebooe.com'          # I J K
+  - '+.faceboof.com'          # I J K
+  - '+.facebooi.com'          # I J K
+  - '+.facebooik.com'         # I J K
+  - '+.facebooik.org'         # I J K
+  - '+.facebooj.com'          # I J K
+  - '+.facebook-corp.com'     # I J K
+  - '+.facebook-covid-19.com'  # I J K
+  - '+.facebook-ebook.com'    # I J K
+  - '+.facebook-forum.com'    # I J K
+  - '+.facebook-hardware.com'  # I J K
+  - '+.facebook-inc.com'      # I J K
+  - '+.facebook-login.com'    # I J K
+  - '+.facebook-newsroom.com'  # I J K
+  - '+.facebook-newsroom.org'  # I J K
+  - '+.facebook-pmdcenter.com'  # I J K
+  - '+.facebook-pmdcenter.net'  # I J K
+  - '+.facebook-pmdcenter.org'  # I J K
+  - '+.facebook-privacy.com'  # I J K
+  - '+.facebook-program.com'  # I J K
+  - '+.facebook-studio.com'   # I J K
+  - '+.facebook-support.org'  # I J K
+  - '+.facebook-texas-holdem.com'  # I J K
+  - '+.facebook-texas-holdem.net'  # I J K
+  - '+.facebook.br'           # I J K
+  - '+.facebook.ca'           # I J K
+  - '+.facebook.cc'           # I J K
+  - '+.facebook.com'          # I J K  覆盖 +.analytics.facebook.com I K, +.pixel.facebook.com I K 等 3 条
+  - '+.facebook.design'       # I J K
+  - '+.facebook.hu'           # I J K
+  - '+.facebook.in'           # I J K
+  - '+.facebook.net'          # I J K
+  - '+.facebook.nl'           # I J K
+  - '+.facebook.org'          # I J K
+  - '+.facebook.se'           # I J K
+  - '+.facebook.shop'         # I J K
+  - '+.facebook.tv'           # I J K
+  - '+.facebook.us'           # I J K
+  - '+.facebook.wang'         # I J K
+  - '+.facebook123.org'       # I J K
+  - '+.facebook30.com'        # I J K
+  - '+.facebook30.net'        # I J K
+  - '+.facebook30.org'        # I J K
+  - '+.facebook4business.com'  # I J K
+  - '+.facebookads.com'       # I J K
+  - '+.facebookadvertisingsecrets.com'  # I J K
+  - '+.facebookappcenter.info'  # J K
+  - '+.facebookappcenter.net'  # J K
+  - '+.facebookappcenter.org'  # J K
+  - '+.facebookatschool.com'  # I J K
+  - '+.facebookawards.com'    # I J K
+  - '+.facebookblueprint.net'  # I J K
+  - '+.facebookbrand.com'     # I J K
+  - '+.facebookbrand.net'     # I J K
+  - '+.facebookcanadianelectionintegrityinitiative.com'  # I J K
+  - '+.facebookcareer.com'    # I J K
+  - '+.facebookcheats.com'    # I J K
+  - '+.facebookck.com'        # I J K
+  - '+.facebookclub.com'      # I J K
+  - '+.facebookcom.com'       # I J K
+  - '+.facebookconnect.com'   # J K
+  - '+.facebookconsultant.org'  # I J K
+  - '+.facebookcoronavirus.com'  # I J K
+  - '+.facebookcovers.org'    # I J K
+  - '+.facebookcredits.info'  # I J K
+  - '+.facebookdating.net'    # I J K
+  - '+.facebookdevelopergarage.com'  # J K
+  - '+.facebookdusexe.org'    # I J K
+  - '+.facebookemail.com'     # I J K
+  - '+.facebookenespanol.com'  # I J K
+  - '+.facebookexchange.com'  # I J K
+  - '+.facebookexchange.net'  # I J K
+  - '+.facebookfacebook.com'  # I J K
+  - '+.facebookflow.com'      # I J K
+  - '+.facebookgames.com'     # I J K
+  - '+.facebookgraphsearch.com'  # I J K
+  - '+.facebookgraphsearch.info'  # I J K
+  - '+.facebookgroups.com'    # I J K
+  - '+.facebookhome.cc'       # I J K
+  - '+.facebookhome.com'      # I J K
+  - '+.facebookhome.info'     # I J K
+  - '+.facebookhub.com'       # I J K
+  - '+.facebooki.com'         # I J K
+  - '+.facebookinc.com'       # I J K
+  - '+.facebookland.com'      # I J K
+  - '+.facebooklikeexchange.com'  # I J K
+  - '+.facebooklive.com'      # I J K
+  - '+.facebooklivestaging.net'  # I J K
+  - '+.facebooklivestaging.org'  # I J K
+  - '+.facebooklogin.com'     # I J K
+  - '+.facebooklogin.info'    # I J K
+  - '+.facebookloginhelp.net'  # I J K
+  - '+.facebooklogs.com'      # I J K
+  - '+.facebookmail.com'      # I J K
+  - '+.facebookmail.tv'       # I J K
+  - '+.facebookmanager.info'  # I J K
+  - '+.facebookmarketing.info'  # I J K
+  - '+.facebookmarketingpartner.com'  # I J K
+  - '+.facebookmarketingpartners.com'  # I J K
+  - '+.facebookmobile.com'    # I J K
+  - '+.facebookmsn.com'       # I J K
+  - '+.facebooknews.com'      # I J K
+  - '+.facebooknfl.com'       # I J K
+  - '+.facebooknude.com'      # I J K
+  - '+.facebookofsex.com'     # I J K
+  - '+.facebookook.com'       # I J K
+  - '+.facebookpaper.com'     # I J K
+  - '+.facebookpay.com'       # I J K
+  - '+.facebookphonenumber.net'  # I J K
+  - '+.facebookphoto.com'     # I J K
+  - '+.facebookphotos.com'    # I J K
+  - '+.facebookpmdcenter.com'  # I J K
+  - '+.facebookpoke.net'      # I J K
+  - '+.facebookpoke.org'      # I J K
+  - '+.facebookpoker.info'    # I J K
+  - '+.facebookpokerchips.info'  # I J K
+  - '+.facebookporn.net'      # I J K
+  - '+.facebookporn.org'      # I J K
+  - '+.facebookporno.net'     # I J K
+  - '+.facebookportal.com'    # I J K
+  - '+.facebookquotes4u.com'  # J
+  - '+.facebooks.com'         # I J K
+  - '+.facebooksafety.com'    # I J K
+  - '+.facebooksecurity.net'  # I J K
+  - '+.facebookshop.com'      # I J K
+  - '+.facebooksignup.net'    # I J K
+  - '+.facebooksite.net'      # I J K
+  - '+.facebookstories.com'   # I J K
+  - '+.facebookstudios.net'   # I J K
+  - '+.facebookstudios.org'   # I J K
+  - '+.facebooksupplier.com'  # I J K
+  - '+.facebooksuppliers.com'  # I J K
+  - '+.facebookswagemea.com'  # I J K
+  - '+.facebookswagstore.com'  # I J K
+  - '+.facebooksz.com'        # I J K
+  - '+.facebookthreads.net'   # I J K
+  - '+.facebooktv.net'        # I J K
+  - '+.facebooktv.org'        # I J K
+  - '+.facebookvacation.com'  # I J K
+  - '+.facebookw.com'         # I J K
+  - '+.facebookwork.com'      # I J K
+  - '+.facebookworld.com'     # I J K
+  - '+.facebool.com'          # I J K
+  - '+.facebool.info'         # I J K
+  - '+.facebooll.com'         # I J K
+  - '+.faceboom.com'          # I J K
+  - '+.faceboon.com'          # I J K
+  - '+.faceboonk.com'         # I J K
+  - '+.faceboooik.com'        # I J K
+  - '+.faceboook.com'         # I J K
+  - '+.faceboop.com'          # I J K
+  - '+.faceboot.com'          # I J K
+  - '+.faceboox.com'          # I J K
+  - '+.facebopk.com'          # I J K
+  - '+.facebpook.com'         # I J K
+  - '+.facebuk.com'           # I J K
+  - '+.facebuok.com'          # I J K
+  - '+.facebvook.com'         # I J K
+  - '+.facebyook.com'         # I J K
+  - '+.facebzook.com'         # I J K
+  - '+.facecbgook.com'        # I J K
+  - '+.facecbook.com'         # I J K
+  - '+.facecbook.org'         # I J K
+  - '+.facecook.com'          # I J K
+  - '+.facecook.org'          # I J K
+  - '+.facedbook.com'         # I J K
+  - '+.faceebok.com'          # I J K
+  - '+.faceebook.com'         # I J K
+  - '+.faceebot.com'          # I J K
+  - '+.facegbok.com'          # I J K
+  - '+.facegbook.com'         # I J K
+  - '+.faceobk.com'           # I J K
+  - '+.faceobok.com'          # I J K
+  - '+.faceobook.com'         # I J K
+  - '+.faceook.com'           # I J K
+  - '+.facerbooik.com'        # I J K
+  - '+.facerbook.com'         # I J K
+  - '+.facesbooc.com'         # I J K
+  - '+.facesounds.com'        # I J K
+  - '+.facetook.com'          # I J K
+  - '+.facevbook.com'         # I J K
+  - '+.facewbook.co'          # I J K
+  - '+.facewook.com'          # I J K
+  - '+.facfacebook.com'       # I J K
+  - '+.facfebook.com'         # I J K
+  - '+.faciometrics.com'      # J K
+  - '+.fackebook.com'         # I J K
+  - '+.facnbook.com'          # I J K
+  - '+.facrbook.com'          # I J K
+  - '+.facvebook.com'         # I J K
+  - '+.facwebook.com'         # I J K
+  - '+.facxebook.com'         # I J K
+  - '+.fadebook.com'          # I J K
+  - '+.faebok.com'            # I J K
+  - '+.faebook.com'           # I J K
+  - '+.faebookc.com'          # I J K
+  - '+.faeboook.com'          # I J K
+  - '+.faecebok.com'          # I J K
+  - '+.faesebook.com'         # I J K
+  - '+.fafacebook.com'        # I J K
+  - '+.faicbooc.com'          # I J K
+  - '+.fantom.foundation'     # B
+  - '+.fantom.network'        # B
+  - '+.fasebokk.com'          # I J K
+  - '+.fasebook.com'          # I J K
+  - '+.faseboox.com'          # I J K
+  - '+.fasttext.cc'           # J K
+  - '+.favebook.com'          # I J K
+  - '+.faycbok.com'           # I J K
+  - '+.fb.careers'            # I J K
+  - '+.fb.com'                # I J K
+  - '+.fb.gg'                 # I K
+  - '+.fb.me'                 # I J K
+  - '+.fb.watch'              # I K
+  - '+.fbacebook.com'         # I J K
+  - '+.fbaddins.com'          # J
+  - '+.fbbmarket.com'         # I J K
+  - '+.fbboostyourbusiness.com'  # I J K
+  - '+.fbcdn.com'             # I J K
+  - '+.fbcdn.net'             # I J K
+  - '+.fbf8.com'              # J K
+  - '+.fbfeedback.com'        # I J K
+  - '+.fbhome.com'            # I J K
+  - '+.fbidb.io'              # I J K
+  - '+.fbinc.com'             # I J K
+  - '+.fbinfer.com'           # J K
+  - '+.fbinnovation.com'      # I J K
+  - '+.fblitho.com'           # J K
+  - '+.fbmarketing.com'       # I J K
+  - '+.fbmessenger.com'       # J K
+  - '+.fbredex.com'           # J K
+  - '+.fbreg.com'             # I J K
+  - '+.fbrell.com'            # J K
+  - '+.fbrpms.com'            # I J K
+  - '+.fbsbx.com'             # I J K
+  - '+.fbsbx.net'             # I J K
+  - '+.fbsupport-covid.net'   # I J K
+  - '+.fbthirdpartypixel.com'  # I J K
+  - '+.fbthirdpartypixel.net'  # I J K
+  - '+.fbthirdpartypixel.org'  # I J K
+  - '+.fburl.com'             # I J K
+  - '+.fbwat.ch'              # I K
+  - '+.fbworkmail.com'        # I J K
+  - '+.fcacebook.com'         # I J K
+  - '+.fcaebook.com'          # I J K
+  - '+.fcebook.com'           # I J K
+  - '+.fcebookk.com'          # I J K
+  - '+.fcfacebook.com'        # I J K
+  - '+.fdacebook.info'        # I J K
+  - '+.feacboo.com'           # I J K
+  - '+.feacbook.com'          # I J K
+  - '+.feacbooke.com'         # I J K
+  - '+.feacebook.com'         # I J K
+  - '+.fecbbok.com'           # I J K
+  - '+.fecbooc.com'           # I J K
+  - '+.fecbook.com'           # I J K
+  - '+.feceboock.com'         # I J K
+  - '+.fecebook.net'          # I J K
+  - '+.feceboox.com'          # I J K
+  - '+.fececbook.com'         # I J K
+  - '+.feook.com'             # I J K
+  - '+.ferabook.com'          # I J K
+  - '+.fescebook.com'         # I J K
+  - '+.fesebook.com'          # I J K
+  - '+.ffacebook.com'         # I J K
+  - '+.fgacebook.com'         # I J K
+  - '+.fiat24.com'            # B
+  - '+.ficeboock.com'         # I J K
+  - '+.filecoin.io'           # C
+  - '+.flare.network'         # B
+  - '+.flashbots.net'         # C
+  - '+.flow.dev'              # J K
+  - '+.flow.org'              # J K
+  - '+.flowtype.org'          # J K
+  - '+.fmcebook.com'          # I J K
+  - '+.fnacebook.com'         # I J K
+  - '+.fosebook.com'          # I J K
+  - '+.fpacebook.com'         # I J K
+  - '+.fqcebook.com'          # I J K
+  - '+.fracebook.com'         # I J K
+  - '+.fragment.com'          # C
+  - '+.freeb.com'             # I J K
+  - '+.freebasics.com'        # I J K
+  - '+.freebasics.net'        # I J K
+  - '+.freebs.com'            # I J K
+  - '+.freefacebook.com'      # I J K
+  - '+.freefacebook.net'      # I J K
+  - '+.freefacebookads.net'   # I J K
+  - '+.freefblikes.com'       # I J K
+  - '+.freindfeed.com'        # I J K
+  - '+.frescolib.org'         # J K
+  - '+.friendbook.info'       # I J K
+  - '+.friendfed.com'         # I J K
+  - '+.friendfeed-api.com'    # I J K
+  - '+.friendfeed-media.com'  # I J K
+  - '+.friendfeed.com'        # I J K
+  - '+.friendfeedmedia.com'   # I J K
+  - '+.fsacebok.com'          # I J K
+  - '+.fscebook.com'          # I J K
+  - '+.ftx.com'               # C D
+  - '+.fundingrates.xyz'      # B
+  - '+.fundraisingwithfacebook.com'  # I J K
+  - '+.funnyfacebook.org'     # I J K
+  - '+.futureofbusinesssurvey.org'  # I J K
+  - '+.gacebook.com'          # I J K
+  - '+.gameroom.com'          # I J K
+  - '+.gate.ac'               # C
+  - '+.gate.com'              # B
+  - '+.gate.io'               # B C D
+  - '+.gate.tv'               # B
+  - '+.gateapi.io'            # B
+  - '+.gatedata.org'          # B
+  - '+.gateimg.com'           # B
+  - '+.gateio.live'           # B
+  - '+.gateio.services'       # B
+  - '+.gemini.com'            # B C D
+  - '+.gfacecbook.com'        # I J K
+  - '+.glassnode.com'         # C
+  - '+.gmgn.ai'               # B
+  - '+.groups.com'            # I J K
+  - '+.guardarian.com'        # B
+  - '+.hackerfacebook.com'    # I J K
+  - '+.hackfacebook.com'      # I J K
+  - '+.hackfacebookid.com'    # I J K
+  - '+.hacklang.org'          # J K
+  - '+.hashflow.com'          # B
+  - '+.hbabit.com'            # B C
+  - '+.hbfile.net'            # B C
+  - '+.heco-scan.com'         # C
+  - '+.hecochain.com'         # C
+  - '+.hecoview.com'          # C
+  - '+.hhvm.com'              # J K
+  - '+.hifacebook.info'       # I J K
+  - '+.howtohackfacebook-account.com'  # I J K
+  - '+.hsfacebook.com'        # I J K
+  - '+.httpfacebook.com'      # I J K
+  - '+.httpsfacebook.com'     # I J K
+  - '+.httpwwwfacebook.com'   # I J K
+  - '+.htx.com'               # B
+  - '+.huobi.com'             # B D
+  - '+.huobi.me'              # B
+  - '+.huobi.pro'             # B
+  - '+.huobi.sc'              # B
+  - '+.huobiasia.vip'         # B
+  - '+.huobigroup.com'        # B
+  - '+.huobitoken.com'        # B
+  - '+.hyperliquid.xyz'       # B
+  - '+.i.org'                 # I J K
+  - '+.icodrops.com'          # C
+  - '+.ig.me'                 # J K
+  - '+.igcdn.com'             # J K
+  - '+.igsonar.com'           # J K
+  - '+.igtv.com'              # J K
+  - '+.imstagram.com'         # J K
+  - '+.imtagram.com'          # J K
+  - '+.infura.io'             # B
+  - '+.instaadder.com'        # J K
+  - '+.instachecker.com'      # J K
+  - '+.instafallow.com'       # J K
+  - '+.instafollower.com'     # J K
+  - '+.instagainer.com'       # J K
+  - '+.instagda.com'          # J K
+  - '+.instagify.com'         # J K
+  - '+.instagmania.com'       # J K
+  - '+.instagor.com'          # J K
+  - '+.instagr.am'            # J
+  - '+.instagram-brand.com'   # J K
+  - '+.instagram-engineering.com'  # J K
+  - '+.instagram-help.com'    # J K
+  - '+.instagram-press.com'   # J K
+  - '+.instagram-press.net'   # J K
+  - '+.instagram.com'         # J K  覆盖 +.graph-fallback.instagram.com K, +.graph.instagram.com K
+  - '+.instagramci.com'       # J K
+  - '+.instagramcn.com'       # J K
+  - '+.instagramdi.com'       # J K
+  - '+.instagramhashtags.net'  # J K
+  - '+.instagramhilecim.com'  # J K
+  - '+.instagramhilesi.org'   # J K
+  - '+.instagramium.com'      # J K
+  - '+.instagramizlenme.com'  # J K
+  - '+.instagramkusu.com'     # J K
+  - '+.instagramlogin.com'    # J K
+  - '+.instagramm.com'        # J K
+  - '+.instagramn.com'        # J K
+  - '+.instagrampartners.com'  # J K
+  - '+.instagramphoto.com'    # J K
+  - '+.instagramq.com'        # J K
+  - '+.instagramsepeti.com'   # J K
+  - '+.instagramtakipcisatinal.net'  # J K
+  - '+.instagramtakiphilesi.com'  # J K
+  - '+.instagramtips.com'     # J K
+  - '+.instagramtr.com'       # J K
+  - '+.instagran.com'         # J K
+  - '+.instagranm.com'        # J K
+  - '+.instagrem.com'         # J K
+  - '+.instagrm.com'          # J K
+  - '+.instagtram.com'        # J K
+  - '+.instagy.com'           # J K
+  - '+.instamgram.com'        # J K
+  - '+.instangram.com'        # J K
+  - '+.instanttelegram.com'   # J K
+  - '+.instaplayer.net'       # J K
+  - '+.instastyle.tv'         # J K
+  - '+.instgram.com'          # J K
+  - '+.intagram.com'          # J K
+  - '+.intagrm.com'           # J K
+  - '+.internet.org'          # I J K
+  - '+.intgram.com'           # J K
+  - '+.intotheblock.com'      # C
+  - '+.invity.io'             # B
+  - '+.ipfs.io'               # C
+  - '+.isafepal.com'          # B
+  - '+.jaxx.io'               # C
+  - '+.kingstagram.com'       # J K
+  - '+.klik.me'               # I J K
+  - '+.krak.app'              # A
+  - '+.kraken.com'            # B C D
+  - '+.kraken.onl'            # B
+  - '+.kucoin.com'            # B C D
+  - '+.kucoin.plus'           # B
+  - '+.kurs.expert'           # B
+  - '+.lighter.exchange'      # B
+  - '+.lighter.xyz'           # B
+  - '+.lightning.community'   # C
+  - '+.lightning.engineering'  # C
+  - '+.liquid.com'            # C D
+  - '+.litecoin.org'          # B
+  - '+.liverail.com'          # I J K
+  - '+.liverail.tv'           # I J K
+  - '+.llama.com'             # K
+  - '+.lnstagram-help.com'    # J K
+  - '+.loanscan.io'           # C
+  - '+.localbitcoins.com'     # B C
+  - '+.localbitcoinschain.com'  # B C
+  - '+.login-account.net'     # I J K
+  - '+.m.me'                  # J K
+  - '+.makeitopen.com'        # J K
+  - '+.makerdao.com'          # C
+  - '+.makersplace.com'       # C
+  - '+.maple.finance'         # B
+  - '+.markzuckerberg.com'    # I J K
+  - '+.masternodes.online'    # C
+  - '+.mcrouter.net'          # J K
+  - '+.mcrouter.org'          # J K
+  - '+.mdex.co'               # C
+  - '+.mdex.com'              # C
+  - '+.mdex.me'               # C
+  - '+.mdex.one'              # C
+  - '+.megaeth.com'           # B
+  - '+.merkl.xyz'             # B
+  - '+.messenger.com'         # J K
+  - '+.messengerdevelopers.com'  # J K
+  - '+.meta.ai'               # K
+  - '+.meta.com'              # J K
+  - '+.metaaiusercontent.com'  # K
+  - '+.metaaivm.com'          # K
+  - '+.metalpha.finance'      # B
+  - '+.metamask.io'           # B
+  - '+.mexc.co'               # B
+  - '+.mexc.com'              # B C
+  - '+.mexcsensors.com'       # B
+  - '+.midentsolutions.com'   # I J K
+  - '+.mobilefacebook.com'    # I J K
+  - '+.moneywithfacebook.com'  # I J K
+  - '+.muse.ai'               # K
+  - '+.myetherwallet.com'     # C
+  - '+.myfbfans.com'          # I J K
+  - '+.mytokenapi.com'        # B
+  - '+.nansen.ai'             # C
+  - '+.nbabot.net'            # J K
+  - '+.newsfeed.com'          # I J K
+  - '+.nexo.com'              # B
+  - '+.nexo.io'               # B
+  - '+.nextstop.com'          # I J K
+  - '+.nftcalendar.io'        # C
+  - '+.nftgo.io'              # C
+  - '+.nftscan.com'           # C
+  - '+.nftstatic.com'         # B E
+  - '+.nodereal.io'           # B
+  - '+.nonfungible.com'       # C
+  - '+.nyctale.io'            # C
+  - '+.oasis.io'              # B
+  - '+.ocul.us'               # J K
+  - '+.oculus-china.com'      # J K
+  - '+.oculus.com'            # J K
+  - '+.oculus2014.com'        # J K
+  - '+.oculus3d.com'          # J K
+  - '+.oculusblog.com'        # J K
+  - '+.oculusbrand.com'       # J K
+  - '+.oculuscasino.net'      # J K
+  - '+.oculuscdn.com'         # J K
+  - '+.oculusconnect.com'     # J K
+  - '+.oculusdiving.com'      # J K
+  - '+.oculusforbusiness.com'  # J K
+  - '+.oculusrift.com'        # J K
+  - '+.oculusvr.com'          # J K
+  - '+.ogp.me'                # J K
+  - '+.okex.com'              # B C D G H
+  - '+.oklink.com'            # B C G H
+  - '+.okx-dns.com'           # B G
+  - '+.okx-dns1.com'          # B G
+  - '+.okx-dns2.com'          # B G
+  - '+.okx.ac'                # B G
+  - '+.okx.cab'               # B G
+  - '+.okx.com'               # B D G H
+  - '+.onekey-asset.com'      # B
+  - '+.onekey.so'             # B
+  - '+.onekeycn.com'          # B
+  - '+.onemoment.cc'          # B
+  - '+.onfinality.io'         # B
+  - '+.oninstagram.com'       # J K
+  - '+.online-deals.net'      # I J K
+  - '+.online-instagram.com'  # J K
+  - '+.onlineinstagram.com'   # J K
+  - '+.opencreate.org'        # I J K
+  - '+.opengraphprotocol.com'  # J K
+  - '+.opengraphprotocol.org'  # J K
+  - '+.opensea.io'            # B C
+  - '+.optimism.io'           # C
+  - '+.osl.com'               # B
+  - '+.pancakeswap.com'       # C
+  - '+.pancakeswap.finance'   # C D
+  - '+.parity.io'             # C
+  - '+.parse.com'             # J K
+  - '+.paxful.com'            # B C
+  - '+.payget.pro'            # B
+  - '+.phantom.app'           # C
+  - '+.platov.co'             # B
+  - '+.poloniex.com'          # C D
+  - '+.poly.network'          # C
+  - '+.polymarket.com'        # B
+  - '+.poolin.com'            # C
+  - '+.powersunitedvr.com'    # J K
+  - '+.pyrobot.org'           # J K
+  - '+.ramon.cash'            # B
+  - '+.ramon.money'           # B
+  - '+.raydium.io'            # C
+  - '+.reachtheworldonfacebook.com'  # I J K
+  - '+.react.com'             # J K
+  - '+.reactjs.com'           # J K
+  - '+.reactjs.org'           # J K
+  - '+.recoiljs.org'          # J K
+  - '+.redkix.com'            # I J K
+  - '+.redotpay.com'          # B
+  - '+.ripple.com'            # B
+  - '+.rocksdb.com'           # J K
+  - '+.rocksdb.net'           # J K
+  - '+.rocksdb.org'           # J K
+  - '+.rsk.co'                # B
+  - '+.saasexch.cc'           # B E F
+  - '+.saasexch.co'           # B E
+  - '+.saasexch.com'          # B E F
+  - '+.saasexch.info'         # B E
+  - '+.saasexch.io'           # B E
+  - '+.safepal.com'           # B
+  - '+.satoshilabs.com'       # B
+  - '+.shopfacebook.com'      # I J K
+  - '+.solana.com'            # C
+  - '+.solidifi.app'          # B
+  - '+.sportsfacebook.com'    # I J K
+  - '+.sportstream.com'       # I J K
+  - '+.stateofthedapps.com'   # C
+  - '+.stealthex.io'          # B
+  - '+.straitsx.com'          # B
+  - '+.sunswap.com'           # C
+  - '+.supportfacebook.com'   # I J K
+  - '+.sushi.com'             # C D
+  - '+.synthetix.io'          # C
+  - '+.taiko.xyz'             # B
+  - '+.terragraph.com'        # I J K
+  - '+.tether.to'             # C
+  - '+.tfbnw.net'             # I K
+  - '+.theblock.co'           # B
+  - '+.thefacebook.com'       # I J K
+  - '+.thefacebook.net'       # I J K
+  - '+.thefind.com'           # I J K
+  - '+.thegraph.com'          # C
+  - '+.theinstagramhack.com'  # J K
+  - '+.thetie.io'             # C
+  - '+.thirdweb.com'          # B
+  - '+.threads.com'           # K
+  - '+.threads.net'           # K
+  - '+.token.im'              # C
+  - '+.tokenpocket.pro'       # C
+  - '+.tokenterminal.com'     # C
+  - '+.tokenview.com'         # C
+  - '+.toplayerserver.com'    # I J K
+  - '+.tradeblock.com'        # C
+  - '+.traderjoexyz.com'      # C
+  - '+.tradingview.com'       # C
+  - '+.trezor.io'             # B
+  - '+.tronlink.org'          # C
+  - '+.tronscan.org'          # C
+  - '+.truefi.io'             # B
+  - '+.trustwallet.com'       # B
+  - '+.trustwalletapp.com'    # C
+  - '+.unisat.io'             # B C
+  - '+.uniswap.org'           # B C D
+  - '+.vfat.tools'            # C
+  - '+.viewbase.com'          # C
+  - '+.viewpointsfromfacebook.com'  # I J K
+  - '+.vitalik.ca'            # C
+  - '+.wa.me'                 # J K
+  - '+.walletconnect.com'     # B
+  - '+.walletconnect.org'     # B
+  - '+.watchtheburn.com'      # C
+  - '+.wbtc.network'          # C
+  - '+.web-instagram.net'     # J K
+  - '+.web3modal.org'         # B
+  - '+.whatsapp-plus.info'    # J K
+  - '+.whatsapp-plus.me'      # J K
+  - '+.whatsapp-plus.net'     # J K
+  - '+.whatsapp.biz'          # J
+  - '+.whatsapp.cc'           # J K
+  - '+.whatsapp.com'          # J K
+  - '+.whatsapp.info'         # J K
+  - '+.whatsapp.net'          # J K
+  - '+.whatsapp.org'          # J K
+  - '+.whatsapp.tv'           # J K
+  - '+.whatsappbrand.com'     # J K
+  - '+.whyfacebook.com'       # I J K
+  - '+.wintermute.com'        # B
+  - '+.wisecoin.com'          # B
+  - '+.wiseid.com'            # B
+  - '+.wisekey.com'           # B
+  - '+.workplace.com'         # I J K
+  - '+.workplaceusecases.com'  # I J K
+  - '+.worldhack.com'         # I J K
+  - '+.www-facebook.com'      # I J K
+  - '+.wwwfacebok.com'        # I J K
+  - '+.wwwfacebook.com'       # I J K
+  - '+.wwwinstagram.com'      # J K
+  - '+.wwwmfacebook.com'      # I J K
+  - '+.wynd.network'          # B
+  - '+.wyndlabs.ai'           # B
+  - '+.xlayer.tech'           # B G
+  - '+.yogalayout.com'        # J K
+  - '+.zapper.fi'             # B
+  - '+.zb.app'                # B C
+  - '+.zb.com'                # B C D
+  - '+.zb.io'                 # B C
+  - '+.zb.live'               # B C
+  - '+.zkscan.io'             # C
+  - '+.zksync.io'             # C
+  - '+.zuckerberg.com'        # I J K
+  - '+.zuckerberg.net'        # I J K
+  - '+.bitnodes.earn.com'     # C
+  - '+.bsc.getblock.io'       # C
+  - '+.btcbox.co.jp'          # B C
+  - '+.coinone.co.kr'         # B C D
+  - '+.docs.lotu.sh'          # C
+  - '+.ethereum.stackexchange.com'  # C
+  - '+.fbcdn-a.akamaihd.net'  # J  合并 fbcdn-a.akamaihd.net I K
+  - '+.korbit.co.kr'          # C D
+  - '+.pod-15-sunco-ws.zendesk.com'  # B
+  - '+.redotpay.zendesk.com'  # B
+  - '+.wisekey.com.hk'        # B
+  - '+.xhpjc6-cdn-settings.appsflyersdk.com'  # B
+  - '+.zklighter.elliot.ai'   # B
+  - '+.ip6.static.sl-reverse.com'  # J
+  - '+.okx.com.cdn.cloudflare.net'  # B G
+  - '+.rp-static-apne1.s3.ap-northeast-1.amazonaws.com'  # B
+  - 'bybit-exchange.github.io'  # B
+  - 'bybit.ada.support'       # B
+  - 'd3r7nsslvs6aaf.cloudfront.net'  # B
+  - 'onekey.zendesk.com'      # B
+  - 'straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com'  # B
+  - 'deribit.cdn.prismic.io'  # B
+  - 'token-api.metaswap.codefi.network'  # C
+  - 'zftksc.cdn-settings.appsflyersdk.com'  # B E
+  - 'zftksc.launches.appsflyersdk.com'  # B E

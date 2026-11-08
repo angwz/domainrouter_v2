@@ -1,0 +1,16 @@
+# NAME: NS
+# GROUP: 🏖️ Community
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# TYPE: domain
+# TOTAL: 7
+# SOURCE A: my.wei
+# SOURCE B: MetaCubeX · geosite/nodeseek.yaml
+payload:
+  - '+.22112211.xyz'     # B
+  - '+.deepflood.com'    # B
+  - '+.nodeget.com'      # B
+  - '+.nodeimage.com'    # B
+  - '+.nodequality.com'  # B
+  - '+.nodeseek.com'     # A B
+  - '+.nodeseek.org'     # B
