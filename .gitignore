@@ -1,0 +1,19 @@
+# Python / 工具
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.hypothesis/
+
+# 本地缓存与构建产物（不提交、不发布）
+.cache/
+build/
+dist/
+out/
+
+# 私有/本地配置
+config/*.local.toml
+*.secret.*
+.env

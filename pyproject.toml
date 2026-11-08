@@ -1,0 +1,65 @@
+[project]
+name = "domainrouter_v2"
+version = "0.1.0.dev0"
+description = "Compile a personal my.wei routing profile and upstream rule lists into optimized Mihomo rule-providers and subconverter TOML."
+readme = "README.md"
+requires-python = ">=3.13"
+# 许可证尚未选定（见 docs/decisions/0001），首次公开发布前补齐 license 字段。
+authors = [{ name = "angwz" }]
+keywords = ["mihomo", "clash", "subconverter", "rules", "routing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: Proxy Servers",
+]
+dependencies = [
+    "httpx>=0.28.1,<0.29",
+    "idna>=3.20,<4",
+    "pyyaml>=6.0.3,<7",
+    "tomli-w>=1.2.0,<2",
+]
+
+[project.scripts]
+domainrouter_v2 = "domainrouter_v2.cli:main"
+
+[dependency-groups]
+dev = [
+    "hypothesis>=6.170",
+    "mypy>=2.4",
+    "pytest>=9.2",
+    "ruff>=0.17",
+    "types-pyyaml>=6.0.12",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "PL", "PERF"]
+ignore = [
+    "PLR0911", "PLR0912", "PLR0913", "PLR0915", "PLR2004",
+    "RUF001", "RUF002", "RUF003",  # 中文注释/字符串中的全角标点是有意的
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["PLR2004", "S101"]
+
+[tool.mypy]
+strict = true
+python_version = "3.13"
+files = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+    "kernel: 需要已准备的 Mihomo/Go 工具（tools prepare）",
+    "network: 需要联网",
+]
