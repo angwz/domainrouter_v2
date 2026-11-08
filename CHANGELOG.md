@@ -21,3 +21,6 @@
 - 规则文件头注释（NAME、GROUP、REPO、UPDATED、TYPE、TOTAL），UPDATED 只在文件内容变化时更新。
 - 来源标注：规则文件头的来源图例，每条规则的同行注释（来源、合并、覆盖）；`explain --rule` 查看完整来历；仅标注变化时也会发布。
 - domain 文件按覆盖范围从宽到窄排列（`+.` 按层级 → `.` → `*` 通配 → 精确主机名），classical 类型之间空行。
+
+[未发布]: https://github.com/angwz/domainrouter_v2/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/angwz/domainrouter_v2/releases/tag/v2.0.0
