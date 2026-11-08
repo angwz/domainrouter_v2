@@ -9,11 +9,10 @@ from __future__ import annotations
 import shutil
 import tempfile
 from dataclasses import dataclass, field
-from datetime import UTC, datetime
 from pathlib import Path
 
 from domainrouter_v2.config import Config
-from domainrouter_v2.diagnostics import Code, Diagnostic, Level, error, has_errors, warning
+from domainrouter_v2.diagnostics import Code, Diagnostic, error, has_errors, warning
 from domainrouter_v2.emit import render_outputs, sha256
 from domainrouter_v2.groups import is_known_target, validate_groups
 from domainrouter_v2.model.profile import LocalMember, Profile, RouteKind, SourceRef
@@ -192,17 +191,6 @@ def write_tree(target: Path, files: dict[str, bytes]) -> None:
         if staging.exists():
             shutil.rmtree(staging, ignore_errors=True)
         raise
-
-
-def summarize(result: BuildResult) -> dict[str, int]:
-    counts = {level.value: 0 for level in Level}
-    for diagnostic in result.diagnostics:
-        counts[diagnostic.level.value] += 1
-    return counts
-
-
-def utc_now() -> str:
-    return datetime.now(UTC).isoformat(timespec="seconds")
 
 
 def inline_dns_routes(profile: Profile) -> list[str]:

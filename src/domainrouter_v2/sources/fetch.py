@@ -119,7 +119,6 @@ def _fetch_one(
 ) -> FetchOutcome:
     status = store.statuses[sid]
     stamp = now().isoformat(timespec="seconds")
-    status.last_attempt = stamp
     previous = store.load(sid)
     headers: dict[str, str] = {}
     if previous is not None and status.raw_sha256 == previous.meta.raw_sha256:
@@ -130,7 +129,7 @@ def _fetch_one(
     try:
         code, response_headers, body = _download(ref.url, headers, config, get)
         if code == 304 and previous is not None:
-            _mark_success(status, stamp)
+            _mark_success(status)
             return FetchOutcome(
                 sid, ref, True, "未变化（HTTP 304）", previous.meta.entries, not_modified=True
             )
@@ -155,19 +154,20 @@ def _fetch_one(
     )
     snapshot = make_snapshot(meta, [e.member for e in result.entries])
     changed = previous is None or previous.lines != snapshot.lines
-    store.save(sid, snapshot)
-    _write_skipped(store, sid, result)
+    if changed:
+        # 只在成员变化时改写快照：抓取时间等元数据不应让 state 分支每天产生提交
+        store.save(sid, snapshot)
+        _write_skipped(store, sid, result)
     status.etag = response_headers.get("etag", "")
     status.last_modified = response_headers.get("last-modified", "")
     status.raw_sha256 = raw_sha
-    _mark_success(status, stamp)
+    _mark_success(status)
     return FetchOutcome(
         sid, ref, True, "已更新" if changed else "内容未变", len(snapshot.lines), changed=changed
     )
 
 
-def _mark_success(status: SourceStatus, stamp: str) -> None:
-    status.last_success = stamp
+def _mark_success(status: SourceStatus) -> None:
     status.consecutive_failures = 0
     status.first_failure = ""
     status.last_error = ""

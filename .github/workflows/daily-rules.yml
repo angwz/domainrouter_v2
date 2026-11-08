@@ -1,0 +1,84 @@
+# 每日刷新上游 → 构建 → 验证 → 发布（docs/daily-automation.md）。
+# 构建与验证只有读权限；只有在仓库变量 PUBLISH_ENABLED 为 "true" 时，
+# 才由单独的发布作业取得写权限，把本次已验证的产物快进推送到 release 与 state 分支。
+name: Daily rules
+
+on:
+  schedule:
+    - cron: "17 20 * * *" # UTC 20:17 = 香港时间（Asia/Hong_Kong，UTC+8）每天 04:17
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  # 定时与手动运行共用一把锁；不取消正在进行的运行，避免中断发布
+  group: daily-rules
+  cancel-in-progress: false
+
+env:
+  UV_VERSION: "0.13.6"
+  PYTHONIOENCODING: utf-8
+  REMOTE: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+
+jobs:
+  build:
+    name: 刷新、构建与验证
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - name: 检出输入提交
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: 安装 uv 与 Python
+        uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: ${{ env.UV_VERSION }}
+          python-version: "3.13"
+
+      - name: 安装锁定依赖
+        run: uv sync --locked
+
+      - name: 缓存 Go 模块（只用于提速）
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            .cache/domainrouter_v2/gopath/pkg/mod
+            .cache/domainrouter_v2/gocache
+          key: go-${{ hashFiles('tools/kernel-adapter/go.sum') }}
+
+      - name: 刷新上游、检查、验证并暂存发布内容
+        run: scripts/daily-build.sh "$REMOTE"
+
+      - name: 上传本次已验证的内容
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: verified-${{ github.run_id }}
+          path: out
+          retention-days: 14
+
+  publish:
+    name: 发布
+    needs: build
+    if: vars.PUBLISH_ENABLED == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: 检出脚本
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: scripts
+
+      - name: 下载本次运行已验证的内容
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: verified-${{ github.run_id }}
+          path: verified
+
+      - name: 快进推送 release 与 state 分支（内容未变则跳过）
+        run: scripts/daily-publish.sh "$REMOTE" verified "run ${{ github.run_id }}"

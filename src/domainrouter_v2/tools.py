@@ -136,7 +136,3 @@ def find_executable(state: Path, spec: ToolSpec, relative_candidates: list[str])
         if matches:
             return matches[0]
     raise ToolError(f"在 {base} 中找不到 {spec.name} 可执行文件")
-
-
-def file_sha256(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()

@@ -48,8 +48,3 @@ class ParseResult:
 def iter_lines(text: str) -> list[tuple[int, str]]:
     """去掉 BOM，按任意换行切分，返回 (行号, 去除首尾空白的行)。"""
     return [(i, line.strip()) for i, line in enumerate(text.removeprefix("﻿").splitlines(), 1)]
-
-
-def strip_comment_line(line: str, markers: tuple[str, ...]) -> bool:
-    """空行或以注释标记开头的整行注释。"""
-    return not line or line.startswith(markers)

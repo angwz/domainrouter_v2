@@ -107,12 +107,6 @@ class DomainPattern:
         return cls(len(labels), None, _literals_of(labels))
 
     @classmethod
-    def subdomains(cls, host: str) -> DomainPattern:
-        """仅子域，等价于原生 ``.host``。"""
-        labels = host.split(".")
-        return cls(len(labels) + 1, None, _literals_of(labels))
-
-    @classmethod
     def parse_native(cls, text: str) -> DomainPattern:
         """解析 Mihomo 原生模式文本，同时规范化字面标签。非法输入抛 DomainError。"""
         if not text:

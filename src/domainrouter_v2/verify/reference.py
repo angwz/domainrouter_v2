@@ -6,8 +6,6 @@
 
 from __future__ import annotations
 
-import ipaddress
-
 
 def native_domain_match(pattern: str, host: str) -> bool:
     """判断已规范化的主机名是否命中 Mihomo 原生域名模式文本。
@@ -30,10 +28,3 @@ def native_domain_match(pattern: str, host: str) -> bool:
         return False
     tail = got[extra:]
     return all(w in ("*", g) for w, g in zip(want, tail, strict=True))
-
-
-def native_ip_match(cidr: str, address: str) -> bool:
-    """判断地址是否落在网段内（地址族不同时不匹配）。"""
-    net = ipaddress.ip_network(cidr, strict=True)
-    addr = ipaddress.ip_address(address)
-    return addr.version == net.version and addr in net

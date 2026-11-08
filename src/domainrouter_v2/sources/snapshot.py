@@ -76,10 +76,10 @@ class Snapshot:
 
 @dataclass(slots=True)
 class SourceStatus:
+    """只保存状态变化时才会改变的字段，内容不变时 status.json 也不变（不制造空提交）。"""
+
     url: str
     format: str
-    last_attempt: str = ""
-    last_success: str = ""
     consecutive_failures: int = 0
     first_failure: str = ""
     last_error: str = ""
@@ -99,7 +99,11 @@ class StateStore:
         path = root / "status.json"
         if path.exists():
             data = json.loads(path.read_text(encoding="utf-8"))
-            store.statuses = {k: SourceStatus(**v) for k, v in data.get("sources", {}).items()}
+            known = set(SourceStatus.__dataclass_fields__)
+            store.statuses = {
+                k: SourceStatus(**{f: v[f] for f in known if f in v})
+                for k, v in data.get("sources", {}).items()
+            }
         return store
 
     def snapshot_path(self, sid: str) -> Path:

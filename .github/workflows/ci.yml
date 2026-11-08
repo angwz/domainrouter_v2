@@ -1,0 +1,91 @@
+# 代码与规则变更的检查：离线测试，不依赖实时上游内容（规范 §15.1）。
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  UV_VERSION: "0.13.6"
+  PYTHONIOENCODING: utf-8
+
+jobs:
+  test:
+    name: 测试（${{ matrix.os }}，Python ${{ matrix.python }}）
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-2025]
+        python: ["3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: ${{ env.UV_VERSION }}
+          python-version: ${{ matrix.python }}
+      - run: uv sync --locked
+      - run: uv run --locked ruff check
+      - run: uv run --locked ruff format --check
+      - run: uv run --locked mypy
+      - run: uv run --locked pytest -m "not kernel"
+      - name: 最小示例离线构建
+        working-directory: examples/minimal
+        run: |
+          uv run --locked domainrouter_v2 check
+          uv run --locked domainrouter_v2 build
+          uv run --locked domainrouter_v2 verify --level semantic
+
+  kernel:
+    name: 内核层测试（Mihomo v1.19.33）
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: ${{ env.UV_VERSION }}
+          python-version: "3.13"
+      - run: uv sync --locked
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            .cache/domainrouter_v2/gopath/pkg/mod
+            .cache/domainrouter_v2/gocache
+          key: go-${{ hashFiles('tools/kernel-adapter/go.sum') }}
+      - run: uv run --locked domainrouter_v2 tools prepare
+      - run: uv run --locked pytest -m kernel
+
+  package:
+    name: 安装包
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: ${{ env.UV_VERSION }}
+          python-version: "3.13"
+      - run: uv build --out-dir build/packages
+      - name: 在仓库外安装并运行
+        run: |
+          python_bin="$(uv python find 3.13)"
+          "$python_bin" -m venv /tmp/dr2
+          /tmp/dr2/bin/pip install build/packages/*.whl
+          cp -r examples/minimal /tmp/example
+          cd /tmp/example && /tmp/dr2/bin/domainrouter_v2 build

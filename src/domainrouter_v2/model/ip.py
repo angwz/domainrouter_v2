@@ -38,11 +38,6 @@ class Network:
     def last(self) -> int:
         return self.address + (1 << (_BITS[self.version] - self.prefix)) - 1
 
-    def contains(self, other: Network) -> bool:
-        return (
-            self.version == other.version and self.first <= other.first and other.last <= self.last
-        )
-
     def __str__(self) -> str:
         cls = ipaddress.IPv4Network if self.version == 4 else ipaddress.IPv6Network
         return str(cls((self.address, self.prefix)))
@@ -54,15 +49,6 @@ class ParsedNetwork:
     original: str
     host_bits_cleared: bool  # 输入带主机位，已按掩码规范化
     unmapped: bool  # IPv4 映射的 IPv6 已还原为 IPv4
-
-
-def is_ip_like(text: str) -> bool:
-    """快速判断文本是否「看起来」是地址或网段（用于先识别 IP 再识别域名）。"""
-    try:
-        parse_network(text)
-    except AddressError:
-        return False
-    return True
 
 
 def parse_network(text: str) -> ParsedNetwork:
