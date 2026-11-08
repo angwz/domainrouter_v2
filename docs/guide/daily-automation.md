@@ -47,10 +47,11 @@
 - 仓库必须公开：subconverter 通过 `raw.githubusercontent.com` 匿名读取规则文件。
 - `config/domainrouter_v2.toml` 的 `output.base_url` 应为 `https://raw.githubusercontent.com/angwz/domainrouter_v2/release`；仓库名不同时同步修改。
 
-**2. 检查 Actions 设置**（*Settings → Actions → General*）
+**2. 检查仓库设置**（Actions 位于 *Settings → Actions → General*）
 
 - *Actions permissions*：保持默认的 *Allow all actions*；如果改成了限制模式，需放行 `actions/*` 与 `astral-sh/setup-uv`。
 - *Workflow permissions*：保持默认的只读即可。工作流在发布作业中显式申请 `contents: write`。
+- *Settings → Code security → Private vulnerability reporting*：开启。[SECURITY.md](../../SECURITY.md) 让报告者走这个入口。
 
 **3. 试运行**
 
