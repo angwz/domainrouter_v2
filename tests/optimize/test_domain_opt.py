@@ -82,3 +82,12 @@ def test_optimization_is_exact(patterns: list[DomainPattern]) -> None:
         assert not a.covers(b), (a, b)
     again, _ = optimize_domains(result)
     assert again == result
+
+
+@settings(max_examples=1000)
+@given(st.lists(pattern(), max_size=10))
+def test_every_input_has_a_single_covering_output(patterns: list[DomainPattern]) -> None:
+    """来源标注依赖的不变量：每条输入都被某一条输出完整包含（provenance.py）。"""
+    result, _ = optimize_domains(patterns)
+    for p in patterns:
+        assert any(out.covers(p) for out in result), p

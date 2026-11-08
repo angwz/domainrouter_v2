@@ -28,6 +28,7 @@ from domainrouter_v2.model.profile import LocalMember, Profile, RouteKind, Sourc
 from domainrouter_v2.model.rule import Member, render_member
 from domainrouter_v2.parse.document import parse_profile
 from domainrouter_v2.planner import PARTITIONS, Plan, build_plan
+from domainrouter_v2.provenance import HANDWRITTEN, ArtifactTrace, trace_artifact
 from domainrouter_v2.sources.snapshot import Snapshot, StateStore, source_id
 
 
@@ -49,8 +50,11 @@ class BuildResult:
     files: dict[str, bytes] = field(default_factory=dict)
     sources: list[SourceState] = field(default_factory=list)
     collection_members: dict[str, list[Member]] = field(default_factory=dict)
+    # 合集 → 成员 → 来源标签（来源 URL，或手写的 HANDWRITTEN），用于规则文件中的来源标注
+    origins: dict[str, dict[Member, set[str]]] = field(default_factory=dict)
     filtered: list[FilteredRule] = field(default_factory=list)
     broad: list[FileListing] = field(default_factory=list)
+    traces: dict[tuple[str, ...], ArtifactTrace] = field(default_factory=dict)
 
     @property
     def ok(self) -> bool:
@@ -151,9 +155,11 @@ def collect_members(result: BuildResult) -> Classifier:
     snapshots = {s.sid: s.snapshot for s in result.sources}
     for name, collection in result.profile.collections.items():
         members: list[Member] = []
+        origins: dict[Member, set[str]] = {}
         for item in collection.items:
             if isinstance(item, LocalMember):
                 members.append(item.member)
+                origins.setdefault(item.member, set()).add(HANDWRITTEN)
                 verdict = classify(item.member)
                 if verdict.level is Breadth.EXCESSIVE:
                     result.diagnostics.append(
@@ -176,7 +182,9 @@ def collect_members(result: BuildResult) -> Classifier:
                     )
                 else:
                     members.append(member)
+                    origins.setdefault(member, set()).add(item.url)
         result.collection_members[name] = members
+        result.origins[name] = origins
     if result.filtered:
         result.diagnostics.append(
             warning(
@@ -185,6 +193,32 @@ def collect_members(result: BuildResult) -> Classifier:
             )
         )
     return classify
+
+
+def trace_plan(result: BuildResult) -> None:
+    """为每个规则块计算合并溯源；找不到代表的输入说明合并算法有误，给出警告。"""
+    assert result.plan is not None and result.profile is not None
+    for names, artifact in result.plan.artifacts.items():
+        origins: dict[Member, set[str]] = {}
+        labels: list[str] = []
+        for name in names:
+            for member, sources in result.origins.get(name, {}).items():
+                origins.setdefault(member, set()).update(sources)
+            for item in result.profile.collections[name].items:
+                label = HANDWRITTEN if isinstance(item, LocalMember) else item.url
+                if label not in labels:
+                    labels.append(label)
+        trace = trace_artifact(artifact, origins, labels)
+        if trace.unlocated:
+            sample = "、".join(render_member(m) for m in trace.unlocated[:3])
+            result.diagnostics.append(
+                warning(
+                    Code.TRACE_GAP,
+                    f"合集 {' + '.join(names)} 有 {len(trace.unlocated)} 条输入找不到完整包含它的"
+                    f"输出（合并算法可能有误），例如：{sample}",
+                )
+            )
+        result.traces[names] = trace
 
 
 def broad_listing(result: BuildResult, classify: Classifier) -> list[FileListing]:
@@ -233,6 +267,7 @@ def build(config: Config, *, write: bool = True) -> BuildResult:
         s.sid: s.snapshot.content_sha256 for s in result.sources if s.snapshot is not None
     }
     result.broad = broad_listing(result, classify)
+    trace_plan(result)
     result.files = render_outputs(
         plan,
         groups_bytes,
@@ -244,6 +279,7 @@ def build(config: Config, *, write: bool = True) -> BuildResult:
         },
         settings={"base_url": config.base_url, "interval_seconds": config.interval_seconds},
         repository=config.repository_url,
+        traces=result.traces,
     )
     if write:
         write_tree(config.output, result.files)

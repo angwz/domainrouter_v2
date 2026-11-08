@@ -41,11 +41,19 @@ head_of() { git --git-dir="$remote" rev-parse --verify -q "refs/heads/$1" || ech
 run_day() {
   (cd "$project" && "$repo/scripts/daily-build.sh" "$remote" && "$repo/scripts/daily-publish.sh" "$remote" out "演练")
 }
+# 期望成功的一天：失败时打印日志末尾再退出，避免 set -e 静默中止
+day() {
+  if ! run_day >"$work/day$1.log" 2>&1; then
+    echo "  ✗ 第 $1 天的流程意外失败，日志末尾："
+    tail -n 20 "$work/day$1.log" | sed 's/^/    /'
+    exit 1
+  fi
+}
 has() { grep -q "$1" "$2" && echo yes || echo no; }
 expect() { if [ "$1" = "$2" ]; then echo "  ✓ $3"; else echo "  ✗ $3（期望 $2，实际 $1）"; exit 1; fi; }
 
 echo "== 场景 1：首次运行，发布完整内容"
-run_day >"$work/day1.log" 2>&1
+day 1
 r1="$(head_of release)"; s1="$(head_of state)"
 expect "$([ "$r1" != none ] && echo yes)" yes "release 分支已创建"
 expect "$(git --git-dir="$remote" show release:rulesets.toml | grep -c 'clash-domain/Upstream.yaml')" 1 "rulesets.toml 引用 Upstream"
@@ -53,21 +61,21 @@ git --git-dir="$remote" show release:clash-domain/Upstream.yaml > "$work/up1.yam
 expect "$(grep -c "'+.beta.example'" "$work/up1.yaml")" 1 "DOMAIN-SET 前导点按 Surge 语义转为 +."
 
 echo "== 场景 2：上游无变化，不制造空提交"
-run_day >"$work/day2.log" 2>&1
+day 2
 expect "$(head_of release)" "$r1" "release 无新提交"
 expect "$(head_of state)" "$s1" "state 无新提交"
 expect "$(has '内容未变化，未改动' "$work/day2.log")" yes "publish 判定内容未变"
 
 echo "== 场景 3：上游新增条目，发布新版本并写更新说明"
 printf 'epsilon.example\n' >> "$work/upstream/a.txt"
-run_day >"$work/day3.log" 2>&1
+day 3
 r3="$(head_of release)"
 expect "$([ "$r3" != "$r1" ] && echo yes)" yes "release 有新提交"
 expect "$(git --git-dir="$remote" show release:reports/latest.md | grep -c 'epsilon.example')" 1 "更新说明列出新增条目"
 
 echo "== 场景 4：来源返回 404，沿用上次成功的副本"
 mv "$work/upstream/b.list" "$work/upstream/b.list.bak"
-run_day >"$work/day4.log" 2>&1
+day 4
 expect "$(head_of release)" "$r3" "规则内容未变，release 无新提交"
 expect "$(git --git-dir="$remote" show state:status.json | grep -c '"consecutive_failures": 1')" 1 "state 记录连续失败 1 次"
 expect "$(has 'HTTP 404' "$work/day4.log")" yes "fetch 报告 HTTP 404"
@@ -75,7 +83,7 @@ mv "$work/upstream/b.list.bak" "$work/upstream/b.list"
 
 echo "== 场景 5：来源内容骤降超过一半，视为异常并沿用旧副本"
 printf 'alpha.example\n' > "$work/upstream/a.txt"
-run_day >"$work/day5.log" 2>&1
+day 5
 expect "$(has '骤降' "$work/day5.log")" yes "fetch 识别缩水异常"
 git --git-dir="$remote" show release:clash-domain/Upstream.yaml > "$work/up5.yaml"
 expect "$(grep -c "'epsilon.example'" "$work/up5.yaml")" 1 "发布内容保留旧副本中的条目"

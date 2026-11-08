@@ -13,6 +13,7 @@ P 在某位置是 ANY 时只能沿 ``*`` 下行。Q 的固定长度不会超过 
 from __future__ import annotations
 
 from collections import defaultdict
+from collections.abc import Iterable
 from dataclasses import dataclass, field
 
 from domainrouter_v2.model.domain import DomainPattern
@@ -97,16 +98,27 @@ def _flush(
         events.merged[acc] = tuple(sorted(set(parts), key=DomainPattern.sort_key))
 
 
+class CoverIndex:
+    """按「从右往左的固定标签」建的 trie，查找覆盖某个模式的其他模式（见模块文档）。"""
+
+    def __init__(self, patterns: Iterable[DomainPattern]) -> None:
+        self._root = _Node()
+        for pattern in patterns:
+            node = self._root
+            for label in _fixed_labels(pattern):
+                node = node.children.setdefault(label, _Node())
+            node.patterns.append(pattern)
+
+    def coverer(self, target: DomainPattern) -> DomainPattern | None:
+        """任一不同于 target 且覆盖它的模式；没有则 None。"""
+        return _find_coverer(self._root, target)
+
+
 def _remove_covered(patterns: set[DomainPattern], events: DomainEvents) -> set[DomainPattern]:
-    root = _Node()
-    for pattern in patterns:
-        node = root
-        for label in _fixed_labels(pattern):
-            node = node.children.setdefault(label, _Node())
-        node.patterns.append(pattern)
+    index = CoverIndex(patterns)
     survivors: set[DomainPattern] = set()
     for pattern in patterns:
-        coverer = _find_coverer(root, pattern)
+        coverer = index.coverer(pattern)
         if coverer is None:
             survivors.add(pattern)
         else:

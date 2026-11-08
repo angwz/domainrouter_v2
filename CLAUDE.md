@@ -9,6 +9,7 @@
 3. [docs/rules/merge-cases.md](docs/rules/merge-cases.md)：规则转换与合并的语义契约，每个案例对应测试。
 4. [docs/architecture.md](docs/architecture.md)：管线、模块职责与依赖方向、验证层级。
 5. [docs/v2-implementation-spec.md](docs/v2-implementation-spec.md)：实施规范 1.5（入口 + 四份分册），只读不改。
+6. [docs/development/feedback.md](docs/development/feedback.md)：用户提过的全部意见与处理结果。**每收到一条新意见就追加一行**，处理后更新状态。用户审美要求高，输出格式（排序、文件头、注释）改动先给真实样例。
 
 进度记录可能过期：恢复工作时以实际代码、`git log`/`git status` 和重新运行的检查为准。
 

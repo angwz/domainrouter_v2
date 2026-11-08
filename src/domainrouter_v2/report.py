@@ -15,7 +15,7 @@ from typing import Any
 
 from domainrouter_v2.build import BROAD_REPORT, BuildResult, inline_dns_routes
 from domainrouter_v2.config import Config
-from domainrouter_v2.emit import read_payload
+from domainrouter_v2.emit import read_payload, strip_updated
 from domainrouter_v2.planner import PARTITIONS
 
 MAX_LISTED = 200
@@ -100,10 +100,11 @@ class RunReport:
     stale_days: int
     broad_filtered: list[dict[str, str]] = field(default_factory=list)
     broad_new: list[dict[str, str]] = field(default_factory=list)
+    notes_changed: bool = False  # 规则未变，但来源标注（同行注释、文件头）有变化
 
     @property
     def changed(self) -> bool:
-        return self.toml_changed or any(c.changed for c in self.changes)
+        return self.toml_changed or self.notes_changed or any(c.changed for c in self.changes)
 
     def to_json(self) -> bytes:
         data = {
@@ -162,7 +163,11 @@ class RunReport:
         lines += ["", "## 规则变化", ""]
         changed = [c for c in self.changes if c.changed]
         if not changed:
-            lines.append("规则文件内容没有变化。")
+            lines.append(
+                "规则没有变化，只更新了来源标注。"
+                if self.notes_changed
+                else "规则文件内容没有变化。"
+            )
         else:
             lines += ["| 文件 | 条目 | 新增 | 删除 |", "| --- | --- | --- | --- |"]
             lines += [
@@ -242,6 +247,13 @@ def make_report(
         or (previous_dir / name).read_bytes() != result.files[name]
         for name in ("rulesets.toml", "groups.toml", BROAD_REPORT)
     )
+    notes_changed = any(
+        previous_dir is None
+        or not (previous_dir / path).exists()
+        or strip_updated((previous_dir / path).read_bytes()) != data
+        for path, data in result.files.items()
+        if path.endswith(".yaml")
+    )
     sources = []
     for source in result.sources:
         failed_days = 0
@@ -290,6 +302,7 @@ def make_report(
         generation=manifest["generation"],
         changes=changes,
         toml_changed=toml_changed,
+        notes_changed=notes_changed,
         sources=sources,
         skipped=skipped_summary(config, result),
         optimization=optimization,

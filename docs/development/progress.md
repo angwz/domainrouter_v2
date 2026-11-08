@@ -4,7 +4,7 @@
 
 ## 当前
 
-- 里程碑：**M1–M4a 完成**；M4a 之后按用户反馈新增宽泛规则过滤与清单、v1 风格的简洁文件头（UPDATED 只随内容变化）、domain 条目按覆盖范围从宽到窄排列（[decisions/0002](../decisions/0002-filter-broad-upstream-rules.md)）。M4b（远端、发布、许可）未开始，需要用户授权。
+- 里程碑：**M1–M4a 完成**；M4a 之后按用户反馈新增宽泛规则过滤与清单、v1 风格的简洁文件头（UPDATED 只随内容变化）、domain 条目按覆盖范围从宽到窄排列、每条规则的来源标注（[decisions/0002](../decisions/0002-filter-broad-upstream-rules.md)）。M4b（远端、发布、许可）未开始，需要用户授权。
 - 每日流程状态：**已实现并本地演练通过；远端定时与发布均未启用**（远端仓库尚未创建）。
 
 ## 已完成
@@ -26,9 +26,9 @@
 
 ## 最近验证（2026-11-08 · Windows 10 x64 · Python 3.13.18 · uv 0.13.6）
 
-- `pytest`：408 passed（含 kernel 标记）；`ruff check`、`ruff format --check`、`mypy --strict`：通过。
-- 真实 profile：`build` 约 19.5 s（宽泛规则判定约增加 1.5 s）；两次构建逐字节一致；`verify` 语义层 0 不一致；`verify --level kernel` 0 不一致（50,004 个请求），59 个带注释头的 provider 条目数与 Mihomo 加载数一致。
-- `scripts/rehearse-daily.sh`：6 个场景全部通过（语义层验证模式）。
+- `pytest`：417 passed（含 kernel 标记）；`ruff check`、`ruff format --check`、`mypy --strict`：通过。
+- 真实 profile：`build` 约 24 s（宽泛规则判定约 1.5 s、来源标注约 5 s）；规则文件 7.4 MB（含标注）；两次构建逐字节一致；`verify` 语义层 0 不一致；`verify --level kernel` 0 不一致（50,004 个请求），59 个带注释头的 provider 条目数与 Mihomo 加载数一致。
+- `scripts/rehearse-daily.sh`：6 个场景全部通过（语义层验证模式），连续 6 次运行均通过。
 - `uv build`：wheel 含包代码、工具锁与 `data/` 下两份数据文件；测试在仓库外安装运行。
 - 性能数据见 [performance.md](../performance.md)。
 
@@ -37,6 +37,7 @@
 - `rulesets.toml` 66 条，超过 subconverter 外部配置的 64 条上限：用户确认不影响其使用方式，保留提示。
 - subconverter 行为依据 fork 源码模拟，未在 VPS 实际运行；Linux 上的测试与性能需远端 CI 启用后补充。
 - 宽泛关键词表需随使用补充；DOMAIN-REGEX 的“匹配一切”用 Python `re` 近似判断。
+- 演练脚本曾有一次在场景 4 的流程步骤中途退出且无输出，之后连续 6 次未能复现；脚本已改为失败时打印日志末尾，再出现时可定位。
 - 许可证未选定。
 
 ## 下一步（需用户决定）

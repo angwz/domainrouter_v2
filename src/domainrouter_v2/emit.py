@@ -5,13 +5,15 @@
 provider 文件为 ``payload:`` 与单引号字符串条目：Mihomo 按行解析 YAML provider，
 每行一个单引号标量最稳妥；条目内的单引号按 YAML 规则写成两个。
 文件头是整行 ``#`` 注释，classical 的类型之间是空行，Mihomo 逐行解析时都直接跳过
-（rules/provider/provider.go 的 rulesParse）。
+（rules/provider/provider.go 的 rulesParse）。每条规则的来源标注是同行注释：该行与
+``payload:`` 一起交给 YAML 解析器，注释被解析器忽略（见 annotate.py）。
 """
 
 from __future__ import annotations
 
 import hashlib
 import json
+import unicodedata
 from collections import Counter
 from collections.abc import Iterable
 from datetime import datetime, timedelta, timezone
@@ -21,12 +23,20 @@ from typing import Any
 import tomli_w
 
 import domainrouter_v2
+from domainrouter_v2.annotate import annotate
 from domainrouter_v2.model.ip import Network
 from domainrouter_v2.model.rule import Logic, Member, render_member
 from domainrouter_v2.planner import CLASSICAL, DOMAIN, PARTITIONS, Artifact, Partition, Plan
+from domainrouter_v2.provenance import ArtifactTrace
 
 UPDATED_KEY = "UPDATED"
 UPDATED_ZONE = timezone(timedelta(hours=8), "UTC+8")
+
+
+# 同行注释的对齐列：取本文件 90% 条目都能放下的宽度，但不超过 NOTE_COLUMN_MAX；
+# 更长的条目只隔两个空格，避免少数长域名把整列推得很远。
+NOTE_COLUMN_MAX = 56
+_NOTE_GAP = 2
 
 
 def _item(member: Member) -> str:
@@ -37,33 +47,77 @@ def _comments(header: Iterable[str]) -> list[str]:
     return [f"# {line}" for line in header]
 
 
-def provider_yaml(members: Iterable[Member], header: Iterable[str] = ()) -> bytes:
-    lines = [*_comments(header), "payload:"]
-    lines.extend(_item(m) for m in members)
+def _width(text: str) -> int:
+    """等宽字体中的显示宽度：全角与宽字符占两列（如进程名中的中文）。"""
+    if text.isascii():
+        return len(text)  # 绝大多数条目（域名已是 punycode）走这条快速路径
+    return sum(2 if unicodedata.east_asian_width(ch) in "WF" else 1 for ch in text)
+
+
+def _item_lines(members: list[Member], notes: dict[Member, str] | None) -> list[str]:
+    items = [_item(m) for m in members]
+    if not notes or not items:
+        return items
+    widths = sorted(_width(item) for item in items)
+    column = min(widths[(len(widths) * 9) // 10], NOTE_COLUMN_MAX) + _NOTE_GAP
+    lines: list[str] = []
+    for member, item in zip(members, items, strict=True):
+        note = notes.get(member)
+        if note:
+            pad = max(column - _width(item), _NOTE_GAP)
+            lines.append(f"{item}{' ' * pad}# {note}")
+        else:
+            lines.append(item)
+    return lines
+
+
+def provider_yaml(
+    members: list[Member], header: Iterable[str] = (), notes: dict[Member, str] | None = None
+) -> bytes:
+    lines = [*_comments(header), "payload:", *_item_lines(members, notes)]
     return ("\n".join(lines) + "\n").encode("utf-8")
 
 
-def classical_yaml(members: list[Member], header: Iterable[str]) -> bytes:
+def classical_yaml(
+    members: list[Member], header: Iterable[str], notes: dict[Member, str] | None = None
+) -> bytes:
     """classical：成员已按成本次序排好、同类型相邻，类型之间空一行。"""
     lines = [*_comments(header), "payload:"]
     previous = ""
-    for member in members:
+    for member, line in zip(members, _item_lines(members, notes), strict=True):
         kind = _type_of(member)
         if previous and kind != previous:
             lines.append("")
         previous = kind
-        lines.append(_item(member))
+        lines.append(line)
     return ("\n".join(lines) + "\n").encode("utf-8")
 
 
 def read_payload(data: bytes) -> list[str]:
-    """provider_yaml / classical_yaml 的逆操作：只取条目行，跳过注释与空行。"""
+    """provider_yaml / classical_yaml 的逆操作：只取条目，跳过注释、空行与同行注释。"""
     items: list[str] = []
     for line in data.decode("utf-8").splitlines():
         stripped = line.strip()
-        if stripped.startswith("- '") and stripped.endswith("'"):
-            items.append(stripped[3:-1].replace("''", "'"))
+        if stripped.startswith("- '"):
+            items.append(_single_quoted(stripped, 3))
     return items
+
+
+def _single_quoted(text: str, start: int) -> str:
+    """从 start 起读取 YAML 单引号标量的内容（``''`` 表示一个单引号）。"""
+    out: list[str] = []
+    i = start
+    while i < len(text):
+        ch = text[i]
+        if ch == "'":
+            if text.startswith("''", i):
+                out.append("'")
+                i += 2
+                continue
+            return "".join(out)
+        out.append(ch)
+        i += 1
+    raise ValueError(f"单引号未闭合：{text!r}")
 
 
 def _type_of(member: Member) -> str:
@@ -143,21 +197,23 @@ def render_outputs(
     inputs: dict[str, Any],
     settings: dict[str, Any],
     repository: str,
+    traces: dict[tuple[str, ...], ArtifactTrace],
 ) -> dict[str, bytes]:
     """返回 {发布相对路径: 字节}。manifest 描述其余全部文件。"""
     files: dict[str, bytes] = dict(reports)
     artifacts: list[dict[str, Any]] = []
-    for artifact in plan.artifacts.values():
+    for names, artifact in plan.artifacts.items():
         for partition in PARTITIONS:
             members = artifact.members(partition)
             if not members:
                 continue
             path = artifact.path(partition)
-            header = artifact_header(artifact, partition, repository)
+            annotation = annotate(members, traces[names])
+            header = artifact_header(artifact, partition, repository) + annotation.legend
             if partition is CLASSICAL:
-                data = classical_yaml(members, header)
+                data = classical_yaml(members, header, annotation.notes)
             else:
-                data = provider_yaml(members, header)
+                data = provider_yaml(members, header, annotation.notes)
             files[path] = data
             artifacts.append(
                 {

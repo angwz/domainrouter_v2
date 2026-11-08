@@ -15,6 +15,7 @@ from pathlib import Path
 import httpx
 
 from domainrouter_v2 import __version__
+from domainrouter_v2.annotate import describe
 from domainrouter_v2.build import (
     BuildResult,
     build,
@@ -26,6 +27,7 @@ from domainrouter_v2.build import (
 from domainrouter_v2.config import Config, ConfigError, load_config
 from domainrouter_v2.diagnostics import Code, Diagnostic, Level
 from domainrouter_v2.explain import explain
+from domainrouter_v2.model.rule import render_member
 from domainrouter_v2.publish import stage_release
 from domainrouter_v2.report import make_report
 from domainrouter_v2.sources.fetch import fetch_all
@@ -103,10 +105,11 @@ def _parser() -> argparse.ArgumentParser:
     )
     verify.add_argument("--level", choices=["semantic", "kernel"], default="semantic")
     verify.set_defaults(handler=_verify)
-    explain_cmd = command("explain", "解释一个主机名或 IP 会命中哪条路由")
+    explain_cmd = command("explain", "解释一个主机名或 IP 会命中哪条路由，或一条输出规则的完整来历")
     target = explain_cmd.add_mutually_exclusive_group(required=True)
     target.add_argument("--host", help="主机名，例如 www.example.com")
     target.add_argument("--ip", help="IP 地址，例如 192.0.2.1")
+    target.add_argument("--rule", help="规则文件中的一条规则原文，例如 '+.adobe.com'")
     explain_cmd.set_defaults(handler=_explain)
     return parser
 
@@ -251,10 +254,29 @@ def _explain(config: Config, args: argparse.Namespace) -> int:
     if not result.ok:
         _print_diagnostics(result.diagnostics, args.verbose)
         return _exit_code(result)
+    if args.rule is not None:
+        return _explain_rule(result, args.rule)
     try:
         print(explain(result, host=args.host, ip=args.ip).render())
     except ValueError as exc:
         print(f"无法解析查询：{exc}", file=sys.stderr)
+        return EXIT_INPUT
+    return EXIT_OK
+
+
+def _explain_rule(result: BuildResult, text: str) -> int:
+    assert result.plan is not None
+    found = 0
+    for names, artifact in result.plan.artifacts.items():
+        trace = result.traces[names]
+        for partition in artifact.partitions():
+            for member in artifact.members(partition):
+                if render_member(member) == text and member in trace.traces:
+                    path = artifact.path(partition)
+                    print(describe(member, trace.traces[member], path, artifact.targets))
+                    found += 1
+    if not found:
+        print(f"规则文件中没有这条规则：{text}（请按文件中的写法输入，不含引号）", file=sys.stderr)
         return EXIT_INPUT
     return EXIT_OK
 

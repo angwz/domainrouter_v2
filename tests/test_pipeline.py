@@ -113,7 +113,13 @@ def test_provider_header(project: Path) -> None:
         for line in files["clash-ipcidr/Work-ipcidr.yaml"].decode("utf-8").splitlines()
         if line.startswith("#")
     ]
-    assert header == ["# NAME: Work", "# GROUP: 🧭 Proxy", "# TYPE: ipcidr", "# TOTAL: 1"]
+    assert header == [
+        "# NAME: Work",
+        "# GROUP: 🧭 Proxy",
+        "# TYPE: ipcidr",
+        "# TOTAL: 1",
+        "# SOURCE A: my.wei",
+    ]
     # build 产物不含时间：两次构建逐字节相同由 test_build_is_deterministic 保证
     assert all(b"UPDATED" not in data for data in files.values())
 
@@ -138,3 +144,40 @@ def test_updated_only_changes_with_content(project: Path, tmp_path: Path) -> Non
     assert work.read_bytes() == work_before  # 未变化的文件保留原时间
     assert b"# UPDATED: 2026-11-09 08:00:00 (UTC+8)" in streaming.read_bytes()
     assert "+.new.example" in read_payload(streaming.read_bytes())
+
+
+def test_rule_annotations(project: Path) -> None:
+    files = build(load_config(project / "config" / "domainrouter_v2.toml"), write=False).files
+    work = files["clash-domain/Work.yaml"].decode("utf-8").splitlines()
+    assert "  - '+.example.edu'      # A  覆盖 +.www.example.edu A" in work
+    assert "  - 'login.example.com'  # A" in work
+    streaming = files["clash-ipcidr/Streaming-ipcidr.yaml"].decode("utf-8").splitlines()
+    assert "  - '192.0.2.0/24'  # 合并 192.0.2.0/25 A, 192.0.2.128/25 A" in streaming
+    # 同行注释不影响读回条目
+    assert read_payload(files["clash-domain/Work.yaml"]) == ["+.example.edu", "login.example.com"]
+
+
+def test_read_payload_handles_quotes_and_comments() -> None:
+    data = "payload:\n  - 'DOMAIN-REGEX,it''s # here'  # A  覆盖 x B\n  - 'a.com'\n".encode()
+    assert read_payload(data) == ["DOMAIN-REGEX,it's # here", "a.com"]
+
+
+def test_annotation_only_change_is_published(project: Path, tmp_path: Path) -> None:
+    config = load_config(project / "config" / "domainrouter_v2.toml")
+    release = tmp_path / "release"
+    result = build(config)
+    assert stage_release(release, result.files, make_report(config, result, None, NOW))
+    work = release / "clash-domain" / "Work.yaml"
+    text = work.read_text(encoding="utf-8")
+    work.write_bytes(text.replace("# A  覆盖", "# B  覆盖").encode())  # 只改来源标注
+    report = make_report(config, build(config), release, NOW)
+    assert report.notes_changed and report.changed
+    assert not any(c.changed for c in report.changes)
+
+
+def test_explain_rule(project: Path, capsys: pytest.CaptureFixture[str]) -> None:
+    config = str(project / "config" / "domainrouter_v2.toml")
+    assert main(["explain", "--config", config, "--rule", "192.0.2.0/24"]) == 0
+    out = capsys.readouterr().out
+    assert "合并自（2 条）" in out and "192.0.2.128/25  ← my.wei" in out
+    assert main(["explain", "--config", config, "--rule", "nope.example"]) != 0
