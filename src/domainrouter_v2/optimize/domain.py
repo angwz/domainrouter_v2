@@ -38,7 +38,7 @@ class _Node:
 def optimize_domains(
     patterns: list[DomainPattern],
 ) -> tuple[list[DomainPattern], DomainEvents]:
-    """返回 (按 sort_key 排序的结果, 事件)。"""
+    """返回 (按 display_key 排序的结果, 事件)。"""
     events = DomainEvents()
     unique = set(patterns)
     events.duplicates = len(patterns) - len(unique)
@@ -50,7 +50,7 @@ def optimize_domains(
             break
         current = reduced
     _resolve_chains(events, current)
-    return sorted(current, key=DomainPattern.sort_key), events
+    return sorted(current, key=DomainPattern.display_key), events
 
 
 def _fixed_labels(pattern: DomainPattern) -> tuple[str, ...]:

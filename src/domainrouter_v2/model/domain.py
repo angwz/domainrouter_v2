@@ -209,6 +209,22 @@ class DomainPattern:
         upper = self.max_labels if self.max_labels is not None else _UNBOUNDED_SORT
         return (labels, self.min_labels, upper)
 
+    def display_key(self) -> tuple[int, int, str]:
+        """规则文件中的展示次序：覆盖范围从宽到窄，便于阅读和审查。
+
+        分组：``+.x``（自身及子域）→ ``.x``（仅子域）→ 含 ``*`` 的定长通配 → 精确主机名；
+        组内按写出的标签数从少到多（``+.us`` 在 ``+.example.com`` 之前），再按文本字母序。
+        次序不影响匹配效率：Mihomo 加载 domain provider 时收集全部条目、排序后再建 trie
+        （component/trie/domain_set.go 的 NewDomainSet），文件中的先后会被丢弃。
+        """
+        if self.max_labels is None:
+            group = 0 if self.min_labels == self.fixed_length else 1
+        elif len(self.literals) < self.min_labels:
+            group = 2
+        else:
+            group = 3
+        return (group, self.fixed_length, self.to_native())
+
     def __str__(self) -> str:
         return self.to_native()
 

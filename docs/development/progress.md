@@ -4,7 +4,7 @@
 
 ## 当前
 
-- 里程碑：**M1–M4a 完成**；M4a 之后按用户反馈新增宽泛规则过滤与清单、规则文件头注释（[decisions/0002](../decisions/0002-filter-broad-upstream-rules.md)）。M4b（远端、发布、许可）未开始，需要用户授权。
+- 里程碑：**M1–M4a 完成**；M4a 之后按用户反馈新增宽泛规则过滤与清单、v1 风格的简洁文件头（UPDATED 只随内容变化）、domain 条目按覆盖范围从宽到窄排列（[decisions/0002](../decisions/0002-filter-broad-upstream-rules.md)）。M4b（远端、发布、许可）未开始，需要用户授权。
 - 每日流程状态：**已实现并本地演练通过；远端定时与发布均未启用**（远端仓库尚未创建）。
 
 ## 已完成
@@ -18,7 +18,7 @@
 | 优化与规划 | `optimize/`、`planner.py` | ✓ | 属性测试；真实数据语义层 + 内核层 0 不一致 |
 | 宽泛规则判定、上游过滤、清单 | `breadth.py`、`data/`、[broad-rules](../rules/broad-rules.md) | ✓ | 案例测试；真实数据过滤 0 条、列出宽泛规则 554 条 |
 | 来源获取、快照、Happy Eyeballs | `sources/` | ✓ | 伪造传输测试；真实网络 |
-| 构建、输出（含文件头注释）、更新说明、发布暂存 | `build.py`、`emit.py`、`report.py`、`publish.py` | ✓ | 端到端测试；逐字节可重建；带注释的文件经 Mihomo 加载条目数一致 |
+| 构建、输出（文件头、展示次序、UPDATED）、更新说明、发布暂存 | `build.py`、`emit.py`、`report.py`、`publish.py` | ✓ | 端到端测试；逐字节可重建；带文件头的文件经 Mihomo 加载条目数一致 |
 | 验证（语义层、内核层）、explain | `verify/`、`explain.py`、`tools/kernel-adapter/` | ✓ | Mihomo v1.19.33 实测 |
 | 工具锁与准备 | `tools.py`、`tools.lock.json` | ✓ | 下载并校验 SHA-256 |
 | 每日工作流、CI | `.github/workflows/`、`scripts/` | ✓ | 本地演练 6 场景通过；**未在 GitHub 上运行** |
@@ -26,7 +26,7 @@
 
 ## 最近验证（2026-11-08 · Windows 10 x64 · Python 3.13.18 · uv 0.13.6）
 
-- `pytest`：405 passed（含 kernel 标记）；`ruff check`、`ruff format --check`、`mypy --strict`：通过。
+- `pytest`：408 passed（含 kernel 标记）；`ruff check`、`ruff format --check`、`mypy --strict`：通过。
 - 真实 profile：`build` 约 19.5 s（宽泛规则判定约增加 1.5 s）；两次构建逐字节一致；`verify` 语义层 0 不一致；`verify --level kernel` 0 不一致（50,004 个请求），59 个带注释头的 provider 条目数与 Mihomo 加载数一致。
 - `scripts/rehearse-daily.sh`：6 个场景全部通过（语义层验证模式）。
 - `uv build`：wheel 含包代码、工具锁与 `data/` 下两份数据文件；测试在仓库外安装运行。

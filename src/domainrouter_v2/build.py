@@ -235,7 +235,6 @@ def build(config: Config, *, write: bool = True) -> BuildResult:
     result.broad = broad_listing(result, classify)
     result.files = render_outputs(
         plan,
-        result.profile,
         groups_bytes,
         {BROAD_REPORT: render_listing(result.filtered, result.broad)},
         inputs={
@@ -244,7 +243,7 @@ def build(config: Config, *, write: bool = True) -> BuildResult:
             "sources": dict(sorted(source_hashes.items())),
         },
         settings={"base_url": config.base_url, "interval_seconds": config.interval_seconds},
-        report_url=config.resource_url("reports/latest.md"),
+        repository=config.repository_url,
     )
     if write:
         write_tree(config.output, result.files)

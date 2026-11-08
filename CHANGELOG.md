@@ -14,4 +14,5 @@
 - 命令：`check`、`fetch`、`build`、`publish`、`verify`（语义层/内核层）、`explain`、`tools prepare`。
 - 每日 GitHub Actions 工作流与本地演练脚本。
 - 宽泛规则：过滤上游中过宽的规则（通用词关键词、`0.0.0.0/0`、`NETWORK`、含 80/443 的 `DST-PORT` 等），并把所有宽泛规则列入随发布的 `reports/broad-rules.md`；手写规则只提醒。
-- 规则文件头注释（合集、条目数、策略组、来源）与 classical 按类型分节。
+- 规则文件头注释（NAME、GROUP、REPO、UPDATED、TYPE、TOTAL），UPDATED 只在文件内容变化时更新。
+- domain 文件按覆盖范围从宽到窄排列（`+.` 按层级 → `.` → `*` 通配 → 精确主机名），classical 类型之间空行。

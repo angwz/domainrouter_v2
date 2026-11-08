@@ -25,7 +25,7 @@ fetch（联网）                     build（不联网）
 | `breadth.py`、`data/` | 宽泛规则判定（关键词表、Public Suffix List）、上游过宽规则过滤、`reports/broad-rules.md` |
 | `optimize/` | domain 集合去重与包含消除、classical 去重与成本排序 |
 | `planner.py` | 路由块（相邻同目标合并）、分区、文件命名与碰撞处理、rulesets 条目 |
-| `emit.py` | provider YAML（含文件头与 classical 分节注释）、TOML、确定性 manifest |
+| `emit.py` | provider YAML（文件头、展示次序）、TOML、确定性 manifest；发布时写入的 `UPDATED` |
 | `build.py` | 构建编排与原子写出 |
 | `report.py`、`publish.py` | 更新说明与 release 暂存 |
 | `explain.py` | 命中解释 |

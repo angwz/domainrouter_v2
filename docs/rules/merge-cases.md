@@ -37,7 +37,7 @@ Mihomo 对三类 rule-provider 的处理方式完全不同，这决定了所有�
    | 9 | `PROCESS-NAME*`、`PROCESS-PATH*`、`UID` | 可能触发进程查询，放最后可避免已被前面命中的连接做查询 |
 
    同次序内按规范化文本字节序稳定排序，保证每天的产物可重复、diff 可读。
-4. **集合内部的排序不影响速度**。集合内仍按反向标签稳定排序，只为可读和 diff。
+4. **集合内部的排序不影响速度**：Mihomo 加载时会把全部条目重新排序后建索引。文件中按覆盖范围从宽到窄排列，只是为了便于阅读和审查（见 §10）。
 5. **减少 RULE-SET 条数**：`[Rules]` 中相邻且目标策略组相同的合集引用，合并为一组文件（见 §9）。
 
 ## 2. 手写 `my.wei` 的域名语义
@@ -342,3 +342,40 @@ behavior 自动判断：`payload` 全是 `TYPE,值` → classical；全是地址
 | `rulesets.toml` 条目超过 64 | 提示（subconverter 外部配置的上限），不报错 |
 
 依据：angwz/subconverter `a33d49e` 的 `src/generator/template/templates.cpp` 与 `src/config/binding.h`。
+
+## 10. 规则文件的排列与文件头
+
+domain 文件按覆盖范围从宽到窄排列。组内先比较写出的标签数（少的在前），再按字母序：
+
+| 次序 | 写法 | 例子 |
+| --- | --- | --- |
+| 1 | `+.x`：自身及全部子域 | `+.us` → `+.01.org` → `+.academic.eb.com` |
+| 2 | `.x`：仅子域 | `.cdn.example.org` |
+| 3 | 含 `*` 的定长通配 | `*.example.com`、`a.*.example.com` |
+| 4 | 精确主机名 | `adobeereg.com` → `amp.akamaized.net` |
+
+这个次序不影响匹配速度：Mihomo 的 `NewDomainSet`（`component/trie/domain_set.go`）会收集全部条目，用 `sort.Strings` 排序后再建 trie。ipcidr 文件按地址升序排列，IPv4 在前、IPv6 在后。classical 文件按 §1 的成本次序排列，同类型相邻，类型之间空一行。
+
+文件头是 `# KEY: value` 形式的整行注释，Mihomo 逐行解析时跳过（`rules/provider/provider.go` 的 `rulesParse`）：
+
+```yaml
+# NAME: China
+# GROUP: DIRECT
+# REPO: https://github.com/angwz/domainrouter_v2
+# UPDATED: 2026-11-09 04:17:49 (UTC+8)
+# TYPE: ipcidr
+# TOTAL: 12569
+# IP-CIDR: 8289
+# IP-CIDR6: 4280
+payload:
+```
+
+| 字段 | 含义 |
+| --- | --- |
+| `NAME` | 合集名；相邻同目标合并的块写作 `A + B` |
+| `GROUP` | 引用该文件的策略组 |
+| `REPO` | 发布地址为 `raw.githubusercontent.com` 时由 `output.base_url` 推出；其他地址省略 |
+| `UPDATED` | 该文件内容最后一次变化的时间，发布时写入（见下） |
+| `TYPE`、`TOTAL` | 行为与条目数；ipcidr 与 classical 含多种类型时，按类型分列条目数 |
+
+`build` 的产物不含 `UPDATED`，所以两次构建逐字节相同。发布时，内容（除 `UPDATED` 行外）与已发布版本相同的文件保留原字节和原时间，只有变化的文件写入新时间。这样每次提交只改动真正变化的文件，客户端也不会因为时间戳变化而重新下载。

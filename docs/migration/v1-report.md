@@ -45,7 +45,7 @@
 | 发布 | 强推 release、每次建 Release | 快进推送、内容不变不提交、失败保留上一版 |
 | 生成 `rulesets.toml` | 逐个探测已发布 URL 是否 200 | 由本次构建的产物清单决定 |
 | 宽泛规则 | 不处理 | 过滤上游中的过宽规则，宽泛规则列入 `reports/broad-rules.md` |
-| 文件头注释 | 名称、作者、仓库、更新时间、各类型条目数 | 合集、条目数（ipcidr 分 IPv4/IPv6）、策略组、来源列表、更新说明链接；classical 按类型分节。不写时间，内容不变时文件不变，不产生空提交 |
+| 文件头注释 | NAME、AUTHOR、REPO、UPDATED、TYPE、TOTAL；每次运行所有文件的 UPDATED 都会变 | NAME、GROUP、REPO、UPDATED、TYPE、TOTAL；UPDATED 只在该文件内容变化时更新，未变化的文件保持原样 |
 
 ## 切换步骤
 

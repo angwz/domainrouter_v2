@@ -4,8 +4,8 @@
 同一输入两次构建逐字节相同（规范 B01）。
 provider 文件为 ``payload:`` 与单引号字符串条目：Mihomo 按行解析 YAML provider，
 每行一个单引号标量最稳妥；条目内的单引号按 YAML 规则写成两个。
-文件头与 classical 的分节标题是整行 ``#`` 注释，Mihomo 逐行解析时直接跳过
-（rules/provider/provider.go 的 rulesParse）。注释只含由输入决定的信息，不含时间。
+文件头是整行 ``#`` 注释，classical 的类型之间是空行，Mihomo 逐行解析时都直接跳过
+（rules/provider/provider.go 的 rulesParse）。
 """
 
 from __future__ import annotations
@@ -14,6 +14,7 @@ import hashlib
 import json
 from collections import Counter
 from collections.abc import Iterable
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -21,9 +22,11 @@ import tomli_w
 
 import domainrouter_v2
 from domainrouter_v2.model.ip import Network
-from domainrouter_v2.model.profile import LocalMember, Profile
 from domainrouter_v2.model.rule import Logic, Member, render_member
-from domainrouter_v2.planner import CLASSICAL, IPCIDR, PARTITIONS, Artifact, Partition, Plan
+from domainrouter_v2.planner import CLASSICAL, DOMAIN, PARTITIONS, Artifact, Partition, Plan
+
+UPDATED_KEY = "UPDATED"
+UPDATED_ZONE = timezone(timedelta(hours=8), "UTC+8")
 
 
 def _item(member: Member) -> str:
@@ -31,12 +34,25 @@ def _item(member: Member) -> str:
 
 
 def _comments(header: Iterable[str]) -> list[str]:
-    return [f"# {line}" if line else "#" for line in header]
+    return [f"# {line}" for line in header]
 
 
 def provider_yaml(members: Iterable[Member], header: Iterable[str] = ()) -> bytes:
     lines = [*_comments(header), "payload:"]
     lines.extend(_item(m) for m in members)
+    return ("\n".join(lines) + "\n").encode("utf-8")
+
+
+def classical_yaml(members: list[Member], header: Iterable[str]) -> bytes:
+    """classical：成员已按成本次序排好、同类型相邻，类型之间空一行。"""
+    lines = [*_comments(header), "payload:"]
+    previous = ""
+    for member in members:
+        kind = _type_of(member)
+        if previous and kind != previous:
+            lines.append("")
+        previous = kind
+        lines.append(_item(member))
     return ("\n".join(lines) + "\n").encode("utf-8")
 
 
@@ -50,60 +66,43 @@ def read_payload(data: bytes) -> list[str]:
     return items
 
 
-def classical_yaml(members: list[Member], header: Iterable[str]) -> bytes:
-    """classical 按类型分节：成员已按成本次序排好、同类型相邻，每节前加一行注释标题。"""
-    lines = [*_comments(header), "payload:"]
-    counts = Counter(_type_of(m) for m in members)
-    previous = ""
-    for member in members:
-        kind = _type_of(member)
-        if kind != previous:
-            if previous:
-                lines.append("")
-            lines.append(f"  # {kind}（{counts[kind]}）")
-            previous = kind
-        lines.append(_item(member))
-    return ("\n".join(lines) + "\n").encode("utf-8")
-
-
 def _type_of(member: Member) -> str:
+    if isinstance(member, Network):
+        return "IP-CIDR" if member.version == 4 else "IP-CIDR6"
     if isinstance(member, Logic):
         return member.op
     return render_member(member).split(",", 1)[0]
 
 
-def artifact_header(
-    artifact: Artifact, partition: Partition, profile: Profile, report_url: str
-) -> list[str]:
-    """文件头：内容摘要、策略组与合集来源。只用输入决定的信息，保证两次构建逐字节相同。"""
+def artifact_header(artifact: Artifact, partition: Partition, repository: str) -> list[str]:
+    """文件头：``KEY: value`` 每行一项。只含由输入决定的信息，两次构建逐字节相同；
+    更新时间由发布时的 stamp_updated 写入（build 产物不含时间）。"""
     members = artifact.members(partition)
-    count = f"{partition.behavior} · {len(members)} 条"
-    if partition is IPCIDR:
-        v4 = sum(1 for m in members if isinstance(m, Network) and m.version == 4)
-        count += f"（IPv4 {v4}，IPv6 {len(members) - v4}）"
-    lines = [
-        f"DomainRouter v2 · {' + '.join(artifact.collections)}",
-        f"类型：{count}",
-        f"策略组：{'、'.join(artifact.targets)}",
-        "合集来源：",
-    ]
-    handwritten = 0
-    seen: set[str] = set()
-    for name in artifact.collections:
-        for item in profile.collections[name].items:
-            if isinstance(item, LocalMember):
-                handwritten += 1
-            elif item.url not in seen:
-                seen.add(item.url)
-                lines.append(f"  - {item.url}")
-    if handwritten:
-        lines.append(f"  - my.wei 手写 {handwritten} 条")
-    lines += [
-        "",
-        f"更新说明：{report_url}",
-        "由 domainrouter_v2 生成；请修改 my.wei，不要直接编辑本文件。",
-    ]
-    return lines
+    fields = [("NAME", " + ".join(artifact.collections)), ("GROUP", ", ".join(artifact.targets))]
+    if repository:
+        fields.append(("REPO", repository))
+    fields += [("TYPE", partition.behavior), ("TOTAL", str(len(members)))]
+    if partition is not DOMAIN:
+        counts = Counter(_type_of(m) for m in members)  # 按文件中首次出现的顺序
+        if len(counts) > 1:
+            fields += [(kind, str(n)) for kind, n in counts.items()]
+    return [f"{key}: {value}" for key, value in fields]
+
+
+def stamp_updated(data: bytes, when: datetime) -> bytes:
+    """在 ``# TYPE:`` 之前插入 ``# UPDATED: …``。只在发布时调用，build 产物保持确定。"""
+    stamp = f"# {UPDATED_KEY}: {when.astimezone(UPDATED_ZONE):%Y-%m-%d %H:%M:%S} (UTC+8)\n"
+    text = data.decode("utf-8")
+    index = text.find("# TYPE: ")
+    if index < 0:
+        raise ValueError("provider 文件缺少 TYPE 行")
+    return (text[:index] + stamp + text[index:]).encode("utf-8")
+
+
+def strip_updated(data: bytes) -> bytes:
+    """stamp_updated 的逆操作，用于判断已发布文件除时间外是否与新产物相同。"""
+    prefix = f"# {UPDATED_KEY}: ".encode()
+    return b"".join(line for line in data.splitlines(keepends=True) if not line.startswith(prefix))
 
 
 def rulesets_toml(plan: Plan) -> bytes:
@@ -139,12 +138,11 @@ def engine_fingerprint() -> str:
 
 def render_outputs(
     plan: Plan,
-    profile: Profile,
     groups_bytes: bytes,
     reports: dict[str, bytes],
     inputs: dict[str, Any],
     settings: dict[str, Any],
-    report_url: str,
+    repository: str,
 ) -> dict[str, bytes]:
     """返回 {发布相对路径: 字节}。manifest 描述其余全部文件。"""
     files: dict[str, bytes] = dict(reports)
@@ -155,7 +153,7 @@ def render_outputs(
             if not members:
                 continue
             path = artifact.path(partition)
-            header = artifact_header(artifact, partition, profile, report_url)
+            header = artifact_header(artifact, partition, repository)
             if partition is CLASSICAL:
                 data = classical_yaml(members, header)
             else:

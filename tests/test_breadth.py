@@ -223,19 +223,20 @@ def test_broad_listing(project: Path) -> None:
     assert "`examplestream`" in listing  # DOMAIN-KEYWORD 节只显示关键词
 
 
-def test_yaml_header_and_sections(project: Path) -> None:
+def test_classical_file_layout(project: Path) -> None:
     result = build(load_config(project / "config" / "domainrouter_v2.toml"))
     text = result.files["clash-classic/Streaming-classic.yaml"].decode("utf-8")
     lines = text.splitlines()
-    assert lines[0] == "# DomainRouter v2 · Streaming"
-    assert "# 策略组：🎬 Media" in lines
-    assert f"#   - {SOURCE}" in lines
-    assert "  # DOMAIN-KEYWORD（3）" in lines
+    assert lines[:4] == [
+        "# NAME: Streaming",
+        "# GROUP: 🎬 Media",
+        "# TYPE: classical",
+        "# TOTAL: 3",
+    ]
     # Mihomo 逐行解析：注释与空行之外的每一行都必须是 payload 头或条目
     for line in lines:
         stripped = line.strip()
         assert not stripped or stripped.startswith(("#", "payload:", "- '")), line
-    assert "UTC" not in text and "2026" not in text  # 不含时间，保证确定性
 
 
 def test_new_broad_rules_reported_and_published(project: Path, tmp_path: Path) -> None:

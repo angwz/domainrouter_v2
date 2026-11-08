@@ -158,3 +158,17 @@ def test_union_is_exact(a: str, b: str) -> None:
 def test_parse_is_idempotent(text: str) -> None:
     once = P(text)
     assert P(once.to_native()) == once
+
+
+def test_display_order_is_broad_to_narrow() -> None:
+    texts = ["b.com", "+.a.example.com", "*.c.org", "+.us", ".cdn.x.net", "+.b.com", "a.b.com"]
+    ordered = sorted((DomainPattern.parse_native(t) for t in texts), key=DomainPattern.display_key)
+    assert [p.to_native() for p in ordered] == [
+        "+.us",
+        "+.b.com",
+        "+.a.example.com",
+        ".cdn.x.net",
+        "*.c.org",
+        "b.com",
+        "a.b.com",
+    ]

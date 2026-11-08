@@ -32,8 +32,8 @@ def test_example_builds(project: Path) -> None:
     dist = project / "dist"
     assert read_payload((dist / "clash-domain" / "Streaming.yaml").read_bytes()) == [
         "+.example.com",
-        "api.example.net",
         ".cdn.example.org",
+        "api.example.net",
     ]
     assert read_payload((dist / "clash-ipcidr" / "Streaming-ipcidr.yaml").read_bytes()) == [
         "192.0.2.0/24"
@@ -103,3 +103,38 @@ def test_cli_exit_codes(project: Path, capsys: pytest.CaptureFixture[str]) -> No
     (project / "my.wei").write_text("[A]\n'x\n[Rules]\nA: DIRECT\nMATCH: DIRECT\n", "utf-8")
     assert main(["check", "--config", cfg]) == 2
     capsys.readouterr()
+
+
+def test_provider_header(project: Path) -> None:
+    config = load_config(project / "config" / "domainrouter_v2.toml")
+    files = build(config, write=False).files
+    header = [
+        line
+        for line in files["clash-ipcidr/Work-ipcidr.yaml"].decode("utf-8").splitlines()
+        if line.startswith("#")
+    ]
+    assert header == ["# NAME: Work", "# GROUP: 🧭 Proxy", "# TYPE: ipcidr", "# TOTAL: 1"]
+    # build 产物不含时间：两次构建逐字节相同由 test_build_is_deterministic 保证
+    assert all(b"UPDATED" not in data for data in files.values())
+
+
+def test_updated_only_changes_with_content(project: Path, tmp_path: Path) -> None:
+    config = load_config(project / "config" / "domainrouter_v2.toml")
+    release = tmp_path / "release"
+    first = build(config)
+    assert stage_release(release, first.files, make_report(config, first, None, NOW))
+    work = release / "clash-domain" / "Work.yaml"
+    streaming = release / "clash-domain" / "Streaming.yaml"
+    assert b"# UPDATED: 2026-11-08 08:00:00 (UTC+8)\n# TYPE: domain" in work.read_bytes()
+    work_before = work.read_bytes()
+
+    rules = project / "my.wei"
+    text = rules.read_text(encoding="utf-8")
+    rules.write_bytes(text.replace("[Streaming]\n", "[Streaming]\nnew.example\n").encode())
+    later = datetime(2026, 11, 9, tzinfo=UTC)
+    second = build(config)
+    report = make_report(config, second, release, later)
+    assert stage_release(release, second.files, report)
+    assert work.read_bytes() == work_before  # 未变化的文件保留原时间
+    assert b"# UPDATED: 2026-11-09 08:00:00 (UTC+8)" in streaming.read_bytes()
+    assert "+.new.example" in read_payload(streaming.read_bytes())

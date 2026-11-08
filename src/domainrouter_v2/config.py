@@ -50,6 +50,16 @@ class Config:
         segments = [quote(part, safe="") for part in relative.split("/")]
         return self.base_url.rstrip("/") + "/" + "/".join(segments)
 
+    @property
+    def repository_url(self) -> str:
+        """base_url 为 ``https://raw.githubusercontent.com/<owner>/<repo>/<ref>`` 时，
+        返回仓库主页，用于规则文件头的 REPO；其他发布地址返回空串（不猜测）。"""
+        parts = urlsplit(self.base_url)
+        segments = [s for s in parts.path.split("/") if s]
+        if parts.netloc != "raw.githubusercontent.com" or len(segments) < 3:
+            return ""
+        return f"https://github.com/{segments[0]}/{segments[1]}"
+
 
 _ALLOWED = {
     "": {"schema_version", "project_root", "paths", "output", "policy", "fetch"},

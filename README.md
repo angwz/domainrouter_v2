@@ -47,7 +47,7 @@ clash-classic/Streaming-classic.yaml  clash-classic/Work-classic.yaml
 rulesets.toml  groups.toml  manifest.json  reports/broad-rules.md
 ```
 
-每个规则文件开头有注释，说明合集、条目数、策略组和来源；classical 文件按规则类型分节。注释里不写时间，所以内容不变时文件也不变。
+规则文件开头是简短的 `# NAME:`、`# GROUP:`、`# TYPE:`、`# TOTAL:` 等注释；发布时加上 `# UPDATED:`，只在该文件内容变化时更新。domain 条目按覆盖范围从宽到窄排列（`+.` 一级 → 二级 → … → 精确主机名），见[排列与文件头](docs/rules/merge-cases.md#10-规则文件的排列与文件头)。
 
 使用自己的配置时，编辑仓库根目录的 `my.wei`、`subconverter_config/groups.toml` 和 `config/domainrouter_v2.toml`，然后：
 
