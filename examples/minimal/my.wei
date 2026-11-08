@@ -1,0 +1,22 @@
+# DomainRouter v2 最小示例：无联网来源，全部使用保留示例域名与文档地址段。
+
+[Streaming]
+example.com
+'api.example.net'
+*.cdn.example.org
+DOMAIN-KEYWORD,examplevideo
+192.0.2.0/25
+192.0.2.128/25
+
+[Work]
+example.edu
+www.example.edu
+DOMAIN,login.example.com
+DST-PORT,8443
+2001:db8::/32
+
+[Rules]
+Streaming: 🎬 Media
+Work: 🧭 Proxy
+GEOIP,CN: DIRECT
+MATCH: 🐟 Final

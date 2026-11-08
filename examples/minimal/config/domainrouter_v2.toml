@@ -1,0 +1,13 @@
+# 本地演示配置：发布地址指向本机测试服务，build 时不需要它在运行。
+schema_version = 1
+project_root = ".."
+
+[paths]
+rules = "my.wei"
+groups = "subconverter_config/groups.toml"
+state = ".cache/domainrouter_v2"
+
+[output]
+directory = "dist"
+base_url = "http://127.0.0.1:18080"
+interval_seconds = 21600

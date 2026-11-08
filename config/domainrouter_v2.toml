@@ -1,0 +1,14 @@
+# DomainRouter v2 构建配置（用户 profile）。字段说明见 docs/configuration.md。
+schema_version = 1
+project_root = ".."
+
+[paths]
+rules = "my.wei"
+groups = "subconverter_config/groups.toml"
+state = ".cache/domainrouter_v2"
+
+[output]
+directory = "dist"
+# 发布地址：release 分支的固定路径。远端仓库创建前不会被访问。
+base_url = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release"
+interval_seconds = 21600

@@ -1,0 +1,16 @@
+[[custom_groups]]
+name = "🧭 Proxy"
+type = "select"
+rule = ["[]DIRECT", "(.*)"]
+
+[[custom_groups]]
+name = "🎬 Media"
+type = "url-test"
+rule = ["(.*)"]
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "🐟 Final"
+type = "select"
+rule = ["[]🧭 Proxy", "[]DIRECT"]

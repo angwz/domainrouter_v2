@@ -144,6 +144,8 @@ def detect_format(text: str) -> str:
 
 
 def _is_hosts_line(line: str) -> bool:
+    if " " not in line and "	" not in line:
+        return False  # 快速排除：hosts 行至少有两列
     fields = line.split("#", 1)[0].split()
     if len(fields) < 2 or "/" in fields[0]:
         return False
