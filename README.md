@@ -2,7 +2,7 @@
 
 把一份手写的分流配置 `my.wei` 与各处收集的上游规则，编译成去重、合并、按 Mihomo 匹配机制优化的 rule-provider，以及 subconverter 直接可用的 `rulesets.toml`、`groups.toml`。GitHub Actions 每天刷新上游、验证并发布。
 
-> **状态** 0.1.0 · 首个公开版本；进度见 [progress](docs/development/progress.md)。
+> **状态** 2.0.0 · 首个公开版本；进度见 [progress](docs/development/progress.md)。
 
 ```text
 my.wei · groups.toml ─┐
