@@ -18,7 +18,7 @@
 
 | 工具 | 版本 | 用途 | 许可 |
 | --- | --- | --- | --- |
-| Mihomo | v1.19.33 | 内核层验证 | GPL-3.0 |
+| Mihomo | v1.19.33 | 编译 MRS（`convert-ruleset`）；内核层验证的版本基准 | GPL-3.0 |
 | Go 工具链 | 1.26.9 | 编译验证适配器 | BSD-3-Clause |
 | Mihomo Go 模块及其依赖 | v1.19.33 | 验证适配器（`tools/kernel-adapter`，只在本地编译运行） | GPL-3.0 及各依赖的许可 |
 | geoip.metadb、geosite.dat | MetaCubeX/meta-rules-dat@d5574ea | 内核层验证中的 GEOIP/GEOSITE 条件 | 见 meta-rules-dat 仓库 |

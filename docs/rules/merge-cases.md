@@ -345,6 +345,8 @@ behavior 自动判断：`payload` 全是 `TYPE,值` → classical；全是地址
 
 ## 10. 规则文件的排列与文件头
 
+开启 `output.mrs` 时，每个 domain、ipcidr 文件旁另有同名的 `.mrs`，由 Mihomo 从该 YAML 编译而来，不含注释（[决定 0003](../decisions/0003-publish-mrs.md)）。以下说明针对 YAML。
+
 domain 文件按覆盖范围从宽到窄排列。组内先比较写出的标签数（少的在前），再按字母序：
 
 | 次序 | 写法 | 例子 |

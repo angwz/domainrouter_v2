@@ -4,6 +4,15 @@
 
 ## [未发布]
 
+### 新增
+
+- MRS：`output.mrs` 开启后，为 domain、ipcidr 文件同时发布同名 `.mrs`；内核层验证增加 MRS 变体，对照 YAML 的命中结果与条目数。
+- release 分支自动生成 README：规则一览、下载地址（含 jsDelivr），以及 Mihomo、作为上游、subconverter 三种取用方式。
+
+### 变更
+
+- 每日更新改为北京时间 06:00；release 与 state 的提交信息使用北京时间日期。
+
 ## [2.0.0] - 2026-11-09
 
 首个公开版本。

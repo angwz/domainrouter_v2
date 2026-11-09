@@ -12,6 +12,7 @@ from domainrouter_v2.build import build
 from domainrouter_v2.cli import main
 from domainrouter_v2.config import load_config
 from domainrouter_v2.emit import read_payload
+from domainrouter_v2.parse.formats import parse_source
 from domainrouter_v2.publish import stage_release
 from domainrouter_v2.report import make_report
 
@@ -171,7 +172,7 @@ def test_annotation_only_change_is_published(project: Path, tmp_path: Path) -> N
     text = work.read_text(encoding="utf-8")
     work.write_bytes(text.replace("# A  覆盖", "# B  覆盖").encode())  # 只改来源标注
     report = make_report(config, build(config), release, NOW)
-    assert report.notes_changed and report.changed
+    assert report.files_changed and report.changed
     assert not any(c.changed for c in report.changes)
 
 
@@ -187,9 +188,23 @@ def test_release_readme(project: Path, tmp_path: Path) -> None:
     config = load_config(project / "config" / "domainrouter_v2.toml")
     result = build(config)
     readme = result.files["README.md"].decode("utf-8")
-    assert "| Streaming | `domain` | 3 | 🎬 Media | [clash-domain/Streaming.yaml]" in readme
+    assert "| Streaming | `domain` | 3 | 🎬 Media | [YAML](clash-domain/Streaming.yaml) |" in readme
+    assert ".mrs" not in readme  # 示例未开启 output.mrs
     assert "behavior: ipcidr" in readme and ",no-resolve" in readme
     assert "jsdelivr" not in readme  # 示例的发布地址不是 raw.githubusercontent.com，不推断镜像
     release = tmp_path / "release"
     assert stage_release(release, result.files, make_report(config, result, None, NOW))
     assert (release / "README.md").read_bytes() == result.files["README.md"]
+
+
+def test_published_yaml_is_a_valid_upstream(project: Path) -> None:
+    """发布的 YAML（含文件头与同行注释）可以被本项目自己作为上游读取，条目一一对应。"""
+    files = build(load_config(project / "config" / "domainrouter_v2.toml"), write=False).files
+    for path, fmt in (
+        ("clash-domain/Streaming.yaml", "domain"),
+        ("clash-ipcidr/Streaming-ipcidr.yaml", "ipcidr"),
+        ("clash-classic/Streaming-classic.yaml", "classical"),
+    ):
+        parsed = parse_source(files[path].decode("utf-8"), fmt)
+        assert not parsed.skipped
+        assert len(parsed.entries) == len(read_payload(files[path]))

@@ -29,8 +29,8 @@ def stage_release(release_dir: Path, files: dict[str, bytes], report: RunReport)
     for partition in PARTITIONS:
         directory = release_dir / partition.directory
         if directory.is_dir():
-            for stale in directory.glob("*.yaml"):
-                if f"{partition.directory}/{stale.name}" not in files:
+            for stale in directory.iterdir():
+                if stale.is_file() and f"{partition.directory}/{stale.name}" not in files:
                     stale.unlink()
     reports = release_dir / REPORT_DIR
     if reports.exists():
@@ -42,10 +42,13 @@ def stage_release(release_dir: Path, files: dict[str, bytes], report: RunReport)
         top = path.split("/", 1)[0]
         target = release_dir / path
         output = data
-        if top in rule_dirs:
+        if top in rule_dirs and path.endswith(".yaml"):
             if target.exists() and strip_updated(target.read_bytes()) == data:
                 continue  # 内容未变：保留原文件及其更新时间
             output = stamp_updated(data, when)
+        elif top in rule_dirs:
+            if target.exists() and target.read_bytes() == data:
+                continue  # 二进制规则集（MRS）不含时间，字节相同即未变
         elif path not in PUBLISHED_FILES and top != REPORT_DIR:
             continue
         target.parent.mkdir(parents=True, exist_ok=True)

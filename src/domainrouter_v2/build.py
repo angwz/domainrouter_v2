@@ -27,6 +27,7 @@ from domainrouter_v2.emit import render_outputs, sha256
 from domainrouter_v2.groups import is_known_target, validate_groups
 from domainrouter_v2.model.profile import LocalMember, Profile, RouteKind, SourceRef
 from domainrouter_v2.model.rule import Member, render_member
+from domainrouter_v2.mrs import MrsError, compile_mrs, mihomo_executable
 from domainrouter_v2.parse.document import parse_profile
 from domainrouter_v2.planner import PARTITIONS, Plan, build_plan
 from domainrouter_v2.provenance import HANDWRITTEN, ArtifactTrace, trace_artifact
@@ -270,22 +271,44 @@ def build(config: Config, *, write: bool = True) -> BuildResult:
     }
     result.broad = broad_listing(result, classify)
     trace_plan(result)
-    result.files = render_outputs(
-        plan,
-        groups_bytes,
-        {
-            BROAD_REPORT: render_listing(result.filtered, result.broad),
-            RELEASE_README: release_readme(plan, config.base_url, config.resource_url),
-        },
-        inputs={
-            "rules": sha256(rules_bytes),
-            "groups": sha256(groups_bytes),
-            "sources": dict(sorted(source_hashes.items())),
-        },
-        settings={"base_url": config.base_url, "interval_seconds": config.interval_seconds},
-        repository=config.repository_url,
-        traces=result.traces,
-    )
+    compiler = None
+    if config.mrs:
+        try:
+            mihomo = mihomo_executable(config.state)
+        except MrsError as exc:
+            result.diagnostics.append(error(Code.MRS_COMPILE, str(exc)))
+            return result
+
+        def compiler(files: dict[str, bytes]) -> dict[str, bytes]:
+            return compile_mrs(files, mihomo)
+
+    try:
+        result.files = render_outputs(
+            plan,
+            groups_bytes,
+            {
+                BROAD_REPORT: render_listing(result.filtered, result.broad),
+                RELEASE_README: release_readme(
+                    plan, config.base_url, config.resource_url, mrs=config.mrs
+                ),
+            },
+            inputs={
+                "rules": sha256(rules_bytes),
+                "groups": sha256(groups_bytes),
+                "sources": dict(sorted(source_hashes.items())),
+            },
+            settings={
+                "base_url": config.base_url,
+                "interval_seconds": config.interval_seconds,
+                "mrs": config.mrs,
+            },
+            repository=config.repository_url,
+            traces=result.traces,
+            compile_binary=compiler,
+        )
+    except MrsError as exc:
+        result.diagnostics.append(error(Code.MRS_COMPILE, str(exc)))
+        return result
     if write:
         write_tree(config.output, result.files)
     return result

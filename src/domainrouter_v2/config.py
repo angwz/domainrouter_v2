@@ -42,6 +42,7 @@ class Config:
     output: Path
     base_url: str
     interval_seconds: int
+    mrs: bool  # 同时发布 domain/ipcidr 的 MRS（需要 tools prepare 准备的 Mihomo）
     allow_empty_collections: frozenset[str]
     fetch: FetchConfig
 
@@ -64,7 +65,7 @@ class Config:
 _ALLOWED = {
     "": {"schema_version", "project_root", "paths", "output", "policy", "fetch"},
     "paths": {"rules", "groups", "state"},
-    "output": {"directory", "base_url", "interval_seconds"},
+    "output": {"directory", "base_url", "interval_seconds", "mrs"},
     "policy": {"allow_empty_collections"},
     "fetch": set(FetchConfig.__dataclass_fields__),
 }
@@ -109,6 +110,9 @@ def parse_config(data: dict[str, Any], path: Path) -> Config:
     if not isinstance(interval, int) or isinstance(interval, bool) or interval <= 0:
         raise ConfigError("output.interval_seconds 必须是正整数")
 
+    mrs = output.get("mrs", False)
+    if not isinstance(mrs, bool):
+        raise ConfigError("output.mrs 必须是 true 或 false")
     allow_empty = policy.get("allow_empty_collections", [])
     if not isinstance(allow_empty, list) or not all(isinstance(x, str) for x in allow_empty):
         raise ConfigError("policy.allow_empty_collections 必须是字符串数组")
@@ -123,6 +127,7 @@ def parse_config(data: dict[str, Any], path: Path) -> Config:
         output=out,
         base_url=base_url,
         interval_seconds=interval,
+        mrs=mrs,
         allow_empty_collections=frozenset(allow_empty),
         fetch=fetch,
     )

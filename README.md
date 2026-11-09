@@ -19,6 +19,7 @@ my.wei · groups.toml ─┐
 - **为匹配效率规划。** 能进 domain/ipcidr 集合的条件都进集合，查找成本与条目数无关；classical 只留集合表达不了的条件，按成本排序；目标相同的相邻合集共用一组文件。
 - **拦住过宽的规则。** `DOMAIN-KEYWORD,ads`、`0.0.0.0/0`、`NETWORK,UDP` 这类接近全部流量的上游条目被过滤，其余宽泛规则逐条列入清单（[判定依据](docs/rules/broad-rules.md)）。
 - **每条规则都有来历。** 同行注释标出它来自哪些上游、合并或覆盖了哪些规则；`explain --rule` 列出完整清单。
+- **YAML 与 MRS 并发。** YAML 便于阅读与审查；同名的 MRS 体积约为七分之一，Mihomo 加载快约五倍，两者由内核层验证保证命中一致。
 - **尊重手写意图。** `my.wei` 中手写的内容按原样保留，`[Rules]` 的顺序就是匹配优先级。
 - **稳定的每日更新。** 内容没变就不提交；单个上游失败时沿用其上次成功的副本，并在更新说明中提醒。
 
@@ -95,10 +96,10 @@ MATCH: 🐟 Final
 
 | 项目 | 状态 |
 | --- | --- |
-| 输出 | Mihomo rule-provider（YAML）与 subconverter TOML |
+| 输出 | Mihomo rule-provider（YAML，domain/ipcidr 另有 MRS）与 subconverter TOML |
 | 验证目标 | Mihomo v1.19.33；subconverter 行为按 angwz/subconverter@a33d49e 源码模拟 |
 | 平台 | Windows 10 x64 已实测；Linux 由 CI 覆盖 |
-| 计划中 | MRS 输出、Web 编辑界面、AI 建议 |
+| 计划中 | Web 编辑界面、AI 建议 |
 | 不支持 | Quantumult X、Shadowrocket 等没有正式语法文档的格式；二进制规则输入（`.mrs`、`.srs`、`.dat`） |
 
 ## 参与与许可

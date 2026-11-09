@@ -105,3 +105,26 @@ def test_kernel_on_example(example, tmp_path: Path) -> None:  # type: ignore[no-
     assert outcome.ok, outcome.mismatches + outcome.count_mismatches
     # 示例中唯一会请求 DNS 解析的是手写且不带 no-resolve 的 GEOIP,CN
     assert set(outcome.resolve_rules) <= {"GeoIP,cn"}
+
+
+@pytest.mark.kernel
+def test_mrs_compiled_and_equivalent(example, tmp_path: Path) -> None:  # type: ignore[no-untyped-def]
+    """output.mrs：用真实 Mihomo 编译 MRS，内核层对照 YAML 与 MRS 的命中结果与条目数。"""
+    config, _ = example
+    shared = Path(__file__).parents[1] / ".cache" / "domainrouter_v2"
+    if not _tools_ready(shared):
+        pytest.skip("未运行 domainrouter_v2 tools prepare")
+    config = replace(config, state=shared, mrs=True)
+    first = build(config, write=False)
+    assert first.ok, [d.render() for d in first.diagnostics]
+    mrs = sorted(p for p in first.files if p.endswith(".mrs"))
+    assert mrs == [
+        "clash-domain/Streaming.mrs",
+        "clash-domain/Work.mrs",
+        "clash-ipcidr/Streaming-ipcidr.mrs",
+        "clash-ipcidr/Work-ipcidr.mrs",
+    ]
+    assert build(config, write=False).files == first.files  # MRS 编译结果确定
+    outcome = run_kernel(config, first)
+    assert "mrs" in outcome.load_ns
+    assert outcome.ok, outcome.mismatches + outcome.count_mismatches

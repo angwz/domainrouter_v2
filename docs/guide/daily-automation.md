@@ -32,7 +32,7 @@
 | 分支 | 内容 | 谁写 |
 | --- | --- | --- |
 | `main` | 代码、`my.wei`、`groups.toml`、配置 | 你 |
-| `release` | `clash-domain/`、`clash-ipcidr/`、`clash-classic/`、`rulesets.toml`、`groups.toml`、`manifest.json`、`reports/` | 每日工作流 |
+| `release` | `README.md`（取用指引）、`clash-domain/`、`clash-ipcidr/`（各含 `.yaml` 与 `.mrs`）、`clash-classic/`、`rulesets.toml`、`groups.toml`、`manifest.json`、`reports/` | 每日工作流 |
 | `state` | `sources/`（各来源规范化快照）、`status.json`（健康记录） | 每日工作流 |
 
 `reports/latest.md` 是最近一次有变化时的更新说明，`reports/changes.json` 是同样内容的机器可读版本。`reports/broad-rules.md` 是当前规则文件中的宽泛规则清单（见 [broad-rules](../rules/broad-rules.md)），内容变化同样会触发发布。

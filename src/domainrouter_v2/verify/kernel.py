@@ -105,7 +105,25 @@ def _relative_path(url: str) -> str:
     raise ValueError(f"无法从 URL 推断产物路径：{url}")
 
 
-def _config_yaml(rules: list[str], providers: dict[str, tuple[str, str]], groups: set[str]) -> str:
+def _provider_entry(behavior: str, path: str, *, mrs: bool) -> dict[str, str]:
+    """MRS 变体：domain/ipcidr provider 改读同名 .mrs 文件（classical 没有 MRS）。"""
+    if mrs and behavior != "classical":
+        return {
+            "type": "file",
+            "behavior": behavior,
+            "format": "mrs",
+            "path": "./" + path.removesuffix(".yaml") + ".mrs",
+        }
+    return {"type": "file", "behavior": behavior, "format": "yaml", "path": f"./{path}"}
+
+
+def _config_yaml(
+    rules: list[str],
+    providers: dict[str, tuple[str, str]],
+    groups: set[str],
+    *,
+    mrs: bool = False,
+) -> str:
     unreachable = "http://127.0.0.1:9/unreachable"
     config: dict[str, Any] = {
         "mode": "rule",
@@ -124,7 +142,7 @@ def _config_yaml(rules: list[str], providers: dict[str, tuple[str, str]], groups
             for name in sorted(groups - {"DIRECT", "REJECT", "REJECT-DROP", "PASS", "COMPATIBLE"})
         ],
         "rule-providers": {
-            name: {"type": "file", "behavior": behavior, "format": "yaml", "path": f"./{path}"}
+            name: _provider_entry(behavior, path, mrs=mrs)
             for name, (behavior, path) in providers.items()
         },
         "rules": rules,
@@ -218,7 +236,9 @@ def run_kernel(config: Config, result: BuildResult) -> KernelResult:
         query_file.write_text("\n".join(json.dumps(q) for q in queries) + "\n", encoding="utf-8")
         runs: dict[str, dict[str, dict[str, Any]]] = {}
         expected_counts: dict[str, int] = {}
-        for variant in ("optimized", "raw"):
+        has_mrs = any(path.endswith(".mrs") for path in result.files)
+        variants = ("optimized", "raw", "mrs") if has_mrs else ("optimized", "raw")
+        for variant in variants:
             home = root / variant
             home.mkdir()
             for name, filename in (
@@ -234,7 +254,7 @@ def run_kernel(config: Config, result: BuildResult) -> KernelResult:
                 (home / path).parent.mkdir(parents=True, exist_ok=True)
                 (home / path).write_bytes(data)
             (home / "config.yaml").write_text(
-                _config_yaml(rules, providers, groups), encoding="utf-8"
+                _config_yaml(rules, providers, groups, mrs=variant == "mrs"), encoding="utf-8"
             )
             completed = subprocess.run(
                 [str(adapter), str(home), str(home / "config.yaml"), str(query_file)],
@@ -250,15 +270,17 @@ def run_kernel(config: Config, result: BuildResult) -> KernelResult:
             )
             summary = next(line for line in lines if line["kind"] == "summary")
             outcome.match_ns[variant] = summary.get("nanos", 0) / max(summary["count"], 1)
-            if variant == "optimized":
+            if variant in ("optimized", "mrs"):
+                # 两个变体都必须加载出与 YAML 条目数相同的规则：MRS 由 YAML 编译而来。
                 loaded = {
                     line["provider"]: line["count"] for line in lines if line["kind"] == "provider"
                 }
+                label = "MRS " if variant == "mrs" else ""
                 for name, (_, path) in providers.items():
-                    expected_counts[name] = len(read_payload(files[path]))
+                    expected_counts[name] = len(read_payload(result.files[path]))
                     if loaded.get(name) != expected_counts[name]:
                         outcome.count_mismatches.append(
-                            f"{name}：文件 {expected_counts[name]} 条，"
+                            f"{label}{name}：文件 {expected_counts[name]} 条，"
                             f"Mihomo 加载 {loaded.get(name)} 条"
                         )
         for query in queries:
@@ -268,6 +290,13 @@ def run_kernel(config: Config, result: BuildResult) -> KernelResult:
                     f"{query['id']}：未优化 → [{a['index']}] {a.get('rule')}；"
                     f"优化后 → [{b['index']}] {b.get('rule')}"
                 )
+            if "mrs" in runs:
+                c = runs["mrs"][query["id"]]
+                if _observation(b) != _observation(c):
+                    outcome.mismatches.append(
+                        f"{query['id']}：YAML → [{b['index']}] {b.get('rule')}；"
+                        f"MRS → [{c['index']}] {c.get('rule')}"
+                    )
             if b.get("resolve_requested"):
                 key = b.get("resolve_by") or "（未知）"
                 outcome.resolve_rules[key] = outcome.resolve_rules.get(key, 0) + 1
@@ -281,8 +310,9 @@ def _observation(line: dict[str, Any]) -> tuple[int, str, str]:
 
 def _variant_files(result: BuildResult, variant: str) -> dict[str, bytes]:
     assert result.plan is not None
-    if variant == "optimized":
-        return {p: d for p, d in result.files.items() if p.endswith(".yaml")}
+    if variant in ("optimized", "mrs"):
+        suffixes = (".yaml", ".mrs") if variant == "mrs" else (".yaml",)
+        return {p: d for p, d in result.files.items() if p.endswith(suffixes)}
     files: dict[str, bytes] = {}
     for names, artifact in result.plan.artifacts.items():
         raw: list[Member] = [m for n in names for m in result.collection_members.get(n, [])]
@@ -315,7 +345,7 @@ def run_kernel_verification(config: Config, result: BuildResult) -> int:
     )
     for line in (outcome.count_mismatches + outcome.mismatches)[:30]:
         print(f"    {line}", file=sys.stderr)
-    for variant, label in (("raw", "未优化"), ("optimized", "优化后")):
+    for variant, label in (("raw", "未优化"), ("optimized", "优化后"), ("mrs", "MRS")):
         if variant in outcome.match_ns:
             print(
                 f"    {label}：provider 加载 {outcome.load_ns[variant] / 1e6:.0f} ms；"

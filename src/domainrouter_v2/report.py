@@ -87,6 +87,30 @@ def _reason_key(reason: str) -> str:
     return reason.split("：", 1)[0] if "：" in reason and len(reason) > 60 else reason
 
 
+def rule_files_changed(previous_dir: Path | None, files: dict[str, bytes]) -> bool:
+    """规则目录中的文件集合或字节是否变化。YAML 比较前去掉发布时写入的 UPDATED 行。"""
+    if previous_dir is None:
+        return True
+    directories = {p.directory for p in PARTITIONS}
+    current = {path for path in files if path.split("/", 1)[0] in directories}
+    previous = {
+        f"{directory}/{item.name}"
+        for directory in directories
+        if (previous_dir / directory).is_dir()
+        for item in (previous_dir / directory).iterdir()
+        if item.is_file()
+    }
+    if current != previous:
+        return True
+    for path in current:
+        old = (previous_dir / path).read_bytes()
+        if path.endswith(".yaml"):
+            old = strip_updated(old)
+        if old != files[path]:
+            return True
+    return False
+
+
 @dataclass(slots=True)
 class RunReport:
     generated_at: str
@@ -100,11 +124,12 @@ class RunReport:
     stale_days: int
     broad_filtered: list[dict[str, str]] = field(default_factory=list)
     broad_new: list[dict[str, str]] = field(default_factory=list)
-    notes_changed: bool = False  # 规则未变，但来源标注（同行注释、文件头）有变化
+    # 规则条目未变，但文件有变化：来源标注（同行注释、文件头），或 MRS 文件新增、删除、改变
+    files_changed: bool = False
 
     @property
     def changed(self) -> bool:
-        return self.toml_changed or self.notes_changed or any(c.changed for c in self.changes)
+        return self.toml_changed or self.files_changed or any(c.changed for c in self.changes)
 
     def to_json(self) -> bytes:
         data = {
@@ -164,8 +189,8 @@ class RunReport:
         changed = [c for c in self.changes if c.changed]
         if not changed:
             lines.append(
-                "规则没有变化，只更新了来源标注。"
-                if self.notes_changed
+                "规则条目没有变化，只更新了来源标注或 MRS 文件。"
+                if self.files_changed
                 else "规则文件内容没有变化。"
             )
         else:
@@ -247,13 +272,7 @@ def make_report(
         or (previous_dir / name).read_bytes() != result.files[name]
         for name in ("rulesets.toml", "groups.toml", BROAD_REPORT, RELEASE_README)
     )
-    notes_changed = any(
-        previous_dir is None
-        or not (previous_dir / path).exists()
-        or strip_updated((previous_dir / path).read_bytes()) != data
-        for path, data in result.files.items()
-        if path.endswith(".yaml")
-    )
+    files_changed = rule_files_changed(previous_dir, result.files)
     sources = []
     for source in result.sources:
         failed_days = 0
@@ -302,7 +321,7 @@ def make_report(
         generation=manifest["generation"],
         changes=changes,
         toml_changed=toml_changed,
-        notes_changed=notes_changed,
+        files_changed=files_changed,
         sources=sources,
         skipped=skipped_summary(config, result),
         optimization=optimization,

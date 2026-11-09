@@ -15,6 +15,7 @@ state = ".cache/domainrouter_v2"   # 来源快照与工具目录
 directory = "dist"
 base_url = "https://raw.githubusercontent.com/<owner>/domainrouter_v2/release"
 interval_seconds = 21600           # 写入 rulesets.toml 的更新间隔
+mrs = false                        # 同时发布 domain/ipcidr 的 MRS
 
 [policy]
 allow_empty_collections = []       # 允许为空的合集名
@@ -42,6 +43,7 @@ stale_warning_days = 7             # 连续失败超过该天数时在更新说�
 | `output.directory` | `dist` | 构建输出目录。不能是项目根、源码目录或任何输入的上级目录 |
 | `output.base_url` | 必填 | 规则文件的发布地址前缀，写进 `rulesets.toml`。不能含账号、查询参数或片段 |
 | `output.interval_seconds` | `21600` | provider 的更新间隔（秒） |
+| `output.mrs` | `false` | 为每个 domain、ipcidr 文件再发布同名 `.mrs`（[决定 0003](../decisions/0003-publish-mrs.md)）。开启后构建需要先运行 `tools prepare` |
 | `policy.allow_empty_collections` | `[]` | 被引用但可以为空的合集 |
 | `fetch.*` | 见上 | 下载并发、重试、超时、大小上限与健康检查阈值 |
 

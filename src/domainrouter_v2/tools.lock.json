@@ -3,7 +3,7 @@
   "tools": {
     "mihomo": {
       "version": "v1.19.33",
-      "purpose": "内核层验证：加载生成的 rule-provider 并按真实规则求值",
+      "purpose": "编译 MRS（convert-ruleset）；内核层验证的版本基准",
       "license": "GPL-3.0，https://github.com/MetaCubeX/mihomo/blob/v1.19.33/LICENSE",
       "platforms": {
         "windows-amd64": {

@@ -11,7 +11,7 @@
 
 | # | 主题 | 决定 | 替代的规范条款 |
 | --- | --- | --- | --- |
-| 1 | 输出格式 | domain、ipcidr、classical 全部输出 YAML `payload:`；MRS 推迟，代码保留后端接口 | §2、§10.1、§11.2、M01–M08 |
+| 1 | 输出格式 | domain、ipcidr、classical 全部输出 YAML `payload:`；MRS 推迟（后由 [0003](0003-publish-mrs.md) 补充发布） | §2、§10.1、§11.2、M01–M08 |
 | 2 | 配套配置 | 只生成 `rulesets.toml`、`groups.toml`；不生成 `clash-base.yaml`、`provider-overrides.yaml`、`external-config.toml` | §11.1、§12.1、§12.3 |
 | 3 | 发布路径 | 固定路径：`release` 分支下的 `clash-domain/`、`clash-ipcidr/`、`clash-classic/`、两份 TOML、`reports/`；同一次提交更新 | §15.2 的 generation 目录 |
 | 4 | 上游刷新 | 每天抓取最新内容；来源锁是当天的收据，用于判断有无变化和事后追溯，不冻结上游 | §6 的语义不变，用途说明 |

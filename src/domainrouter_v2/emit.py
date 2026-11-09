@@ -15,7 +15,7 @@ import hashlib
 import json
 import unicodedata
 from collections import Counter
-from collections.abc import Iterable
+from collections.abc import Callable, Iterable
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -198,8 +198,13 @@ def render_outputs(
     settings: dict[str, Any],
     repository: str,
     traces: dict[tuple[str, ...], ArtifactTrace],
+    compile_binary: Callable[[dict[str, bytes]], dict[str, bytes]] | None = None,
 ) -> dict[str, bytes]:
-    """返回 {发布相对路径: 字节}。manifest 描述其余全部文件。"""
+    """返回 {发布相对路径: 字节}。manifest 描述其余全部文件。
+
+    compile_binary：把 YAML 规则文件编译为二进制规则集（MRS）的钩子，返回 {路径: 字节}，
+    路径与对应 YAML 同名、扩展名不同。由调用方注入，本模块不调用外部程序。
+    """
     files: dict[str, bytes] = dict(documents)
     artifacts: list[dict[str, Any]] = []
     for names, artifact in plan.artifacts.items():
@@ -225,6 +230,12 @@ def render_outputs(
                     "sha256": sha256(data),
                 }
             )
+    if compile_binary is not None:
+        by_stem = {a["path"].rsplit(".", 1)[0]: a for a in artifacts}
+        for path, data in compile_binary(dict(files)).items():
+            files[path] = data
+            source = by_stem[path.rsplit(".", 1)[0]]
+            artifacts.append({**source, "path": path, "format": "mrs", "sha256": sha256(data)})
     files["rulesets.toml"] = rulesets_toml(plan)
     files["groups.toml"] = normalized_text(groups_bytes)
     identity = {

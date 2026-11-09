@@ -21,7 +21,7 @@ ruleset = "[]MATCH"
 ```
 
 - 每个合集最多三条：`clash-domain`、`clash-ipcidr`、`clash-classic`，按此顺序连续排列；没有内容的类别不生成。
-- 规则文件都是 YAML `payload:` 格式。这个 fork 不会为 provider 写出 `format` 字段，Mihomo 默认按 YAML 读取，所以暂不输出 MRS（见[决定 0001](../decisions/0001-deviations-from-spec-1.5.md)）。
+- `rulesets.toml` 只引用 YAML 文件。这个 fork 不会为 provider 写出 `format` 字段，Mihomo 默认按 YAML 读取；同目录的 `.mrs` 供直接编写 Mihomo 配置的人使用（[决定 0003](../decisions/0003-publish-mrs.md)）。
 - `groups.toml` 校验通过后原样输出。
 
 ## subconverter 端需要满足的条件

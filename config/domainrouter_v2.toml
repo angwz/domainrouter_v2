@@ -9,6 +9,8 @@ state = ".cache/domainrouter_v2"
 
 [output]
 directory = "dist"
-# 发布地址：release 分支的固定路径。远端仓库创建前不会被访问。
+# 发布地址：release 分支的固定路径。
 base_url = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release"
 interval_seconds = 21600
+# 同时发布 domain/ipcidr 的 MRS（需要先运行 domainrouter_v2 tools prepare）。
+mrs = true

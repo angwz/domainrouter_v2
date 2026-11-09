@@ -17,6 +17,8 @@
 | 优化与规划 | `optimize/`、`planner.py` | ✓ | 属性测试；真实数据语义层与内核层 0 不一致 |
 | 宽泛规则判定、上游过滤、清单 | `breadth.py`、`data/` | ✓ | 案例测试；真实数据过滤 0 条、列出 554 条 |
 | 来源标注与合并溯源 | `provenance.py`、`annotate.py` | ✓ | 单元与属性测试；真实数据 0 条输入无法溯源 |
+| MRS 发布 | `mrs.py` | ✓ | 内核层对照 YAML 与 MRS：0 不一致，38 个文件条目数一致；两次编译逐字节相同 |
+| release 分支取用指引 | `catalog.py` | ✓ | 端到端测试；发布的 YAML 可被本项目作为上游读回 |
 | 来源获取、快照、Happy Eyeballs | `sources/` | ✓ | 伪造传输测试；真实网络 |
 | 构建、输出、更新说明、发布暂存 | `build.py`、`emit.py`、`report.py`、`publish.py` | ✓ | 端到端测试；两次构建逐字节一致 |
 | 验证（语义层、内核层）、explain | `verify/`、`explain.py`、`tools/kernel-adapter/` | ✓ | Mihomo v1.19.33 实测 |
@@ -28,7 +30,7 @@
 
 2026-11-09
 
-- 本地（Windows 10 x64 · Python 3.13.18）：`pytest` 417 通过（含 kernel 标记）；`ruff`、`mypy --strict` 通过；`scripts/rehearse-daily.sh` 6 个场景通过。
+- 本地（Windows 10 x64 · Python 3.13.18）：`pytest` 427 通过（含 kernel 标记）；`ruff`、`mypy --strict` 通过；`scripts/rehearse-daily.sh` 6 个场景通过。
 - GitHub CI：ubuntu-24.04 与 windows-2025 × Python 3.13/3.14 测试、内核层测试、安装包检查全部通过。
 - GitHub 每日流程：210 个来源 0 失败；内核层 50,004 个请求 0 不一致，59 个 provider 条目数一致；首次发布写入 `release` 与 `state`。
 - 真实 profile 的构建耗时与体积见 [performance](../design/performance.md)。
@@ -43,4 +45,4 @@
 ## 下一步
 
 1. 设计私有输入：让服务器网段等内容参与生成规则，但不出现在公开仓库中。
-2. 之后：MRS 输出（与 YAML 同目录同名）、Web、AI 建议。
+2. 之后：Web、AI 建议。

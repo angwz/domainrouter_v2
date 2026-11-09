@@ -188,9 +188,11 @@ def _build(config: Config, args: argparse.Namespace) -> int:
         print(f"构建失败：{_summary(result)}；输出目录未改动", file=sys.stderr)
         return _exit_code(result)
     assert result.plan is not None
-    files = [path for path in result.files if path.endswith(".yaml")]
+    yaml_count = sum(path.endswith(".yaml") for path in result.files)
+    mrs_count = sum(path.endswith(".mrs") for path in result.files)
+    rule_files = f"{yaml_count} 个规则文件" + (f"（另有 {mrs_count} 个 MRS）" if mrs_count else "")
     print(
-        f"已写出 {len(files)} 个规则文件、rulesets.toml（{len(result.plan.rulesets)} 条）、"
+        f"已写出 {rule_files}、rulesets.toml（{len(result.plan.rulesets)} 条）、"
         f"groups.toml 到 {config.output}；{_summary(result)}"
     )
     return EXIT_OK
