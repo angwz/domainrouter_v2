@@ -591,8 +591,12 @@
       "sha256": "9e30c49cd54a52ddf2a2eac004820b588d3412c8f8a2153d61d1b0d444397c33"
     }
   ],
-  "engine": "276af4d75a9501387d8c371747ace58b84539c924d919ace579fa4d8fef20c54",
-  "generation": "573ab7699ee2b9ceff0435827bc150620ca04a0d8bcb0c6a9a7421effdfbd327",
+  "documents": {
+    "README.md": "17fd5a4650119232ff3e3cf3b8c97d01f2beaf00ad7ca0550ea5c373317978af",
+    "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
+  },
+  "engine": "594c4ef745c3428d28e45d422f7ff426b8dae7c6d14e3badc2eb490179109981",
+  "generation": "89a434fe4a25fce3d01452c4c52b06836221126fbec7da4422013baa1255561e",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2"
@@ -812,9 +816,6 @@
       "fe478933d63b4ceb": "58c1b44413a3daee0dfe3418f74f0cf0bc3c3303f010503e3104b6d3af747fe1",
       "fe47f4449473a770": "f79a536d82dac5ff7319eda27ed8423bb7689339d41a02467b99db4897ac329e"
     }
-  },
-  "reports": {
-    "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
   },
   "rulesets": {
     "entries": 66,
