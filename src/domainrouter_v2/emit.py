@@ -1,4 +1,4 @@
-"""产物序列化：provider YAML、rulesets.toml、groups.toml 与确定性清单。
+"""产物序列化：provider YAML、rulesets.toml（及 MRS 版）、groups.toml 与确定性清单。
 
 所有文本输出为 UTF-8 无 BOM、LF、末尾一个换行；不写入时间等运行信息，
 同一输入两次构建逐字节相同（规范 B01）。
@@ -26,7 +26,15 @@ import domainrouter_v2
 from domainrouter_v2.annotate import annotate
 from domainrouter_v2.model.ip import Network
 from domainrouter_v2.model.rule import Logic, Member, render_member
-from domainrouter_v2.planner import CLASSICAL, DOMAIN, PARTITIONS, Artifact, Partition, Plan
+from domainrouter_v2.planner import (
+    CLASSICAL,
+    DOMAIN,
+    IPCIDR,
+    PARTITIONS,
+    Artifact,
+    Partition,
+    Plan,
+)
 from domainrouter_v2.provenance import ArtifactTrace
 
 UPDATED_KEY = "UPDATED"
@@ -159,9 +167,21 @@ def strip_updated(data: bytes) -> bytes:
     return b"".join(line for line in data.splitlines(keepends=True) if not line.startswith(prefix))
 
 
-def rulesets_toml(plan: Plan) -> bytes:
-    data = {"rulesets": [entry.as_toml() for entry in plan.rulesets]}
-    return tomli_w.dumps(data).encode("utf-8")
+# MRS 版 rulesets：条目与顺序和 YAML 版完全相同，只有 domain/ipcidr 引用改为同名 .mrs。
+# classical 没有 MRS 形式，仍引用 YAML。
+RULESETS = "rulesets.toml"
+RULESETS_MRS = "rulesets-mrs.toml"
+_BINARY_TYPES = frozenset({DOMAIN.toml_type, IPCIDR.toml_type})
+
+
+def rulesets_toml(plan: Plan, *, binary: bool = False) -> bytes:
+    entries = []
+    for entry in plan.rulesets:
+        table = entry.as_toml()
+        if binary and entry.type in _BINARY_TYPES:
+            table["ruleset"] = entry.ruleset.removesuffix(".yaml") + ".mrs"
+        entries.append(table)
+    return tomli_w.dumps({"rulesets": entries}).encode("utf-8")
 
 
 def normalized_text(raw: bytes) -> bytes:
@@ -236,7 +256,9 @@ def render_outputs(
             files[path] = data
             source = by_stem[path.rsplit(".", 1)[0]]
             artifacts.append({**source, "path": path, "format": "mrs", "sha256": sha256(data)})
-    files["rulesets.toml"] = rulesets_toml(plan)
+    files[RULESETS] = rulesets_toml(plan)
+    if compile_binary is not None:
+        files[RULESETS_MRS] = rulesets_toml(plan, binary=True)
     files["groups.toml"] = normalized_text(groups_bytes)
     identity = {
         "generator": f"domainrouter_v2 {domainrouter_v2.__version__}",
@@ -249,7 +271,11 @@ def render_outputs(
         **identity,
         "generation": sha256(canonical_json(identity)),
         "artifacts": sorted(artifacts, key=lambda a: a["path"]),
-        "rulesets": {"entries": len(plan.rulesets), "sha256": sha256(files["rulesets.toml"])},
+        "rulesets": {
+            path: {"entries": len(plan.rulesets), "sha256": sha256(files[path])}
+            for path in (RULESETS, RULESETS_MRS)
+            if path in files
+        },
         "groups": {"sha256": sha256(files["groups.toml"])},
         "documents": {path: sha256(data) for path, data in sorted(documents.items())},
     }

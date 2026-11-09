@@ -49,9 +49,9 @@ def release_readme(
         "",
         *_mihomo_usage(artifacts, resource_url, mrs=mrs),
         "",
-        *_collector_usage(resource_url, artifacts),
+        *_collector_usage(resource_url, artifacts, mrs=mrs),
         "",
-        *_subconverter_usage(resource_url),
+        *_subconverter_usage(resource_url, mrs=mrs),
     ]
     return ("\n".join(lines) + "\n").encode("utf-8")
 
@@ -120,7 +120,10 @@ def _addresses(base_url: str) -> list[str]:
 def _mihomo_usage(
     artifacts: list[Artifact], resource_url: Callable[[str], str], *, mrs: bool
 ) -> list[str]:
-    """用第一个同时有 domain 与 ipcidr 文件的规则集举例；没有时退回第一个规则集。"""
+    """用第一个同时有 domain 与 ipcidr 文件的规则集举例；没有时退回第一个规则集。
+
+    开启 MRS 时并列给出 MRS 与 YAML 两种写法：两者命中结果相同，区别只在加载方式。
+    """
     lines = [
         "### 挑几个规则集，用在 Mihomo 中",
         "",
@@ -134,27 +137,35 @@ def _mihomo_usage(
         return lines
     # 维护者的目标是内置策略时照用（读起来自然）；自定义组名对访客无意义，改用占位的 PROXY。
     target = next((t for t in sample.targets if t in _BUILTIN), "PROXY")
-    providers: list[str] = []
-    rules: list[str] = []
-    for partition in sample.partitions():
-        providers += _provider(sample, partition, resource_url, mrs=mrs)
-        # ipcidr 加 no-resolve：未解析的域名请求不会为了匹配网段而触发 DNS。
-        suffix = ",no-resolve" if partition is IPCIDR else ""
-        rules.append(f"  - RULE-SET,{_stem(sample.path(partition))},{target}{suffix}")
-    return [
-        *lines,
-        "",
-        "```yaml",
-        "rule-providers:",
-        *providers,
-        "",
-        "rules:",
-        *rules,
-        "```",
+    variants = [("MRS", True), ("YAML", False)] if mrs else [("YAML", False)]
+    for label, binary in variants:
+        if mrs:
+            note = (
+                "domain、ipcidr 用 MRS，classical 仍用 YAML："
+                if binary
+                else "全部使用 YAML，写法与 MRS 版只差 `format` 与扩展名："
+            )
+            lines += ["", f"**{label}**：{note}"]
+        lines += ["", *_provider_example(sample, resource_url, target, binary=binary)]
+    lines += [
         "",
         "策略组按自己的节点填写，规则的先后就是匹配优先级。只有一两个地区的节点时，"
         "面向其他地区的规则集可以指向同一个代理组，或者干脆不引用。",
     ]
+    return lines
+
+
+def _provider_example(
+    artifact: Artifact, resource_url: Callable[[str], str], target: str, *, binary: bool
+) -> list[str]:
+    providers: list[str] = []
+    rules: list[str] = []
+    for partition in artifact.partitions():
+        providers += _provider(artifact, partition, resource_url, mrs=binary)
+        # ipcidr 加 no-resolve：未解析的域名请求不会为了匹配网段而触发 DNS。
+        suffix = ",no-resolve" if partition is IPCIDR else ""
+        rules.append(f"  - RULE-SET,{_stem(artifact.path(partition))},{target}{suffix}")
+    return ["```yaml", "rule-providers:", *providers, "", "rules:", *rules, "```"]
 
 
 def _provider(
@@ -174,7 +185,9 @@ def _provider(
     ]
 
 
-def _collector_usage(resource_url: Callable[[str], str], artifacts: list[Artifact]) -> list[str]:
+def _collector_usage(
+    resource_url: Callable[[str], str], artifacts: list[Artifact], *, mrs: bool
+) -> list[str]:
     sample = next((a for a in artifacts if DOMAIN in a.partitions()), None)
     lines = [
         "### 作为你的上游",
@@ -182,11 +195,16 @@ def _collector_usage(resource_url: Callable[[str], str], artifacts: list[Artifac
         "把 YAML 地址交给你自己的规则工具即可。转换时请按 Mihomo 的语义理解域名写法："
         "`+.example.com` 是自身及全部子域，`.example.com` 只匹配子域，`example.com` 只匹配自身。",
     ]
+    if mrs:
+        lines += [
+            "",
+            "下游最终交给 Mihomo、且不需要再加工时，可以直接引用 MRS，省去一次转换。",
+        ]
     if sample is not None:
         url = resource_url(sample.path(DOMAIN))
         lines += [
             "",
-            "如果你也使用 DomainRouter v2，在 `my.wei` 中写明格式即可：",
+            "如果你也使用 DomainRouter v2，在 `my.wei` 中引用 YAML 并写明格式：",
             "",
             "```text",
             f"@source {url} format=domain",
@@ -195,20 +213,40 @@ def _collector_usage(resource_url: Callable[[str], str], artifacts: list[Artifac
     return lines
 
 
-def _subconverter_usage(resource_url: Callable[[str], str]) -> list[str]:
-    return [
+def _subconverter_usage(resource_url: Callable[[str], str], *, mrs: bool) -> list[str]:
+    lines = [
         "### 整套照搬（subconverter）",
         "",
-        "[rulesets.toml](rulesets.toml) 与 [groups.toml](groups.toml) 是维护者自用的完整配置：",
+        "维护者自用的完整配置：`rulesets` 列出全部规则集及其指向的策略组，"
+        "[groups.toml](groups.toml) 定义这些策略组。",
         "",
-        f"- `{resource_url('rulesets.toml')}`",
-        f"- `{resource_url('groups.toml')}`",
+    ]
+    if mrs:
+        lines += [
+            "| 版本 | rulesets | 引用的规则文件 |",
+            "| --- | --- | --- |",
+            f"| YAML | [rulesets.toml](rulesets.toml) · `{resource_url('rulesets.toml')}` "
+            "| 全部为 YAML |",
+            "| MRS | [rulesets-mrs.toml](rulesets-mrs.toml) · "
+            f"`{resource_url('rulesets-mrs.toml')}` | domain、ipcidr 为 MRS，classical 为 YAML |",
+            "",
+            "两个版本的规则集条目与顺序完全相同，共用同一份 "
+            f"`{resource_url('groups.toml')}`。"
+            "MRS 版要求 subconverter 为 `.mrs` 引用写出 `format: mrs`：Mihomo 不按扩展名判断格式，"
+            "未写 `format` 时一律按 YAML 读取。",
+        ]
+    else:
+        lines += [
+            f"- `{resource_url('rulesets.toml')}`",
+            f"- `{resource_url('groups.toml')}`",
+        ]
+    lines += [
         "",
-        "`rulesets.toml` 中每个规则集都指向 `groups.toml` 里的某个策略组，而这些组是按维护者"
-        "多个地区的节点编排的。节点布局不同时，建议复制一份 `groups.toml` 按自己的节点调整，"
-        "保留 `rulesets.toml` 引用到的组名；需要改动规则本身时，fork "
+        "`groups.toml` 中的组是按维护者多个地区的节点编排的。节点布局不同时，建议复制一份 "
+        "`groups.toml` 按自己的节点调整，保留 `rulesets` 引用到的组名；需要改动规则本身时，fork "
         f"[本项目]({PROJECT_URL}) 生成你自己的发布。",
     ]
+    return lines
 
 
 def _mrs(yaml_path: str) -> str:

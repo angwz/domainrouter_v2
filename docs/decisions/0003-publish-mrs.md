@@ -1,7 +1,7 @@
 # 0003 · 同时发布 MRS
 
 - 状态：已采纳（2026-11-09，维护者提出）
-- 取代：[0001](0001-deviations-from-spec-1.5.md) #1 中「MRS 推迟」的部分；YAML 仍是主格式
+- 取代：[0001](0001-deviations-from-spec-1.5.md) #1 中「MRS 推迟」的部分；YAML 与 MRS 同等发布
 
 ## 背景
 
@@ -13,7 +13,7 @@ MRS 与 YAML 在内核中是同一个数据结构，匹配速度相同，区别�
 
 1. 配置项 `output.mrs = true` 时，每个 domain 与 ipcidr 文件旁边再发布一个同名的 `.mrs` 文件，与 YAML 同目录。classical 没有 MRS 形式。
 2. 编码交给固定版本 Mihomo 自带的 `convert-ruleset`，输入就是刚生成的 YAML；不在 Python 中重新实现 MRS。
-3. `rulesets.toml` 继续引用 YAML，维护者的 subconverter 接入方式不变。
+3. `rulesets.toml` 继续引用 YAML，维护者的 subconverter 接入方式不变；同时生成 `rulesets-mrs.toml`，条目与顺序相同，domain、ipcidr 改为引用 `.mrs`，供能写出 `format: mrs` 的 subconverter 使用（2026-11-09 补充）。
 4. 内核层验证增加 MRS 变体：同一张规则表改为从 MRS 加载 domain 与 ipcidr，命中结果和加载条目数必须与 YAML 完全一致。
 
 ## 取舍

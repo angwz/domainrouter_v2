@@ -17,7 +17,13 @@ from domainrouter_v2.emit import stamp_updated, strip_updated
 from domainrouter_v2.planner import PARTITIONS
 from domainrouter_v2.report import RunReport
 
-PUBLISHED_FILES = ("README.md", "rulesets.toml", "groups.toml", "manifest.json")
+PUBLISHED_FILES = (
+    "README.md",
+    "rulesets.toml",
+    "rulesets-mrs.toml",
+    "groups.toml",
+    "manifest.json",
+)
 REPORT_DIR = "reports"
 
 
@@ -32,6 +38,10 @@ def stage_release(release_dir: Path, files: dict[str, bytes], report: RunReport)
             for stale in directory.iterdir():
                 if stale.is_file() and f"{partition.directory}/{stale.name}" not in files:
                     stale.unlink()
+    for name in PUBLISHED_FILES:
+        # 例如关闭 output.mrs 后，旧的 rulesets-mrs.toml 不应继续留在 release 上
+        if name not in files and (release_dir / name).is_file():
+            (release_dir / name).unlink()
     reports = release_dir / REPORT_DIR
     if reports.exists():
         shutil.rmtree(reports)

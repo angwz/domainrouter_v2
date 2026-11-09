@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import shutil
+import tomllib
 from dataclasses import replace
 from pathlib import Path
 from typing import ClassVar
@@ -125,6 +126,11 @@ def test_mrs_compiled_and_equivalent(example, tmp_path: Path) -> None:  # type: 
         "clash-ipcidr/Work-ipcidr.mrs",
     ]
     assert build(config, write=False).files == first.files  # MRS 编译结果确定
+    # rulesets-mrs.toml 引用的每个规则文件都在产物中
+    prefix = config.base_url.rstrip("/") + "/"
+    entries = tomllib.loads(first.files["rulesets-mrs.toml"].decode())["rulesets"]
+    referenced = [e["ruleset"].removeprefix(prefix) for e in entries if e.get("type")]
+    assert referenced and all(path in first.files for path in referenced)
     outcome = run_kernel(config, first)
     assert "mrs" in outcome.load_ns
     assert outcome.ok, outcome.mismatches + outcome.count_mismatches

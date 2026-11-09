@@ -57,3 +57,6 @@
 | 38 | 访客的用法各不相同：只挑部分规则集、把这里当作上游收集、节点地区较少；取用指引应照顾这些情形，措辞更得体 | ✅ | release 分支 README（三种取用方式） |
 | 39 | 实现 MRS 发布 | ✅ | [0003](../decisions/0003-publish-mrs.md) |
 | 40 | 可视化编辑 my.wei：纯静态网页（GitHub Pages）经 GitHub API 读写，保存后立即构建发布，电脑与手机都要好用；私有输入暂缓 | 🔄 | 第 1 阶段 `edit.py` 已完成，网页待做 |
+| 41 | 开启 GitHub Pages 部署编辑器，并让 my.wei 改动后立即发布 | 🕓 | 尚未确认，随编辑器一起暂停 |
+| 42 | 可视化编辑器暂停实现，保存必要的状态以便日后继续 | ✅ | 进度记录 |
+| 43 | 不必考虑维护者的 subconverter 是否支持 MRS：MRS 与 YAML 一样提供全套物料（含规则集清单），并在文档中同等说明 | ✅ | `rulesets-mrs.toml`、release 分支 README、[subconverter](../guide/subconverter.md) |

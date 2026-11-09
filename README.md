@@ -9,7 +9,8 @@ my.wei · groups.toml ─┐
                       ├─▶ 解析 ─▶ 过滤 ─▶ 等价优化 ─▶ 规划 ─▶ clash-domain/   *.yaml
 上游规则（每日刷新）──┘                                       clash-ipcidr/   *.yaml
                                                               clash-classic/  *.yaml
-                                                              rulesets.toml · groups.toml
+                                                              rulesets.toml · rulesets-mrs.toml
+                                                              groups.toml
 ```
 
 ## 特点
@@ -96,7 +97,7 @@ MATCH: 🐟 Final
 
 | 项目 | 状态 |
 | --- | --- |
-| 输出 | Mihomo rule-provider（YAML，domain/ipcidr 另有 MRS）与 subconverter TOML |
+| 输出 | Mihomo rule-provider：YAML 与 MRS（MRS 限 domain、ipcidr）；subconverter 规则集清单两版（`rulesets.toml`、`rulesets-mrs.toml`）与 `groups.toml` |
 | 验证目标 | Mihomo v1.19.33；subconverter 行为按 angwz/subconverter@a33d49e 源码模拟 |
 | 平台 | Windows 10 x64 已实测；Linux 由 CI 覆盖 |
 | 计划中 | Web 编辑界面、AI 建议 |

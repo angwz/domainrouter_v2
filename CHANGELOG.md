@@ -6,7 +6,7 @@
 
 ### 新增
 
-- MRS：`output.mrs` 开启后，为 domain、ipcidr 文件同时发布同名 `.mrs`；内核层验证增加 MRS 变体，对照 YAML 的命中结果与条目数。
+- MRS：`output.mrs` 开启后，为 domain、ipcidr 文件同时发布同名 `.mrs`，并生成引用它们的 `rulesets-mrs.toml`；内核层验证增加 MRS 变体，对照 YAML 的命中结果与条目数。
 - release 分支自动生成 README：规则一览、下载地址（含 jsDelivr），以及 Mihomo、作为上游、subconverter 三种取用方式。
 
 ### 变更

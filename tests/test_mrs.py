@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import shutil
+import tomllib
 from dataclasses import replace
 from datetime import UTC, datetime
 from pathlib import Path
@@ -12,6 +13,7 @@ import pytest
 from domainrouter_v2.build import build
 from domainrouter_v2.config import load_config
 from domainrouter_v2.diagnostics import Code
+from domainrouter_v2.emit import rulesets_toml
 from domainrouter_v2.mrs import mrs_path
 from domainrouter_v2.publish import stage_release
 from domainrouter_v2.report import make_report
@@ -80,3 +82,42 @@ def test_publish_writes_and_cleans_mrs(tmp_path: Path) -> None:
     assert report.changed
     assert stage_release(release, plain.files, report)
     assert not mrs.exists()
+
+
+def _example(tmp_path: Path):  # type: ignore[no-untyped-def]
+    root = tmp_path / "project"
+    shutil.copytree(EXAMPLE, root, ignore=shutil.ignore_patterns("dist", ".cache"))
+    return load_config(root / "config" / "domainrouter_v2.toml")
+
+
+def test_rulesets_mrs_mirrors_yaml_version(tmp_path: Path) -> None:
+    result = build(_example(tmp_path), write=False)
+    assert result.plan is not None
+    yaml_entries = tomllib.loads(rulesets_toml(result.plan).decode())["rulesets"]
+    mrs_entries = tomllib.loads(rulesets_toml(result.plan, binary=True).decode())["rulesets"]
+    assert len(mrs_entries) == len(yaml_entries)
+    for plain, binary in zip(yaml_entries, mrs_entries, strict=True):
+        assert binary["group"] == plain["group"]
+        assert binary.get("type") == plain.get("type")
+        if plain.get("type") in {"clash-domain", "clash-ipcidr"}:
+            assert binary["ruleset"] == plain["ruleset"].removesuffix(".yaml") + ".mrs"
+        else:  # classical 与内联规则保持不变
+            assert binary["ruleset"] == plain["ruleset"]
+
+
+def test_rulesets_mrs_published_and_removed(tmp_path: Path) -> None:
+    config = _example(tmp_path)
+    result = build(config, write=False)
+    assert result.plan is not None
+    files = _with_fake_mrs(result.files)
+    files["rulesets-mrs.toml"] = rulesets_toml(result.plan, binary=True)
+    result.files = files
+    release = tmp_path / "release"
+    assert stage_release(release, files, make_report(config, result, None, NOW))
+    assert (release / "rulesets-mrs.toml").is_file()
+
+    plain = build(config, write=False)  # 关闭 MRS 后再发布
+    report = make_report(config, plain, release, NOW)
+    assert report.toml_changed
+    assert stage_release(release, plain.files, report)
+    assert not (release / "rulesets-mrs.toml").exists()

@@ -266,11 +266,20 @@ def make_report(
     assert result.plan is not None and result.profile is not None
     manifest = json.loads(result.files["manifest.json"])
     changes = diff_files(previous_dir, result.files)
-    toml_changed = any(
-        previous_dir is None
-        or not (previous_dir / name).exists()
-        or (previous_dir / name).read_bytes() != result.files[name]
-        for name in ("rulesets.toml", "groups.toml", BROAD_REPORT, RELEASE_README)
+
+    def published(name: str) -> bytes | None:
+        path = None if previous_dir is None else previous_dir / name
+        return path.read_bytes() if path is not None and path.is_file() else None
+
+    toml_changed = previous_dir is None or any(
+        published(name) != result.files.get(name)
+        for name in (
+            "rulesets.toml",
+            "rulesets-mrs.toml",
+            "groups.toml",
+            BROAD_REPORT,
+            RELEASE_README,
+        )
     )
     files_changed = rule_files_changed(previous_dir, result.files)
     sources = []
