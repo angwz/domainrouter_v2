@@ -39,6 +39,45 @@ _COMMENT = ("#", ";", "//")
 _ROUTE_PARAMS = frozenset({"no-resolve", "src"})
 
 
+# ---- 词法边界：解析器与无损编辑（edit.py）共用，保证两边对文件结构的理解一致 ----
+
+
+def section_header(line: str) -> str | None:
+    """节标题 ``[名称]`` 返回名称，否则 None。标题必须从行首开始。"""
+    match = _SECTION.match(line)
+    return match.group("name") if match else None
+
+
+def is_blank_or_comment(line: str) -> bool:
+    stripped = line.strip()
+    return not stripped or stripped.startswith(_COMMENT)
+
+
+def implicit_block_key(line: str) -> str | None:
+    """行首的 ``payload:`` / ``rules:`` 开启隐式粘贴块，返回键名。"""
+    match = _IMPLICIT_BLOCK.match(line)
+    return match.group("key") if match else None
+
+
+def implicit_block_end(lines: list[str], start: int) -> int:
+    """隐式块从 start 行开始，吸收后续缩进行、空行与注释；返回块后第一行的下标。"""
+    index = start + 1
+    while index < len(lines):
+        line = lines[index]
+        if line.strip() and not line[0].isspace() and not line.lstrip().startswith("#"):
+            break
+        index += 1
+    return index
+
+
+def explicit_block_end(lines: list[str], start: int) -> int | None:
+    """``@begin`` 位于 start 行；返回对应 ``@end`` 行的下标，缺失时 None。"""
+    index = start + 1
+    while index < len(lines) and lines[index].strip() != "@end":
+        index += 1
+    return index if index < len(lines) else None
+
+
 @dataclass(slots=True)
 class ParsedProfile:
     profile: Profile
@@ -71,12 +110,12 @@ class _Parser:
         while index < len(lines):
             number, raw = index + 1, lines[index]
             stripped = raw.strip()
-            header = _SECTION.match(raw)
-            if header:
-                current, in_rules = self._open_section(header.group("name"), number, raw)
+            name = section_header(raw)
+            if name is not None:
+                current, in_rules = self._open_section(name, number, raw)
                 index += 1
                 continue
-            if not stripped or stripped.startswith(_COMMENT):
+            if is_blank_or_comment(raw):
                 index += 1
                 continue
             if in_rules:
@@ -117,9 +156,9 @@ class _Parser:
     def _collection_line(self, collection: Collection, lines: list[str], index: int) -> int:
         number, raw = index + 1, lines[index]
         stripped = raw.strip()
-        block = _IMPLICIT_BLOCK.match(raw)
-        if block:
-            return self._implicit_block(collection, block.group("key"), lines, index)
+        key = implicit_block_key(raw)
+        if key is not None:
+            return self._implicit_block(collection, key, lines, index)
         if stripped.startswith("@begin"):
             return self._explicit_block(collection, lines, index)
         if stripped == "@end":
@@ -223,16 +262,10 @@ class _Parser:
         self, collection: Collection, key: str, lines: list[str], index: int
     ) -> int:
         """行首 payload:/rules: 开始，吸收后续缩进行、空行与注释；回到列 0 的内容行结束。"""
-        start = index
-        index += 1
-        while index < len(lines):
-            line = lines[index]
-            if line.strip() and not line[0].isspace() and not line.lstrip().startswith("#"):
-                break
-            index += 1
-        text = "\n".join(lines[start:index])
-        self._absorb_block(collection, key, text, start + 1)
-        return index
+        end = implicit_block_end(lines, index)
+        text = "\n".join(lines[index:end])
+        self._absorb_block(collection, key, text, index + 1)
+        return end
 
     def _explicit_block(self, collection: Collection, lines: list[str], index: int) -> int:
         number, raw = index + 1, lines[index].strip()
@@ -248,14 +281,13 @@ class _Parser:
             self.diagnostics.append(
                 error(Code.PARSE_SYNTAX, "块必须写成 @begin format=<格式>", span)
             )
-        end = index + 1
-        while end < len(lines) and lines[end].strip() != "@end":
-            end += 1
-        if end >= len(lines):
+        found = explicit_block_end(lines, index)
+        if found is None:
             self.diagnostics.append(
                 error(Code.PARSE_SYNTAX, "@begin 缺少对应的 @end", span, "请补上独立一行的 @end")
             )
-            return end
+            return len(lines)
+        end = found
         if fmt in FORMAT_NAMES and fmt != "clash-config":
             body = "\n".join(lines[index + 1 : end])
             if fmt == "wei":

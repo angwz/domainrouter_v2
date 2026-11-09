@@ -29,6 +29,7 @@ fetch（联网）                     build（不联网）
 | `annotate.py` | 来源图例与每条规则的同行注释；`explain --rule` 的完整来历 |
 | `catalog.py` | release 分支的 README：已发布规则一览、下载地址与用法 |
 | `mrs.py` | 调用固定版本 Mihomo 的 `convert-ruleset` 编译 MRS |
+| `edit.py` | my.wei 的无损编辑：文档大纲与行级编辑操作，供可视化编辑器使用；未涉及的行逐字节保留 |
 | `emit.py` | provider YAML（文件头、展示次序、注释对齐）、TOML、确定性 manifest；发布时写入的 `UPDATED` |
 | `build.py` | 构建编排与原子写出 |
 | `report.py`、`publish.py` | 更新说明与 release 暂存 |
