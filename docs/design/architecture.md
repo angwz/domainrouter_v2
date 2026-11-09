@@ -27,6 +27,7 @@ fetch（联网）                     build（不联网）
 | `planner.py` | 路由块（相邻同目标合并）、分区、文件命名与碰撞处理、rulesets 条目 |
 | `provenance.py` | 合并溯源：每条输出规则原样来自哪些来源、合并或覆盖了哪些输入 |
 | `annotate.py` | 来源图例与每条规则的同行注释；`explain --rule` 的完整来历 |
+| `catalog.py` | release 分支的 README：已发布规则一览、下载地址与用法 |
 | `emit.py` | provider YAML（文件头、展示次序、注释对齐）、TOML、确定性 manifest；发布时写入的 `UPDATED` |
 | `build.py` | 构建编排与原子写出 |
 | `report.py`、`publish.py` | 更新说明与 release 暂存 |

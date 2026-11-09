@@ -20,6 +20,7 @@ from domainrouter_v2.breadth import (
     Verdict,
     render_listing,
 )
+from domainrouter_v2.catalog import release_readme
 from domainrouter_v2.config import Config
 from domainrouter_v2.diagnostics import Code, Diagnostic, error, has_errors, warning
 from domainrouter_v2.emit import render_outputs, sha256
@@ -132,6 +133,7 @@ def load_sources(config: Config, result: BuildResult, *, required: bool) -> None
 
 
 BROAD_REPORT = "reports/broad-rules.md"
+RELEASE_README = "README.md"
 
 
 class Classifier:
@@ -271,7 +273,10 @@ def build(config: Config, *, write: bool = True) -> BuildResult:
     result.files = render_outputs(
         plan,
         groups_bytes,
-        {BROAD_REPORT: render_listing(result.filtered, result.broad)},
+        {
+            BROAD_REPORT: render_listing(result.filtered, result.broad),
+            RELEASE_README: release_readme(plan, config.base_url, config.resource_url),
+        },
         inputs={
             "rules": sha256(rules_bytes),
             "groups": sha256(groups_bytes),

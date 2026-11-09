@@ -193,14 +193,14 @@ def engine_fingerprint() -> str:
 def render_outputs(
     plan: Plan,
     groups_bytes: bytes,
-    reports: dict[str, bytes],
+    documents: dict[str, bytes],
     inputs: dict[str, Any],
     settings: dict[str, Any],
     repository: str,
     traces: dict[tuple[str, ...], ArtifactTrace],
 ) -> dict[str, bytes]:
     """返回 {发布相对路径: 字节}。manifest 描述其余全部文件。"""
-    files: dict[str, bytes] = dict(reports)
+    files: dict[str, bytes] = dict(documents)
     artifacts: list[dict[str, Any]] = []
     for names, artifact in plan.artifacts.items():
         for partition in PARTITIONS:
@@ -240,7 +240,7 @@ def render_outputs(
         "artifacts": sorted(artifacts, key=lambda a: a["path"]),
         "rulesets": {"entries": len(plan.rulesets), "sha256": sha256(files["rulesets.toml"])},
         "groups": {"sha256": sha256(files["groups.toml"])},
-        "reports": {path: sha256(data) for path, data in sorted(reports.items())},
+        "documents": {path: sha256(data) for path, data in sorted(documents.items())},
     }
     files["manifest.json"] = (
         json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n"

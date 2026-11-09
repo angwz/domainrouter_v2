@@ -13,7 +13,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-from domainrouter_v2.build import BROAD_REPORT, BuildResult, inline_dns_routes
+from domainrouter_v2.build import BROAD_REPORT, RELEASE_README, BuildResult, inline_dns_routes
 from domainrouter_v2.config import Config
 from domainrouter_v2.emit import read_payload, strip_updated
 from domainrouter_v2.planner import PARTITIONS
@@ -245,7 +245,7 @@ def make_report(
         previous_dir is None
         or not (previous_dir / name).exists()
         or (previous_dir / name).read_bytes() != result.files[name]
-        for name in ("rulesets.toml", "groups.toml", BROAD_REPORT)
+        for name in ("rulesets.toml", "groups.toml", BROAD_REPORT, RELEASE_README)
     )
     notes_changed = any(
         previous_dir is None

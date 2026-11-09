@@ -5,7 +5,7 @@ name: Daily rules
 
 on:
   schedule:
-    - cron: "17 20 * * *" # UTC 20:17 = 香港时间（Asia/Hong_Kong，UTC+8）每天 04:17
+    - cron: "0 22 * * *" # UTC 22:00 = 北京时间（UTC+8）每天 06:00；GitHub 定时任务常有数分钟到数十分钟延迟
   workflow_dispatch:
 
 permissions:

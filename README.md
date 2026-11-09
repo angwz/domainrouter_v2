@@ -28,7 +28,7 @@ my.wei · groups.toml ─┐
 # NAME: America
 # GROUP: ⛳ 美国专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 04:17:49 (UTC+8)
+# UPDATED: 2026-11-10 06:08:31 (UTC+8)
 # TYPE: domain
 # TOTAL: 1683
 # SOURCE A: my.wei
@@ -44,6 +44,10 @@ payload:
 domain 条目按覆盖范围从宽到窄排列：`+.` 一级、二级……，再到通配与精确主机名。字段与注释格式见[排列与来源标注](docs/rules/merge-cases.md#10-规则文件的排列与文件头)。
 
 在维护者的真实配置上（210 个上游来源），规则条目从 63.8 万条降到 20.1 万条，Mihomo 加载全部规则从约 8.5 s 降到 3.3 s，优化前后 5 万个请求的命中结果完全一致（[性能](docs/design/performance.md)）。
+
+## 直接取用规则
+
+不想自己构建，可以直接引用每天发布的规则文件。规则一览、下载地址，以及 Mihomo、subconverter 的写法，都在 [`release` 分支的说明页](https://github.com/angwz/domainrouter_v2/tree/release#readme)，随每次发布自动更新。
 
 ## 快速开始
 

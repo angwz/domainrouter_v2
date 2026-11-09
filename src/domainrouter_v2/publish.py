@@ -17,7 +17,7 @@ from domainrouter_v2.emit import stamp_updated, strip_updated
 from domainrouter_v2.planner import PARTITIONS
 from domainrouter_v2.report import RunReport
 
-PUBLISHED_FILES = ("rulesets.toml", "groups.toml", "manifest.json")
+PUBLISHED_FILES = ("README.md", "rulesets.toml", "groups.toml", "manifest.json")
 REPORT_DIR = "reports"
 
 

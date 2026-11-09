@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from domainrouter_v2.annotate import _letter, _short, annotate
+from domainrouter_v2.catalog import _jsdelivr
 from domainrouter_v2.model.domain import DomainPattern
 from domainrouter_v2.provenance import HANDWRITTEN, ArtifactTrace, Trace
 
@@ -58,3 +59,9 @@ def test_only_used_sources_get_letters() -> None:
     result = annotate([d("x.com")], trace)
     assert result.legend == ["SOURCE A: MetaCubeX · geosite/adobe.yaml"]
     assert result.notes[d("x.com")] == "A"
+
+
+def test_jsdelivr_mirror() -> None:
+    raw = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/<文件>"
+    assert _jsdelivr(raw) == "https://cdn.jsdelivr.net/gh/angwz/domainrouter_v2@release/<文件>"
+    assert _jsdelivr("https://example.org/rules/<文件>") == ""

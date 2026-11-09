@@ -10,6 +10,7 @@
 | [guide/configuration.md](guide/configuration.md) | `config/domainrouter_v2.toml` 的每个字段与目录约定 |
 | [guide/subconverter.md](guide/subconverter.md) | 产物如何被 subconverter 引用，以及它的限制 |
 | [guide/daily-automation.md](guide/daily-automation.md) | 每日工作流做什么、怎样启用、怎样回滚与排障 |
+| [release 分支的 README](https://github.com/angwz/domainrouter_v2/tree/release#readme) | 已发布的规则一览、下载地址与用法；每次构建由 `catalog.py` 生成 |
 
 ## 规则语义
 

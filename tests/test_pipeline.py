@@ -181,3 +181,15 @@ def test_explain_rule(project: Path, capsys: pytest.CaptureFixture[str]) -> None
     out = capsys.readouterr().out
     assert "合并自（2 条）" in out and "192.0.2.128/25  ← my.wei" in out
     assert main(["explain", "--config", config, "--rule", "nope.example"]) != 0
+
+
+def test_release_readme(project: Path, tmp_path: Path) -> None:
+    config = load_config(project / "config" / "domainrouter_v2.toml")
+    result = build(config)
+    readme = result.files["README.md"].decode("utf-8")
+    assert "| Streaming | `domain` | 3 | 🎬 Media | [clash-domain/Streaming.yaml]" in readme
+    assert "behavior: ipcidr" in readme and ",no-resolve" in readme
+    assert "jsdelivr" not in readme  # 示例的发布地址不是 raw.githubusercontent.com，不推断镜像
+    release = tmp_path / "release"
+    assert stage_release(release, result.files, make_report(config, result, None, NOW))
+    assert (release / "README.md").read_bytes() == result.files["README.md"]

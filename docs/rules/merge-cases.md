@@ -362,7 +362,7 @@ domain 文件按覆盖范围从宽到窄排列。组内先比较写出的标签�
 # NAME: China
 # GROUP: DIRECT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 04:17:49 (UTC+8)
+# UPDATED: 2026-11-10 06:08:31 (UTC+8)
 # TYPE: ipcidr
 # TOTAL: 12569
 # IP-CIDR: 8289

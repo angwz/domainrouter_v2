@@ -6,7 +6,7 @@
 
 ## 时间
 
-- 定时：`cron: "17 20 * * *"`，即每天 UTC 20:17，香港时间 04:17。
+- 定时：`cron: "0 22 * * *"`，即每天 UTC 22:00，北京时间 06:00。整点是 GitHub 定时任务最繁忙的时刻，实际开始时间常晚几分钟到几十分钟。改时间时同步修改 `src/domainrouter_v2/catalog.py` 中的 `SCHEDULE_TEXT`，它会写进 release 分支的 README。
 - 手动：在 Actions 页面对 *Daily rules* 点 *Run workflow*，走完全相同的流程。
 - GitHub 的定时任务可能延迟，不是准点保证。公开仓库连续 60 天没有活动时，GitHub 会自动停用定时工作流，需要在 Actions 页面重新启用。本项目不会用空提交维持活跃。
 
