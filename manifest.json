@@ -972,11 +972,11 @@
     }
   ],
   "documents": {
-    "README.md": "7a2f9b2f69725f9e8ad3e2259a84c1ff8f11d6c4ee73b7d8acf01a0980ed4e46",
+    "README.md": "a4ae0f6e05705e3f1ac54189a16eeb551426076e243b3b863ba770c0f3a0c4c9",
     "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
   },
-  "engine": "9182d00e4d756b1c93e0603ce487efffe986ff8f900f2be1f0dd00890c3b6389",
-  "generation": "e05ffc304d20620a5dff23acfd6ff0e6755ed741a7675a0d0fd284e7b06019c2",
+  "engine": "9feac1bb2da74cc90b5d702b80962993e21b86b3f565ceb8ac4d95579cc5f30e",
+  "generation": "41a848f7b72b4f2fcdc9c002d92643448fa4e615378b2b1ce98bfbe2961157e9",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2"
@@ -1198,8 +1198,14 @@
     }
   },
   "rulesets": {
-    "entries": 66,
-    "sha256": "e77e35f024aa010e537aa49d79ea1aa23d0acd1dcf78326cc0292307094d1f24"
+    "rulesets-mrs.toml": {
+      "entries": 66,
+      "sha256": "23a4456d6abdf0017dbb9b3ab4cb9d7094120344432999cbb4871b1e13f6d07c"
+    },
+    "rulesets.toml": {
+      "entries": 66,
+      "sha256": "e77e35f024aa010e537aa49d79ea1aa23d0acd1dcf78326cc0292307094d1f24"
+    }
   },
   "schema_version": 1,
   "settings": {

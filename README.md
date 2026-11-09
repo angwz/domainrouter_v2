@@ -92,6 +92,8 @@
 
 每个文件就是一个 rule-provider。
 
+**MRS**：domain、ipcidr 用 MRS，classical 仍用 YAML：
+
 ```yaml
 rule-providers:
   Direct:
@@ -122,13 +124,47 @@ rules:
   - RULE-SET,Direct-classic,DIRECT
 ```
 
+**YAML**：全部使用 YAML，写法与 MRS 版只差 `format` 与扩展名：
+
+```yaml
+rule-providers:
+  Direct:
+    type: http
+    behavior: domain
+    format: yaml
+    url: https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Direct.yaml
+    path: ./rule-providers/Direct.yaml
+    interval: 86400
+  Direct-ipcidr:
+    type: http
+    behavior: ipcidr
+    format: yaml
+    url: https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Direct-ipcidr.yaml
+    path: ./rule-providers/Direct-ipcidr.yaml
+    interval: 86400
+  Direct-classic:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Direct-classic.yaml
+    path: ./rule-providers/Direct-classic.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Direct-ipcidr,DIRECT,no-resolve
+  - RULE-SET,Direct-classic,DIRECT
+```
+
 策略组按自己的节点填写，规则的先后就是匹配优先级。只有一两个地区的节点时，面向其他地区的规则集可以指向同一个代理组，或者干脆不引用。
 
 ### 作为你的上游
 
 把 YAML 地址交给你自己的规则工具即可。转换时请按 Mihomo 的语义理解域名写法：`+.example.com` 是自身及全部子域，`.example.com` 只匹配子域，`example.com` 只匹配自身。
 
-如果你也使用 DomainRouter v2，在 `my.wei` 中写明格式即可：
+下游最终交给 Mihomo、且不需要再加工时，可以直接引用 MRS，省去一次转换。
+
+如果你也使用 DomainRouter v2，在 `my.wei` 中引用 YAML 并写明格式：
 
 ```text
 @source https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Direct.yaml format=domain
@@ -136,9 +172,13 @@ rules:
 
 ### 整套照搬（subconverter）
 
-[rulesets.toml](rulesets.toml) 与 [groups.toml](groups.toml) 是维护者自用的完整配置：
+维护者自用的完整配置：`rulesets` 列出全部规则集及其指向的策略组，[groups.toml](groups.toml) 定义这些策略组。
 
-- `https://raw.githubusercontent.com/angwz/domainrouter_v2/release/rulesets.toml`
-- `https://raw.githubusercontent.com/angwz/domainrouter_v2/release/groups.toml`
+| 版本 | rulesets | 引用的规则文件 |
+| --- | --- | --- |
+| YAML | [rulesets.toml](rulesets.toml) · `https://raw.githubusercontent.com/angwz/domainrouter_v2/release/rulesets.toml` | 全部为 YAML |
+| MRS | [rulesets-mrs.toml](rulesets-mrs.toml) · `https://raw.githubusercontent.com/angwz/domainrouter_v2/release/rulesets-mrs.toml` | domain、ipcidr 为 MRS，classical 为 YAML |
 
-`rulesets.toml` 中每个规则集都指向 `groups.toml` 里的某个策略组，而这些组是按维护者多个地区的节点编排的。节点布局不同时，建议复制一份 `groups.toml` 按自己的节点调整，保留 `rulesets.toml` 引用到的组名；需要改动规则本身时，fork [本项目](https://github.com/angwz/domainrouter_v2) 生成你自己的发布。
+两个版本的规则集条目与顺序完全相同，共用同一份 `https://raw.githubusercontent.com/angwz/domainrouter_v2/release/groups.toml`。MRS 版要求 subconverter 为 `.mrs` 引用写出 `format: mrs`：Mihomo 不按扩展名判断格式，未写 `format` 时一律按 YAML 读取。
+
+`groups.toml` 中的组是按维护者多个地区的节点编排的。节点布局不同时，建议复制一份 `groups.toml` 按自己的节点调整，保留 `rulesets` 引用到的组名；需要改动规则本身时，fork [本项目](https://github.com/angwz/domainrouter_v2) 生成你自己的发布。

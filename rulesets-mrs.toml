@@ -1,0 +1,381 @@
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Direct.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Direct-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Direct-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🏖️ Community"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/NS.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🏖️ Community"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/NS-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🗨️ ChatGPT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/AI.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🗨️ ChatGPT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/AI-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🗨️ ChatGPT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/AI-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "📱 TikTok"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/TikTok.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "📱 TikTok"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/TikTok-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Bilibili.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Bilibili-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "📺 哔哩哔哩"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Bilibili-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Tencent.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Tencent-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Tencent-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🎬 Netflix"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Netflix.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🎬 Netflix"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Netflix-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🎬 Netflix"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Netflix-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "💻 YouTube"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/YouTube.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "💻 YouTube"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/YouTube-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "💻 YouTube"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/YouTube-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "📩 Google"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Google.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "📩 Google"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Google-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "📩 Google"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Google-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🛸 Telegram"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Telegram.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🛸 Telegram"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Telegram-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🛸 Telegram"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Telegram-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🌺 日本专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Japan.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🌺 日本专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Japan-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🌺 日本专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Japan-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🛫 香港专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/HK.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🛫 香港专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/HK-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🛫 香港专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/HK-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🍎 Apple"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Apple.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🍎 Apple"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Apple-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🍎 Apple"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Apple-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🧊 新加坡专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Singapore.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🧊 新加坡专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Singapore-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🧊 新加坡专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Singapore-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "⛳ 美国专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/America.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "⛳ 美国专线"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/America-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/ChinaMedia.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/ChinaMedia-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/ChinaMedia-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "⛅ OneDrive"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/OneDrive.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "⛅ OneDrive"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/OneDrive-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "⛅ OneDrive"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/OneDrive-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🪟 Microsoft"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Microsoft.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🪟 Microsoft"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Microsoft-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🛖 国际流媒体"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Media.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🛖 国际流媒体"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Media-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🛖 国际流媒体"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Media-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "🛫 香港专线"
+ruleset = "[]GEOIP,CLOUDFLARE,no-resolve"
+
+[[rulesets]]
+group = "🌺 日本专线"
+ruleset = "[]GEOIP,JP,no-resolve"
+
+[[rulesets]]
+group = "⛳ 美国专线"
+ruleset = "[]GEOIP,CA,no-resolve"
+
+[[rulesets]]
+group = "⛳ 美国专线"
+ruleset = "[]GEOIP,US,no-resolve"
+
+[[rulesets]]
+group = "🛫 香港专线"
+ruleset = "[]GEOIP,HK,no-resolve"
+
+[[rulesets]]
+group = "🌠 节点选择"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/Proxy.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "🌠 节点选择"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/Proxy-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "🌠 节点选择"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/Proxy-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-domain/China.mrs"
+type = "clash-domain"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-ipcidr/China-ipcidr.mrs"
+type = "clash-ipcidr"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/angwz/domainrouter_v2/release/clash-classic/China-classic.yaml"
+type = "clash-classic"
+interval = 21600
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🐳 漏网の鱼"
+ruleset = "[]MATCH"
