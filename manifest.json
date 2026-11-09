@@ -216,9 +216,29 @@
         "AI"
       ],
       "entries": 304,
+      "format": "mrs",
+      "path": "clash-domain/AI.mrs",
+      "sha256": "fd05e30e61eba43f25e6b0ee7cf002edf797edb0084f60f26f4d697db0ac44d2"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "AI"
+      ],
+      "entries": 304,
       "format": "yaml",
       "path": "clash-domain/AI.yaml",
       "sha256": "2a4d0a01af6bf9230bec08639e8baa9f2c3e421df7dac22c87631bfdd994f533"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "America"
+      ],
+      "entries": 1683,
+      "format": "mrs",
+      "path": "clash-domain/America.mrs",
+      "sha256": "24b76a5ef897391260250ce93a498852608b915018a29ad5eb111fbc0b0a48b8"
     },
     {
       "behavior": "domain",
@@ -236,9 +256,29 @@
         "Apple"
       ],
       "entries": 1561,
+      "format": "mrs",
+      "path": "clash-domain/Apple.mrs",
+      "sha256": "baf7cac15b13406ba0786024e7a9d983f60a5b42247e77c0e70737d7d771287b"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Apple"
+      ],
+      "entries": 1561,
       "format": "yaml",
       "path": "clash-domain/Apple.yaml",
       "sha256": "9152600b655a74e7aa7e9322e1fea5e2bf1c773353913a22b8e7941828f64729"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Bilibili"
+      ],
+      "entries": 1161,
+      "format": "mrs",
+      "path": "clash-domain/Bilibili.mrs",
+      "sha256": "0835ba641412f8ff590dcee7e6750d03e6324ecc0b9b150b6bf67a0575a87d8a"
     },
     {
       "behavior": "domain",
@@ -256,9 +296,29 @@
         "China"
       ],
       "entries": 110750,
+      "format": "mrs",
+      "path": "clash-domain/China.mrs",
+      "sha256": "130a97e55050c8ed78217cff8269d14681484f2532263043aaeaf407f47a612e"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "China"
+      ],
+      "entries": 110750,
       "format": "yaml",
       "path": "clash-domain/China.yaml",
       "sha256": "56fabd839aa72338827f34926cb8899daa5da6dc4c432113e42ce0cd46b792b5"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "ChinaMedia"
+      ],
+      "entries": 5502,
+      "format": "mrs",
+      "path": "clash-domain/ChinaMedia.mrs",
+      "sha256": "29eb2af079b9b0e9992262b9858fd8dbff559917d7d8cb7b41f2f34ae57b98c7"
     },
     {
       "behavior": "domain",
@@ -276,9 +336,29 @@
         "Direct"
       ],
       "entries": 1979,
+      "format": "mrs",
+      "path": "clash-domain/Direct.mrs",
+      "sha256": "8077c55f1cfa781206837bbff2ce37009de9a3b08082cefcfc4c15fe57fad577"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Direct"
+      ],
+      "entries": 1979,
       "format": "yaml",
       "path": "clash-domain/Direct.yaml",
       "sha256": "942fca9b8583d0233497b492484eb9fcb6f5fd04801ffaac55577ad81cb02a39"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Google"
+      ],
+      "entries": 879,
+      "format": "mrs",
+      "path": "clash-domain/Google.mrs",
+      "sha256": "0361bde21628c60d3d8855ef50e6ce3254df8ccfe9357f5554cd31f175092166"
     },
     {
       "behavior": "domain",
@@ -296,9 +376,29 @@
         "HK"
       ],
       "entries": 1296,
+      "format": "mrs",
+      "path": "clash-domain/HK.mrs",
+      "sha256": "4275dea3efe4e0ecea80478d68e4850d139088cd5ffc7ebf8750e05668bcdbd4"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "HK"
+      ],
+      "entries": 1296,
       "format": "yaml",
       "path": "clash-domain/HK.yaml",
       "sha256": "f196094aad78d1b0066f9fa3bfa9e687cedae5bcac141b84bbbeb8e1ed7e0284"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Japan"
+      ],
+      "entries": 285,
+      "format": "mrs",
+      "path": "clash-domain/Japan.mrs",
+      "sha256": "bd210674d4e69fd4a2847dc8cc0e9815d3a7fceb652a4451d84c83ca269971a9"
     },
     {
       "behavior": "domain",
@@ -316,9 +416,29 @@
         "Media"
       ],
       "entries": 11104,
+      "format": "mrs",
+      "path": "clash-domain/Media.mrs",
+      "sha256": "9875c1528fa91d5331477c5c9b461ca496fccfeed5811311cd73be8872c5ac0a"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Media"
+      ],
+      "entries": 11104,
       "format": "yaml",
       "path": "clash-domain/Media.yaml",
       "sha256": "aa601ad0258041b5ea7e2bf01e3ec844ae6c44eeba17dbc72cd4d049ef56100a"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Microsoft"
+      ],
+      "entries": 763,
+      "format": "mrs",
+      "path": "clash-domain/Microsoft.mrs",
+      "sha256": "e9970e80b2513132fff38ba3da1058a58356ff9b57fc155321ddaf6d21d4da4c"
     },
     {
       "behavior": "domain",
@@ -336,9 +456,29 @@
         "NS"
       ],
       "entries": 7,
+      "format": "mrs",
+      "path": "clash-domain/NS.mrs",
+      "sha256": "13d115f9aa430a4e2af9fd983376c2a04e15495ca041a17c2e2bf9c39ab1b25d"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "NS"
+      ],
+      "entries": 7,
       "format": "yaml",
       "path": "clash-domain/NS.yaml",
       "sha256": "3ba34664c1aa027cd2e0eceed7e744895221ec8aeb4bd2945ef390e66085f0d8"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Netflix"
+      ],
+      "entries": 32,
+      "format": "mrs",
+      "path": "clash-domain/Netflix.mrs",
+      "sha256": "efc62ed23cfada512cb5e9a4c645dc04d2bbdcbee2e3fd28e9f23ea916c245e0"
     },
     {
       "behavior": "domain",
@@ -356,9 +496,29 @@
         "OneDrive"
       ],
       "entries": 672,
+      "format": "mrs",
+      "path": "clash-domain/OneDrive.mrs",
+      "sha256": "d47a38c078418da73e17a96d365bbccae4c4720a94e49f5a5abbfe9678d0bb78"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "OneDrive"
+      ],
+      "entries": 672,
       "format": "yaml",
       "path": "clash-domain/OneDrive.yaml",
       "sha256": "ef59d58ed9dba84f5f037f75670db728aaa03ff318e37acca4ad97702f61c25c"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Proxy"
+      ],
+      "entries": 29844,
+      "format": "mrs",
+      "path": "clash-domain/Proxy.mrs",
+      "sha256": "c1e13ec55aff7f5a4dd6f3d8ebe1b7f22ca659dc4345175dfefd722326293a33"
     },
     {
       "behavior": "domain",
@@ -376,9 +536,29 @@
         "Singapore"
       ],
       "entries": 943,
+      "format": "mrs",
+      "path": "clash-domain/Singapore.mrs",
+      "sha256": "531a28a341618dc4944bc5bd70dc9739a8dd34a63ee5771b5ed2f4610d5ed434"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Singapore"
+      ],
+      "entries": 943,
       "format": "yaml",
       "path": "clash-domain/Singapore.yaml",
       "sha256": "f973ac79bc6b93a8093039efc3023e31182df7c88f68f75feada35f37fbdbe67"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Telegram"
+      ],
+      "entries": 28,
+      "format": "mrs",
+      "path": "clash-domain/Telegram.mrs",
+      "sha256": "a6a3480610675f4f3cc1eaf8712dc0c3fe754971ad8370d23002373a90df0f5f"
     },
     {
       "behavior": "domain",
@@ -396,9 +576,29 @@
         "Tencent"
       ],
       "entries": 2597,
+      "format": "mrs",
+      "path": "clash-domain/Tencent.mrs",
+      "sha256": "066ca30ee474cf33f138027bf46bd4649f4df8b34623ad00d985206270c69a94"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "Tencent"
+      ],
+      "entries": 2597,
       "format": "yaml",
       "path": "clash-domain/Tencent.yaml",
       "sha256": "1553e18e0852aaf9b6dd0aa0640d4642d2feff05d2e2c5aeaef5b746bd8b1213"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "TikTok"
+      ],
+      "entries": 58,
+      "format": "mrs",
+      "path": "clash-domain/TikTok.mrs",
+      "sha256": "acde45715e0e7c001385af1de59ac6c49be6069d2ec9cf0054ae04465d33e9aa"
     },
     {
       "behavior": "domain",
@@ -416,9 +616,29 @@
         "YouTube"
       ],
       "entries": 180,
+      "format": "mrs",
+      "path": "clash-domain/YouTube.mrs",
+      "sha256": "83d0652fe50bbaaca0e48eca1609a6392067125de545619e91dd9390d885d093"
+    },
+    {
+      "behavior": "domain",
+      "collections": [
+        "YouTube"
+      ],
+      "entries": 180,
       "format": "yaml",
       "path": "clash-domain/YouTube.yaml",
       "sha256": "646b43121cc3394ede0402427acc59883c1509df81e1c9d9375dfc226a303571"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "AI"
+      ],
+      "entries": 23,
+      "format": "mrs",
+      "path": "clash-ipcidr/AI-ipcidr.mrs",
+      "sha256": "ece2cc74f298b5752263b1f81b3f22799b8cce71e386c6943a5289b50c65f776"
     },
     {
       "behavior": "ipcidr",
@@ -436,9 +656,29 @@
         "Apple"
       ],
       "entries": 13,
+      "format": "mrs",
+      "path": "clash-ipcidr/Apple-ipcidr.mrs",
+      "sha256": "333c99021f21736882b611d8d1b9ecfb00bae7eebe10a65fb3b0e93f2cc9dd09"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Apple"
+      ],
+      "entries": 13,
       "format": "yaml",
       "path": "clash-ipcidr/Apple-ipcidr.yaml",
       "sha256": "9a2940ecec0d508cb4112ae79c4956ca842ef48745b3b83b2a109f9c75b60e6b"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Bilibili"
+      ],
+      "entries": 9,
+      "format": "mrs",
+      "path": "clash-ipcidr/Bilibili-ipcidr.mrs",
+      "sha256": "05668dd71543c8727e2ea39e5b46ceae6691882710260836df44ac49b16e06f9"
     },
     {
       "behavior": "ipcidr",
@@ -456,9 +696,29 @@
         "China"
       ],
       "entries": 12569,
+      "format": "mrs",
+      "path": "clash-ipcidr/China-ipcidr.mrs",
+      "sha256": "32d68a18eab69f855ed4a237b681062d8fdb229d711b1e5c4cbdf0324f2f0ce0"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "China"
+      ],
+      "entries": 12569,
       "format": "yaml",
       "path": "clash-ipcidr/China-ipcidr.yaml",
       "sha256": "1db1ccced2a62b03a844f67a8809b061e56d55495271d414d0d58e3b0d81717f"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "ChinaMedia"
+      ],
+      "entries": 1730,
+      "format": "mrs",
+      "path": "clash-ipcidr/ChinaMedia-ipcidr.mrs",
+      "sha256": "a52135ab0ef37a646cc7b78034588ce71344a375ebbbc2263a4c96fff9603fe5"
     },
     {
       "behavior": "ipcidr",
@@ -476,9 +736,29 @@
         "Direct"
       ],
       "entries": 530,
+      "format": "mrs",
+      "path": "clash-ipcidr/Direct-ipcidr.mrs",
+      "sha256": "20cdd733db3fed2a0571e12a185f80a4df2c6824f974b12ce9c61b190bad199a"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Direct"
+      ],
+      "entries": 530,
       "format": "yaml",
       "path": "clash-ipcidr/Direct-ipcidr.yaml",
       "sha256": "6f5065ead5f1c7d7959df215845d06f6b351e05a9f96f6a507e4bfa2e44b88d8"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Google"
+      ],
+      "entries": 8426,
+      "format": "mrs",
+      "path": "clash-ipcidr/Google-ipcidr.mrs",
+      "sha256": "d50ffab57371453cbc229b1924bcf09004db1ca98968a205e2a59c5cfc26bbda"
     },
     {
       "behavior": "ipcidr",
@@ -496,9 +776,29 @@
         "HK"
       ],
       "entries": 2715,
+      "format": "mrs",
+      "path": "clash-ipcidr/HK-ipcidr.mrs",
+      "sha256": "3a0c14ff0064b8d57e51ccfef66be49f9e2eaeb50f51f7019a52dc619923c599"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "HK"
+      ],
+      "entries": 2715,
       "format": "yaml",
       "path": "clash-ipcidr/HK-ipcidr.yaml",
       "sha256": "0d3180a89773027b340d7d3b18d06ad20bf102d6eef55367889767035c5c30ac"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Japan"
+      ],
+      "entries": 19,
+      "format": "mrs",
+      "path": "clash-ipcidr/Japan-ipcidr.mrs",
+      "sha256": "901f4516a05b7a2cca22c4d8b656e8e1ac08ffaff2b30a8d97e3f1655f3dd276"
     },
     {
       "behavior": "ipcidr",
@@ -516,9 +816,29 @@
         "Media"
       ],
       "entries": 1439,
+      "format": "mrs",
+      "path": "clash-ipcidr/Media-ipcidr.mrs",
+      "sha256": "1c99b864e90ccab12199f9cd86c52977754dd918bc9db391a68119cd6016c1f1"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Media"
+      ],
+      "entries": 1439,
       "format": "yaml",
       "path": "clash-ipcidr/Media-ipcidr.yaml",
       "sha256": "826a44aa342dcf706ef3592713cbf9935cbb982af0bb394cf19c61f850883caf"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Netflix"
+      ],
+      "entries": 1121,
+      "format": "mrs",
+      "path": "clash-ipcidr/Netflix-ipcidr.mrs",
+      "sha256": "64008d918a92a7d1439c5f2092a16ac72657f1254b21f89eec45e0bc3c9a1f3b"
     },
     {
       "behavior": "ipcidr",
@@ -536,9 +856,29 @@
         "OneDrive"
       ],
       "entries": 3,
+      "format": "mrs",
+      "path": "clash-ipcidr/OneDrive-ipcidr.mrs",
+      "sha256": "3011973b7d5cdc3cc7830cee03d5c05d034bb0a29c633aee1f061f138abe6576"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "OneDrive"
+      ],
+      "entries": 3,
       "format": "yaml",
       "path": "clash-ipcidr/OneDrive-ipcidr.yaml",
       "sha256": "3ebf7186c0519bc3159ac0de01c1b8e476c8f3c86ccb8399a68cca5c47997b3c"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Proxy"
+      ],
+      "entries": 119,
+      "format": "mrs",
+      "path": "clash-ipcidr/Proxy-ipcidr.mrs",
+      "sha256": "492109c7d650cb2ae35316cfe75d34f4b8544a1bb5ef84fe2086c40da142a8d9"
     },
     {
       "behavior": "ipcidr",
@@ -556,9 +896,29 @@
         "Singapore"
       ],
       "entries": 142,
+      "format": "mrs",
+      "path": "clash-ipcidr/Singapore-ipcidr.mrs",
+      "sha256": "77b9e370bf93a7ceed774c6a4425815d0efc3614b7f155b2bd0b29b435ae329f"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Singapore"
+      ],
+      "entries": 142,
       "format": "yaml",
       "path": "clash-ipcidr/Singapore-ipcidr.yaml",
       "sha256": "a2c331041285ab5c86800d1e5b5f06e012a800c124df0e37ac80e2ec75150c06"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Telegram"
+      ],
+      "entries": 14,
+      "format": "mrs",
+      "path": "clash-ipcidr/Telegram-ipcidr.mrs",
+      "sha256": "a3809b596d3fba285cc76a43b6964fd38008ffb0f5b0a470a8a028f68c5b4f56"
     },
     {
       "behavior": "ipcidr",
@@ -576,9 +936,29 @@
         "Tencent"
       ],
       "entries": 52,
+      "format": "mrs",
+      "path": "clash-ipcidr/Tencent-ipcidr.mrs",
+      "sha256": "ce5c10a10cc8eb0f72a9c14b6cc712786bea23a21eb31e149080a0216b275c3c"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "Tencent"
+      ],
+      "entries": 52,
       "format": "yaml",
       "path": "clash-ipcidr/Tencent-ipcidr.yaml",
       "sha256": "196a8c0a3b7beac4f4af428d648575eca71ac9f84f1c74afad772cecc56b7294"
+    },
+    {
+      "behavior": "ipcidr",
+      "collections": [
+        "YouTube"
+      ],
+      "entries": 3,
+      "format": "mrs",
+      "path": "clash-ipcidr/YouTube-ipcidr.mrs",
+      "sha256": "cae1e3dce31a1e3ed69c5533b091d4b37b064d17bfdaf71439c21e42b6bc7749"
     },
     {
       "behavior": "ipcidr",
@@ -592,11 +972,11 @@
     }
   ],
   "documents": {
-    "README.md": "17fd5a4650119232ff3e3cf3b8c97d01f2beaf00ad7ca0550ea5c373317978af",
+    "README.md": "7a2f9b2f69725f9e8ad3e2259a84c1ff8f11d6c4ee73b7d8acf01a0980ed4e46",
     "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
   },
-  "engine": "594c4ef745c3428d28e45d422f7ff426b8dae7c6d14e3badc2eb490179109981",
-  "generation": "89a434fe4a25fce3d01452c4c52b06836221126fbec7da4422013baa1255561e",
+  "engine": "9182d00e4d756b1c93e0603ce487efffe986ff8f900f2be1f0dd00890c3b6389",
+  "generation": "e05ffc304d20620a5dff23acfd6ff0e6755ed741a7675a0d0fd284e7b06019c2",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2"
@@ -824,6 +1204,7 @@
   "schema_version": 1,
   "settings": {
     "base_url": "https://raw.githubusercontent.com/angwz/domainrouter_v2/release",
-    "interval_seconds": 21600
+    "interval_seconds": 21600,
+    "mrs": true
   }
 }
