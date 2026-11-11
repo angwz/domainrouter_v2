@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 690, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "e6cb86432e5740e5eb5c5f2e2e8b5b24e850228542f63f8762a0dda3aacc6141", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 692, "fetched_at": "2026-11-11T01:40:05+00:00", "format": "auto", "invalid": 0, "raw_sha256": "0403cf5cc4141bbe2ac91501cd4857bd35ccec39234bc3fe7951b186992482de", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml", "version": 1}
 d +.01.org
 d +.accountkit.com
 d +.acpica.com
@@ -223,6 +223,8 @@ d +.godoc.org
 d +.golang.com
 d +.golang.net
 d +.golang.org
+d +.grafana.com
+d +.grafana.net
 d +.graphengine.io
 d +.grazie.ai
 d +.greenend.org.uk

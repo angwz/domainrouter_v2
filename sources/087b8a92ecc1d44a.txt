@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 128, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "8f50bace89c96a7f770ca24350545e87dbc799f71e55238295623899f96f906a", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 129, "fetched_at": "2026-11-11T01:40:04+00:00", "format": "auto", "invalid": 0, "raw_sha256": "3822ac52f831ecd2774b3ed63fb8d9b63a1e013ba9fc7931b24494f010a76d48", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-cn.yaml", "version": 1}
 d +.ai-indeed.com
 d +.aispeech.com
 d +.antafu.com
@@ -79,6 +79,7 @@ d +.moonshot.cn
 d +.myparallelstory.com
 d +.n.cn
 d +.namiso.com
+d +.nia-teams.com
 d +.obriccloud.com
 d +.obricclouddw.com
 d +.oceancloudapi.com
