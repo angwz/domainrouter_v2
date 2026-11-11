@@ -1,9 +1,9 @@
 # NAME: Direct
 # GROUP: DIRECT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-11 09:41:09 (UTC+8)
 # TYPE: domain
-# TOTAL: 1979
+# TOTAL: 1980
 # SOURCE A: my.wei
 # SOURCE B: ruleset.skk.moe · non_ip/microsoft_cdn.txt
 # SOURCE C: ruleset.skk.moe · domainset/game-download.txt
@@ -378,6 +378,7 @@ payload:
   - '+.namiso.com'                 # W
   - '+.neohytung.com'              # K
   - '+.newupbank.com'              # V
+  - '+.nia-teams.com'              # W
   - '+.nihaoafrica.org'            # K
   - '+.nihaorwanda.cn'             # K
   - '+.nmrdata.com'                # K

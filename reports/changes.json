@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T10:56:01+00:00",
-  "generation": "41a848f7b72b4f2fcdc9c002d92643448fa4e615378b2b1ce98bfbe2961157e9",
+  "generated_at": "2026-11-11T01:41:09+00:00",
+  "generation": "e60ad4348b94414e19df1fe0ccc4fe8d5a824f165e4fc5ffe8210000a0163a05",
   "changed": true,
   "files": [
     {
@@ -161,8 +161,11 @@
     {
       "path": "clash-domain/America.yaml",
       "before": 1683,
-      "after": 1683,
-      "added": [],
+      "after": 1685,
+      "added": [
+        "+.grafana.com",
+        "+.grafana.net"
+      ],
       "removed": []
     },
     {
@@ -196,8 +199,10 @@
     {
       "path": "clash-domain/Direct.yaml",
       "before": 1979,
-      "after": 1979,
-      "added": [],
+      "after": 1980,
+      "added": [
+        "+.nia-teams.com"
+      ],
       "removed": []
     },
     {
@@ -598,7 +603,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-cn.yaml",
       "format": "auto",
-      "entries": 128,
+      "entries": 129,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1230,7 +1235,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml",
       "format": "auto",
-      "entries": 690,
+      "entries": 692,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2104,8 +2109,8 @@
   "optimization": [
     {
       "collections": "Direct",
-      "input": 3773,
-      "output": 2562,
+      "input": 3774,
+      "output": 2563,
       "duplicates": 347,
       "covered": 22,
       "merged": 857
@@ -2216,8 +2221,8 @@
     },
     {
       "collections": "America",
-      "input": 2503,
-      "output": 1687,
+      "input": 2505,
+      "output": 1689,
       "duplicates": 631,
       "covered": 179,
       "merged": 8

@@ -1,9 +1,9 @@
 # NAME: America
 # GROUP: ⛳ 美国专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-11 09:41:09 (UTC+8)
 # TYPE: domain
-# TOTAL: 1683
+# TOTAL: 1685
 # SOURCE A: my.wei
 # SOURCE B: blackmatrix7 · USMedia/USMedia.list
 # SOURCE C: MetaCubeX · geosite/category-dev.yaml
@@ -528,6 +528,8 @@ payload:
   - '+.golang.org'             # C
   - '+.gordonmoore.com'        # I J
   - '+.gostorego.com'          # E F
+  - '+.grafana.com'            # C
+  - '+.grafana.net'            # C
   - '+.granulate.io'           # I
   - '+.graphengine.io'         # C
   - '+.grazie.ai'              # C

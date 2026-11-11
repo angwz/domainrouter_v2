@@ -235,20 +235,20 @@
       "collections": [
         "America"
       ],
-      "entries": 1683,
+      "entries": 1685,
       "format": "mrs",
       "path": "clash-domain/America.mrs",
-      "sha256": "24b76a5ef897391260250ce93a498852608b915018a29ad5eb111fbc0b0a48b8"
+      "sha256": "52de105fb4ce147ce117d5e8e7c522bcc3e73cc9b038f61385d6a62611434a66"
     },
     {
       "behavior": "domain",
       "collections": [
         "America"
       ],
-      "entries": 1683,
+      "entries": 1685,
       "format": "yaml",
       "path": "clash-domain/America.yaml",
-      "sha256": "a1eeaaab6ab85fb9a5bffd353762dc433078da68d66cfe5a2f01d9c459846b54"
+      "sha256": "b0bd4fef371d8d400a93db0a4f294dd06806f5ca1fe552813597b6da6c6afa1c"
     },
     {
       "behavior": "domain",
@@ -335,20 +335,20 @@
       "collections": [
         "Direct"
       ],
-      "entries": 1979,
+      "entries": 1980,
       "format": "mrs",
       "path": "clash-domain/Direct.mrs",
-      "sha256": "8077c55f1cfa781206837bbff2ce37009de9a3b08082cefcfc4c15fe57fad577"
+      "sha256": "08e5e883bbe157771624d1f808e8d48b1ab695dbf9beb2e157dd59f117ceab26"
     },
     {
       "behavior": "domain",
       "collections": [
         "Direct"
       ],
-      "entries": 1979,
+      "entries": 1980,
       "format": "yaml",
       "path": "clash-domain/Direct.yaml",
-      "sha256": "942fca9b8583d0233497b492484eb9fcb6f5fd04801ffaac55577ad81cb02a39"
+      "sha256": "dfe7da0c118e9e1941498f236ab9dac0328dc0ba65876b86ed189e5688e4af3b"
     },
     {
       "behavior": "domain",
@@ -972,11 +972,11 @@
     }
   ],
   "documents": {
-    "README.md": "a4ae0f6e05705e3f1ac54189a16eeb551426076e243b3b863ba770c0f3a0c4c9",
+    "README.md": "f29ebe1ef5862ebd910cdc83b698b67ac6bcbbefb7d3e934bb5416b892bc45e6",
     "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
   },
   "engine": "9feac1bb2da74cc90b5d702b80962993e21b86b3f565ceb8ac4d95579cc5f30e",
-  "generation": "41a848f7b72b4f2fcdc9c002d92643448fa4e615378b2b1ce98bfbe2961157e9",
+  "generation": "e60ad4348b94414e19df1fe0ccc4fe8d5a824f165e4fc5ffe8210000a0163a05",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2"
@@ -998,7 +998,7 @@
       "073720a9322433cc": "2e29b14f0cd754310abe86a11a6d75b20a5a2cb4079320d7304524d5a38d763a",
       "0774ab63c4e77f74": "b37bf316a3199a8be4da836b9f3c661fc9a386c903689e7ce5851cfbd2c742dc",
       "07a7388cbbc7f9c7": "993abf52a2f101a324bc847a592acf43cb46b6303ae57a965b6dadc205f19e4d",
-      "087b8a92ecc1d44a": "065fe8c35b4da4b04df4b5a841d9fa6e0bd3b7df6753b7169efba33af524c410",
+      "087b8a92ecc1d44a": "4f83d41d635ad3b14fa4b71bc272bd47215eebac6d5bd9f510c03adfe2fd89d6",
       "08c31ea9fff884bd": "48c17b359431ac09d31c79f5f4056a32c04a9662463bba6fb9276b72153b2554",
       "0945fd99b7d6d04d": "9c382dcc49fd787f3df74e43d3d07846274112f1698ab33d5757f602e305e108",
       "0b17a001f24c9633": "dcf3e066fc43cd658ac35f3eff00b4ef06c5b92f14bb9efed03de2d3b8f9b1c8",
@@ -1033,7 +1033,7 @@
       "29b785f1b1711ca5": "27f1a719927a6f74c265c1526962d3c458d3ab7c517d499fbd085564a51a9b2d",
       "2c7dc5e3dcc0f574": "8ffaf2a529d885db65f42810287398015552efdf774f243afecb37a04b2f2bed",
       "2cf56f636b4c71fc": "32c17229e9ef97096b0591816cc79b8fd46858d746d77680e387e3d18bbd0ce3",
-      "2d2feabd717c920e": "1503f7e7d43ac10d38dcf1bded60627f0ef6c92dc7ff613262b6ac5dd10e5ac2",
+      "2d2feabd717c920e": "9e01b5b47271a4374f433141e119758f92365e0a1ddd465eb31ad5524b3c5cd5",
       "2d74978d11bec76e": "cd8b192cd63cbdd3e123378257e97d3a5e7fa76dcf7bbf6b4c3b437da282bfdd",
       "3014dfbaf6981e33": "0bd3d7603c0aacb61ea698a077589c3db7a854f1c6c9e0580eabdeb2e69af207",
       "3078fe55757b59da": "f86c89ca3c0180d412fd5f1c75dca15537a84f9d0d600ac47922867bf2768bc1",

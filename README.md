@@ -11,7 +11,7 @@
 
 | 规则集 | behavior | 条目 | 维护者的用法 | 下载 |
 | --- | --- | ---: | --- | --- |
-| Direct | `domain` | 1,979 | DIRECT | [YAML](clash-domain/Direct.yaml) · [MRS](clash-domain/Direct.mrs) |
+| Direct | `domain` | 1,980 | DIRECT | [YAML](clash-domain/Direct.yaml) · [MRS](clash-domain/Direct.mrs) |
 | Direct | `ipcidr` | 530 | DIRECT | [YAML](clash-ipcidr/Direct-ipcidr.yaml) · [MRS](clash-ipcidr/Direct-ipcidr.mrs) |
 | Direct | `classical` | 53 | DIRECT | [YAML](clash-classic/Direct-classic.yaml) |
 | NS | `domain` | 7 | 🏖️ Community | [YAML](clash-domain/NS.yaml) · [MRS](clash-domain/NS.mrs) |
@@ -51,7 +51,7 @@
 | Singapore | `domain` | 943 | 🧊 新加坡专线 | [YAML](clash-domain/Singapore.yaml) · [MRS](clash-domain/Singapore.mrs) |
 | Singapore | `ipcidr` | 142 | 🧊 新加坡专线 | [YAML](clash-ipcidr/Singapore-ipcidr.yaml) · [MRS](clash-ipcidr/Singapore-ipcidr.mrs) |
 | Singapore | `classical` | 7 | 🧊 新加坡专线 | [YAML](clash-classic/Singapore-classic.yaml) |
-| America | `domain` | 1,683 | ⛳ 美国专线 | [YAML](clash-domain/America.yaml) · [MRS](clash-domain/America.mrs) |
+| America | `domain` | 1,685 | ⛳ 美国专线 | [YAML](clash-domain/America.yaml) · [MRS](clash-domain/America.mrs) |
 | America | `classical` | 4 | ⛳ 美国专线 | [YAML](clash-classic/America-classic.yaml) |
 | ChinaMedia | `domain` | 5,502 | DIRECT | [YAML](clash-domain/ChinaMedia.yaml) · [MRS](clash-domain/ChinaMedia.mrs) |
 | ChinaMedia | `ipcidr` | 1,730 | DIRECT | [YAML](clash-ipcidr/ChinaMedia-ipcidr.yaml) · [MRS](clash-ipcidr/ChinaMedia-ipcidr.mrs) |
