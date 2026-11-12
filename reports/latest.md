@@ -1,7 +1,7 @@
 # 规则更新说明
 
-- 生成时间（UTC）：2026-11-11T01:41:09+00:00
-- generation：`e60ad4348b94414e`
+- 生成时间（UTC）：2026-11-12T02:40:05+00:00
+- generation：`0a66b9c99ced1f0b`
 - 结果：有变化，已更新发布文件
 
 ## 宽泛规则
@@ -16,28 +16,18 @@
 
 | 文件 | 条目 | 新增 | 删除 |
 | --- | --- | --- | --- |
-| `clash-domain/America.yaml` | 1683 → 1685 | 2 | 0 |
-| `clash-domain/Direct.yaml` | 1979 → 1980 | 1 | 0 |
+| `clash-domain/Proxy.yaml` | 29844 → 29848 | 4 | 0 |
 
 <details>
-<summary><code>clash-domain/America.yaml</code></summary>
+<summary><code>clash-domain/Proxy.yaml</code></summary>
 
-新增（2）：
+新增（4）：
 
 ```text
 +.grafana.com
 +.grafana.net
-```
-
-</details>
-
-<details>
-<summary><code>clash-domain/Direct.yaml</code></summary>
-
-新增（1）：
-
-```text
-+.nia-teams.com
++.questionablequesting.com
++.spacebattles.com
 ```
 
 </details>
@@ -65,7 +55,7 @@
 | OneDrive | 1086 | 684 | 385 | 13 | 8 |
 | Microsoft | 1508 | 770 | 611 | 120 | 14 |
 | Media | 13885 | 12585 | 1001 | 262 | 55 |
-| Proxy | 69567 | 30002 | 32926 | 6537 | 102 |
+| Proxy | 69572 | 30006 | 32927 | 6537 | 102 |
 | China | 506843 | 123420 | 337589 | 72 | 45763 |
 
 ## 会触发 DNS 解析的手写内联规则

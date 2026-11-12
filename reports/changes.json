@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T01:41:09+00:00",
-  "generation": "e60ad4348b94414e19df1fe0ccc4fe8d5a824f165e4fc5ffe8210000a0163a05",
+  "generated_at": "2026-11-12T02:40:05+00:00",
+  "generation": "0a66b9c99ced1f0bbb25075d1021de6eb17c4a40ab921d94b4943923a9956a44",
   "changed": true,
   "files": [
     {
@@ -160,12 +160,9 @@
     },
     {
       "path": "clash-domain/America.yaml",
-      "before": 1683,
+      "before": 1685,
       "after": 1685,
-      "added": [
-        "+.grafana.com",
-        "+.grafana.net"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -198,11 +195,9 @@
     },
     {
       "path": "clash-domain/Direct.yaml",
-      "before": 1979,
+      "before": 1980,
       "after": 1980,
-      "added": [
-        "+.nia-teams.com"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -264,8 +259,13 @@
     {
       "path": "clash-domain/Proxy.yaml",
       "before": 29844,
-      "after": 29844,
-      "added": [],
+      "after": 29848,
+      "added": [
+        "+.grafana.com",
+        "+.grafana.net",
+        "+.questionablequesting.com",
+        "+.spacebattles.com"
+      ],
       "removed": []
     },
     {
@@ -715,7 +715,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml",
       "format": "auto",
-      "entries": 27302,
+      "entries": 27307,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2261,9 +2261,9 @@
     },
     {
       "collections": "Proxy",
-      "input": 69567,
-      "output": 30002,
-      "duplicates": 32926,
+      "input": 69572,
+      "output": 30006,
+      "duplicates": 32927,
       "covered": 6537,
       "merged": 102
     },

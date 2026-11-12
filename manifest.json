@@ -515,20 +515,20 @@
       "collections": [
         "Proxy"
       ],
-      "entries": 29844,
+      "entries": 29848,
       "format": "mrs",
       "path": "clash-domain/Proxy.mrs",
-      "sha256": "c1e13ec55aff7f5a4dd6f3d8ebe1b7f22ca659dc4345175dfefd722326293a33"
+      "sha256": "4e3e5e0e48a4de42b62b4d9ed630075357b34934b5c9cccee12373811f475454"
     },
     {
       "behavior": "domain",
       "collections": [
         "Proxy"
       ],
-      "entries": 29844,
+      "entries": 29848,
       "format": "yaml",
       "path": "clash-domain/Proxy.yaml",
-      "sha256": "3583bcf72c6cf3ba7882a9a27af87df5d13a906e11f9ba97b2d4640f57aee563"
+      "sha256": "5376dd16d302f538965a9f91df8a5d23f070576d62f6c1b70812d70a5faa6c59"
     },
     {
       "behavior": "domain",
@@ -972,11 +972,11 @@
     }
   ],
   "documents": {
-    "README.md": "f29ebe1ef5862ebd910cdc83b698b67ac6bcbbefb7d3e934bb5416b892bc45e6",
+    "README.md": "3514cf7bd5968c77b78448dc9a8a435f9d2c9629306476f78203709820f29ece",
     "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
   },
   "engine": "9feac1bb2da74cc90b5d702b80962993e21b86b3f565ceb8ac4d95579cc5f30e",
-  "generation": "e60ad4348b94414e19df1fe0ccc4fe8d5a824f165e4fc5ffe8210000a0163a05",
+  "generation": "0a66b9c99ced1f0bbb25075d1021de6eb17c4a40ab921d94b4943923a9956a44",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2"
@@ -1066,7 +1066,7 @@
       "4d4a906da5693139": "2e17bdb7037254356ad5a21bf7ddf6569fd04c483ecdb9da30a4e7ada71fb9e0",
       "4d7e6dda0407aefc": "a6246de78459a4a93fb5f66b7c2a77a6f4b51ac256f39a060eac978558a72de9",
       "4d8f9eac3c2b44b4": "38ef6215ebf6cf6caf7449f9e45c99b2acd758472913b85d47de5c05b4f76308",
-      "4dbf77a2da17ed04": "0198aaf3f2c442da5a165493786ade5c7957fd423aada36fd4edbc8f593be243",
+      "4dbf77a2da17ed04": "51da58f5ee22660068280b576fa393fcaedce77a013418aa544f6a9f90b30819",
       "4fab523dea5d3ee4": "2dd14e5f987c24db37114d13de930e976fa2f864028dec5adff768b78b61b4a3",
       "5025f4667e1d962f": "9a0e3362266b1b10da3b8bc50e0937effea730871d5607c36467e6dda45c84fd",
       "5178625e0840c548": "113f065eab71ee3757d421e922811d7524e89f01b9b504e68f74cec160cba5e7",

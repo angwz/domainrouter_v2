@@ -64,7 +64,7 @@
 | Media | `domain` | 11,104 | 🛖 国际流媒体 | [YAML](clash-domain/Media.yaml) · [MRS](clash-domain/Media.mrs) |
 | Media | `ipcidr` | 1,439 | 🛖 国际流媒体 | [YAML](clash-ipcidr/Media-ipcidr.yaml) · [MRS](clash-ipcidr/Media-ipcidr.mrs) |
 | Media | `classical` | 42 | 🛖 国际流媒体 | [YAML](clash-classic/Media-classic.yaml) |
-| Proxy | `domain` | 29,844 | 🌠 节点选择 | [YAML](clash-domain/Proxy.yaml) · [MRS](clash-domain/Proxy.mrs) |
+| Proxy | `domain` | 29,848 | 🌠 节点选择 | [YAML](clash-domain/Proxy.yaml) · [MRS](clash-domain/Proxy.mrs) |
 | Proxy | `ipcidr` | 119 | 🌠 节点选择 | [YAML](clash-ipcidr/Proxy-ipcidr.yaml) · [MRS](clash-ipcidr/Proxy-ipcidr.mrs) |
 | Proxy | `classical` | 39 | 🌠 节点选择 | [YAML](clash-classic/Proxy-classic.yaml) |
 | China | `domain` | 110,750 | DIRECT | [YAML](clash-domain/China.yaml) · [MRS](clash-domain/China.mrs) |

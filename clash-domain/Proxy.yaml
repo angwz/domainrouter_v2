@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-12 10:40:05 (UTC+8)
 # TYPE: domain
-# TOTAL: 29844
+# TOTAL: 29848
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -10717,6 +10717,8 @@ payload:
   - '+.grabpussy.com'        # B C
   - '+.gradconnection.com'   # A C  覆盖 +.hk.gradconnection.com B
   - '+.gradeuptube.com'      # B C
+  - '+.grafana.com'          # B
+  - '+.grafana.net'          # B
   - '+.grafolio.com'         # B C
   - '+.graias.com'           # B C
   - '+.graiasmovies.com'     # B C
@@ -19635,6 +19637,7 @@ payload:
   - '+.quantumbooter.net'    # A C
   - '+.quatrowireless.com'   # B C
   - '+.quay.io'              # A B C
+  - '+.questionablequesting.com'  # B
   - '+.questvisual.com'      # A B C
   - '+.quicinc.com'          # B C
   - '+.quickbooks.com'       # B C
@@ -21696,6 +21699,7 @@ payload:
   - '+.soylent.com'          # A C  覆盖 +.blog.soylent.com B
   - '+.soylentnews.org'      # A C
   - '+.sp.cool'              # B C
+  - '+.spacebattles.com'     # B
   - '+.spaceexplored.com'    # B C
   - '+.spaceforce.mil'       # A B C
   - '+.spacemail.com'        # B C
@@ -24089,7 +24093,7 @@ payload:
   - '+.v.recipes'            # A B C
   - '+.v.roucdn'             # A C
   - '+.v2.help'              # A B C
-  - '+.v2ex.co'              # A C
+  - '+.v2ex.co'              # A B C
   - '+.v2ex.com'             # A B C
   - '+.v2fly.org'            # A B C
   - '+.v2mm.tech'            # A C
