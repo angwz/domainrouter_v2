@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27302, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "22250247eafe3269eba4c5252c87631bb01ad740b2dbbea4e3a5142ec06a427c", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27307, "fetched_at": "2026-11-12T02:38:59+00:00", "format": "auto", "invalid": 0, "raw_sha256": "26bc45815f98b3c494a5f82e1a7ce0cfa34f250a66dd22bd7fedaa505f9074e0", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -10597,6 +10597,8 @@ d +.gr-assets.com
 d +.grabhentai.com
 d +.grabpussy.com
 d +.gradeuptube.com
+d +.grafana.com
+d +.grafana.net
 d +.grafolio.com
 d +.graias.com
 d +.graiasmovies.com
@@ -19249,6 +19251,7 @@ d +.quantil.com
 d +.quatrowireless.com
 d +.quatrum.com.br
 d +.quay.io
+d +.questionablequesting.com
 d +.questvisual.com
 d +.quicinc.com
 d +.quickbook.com.br
@@ -21228,6 +21231,7 @@ d +.soyinyj.top
 d +.soyjak.party
 d +.soyjak.st
 d +.sp.cool
+d +.spacebattles.com
 d +.spaceexplored.com
 d +.spaceforce.mil
 d +.spacely.com.au
@@ -23394,6 +23398,7 @@ d +.v.ps
 d +.v.recipes
 d +.v2.help
 d +.v2.hysteria.network
+d +.v2ex.co
 d +.v2ex.com
 d +.v2fly.org
 d +.v2ph.com
