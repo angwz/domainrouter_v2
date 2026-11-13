@@ -1,11 +1,11 @@
 # NAME: Singapore
 # GROUP: 🧊 新加坡专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-13 10:20:57 (UTC+8)
 # TYPE: ipcidr
-# TOTAL: 142
+# TOTAL: 141
 # IP-CIDR: 99
-# IP-CIDR6: 43
+# IP-CIDR6: 42
 # SOURCE A: blackmatrix7 · Facebook/Facebook.list
 # SOURCE B: MetaCubeX · geoip/facebook.yaml
 payload:
@@ -140,8 +140,7 @@ payload:
   - '2a03:2887:ff60::/48'  # B
   - '2a03:2887:ff62::/47'  # B
   - '2a03:2887:ff64::/46'  # B
-  - '2a03:2887:ff68::/47'  # B
-  - '2a03:2887:ff6a::/48'  # B
+  - '2a03:2887:ff68::/46'  # B
   - '2a03:2887:ff6c::/48'  # B
   - '2a03:2887:ff6f::/48'  # B
   - '2a03:2887:ff70::/46'  # B

@@ -695,20 +695,20 @@
       "collections": [
         "China"
       ],
-      "entries": 12569,
+      "entries": 12558,
       "format": "mrs",
       "path": "clash-ipcidr/China-ipcidr.mrs",
-      "sha256": "32d68a18eab69f855ed4a237b681062d8fdb229d711b1e5c4cbdf0324f2f0ce0"
+      "sha256": "9e6ffb3d75b8b0da2ab963b8271d04bc4b1bdc77dd537bc9b923efeba3fa7073"
     },
     {
       "behavior": "ipcidr",
       "collections": [
         "China"
       ],
-      "entries": 12569,
+      "entries": 12558,
       "format": "yaml",
       "path": "clash-ipcidr/China-ipcidr.yaml",
-      "sha256": "1db1ccced2a62b03a844f67a8809b061e56d55495271d414d0d58e3b0d81717f"
+      "sha256": "12ffbc872b7d14f7cc8c85a51be95d0bdfc8f030bad297402977d8129a7a34f3"
     },
     {
       "behavior": "ipcidr",
@@ -755,20 +755,20 @@
       "collections": [
         "Google"
       ],
-      "entries": 8426,
+      "entries": 7979,
       "format": "mrs",
       "path": "clash-ipcidr/Google-ipcidr.mrs",
-      "sha256": "d50ffab57371453cbc229b1924bcf09004db1ca98968a205e2a59c5cfc26bbda"
+      "sha256": "9767a86d96c683bb2ec42947595616df3b6c2b54a3c2c2ca5ea75b4f47865ce3"
     },
     {
       "behavior": "ipcidr",
       "collections": [
         "Google"
       ],
-      "entries": 8426,
+      "entries": 7979,
       "format": "yaml",
       "path": "clash-ipcidr/Google-ipcidr.yaml",
-      "sha256": "8e20d7210dc92d65d32bc3594ea11879b4b7372c65787be36627e2bc380452d2"
+      "sha256": "50d425a36fd39be72a11dec35c3438fa87993def1da3e34bd9584bbe24fbcac9"
     },
     {
       "behavior": "ipcidr",
@@ -895,20 +895,20 @@
       "collections": [
         "Singapore"
       ],
-      "entries": 142,
+      "entries": 141,
       "format": "mrs",
       "path": "clash-ipcidr/Singapore-ipcidr.mrs",
-      "sha256": "77b9e370bf93a7ceed774c6a4425815d0efc3614b7f155b2bd0b29b435ae329f"
+      "sha256": "b92e224e1179fdee4446a6e52a44116f4942c637768266c513ccd69cb082f60d"
     },
     {
       "behavior": "ipcidr",
       "collections": [
         "Singapore"
       ],
-      "entries": 142,
+      "entries": 141,
       "format": "yaml",
       "path": "clash-ipcidr/Singapore-ipcidr.yaml",
-      "sha256": "a2c331041285ab5c86800d1e5b5f06e012a800c124df0e37ac80e2ec75150c06"
+      "sha256": "7d69eaa2616d92523d34c2d22f49ef8485e7066ea255cbaa0f3286046e2df2b3"
     },
     {
       "behavior": "ipcidr",
@@ -972,11 +972,11 @@
     }
   ],
   "documents": {
-    "README.md": "3514cf7bd5968c77b78448dc9a8a435f9d2c9629306476f78203709820f29ece",
+    "README.md": "463f3c7f2b24785d288440838422d9cb1589aeebe272ee03fd8acd6eba162b12",
     "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
   },
   "engine": "9feac1bb2da74cc90b5d702b80962993e21b86b3f565ceb8ac4d95579cc5f30e",
-  "generation": "0a66b9c99ced1f0bbb25075d1021de6eb17c4a40ab921d94b4943923a9956a44",
+  "generation": "7851ecb840048ab2f7c6d15e85a64ddad860c4a699c95215103ac5a011dc7dd1",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2"
@@ -1053,7 +1053,7 @@
       "3f0588e46e5788a3": "3a88c4da6b373f498236f658f62ce694c89dab19b3b5e8b53d4be99c6edba9c4",
       "3f9efe38c6932d85": "93ffcadcc8fd3ab012f8b6f2d57e70443ca8ed2f619ba178175e85c21eae4734",
       "3ffe475e11ce3b02": "dcfe2498face7fe73bf36945e69f6f13dd7501b564df7aab8797980d31b3b5b5",
-      "4523ab808e700920": "669fa0aaedc5e26a7b7a42842e76a0332c151f93402fbcb04508dc7f73ae1dd0",
+      "4523ab808e700920": "482d993428e923ad47115b6a74f6c6858a2f8e71c5504ce66f52b8d504bd9e08",
       "463dcf0e8d0bdc0f": "23664e623e615ff67bb35fc2edca189c34bd371c67aa87d5afefc1c763cff163",
       "464c77502871830a": "8f8789395b55fbbc9d16d66e588f8d6acb9d5b761f4a9cc5f3901e49a6503ff3",
       "4702a22012077b6e": "7a995a3092d36486cd5e34f4a34842cceb0cbf5fdf4972255f9a9277f87a487a",
@@ -1063,7 +1063,7 @@
       "4ade71e90a28c580": "1439b798167ff8db69fbe63be1be21a861f437399e829d16de9cf8428a39190e",
       "4b40d5e7e5100aed": "f387e3cd6acac7c0746d92d015a3ace108621229f4baf49a052c23b1437bb177",
       "4ca06a8d9fc5525f": "7a680e0c1d5fc1902915a2a020a3d5d255d6cb3329f37efd7552c3ae6a141f63",
-      "4d4a906da5693139": "2e17bdb7037254356ad5a21bf7ddf6569fd04c483ecdb9da30a4e7ada71fb9e0",
+      "4d4a906da5693139": "64ef5d0df09c043408f4c33c230d35f89a7603b15282db4034a12d7fbb431ef9",
       "4d7e6dda0407aefc": "a6246de78459a4a93fb5f66b7c2a77a6f4b51ac256f39a060eac978558a72de9",
       "4d8f9eac3c2b44b4": "38ef6215ebf6cf6caf7449f9e45c99b2acd758472913b85d47de5c05b4f76308",
       "4dbf77a2da17ed04": "51da58f5ee22660068280b576fa393fcaedce77a013418aa544f6a9f90b30819",
@@ -1190,7 +1190,7 @@
       "f4da0136c14623d9": "714c21ef617d496bbb6b8e703226226690824173b90aec02ab2eab8bd471a629",
       "f56fdcb20e68d4f3": "d55830f987df2ad879ea4f4ba0e7a9759682c667e35697bd497cb702a07dafbf",
       "f57cfe0afb0794e9": "31d4613b40f237f91dd31e2304645e941b37dad8d89cb5effd7b6a7f69f47500",
-      "f960d4f9ac71e7be": "1c826cef72b600f6486fdaae2270245019e352b77fcb5f145e4841342d012882",
+      "f960d4f9ac71e7be": "621bf1cd4107d07798bafc0b721972ddb07dcd1b8f6d0bcb33fe0f418ec8bddc",
       "fb602fa1f905165c": "f25e60df602a47d9d8271dfa008d4102250c3c1a61b62c309679ae86ae68f264",
       "fc179e1d6331d819": "c38071db1b489e18648fa9d4201b31ad59d6d7e3ef8b698abfd2dfb43acbb727",
       "fe478933d63b4ceb": "58c1b44413a3daee0dfe3418f74f0cf0bc3c3303f010503e3104b6d3af747fe1",
