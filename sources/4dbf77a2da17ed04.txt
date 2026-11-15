@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27307, "fetched_at": "2026-11-12T02:38:59+00:00", "format": "auto", "invalid": 0, "raw_sha256": "26bc45815f98b3c494a5f82e1a7ce0cfa34f250a66dd22bd7fedaa505f9074e0", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27308, "fetched_at": "2026-11-15T01:28:51+00:00", "format": "auto", "invalid": 0, "raw_sha256": "19298e4f8f98f5ea38ad162125b5b3d165ca116fc03f8514e3bfdbb79083168a", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -391,6 +391,7 @@ d +.51lieqi.com
 d +.51luoben.com
 d +.51luoli.info
 d +.51mh.app
+d +.51papaya.com
 d +.51pincha.cc
 d +.51tuqiang.com
 d +.520aa.tv
