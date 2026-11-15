@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-12 10:40:05 (UTC+8)
+# UPDATED: 2026-11-15 09:29:46 (UTC+8)
 # TYPE: domain
-# TOTAL: 29848
+# TOTAL: 29849
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -515,6 +515,7 @@ payload:
   - '+.51luoben.com'         # A B C
   - '+.51luoli.info'         # B C
   - '+.51mh.app'             # B C
+  - '+.51papaya.com'         # B
   - '+.51pincha.cc'          # B C
   - '+.51tuqiang.com'        # B C
   - '+.520aa.tv'             # B C
