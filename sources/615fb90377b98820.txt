@@ -1,4 +1,4 @@
-# {"detected_format": "auto→surge", "entries": 55, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "cce8e6d0d94c090bd4928d2910804806f88fde88d8b774163b34f3d810426b84", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/non_ip/ai.txt", "version": 1}
+# {"detected_format": "auto→surge", "entries": 58, "fetched_at": "2026-11-16T01:31:40+00:00", "format": "auto", "invalid": 0, "raw_sha256": "88c7531fd4a2338559c05b424fdf94371765e4220ef410d816fda10163261938", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/non_ip/ai.txt", "version": 1}
 c DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 c DOMAIN-KEYWORD,openai
 d +.ai.com
@@ -39,6 +39,7 @@ d +.sora.com
 d +.x.ai
 d 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 d ai.google.dev
+d aicode.googleapis.com
 d aida.googleapis.com
 d aisandbox-pa.googleapis.com
 d alkalicore-pa.clients6.google.com
@@ -46,7 +47,9 @@ d antigravity-unleash.goog
 d antigravity.google
 d api.github.com
 d api.jetbrains.ai
+d cloud.zed.dev
 d daily-cloudcode-pa.googleapis.com
+d daily-cloudcode-pa.sandbox.googleapis.com
 d gateway.ai.cloudflare.com
 d inference.codeium.com
 d jules.google.com
