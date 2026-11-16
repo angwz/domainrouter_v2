@@ -1,9 +1,9 @@
 # NAME: AI
 # GROUP: 🗨️ ChatGPT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-16 09:32:30 (UTC+8)
 # TYPE: domain
-# TOTAL: 304
+# TOTAL: 306
 # SOURCE A: MetaCubeX · geosite/x.yaml
 # SOURCE B: blackmatrix7 · Twitter/Twitter.list
 # SOURCE C: MetaCubeX · geosite/bing.yaml
@@ -238,7 +238,7 @@ payload:
   - '+.youmind.ai'                     # F G
   - '+.youmind.com'                    # F G
   - '+.youmind.site'                   # F G
-  - '+.aicode.googleapis.com'          # F G L
+  - '+.aicode.googleapis.com'          # F G L  合并 aicode.googleapis.com H
   - '+.aida.googleapis.com'            # F G L  合并 aida.googleapis.com H
   - '+.aisandbox-pa.googleapis.com'    # F G L  合并 aisandbox-pa.googleapis.com H
   - '+.aistudio.google.com'            # F G H L
@@ -290,6 +290,7 @@ payload:
   - 'appsgenaiserver-pa.googleapis.com'  # F G L
   - 'assets.msn.com'                   # E
   - 'cdn.usefathom.com'                # K
+  - 'cloud.zed.dev'                    # H
   - 'cloudaicompanion.googleapis.com'  # F G L
   - 'copilot-proxy.githubusercontent.com'  # F G
   - 'copilot-telemetry-service.githubusercontent.com'  # F G
@@ -310,6 +311,7 @@ payload:
   - 'alkalimakersuite-pa.clients6.google.com'  # F G L M
   - 'appsgenaiserver-pa.clients.google.com'  # F G L
   - 'appsgenaiserver-pa.clients6.google.com'  # F G L
+  - 'daily-cloudcode-pa.sandbox.googleapis.com'  # H
   - 'gateway.bingviz.microsoft.net'    # E
   - 'gateway.bingviz.microsoftapp.net'  # E
   - 'geminiweb-pa.clients.google.com'  # F G L

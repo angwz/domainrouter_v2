@@ -215,20 +215,20 @@
       "collections": [
         "AI"
       ],
-      "entries": 304,
+      "entries": 306,
       "format": "mrs",
       "path": "clash-domain/AI.mrs",
-      "sha256": "fd05e30e61eba43f25e6b0ee7cf002edf797edb0084f60f26f4d697db0ac44d2"
+      "sha256": "b1748ea6353128cb8d88b19e46b3045685b3a6e6996453fd62634ea3aa5f443a"
     },
     {
       "behavior": "domain",
       "collections": [
         "AI"
       ],
-      "entries": 304,
+      "entries": 306,
       "format": "yaml",
       "path": "clash-domain/AI.yaml",
-      "sha256": "2a4d0a01af6bf9230bec08639e8baa9f2c3e421df7dac22c87631bfdd994f533"
+      "sha256": "ee24330d42ad0564b11c19c2ca0672ba8264fcf9b227095df43db3955d6ca552"
     },
     {
       "behavior": "domain",
@@ -972,11 +972,11 @@
     }
   ],
   "documents": {
-    "README.md": "32dd19d9a420f0eeb0ed5bc607efe41035665d5fc9aa8c2b4a4494b773fef389",
+    "README.md": "689875bac66df65662108f9b927d38432821f218003f26c561331342d9d4a767",
     "reports/broad-rules.md": "8f2f78b37799c25f7f31ddf09cd82141ba4521cfcc736d8fd334960fdb33a8e7"
   },
   "engine": "9feac1bb2da74cc90b5d702b80962993e21b86b3f565ceb8ac4d95579cc5f30e",
-  "generation": "25b699edccfd6bf70b0c6c14216e50702cdfe97b5fb83e67957ea8613ce9e641",
+  "generation": "447915b08257b463c3cf25d432826d33b809267b7a6841b1a35c3e9014547789",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "34d2dc869ff241d2c77e5c352e95fd386c866d685bee324d3fa6611473f76fe2"
@@ -1079,7 +1079,7 @@
       "5f5be8bce7a29288": "666d712a9ce20a7a78d57c16cd551bfd09bf2147d2344ffd2f3c03de71bc848e",
       "5f95920ff233467f": "41091193ee23f3d8ac72beaef1869eb9ab637b77d6e179e3bb406bb14f5aa0d9",
       "5fc15e29b57ff61a": "304fb4f9198fcaaed3d2b3d75d9156ddc69829d71d5b93644727e787305a65ba",
-      "615fb90377b98820": "a3095d096a3b8d133b39fbf8cc04b8c445e00c814fd3ce720640b80fcb817286",
+      "615fb90377b98820": "687e059ae18a691005966b59b4696042b0aa8981401ed6b6440722cee408e833",
       "63e66076e11c9e3b": "ba630cc657fdefec32a9504cfa30ba51863074a77df80a1c1187d5d7f76a6c4d",
       "66e239cd2b2d84f1": "1dc5665d6b5a65f743c751c4f7f0d6d18c95ab15c84e99dac02fdddb9909e2d0",
       "6abcb8e76bb3e712": "eca853dc29652a945aa826eaa5853bc0893dc5e2a3ca792c8db1db631843b9d7",

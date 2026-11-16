@@ -16,7 +16,7 @@
 | Direct | `classical` | 53 | DIRECT | [YAML](clash-classic/Direct-classic.yaml) |
 | NS | `domain` | 7 | 🏖️ Community | [YAML](clash-domain/NS.yaml) · [MRS](clash-domain/NS.mrs) |
 | NS | `classical` | 1 | 🏖️ Community | [YAML](clash-classic/NS-classic.yaml) |
-| AI | `domain` | 304 | 🗨️ ChatGPT | [YAML](clash-domain/AI.yaml) · [MRS](clash-domain/AI.mrs) |
+| AI | `domain` | 306 | 🗨️ ChatGPT | [YAML](clash-domain/AI.yaml) · [MRS](clash-domain/AI.mrs) |
 | AI | `ipcidr` | 23 | 🗨️ ChatGPT | [YAML](clash-ipcidr/AI-ipcidr.yaml) · [MRS](clash-ipcidr/AI-ipcidr.mrs) |
 | AI | `classical` | 8 | 🗨️ ChatGPT | [YAML](clash-classic/AI-classic.yaml) |
 | TikTok | `domain` | 58 | 📱 TikTok | [YAML](clash-domain/TikTok.yaml) · [MRS](clash-domain/TikTok.mrs) |

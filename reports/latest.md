@@ -1,7 +1,7 @@
 # 规则更新说明
 
-- 生成时间（UTC）：2026-11-15T01:29:46+00:00
-- generation：`25b699edccfd6bf7`
+- 生成时间（UTC）：2026-11-16T01:32:30+00:00
+- generation：`447915b08257b463`
 - 结果：有变化，已更新发布文件
 
 ## 宽泛规则
@@ -16,15 +16,16 @@
 
 | 文件 | 条目 | 新增 | 删除 |
 | --- | --- | --- | --- |
-| `clash-domain/Proxy.yaml` | 29848 → 29849 | 1 | 0 |
+| `clash-domain/AI.yaml` | 304 → 306 | 2 | 0 |
 
 <details>
-<summary><code>clash-domain/Proxy.yaml</code></summary>
+<summary><code>clash-domain/AI.yaml</code></summary>
 
-新增（1）：
+新增（2）：
 
 ```text
-+.51papaya.com
+cloud.zed.dev
+daily-cloudcode-pa.sandbox.googleapis.com
 ```
 
 </details>
@@ -35,7 +36,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Direct | 3774 | 2563 | 347 | 22 | 857 |
 | NS | 9 | 8 | 1 | 0 | 0 |
-| AI | 843 | 335 | 465 | 21 | 35 |
+| AI | 846 | 337 | 465 | 21 | 37 |
 | TikTok | 75 | 61 | 12 | 2 | 0 |
 | Bilibili | 1539 | 1177 | 310 | 48 | 8 |
 | Tencent | 3375 | 2650 | 557 | 167 | 0 |

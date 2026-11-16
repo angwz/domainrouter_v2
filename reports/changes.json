@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T01:29:46+00:00",
-  "generation": "25b699edccfd6bf70b0c6c14216e50702cdfe97b5fb83e67957ea8613ce9e641",
+  "generated_at": "2026-11-16T01:32:30+00:00",
+  "generation": "447915b08257b463c3cf25d432826d33b809267b7a6841b1a35c3e9014547789",
   "changed": true,
   "files": [
     {
@@ -154,8 +154,11 @@
     {
       "path": "clash-domain/AI.yaml",
       "before": 304,
-      "after": 304,
-      "added": [],
+      "after": 306,
+      "added": [
+        "cloud.zed.dev",
+        "daily-cloudcode-pa.sandbox.googleapis.com"
+      ],
       "removed": []
     },
     {
@@ -258,11 +261,9 @@
     },
     {
       "path": "clash-domain/Proxy.yaml",
-      "before": 29848,
+      "before": 29849,
       "after": 29849,
-      "added": [
-        "+.51papaya.com"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -1120,7 +1121,7 @@
     {
       "url": "https://ruleset.skk.moe/Clash/non_ip/ai.txt",
       "format": "auto",
-      "entries": 55,
+      "entries": 58,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2122,11 +2123,11 @@
     },
     {
       "collections": "AI",
-      "input": 843,
-      "output": 335,
+      "input": 846,
+      "output": 337,
       "duplicates": 465,
       "covered": 21,
-      "merged": 35
+      "merged": 37
     },
     {
       "collections": "TikTok",
