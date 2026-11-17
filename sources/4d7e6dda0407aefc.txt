@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 24, "fetched_at": "2026-11-08T23:58:08+00:00", "format": "auto", "invalid": 0, "raw_sha256": "834621d5df832a7275a302d4f08dccbcc18553d9aa801fdba428a2b4080e5781", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev%40cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 25, "fetched_at": "2026-11-17T04:17:31+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f60802dc36157d1625d559c303a7297758a87b0bcd11056a2032e0790fe0f763", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev%40cn.yaml", "version": 1}
 d +.cdn.jetbrains.com
 d +.jetbrains.com.cn
 d +.microsoftreactor.cn
@@ -23,3 +23,4 @@ d crashlyticsreports-pa.googleapis.com
 d download.visualstudio.microsoft.com
 d firebase-settings.crashlytics.com
 d update.crashlytics.com
+d vscode.download.prss.microsoft.com

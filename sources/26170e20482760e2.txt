@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1794, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "a39a1c6a54d8c2b322be9d11dd7ab18f7ad45d6868c802f909cf408115abb1d3", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1798, "fetched_at": "2026-11-17T04:17:32+00:00", "format": "auto", "invalid": 0, "raw_sha256": "37401849cd430d99951bc3cc04042ec302d30eb2625d4b04b9c2a2c5cfccd0e4", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml", "version": 1}
 d +.100beatscheap.com
 d +.12diasdepresentesdeitunes.com
 d +.12diasderegalosdeitunes.cl
@@ -728,6 +728,7 @@ d +.calendarserver.org
 d +.camelphat.com
 d +.camelspaceeffect.com
 d +.canada-beatsbydre.com
+d +.captive.apple.com
 d +.carbon.com
 d +.carekit.org
 d +.casque-fr.com
@@ -1611,6 +1612,7 @@ d communities.apple.com
 d configuration-lb.ls-apple.com.akadns.net
 d configuration.apple.com
 d configuration.apple.com.akadns.net
+d configuration.ls.apple.com
 d crl-lb.apple.com.akadns.net
 d crl.apple.com
 d cstat.apple.com
@@ -1696,9 +1698,11 @@ d mesu.apple.com
 d misc-assets.itunes.apple.com
 d ml.cdn-apple.com
 d music.apple.com
+d musicstatus.itunes.apple.com
 d musicstatus.music.apple.com
 d mvod.itunes.apple.com
 d myapp.itunes.apple.com
+d mzstorekit.itunes.apple.com
 d notary-submissions-prod.s3-accelerate.amazonaws.com
 d notary-submissions-prod.s3.us-west-2.amazonaws.com
 d np-edge.itunes.apple.com

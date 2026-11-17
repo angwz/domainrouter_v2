@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 756, "fetched_at": "2026-11-08T23:58:20+00:00", "format": "auto", "invalid": 0, "raw_sha256": "6923852cba5a803960373c6eb379d7746460ba3069e1564549bc63177ee3c20c", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 759, "fetched_at": "2026-11-17T04:17:34+00:00", "format": "auto", "invalid": 0, "raw_sha256": "2851028486c4a1c07324a65808ccd22e147da2a4d5d270588a8c3e9099b374b0", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml", "version": 1}
 d +.1drv.com
 d +.21vbc.com
 d +.21vbluecloud.com
@@ -646,6 +646,7 @@ d azurestackhubuat.download.prss.microsoft.com
 d b.c2r.ts.cdn.office.net
 d bingsettingssearch.trafficmanager.net
 d bj1.api.bing.com
+d builds.dotnet.microsoft.com
 d cbdstest.download.prss.microsoft.com
 d cn.windowssearch.com
 d collaborate.download.prss.microsoft.com
@@ -661,6 +662,7 @@ d dc.applicationinsights.azure.com
 d dc.services.visualstudio.com
 d default.exp-tas.com
 d developer.microsoft.com
+d dotnetcli.trafficmanager.net
 d download.microsoft.com
 d download.visualstudio.microsoft.com
 d dreamspark.download.prss.microsoft.com
@@ -740,6 +742,7 @@ d statics.teams.cdn.office.net
 d storecorefulfillment.download.prss.microsoft.com
 d storeedge.microsoft.com
 d storeedgefd.dsx.mp.microsoft.com
+d sundry-star-net-geo.trafficmanager.net
 d surface.download.prss.microsoft.com
 d surface.downloads.prss.microsoft.com
 d vlportal.download.prss.microsoft.com

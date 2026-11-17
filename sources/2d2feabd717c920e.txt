@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 692, "fetched_at": "2026-11-11T01:40:05+00:00", "format": "auto", "invalid": 0, "raw_sha256": "0403cf5cc4141bbe2ac91501cd4857bd35ccec39234bc3fe7951b186992482de", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 696, "fetched_at": "2026-11-17T04:17:32+00:00", "format": "auto", "invalid": 0, "raw_sha256": "4f22939fa8c50b66af4900e2cceb6320f15e68d24c535c091c64699a0c9b3eed", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml", "version": 1}
 d +.01.org
 d +.accountkit.com
 d +.acpica.com
@@ -605,6 +605,7 @@ d appleworldwidedeveloper.hb-api.omtrdc.net
 d appleworldwidedeveloper.sc.omtrdc.net
 d az764295.vo.msecnd.net
 d bingsettingssearch.trafficmanager.net
+d builds.dotnet.microsoft.com
 d cdn-cn.apple-mapkit.com
 d cdn-cn1.apple-mapkit.com
 d cdn-cn2.apple-mapkit.com
@@ -629,6 +630,7 @@ d developer.microsoft.com
 d developers.facebook.com
 d docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 d docker-pinata-support.s3.amazonaws.com
+d dotnetcli.trafficmanager.net
 d download.visualstudio.microsoft.com
 d dtlgalleryint.cloudapp.net
 d firebase-settings.crashlytics.com
@@ -685,9 +687,11 @@ d psg-int-centralus.cloudapp.net
 d psg-int-eastus.cloudapp.net
 d rink.hockeyapp.net
 d rt.services.visualstudio.com
+d sundry-star-net-geo.trafficmanager.net
 d update.crashlytics.com
 d vscode-sync-insiders.trafficmanager.net
 d vscode-sync.trafficmanager.net
 d vscode.blob.core.windows.net
+d vscode.download.prss.microsoft.com
 d vscode.search.windows.net
 d vsmarketplacebadge.apphb.com

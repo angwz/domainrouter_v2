@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 240, "fetched_at": "2026-11-08T23:58:11+00:00", "format": "auto", "invalid": 0, "raw_sha256": "7a7adfe27f6cac5a55ef878e0caefc7042c2e8a24c86cb58383c6340da47c643", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-cryptocurrency.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 241, "fetched_at": "2026-11-17T04:17:33+00:00", "format": "auto", "invalid": 0, "raw_sha256": "51a8c0a36002c9dbb2282fe77c77d593b8bb0525f775de67c1f6cb5c8973d375", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-cryptocurrency.yaml", "version": 1}
 d +.1inch.io
 d +.aave.com
 d +.asproex.com
@@ -102,6 +102,7 @@ d +.cryptomus.com
 d +.curve.fi
 d +.cyberx.com
 d +.debank.com
+d +.debot.ai
 d +.delets.cash
 d +.delets.online
 d +.deribit.com

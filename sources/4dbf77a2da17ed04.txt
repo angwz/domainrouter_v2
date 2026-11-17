@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27308, "fetched_at": "2026-11-15T01:28:51+00:00", "format": "auto", "invalid": 0, "raw_sha256": "19298e4f8f98f5ea38ad162125b5b3d165ca116fc03f8514e3bfdbb79083168a", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27313, "fetched_at": "2026-11-17T04:17:31+00:00", "format": "auto", "invalid": 0, "raw_sha256": "087d1425f77c35fd9812e23aa520606be21c6214f3dc56bfef26d7485f95a8d0", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -6395,6 +6395,7 @@ d +.dealtree.org
 d +.deasians.com
 d +.debank.com
 d +.debian.org
+d +.debot.ai
 d +.debug.com
 d +.debugproject.com
 d +.decentr.net
@@ -19610,6 +19611,7 @@ d +.reiporno.com
 d +.relateiq.com
 d +.religionnews.com
 d +.remirepo.net
+d +.remna.dev
 d +.remna.st
 d +.rencapbank.ru
 d +.renchead.com
@@ -26617,6 +26619,7 @@ d bnetcmsus-a.akamaihd.net
 d bnetproduct-a.akamaihd.net
 d bnetshopus.akamaized.net
 d brightcove.imgix.net
+d builds.dotnet.microsoft.com
 d bybit-exchange.github.io
 d bybit.ada.support
 d c.ppy.sh
@@ -26719,6 +26722,7 @@ d dlmobilegarena-a.akamaihd.net
 d dmqdd6hw24ucf.cloudfront.net
 d docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 d docker-pinata-support.s3.amazonaws.com
+d dotnetcli.trafficmanager.net
 d doy2mn9upadnk.cloudfront.net
 d dqd0jw5gvbchn.cloudfront.net
 d dqrpb9wgowsf5.cloudfront.net
@@ -27087,6 +27091,7 @@ d steamusercontent-a.akamaihd.net
 d steamuserimages-a.akamaihd.net
 d steamvideo-a.akamaihd.net
 d straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+d sundry-star-net-geo.trafficmanager.net
 d supercell.helpshift.com
 d supercell.zendesk.com
 d t.ssp.hinet.net
