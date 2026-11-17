@@ -1,7 +1,7 @@
 # NAME: Direct
 # GROUP: DIRECT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-11 09:41:09 (UTC+8)
+# UPDATED: 2026-11-17 12:18:37 (UTC+8)
 # TYPE: domain
 # TOTAL: 1980
 # SOURCE A: my.wei
@@ -918,7 +918,7 @@ payload:
   - '+.surface.downloads.prss.microsoft.com'  # B
   - '+.vlportal.download.prss.microsoft.com'  # B
   - '+.volic.download.prss.microsoft.com'  # B
-  - '+.vscode.download.prss.microsoft.com'  # B
+  - '+.vscode.download.prss.microsoft.com'  # B  合并 vscode.download.prss.microsoft.com AD
   - '+.vz.download.prss.microsoft.com'  # B
   - '+.windbg.download.prss.microsoft.com'  # B
   - '+.255.255.255.255.in-addr.arpa'  # F

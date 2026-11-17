@@ -1,9 +1,9 @@
 # NAME: Singapore
 # GROUP: 🧊 新加坡专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-17 12:18:37 (UTC+8)
 # TYPE: domain
-# TOTAL: 943
+# TOTAL: 944
 # SOURCE A: my.wei
 # SOURCE B: MetaCubeX · geosite/category-cryptocurrency.yaml
 # SOURCE C: blackmatrix7 · Crypto/Crypto.list
@@ -204,6 +204,7 @@ payload:
   - '+.dappradar.com'         # C
   - '+.dcabtc.com'            # C
   - '+.debank.com'            # B C D
+  - '+.debot.ai'              # B
   - '+.defieye.io'            # C
   - '+.defillama.com'         # C
   - '+.defipulse.com'         # C

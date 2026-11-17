@@ -1,7 +1,7 @@
 # 规则更新说明
 
-- 生成时间（UTC）：2026-11-16T01:32:30+00:00
-- generation：`447915b08257b463`
+- 生成时间（UTC）：2026-11-17T04:18:37+00:00
+- generation：`e7a17e0ba4d14a7b`
 - 结果：有变化，已更新发布文件
 
 ## 宽泛规则
@@ -16,16 +16,43 @@
 
 | 文件 | 条目 | 新增 | 删除 |
 | --- | --- | --- | --- |
-| `clash-domain/AI.yaml` | 304 → 306 | 2 | 0 |
+| `clash-domain/America.yaml` | 1685 → 1689 | 4 | 0 |
+| `clash-domain/Proxy.yaml` | 29849 → 29851 | 2 | 0 |
+| `clash-domain/Singapore.yaml` | 943 → 944 | 1 | 0 |
 
 <details>
-<summary><code>clash-domain/AI.yaml</code></summary>
+<summary><code>clash-domain/America.yaml</code></summary>
+
+新增（4）：
+
+```text
+builds.dotnet.microsoft.com
+dotnetcli.trafficmanager.net
+sundry-star-net-geo.trafficmanager.net
+vscode.download.prss.microsoft.com
+```
+
+</details>
+
+<details>
+<summary><code>clash-domain/Proxy.yaml</code></summary>
 
 新增（2）：
 
 ```text
-cloud.zed.dev
-daily-cloudcode-pa.sandbox.googleapis.com
++.debot.ai
++.remna.dev
+```
+
+</details>
+
+<details>
+<summary><code>clash-domain/Singapore.yaml</code></summary>
+
+新增（1）：
+
+```text
++.debot.ai
 ```
 
 </details>
@@ -34,7 +61,7 @@ daily-cloudcode-pa.sandbox.googleapis.com
 
 | 规则组 | 输入 | 输出 | 重复 | 被覆盖 | 合并 |
 | --- | --- | --- | --- | --- | --- |
-| Direct | 3774 | 2563 | 347 | 22 | 857 |
+| Direct | 3775 | 2563 | 347 | 22 | 859 |
 | NS | 9 | 8 | 1 | 0 | 0 |
 | AI | 846 | 337 | 465 | 21 | 37 |
 | TikTok | 75 | 61 | 12 | 2 | 0 |
@@ -46,14 +73,14 @@ daily-cloudcode-pa.sandbox.googleapis.com
 | Telegram | 97 | 54 | 33 | 0 | 10 |
 | Japan | 545 | 308 | 194 | 42 | 0 |
 | HK | 5098 | 4017 | 784 | 44 | 288 |
-| Apple | 3594 | 1594 | 1558 | 281 | 4 |
-| Singapore | 2201 | 1091 | 1100 | 5 | 6 |
-| America | 2505 | 1689 | 631 | 179 | 8 |
+| Apple | 3598 | 1594 | 1558 | 285 | 4 |
+| Singapore | 2202 | 1092 | 1100 | 5 | 6 |
+| America | 2509 | 1693 | 631 | 179 | 8 |
 | ChinaMedia | 9972 | 7247 | 2220 | 425 | 117 |
 | OneDrive | 1086 | 684 | 385 | 13 | 8 |
-| Microsoft | 1508 | 770 | 611 | 120 | 14 |
+| Microsoft | 1511 | 770 | 611 | 123 | 14 |
 | Media | 13885 | 12585 | 1001 | 262 | 55 |
-| Proxy | 69573 | 30007 | 32927 | 6537 | 102 |
+| Proxy | 69578 | 30009 | 32927 | 6540 | 102 |
 | China | 506836 | 123409 | 337589 | 72 | 45767 |
 
 ## 会触发 DNS 解析的手写内联规则

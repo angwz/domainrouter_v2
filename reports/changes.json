@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T01:32:30+00:00",
-  "generation": "447915b08257b463c3cf25d432826d33b809267b7a6841b1a35c3e9014547789",
+  "generated_at": "2026-11-17T04:18:37+00:00",
+  "generation": "e7a17e0ba4d14a7b0bac28c2714264a1fe2b1e3219f6e76d29ef7321ad2af5ee",
   "changed": true,
   "files": [
     {
@@ -153,19 +153,21 @@
     },
     {
       "path": "clash-domain/AI.yaml",
-      "before": 304,
+      "before": 306,
       "after": 306,
-      "added": [
-        "cloud.zed.dev",
-        "daily-cloudcode-pa.sandbox.googleapis.com"
-      ],
+      "added": [],
       "removed": []
     },
     {
       "path": "clash-domain/America.yaml",
       "before": 1685,
-      "after": 1685,
-      "added": [],
+      "after": 1689,
+      "added": [
+        "builds.dotnet.microsoft.com",
+        "dotnetcli.trafficmanager.net",
+        "sundry-star-net-geo.trafficmanager.net",
+        "vscode.download.prss.microsoft.com"
+      ],
       "removed": []
     },
     {
@@ -262,15 +264,20 @@
     {
       "path": "clash-domain/Proxy.yaml",
       "before": 29849,
-      "after": 29849,
-      "added": [],
+      "after": 29851,
+      "added": [
+        "+.debot.ai",
+        "+.remna.dev"
+      ],
       "removed": []
     },
     {
       "path": "clash-domain/Singapore.yaml",
       "before": 943,
-      "after": 943,
-      "added": [],
+      "after": 944,
+      "added": [
+        "+.debot.ai"
+      ],
       "removed": []
     },
     {
@@ -657,7 +664,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev%40cn.yaml",
       "format": "auto",
-      "entries": 24,
+      "entries": 25,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -713,7 +720,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml",
       "format": "auto",
-      "entries": 27308,
+      "entries": 27313,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1201,7 +1208,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml",
       "format": "auto",
-      "entries": 1794,
+      "entries": 1798,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1233,7 +1240,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml",
       "format": "auto",
-      "entries": 692,
+      "entries": 696,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1449,7 +1456,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-cryptocurrency.yaml",
       "format": "auto",
-      "entries": 240,
+      "entries": 241,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1745,7 +1752,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml",
       "format": "auto",
-      "entries": 756,
+      "entries": 759,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2107,11 +2114,11 @@
   "optimization": [
     {
       "collections": "Direct",
-      "input": 3774,
+      "input": 3775,
       "output": 2563,
       "duplicates": 347,
       "covered": 22,
-      "merged": 857
+      "merged": 859
     },
     {
       "collections": "NS",
@@ -2203,24 +2210,24 @@
     },
     {
       "collections": "Apple",
-      "input": 3594,
+      "input": 3598,
       "output": 1594,
       "duplicates": 1558,
-      "covered": 281,
+      "covered": 285,
       "merged": 4
     },
     {
       "collections": "Singapore",
-      "input": 2201,
-      "output": 1091,
+      "input": 2202,
+      "output": 1092,
       "duplicates": 1100,
       "covered": 5,
       "merged": 6
     },
     {
       "collections": "America",
-      "input": 2505,
-      "output": 1689,
+      "input": 2509,
+      "output": 1693,
       "duplicates": 631,
       "covered": 179,
       "merged": 8
@@ -2243,10 +2250,10 @@
     },
     {
       "collections": "Microsoft",
-      "input": 1508,
+      "input": 1511,
       "output": 770,
       "duplicates": 611,
-      "covered": 120,
+      "covered": 123,
       "merged": 14
     },
     {
@@ -2259,10 +2266,10 @@
     },
     {
       "collections": "Proxy",
-      "input": 69573,
-      "output": 30007,
+      "input": 69578,
+      "output": 30009,
       "duplicates": 32927,
-      "covered": 6537,
+      "covered": 6540,
       "merged": 102
     },
     {

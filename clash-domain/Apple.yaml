@@ -1,7 +1,7 @@
 # NAME: Apple
 # GROUP: 🍎 Apple
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-17 12:18:37 (UTC+8)
 # TYPE: domain
 # TOTAL: 1561
 # SOURCE A: ruleset.skk.moe · non_ip/apple_cn.txt
@@ -111,7 +111,7 @@ payload:
   - '+.apple.cm'                    # C D
   - '+.apple.cn'                    # C D  覆盖 api.smoot.apple.cn A
   - '+.apple.co'                    # C D
-  - '+.apple.com'                   # C D  覆盖 +.adcdownload.apple.com B, +.advertising.apple.com C 等 254 条
+  - '+.apple.com'                   # C D  覆盖 +.adcdownload.apple.com B, +.advertising.apple.com C 等 258 条
   - '+.apple.cz'                    # C D
   - '+.apple.de'                    # C D
   - '+.apple.dk'                    # C D

@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-15 09:29:46 (UTC+8)
+# UPDATED: 2026-11-17 12:18:37 (UTC+8)
 # TYPE: domain
-# TOTAL: 29849
+# TOTAL: 29851
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -6463,6 +6463,7 @@ payload:
   - '+.deasians.com'         # B C
   - '+.debank.com'           # B C
   - '+.debian.org'           # B C
+  - '+.debot.ai'             # B
   - '+.debug.com'            # A B C
   - '+.debugproject.com'     # B C
   - '+.decentr.net'          # B C
@@ -15386,7 +15387,7 @@ payload:
   - '+.microsoft.cat'        # B C
   - '+.microsoft.ch'         # B C
   - '+.microsoft.cl'         # B C
-  - '+.microsoft.com'        # A B C  覆盖 azure.microsoft.com B, azuremarketplace.microsoft.com B 等 10 条
+  - '+.microsoft.com'        # A B C  覆盖 azure.microsoft.com B, azuremarketplace.microsoft.com B 等 11 条
   - '+.microsoft.cz'         # B C
   - '+.microsoft.de'         # B C
   - '+.microsoft.dk'         # B C
@@ -20011,6 +20012,7 @@ payload:
   - '+.religionnews.com'     # A B C
   - '+.religioustolerance.org'  # A C
   - '+.remirepo.net'         # B C
+  - '+.remna.dev'            # B
   - '+.remna.st'             # B C
   - '+.rencapbank.ru'        # B C
   - '+.renchead.com'         # B C
@@ -23320,7 +23322,7 @@ payload:
   - '+.tradingview.com'      # A B C
   - '+.trae.ai'              # B C
   - '+.traffichaus.com'      # C
-  - '+.trafficmanager.net'   # B C  覆盖 bingsettingssearch.trafficmanager.net B, client-teamviewer-com.trafficmanager.net B 等 4 条
+  - '+.trafficmanager.net'   # B C  覆盖 bingsettingssearch.trafficmanager.net B, client-teamviewer-com.trafficmanager.net B 等 6 条
   - '+.trakt.tv'             # A C
   - '+.tranny.one'           # B C
   - '+.trannygem.com'        # B C

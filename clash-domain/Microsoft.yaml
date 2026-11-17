@@ -1,7 +1,7 @@
 # NAME: Microsoft
 # GROUP: 🪟 Microsoft
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-17 12:18:37 (UTC+8)
 # TYPE: domain
 # TOTAL: 763
 # SOURCE A: MetaCubeX · geosite/microsoft.yaml
@@ -346,7 +346,7 @@ payload:
   - '+.microsoft.cat'            # A B
   - '+.microsoft.ch'             # A B
   - '+.microsoft.cl'             # A B
-  - '+.microsoft.com'            # A B  覆盖 +.data.microsoft.com A, +.dcg.microsoft.com A 等 56 条
+  - '+.microsoft.com'            # A B  覆盖 +.data.microsoft.com A, +.dcg.microsoft.com A 等 57 条
   - '+.microsoft.cz'             # A B
   - '+.microsoft.de'             # A B
   - '+.microsoft.dk'             # A B
@@ -645,7 +645,7 @@ payload:
   - '+.thegithubshop.com'        # A
   - '+.timelinestoryteller.com'  # A B
   - '+.trafficmanager.cn'        # A B
-  - '+.trafficmanager.net'       # A B C  覆盖 bingsettingssearch.trafficmanager.net A, vscode-sync-insiders.trafficmanager.net A 等 3 条
+  - '+.trafficmanager.net'       # A B C  覆盖 bingsettingssearch.trafficmanager.net A, dotnetcli.trafficmanager.net A 等 5 条
   - '+.translatetheweb.com'      # A B
   - '+.trustcenter.cn'           # A B
   - '+.tryfunctions.com'         # A B
