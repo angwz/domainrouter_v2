@@ -33,7 +33,7 @@ ruleset = "[]MATCH"
 
 ## subconverter 端需要满足的条件
 
-以下结论来自 fork 源码，尚未在实际部署的 subconverter 上运行验证：
+以下结论来自 fork 源码，未逐条在实际部署上核对；整套产物已于 2026-11-18 在生产环境正常取用：
 
 - 要走原生 provider 路径，`managed_config_prefix` 不能为空，且请求不能带 `expand=true`；还需开启 `enable_rule_generator`。
 - 通过订阅链接 `config=` 加载外部配置时，fork 最多接受 **64** 条 rulesets，超出时构建会给出 `W_RULESET_LIMIT` 提示。在 pref 配置中直接导入 `rulesets.toml` 不受这个限制。
