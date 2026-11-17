@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-17 12:18:37 (UTC+8)
+# UPDATED: 2026-11-18 00:44:12 (UTC+8)
 # TYPE: domain
-# TOTAL: 29851
+# TOTAL: 29853
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -6245,6 +6245,7 @@ payload:
   - '+.cyberpunk.net'        # B C
   - '+.cybersport.ru'        # B C
   - '+.cyberx.com'           # B C
+  - '+.cygames.com'          # B
   - '+.cygames.jp'           # A B C
   - '+.cygwin.com'           # B C
   - '+.cylink.pro'           # B C
@@ -26527,6 +26528,7 @@ payload:
   - '+.yayabay.com'          # A C
   - '+.yayadizhi.xyz'        # B C
   - '+.yazhouse8.com'        # B C
+  - '+.yb-payment.ru'        # B
   - '+.yccdn.ru'             # B C
   - '+.yclients.com'         # B C
   - '+.ycombinator.com'      # A B C

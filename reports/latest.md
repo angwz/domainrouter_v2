@@ -1,7 +1,7 @@
 # 规则更新说明
 
-- 生成时间（UTC）：2026-11-17T04:18:37+00:00
-- generation：`e7a17e0ba4d14a7b`
+- 生成时间（UTC）：2026-11-17T16:44:12+00:00
+- generation：`955784a30ad0d542`
 - 结果：有变化，已更新发布文件
 
 ## 宽泛规则
@@ -16,20 +16,18 @@
 
 | 文件 | 条目 | 新增 | 删除 |
 | --- | --- | --- | --- |
-| `clash-domain/America.yaml` | 1685 → 1689 | 4 | 0 |
-| `clash-domain/Proxy.yaml` | 29849 → 29851 | 2 | 0 |
-| `clash-domain/Singapore.yaml` | 943 → 944 | 1 | 0 |
+| `clash-domain/ChinaMedia.yaml` | 5502 → 5503 | 1 | 0 |
+| `clash-domain/Proxy.yaml` | 29851 → 29853 | 2 | 0 |
+| `clash-ipcidr/Direct-ipcidr.yaml` | 530 → 533 | 4 | 1 |
+| `clash-ipcidr/HK-ipcidr.yaml` | 2715 → 2716 | 1 | 0 |
 
 <details>
-<summary><code>clash-domain/America.yaml</code></summary>
+<summary><code>clash-domain/ChinaMedia.yaml</code></summary>
 
-新增（4）：
+新增（1）：
 
 ```text
-builds.dotnet.microsoft.com
-dotnetcli.trafficmanager.net
-sundry-star-net-geo.trafficmanager.net
-vscode.download.prss.microsoft.com
++.cygames.com
 ```
 
 </details>
@@ -40,19 +38,39 @@ vscode.download.prss.microsoft.com
 新增（2）：
 
 ```text
-+.debot.ai
-+.remna.dev
++.cygames.com
++.yb-payment.ru
 ```
 
 </details>
 
 <details>
-<summary><code>clash-domain/Singapore.yaml</code></summary>
+<summary><code>clash-ipcidr/Direct-ipcidr.yaml</code></summary>
+
+新增（4）：
+
+```text
+156.238.126.0/24
+166.0.16.0/24
+2602:f506:81::/64
+2602:f988:211:bd8::/64
+```
+
+删除（1）：
+
+```text
+207.56.18.0/24
+```
+
+</details>
+
+<details>
+<summary><code>clash-ipcidr/HK-ipcidr.yaml</code></summary>
 
 新增（1）：
 
 ```text
-+.debot.ai
+2607:9d00:2000:137::/64
 ```
 
 </details>
@@ -61,7 +79,7 @@ vscode.download.prss.microsoft.com
 
 | 规则组 | 输入 | 输出 | 重复 | 被覆盖 | 合并 |
 | --- | --- | --- | --- | --- | --- |
-| Direct | 3775 | 2563 | 347 | 22 | 859 |
+| Direct | 3778 | 2566 | 347 | 22 | 859 |
 | NS | 9 | 8 | 1 | 0 | 0 |
 | AI | 846 | 337 | 465 | 21 | 37 |
 | TikTok | 75 | 61 | 12 | 2 | 0 |
@@ -72,15 +90,15 @@ vscode.download.prss.microsoft.com
 | Google | 9758 | 8869 | 612 | 217 | 85 |
 | Telegram | 97 | 54 | 33 | 0 | 10 |
 | Japan | 545 | 308 | 194 | 42 | 0 |
-| HK | 5098 | 4017 | 784 | 44 | 288 |
+| HK | 5099 | 4018 | 784 | 44 | 288 |
 | Apple | 3598 | 1594 | 1558 | 285 | 4 |
 | Singapore | 2202 | 1092 | 1100 | 5 | 6 |
 | America | 2509 | 1693 | 631 | 179 | 8 |
-| ChinaMedia | 9972 | 7247 | 2220 | 425 | 117 |
+| ChinaMedia | 9974 | 7248 | 2221 | 425 | 117 |
 | OneDrive | 1086 | 684 | 385 | 13 | 8 |
 | Microsoft | 1511 | 770 | 611 | 123 | 14 |
 | Media | 13885 | 12585 | 1001 | 262 | 55 |
-| Proxy | 69578 | 30009 | 32927 | 6540 | 102 |
+| Proxy | 69580 | 30011 | 32927 | 6540 | 102 |
 | China | 506836 | 123409 | 337589 | 72 | 45767 |
 
 ## 会触发 DNS 解析的手写内联规则

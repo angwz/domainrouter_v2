@@ -52,7 +52,7 @@ type = "select"
 
 [[custom_groups]]
 name = "🏖️ Community"
-rule = ["[]🌠 节点选择", "[]🧊 新加坡专线", "[]⛳ 美国专线", "[]🌺 日本专线", "[]✈️ 手动切换"]
+rule = ["[]🧊 新加坡专线", "[]🌠 节点选择", "[]⛳ 美国专线", "[]🌺 日本专线", "[]✈️ 手动切换"]
 type = "select"
 
 [[custom_groups]]
@@ -113,29 +113,39 @@ lazy = false
 name = "⛳ 美国专线"
 rule = [
   "[]🏞️ 美利坚高速",
-  "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|us|United States)",
+  '\A[^|]*(?:美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?<![A-Za-z])(?i:US)(?![A-Za-z])|(?<![A-Za-z])(?i:United ?States)(?![A-Za-z]))[^|]*(?:\||\z)',
+  "[]🦁 新加坡高速",
 ]
 type = "fallback"
 url = "https://www.gstatic.com/generate_204"
 
 [[custom_groups]]
 name = "🎇 香港高速"
-rule = ["(港|HK|hk|Hong Kong|HongKong|hongkong)", "[]⛳ 美国专线"]
+rule = [
+  '\A[^|]*(?:香港|港|(?<![A-Za-z])(?i:HK)(?![A-Za-z])|(?<![A-Za-z])(?i:Hong ?Kong)(?![A-Za-z]))[^|]*(?:\||\z)',
+  "[]⛳ 美国专线",
+]
 type = "select"
 
 [[custom_groups]]
 name = "🗾 日本高速"
-rule = ["(^(?=.*(日|东京|大阪|埼玉|JP|jp|Japan))(?!.*尼日利亚).*$)", "[]⛳ 美国专线"]
+rule = [
+  '\A(?![^|]*尼日利亚)[^|]*(?:日本|日|东京|大阪|埼玉|(?<![A-Za-z])(?i:JP)(?![A-Za-z])|(?<![A-Za-z])(?i:Japan)(?![A-Za-z]))[^|]*(?:\||\z)',
+  "[]⛳ 美国专线",
+]
 type = "select"
 
 [[custom_groups]]
 name = "🦁 新加坡高速"
-rule = ["(新加坡|新|坡|狮城|SG|sg|Singapore)", "[]⛳ 美国专线"]
+rule = [
+  '\A(?![^|]*(?:新西兰|新几内亚))[^|]*(?:新加坡|新|坡|狮城|(?<![A-Za-z])(?i:SG)(?![A-Za-z])|(?<![A-Za-z])(?i:Singapore)(?![A-Za-z]))[^|]*(?:\||\z)',
+  "[]🏞️ 美利坚高速",
+]
 type = "select"
 
 [[custom_groups]]
 name = "🏞️ 美利坚高速"
 rule = [
-  "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|us|United States)",
+  '\A[^|]*(?:美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?<![A-Za-z])(?i:US)(?![A-Za-z])|(?<![A-Za-z])(?i:United ?States)(?![A-Za-z]))[^|]*(?:\||\z)',
 ]
 type = "select"

@@ -1,9 +1,9 @@
 # NAME: ChinaMedia
 # GROUP: DIRECT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-18 00:44:12 (UTC+8)
 # TYPE: domain
-# TOTAL: 5502
+# TOTAL: 5503
 # SOURCE A: MetaCubeX · geosite/category-social-media-cn.yaml
 # SOURCE B: MetaCubeX · geosite/category-media-cn.yaml
 # SOURCE C: blackmatrix7 · ChinaMedia/ChinaMedia.list
@@ -1184,6 +1184,7 @@ payload:
   - '+.cxzx10086.cn'           # V Y
   - '+.cy.com'                 # B E
   - '+.cyberpunk.net'          # E G
+  - '+.cygames.com'            # E G
   - '+.cygames.jp'             # E G  覆盖 +.api-priconne-redive.cygames.jp F, +.omotenashi.cygames.jp F
   - '+.cyol.com'               # B
   - '+.cyol.net'               # B

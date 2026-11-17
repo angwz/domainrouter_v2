@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T04:18:37+00:00",
-  "generation": "e7a17e0ba4d14a7b0bac28c2714264a1fe2b1e3219f6e76d29ef7321ad2af5ee",
+  "generated_at": "2026-11-17T16:44:12+00:00",
+  "generation": "955784a30ad0d542fdb4942d401d51026a657cee0d3b59dd6401471c693d09ed",
   "changed": true,
   "files": [
     {
@@ -160,14 +160,9 @@
     },
     {
       "path": "clash-domain/America.yaml",
-      "before": 1685,
+      "before": 1689,
       "after": 1689,
-      "added": [
-        "builds.dotnet.microsoft.com",
-        "dotnetcli.trafficmanager.net",
-        "sundry-star-net-geo.trafficmanager.net",
-        "vscode.download.prss.microsoft.com"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -194,8 +189,10 @@
     {
       "path": "clash-domain/ChinaMedia.yaml",
       "before": 5502,
-      "after": 5502,
-      "added": [],
+      "after": 5503,
+      "added": [
+        "+.cygames.com"
+      ],
       "removed": []
     },
     {
@@ -263,21 +260,19 @@
     },
     {
       "path": "clash-domain/Proxy.yaml",
-      "before": 29849,
-      "after": 29851,
+      "before": 29851,
+      "after": 29853,
       "added": [
-        "+.debot.ai",
-        "+.remna.dev"
+        "+.cygames.com",
+        "+.yb-payment.ru"
       ],
       "removed": []
     },
     {
       "path": "clash-domain/Singapore.yaml",
-      "before": 943,
+      "before": 944,
       "after": 944,
-      "added": [
-        "+.debot.ai"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -346,9 +341,16 @@
     {
       "path": "clash-ipcidr/Direct-ipcidr.yaml",
       "before": 530,
-      "after": 530,
-      "added": [],
-      "removed": []
+      "after": 533,
+      "added": [
+        "156.238.126.0/24",
+        "166.0.16.0/24",
+        "2602:f506:81::/64",
+        "2602:f988:211:bd8::/64"
+      ],
+      "removed": [
+        "207.56.18.0/24"
+      ]
     },
     {
       "path": "clash-ipcidr/Google-ipcidr.yaml",
@@ -360,8 +362,10 @@
     {
       "path": "clash-ipcidr/HK-ipcidr.yaml",
       "before": 2715,
-      "after": 2715,
-      "added": [],
+      "after": 2716,
+      "added": [
+        "2607:9d00:2000:137::/64"
+      ],
       "removed": []
     },
     {
@@ -720,7 +724,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml",
       "format": "auto",
-      "entries": 27313,
+      "entries": 27315,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1912,7 +1916,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml",
       "format": "auto",
-      "entries": 1059,
+      "entries": 1060,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1928,7 +1932,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-games-!cn.yaml",
       "format": "auto",
-      "entries": 881,
+      "entries": 882,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2114,8 +2118,8 @@
   "optimization": [
     {
       "collections": "Direct",
-      "input": 3775,
-      "output": 2563,
+      "input": 3778,
+      "output": 2566,
       "duplicates": 347,
       "covered": 22,
       "merged": 859
@@ -2202,8 +2206,8 @@
     },
     {
       "collections": "HK",
-      "input": 5098,
-      "output": 4017,
+      "input": 5099,
+      "output": 4018,
       "duplicates": 784,
       "covered": 44,
       "merged": 288
@@ -2234,9 +2238,9 @@
     },
     {
       "collections": "ChinaMedia",
-      "input": 9972,
-      "output": 7247,
-      "duplicates": 2220,
+      "input": 9974,
+      "output": 7248,
+      "duplicates": 2221,
       "covered": 425,
       "merged": 117
     },
@@ -2266,8 +2270,8 @@
     },
     {
       "collections": "Proxy",
-      "input": 69578,
-      "output": 30009,
+      "input": 69580,
+      "output": 30011,
       "duplicates": 32927,
       "covered": 6540,
       "merged": 102

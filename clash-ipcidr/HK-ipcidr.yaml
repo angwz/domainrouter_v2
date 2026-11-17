@@ -1,11 +1,11 @@
 # NAME: HK
 # GROUP: 🛫 香港专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-18 00:44:12 (UTC+8)
 # TYPE: ipcidr
-# TOTAL: 2715
+# TOTAL: 2716
 # IP-CIDR: 1936
-# IP-CIDR6: 779
+# IP-CIDR6: 780
 # SOURCE A: my.wei
 # SOURCE B: blackmatrix7 · Cloudflare/Cloudflare.list
 # SOURCE C: blackmatrix7 · CloudGlobal/CloudGlobal.list
@@ -2592,6 +2592,7 @@ payload:
   - '2606:6c00:8000::/48'  # C
   - '2606:6c00:a000::/48'  # C
   - '2606:6c00:c000::/48'  # C
+  - '2607:9d00:2000:137::/64'  # A
   - '2607:f5b4:88:109::/64'  # A
   - '2620:107:300f::/48'   # C
   - '2620:108:7000::/44'   # C
