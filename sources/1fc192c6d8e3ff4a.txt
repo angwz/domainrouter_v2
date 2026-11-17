@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1059, "fetched_at": "2026-11-08T23:58:21+00:00", "format": "auto", "invalid": 0, "raw_sha256": "3182ca8785117ea083d3cb5655dfef14a38ac2bcf8347ef96ea8a5086a50859f", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1060, "fetched_at": "2026-11-17T16:43:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "535a0a9b3a39aa251190a21b961ea72698c8596cd5f26ab7455e6d8752c3fc6d", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml", "version": 1}
 d +.100classicbooks.com
 d +.17173.com
 d +.17173cdn.com
@@ -170,6 +170,7 @@ d +.curseforge.com
 d +.cy.com
 d +.cyberpunk.net
 d +.cygames.co.jp
+d +.cygames.com
 d +.cygames.jp
 d +.daoc.net
 d +.darkageofcamelot.com

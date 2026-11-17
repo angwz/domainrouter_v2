@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27313, "fetched_at": "2026-11-17T04:17:31+00:00", "format": "auto", "invalid": 0, "raw_sha256": "087d1425f77c35fd9812e23aa520606be21c6214f3dc56bfef26d7485f95a8d0", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27315, "fetched_at": "2026-11-17T16:43:07+00:00", "format": "auto", "invalid": 0, "raw_sha256": "e97c4726d777cb6f09e95a4dee1831ce7c11888af4009150e9d2898eb3217ea2", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -6213,6 +6213,7 @@ d +.cybertrust.co.jp
 d +.cybertrust.ne.jp
 d +.cyberx.com
 d +.cygames.co.jp
+d +.cygames.com
 d +.cygames.jp
 d +.cygwin.com
 d +.cylink.pro
@@ -25942,6 +25943,7 @@ d +.yavtube.com
 d +.yaya.cyou
 d +.yayadizhi.xyz
 d +.yazhouse8.com
+d +.yb-payment.ru
 d +.yccdn.ru
 d +.yclients.com
 d +.ycombinator.com
