@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 217, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "887a41613218b6593eba7f23fbbe7bd84b70c863f3bc3d3d289472770da8c164", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-chat-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 218, "fetched_at": "2026-11-19T02:54:34+00:00", "format": "auto", "invalid": 0, "raw_sha256": "0a4b4f360af34e6569ec90daace5cc48dec585a19cacf2f5b308b372a6815d09", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-chat-!cn.yaml", "version": 1}
 d +.agentclientprotocol.com
 d +.ai.studio
 d +.aicode.googleapis.com
@@ -77,6 +77,7 @@ d +.dreamgen.com
 d +.duck.ai
 d +.elevenlabs.com
 d +.elevenlabs.io
+d +.elevenlabsusercontent.com
 d +.envato-static.com
 d +.envato.com
 d +.envatousercontent.com
