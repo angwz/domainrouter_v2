@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T16:44:12+00:00",
-  "generation": "955784a30ad0d542fdb4942d401d51026a657cee0d3b59dd6401471c693d09ed",
+  "generated_at": "2026-11-19T02:55:19+00:00",
+  "generation": "d6bad3687f1f26707cf56cdb947e22533e2473b19d0c4391c0f4ab309010b2f0",
   "changed": true,
   "files": [
     {
@@ -154,8 +154,10 @@
     {
       "path": "clash-domain/AI.yaml",
       "before": 306,
-      "after": 306,
-      "added": [],
+      "after": 307,
+      "added": [
+        "+.elevenlabsusercontent.com"
+      ],
       "removed": []
     },
     {
@@ -188,11 +190,9 @@
     },
     {
       "path": "clash-domain/ChinaMedia.yaml",
-      "before": 5502,
+      "before": 5503,
       "after": 5503,
-      "added": [
-        "+.cygames.com"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -260,12 +260,9 @@
     },
     {
       "path": "clash-domain/Proxy.yaml",
-      "before": 29851,
+      "before": 29853,
       "after": 29853,
-      "added": [
-        "+.cygames.com",
-        "+.yb-payment.ru"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -340,17 +337,10 @@
     },
     {
       "path": "clash-ipcidr/Direct-ipcidr.yaml",
-      "before": 530,
+      "before": 533,
       "after": 533,
-      "added": [
-        "156.238.126.0/24",
-        "166.0.16.0/24",
-        "2602:f506:81::/64",
-        "2602:f988:211:bd8::/64"
-      ],
-      "removed": [
-        "207.56.18.0/24"
-      ]
+      "added": [],
+      "removed": []
     },
     {
       "path": "clash-ipcidr/Google-ipcidr.yaml",
@@ -361,11 +351,9 @@
     },
     {
       "path": "clash-ipcidr/HK-ipcidr.yaml",
-      "before": 2715,
+      "before": 2716,
       "after": 2716,
-      "added": [
-        "2607:9d00:2000:137::/64"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -1116,7 +1104,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.yaml",
       "format": "auto",
-      "entries": 217,
+      "entries": 218,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1124,7 +1112,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-chat-!cn.yaml",
       "format": "auto",
-      "entries": 217,
+      "entries": 218,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2134,9 +2122,9 @@
     },
     {
       "collections": "AI",
-      "input": 846,
-      "output": 337,
-      "duplicates": 465,
+      "input": 848,
+      "output": 338,
+      "duplicates": 466,
       "covered": 21,
       "merged": 37
     },

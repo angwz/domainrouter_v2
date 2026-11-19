@@ -1,7 +1,7 @@
 # 规则更新说明
 
-- 生成时间（UTC）：2026-11-17T16:44:12+00:00
-- generation：`955784a30ad0d542`
+- 生成时间（UTC）：2026-11-19T02:55:19+00:00
+- generation：`d6bad3687f1f2670`
 - 结果：有变化，已更新发布文件
 
 ## 宽泛规则
@@ -16,61 +16,15 @@
 
 | 文件 | 条目 | 新增 | 删除 |
 | --- | --- | --- | --- |
-| `clash-domain/ChinaMedia.yaml` | 5502 → 5503 | 1 | 0 |
-| `clash-domain/Proxy.yaml` | 29851 → 29853 | 2 | 0 |
-| `clash-ipcidr/Direct-ipcidr.yaml` | 530 → 533 | 4 | 1 |
-| `clash-ipcidr/HK-ipcidr.yaml` | 2715 → 2716 | 1 | 0 |
+| `clash-domain/AI.yaml` | 306 → 307 | 1 | 0 |
 
 <details>
-<summary><code>clash-domain/ChinaMedia.yaml</code></summary>
+<summary><code>clash-domain/AI.yaml</code></summary>
 
 新增（1）：
 
 ```text
-+.cygames.com
-```
-
-</details>
-
-<details>
-<summary><code>clash-domain/Proxy.yaml</code></summary>
-
-新增（2）：
-
-```text
-+.cygames.com
-+.yb-payment.ru
-```
-
-</details>
-
-<details>
-<summary><code>clash-ipcidr/Direct-ipcidr.yaml</code></summary>
-
-新增（4）：
-
-```text
-156.238.126.0/24
-166.0.16.0/24
-2602:f506:81::/64
-2602:f988:211:bd8::/64
-```
-
-删除（1）：
-
-```text
-207.56.18.0/24
-```
-
-</details>
-
-<details>
-<summary><code>clash-ipcidr/HK-ipcidr.yaml</code></summary>
-
-新增（1）：
-
-```text
-2607:9d00:2000:137::/64
++.elevenlabsusercontent.com
 ```
 
 </details>
@@ -81,7 +35,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Direct | 3778 | 2566 | 347 | 22 | 859 |
 | NS | 9 | 8 | 1 | 0 | 0 |
-| AI | 846 | 337 | 465 | 21 | 37 |
+| AI | 848 | 338 | 466 | 21 | 37 |
 | TikTok | 75 | 61 | 12 | 2 | 0 |
 | Bilibili | 1539 | 1177 | 310 | 48 | 8 |
 | Tencent | 3375 | 2650 | 557 | 167 | 0 |

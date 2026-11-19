@@ -1,9 +1,9 @@
 # NAME: AI
 # GROUP: 🗨️ ChatGPT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-16 09:32:30 (UTC+8)
+# UPDATED: 2026-11-19 10:55:19 (UTC+8)
 # TYPE: domain
-# TOTAL: 306
+# TOTAL: 307
 # SOURCE A: MetaCubeX · geosite/x.yaml
 # SOURCE B: blackmatrix7 · Twitter/Twitter.list
 # SOURCE C: MetaCubeX · geosite/bing.yaml
@@ -111,6 +111,7 @@ payload:
   - '+.duck.ai'                        # F G
   - '+.elevenlabs.com'                 # F G
   - '+.elevenlabs.io'                  # F G
+  - '+.elevenlabsusercontent.com'      # F G
   - '+.envato-static.com'              # F G
   - '+.envato.com'                     # F G
   - '+.envatousercontent.com'          # F G
