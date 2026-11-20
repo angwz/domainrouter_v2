@@ -1,7 +1,9 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1060, "fetched_at": "2026-11-17T16:43:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "535a0a9b3a39aa251190a21b961ea72698c8596cd5f26ab7455e6d8752c3fc6d", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1062, "fetched_at": "2026-11-20T02:48:00+00:00", "format": "auto", "invalid": 0, "raw_sha256": "69d29cbdd59958a9a75d27c5c5c64327afc289118b70c8160c447fc9a3c6f9f7", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml", "version": 1}
 d +.100classicbooks.com
 d +.17173.com
 d +.17173cdn.com
+d +.1y.com
+d +.1ycdn.com
 d +.2k.com
 d +.2kcoretech.online
 d +.2kct.onl

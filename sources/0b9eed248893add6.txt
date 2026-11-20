@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 73, "fetched_at": "2026-11-08T23:58:21+00:00", "format": "auto", "invalid": 0, "raw_sha256": "6dd590314a1a97378d1f3960cd4dbdb047d7ebfda0c7b10ba2bd9d17580904e3", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/xiaomi.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 72, "fetched_at": "2026-11-20T02:48:00+00:00", "format": "auto", "invalid": 0, "raw_sha256": "3b7517f8f110c19e14222465575bfe441055e4699114acb10f4417d0b9c3b354", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/xiaomi.yaml", "version": 1}
 d +.a.market.xiaomi.com
 d +.ad.intl.xiaomi.com
 d +.ad.mi.com
@@ -35,7 +35,6 @@ d +.misc.in.duokanbox.com
 d +.mitvos.com
 d +.miui.com
 d +.miwifi.com
-d +.saxyit.com
 d +.sentry.d.mi.com
 d +.sentry.d.xiaomi.net
 d +.stats.music.xiaomi.com

@@ -1,4 +1,4 @@
-# {"detected_format": "auto→surge", "entries": 58, "fetched_at": "2026-11-16T01:31:40+00:00", "format": "auto", "invalid": 0, "raw_sha256": "88c7531fd4a2338559c05b424fdf94371765e4220ef410d816fda10163261938", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/non_ip/ai.txt", "version": 1}
+# {"detected_format": "auto→surge", "entries": 60, "fetched_at": "2026-11-20T02:47:58+00:00", "format": "auto", "invalid": 0, "raw_sha256": "715e26395174b08c1140e0ebcd640ce1dbe7c140dfa052317f7d0e1cf957f1b4", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/non_ip/ai.txt", "version": 1}
 c DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 c DOMAIN-KEYWORD,openai
 d +.ai.com
@@ -47,6 +47,8 @@ d antigravity-unleash.goog
 d antigravity.google
 d api.github.com
 d api.jetbrains.ai
+d bridge.claudeusercontent.com
+d claude.site
 d cloud.zed.dev
 d daily-cloudcode-pa.googleapis.com
 d daily-cloudcode-pa.sandbox.googleapis.com

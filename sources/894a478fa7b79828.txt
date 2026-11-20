@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 466, "fetched_at": "2026-11-08T23:58:21+00:00", "format": "auto", "invalid": 0, "raw_sha256": "4c81c05f0897986244df9e201cd55e017c4d56c1d6a278d7c1449e77cd6e595b", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/alibaba.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 467, "fetched_at": "2026-11-20T02:48:00+00:00", "format": "auto", "invalid": 0, "raw_sha256": "12c6531dc4662e24082fd17ec46f6f748c937e19363ac8a721e384dba8e67f73", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/alibaba.yaml", "version": 1}
 d +.11222.cn
 d +.1688.com
 d +.25pp.com
@@ -348,6 +348,7 @@ d +.oss-cn-shanghai.aliyuncs.com
 d +.oss-cn-shenzhen.aliyuncs.com
 d +.oss-cn-wulanchabu.aliyuncs.com
 d +.oss-cn-zhangjiakou.aliyuncs.com
+d +.oss-enet.aliyuncs.com
 d +.oss-eu-central-1.aliyuncs.com
 d +.oss-eu-west-1.aliyuncs.com
 d +.oss-me-east-1.aliyuncs.com

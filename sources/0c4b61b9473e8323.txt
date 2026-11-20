@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 688, "fetched_at": "2026-11-08T23:58:18+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f03f9db1c0578c0e8df3042fbde2301b234e2b8ecb7d954fcb247aebfaa8b416", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tencent.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 689, "fetched_at": "2026-11-20T02:47:59+00:00", "format": "auto", "invalid": 0, "raw_sha256": "77113496b61e77ea3bcafca2579db27fbc60944fd1dce1ece7ab18dadb60b11b", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tencent.yaml", "version": 1}
 d +.17roco.com
 d +.97ting.com
 d +.acctdns.com
@@ -537,6 +537,7 @@ d +.tencent.com.hk
 d +.tencent.design
 d +.tencent.net
 d +.tencent.net.cn
+d +.tencentads.com
 d +.tencentapps.com
 d +.tencentbyod.com
 d +.tencentcdb.cn

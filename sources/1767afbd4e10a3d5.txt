@@ -1,8 +1,10 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 459, "fetched_at": "2026-11-08T23:58:20+00:00", "format": "auto", "invalid": 0, "raw_sha256": "56ecfad12dc88fa2fb12e917fb0b30b5cfbcb285f736ef0bbbddd7a1bb5914ab", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-media-cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 461, "fetched_at": "2026-11-20T02:48:00+00:00", "format": "auto", "invalid": 0, "raw_sha256": "1c0488ce4abd87dd9a0f2b825a15377215183517f3d07612289b6358ee202c60", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-media-cn.yaml", "version": 1}
 d +.0033.cn
 d +.10jqka.com.cn
 d +.17173.com
 d +.17173cdn.com
+d +.1y.com
+d +.1ycdn.com
 d +.21jingji.com
 d +.36dianping.com
 d +.36kr.com

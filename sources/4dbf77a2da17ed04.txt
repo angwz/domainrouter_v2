@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27315, "fetched_at": "2026-11-17T16:43:07+00:00", "format": "auto", "invalid": 0, "raw_sha256": "e97c4726d777cb6f09e95a4dee1831ce7c11888af4009150e9d2898eb3217ea2", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27315, "fetched_at": "2026-11-20T02:47:56+00:00", "format": "auto", "invalid": 0, "raw_sha256": "dcb2bf530a192c938bd77ee480f6d5ad6fde83e1873801276f6d01873f9bf5c8", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -7807,6 +7807,7 @@ d +.elephanttube.com
 d +.elephanttubenew.com
 d +.elevenlabs.com
 d +.elevenlabs.io
+d +.elevenlabsusercontent.com
 d +.elgaronline.com
 d +.elgoog.im
 d +.elifesciences.org
@@ -25908,7 +25909,6 @@ d +.yandexdataschool.ru
 d +.yandexgo.com
 d +.yandexlyceum.ru
 d +.yandexwebcache.net
-d +.yandexwebcache.org
 d +.yango-b2b.com
 d +.yango-team.com
 d +.yango-tech.com

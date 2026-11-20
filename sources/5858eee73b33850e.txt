@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 58, "fetched_at": "2026-11-08T23:58:21+00:00", "format": "auto", "invalid": 0, "raw_sha256": "81118a95c918abc455bb9f36657277be17b69533cd9cd13ad9f88b43b7dc92d5", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/lenovo.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 61, "fetched_at": "2026-11-20T02:48:00+00:00", "format": "auto", "invalid": 0, "raw_sha256": "df120b25a309fd7a6b72891640ef4993fe0518c4fc280fdb3c93de25e03a99f9", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/lenovo.yaml", "version": 1}
 d +.baiying.cn
 d +.baiying.com.cn
 d +.bestrhy.com
@@ -17,6 +17,7 @@ d +.juhuiwan.com
 d +.juhuiwan.com.cn
 d +.juhuiwan.net
 d +.lecoo.com
+d +.lefile.cn
 d +.lenauth.com
 d +.lenovo.cn
 d +.lenovo.com
@@ -28,6 +29,8 @@ d +.lenovocloudos.com
 d +.lenovocust.cn
 d +.lenovoeservice.com
 d +.lenovofile.com
+d +.lenovofoundation.cn
+d +.lenovofuturecenter.com
 d +.lenovogame.com
 d +.lenovoimage.cn
 d +.lenovoimage.com
