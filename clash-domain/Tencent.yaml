@@ -1,7 +1,7 @@
 # NAME: Tencent
 # GROUP: DIRECT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-20 10:49:08 (UTC+8)
 # TYPE: domain
 # TOTAL: 2597
 # SOURCE A: blackmatrix7 · WeChat/WeChat.list
@@ -1474,7 +1474,7 @@ payload:
   - '+.tencent.design'        # D E
   - '+.tencent.net'           # D E
   - '+.tencentads.cn'         # E
-  - '+.tencentads.com'        # E
+  - '+.tencentads.com'        # D E
   - '+.tencentads.net'        # E
   - '+.tencentadx.com'        # E
   - '+.tencentanxin.com'      # E

@@ -1,9 +1,9 @@
 # NAME: ChinaMedia
 # GROUP: DIRECT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-18 00:44:12 (UTC+8)
+# UPDATED: 2026-11-20 10:49:08 (UTC+8)
 # TYPE: domain
-# TOTAL: 5503
+# TOTAL: 5507
 # SOURCE A: MetaCubeX · geosite/category-social-media-cn.yaml
 # SOURCE B: MetaCubeX · geosite/category-media-cn.yaml
 # SOURCE C: blackmatrix7 · ChinaMedia/ChinaMedia.list
@@ -107,6 +107,8 @@ payload:
   - '+.189qas.com'             # AA
   - '+.189smarthome.com'       # X
   - '+.1huizhan.com'           # H I
+  - '+.1y.com'                 # B E
+  - '+.1ycdn.com'              # B E
   - '+.2-class.com'            # M
   - '+.21cn.com'               # X AA
   - '+.21cn.net'               # AA
@@ -410,7 +412,7 @@ payload:
   - '+.aliyuncdn.com'          # L M
   - '+.aliyuncdn.net'          # L M
   - '+.aliyunceng.com'         # M
-  - '+.aliyuncs.com'           # M  覆盖 +.ap-southeast-1.aliyuncs.com L, +.cn-beijing.aliyuncs.com L 等 40 条
+  - '+.aliyuncs.com'           # M  覆盖 +.ap-southeast-1.aliyuncs.com L, +.cn-beijing.aliyuncs.com L 等 41 条
   - '+.aliyunddos0024.com'     # M
   - '+.aliyunddos1001.com'     # M
   - '+.aliyunddos1002.com'     # M
@@ -2586,6 +2588,7 @@ payload:
   - '+.learnwithleague.com'    # E F G
   - '+.lecoo.com'              # J
   - '+.ledu.com'               # E
+  - '+.lefile.cn'              # J
   - '+.legendofzelda.cn'       # E F G
   - '+.leijun.com'             # Q
   - '+.leikeji.com'            # B
@@ -2598,6 +2601,8 @@ payload:
   - '+.lenovocust.cn'          # J
   - '+.lenovoeservice.com'     # J K
   - '+.lenovofile.com'         # J
+  - '+.lenovofoundation.cn'    # J
+  - '+.lenovofuturecenter.com'  # J
   - '+.lenovogame.com'         # J K
   - '+.lenovoimage.cn'         # J
   - '+.lenovoimage.com'        # J
@@ -3261,7 +3266,6 @@ payload:
   - '+.sanguosha.com'          # E
   - '+.sanguows.com'           # S
   - '+.sankuai.com'            # T U
-  - '+.saxyit.com'             # P
   - '+.sbhimalayanml.com'      # M
   - '+.scdaily.cn'             # B
   - '+.scdn0077.com'           # M

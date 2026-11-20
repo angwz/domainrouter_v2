@@ -34,7 +34,7 @@
 | YouTube | `ipcidr` | 3 | 💻 YouTube | [YAML](clash-ipcidr/YouTube-ipcidr.yaml) · [MRS](clash-ipcidr/YouTube-ipcidr.mrs) |
 | YouTube | `classical` | 1 | 💻 YouTube | [YAML](clash-classic/YouTube-classic.yaml) |
 | Google | `domain` | 879 | 📩 Google | [YAML](clash-domain/Google.yaml) · [MRS](clash-domain/Google.mrs) |
-| Google | `ipcidr` | 7,979 | 📩 Google | [YAML](clash-ipcidr/Google-ipcidr.yaml) · [MRS](clash-ipcidr/Google-ipcidr.mrs) |
+| Google | `ipcidr` | 7,090 | 📩 Google | [YAML](clash-ipcidr/Google-ipcidr.yaml) · [MRS](clash-ipcidr/Google-ipcidr.mrs) |
 | Google | `classical` | 11 | 📩 Google | [YAML](clash-classic/Google-classic.yaml) |
 | Telegram | `domain` | 28 | 🛸 Telegram | [YAML](clash-domain/Telegram.yaml) · [MRS](clash-domain/Telegram.mrs) |
 | Telegram | `ipcidr` | 14 | 🛸 Telegram | [YAML](clash-ipcidr/Telegram-ipcidr.yaml) · [MRS](clash-ipcidr/Telegram-ipcidr.mrs) |
@@ -53,7 +53,7 @@
 | Singapore | `classical` | 7 | 🧊 新加坡专线 | [YAML](clash-classic/Singapore-classic.yaml) |
 | America | `domain` | 1,689 | ⛳ 美国专线 | [YAML](clash-domain/America.yaml) · [MRS](clash-domain/America.mrs) |
 | America | `classical` | 4 | ⛳ 美国专线 | [YAML](clash-classic/America-classic.yaml) |
-| ChinaMedia | `domain` | 5,503 | DIRECT | [YAML](clash-domain/ChinaMedia.yaml) · [MRS](clash-domain/ChinaMedia.mrs) |
+| ChinaMedia | `domain` | 5,507 | DIRECT | [YAML](clash-domain/ChinaMedia.yaml) · [MRS](clash-domain/ChinaMedia.mrs) |
 | ChinaMedia | `ipcidr` | 1,730 | DIRECT | [YAML](clash-ipcidr/ChinaMedia-ipcidr.yaml) · [MRS](clash-ipcidr/ChinaMedia-ipcidr.mrs) |
 | ChinaMedia | `classical` | 15 | DIRECT | [YAML](clash-classic/ChinaMedia-classic.yaml) |
 | OneDrive | `domain` | 672 | ⛅ OneDrive | [YAML](clash-domain/OneDrive.yaml) · [MRS](clash-domain/OneDrive.mrs) |
@@ -64,11 +64,11 @@
 | Media | `domain` | 11,104 | 🛖 国际流媒体 | [YAML](clash-domain/Media.yaml) · [MRS](clash-domain/Media.mrs) |
 | Media | `ipcidr` | 1,439 | 🛖 国际流媒体 | [YAML](clash-ipcidr/Media-ipcidr.yaml) · [MRS](clash-ipcidr/Media-ipcidr.mrs) |
 | Media | `classical` | 42 | 🛖 国际流媒体 | [YAML](clash-classic/Media-classic.yaml) |
-| Proxy | `domain` | 29,853 | 🌠 节点选择 | [YAML](clash-domain/Proxy.yaml) · [MRS](clash-domain/Proxy.mrs) |
+| Proxy | `domain` | 29,854 | 🌠 节点选择 | [YAML](clash-domain/Proxy.yaml) · [MRS](clash-domain/Proxy.mrs) |
 | Proxy | `ipcidr` | 119 | 🌠 节点选择 | [YAML](clash-ipcidr/Proxy-ipcidr.yaml) · [MRS](clash-ipcidr/Proxy-ipcidr.mrs) |
 | Proxy | `classical` | 39 | 🌠 节点选择 | [YAML](clash-classic/Proxy-classic.yaml) |
 | China | `domain` | 110,750 | DIRECT | [YAML](clash-domain/China.yaml) · [MRS](clash-domain/China.mrs) |
-| China | `ipcidr` | 12,558 | DIRECT | [YAML](clash-ipcidr/China-ipcidr.yaml) · [MRS](clash-ipcidr/China-ipcidr.mrs) |
+| China | `ipcidr` | 12,571 | DIRECT | [YAML](clash-ipcidr/China-ipcidr.yaml) · [MRS](clash-ipcidr/China-ipcidr.mrs) |
 | China | `classical` | 101 | DIRECT | [YAML](clash-classic/China-classic.yaml) |
 
 「维护者的用法」只是参考：维护者有多个地区的节点，会把面向不同地区的规则集分别指向对应的地区组。你的节点布局不同，按自己的情况安排即可。

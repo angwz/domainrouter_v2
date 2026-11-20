@@ -1,7 +1,7 @@
 # NAME: AI
 # GROUP: 🗨️ ChatGPT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-19 10:55:19 (UTC+8)
+# UPDATED: 2026-11-20 10:49:08 (UTC+8)
 # TYPE: domain
 # TOTAL: 307
 # SOURCE A: MetaCubeX · geosite/x.yaml
@@ -65,13 +65,13 @@ payload:
   - '+.claude.com'                     # F G H I
   - '+.claude.dev'                     # F G I
   - '+.claude.new'                     # F G I
-  - '+.claude.site'                    # F G I
+  - '+.claude.site'                    # F G I  合并 claude.site H
   - '+.claudeacademy.com'              # F G I
   - '+.claudemcpclient.com'            # F G I
   - '+.claudemcpcontent.com'           # F G I
   - '+.claudepages.dev'                # F G I
   - '+.claudestudio.com'               # F G I
-  - '+.claudeusercontent.com'          # F G I
+  - '+.claudeusercontent.com'          # F G I  覆盖 bridge.claudeusercontent.com H
   - '+.clawhub.ai'                     # F G
   - '+.cline.bot'                      # F G
   - '+.clipdrop.co'                    # F G H

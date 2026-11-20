@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-18 00:44:12 (UTC+8)
+# UPDATED: 2026-11-20 10:49:08 (UTC+8)
 # TYPE: domain
-# TOTAL: 29853
+# TOTAL: 29854
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -7851,6 +7851,7 @@ payload:
   - '+.elephanttubenew.com'  # B C
   - '+.elevenlabs.com'       # B C
   - '+.elevenlabs.io'        # B C
+  - '+.elevenlabsusercontent.com'  # B
   - '+.elgaronline.com'      # B C
   - '+.elgoog.im'            # A B C
   - '+.elifesciences.org'    # B C
@@ -26492,7 +26493,7 @@ payload:
   - '+.yandexgo.com'         # B C
   - '+.yandexlyceum.ru'      # B C
   - '+.yandexwebcache.net'   # B C
-  - '+.yandexwebcache.org'   # B C
+  - '+.yandexwebcache.org'   # C
   - '+.yanghengjun.com'      # A C
   - '+.yangjianli.com'       # A C
   - '+.yango-b2b.com'        # B C
