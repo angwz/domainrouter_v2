@@ -1,7 +1,7 @@
 # NAME: Apple
 # GROUP: 🍎 Apple
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-17 12:18:37 (UTC+8)
+# UPDATED: 2026-11-22 09:53:10 (UTC+8)
 # TYPE: domain
 # TOTAL: 1561
 # SOURCE A: ruleset.skk.moe · non_ip/apple_cn.txt
@@ -33,19 +33,19 @@ payload:
   - '+.2beatsdre.com'               # C D
   - '+.2buybeatsbydre.com'          # C D
   - '+.2drdrebeats.com'             # C D
-  - '+.40shopping.com'              # C D
+  - '+.40shopping.com'              # D
   - '+.4beatsbydre.com'             # C D
   - '+.5beatsbydre.com'             # C D
   - '+.5lml.com'                    # C D
   - '+.a0pple.net'                  # C D
   - '+.aaagradeheadphones.com'      # C D
-  - '+.aanaan.com'                  # C D
+  - '+.aanaan.com'                  # D
   - '+.aapl.tw'                     # C D
   - '+.aaplimg.com'                 # C D  覆盖 +.appldnld.g.aaplimg.com B, +.cds-cdn.v.aaplimg.com B 等 14 条
   - '+.abcheadphones.com'           # C D
   - '+.abeatsbydrdre.com'           # C D
-  - '+.aeasyshop.com'               # C D
-  - '+.airmay.com'                  # C D
+  - '+.aeasyshop.com'               # D
+  - '+.airmay.com'                  # D
   - '+.airport.brussels'            # C D
   - '+.airport.com'                 # C D
   - '+.airport.eu'                  # C D
@@ -53,12 +53,12 @@ payload:
   - '+.airtunes.com'                # C D
   - '+.airtunes.info'               # C D
   - '+.airtunes.net'                # C D
-  - '+.ajtalk.com'                  # C D
+  - '+.ajtalk.com'                  # D
   - '+.akadns.net'                  # D  覆盖 +.courier-push-apple.com.akadns.net C, +.itunes-apple.com.akadns.net B C 等 83 条
   - '+.albeats.com'                 # C D
   - '+.alchemysynth.com'            # C D
-  - '+.annstores.net'               # C D
-  - '+.aokwholesale.net'            # C D
+  - '+.annstores.net'               # D
+  - '+.aokwholesale.net'            # D
   - '+.ap0le.com'                   # C D
   - '+.aple.com'                    # C D
   - '+.aplestore.com'               # C D
@@ -336,10 +336,10 @@ payload:
   - '+.auricularesbeatsmarkt.com'   # C D
   - '+.ausbeatsbydrdre.com'         # C D
   - '+.axm-usercontent-apple.com'   # C  覆盖 icons.axm-usercontent-apple.com D
-  - '+.bag-glasses1.com'            # C D
-  - '+.bandgirlz.com'               # C D
-  - '+.baxsound.com'                # C D
-  - '+.bbestmall.com'               # C D
+  - '+.bag-glasses1.com'            # D
+  - '+.bandgirlz.com'               # D
+  - '+.baxsound.com'                # D
+  - '+.bbestmall.com'               # D
   - '+.beatbd.com'                  # C D
   - '+.beatbydre2013.com'           # C D
   - '+.beatbydreheadphonesonsale.com'  # C D
@@ -603,25 +603,25 @@ payload:
   - '+.beatswirelesscheap.com'      # C D
   - '+.beatswirelesscuffie.com'     # C D
   - '+.beddit.tv'                   # C D
-  - '+.begin-trade.com'             # C D
+  - '+.begin-trade.com'             # D
   - '+.bestbeats4u.com'             # C D
   - '+.bestiphonestuff.com'         # C D
   - '+.bestshoesale2014.net'        # C D
-  - '+.biitii.com'                  # C D
+  - '+.biitii.com'                  # D
   - '+.blackfridaydrebeatsnew.com'  # C D
   - '+.blackfridaydrebeatsshop.com'  # C D
-  - '+.bloommicroventures.com'      # C D
-  - '+.bookonsky.net'               # C D
-  - '+.bossae.com'                  # C D
+  - '+.bloommicroventures.com'      # D
+  - '+.bookonsky.net'               # D
+  - '+.bossae.com'                  # D
   - '+.braeburncapital.com'         # C D
-  - '+.brandeasygo.com'             # C D
-  - '+.brandelectronic.com'         # C D
-  - '+.brandproducts1688.com'       # C D
-  - '+.brands098.com'               # C D
+  - '+.brandeasygo.com'             # D
+  - '+.brandelectronic.com'         # D
+  - '+.brandproducts1688.com'       # D
+  - '+.brands098.com'               # D
   - '+.burstly.net'                 # C D
   - '+.burstlyrewards.com'          # C D
-  - '+.businesswebwise.com'         # C D
-  - '+.buy-from-shanghai.com'       # C D
+  - '+.businesswebwise.com'         # D
+  - '+.buy-from-shanghai.com'       # D
   - '+.buyaapl.com'                 # C D
   - '+.buyaapl.net'                 # C D
   - '+.buyaple.com'                 # C D
@@ -634,8 +634,8 @@ payload:
   - '+.buydrdrebeatbox.com'         # C D
   - '+.buyminibeatbox.com'          # C D
   - '+.buyonlineheadphones.com'     # C D
-  - '+.buyshoponly.com'             # C D
-  - '+.buzzardflapper.com'          # C D
+  - '+.buyshoponly.com'             # D
+  - '+.buzzardflapper.com'          # D
   - '+.bybeatsdre.com'              # C D
   - '+.bydrebeats.com'              # C D
   - '+.calendarserver.org'          # C D
@@ -701,8 +701,8 @@ payload:
   - '+.cheapestbeatsdrdre.com'      # C D
   - '+.cheapheadphonesland.com'     # C D
   - '+.cheapheadphonessale.com'     # C D
-  - '+.cheapheadsetmall.com'        # C D
-  - '+.cheapheadsetshop.com'        # C D
+  - '+.cheapheadsetmall.com'        # D
+  - '+.cheapheadsetshop.com'        # D
   - '+.cheapmonsterbeatsbydrdre.com'  # C D
   - '+.cheapmonsterbeatsheadsets.com'  # C D
   - '+.cheapmonsterbeatssale.com'   # C D
@@ -710,23 +710,23 @@ payload:
   - '+.cheapmonstersbeatsonsale.com'  # C D
   - '+.cheapnewbeatsbydre.com'      # C D
   - '+.cheapsalemonster.com'        # C D
-  - '+.cheapshoesvip.com'           # C D
-  - '+.cheapwireless04.com'         # C D
+  - '+.cheapshoesvip.com'           # D
+  - '+.cheapwireless04.com'         # D
   - '+.cheapwirelessbeats.com'      # C D
-  - '+.cheerwholesale.us'           # C D
-  - '+.chihair-straightener.com'    # C D
-  - '+.chinaclothesstore.com'       # C D
+  - '+.cheerwholesale.us'           # D
+  - '+.chihair-straightener.com'    # D
+  - '+.chinaclothesstore.com'       # D
   - '+.chomp.com'                   # C D
-  - '+.ciattackers.com'             # C D
-  - '+.cmhalq.com'                  # C D
-  - '+.cnshopin.com'                # C D
+  - '+.ciattackers.com'             # D
+  - '+.cmhalq.com'                  # D
+  - '+.cnshopin.com'                # D
   - '+.cooliphonecasesstore.com'    # C D
   - '+.coolmonster.net'             # C D
   - '+.coreml.net'                  # C D
   - '+.cozydrdrebeats.com'          # C D
-  - '+.cqcorea.com'                 # C D
+  - '+.cqcorea.com'                 # D
   - '+.crashlytics.com'             # D
-  - '+.cuffiesaldi.com'             # C D
+  - '+.cuffiesaldi.com'             # D
   - '+.cups.org'                    # C D
   - '+.custom-iphonecase.com'       # C D
   - '+.custombeatsbydrebuy.com'     # C D
@@ -739,7 +739,7 @@ payload:
   - '+.customizedbeatsbydre.com'    # C D
   - '+.customizedbeatsdre.com'      # C D
   - '+.cybermondaybeats4sale.com'   # C D
-  - '+.danemarket.com'              # C D
+  - '+.danemarket.com'              # D
   - '+.danmarkbeatsbydrdre.com'     # C D
   - '+.darwinsource.com'            # C D
   - '+.darwinsource.org'            # C D
@@ -753,7 +753,7 @@ payload:
   - '+.desktopmovie.org'            # C D
   - '+.desktopmovies.net'           # C D
   - '+.desktopmovies.org'           # C D
-  - '+.detaliczny.com'              # C D
+  - '+.detaliczny.com'              # D
   - '+.developer-advisor.com'       # C D
   - '+.device-manager.us'           # C D
   - '+.digicert.com'                # D E
@@ -817,23 +817,23 @@ payload:
   - '+.dremonsterbeatsoutlets.com'  # C D
   - '+.dreprobeats.com'             # C D
   - '+.dreprofy.com'                # C D
-  - '+.dtsell.com'                  # C D
+  - '+.dtsell.com'                  # D
   - '+.dvdstudiopro.biz'            # C D
   - '+.dvdstudiopro.com'            # C D
   - '+.dvdstudiopro.info'           # C D
   - '+.dvdstudiopro.net'            # C D
   - '+.dvdstudiopro.org'            # C D
   - '+.dvdstudiopro.us'             # C D
-  - '+.earphonescheapest.com'       # C D
+  - '+.earphonescheapest.com'       # D
   - '+.earpod.net'                  # C D
   - '+.ebookforipad.com'            # C D
-  - '+.ebuyheadphones.com'          # C D
+  - '+.ebuyheadphones.com'          # D
   - '+.ecgapp.net'                  # C D
   - '+.edu-research.org'            # C D
   - '+.emac.in'                     # C D
   - '+.emagic.de'                   # C D
   - '+.esbeatsbydrebuy.com'         # C D
-  - '+.etheadphones.com'            # C D
+  - '+.etheadphones.com'            # D
   - '+.euroipad.com'                # C D
   - '+.eworld.com'                  # C D
   - '+.faceid99.com'                # C D
@@ -841,7 +841,7 @@ payload:
   - '+.faceidglobal.com'            # C D
   - '+.faceshift.cn'                # C D
   - '+.facetime.net'                # C D
-  - '+.famosascalvas.com'           # C D
+  - '+.famosascalvas.com'           # D
   - '+.finalcutpro.com'             # C D
   - '+.find-apple.com'              # C D
   - '+.findmybeats.com'             # C D
@@ -852,45 +852,45 @@ payload:
   - '+.fr-beatsbydrestore.com'      # C D
   - '+.francecasquebeatssolde.com'  # C D
   - '+.frcasquesbeats.com'          # C D
-  - '+.free-aa.com'                 # C D
-  - '+.free-sns.com'                # C D
-  - '+.frishoes.com'                # C D
+  - '+.free-aa.com'                 # D
+  - '+.free-sns.com'                # D
+  - '+.frishoes.com'                # D
   - '+.fundaiphone5s.com'           # C D
   - '+.gamebeforethegame.com'       # C D
   - '+.geoport.com'                 # C D
   - '+.getdrebeatssale.com'         # C D
-  - '+.gmnetworks.net'              # C D
+  - '+.gmnetworks.net'              # D
   - '+.gobeatsye.com'               # C D
   - '+.gobuyonlinestore.net'        # C D
-  - '+.goodsdunk.net'               # C D
-  - '+.headphonepubs.com'           # C D
-  - '+.headphones-cool.com'         # C D
+  - '+.goodsdunk.net'               # D
+  - '+.headphonepubs.com'           # D
+  - '+.headphones-cool.com'         # D
   - '+.headphones-dre.com'          # C D
   - '+.headphones-outlet-online.com'  # C D
   - '+.headphonesbeatsaudio.com'    # C D
   - '+.headphonesbeatsbydre.com'    # C D
   - '+.headphoneses.com'            # C D
-  - '+.headphoneshome.com'          # C D
-  - '+.headphoneshotsales.com'      # C D
-  - '+.headphonesol.com'            # C D
+  - '+.headphoneshome.com'          # D
+  - '+.headphoneshotsales.com'      # D
+  - '+.headphonesol.com'            # D
   - '+.headphonesretailer.com'      # C D
-  - '+.headphonessupply.com'        # C D
-  - '+.headphonezip.com'            # C D
-  - '+.headset987.com'              # C D
+  - '+.headphonessupply.com'        # D
+  - '+.headphonezip.com'            # D
+  - '+.headset987.com'              # D
   - '+.hebiphone.com'               # C D
   - '+.hellokittybeats.com'         # C D
   - '+.hf-iphone.com'               # C D
   - '+.highbolt.net'                # C D
   - '+.highdefinitionbeatsbydre.com'  # C D
-  - '+.hipaa6020.com'               # C D
-  - '+.hipzoom.net'                 # C D
+  - '+.hipaa6020.com'               # D
+  - '+.hipzoom.net'                 # D
   - '+.homepod.cn'                  # C D
-  - '+.honawalaan.com'              # C D
+  - '+.honawalaan.com'              # D
   - '+.hopstop.tv'                  # C D
   - '+.hotbeatsonsale.com'          # C D
   - '+.hotmonsterbeats.com'         # C D
-  - '+.hottestheadphonesonline.com'  # C D
-  - '+.hrsaz.com'                   # C D
+  - '+.hottestheadphonesonline.com'  # D
+  - '+.hrsaz.com'                   # D
   - '+.i-book.com'                  # C D
   - '+.i-book.net'                  # C D
   - '+.ibeats-uk.com'               # C D
@@ -943,12 +943,12 @@ payload:
   - '+.icloudsetup.com'             # C D
   - '+.ids-apple.com'               # C D
   - '+.idvd.eu'                     # C D
-  - '+.igoshopping.net'             # C D
+  - '+.igoshopping.net'             # D
   - '+.ikids.com'                   # C D
   - '+.ilife.eu'                    # C D
   - '+.ilife.gr'                    # C D
   - '+.ilife.wang'                  # C D
-  - '+.illianacomputerrecycling.com'  # C D
+  - '+.illianacomputerrecycling.com'  # D
   - '+.imac-apple.com'              # C D
   - '+.imac-applecomputer.com'      # C D
   - '+.imac.co'                     # C D
@@ -965,7 +965,7 @@ payload:
   - '+.imovie.eu'                   # C D
   - '+.imoviegallery.com'           # C D
   - '+.imoviestage.com'             # C D
-  - '+.incentivetravelgifts.com'    # C D
+  - '+.incentivetravelgifts.com'    # D
   - '+.indiaipad.com'               # C D
   - '+.insidear.cn'                 # C D
   - '+.insidemacintosh.com'         # C D
@@ -1013,7 +1013,7 @@ payload:
   - '+.iphone5.com'                 # C D
   - '+.iphone5casescovers.com'      # C D
   - '+.iphone5s5case.com'           # C D
-  - '+.iphonecase2013.com'          # C D
+  - '+.iphonecase2013.com'          # D
   - '+.iphonecase5.com'             # C D
   - '+.iphonecases100.com'          # C D
   - '+.iphonecases5.com'            # C D
@@ -1061,7 +1061,7 @@ payload:
   - '+.ipodtouch.com'               # C D
   - '+.ipple.com'                   # C D
   - '+.ischool.com'                 # C D
-  - '+.islamiccenterofnewlondon.com'  # C D
+  - '+.islamiccenterofnewlondon.com'  # D
   - '+.italiabeatsbydrdre.com'      # C D
   - '+.itools.info'                 # C D
   - '+.itun.es'                     # C D
@@ -1101,19 +1101,19 @@ payload:
   - '+.jetfuelapp.com'              # C D
   - '+.jetfuelapps.com'             # C D
   - '+.jkbeats.com'                 # C D
-  - '+.kickshatchannel.com'         # C D
+  - '+.kickshatchannel.com'         # D
   - '+.kobbeatssbydredk.com'        # C D
-  - '+.kopfhorergunstigshop.com'    # C D
+  - '+.kopfhorergunstigshop.com'    # D
   - '+.latticedata.com'             # C D
   - '+.launchpad.wang'              # C D
-  - '+.leecountytimes.com'          # C D
-  - '+.lexuemei.com'                # C D
+  - '+.leecountytimes.com'          # D
+  - '+.lexuemei.com'                # D
   - '+.livephotos.cn'               # C D
   - '+.livephotos.tv'               # C D
   - '+.lovebeatsdr.com'             # C D
   - '+.lovemarca.com'               # C D
-  - '+.luckyissue.com'              # C D
-  - '+.lyzsxx.com'                  # C D
+  - '+.luckyissue.com'              # D
+  - '+.lyzsxx.com'                  # D
   - '+.mac-mini.com'                # C D
   - '+.mac.com'                     # C D
   - '+.mac.eu'                      # C D
@@ -1155,12 +1155,12 @@ payload:
   - '+.macruby.net'                 # C D
   - '+.macruby.org'                 # C D
   - '+.mairbeats.com'               # C D
-  - '+.makeeu.com'                  # C D
-  - '+.mallheadphone.com'           # C D
+  - '+.makeeu.com'                  # D
+  - '+.mallheadphone.com'           # D
   - '+.mbeats-tech.com'             # C D
-  - '+.mbheadphone.com'             # C D
+  - '+.mbheadphone.com'             # D
   - '+.me.com'                      # C D
-  - '+.micstl.com'                  # C D
+  - '+.micstl.com'                  # D
   - '+.mmonsterheadphones.net'      # C D
   - '+.mobileme.dk'                 # C D
   - '+.monbeats2013.com'            # C D
@@ -1221,11 +1221,11 @@ payload:
   - '+.monsterdrebeats-usa.com'     # C D
   - '+.monsterdrebeats-usa.net'     # C D
   - '+.monsterheadphone.net'        # C D
-  - '+.monsterproduct.net'          # C D
+  - '+.monsterproduct.net'          # D
   - '+.monstersbeatbydres.com'      # C D
   - '+.monstersdebea.com'           # C D
   - '+.monstershopcheapbeats.net'   # C D
-  - '+.moreheadphones.com'          # C D
+  - '+.moreheadphones.com'          # D
   - '+.ms4dre.com'                  # C D
   - '+.musickit.net'                # C D
   - '+.myappleid.com'               # C D
@@ -1238,45 +1238,45 @@ payload:
   - '+.mylcloud.net'                # C D
   - '+.mzstatic.com'                # C D  覆盖 +.a1.mzstatic.com B, +.a2.mzstatic.com B 等 39 条
   - '+.namemybeats.com'             # C D
-  - '+.neborder.com'                # C D
+  - '+.neborder.com'                # D
   - '+.negozimonsterbeats.com'      # C D
   - '+.negoziomonsterbeats.com'     # C D
   - '+.newbeatsblackfriday.com'     # C D
-  - '+.newbemany.com'               # C D
+  - '+.newbemany.com'               # D
   - '+.newdrediscount.com'          # C D
   - '+.newestbeatsbydre.com'        # C D
-  - '+.newlysprung.net'             # C D
+  - '+.newlysprung.net'             # D
   - '+.newmonst1erbeatsto1re.com'   # C D
   - '+.newmonsterbeatsheadphones.com'  # C D
-  - '+.newschristmasshopping.com'   # C D
+  - '+.newschristmasshopping.com'   # D
   - '+.newton.com'                  # C D
   - '+.next.com'                    # C D
-  - '+.nflhotsalejerseys.com'       # C D
-  - '+.nicesshop.net'               # C D
-  - '+.offerairjordanlebron.com'    # C D
+  - '+.nflhotsalejerseys.com'       # D
+  - '+.nicesshop.net'               # D
+  - '+.offerairjordanlebron.com'    # D
   - '+.officialbeatsbydreshop.com'  # C D
   - '+.officialbeatsbydrestore.com'  # C D
   - '+.officialdrdre.com'           # C D
   - '+.officialheadphone.com'       # C D
   - '+.offrezdesipods.com'          # C D
-  - '+.ogameblog.com'               # C D
+  - '+.ogameblog.com'               # D
   - '+.onbeatsbydresale.com'        # C D
   - '+.onlineapplestore.com'        # C D
   - '+.onlinemonsterbeatsonsale.com'  # C D
   - '+.onlyiphone5case.com'         # C D
   - '+.onsalekey.com'               # C D
-  - '+.onsaletrend.com'             # C D
+  - '+.onsaletrend.com'             # D
   - '+.organicfruitapps.com'        # D
   - '+.outletbeatsshop.com'         # C D
   - '+.overapple.com'               # C D
   - '+.pascherbeatsmonster.com'     # C D
-  - '+.paulsimon-music.com'         # C D
-  - '+.perfectkickz.net'            # C D
-  - '+.personeelsland.com'          # C D
-  - '+.picknicekicks.net'           # C D
-  - '+.pickshoesclothes.com'        # C D
+  - '+.paulsimon-music.com'         # D
+  - '+.perfectkickz.net'            # D
+  - '+.personeelsland.com'          # D
+  - '+.picknicekicks.net'           # D
+  - '+.pickshoesclothes.com'        # D
   - '+.pillbeatsblackfridaysale.com'  # C D
-  - '+.pocketbiketrader.com'        # C D
+  - '+.pocketbiketrader.com'        # D
   - '+.powerbeats2wireless.com'     # C D
   - '+.powerbeatsbydrdre.com'       # C D
   - '+.powerbeatsbydre.com'         # C D
@@ -1291,10 +1291,10 @@ payload:
   - '+.quicktime.net'               # C D
   - '+.quicktime.tv'                # C D
   - '+.qwapi.com'                   # C D
-  - '+.rbsgr.com'                   # C D
-  - '+.reform-apple.com'            # C D
-  - '+.repsneakermall.com'          # C D
-  - '+.repswing.com'                # C D
+  - '+.rbsgr.com'                   # D
+  - '+.reform-apple.com'            # D
+  - '+.repsneakermall.com'          # D
+  - '+.repswing.com'                # D
   - '+.researchandcare.org'         # C D
   - '+.researchkit.cn'              # C D
   - '+.researchkit.hk'              # C D
@@ -1303,52 +1303,52 @@ payload:
   - '+.researchkit.tv'              # C D
   - '+.salebeatslasteststyle4you.com'  # C D
   - '+.saleblackfridaydrebeats.com'  # C D
-  - '+.salecheaphandbags.com'       # C D
-  - '+.samebags.com'                # C D
-  - '+.sanvaras.com'                # C D
-  - '+.scnshop.cc'                  # C D
+  - '+.salecheaphandbags.com'       # D
+  - '+.samebags.com'                # D
+  - '+.sanvaras.com'                # D
+  - '+.scnshop.cc'                  # D
   - '+.services-apple.net'          # C D
   - '+.servicetalk.io'              # C D
   - '+.shazam.com'                  # C D
-  - '+.shoers.com'                  # C D
-  - '+.shoestop2.com'               # C D
+  - '+.shoers.com'                  # D
+  - '+.shoestop2.com'               # D
   - '+.shop-headphones.net'         # C D
   - '+.shopbeatsdre.com'            # C D
   - '+.shopbydre.com'               # C D
   - '+.shopcustomizedbeats.com'     # C D
   - '+.shopdrebeats.com'            # C D
   - '+.shopmonsterbeats.com'        # C D
-  - '+.shopping-days.net'           # C D
-  - '+.shoppinguheadphones.com'     # C D
+  - '+.shopping-days.net'           # D
+  - '+.shoppinguheadphones.com'     # D
   - '+.simplyipod.com'              # C D
   - '+.siri.com'                    # C D
-  - '+.sneaker666.com'              # C D
-  - '+.sneakerpage.net'             # C D
-  - '+.sneakerskick.com'            # C D
+  - '+.sneaker666.com'              # D
+  - '+.sneakerpage.net'             # D
+  - '+.sneakerskick.com'            # D
   - '+.solostudioksale.com'         # C D
-  - '+.soso7778.com'                # C D
-  - '+.specialtyheadphones.com'     # C D
+  - '+.soso7778.com'                # D
+  - '+.specialtyheadphones.com'     # D
   - '+.spektral.cc'                 # C D
-  - '+.spiritclubs.com'             # C D
+  - '+.spiritclubs.com'             # D
   - '+.straightouttasomewhere.com'  # C D
   - '+.studiobeatsbydrdre.com'      # C D
-  - '+.sulwerphoto.com'             # C D
-  - '+.sunglassessale2014.com'      # C D
-  - '+.superearsenjoy.com'          # C D
-  - '+.supplybestjerseys.com'       # C D
+  - '+.sulwerphoto.com'             # D
+  - '+.sunglassessale2014.com'      # D
+  - '+.superearsenjoy.com'          # D
+  - '+.supplybestjerseys.com'       # D
   - '+.sustainthesound.com'         # C D
   - '+.sverigebeatsbydrdre.com'     # C D
   - '+.swift.org'                   # C D
   - '+.swiftui.cn'                  # C D
   - '+.szcheapmonsterheadphones.com'  # C D
-  - '+.szwinnertechnology.com'      # C D
-  - '+.takegoto.com'                # C D
+  - '+.szwinnertechnology.com'      # D
+  - '+.takegoto.com'                # D
   - '+.texture.com'                 # C D
   - '+.the-monster-beats.com'       # C D
   - '+.thebeatsbydre.com'           # C D
   - '+.thebeatsbydre.net'           # C D
   - '+.thebeatsheadphonesale.com'   # C D
-  - '+.theuab.net'                  # C D
+  - '+.theuab.net'                  # D
   - '+.thinkdifferent.us'           # C D
   - '+.topbeatsbydrdreoutlet.com'   # C D
   - '+.topbeatsdealer.com'          # C D
@@ -1356,33 +1356,33 @@ payload:
   - '+.touchid.tv'                  # C D
   - '+.touchid.wang'                # C D
   - '+.tracking-location.com'       # C D
-  - '+.tradevip1.com'               # C D
+  - '+.tradevip1.com'               # D
   - '+.truedepth3d.com'             # C D
   - '+.tryrating.com'               # C D
-  - '+.tteshop.com'                 # C D
+  - '+.tteshop.com'                 # D
   - '+.tvappstore.net'              # C D
   - '+.ubnw.net'                    # C D
   - '+.ukipad.com'                  # C D
-  - '+.unstyle.us'                  # C D
+  - '+.unstyle.us'                  # D
   - '+.usa-beatsbydreheadphonesonsale.net'  # C D
-  - '+.v-has.com'                   # C D
+  - '+.v-has.com'                   # D
   - '+.vertexsmb.com'               # D
   - '+.vip-beats.com'               # C D
   - '+.vipbeatsbydre.com'           # C D
-  - '+.vipheadphones.com'           # C D
-  - '+.vipshoes2.com'               # C D
-  - '+.wasdj.com'                   # C D
+  - '+.vipheadphones.com'           # D
+  - '+.vipshoes2.com'               # D
+  - '+.wasdj.com'                   # D
   - '+.webkit.org'                  # C D
   - '+.webkitgtk.org'               # C D
   - '+.webobjects.com'              # C D
   - '+.webobjects.de'               # C D
   - '+.webobjects.eu'               # C D
   - '+.webobjects.net'              # C D
-  - '+.wholesale-exporter1.com'     # C D
-  - '+.wholesalediscountpurses.com'  # C D
-  - '+.wholesalefine.com'           # C D
-  - '+.wholesaleonlinemart.com'     # C D
-  - '+.worldcoinpay.com'            # C D
+  - '+.wholesale-exporter1.com'     # D
+  - '+.wholesalediscountpurses.com'  # D
+  - '+.wholesalefine.com'           # D
+  - '+.wholesaleonlinemart.com'     # D
+  - '+.worldcoinpay.com'            # D
   - '+.wpewebkit.org'               # C D
   - '+.wuxiapple.com'               # C D
   - '+.wwapple.net'                 # C D

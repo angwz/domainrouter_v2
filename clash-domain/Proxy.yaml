@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-20 10:49:08 (UTC+8)
+# UPDATED: 2026-11-22 09:53:10 (UTC+8)
 # TYPE: domain
-# TOTAL: 29854
+# TOTAL: 29872
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -446,7 +446,7 @@ payload:
   - '+.3xxx.pro'             # B C
   - '+.404museum.com'        # A B C
   - '+.40momporntube.com'    # B C
-  - '+.40shopping.com'       # B C
+  - '+.40shopping.com'       # C
   - '+.40somethingmag.com'   # B C
   - '+.41maonn.com'          # B C
   - '+.43110.cf'             # A C
@@ -777,7 +777,7 @@ payload:
   - '+.aaex.uk'              # B C
   - '+.aalah.me'             # B C
   - '+.aamacau.com'          # A B C
-  - '+.aanaan.com'           # B C
+  - '+.aanaan.com'           # C
   - '+.aapl.tw'              # B C
   - '+.aaplimg.com'          # B
   - '+.aave.com'             # A B C
@@ -1123,7 +1123,7 @@ payload:
   - '+.adwordsexpress.com'   # C
   - '+.adx.promo'            # B C
   - '+.ae.org'               # A C
-  - '+.aeasyshop.com'        # B C
+  - '+.aeasyshop.com'        # C
   - '+.aebn.com'             # B C
   - '+.aecexcellence.com'    # B C
   - '+.aei.org'              # A B C
@@ -1264,7 +1264,7 @@ payload:
   - '+.airiti.com'           # B C
   - '+.airitilibrary.com'    # A B C
   - '+.airmax360.com'        # B C
-  - '+.airmay.com'           # B C
+  - '+.airmay.com'           # C
   - '+.airport-gov-cn.com'   # B C
   - '+.airport.brussels'     # B C
   - '+.airport.com'          # B C
@@ -1322,7 +1322,7 @@ payload:
   - '+.ajplus.net'           # B C
   - '+.ajsands.com'          # A C  覆盖 +.www.ajsands.com B
   - '+.ajsjx.com'            # B C
-  - '+.ajtalk.com'           # B C
+  - '+.ajtalk.com'           # C
   - '+.ak1.net'              # B C
   - '+.aka-ai.com'           # B C
   - '+.aka-ai.net'           # B C
@@ -1848,7 +1848,7 @@ payload:
   - '+.annas-archive.pk'     # A B C
   - '+.annas-archive.se'     # A C
   - '+.annatam.com'          # A C
-  - '+.annstores.net'        # B C
+  - '+.annstores.net'        # C
   - '+.annualpelvicexam.com'  # B C
   - '+.annualreviews.org'    # B
   - '+.anobii.com'           # A B C
@@ -1900,7 +1900,7 @@ payload:
   - '+.aodahl.com'           # B C
   - '+.aofriend.com'         # A B C
   - '+.aojiao.org'           # A C
-  - '+.aokwholesale.net'     # B C
+  - '+.aokwholesale.net'     # C
   - '+.aol.ca'               # A C
   - '+.aol.com'              # A C  覆盖 +.search.aol.com B, +.video.aol.com B
   - '+.aolcdn.com'           # A B C
@@ -2932,7 +2932,7 @@ payload:
   - '+.badteenspunished.com'  # B C
   - '+.badvirtue.com'        # B C
   - '+.baeb.com'             # B C
-  - '+.bag-glasses1.com'     # B C
+  - '+.bag-glasses1.com'     # C
   - '+.bai29.xyz'            # B C
   - '+.baicaonetwork.com'    # B C
   - '+.baidu.jp'             # A B C
@@ -2958,7 +2958,7 @@ payload:
   - '+.bandag.cc'            # B C
   - '+.bandag.com'           # B C
   - '+.bandcamp.com'         # A B C
-  - '+.bandgirlz.com'        # B C
+  - '+.bandgirlz.com'        # C
   - '+.bandisoft.com'        # A C
   - '+.bandpage.com'         # A B C
   - '+.bandwagonhost.com'    # A B C
@@ -3038,7 +3038,7 @@ payload:
   - '+.battlelog.com'        # B C
   - '+.battlenet.com'        # A C
   - '+.battleye.com'         # B C  覆盖 pubg1.battleye.com B
-  - '+.baxsound.com'         # B C
+  - '+.baxsound.com'         # C
   - '+.bayareabmw.com'       # B C
   - '+.bayvoice.net'         # A B C
   - '+.baywords.com'         # A C
@@ -3056,7 +3056,7 @@ payload:
   - '+.bbcpersian.com'       # B C
   - '+.bbcpornonly.com'      # B C
   - '+.bbcverticals.com'     # B C
-  - '+.bbestmall.com'        # B C
+  - '+.bbestmall.com'        # C
   - '+.bbg.gov'              # A B C
   - '+.bbgevent.com'         # B C
   - '+.bbgwatch.com'         # B C
@@ -3409,7 +3409,7 @@ payload:
   - '+.beget.ru'             # B C
   - '+.beget.tech'           # B C
   - '+.begetcdn.cloud'       # B C
-  - '+.begin-trade.com'      # B C
+  - '+.begin-trade.com'      # C
   - '+.behance.net'          # A B C
   - '+.behindkink.com'       # A C
   - '+.behindthescreenz.com'  # B C
@@ -3634,7 +3634,7 @@ payload:
   - '+.bigtitvenera.com'     # B C
   - '+.bigtopsites.com'      # B C
   - '+.biguz.net'            # B C
-  - '+.biitii.com'           # B C
+  - '+.biitii.com'           # C
   - '+.bijukujo.club'        # B C
   - '+.bikaa.xyz'            # B C
   - '+.bikac.xyz'            # B C
@@ -3950,7 +3950,7 @@ payload:
   - '+.bloombergvault.com'   # B C
   - '+.bloombergview.com'    # A B C
   - '+.bloomfortune.com'     # A B C
-  - '+.bloommicroventures.com'  # B C
+  - '+.bloommicroventures.com'  # C
   - '+.bloomsburycollections.com'  # B C
   - '+.bloomsburydesignlibrary.com'  # B C
   - '+.blowjobit.com'        # B C
@@ -4369,7 +4369,7 @@ payload:
   - '+.bookmark.xxx'         # B C
   - '+.bookmate.ru'          # B C
   - '+.bookmybridgestonetyre.com'  # B C
-  - '+.bookonsky.net'        # B C
+  - '+.bookonsky.net'        # C
   - '+.booksc.eu'            # B C
   - '+.booksc.me'            # B C
   - '+.booksc.org'           # B C
@@ -4406,7 +4406,7 @@ payload:
   - '+.bosharso.net'         # B C
   - '+.boslife.biz'          # B C
   - '+.boslife.net'          # B C
-  - '+.bossae.com'           # B C
+  - '+.bossae.com'           # C
   - '+.boswp.com'            # B C
   - '+.bot.nu'               # A C
   - '+.botanwang.com'        # A B C
@@ -4461,12 +4461,12 @@ payload:
   - '+.brainyquote.com'      # A C
   - '+.branchportal.com'     # B C
   - '+.brand-protection-team.com'  # B C
-  - '+.brandeasygo.com'      # B C
-  - '+.brandelectronic.com'  # B C
+  - '+.brandeasygo.com'      # C
+  - '+.brandelectronic.com'  # C
   - '+.brandonhutchinson.com'  # A C
   - '+.brandporno.com'       # B C
-  - '+.brandproducts1688.com'  # B C
-  - '+.brands098.com'        # B C
+  - '+.brandproducts1688.com'  # C
+  - '+.brands098.com'        # C
   - '+.brantect.com'         # B C
   - '+.brasilincesto.com'    # B C
   - '+.brasiltudoliberado.com'  # B C
@@ -4675,7 +4675,7 @@ payload:
   - '+.businessinsider.my'   # B C
   - '+.businessinsider.nl'   # B C
   - '+.businessinsider.sg'   # B C
-  - '+.businesswebwise.com'  # B C
+  - '+.businesswebwise.com'  # C
   - '+.businessweek.com'     # A B C
   - '+.businessweekmag.com'  # B C
   - '+.bustyangelique.com'   # B C
@@ -4696,7 +4696,7 @@ payload:
   - '+.busybox.net'          # B C
   - '+.busytrade.com'        # A C
   - '+.buugaa.com'           # A C
-  - '+.buy-from-shanghai.com'  # B C
+  - '+.buy-from-shanghai.com'  # C
   - '+.buyaapl.com'          # B C
   - '+.buyaapl.net'          # B C
   - '+.buyaltera.com'        # B C
@@ -4726,8 +4726,8 @@ payload:
   - '+.buypass.no'           # B C
   - '+.buypass.se'           # B C
   - '+.buyservices.com'      # B C
-  - '+.buyshoponly.com'      # B C
-  - '+.buzzardflapper.com'   # B C
+  - '+.buyshoponly.com'      # C
+  - '+.buzzardflapper.com'   # C
   - '+.buzzav.com'           # B C
   - '+.buzzhand.com'         # A C
   - '+.buzzhand.net'         # A C
@@ -5311,8 +5311,8 @@ payload:
   - '+.cheapestbeatsdrdre.com'  # B C
   - '+.cheapheadphonesland.com'  # B C
   - '+.cheapheadphonessale.com'  # B C
-  - '+.cheapheadsetmall.com'  # B C
-  - '+.cheapheadsetshop.com'  # B C
+  - '+.cheapheadsetmall.com'  # C
+  - '+.cheapheadsetshop.com'  # C
   - '+.cheapmonsterbeatsbydrdre.com'  # B C
   - '+.cheapmonsterbeatsheadsets.com'  # B C
   - '+.cheapmonsterbeatssale.com'  # B C
@@ -5322,11 +5322,11 @@ payload:
   - '+.cheapnikedunks.com'   # B C
   - '+.cheapnikeoutlet.com'  # B C
   - '+.cheapsalemonster.com'  # B C
-  - '+.cheapshoesvip.com'    # B C
-  - '+.cheapwireless04.com'  # B C
+  - '+.cheapshoesvip.com'    # C
+  - '+.cheapwireless04.com'  # C
   - '+.cheapwirelessbeats.com'  # B C
   - '+.checkgfw.com'         # A B C
-  - '+.cheerwholesale.us'    # B C
+  - '+.cheerwholesale.us'    # C
   - '+.chef.io'              # B C
   - '+.chegg.com'            # B C
   - '+.cheggcdn.com'         # B C
@@ -5360,7 +5360,7 @@ payload:
   - '+.chicksonblackdicks.com'  # B C
   - '+.chickstagram.com'     # B C
   - '+.chickteases.com'      # B C
-  - '+.chihair-straightener.com'  # B C
+  - '+.chihair-straightener.com'  # C
   - '+.chii.in'              # A B C
   - '+.chikiporn.com'        # B C
   - '+.chillingo.com'        # B C
@@ -5382,7 +5382,7 @@ payload:
   - '+.chinachange.org'      # A B C
   - '+.chinachannel.hk'      # A B C
   - '+.chinacitynews.be'     # A C
-  - '+.chinaclothesstore.com'  # B C
+  - '+.chinaclothesstore.com'  # C
   - '+.chinacomments.org'    # A C
   - '+.chinadecoding.com'    # B C
   - '+.chinademocrats.org'   # A B C
@@ -5496,7 +5496,7 @@ payload:
   - '+.cian.ru'              # B C
   - '+.cian.site'            # B C
   - '+.ciangroup.ru'         # B C
-  - '+.ciattackers.com'      # B C
+  - '+.ciattackers.com'      # C
   - '+.cibank.ru'            # B C
   - '+.cici.com'             # A B C
   - '+.ciciai.com'           # A B C
@@ -5742,8 +5742,9 @@ payload:
   - '+.cmail19.com'          # A C
   - '+.cmcn.org'             # A B C
   - '+.cmegroup.com'         # A B C
-  - '+.cmhalq.com'           # B C
+  - '+.cmhalq.com'           # C
   - '+.cmoinc.org'           # A C  覆盖 +.www.cmoinc.org B
+  - '+.cmoney.tw'            # B
   - '+.cmpaas.com'           # B C
   - '+.cmrbank.ru'           # B C
   - '+.cms-twdigitalassets.com'  # B C
@@ -5780,7 +5781,6 @@ payload:
   - '+.cnpmjs.org'           # B
   - '+.cnpolitics.org'       # A B C
   - '+.cnproxy.com'          # A C
-  - '+.cnshopin.com'         # B
   - '+.cnyes.com'            # A B C
   - '+.cnzjp.xyz'            # B
   - '+.co.tv'                # C  覆盖 +.truth101.co.tv A
@@ -6042,7 +6042,7 @@ payload:
   - '+.cpu-monkey.com'       # A B C
   - '+.cpz.to'               # B C
   - '+.cq99.us'              # A B C
-  - '+.cqcorea.com'          # B C
+  - '+.cqcorea.com'          # C
   - '+.crabporn.com'         # B C
   - '+.crackle.com'          # A B C
   - '+.craftifyx.com'        # B C
@@ -6174,7 +6174,7 @@ payload:
   - '+.cuckwatchingwife.com'  # B C
   - '+.cuckwimp.com'         # B C
   - '+.cuebic.biz'           # B C
-  - '+.cuffiesaldi.com'      # B C
+  - '+.cuffiesaldi.com'      # C
   - '+.cuhk.hk'              # B C
   - '+.cuhkacs.org'          # A C
   - '+.cuihua.org'           # A C
@@ -6342,7 +6342,7 @@ payload:
   - '+.dandanplay.com'       # B
   - '+.dandanplay.net'       # B C
   - '+.dandanzan.cc'         # B C
-  - '+.danemarket.com'       # B C
+  - '+.danemarket.com'       # C
   - '+.danilo.to'            # A C
   - '+.danke4china.net'      # A B C
   - '+.danmarkbeatsbydrdre.com'  # B C
@@ -6659,7 +6659,7 @@ payload:
   - '+.dessci.com'           # A B C
   - '+.destinationbim.com'   # B C
   - '+.destroy-china.jp'     # A C
-  - '+.detaliczny.com'       # B C
+  - '+.detaliczny.com'       # C
   - '+.detentiongirls.com'   # B C
   - '+.detodosparatodos.org'  # B C
   - '+.detpress.com'         # B C
@@ -7343,7 +7343,7 @@ payload:
   - '+.dtdns.net'            # A C
   - '+.dtiblog.com'          # A B C
   - '+.dtic.mil'             # A B C
-  - '+.dtsell.com'           # B C
+  - '+.dtsell.com'           # C
   - '+.dtv2009offers.com'    # B C
   - '+.dtvce.com'            # B C
   - '+.dtwang.org'           # A C
@@ -7530,7 +7530,7 @@ payload:
   - '+.earlyob.com'          # C
   - '+.earlytibet.com'       # A B C
   - '+.earngeek.com'         # B C
-  - '+.earphonescheapest.com'  # B C
+  - '+.earphonescheapest.com'  # C
   - '+.earpod.net'           # B C
   - '+.earthcam.com'         # A C
   - '+.earthdell.com'        # B C
@@ -7741,7 +7741,7 @@ payload:
   - '+.ebscohost.com'        # B
   - '+.ebtcbank.com'         # A B C
   - '+.ebuyer.com'           # B C
-  - '+.ebuyheadphones.com'   # B C
+  - '+.ebuyheadphones.com'   # C
   - '+.ecbsn.com'            # B C
   - '+.ecchinohentai.ru'     # B C
   - '+.ecgapp.net'           # B C
@@ -8170,7 +8170,7 @@ payload:
   - '+.esurance.com'         # A B C
   - '+.etadult.com'          # A C
   - '+.etaiwannews.com'      # A C
-  - '+.etheadphones.com'     # B C
+  - '+.etheadphones.com'     # C
   - '+.etherdelta.com'       # A B C
   - '+.ethereum.foundation'  # B C
   - '+.ethereum.org'         # B C
@@ -8634,7 +8634,7 @@ payload:
   - '+.familyswap.xxx'       # B C
   - '+.famima.vn'            # B C
   - '+.famitsu.com'          # B C
-  - '+.famosascalvas.com'    # B C
+  - '+.famosascalvas.com'    # C
   - '+.famous-nudes.com'     # B C
   - '+.famousinternetgirls.com'  # B C
   - '+.famousinternetgirlsgalleries.com'  # B C
@@ -9425,14 +9425,14 @@ payload:
   - '+.frcasquesbeats.com'   # B C
   - '+.freakshare.com'       # A B C
   - '+.free-3d-porn.com'     # B C
-  - '+.free-aa.com'          # B C
+  - '+.free-aa.com'          # C
   - '+.free-abbywinters.com'  # B C
   - '+.free-avx.jp'          # B C
   - '+.free-erobooks.com'    # B C
   - '+.free-gate.org'        # A C
   - '+.free-hada-now.org'    # A C
   - '+.free-proxy.cz'        # A C
-  - '+.free-sns.com'         # B C
+  - '+.free-sns.com'         # C
   - '+.free-ss.site'         # A B C
   - '+.free-ssh.com'         # A C
   - '+.free-strip-games.com'  # B C
@@ -9594,7 +9594,7 @@ payload:
   - '+.fril.jp'              # A B C
   - '+.fring.com'            # A B C
   - '+.fringenetwork.com'    # A B C
-  - '+.frishoes.com'         # B C
+  - '+.frishoes.com'         # C
   - '+.fritchy.com'          # B C
   - '+.from-pr.com'          # A C
   - '+.from-sd.com'          # A C
@@ -9829,7 +9829,7 @@ payload:
   - '+.gamcore.com'          # B C
   - '+.game-platform.net'    # B C
   - '+.game-repack.site'     # B C
-  - '+.game735.com'          # A B C
+  - '+.game735.com'          # A C
   - '+.gameapps.hk'          # B C
   - '+.gamebanana.com'       # B C
   - '+.gamebeforethegame.com'  # B C
@@ -9856,6 +9856,7 @@ payload:
   - '+.gameuxmasterguide.com'  # B C
   - '+.gamewtb.com'          # B C
   - '+.gaming-notebooks.com'  # B C
+  - '+.gamma.app'            # B
   - '+.gamousa.com'          # A C
   - '+.gandhara.ru'          # B C
   - '+.gandi.net'            # B
@@ -10321,7 +10322,7 @@ payload:
   - '+.gmiddle.com'          # A C  覆盖 +.www.gmiddle.com B
   - '+.gmiddle.net'          # A C  覆盖 +.www.gmiddle.net B
   - '+.gmll.org'             # A C
-  - '+.gmnetworks.net'       # B C
+  - '+.gmnetworks.net'       # C
   - '+.gmo-aozora.com'       # B C
   - '+.gmo-app.jp'           # B C
   - '+.gmo-c.jp'             # B C
@@ -10459,7 +10460,7 @@ payload:
   - '+.goodporno.cc'         # B C
   - '+.goodreaders.com'      # A B C
   - '+.goodreads.com'        # A B C
-  - '+.goodsdunk.net'        # B C
+  - '+.goodsdunk.net'        # C
   - '+.goodsexporn.org'      # B C
   - '+.goodsrv.de'           # B C
   - '+.goodtv.tv'            # A C
@@ -10772,6 +10773,7 @@ payload:
   - '+.greatroc.tw'          # A C
   - '+.greatzhonghua.org'    # A C
   - '+.green-box-tv.com'     # B C
+  - '+.greenbean.media'      # B
   - '+.greenbuildingstudio.com'  # B C
   - '+.greenlakeaas.com'     # B C
   - '+.greenlakehybridcloud.com'  # B C
@@ -11101,20 +11103,20 @@ payload:
   - '+.hdzog.com'            # A B C
   - '+.he.net'               # A B C
   - '+.headlinejobs.hk'      # B C
-  - '+.headphonepubs.com'    # B C
-  - '+.headphones-cool.com'  # B C
+  - '+.headphonepubs.com'    # C
+  - '+.headphones-cool.com'  # C
   - '+.headphones-dre.com'   # B C
   - '+.headphones-outlet-online.com'  # B C
   - '+.headphonesbeatsaudio.com'  # B C
   - '+.headphonesbeatsbydre.com'  # B C
   - '+.headphoneses.com'     # B C
-  - '+.headphoneshome.com'   # B C
-  - '+.headphoneshotsales.com'  # B C
-  - '+.headphonesol.com'     # B C
+  - '+.headphoneshome.com'   # C
+  - '+.headphoneshotsales.com'  # C
+  - '+.headphonesol.com'     # C
   - '+.headphonesretailer.com'  # B C
-  - '+.headphonessupply.com'  # B C
-  - '+.headphonezip.com'     # B C
-  - '+.headset987.com'       # B C
+  - '+.headphonessupply.com'  # C
+  - '+.headphonezip.com'     # C
+  - '+.headset987.com'       # C
   - '+.health026.click'      # B C
   - '+.healthcarecareeronline.com'  # B C
   - '+.healthreach.hk'       # B C
@@ -11415,10 +11417,10 @@ payload:
   - '+.hindiweb.com'         # B C
   - '+.hindustantimes.com'   # A B C
   - '+.hinet.net'            # A B C  覆盖 hamivideo.hinet.net B, apl-hamivideo.cdn.hinet.net B 等 30 条
-  - '+.hipaa6020.com'        # B C
+  - '+.hipaa6020.com'        # C
   - '+.hiporn.net'           # B C
   - '+.hippyhillscomix.com'  # B C
-  - '+.hipzoom.net'          # B C
+  - '+.hipzoom.net'          # C
   - '+.historylines.net'     # A B C
   - '+.historyofdota.com'    # B C
   - '+.historyofdota.net'    # B C
@@ -11458,9 +11460,11 @@ payload:
   - '+.hkchurch.org'         # A C
   - '+.hkcircleapp.com'      # B C
   - '+.hkcitizenmedia.com'   # B C
+  - '+.hkcitycreation.com'   # B
   - '+.hkcmi.edu'            # A C
   - '+.hkcnews.com'          # A B C
   - '+.hkcoc.com'            # A B C
+  - '+.hkcourtnews.com'      # B
   - '+.hkcsl.com'            # B C
   - '+.hkday.net'            # A C
   - '+.hkdc.us'              # A B C
@@ -11474,6 +11478,7 @@ payload:
   - '+.hkf202311.site'       # B C
   - '+.hkf202312.shop'       # B C
   - '+.hkfaa.com'            # A B C
+  - '+.hkfeature.com'        # B
   - '+.hkfreezone.com'       # A C
   - '+.hkfront.org'          # A C
   - '+.hkgalden.com'         # A B C
@@ -11570,7 +11575,7 @@ payload:
   - '+.homestylernews.com'   # B C
   - '+.hominis.media'        # B C
   - '+.homo.xxx'             # B C
-  - '+.honawalaan.com'       # B C
+  - '+.honawalaan.com'       # C
   - '+.honestpornreviews.com'  # B C
   - '+.honeynet.org'         # A C  覆盖 +.old.honeynet.org B
   - '+.hongjie10.xyz'        # B C
@@ -11690,7 +11695,7 @@ payload:
   - '+.hotstunners.com'      # B C
   - '+.hotteenfreecam.com'   # B C
   - '+.hottestfilms.com'     # B C
-  - '+.hottestheadphonesonline.com'  # B C
+  - '+.hottestheadphonesonline.com'  # C
   - '+.hottg.com'            # A B C
   - '+.hottystop.com'        # B C
   - '+.hotvpn.com'           # A B C
@@ -11855,7 +11860,7 @@ payload:
   - '+.hrecords.jp'          # B C
   - '+.hrichina.org'         # A B C
   - '+.hrntt.org'            # A B C
-  - '+.hrsaz.com'            # B C
+  - '+.hrsaz.com'            # C
   - '+.hrtek.ru'             # B C
   - '+.hrtsea.com'           # C
   - '+.hrw.org'              # A B C
@@ -12332,7 +12337,7 @@ payload:
   - '+.ignitesasia.com'      # B C
   - '+.igniteseurope.com'    # B C
   - '+.igoogle.com'          # B C
-  - '+.igoshopping.net'      # B C
+  - '+.igoshopping.net'      # C
   - '+.igotpornpics.com'     # B C
   - '+.igpublish.com'        # B C
   - '+.igsonar.com'          # B C
@@ -12414,7 +12419,7 @@ payload:
   - '+.ilife.gr'             # B C
   - '+.ilife.wang'           # B C
   - '+.illgames.jp'          # B C
-  - '+.illianacomputerrecycling.com'  # B C
+  - '+.illianacomputerrecycling.com'  # C
   - '+.illusion.jp'          # C
   - '+.illusion111.com'      # B C
   - '+.illusionas.com'       # B C
@@ -12527,7 +12532,7 @@ payload:
   - '+.inasian.club'         # B C
   - '+.inbox.ru'             # B C
   - '+.incapdns.net'         # A C
-  - '+.incentivetravelgifts.com'  # B C
+  - '+.incentivetravelgifts.com'  # C
   - '+.incestflix.com'       # B C
   - '+.incestporn.xxx'       # B C
   - '+.incestvidz.com'       # B C
@@ -12973,7 +12978,7 @@ payload:
   - '+.iphone5.com'          # B C
   - '+.iphone5casescovers.com'  # B C
   - '+.iphone5s5case.com'    # B C
-  - '+.iphonecase2013.com'   # B C
+  - '+.iphonecase2013.com'   # C
   - '+.iphonecase5.com'      # B C
   - '+.iphonecases100.com'   # B C
   - '+.iphonecases5.com'     # B C
@@ -13085,7 +13090,7 @@ payload:
   - '+.islahhaber.net'       # A C
   - '+.islamawareness.net'   # A C
   - '+.islamhouse.com'       # A B C
-  - '+.islamiccenterofnewlondon.com'  # B C
+  - '+.islamiccenterofnewlondon.com'  # C
   - '+.islamicity.com'       # A C
   - '+.islamicpluralism.org'  # A C
   - '+.islamtoday.net'       # A C
@@ -13908,7 +13913,7 @@ payload:
   - '+.kichikuou.com'        # B C
   - '+.kick.com'             # B C
   - '+.kickporn.com'         # B C
-  - '+.kickshatchannel.com'  # B C
+  - '+.kickshatchannel.com'  # C
   - '+.kicksnike1.com'       # B C
   - '+.kicu.tv'              # B C
   - '+.kidgrid.tv'           # B C
@@ -14046,7 +14051,7 @@ payload:
   - '+.kone.com'             # A C
   - '+.koolsolutions.com'    # A B C
   - '+.koornk.com'           # A B C
-  - '+.kopfhorergunstigshop.com'  # B C
+  - '+.kopfhorergunstigshop.com'  # C
   - '+.koranmandarin.com'    # A B C
   - '+.korea.net'            # A C
   - '+.koreanpornmovie.com'  # B C
@@ -14247,7 +14252,7 @@ payload:
   - '+.lecoin.cc'            # B C
   - '+.lede-project.org'     # B C
   - '+.ledger.com'           # A B C
-  - '+.leecountytimes.com'   # B C
+  - '+.leecountytimes.com'   # C
   - '+.leetcode.com'         # A C
   - '+.lefora.com'           # A C
   - '+.left21.hk'            # A B C
@@ -14307,7 +14312,7 @@ payload:
   - '+.lewdweb.net'          # B C
   - '+.lexica.art'           # A B C
   - '+.lexisnexis.com'       # B C
-  - '+.lexuemei.com'         # B C
+  - '+.lexuemei.com'         # C
   - '+.lezpoo.com'           # B C
   - '+.lfai.foundation'      # B C
   - '+.lflink.com'           # A C
@@ -14363,6 +14368,7 @@ payload:
   - '+.lifeatspotify.com'    # B C
   - '+.lifemiles.com'        # A B C
   - '+.lifeselector.com'     # B C
+  - '+.lifesitenews.com'     # B
   - '+.lifestyle-tec.ru'     # B C
   - '+.lifewire.com'         # B C
   - '+.lightboxcdn.com'      # A C
@@ -14687,7 +14693,7 @@ payload:
   - '+.lucasentertainment.com'  # B C
   - '+.lucasfilm.com'        # B C
   - '+.luckydesigner.space'  # A B C
-  - '+.luckyissue.com'       # B C
+  - '+.luckyissue.com'       # C
   - '+.luckymobile.ca'       # A B C
   - '+.luckysrv.de'          # B C
   - '+.ludepress.com'        # A B C
@@ -14726,7 +14732,7 @@ payload:
   - '+.lysol.cl'             # B C
   - '+.lysol.com'            # B C
   - '+.lysol.net'            # B C
-  - '+.lyzsxx.com'           # B C
+  - '+.lyzsxx.com'           # C
   - '+.lzjscript.com'        # A B C
   - '+.lzmtnews.org'         # A B C
   - '+.m-power.com'          # B C
@@ -14862,7 +14868,7 @@ payload:
   - '+.makearmanotwar.com'   # B C
   - '+.makebettercode.com'   # B C
   - '+.makecode.org'         # B C
-  - '+.makeeu.com'           # B C
+  - '+.makeeu.com'           # C
   - '+.makeitopen.com'       # B C
   - '+.makeitrealcontest.com'  # B C
   - '+.makemymood.com'       # A B C
@@ -14879,7 +14885,7 @@ payload:
   - '+.malaypornhub.com'     # B C
   - '+.malaysiakini.com'     # A C
   - '+.mallandrinhas.net'    # B C
-  - '+.mallheadphone.com'    # B C
+  - '+.mallheadphone.com'    # C
   - '+.malotogo.ru'          # B C
   - '+.malvastudios.com'     # B C
   - '+.mamacitaz.com'        # B C
@@ -15006,6 +15012,7 @@ payload:
   - '+.massagerepublic.com'  # B C
   - '+.masseffect.com'       # B C
   - '+.masseffectarchives.com'  # B C
+  - '+.master-insight.com'   # B
   - '+.mastercad.com'        # B C
   - '+.mastercard-email.com'  # B C
   - '+.mastercard.ae'        # B C
@@ -15148,7 +15155,7 @@ payload:
   - '+.mayimayi.com'         # A C
   - '+.maying.co'            # B C
   - '+.mbeats-tech.com'      # B C
-  - '+.mbheadphone.com'      # B C
+  - '+.mbheadphone.com'      # C
   - '+.mcadforums.com'       # A B C
   - '+.mcaf.ee'              # A B C
   - '+.mcafee.com'           # B C
@@ -15480,7 +15487,7 @@ payload:
   - '+.microsofttranslator.com'  # A B C
   - '+.microsoftuwp.com'     # B C
   - '+.microvpn.com'         # A B C
-  - '+.micstl.com'           # B C
+  - '+.micstl.com'           # C
   - '+.midatlanticbmwmotorcycles.com'  # B C
   - '+.middle-way.net'       # A C
   - '+.midentsolutions.com'  # B C
@@ -16052,7 +16059,7 @@ payload:
   - '+.monsterdrebeats-usa.com'  # B C
   - '+.monsterdrebeats-usa.net'  # B C
   - '+.monsterheadphone.net'  # B C
-  - '+.monsterproduct.net'   # B C
+  - '+.monsterproduct.net'   # C
   - '+.monstersbeatbydres.com'  # B C
   - '+.monstersdebea.com'    # B C
   - '+.monstersexporn.net'   # B C
@@ -16075,7 +16082,7 @@ payload:
   - '+.morazzia.com'         # B C
   - '+.morbell.com'          # A C
   - '+.more.tv'              # B C
-  - '+.moreheadphones.com'   # B C
+  - '+.moreheadphones.com'   # C
   - '+.moresci.sale'         # A B C
   - '+.morewithautodesk.com'  # B C
   - '+.morganclaypool.com'   # B C
@@ -16699,7 +16706,7 @@ payload:
   - '+.ndr.de'               # A C
   - '+.near.by'              # B C
   - '+.nebay.net'            # B C
-  - '+.neborder.com'         # B C
+  - '+.neborder.com'         # C
   - '+.ned.org'              # A B C
   - '+.nee4you.com'          # B C
   - '+.needforspeed.com'     # B C
@@ -16826,7 +16833,7 @@ payload:
   - '+.new3dcomics.com'      # B C
   - '+.new96.ca'             # A C
   - '+.newbeatsblackfriday.com'  # B C
-  - '+.newbemany.com'        # B C
+  - '+.newbemany.com'        # C
   - '+.newbienudes.com'      # B C
   - '+.newbrazz.com'         # B C
   - '+.newcenturymc.com'     # A B C
@@ -16845,7 +16852,7 @@ payload:
   - '+.newipnow.com'         # A C
   - '+.newisiknowledge.com'  # B C
   - '+.newlineporn.com'      # B C
-  - '+.newlysprung.net'      # B C
+  - '+.newlysprung.net'      # C
   - '+.newmitbbs.com'        # A B C
   - '+.newmonst1erbeatsto1re.com'  # B C
   - '+.newmonsterbeatsheadphones.com'  # B C
@@ -16858,7 +16865,7 @@ payload:
   - '+.newsancai.com'        # A B C
   - '+.newsblur.com'         # A B C
   - '+.newschinacomment.org'  # A C
-  - '+.newschristmasshopping.com'  # B C
+  - '+.newschristmasshopping.com'  # C
   - '+.newscn.org'           # A C
   - '+.newscorp.com'         # B C
   - '+.newscorpaustralia.com'  # B C
@@ -16920,7 +16927,7 @@ payload:
   - '+.nexus-cdn.com'        # B C
   - '+.nexusmods.com'        # B C
   - '+.nfjtyd.com'           # A C
-  - '+.nflhotsalejerseys.com'  # B C
+  - '+.nflhotsalejerseys.com'  # C
   - '+.nflxext.com'          # A B C
   - '+.nflximg.com'          # A B C
   - '+.nflximg.net'          # A B C
@@ -16974,7 +16981,7 @@ payload:
   - '+.nicegram.cloud'       # B C
   - '+.niceporn.tv'          # B C
   - '+.nicesrv.de'           # B C
-  - '+.nicesshop.net'        # B C
+  - '+.nicesshop.net'        # C
   - '+.nichepornsite.com'    # B C
   - '+.nichepornsites.com'   # B C
   - '+.nichost.ru'           # B C
@@ -17591,7 +17598,7 @@ payload:
   - '+.oekakiskey.com'       # B C
   - '+.oex.com'              # A B C
   - '+.offbeatchina.com'     # A C
-  - '+.offerairjordanlebron.com'  # B C
+  - '+.offerairjordanlebron.com'  # C
   - '+.office.com'           # B
   - '+.office.net'           # B  覆盖 +.content.office.net A C
   - '+.office365.com'        # B
@@ -17608,7 +17615,7 @@ payload:
   - '+.offworldindustries.net'  # B C
   - '+.ofiii.com'            # B C
   - '+.ofile.org'            # A B C
-  - '+.ogameblog.com'        # B C
+  - '+.ogameblog.com'        # C
   - '+.ogaoga.org'           # A B C
   - '+.ogate.org'            # A B C
   - '+.ogp.me'               # B C
@@ -17793,7 +17800,7 @@ payload:
   - '+.onmypc.org'           # A C
   - '+.onmypc.us'            # A C
   - '+.onsalekey.com'        # B C
-  - '+.onsaletrend.com'      # B C
+  - '+.onsaletrend.com'      # C
   - '+.onstream.cc'          # B C
   - '+.onthehunt.com'        # A B C
   - '+.ontrac.com'           # A B C
@@ -18176,7 +18183,7 @@ payload:
   - '+.patreon.com'          # A B C
   - '+.patreoncommunity.com'  # B C
   - '+.patreonusercontent.com'  # A B C
-  - '+.paulsimon-music.com'  # B C
+  - '+.paulsimon-music.com'  # C
   - '+.pavpal.com'           # B C
   - '+.pawchive.pw'          # B C
   - '+.pawchive.st'          # B C
@@ -18452,7 +18459,7 @@ payload:
   - '+.perfectgirls.net'     # A B C
   - '+.perfectgonzo.com'     # B C
   - '+.perfectjizz.com'      # C
-  - '+.perfectkickz.net'     # B C
+  - '+.perfectkickz.net'     # C
   - '+.perfectnaked.com'     # B C
   - '+.perfectsexnow.com'    # B C
   - '+.perfectshemales.com'  # B C
@@ -18469,7 +18476,7 @@ payload:
   - '+.persiankitty.com'     # A B C
   - '+.person.com'           # B C
   - '+.personaltrainermath.com'  # B C
-  - '+.personeelsland.com'   # B C
+  - '+.personeelsland.com'   # C
   - '+.pervbank.ru'          # B C
   - '+.pervclips.com'        # B C
   - '+.perverse.sex'         # B C
@@ -18533,9 +18540,9 @@ payload:
   - '+.picidae.net'          # A C
   - '+.picjs.xyz'            # A C
   - '+.pickinguppussy.com'   # B C
-  - '+.picknicekicks.net'    # B C
+  - '+.picknicekicks.net'    # C
   - '+.pickpackapp.com'      # B C
-  - '+.pickshoesclothes.com'  # B C
+  - '+.pickshoesclothes.com'  # C
   - '+.picnik.com'           # B C
   - '+.picpost.com'          # B C
   - '+.pics.ee'              # B C
@@ -18761,7 +18768,7 @@ payload:
   - '+.pobieramy.top'        # A C
   - '+.pobl-content.com'     # B C
   - '+.pochtabank.ru'        # B C
-  - '+.pocketbiketrader.com'  # B C
+  - '+.pocketbiketrader.com'  # C
   - '+.pocketcasts.com'      # B C  覆盖 +.static.pocketcasts.com A
   - '+.podbean.com'          # A B C
   - '+.podcast.co'           # A B C
@@ -19481,6 +19488,7 @@ payload:
   - '+.pullfolio.com'        # A C
   - '+.pullstring.net'       # B C
   - '+.pulsebrowser.app'     # B C
+  - '+.pulsehknews.com'      # B
   - '+.punishbang.com'       # B C
   - '+.punishworld.com'      # B C
   - '+.punyu.com'            # A C
@@ -19830,7 +19838,7 @@ payload:
   - '+.rbplc.com'            # B C
   - '+.rbrandlibrary.com'    # B C
   - '+.rbsgate.com'          # B C
-  - '+.rbsgr.com'            # B C
+  - '+.rbsgr.com'            # C
   - '+.rbspeakup.com'        # B C
   - '+.rbsuat.com'           # B C
   - '+.rbth.com'             # B C
@@ -19998,7 +20006,7 @@ payload:
   - '+.refah-bank.ir'        # B C
   - '+.referer.us'           # A B C
   - '+.reflectivecode.com'   # A B C
-  - '+.reform-apple.com'     # B C
+  - '+.reform-apple.com'     # C
   - '+.reg.cloud'            # B C
   - '+.reg.com'              # B C
   - '+.reg.ru'               # B C
@@ -20036,8 +20044,8 @@ payload:
   - '+.report-megafon.ru'    # B C
   - '+.repotama.com'         # B C
   - '+.repsils.no'           # B C
-  - '+.repsneakermall.com'   # B C
-  - '+.repswing.com'         # B C
+  - '+.repsneakermall.com'   # C
+  - '+.repswing.com'         # C
   - '+.rerouted.org'         # C  覆盖 +.subacme.rerouted.org A
   - '+.resao.com'            # B C
   - '+.researchandcare.org'  # B C
@@ -20455,7 +20463,7 @@ payload:
   - '+.sale-nikeshoes.com'   # B C
   - '+.salebeatslasteststyle4you.com'  # B C
   - '+.saleblackfridaydrebeats.com'  # B C
-  - '+.salecheaphandbags.com'  # B C
+  - '+.salecheaphandbags.com'  # C
   - '+.salesforce-setup.com'  # B C
   - '+.salesforce-sites.com'  # B C
   - '+.salesforce.com'       # B C
@@ -20466,7 +20474,7 @@ payload:
   - '+.samair.ru'            # A C
   - '+.sambaporno.com'       # B C
   - '+.sambhota.org'         # A C
-  - '+.samebags.com'         # B C
+  - '+.samebags.com'         # C
   - '+.samsung.com'          # B C
   - '+.samsungapps.com'      # B C
   - '+.samsungcloud.com'     # B C
@@ -20508,7 +20516,7 @@ payload:
   - '+.sankie.net'           # B C
   - '+.sans.edu'             # A C  覆盖 +.isc.sans.edu B
   - '+.sanspo.com'           # B C
-  - '+.sanvaras.com'         # B C
+  - '+.sanvaras.com'         # C
   - '+.sanwapub.com'         # C
   - '+.saobjpg.com'          # B C
   - '+.saoni91.xyz'          # B C
@@ -20624,7 +20632,7 @@ payload:
   - '+.scival.com'           # B C
   - '+.scmp.com'             # A B C
   - '+.scmpchinese.com'      # A C
-  - '+.scnshop.cc'           # B C
+  - '+.scnshop.cc'           # C
   - '+.scnsrc.me'            # B C
   - '+.scolle.net'           # B C
   - '+.scoop.sh'             # B C
@@ -21032,6 +21040,7 @@ payload:
   - '+.shambhalasun.com'     # A C
   - '+.shameless.com'        # B C
   - '+.shangfang.org'        # A C
+  - '+.shanghainationalparty.com'  # B
   - '+.shaparak.ir'          # B C
   - '+.shapelcounset.xyz'    # B C
   - '+.shapeservices.com'    # A C
@@ -21122,8 +21131,8 @@ payload:
   - '+.shkspr.mobi'          # A C
   - '+.shockingmovies.com'   # B C
   - '+.shodanhq.com'         # A B C
-  - '+.shoers.com'           # B C
-  - '+.shoestop2.com'        # B C
+  - '+.shoers.com'           # C
+  - '+.shoestop2.com'        # C
   - '+.shooshtime.com'       # A B C
   - '+.shop-headphones.net'  # B C
   - '+.shop-pro.jp'          # B C
@@ -21164,9 +21173,9 @@ payload:
   - '+.shopminiusa.com'      # B C
   - '+.shopmonsterbeats.com'  # B C
   - '+.shoppercentre.com'    # B C
-  - '+.shopping-days.net'    # B C
+  - '+.shopping-days.net'    # C
   - '+.shopping.com'         # A C
-  - '+.shoppinguheadphones.com'  # B C
+  - '+.shoppinguheadphones.com'  # C
   - '+.shops-disney.com'     # B C
   - '+.shopspeedtv.com'      # B C
   - '+.shoptraivip.com'      # B C
@@ -21492,9 +21501,9 @@ payload:
   - '+.snapwebcams.com'      # B C
   - '+.snbank.ru'            # B C
   - '+.sndcdn.com'           # A B C
-  - '+.sneaker666.com'       # B C
-  - '+.sneakerpage.net'      # B C
-  - '+.sneakerskick.com'     # B C
+  - '+.sneaker666.com'       # C
+  - '+.sneakerpage.net'      # C
+  - '+.sneakerskick.com'     # C
   - '+.sneakme.net'          # A C
   - '+.sngb.ru'              # B C
   - '+.snjulebu.com'         # B C
@@ -21665,7 +21674,7 @@ payload:
   - '+.sos.org'              # A B C
   - '+.sos44.com'            # B C
   - '+.sosad.fun'            # A B C
-  - '+.soso7778.com'         # B C
+  - '+.soso7778.com'         # C
   - '+.sosreader.com'        # A B C
   - '+.sostibet.org'         # A C
   - '+.sotwe.com'            # A B C
@@ -21674,6 +21683,7 @@ payload:
   - '+.souka.xyz'            # B C
   - '+.soul-plus.net'        # A C
   - '+.soulcaliburhentai.net'  # A B C
+  - '+.soulogic.com'         # B
   - '+.soumo.info'           # A C
   - '+.soundcloud.cloud'     # B C
   - '+.soundcloud.com'       # A B C
@@ -21734,7 +21744,7 @@ payload:
   - '+.spcc-sp.com'          # B C
   - '+.speakerdeck.com'      # A B C
   - '+.spearhead.kr'         # B C
-  - '+.specialtyheadphones.com'  # B C
+  - '+.specialtyheadphones.com'  # C
   - '+.spectraltube.com'     # B C
   - '+.speedcat.me'          # A B C
   - '+.speeddreamride.com'   # B C
@@ -21764,7 +21774,7 @@ payload:
   - '+.spiegel.de'           # C
   - '+.spigotmc.org'         # B C
   - '+.spike.com'            # A C
-  - '+.spiritclubs.com'      # B C
+  - '+.spiritclubs.com'      # C
   - '+.spiritofecstasy.com'  # B C
   - '+.spizoo.com'           # B C
   - '+.splatoon2tournament.com'  # B C
@@ -22171,7 +22181,7 @@ payload:
   - '+.sukafeti.jp'          # B C
   - '+.sukebelinks.com'      # B C
   - '+.sulian.me'            # A C
-  - '+.sulwerphoto.com'      # B C
+  - '+.sulwerphoto.com'      # C
   - '+.summerstage.ru'       # B C
   - '+.summify.com'          # A C
   - '+.summitceo.ru'         # B C
@@ -22182,7 +22192,7 @@ payload:
   - '+.sundanceignite2016.com'  # B C
   - '+.sundayguardianlive.com'  # A B C
   - '+.sundayready.com'      # B C
-  - '+.sunglassessale2014.com'  # B C
+  - '+.sunglassessale2014.com'  # C
   - '+.sunmedia.ca'          # A B C
   - '+.suno.ai'              # A B C
   - '+.suno.com'             # A B C
@@ -22199,7 +22209,7 @@ payload:
   - '+.supercellgames.com'   # B C
   - '+.supercellid.com'      # B C
   - '+.supercellstore.com'   # B C
-  - '+.superearsenjoy.com'   # B C
+  - '+.superearsenjoy.com'   # C
   - '+.superfreevpn.com'     # A C
   - '+.supergratisporno.com'  # B C
   - '+.superhqporn.com'      # B C
@@ -22219,7 +22229,7 @@ payload:
   - '+.superzooi.com'        # A B C
   - '+.supjav.com'           # A B C
   - '+.suppig.net'           # A C
-  - '+.supplybestjerseys.com'  # B C
+  - '+.supplybestjerseys.com'  # C
   - '+.support-uber.com'     # B C
   - '+.supportfacebook.com'  # B C
   - '+.supr.cl'              # B C
@@ -22357,7 +22367,7 @@ payload:
   - '+.szbbs.net'            # A C
   - '+.szcheapmonsterheadphones.com'  # B C
   - '+.szexvideo.top'        # B C
-  - '+.szwinnertechnology.com'  # B C
+  - '+.szwinnertechnology.com'  # C
   - '+.t-access.ru'          # B C
   - '+.t-bank-app.ru'        # B C
   - '+.t-bank-app.su'        # B C
@@ -22431,11 +22441,12 @@ payload:
   - '+.taiwannation.com'     # A C
   - '+.taiwanonline.cc'      # A C  覆盖 +.www.taiwanonline.cc B
   - '+.taiwansex.tw'         # B C
+  - '+.taiwantoday.tw'       # B
   - '+.taiwantp.net'         # A C
   - '+.taiwanus.net'         # A C
   - '+.taiwanyes.com'        # A C
   - '+.take2games.com'       # B C
-  - '+.takegoto.com'         # B C
+  - '+.takegoto.com'         # C
   - '+.takens.tw'            # B C
   - '+.taknai.com'           # B C
   - '+.takporn.com'          # B C
@@ -22751,6 +22762,7 @@ payload:
   - '+.thecleversense.com'   # B C
   - '+.theclubprive.com'     # B C
   - '+.theclyster.com'       # C
+  - '+.thecollectivehk.com'  # B
   - '+.thecompaqstore.com'   # B C
   - '+.theconversation.com'  # A B C
   - '+.thecuckold.com'       # B C
@@ -22816,6 +22828,7 @@ payload:
   - '+.thenewslens.com'      # A B C
   - '+.thenextweb.com'       # B C
   - '+.thenipslip.com'       # B C
+  - '+.theonlinecitizen.com'  # B
   - '+.theopportunityproject.org'  # B C
   - '+.thepaypalshop.com'    # B C
   - '+.thepervs.com'         # B C
@@ -22854,6 +22867,7 @@ payload:
   - '+.thesimssocial.com'    # B C
   - '+.thespeeder.com'       # A C
   - '+.thestandnews.com'     # A B C
+  - '+.thestar.com'          # B
   - '+.thestationbymaker.com'  # B C
   - '+.thesun.ie'            # B C
   - '+.thetatoken.org'       # A B C
@@ -22871,7 +22885,7 @@ payload:
   - '+.thetrotskymovie.com'  # A C
   - '+.thetvdb.com'          # A B C
   - '+.thetype.com'          # B C
-  - '+.theuab.net'           # B C
+  - '+.theuab.net'           # C
   - '+.theverge.com'         # A B C
   - '+.thevirtualsexreview.com'  # B C
   - '+.thevivekspot.com'     # A C
@@ -22881,6 +22895,7 @@ payload:
   - '+.thewgo.org'           # A B C
   - '+.thewirechina.com'     # A B C
   - '+.thewitcher.com'       # B C
+  - '+.thewitnesshk.com'     # B
   - '+.thewonderful101.com'  # B C
   - '+.theync.com'           # A B C
   - '+.theyxxx.com'          # B C
@@ -23320,7 +23335,7 @@ payload:
   - '+.tracker.network'      # B C
   - '+.tracking-location.com'  # B C
   - '+.tradeup.com'          # A B C
-  - '+.tradevip1.com'        # B C
+  - '+.tradevip1.com'        # C
   - '+.tradingview.com'      # A B C
   - '+.trae.ai'              # B C
   - '+.traffichaus.com'      # C
@@ -23463,7 +23478,7 @@ payload:
   - '+.tt-rss.org'           # A C
   - '+.tt1069.com'           # A B C
   - '+.ttcdn-us.com'         # B C
-  - '+.tteshop.com'          # B C
+  - '+.tteshop.com'          # C
   - '+.ttlivecdn.com'        # B C
   - '+.ttoverseaus.net'      # B C
   - '+.tttan.com'            # A B C
@@ -23948,7 +23963,7 @@ payload:
   - '+.unseen.is'            # A B C
   - '+.unsplash.com'         # A B C
   - '+.unstable.icu'         # A B C
-  - '+.unstyle.us'           # B C
+  - '+.unstyle.us'           # C
   - '+.untraceable.us'       # A C
   - '+.unusualporn.net'      # B C
   - '+.unwire.hk'            # A B C
@@ -24092,7 +24107,7 @@ payload:
   - '+.uygur.org'            # A C
   - '+.uymaarip.com'         # A B C
   - '+.v-av.com'             # B C
-  - '+.v-has.com'            # B C
+  - '+.v-has.com'            # C
   - '+.v.gd'                 # A B C
   - '+.v.ps'                 # B C
   - '+.v.recipes'            # A B C
@@ -24442,11 +24457,11 @@ payload:
   - '+.vip-enterprise.com'   # A B C
   - '+.vipbeatsbydre.com'    # B C
   - '+.vipergirls.to'        # B C
-  - '+.vipheadphones.com'    # B C
+  - '+.vipheadphones.com'    # C
   - '+.vipissy.com'          # B C
   - '+.vipmatureporn.com'    # B C
   - '+.vipoo.es'             # B C
-  - '+.vipshoes2.com'        # B C
+  - '+.vipshoes2.com'        # C
   - '+.vipstudiocali.com'    # B C
   - '+.viqeo.tv'             # B C
   - '+.viqeotv.com'          # B C
@@ -25053,7 +25068,7 @@ payload:
   - '+.warp.plus'            # B C
   - '+.warroom.org'          # A B C
   - '+.warthunder.com'       # B C
-  - '+.wasdj.com'            # B C
+  - '+.wasdj.com'            # C
   - '+.waselpro.com'         # A B C
   - '+.washa.tv'             # B C
   - '+.washeng.net'          # A C
@@ -25302,10 +25317,10 @@ payload:
   - '+.wholefoodsmarket.com'  # B C
   - '+.wholekidsfoundation.org'  # B C
   - '+.wholeplanetfoundation.org'  # B C
-  - '+.wholesale-exporter1.com'  # B C
-  - '+.wholesalediscountpurses.com'  # B C
-  - '+.wholesalefine.com'    # B C
-  - '+.wholesaleonlinemart.com'  # B C
+  - '+.wholesale-exporter1.com'  # C
+  - '+.wholesalediscountpurses.com'  # C
+  - '+.wholesalefine.com'    # C
+  - '+.wholesaleonlinemart.com'  # C
   - '+.wholevideos.com'      # B C
   - '+.whonix.org'           # B C
   - '+.whoreasianporn.com'   # B C
@@ -25533,6 +25548,7 @@ payload:
   - '+.wolframalpha.com'     # B C
   - '+.wolfsex-me.sbs'       # B C
   - '+.wolterskluwer.com'    # B C
+  - '+.womany.net'           # B
   - '+.wombo.ai'             # A B C
   - '+.womensnikeshox.com'   # B C
   - '+.womenwill.com'        # B C
@@ -25570,7 +25586,7 @@ payload:
   - '+.workstations.tv'      # B C
   - '+.world3d.biz'          # B C
   - '+.worldcat.org'         # A C
-  - '+.worldcoinpay.com'     # B C
+  - '+.worldcoinpay.com'     # C
   - '+.worldcuprussia.com'   # B C
   - '+.worldemojiawards.com'  # B C
   - '+.worldemojiday.com'    # B C
@@ -27889,7 +27905,7 @@ payload:
   - '+.dynamicdns.me.uk'     # A C
   - '+.dynamicdns.org.uk'    # A C
   - '+.e-classical.com.tw'   # A B C
-  - '+.e-info.org.tw'        # A C
+  - '+.e-info.org.tw'        # A B C
   - '+.e-zone.com.hk'        # A B C
   - '+.eakorea.co.kr'        # B C
   - '+.easttouch.com.hk'     # B C
@@ -28674,6 +28690,7 @@ payload:
   - '+.momomall.com.tw'      # B C
   - '+.momoshop.com.tw'      # A B C
   - '+.money-link.com.tw'    # A B C
+  - '+.moneynet.com.tw'      # B
   - '+.monitoring.qatp1.net'  # C
   - '+.monitoring.qcpp1.net'  # C
   - '+.monitoring.qpdp1.net'  # C
@@ -28704,6 +28721,7 @@ payload:
   - '+.mundomais.com.br'     # B C
   - '+.musashinobank.co.jp'  # B C
   - '+.mx.hao123.com'        # C
+  - '+.my-formosa.com.tw'    # B
   - '+.my-kualalumpur-1.myhuaweicloud.com'  # C
   - '+.my-private-network.co.uk'  # A B C
   - '+.my.weibo.com'         # C
