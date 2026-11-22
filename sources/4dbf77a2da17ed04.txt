@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27315, "fetched_at": "2026-11-20T02:47:56+00:00", "format": "auto", "invalid": 0, "raw_sha256": "dcb2bf530a192c938bd77ee480f6d5ad6fde83e1873801276f6d01873f9bf5c8", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27204, "fetched_at": "2026-11-22T01:52:16+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f40fee6fc3bf7bd5cf19c922f91143d1636a9b28954b0f87242381e6b55f7116", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -330,7 +330,6 @@ d +.3xplanetimg.com
 d +.3xxx.pro
 d +.404museum.com
 d +.40momporntube.com
-d +.40shopping.com
 d +.40somethingmag.com
 d +.41maonn.com
 d +.444.coffee
@@ -626,7 +625,6 @@ d +.aadrm.com
 d +.aaex.uk
 d +.aalah.me
 d +.aamacau.com
-d +.aanaan.com
 d +.aapl.tw
 d +.aaplimg.com
 d +.aave.com
@@ -994,7 +992,6 @@ d +.adventuresbydisney.com
 d +.advertfan.com
 d +.advertisercommunity.com
 d +.adx.promo
-d +.aeasyshop.com
 d +.aebn.com
 d +.aecexcellence.com
 d +.aei.org
@@ -1165,7 +1162,6 @@ d +.airhornbot.com
 d +.airiti.com
 d +.airitilibrary.com
 d +.airmax360.com
-d +.airmay.com
 d +.airport-gov-cn.com
 d +.airport.brussels
 d +.airport.com
@@ -1228,7 +1224,6 @@ d +.aizyk.buzz
 d +.aizyk.xyz
 d +.ajplus.net
 d +.ajsjx.com
-d +.ajtalk.com
 d +.ak1.net
 d +.aka-ai.com
 d +.aka-ai.net
@@ -1770,7 +1765,6 @@ d +.annamilk.com
 d +.annas-archive.gd
 d +.annas-archive.gl
 d +.annas-archive.pk
-d +.annstores.net
 d +.annualpelvicexam.com
 d +.annualreviews.org
 d +.anobii.com
@@ -1815,7 +1809,6 @@ d +.aobo.com.au
 d +.aoc.cat
 d +.aodahl.com
 d +.aofriend.com
-d +.aokwholesale.net
 d +.aolcdn.com
 d +.aomedia.org
 d +.aomiwang.com
@@ -2901,7 +2894,6 @@ d +.badsexygirl.com
 d +.badteenspunished.com
 d +.badvirtue.com
 d +.baeb.com
-d +.bag-glasses1.com
 d +.bahamut.com.tw
 d +.bai29.xyz
 d +.baicaonetwork.com
@@ -2926,7 +2918,6 @@ d +.band.us
 d +.bandag.cc
 d +.bandag.com
 d +.bandcamp.com
-d +.bandgirlz.com
 d +.bandpage.com
 d +.bandwagonhost.com
 d +.bang-dream.com
@@ -3001,7 +2992,6 @@ d +.battlefront2.com
 d +.battlefrontii.com
 d +.battlelog.com
 d +.battleye.com
-d +.baxsound.com
 d +.bayareabmw.com
 d +.bayvoice.net
 d +.bazel.build
@@ -3024,7 +3014,6 @@ d +.bbcmedia.co.uk
 d +.bbcpersian.com
 d +.bbcpornonly.com
 d +.bbcverticals.com
-d +.bbestmall.com
 d +.bbg.gov
 d +.bbgevent.com
 d +.bbgwatch.com
@@ -3372,7 +3361,6 @@ d +.beget.pro
 d +.beget.ru
 d +.beget.tech
 d +.begetcdn.cloud
-d +.begin-trade.com
 d +.behance.net
 d +.behindthescreenz.com
 d +.beibao.com
@@ -3581,7 +3569,6 @@ d +.bigtitterrynova.com
 d +.bigtitvenera.com
 d +.bigtopsites.com
 d +.biguz.net
-d +.biitii.com
 d +.bijukujo.club
 d +.bikaa.xyz
 d +.bikac.xyz
@@ -3915,7 +3902,6 @@ d +.bloombergtv.mn
 d +.bloombergvault.com
 d +.bloombergview.com
 d +.bloomfortune.com
-d +.bloommicroventures.com
 d +.bloomsburycollections.com
 d +.bloomsburydesignlibrary.com
 d +.blowjobit.com
@@ -4401,7 +4387,6 @@ d +.booking.com
 d +.bookmark.xxx
 d +.bookmate.ru
 d +.bookmybridgestonetyre.com
-d +.bookonsky.net
 d +.books.com.tw
 d +.booksc.eu
 d +.booksc.me
@@ -4439,7 +4424,6 @@ d +.boshancy.com
 d +.bosharso.net
 d +.boslife.biz
 d +.boslife.net
-d +.bossae.com
 d +.bossagency.co.uk
 d +.boswp.com
 d +.botanwang.com
@@ -4488,11 +4472,7 @@ d +.braintreepaymentsolutions.com
 d +.braintreeps.com
 d +.branchportal.com
 d +.brand-protection-team.com
-d +.brandeasygo.com
-d +.brandelectronic.com
 d +.brandporno.com
-d +.brandproducts1688.com
-d +.brands098.com
 d +.brantect.com
 d +.brasilincesto.com
 d +.brasiltudoliberado.com
@@ -4714,7 +4694,6 @@ d +.businessinsider.my
 d +.businessinsider.nl
 d +.businessinsider.sg
 d +.businesstoday.com.tw
-d +.businesswebwise.com
 d +.businessweek.com
 d +.businessweekly.com.tw
 d +.businessweekmag.com
@@ -4734,7 +4713,6 @@ d +.bustyoldsluts.com
 d +.bustysammieblack.com
 d +.busu.org
 d +.busybox.net
-d +.buy-from-shanghai.com
 d +.buyaapl.com
 d +.buyaapl.net
 d +.buyaltera.com
@@ -4764,8 +4742,6 @@ d +.buypass.com
 d +.buypass.no
 d +.buypass.se
 d +.buyservices.com
-d +.buyshoponly.com
-d +.buzzardflapper.com
 d +.buzzav.com
 d +.buzzorange.com
 d +.buzzsprout.com
@@ -5335,8 +5311,6 @@ d +.cheaperbeatsbydresale.com
 d +.cheapestbeatsdrdre.com
 d +.cheapheadphonesland.com
 d +.cheapheadphonessale.com
-d +.cheapheadsetmall.com
-d +.cheapheadsetshop.com
 d +.cheapmonsterbeatsbydrdre.com
 d +.cheapmonsterbeatsheadsets.com
 d +.cheapmonsterbeatssale.com
@@ -5346,11 +5320,8 @@ d +.cheapnewbeatsbydre.com
 d +.cheapnikedunks.com
 d +.cheapnikeoutlet.com
 d +.cheapsalemonster.com
-d +.cheapshoesvip.com
-d +.cheapwireless04.com
 d +.cheapwirelessbeats.com
 d +.checkgfw.com
-d +.cheerwholesale.us
 d +.chef.io
 d +.chegg.com
 d +.cheggcdn.com
@@ -5385,7 +5356,6 @@ d +.chicksonblackdicks.com
 d +.chickstagram.com
 d +.chickteases.com
 d +.chid.com.mm
-d +.chihair-straightener.com
 d +.chii.in
 d +.chikiporn.com
 d +.chikubank.co.jp
@@ -5408,7 +5378,6 @@ d +.chinaaid.org
 d +.chinaaid.us
 d +.chinachange.org
 d +.chinachannel.hk
-d +.chinaclothesstore.com
 d +.chinadecoding.com
 d +.chinademocrats.org
 d +.chinadialogue.net
@@ -5496,7 +5465,6 @@ d +.cia.gov
 d +.cian.ru
 d +.cian.site
 d +.ciangroup.ru
-d +.ciattackers.com
 d +.cibank.ru
 d +.cici.com
 d +.ciciai.com
@@ -5724,9 +5692,9 @@ d +.clzz2.xyz
 d +.cm.expert
 d +.cmcn.org
 d +.cmegroup.com
-d +.cmhalq.com
 d +.cmi.org.tw
 d +.cmmedia.com.tw
+d +.cmoney.tw
 d +.cmpaas.com
 d +.cmrbank.ru
 d +.cms-twdigitalassets.com
@@ -5766,7 +5734,6 @@ d +.cnnmoneystream.com
 d +.cnnpolitics.com
 d +.cnpmjs.org
 d +.cnpolitics.org
-d +.cnshopin.com
 d +.cnyes.com
 d +.cnzjp.xyz
 d +.co.ng.mil
@@ -6014,7 +5981,6 @@ d +.cplsb.ru
 d +.cpu-monkey.com
 d +.cpz.to
 d +.cq99.us
-d +.cqcorea.com
 d +.crabporn.com
 d +.crackle.com
 d +.craftifyx.com
@@ -6144,7 +6110,6 @@ d +.cuckvideos.com
 d +.cuckwatchingwife.com
 d +.cuckwimp.com
 d +.cuebic.biz
-d +.cuffiesaldi.com
 d +.cuhk.hk
 d +.cuinc.oen.tw
 d +.cuinc.tw
@@ -6288,7 +6253,6 @@ d +.dandalinvoa.com
 d +.dandanplay.com
 d +.dandanplay.net
 d +.dandanzan.cc
-d +.danemarket.com
 d +.danke4china.net
 d +.danmarkbeatsbydrdre.com
 d +.danskpornofilm.com
@@ -6655,7 +6619,6 @@ d +.desktopmovies.net
 d +.desktopmovies.org
 d +.dessci.com
 d +.destinationbim.com
-d +.detaliczny.com
 d +.detentiongirls.com
 d +.detodosparatodos.org
 d +.detpress.com
@@ -7314,7 +7277,6 @@ d +.dtci.co
 d +.dtci.technology
 d +.dtiblog.com
 d +.dtic.mil
-d +.dtsell.com
 d +.dtv2009offers.com
 d +.dtvce.com
 d +.dualeotruyen1s.com
@@ -7471,6 +7433,7 @@ d +.e-gold.com
 d +.e-goods.ru
 d +.e-hentai.org
 d +.e-hentaidb.com
+d +.e-info.org.tw
 d +.e-szigno.hu
 d +.e-tugra.com
 d +.e-zone.com.hk
@@ -7498,7 +7461,6 @@ d +.eanordic.com
 d +.eaplay.com
 d +.earlytibet.com
 d +.earngeek.com
-d +.earphonescheapest.com
 d +.earpod.net
 d +.earthdell.com
 d +.earthvpn.com
@@ -7711,7 +7673,6 @@ d +.ebsco.com
 d +.ebscohost.com
 d +.ebtcbank.com
 d +.ebuyer.com
-d +.ebuyheadphones.com
 d +.ecbsn.com
 d +.ecchinohentai.ru
 d +.ecert.gov.hk
@@ -8138,7 +8099,6 @@ d +.estudio360.com.co
 d +.estudiopenthouse.com
 d +.esurance.com
 d +.etbc.com.hk
-d +.etheadphones.com
 d +.etherdelta.com
 d +.ethereum.foundation
 d +.ethereum.org
@@ -8580,7 +8540,6 @@ d +.familystrokes.com
 d +.familyswap.xxx
 d +.famima.vn
 d +.famitsu.com
-d +.famosascalvas.com
 d +.famous-nudes.com
 d +.famousinternetgirls.com
 d +.famousinternetgirlsgalleries.com
@@ -9334,11 +9293,9 @@ d +.franklc.com
 d +.frcasquesbeats.com
 d +.freakshare.com
 d +.free-3d-porn.com
-d +.free-aa.com
 d +.free-abbywinters.com
 d +.free-avx.jp
 d +.free-erobooks.com
-d +.free-sns.com
 d +.free-ss.site
 d +.free-strip-games.com
 d +.free-wap-tube.com
@@ -9457,7 +9414,6 @@ d +.friendsoftibet.org
 d +.fril.jp
 d +.fring.com
 d +.fringenetwork.com
-d +.frishoes.com
 d +.fritchy.com
 d +.frommel.net
 d +.frontiersin.org
@@ -9666,7 +9622,6 @@ d +.gamboporn.com
 d +.gamcore.com
 d +.game-platform.net
 d +.game-repack.site
-d +.game735.com
 d +.gameapps.hk
 d +.gamebanana.com
 d +.gamebase.com.tw
@@ -9696,6 +9651,7 @@ d +.gameuxmasterguide.com
 d +.gamewtb.com
 d +.gamez.com.tw
 d +.gaming-notebooks.com
+d +.gamma.app
 d +.gandhara.ru
 d +.gandi.net
 d +.ganjing.com
@@ -10134,7 +10090,6 @@ d +.gmail
 d +.gmail.com
 d +.gmgard.com
 d +.gmgn.ai
-d +.gmnetworks.net
 d +.gmo
 d +.gmo-aozora.com
 d +.gmo-app.jp
@@ -10263,7 +10218,6 @@ d +.goodporn.to
 d +.goodporno.cc
 d +.goodreaders.com
 d +.goodreads.com
-d +.goodsdunk.net
 d +.goodsexporn.org
 d +.goodsrv.de
 d +.goofind.com
@@ -10645,6 +10599,7 @@ d +.greatfirewallofchina.org
 d +.greatgame.asia
 d +.greatretroporn.com
 d +.green-box-tv.com
+d +.greenbean.media
 d +.greenbuildingstudio.com
 d +.greenend.org.uk
 d +.greenlakeaas.com
@@ -10959,20 +10914,12 @@ d +.hdxx.tv
 d +.hdzog.com
 d +.he.net
 d +.headlinejobs.hk
-d +.headphonepubs.com
-d +.headphones-cool.com
 d +.headphones-dre.com
 d +.headphones-outlet-online.com
 d +.headphonesbeatsaudio.com
 d +.headphonesbeatsbydre.com
 d +.headphoneses.com
-d +.headphoneshome.com
-d +.headphoneshotsales.com
-d +.headphonesol.com
 d +.headphonesretailer.com
-d +.headphonessupply.com
-d +.headphonezip.com
-d +.headset987.com
 d +.health026.click
 d +.healthcarecareeronline.com
 d +.healthreach.hk
@@ -11253,10 +11200,8 @@ d +.hindawi.com
 d +.hindiweb.com
 d +.hindustantimes.com
 d +.hinet.net
-d +.hipaa6020.com
 d +.hiporn.net
 d +.hippyhillscomix.com
-d +.hipzoom.net
 d +.hiroshimabank.co.jp
 d +.historylines.net
 d +.historyofdota.com
@@ -11288,9 +11233,11 @@ d +.hkbu.hk
 d +.hkchronicles.com
 d +.hkcircleapp.com
 d +.hkcitizenmedia.com
+d +.hkcitycreation.com
 d +.hkcnews.com
 d +.hkcoc.com
 d +.hkcoc.weather.com.hk
+d +.hkcourtnews.com
 d +.hkcsl.com
 d +.hkdc.us
 d +.hkedcity.net
@@ -11301,6 +11248,7 @@ d +.hkf2023.lat
 d +.hkf202311.site
 d +.hkf202312.shop
 d +.hkfaa.com
+d +.hkfeature.com
 d +.hkgalden.com
 d +.hkgolden.com
 d +.hkgolden.media
@@ -11390,7 +11338,6 @@ d +.homestylernews.com
 d +.hometrack.com.au
 d +.hominis.media
 d +.homo.xxx
-d +.honawalaan.com
 d +.honestpornreviews.com
 d +.hongjie10.xyz
 d +.hongjie11.xyz
@@ -11501,7 +11448,6 @@ d +.hotstarext.com
 d +.hotstunners.com
 d +.hotteenfreecam.com
 d +.hottestfilms.com
-d +.hottestheadphonesonline.com
 d +.hottg.com
 d +.hottystop.com
 d +.hotvpn.com
@@ -11661,7 +11607,6 @@ d +.hqxxxmovies.com
 d +.hrecords.jp
 d +.hrichina.org
 d +.hrntt.org
-d +.hrsaz.com
 d +.hrtek.ru
 d +.hrw.org
 d +.hsbc
@@ -12122,7 +12067,6 @@ d +.ignites.com
 d +.ignitesasia.com
 d +.igniteseurope.com
 d +.igoogle.com
-d +.igoshopping.net
 d +.igotpornpics.com
 d +.igpublish.com
 d +.igsonar.com
@@ -12238,7 +12182,6 @@ d +.ilife.gr
 d +.ilife.wang
 d +.illawarramercury.com.au
 d +.illgames.jp
-d +.illianacomputerrecycling.com
 d +.illusion111.com
 d +.illusionas.com
 d +.illusionchn.com
@@ -12341,7 +12284,6 @@ d +.in-bank.ru
 d +.inaporn.com
 d +.inasian.club
 d +.inbox.ru
-d +.incentivetravelgifts.com
 d +.incestflix.com
 d +.incesto.blog.br
 d +.incestporn.xxx
@@ -12828,7 +12770,6 @@ d +.iphone5.com
 d +.iphone5casescovers.com
 d +.iphone5s5case.com
 d +.iphoneacessorios.com.br
-d +.iphonecase2013.com
 d +.iphonecase5.com
 d +.iphonecases100.com
 d +.iphonecases5.com
@@ -12942,7 +12883,6 @@ d +.isiknowledge.com
 d +.iskoot.com
 d +.islam.org.hk
 d +.islamhouse.com
-d +.islamiccenterofnewlondon.com
 d +.ismaelan.com
 d +.ismprofessional.net
 d +.isnbank.ru
@@ -13679,7 +13619,6 @@ d +.kichiku-doujinko.com
 d +.kichikuou.com
 d +.kick.com
 d +.kickporn.com
-d +.kickshatchannel.com
 d +.kicksnike1.com
 d +.kicu.tv
 d +.kidgrid.tv
@@ -13824,7 +13763,6 @@ d +.konamisportsclub.jp
 d +.konamistyle.jp
 d +.koolsolutions.com
 d +.koornk.com
-d +.kopfhorergunstigshop.com
 d +.koranmandarin.com
 d +.koreanpornmovie.com
 d +.korewaeroi.com
@@ -14007,7 +13945,6 @@ d +.lecloud.net
 d +.lecoin.cc
 d +.lede-project.org
 d +.ledger.com
-d +.leecountytimes.com
 d +.left21.hk
 d +.legaltracker.com
 d +.legra.ph
@@ -14055,7 +13992,6 @@ d +.lewdvrgames.com
 d +.lewdweb.net
 d +.lexica.art
 d +.lexisnexis.com
-d +.lexuemei.com
 d +.lezpoo.com
 d +.lfai.foundation
 d +.lg.com
@@ -14104,6 +14040,7 @@ d +.life-global.org
 d +.lifeatspotify.com
 d +.lifemiles.com
 d +.lifeselector.com
+d +.lifesitenews.com
 d +.lifestyle-tec.ru
 d +.lifewire.com
 d +.lightbridge.com
@@ -14397,7 +14334,6 @@ d +.lucahmelayu.club
 d +.lucasentertainment.com
 d +.lucasfilm.com
 d +.luckydesigner.space
-d +.luckyissue.com
 d +.luckymobile.ca
 d +.luckysrv.de
 d +.ludepress.com
@@ -14434,7 +14370,6 @@ d +.lysol.co.cr
 d +.lysol.com
 d +.lysol.com.mx
 d +.lysol.net
-d +.lyzsxx.com
 d +.lzjscript.com
 d +.lzmtnews.org
 d +.m-power.com
@@ -14568,7 +14503,6 @@ d +.makeappli.jp
 d +.makearmanotwar.com
 d +.makebettercode.com
 d +.makecode.org
-d +.makeeu.com
 d +.makeitopen.com
 d +.makeitrealcontest.com
 d +.makemymood.com
@@ -14583,7 +14517,6 @@ d +.malayporn.site
 d +.malayporn.space
 d +.malaypornhub.com
 d +.mallandrinhas.net
-d +.mallheadphone.com
 d +.malotogo.ru
 d +.malvastudios.com
 d +.mamacitaz.com
@@ -14696,6 +14629,7 @@ d +.massage-in-taipei.com
 d +.massagerepublic.com
 d +.masseffect.com
 d +.masseffectarchives.com
+d +.master-insight.com
 d +.mastercad.com
 d +.mastercard-email.com
 d +.mastercard.ae
@@ -14866,7 +14800,6 @@ d +.mayavisualization.com
 d +.mayijiejie.com
 d +.maying.co
 d +.mbeats-tech.com
-d +.mbheadphone.com
 d +.mcadforums.com
 d +.mcaf.ee
 d +.mcafee.com
@@ -15212,7 +15145,6 @@ d +.microsofttradein.com
 d +.microsofttranslator.com
 d +.microsoftuwp.com
 d +.microvpn.com
-d +.micstl.com
 d +.midatlanticbmwmotorcycles.com
 d +.midentsolutions.com
 d +.midjourney.com
@@ -15742,6 +15674,7 @@ d +.mondex.org
 d +.moneta.ru
 d +.money-link.com.tw
 d +.moneydj.com
+d +.moneynet.com.tw
 d +.moneywithfacebook.com
 d +.mongodb.com
 d +.mongodb.org
@@ -15811,7 +15744,6 @@ d +.monsterdrebeats-canada.net
 d +.monsterdrebeats-usa.com
 d +.monsterdrebeats-usa.net
 d +.monsterheadphone.net
-d +.monsterproduct.net
 d +.monstersbeatbydres.com
 d +.monstersdebea.com
 d +.monstersexporn.net
@@ -15831,7 +15763,6 @@ d +.moozporn.com
 d +.moptt.tw
 d +.morazzia.com
 d +.more.tv
-d +.moreheadphones.com
 d +.moresci.sale
 d +.morewithautodesk.com
 d +.morganclaypool.com
@@ -16092,6 +16023,7 @@ d +.mxrouting.net
 d +.mxshm.site
 d +.my-enema.com
 d +.my-formosa.com
+d +.my-formosa.com.tw
 d +.my-magazine.me
 d +.my-manager-account.com
 d +.my-private-network.co.uk
@@ -16407,7 +16339,6 @@ d +.ncn.org
 d +.ndi.org
 d +.near.by
 d +.nebay.net
-d +.neborder.com
 d +.ned.org
 d +.nee4you.com
 d +.needforspeed.com
@@ -16519,7 +16450,6 @@ d +.new.day
 d +.new2fea.com
 d +.new3dcomics.com
 d +.newbeatsblackfriday.com
-d +.newbemany.com
 d +.newbienudes.com
 d +.newbrazz.com
 d +.newcastlenewslocal.com.au
@@ -16537,7 +16467,6 @@ d +.newhtbook.com
 d +.newindianexpress.com
 d +.newisiknowledge.com
 d +.newlineporn.com
-d +.newlysprung.net
 d +.newmitbbs.com
 d +.newmonst1erbeatsto1re.com
 d +.newmonsterbeatsheadphones.com
@@ -16557,7 +16486,6 @@ d +.newsapi.com.au
 d +.newsblur.com
 d +.newscareers.co.uk
 d +.newscdn.com.au
-d +.newschristmasshopping.com
 d +.newscommercial.co.uk
 d +.newsconcierge.com.au
 d +.newscorp.com
@@ -16632,7 +16560,6 @@ d +.nexus
 d +.nexus-cdn.com
 d +.nexusmods.com
 d +.nf.id.au
-d +.nflhotsalejerseys.com
 d +.nflxext.com
 d +.nflximg.com
 d +.nflximg.net
@@ -16684,7 +16611,6 @@ d +.nicegram.app
 d +.nicegram.cloud
 d +.niceporn.tv
 d +.nicesrv.de
-d +.nicesshop.net
 d +.nichepornsite.com
 d +.nichepornsites.com
 d +.nichost.ru
@@ -17329,7 +17255,6 @@ d +.oecd-ilibrary.org
 d +.oed.com
 d +.oekakiskey.com
 d +.oex.com
-d +.offerairjordanlebron.com
 d +.office
 d +.office.com
 d +.office.net
@@ -17348,7 +17273,6 @@ d +.offworldindustries.net
 d +.ofiii.com
 d +.ofile.org
 d +.ogakikyoritsu.co.jp
-d +.ogameblog.com
 d +.ogaoga.org
 d +.ogate.org
 d +.oghost.com.br
@@ -17521,7 +17445,6 @@ d +.onlysiterip.com
 d +.onlytweets.com
 d +.onmanorama.com
 d +.onsalekey.com
-d +.onsaletrend.com
 d +.onstream.cc
 d +.onthehunt.com
 d +.ontrac.com
@@ -17856,7 +17779,6 @@ d +.patenttruth.org
 d +.patreon.com
 d +.patreoncommunity.com
 d +.patreonusercontent.com
-d +.paulsimon-music.com
 d +.pavpal.com
 d +.pawchive.pw
 d +.pawchive.st
@@ -18141,7 +18063,6 @@ d +.pepabo.com
 d +.perfect-privacy.com
 d +.perfectgirls.net
 d +.perfectgonzo.com
-d +.perfectkickz.net
 d +.perfectnaked.com
 d +.perfectsexnow.com
 d +.perfectshemales.com
@@ -18156,7 +18077,6 @@ d +.persianepochtimes.com
 d +.persiankitty.com
 d +.person.com
 d +.personaltrainermath.com
-d +.personeelsland.com
 d +.pervbank.ru
 d +.pervclips.com
 d +.perverse.sex
@@ -18211,9 +18131,7 @@ d +.picasaweb.net
 d +.picasaweb.org
 d +.pichunter.com
 d +.pickinguppussy.com
-d +.picknicekicks.net
 d +.pickpackapp.com
-d +.pickshoesclothes.com
 d +.picnik.com
 d +.picpost.com
 d +.pics.ee
@@ -18440,7 +18358,6 @@ d +.po2b.com
 d +.pobeda.page
 d +.pobl-content.com
 d +.pochtabank.ru
-d +.pocketbiketrader.com
 d +.pocketcasts.com
 d +.podbean.com
 d +.podcast.co
@@ -19115,6 +19032,7 @@ d +.pugpig.com
 d +.pullfolio.co
 d +.pullstring.net
 d +.pulsebrowser.app
+d +.pulsehknews.com
 d +.punishbang.com
 d +.punishworld.com
 d +.pure18.com
@@ -19439,7 +19357,6 @@ d +.rbnainternational.com
 d +.rbplc.com
 d +.rbrandlibrary.com
 d +.rbsgate.com
-d +.rbsgr.com
 d +.rbspeakup.com
 d +.rbsuat.com
 d +.rbth.com
@@ -19601,7 +19518,6 @@ d +.ree007.xyz
 d +.refah-bank.ir
 d +.referer.us
 d +.reflectivecode.com
-d +.reform-apple.com
 d +.reg.cloud
 d +.reg.com
 d +.reg.ru
@@ -19635,8 +19551,6 @@ d +.repo.new
 d +.report-megafon.ru
 d +.repotama.com
 d +.repsils.no
-d +.repsneakermall.com
-d +.repswing.com
 d +.resao.com
 d +.researchandcare.org
 d +.researchgate.net
@@ -20029,7 +19943,6 @@ d +.sakuralive.com
 d +.sale-nikeshoes.com
 d +.salebeatslasteststyle4you.com
 d +.saleblackfridaydrebeats.com
-d +.salecheaphandbags.com
 d +.salesforce-setup.com
 d +.salesforce-sites.com
 d +.salesforce.com
@@ -20039,7 +19952,6 @@ d +.salesforceliveagent.com
 d +.salesforcemarketingcloud.com
 d +.salvation.org.hk
 d +.sambaporno.com
-d +.samebags.com
 d +.samsung
 d +.samsung.com
 d +.samsungapps.com
@@ -20094,7 +20006,6 @@ d +.sankeishop.jp
 d +.sankie.net
 d +.sanmin.com.tw
 d +.sanspo.com
-d +.sanvaras.com
 d +.saobjpg.com
 d +.saoni91.xyz
 d +.saonia.xyz
@@ -20205,7 +20116,6 @@ d +.scifisex.net
 d +.scitation.org
 d +.scival.com
 d +.scmp.com
-d +.scnshop.cc
 d +.scnsrc.me
 d +.scolle.net
 d +.scoop.sh
@@ -20582,6 +20492,7 @@ d +.shahvani.com
 d +.shahvani.site
 d +.shakethesnake.com
 d +.shameless.com
+d +.shanghainationalparty.com
 d +.shaparak.ir
 d +.shapelcounset.xyz
 d +.share-videos.se
@@ -20663,8 +20574,6 @@ d +.shizhao.org
 d +.shizuokabank.co.jp
 d +.shockingmovies.com
 d +.shodanhq.com
-d +.shoers.com
-d +.shoestop2.com
 d +.shokochukin.co.jp
 d +.shonai.co.jp
 d +.shooshtime.com
@@ -20713,8 +20622,6 @@ d +.shoping.com
 d +.shopminiusa.com
 d +.shopmonsterbeats.com
 d +.shoppercentre.com
-d +.shopping-days.net
-d +.shoppinguheadphones.com
 d +.shops-disney.com
 d +.shopspeedtv.com
 d +.shoptraivip.com
@@ -21004,9 +20911,6 @@ d +.snapvolumes.com
 d +.snapwebcams.com
 d +.snbank.ru
 d +.sndcdn.com
-d +.sneaker666.com
-d +.sneakerpage.net
-d +.sneakerskick.com
 d +.sngb.ru
 d +.snjulebu.com
 d +.snk-corp.co.jp
@@ -21203,12 +21107,12 @@ d +.sorting-algorithms.com
 d +.sos.org
 d +.sos44.com
 d +.sosad.fun
-d +.soso7778.com
 d +.sosreader.com
 d +.sotwe.com
 d +.soubory.com
 d +.souka.xyz
 d +.soulcaliburhentai.net
+d +.soulogic.com
 d +.soundcloud.cloud
 d +.soundcloud.com
 d +.soundofhope.eu
@@ -21267,7 +21171,6 @@ d +.spbexchange.ru
 d +.spcc-sp.com
 d +.speakerdeck.com
 d +.spearhead.kr
-d +.specialtyheadphones.com
 d +.spectraltube.com
 d +.speedcat.me
 d +.speeddreamride.com
@@ -21293,7 +21196,6 @@ d +.spideroak.com
 d +.spiderpool.com
 d +.spiedigitallibrary.org
 d +.spigotmc.org
-d +.spiritclubs.com
 d +.spiritofecstasy.com
 d +.spizoo.com
 d +.splatoon2tournament.com
@@ -21700,7 +21602,6 @@ d +.sugumiru18.com
 d +.suissl.com
 d +.sukafeti.jp
 d +.sukebelinks.com
-d +.sulwerphoto.com
 d +.summerstage.ru
 d +.summitceo.ru
 d +.sumomo-ch.com
@@ -21710,7 +21611,6 @@ d +.sunbingo.co.uk
 d +.sundanceignite2016.com
 d +.sundayguardianlive.com
 d +.sundayready.com
-d +.sunglassessale2014.com
 d +.sunmedia.ca
 d +.suno.ai
 d +.suno.com
@@ -21726,7 +21626,6 @@ d +.supercellgames.com
 d +.supercellid.com
 d +.supercellstore.com
 d +.supercoach.com.au
-d +.superearsenjoy.com
 d +.supergratisporno.com
 d +.superhqporn.com
 d +.superjapanesesex.com
@@ -21744,7 +21643,6 @@ d +.superuser.com
 d +.supervpn.net
 d +.superzooi.com
 d +.supjav.com
-d +.supplybestjerseys.com
 d +.support-uber.com
 d +.supportfacebook.com
 d +.supr.cl
@@ -21877,7 +21775,6 @@ d +.syzbj36.xyz
 d +.szabadeuropa.hu
 d +.szcheapmonsterheadphones.com
 d +.szexvideo.top
-d +.szwinnertechnology.com
 d +.t-access.ru
 d +.t-bank-app.ru
 d +.t-bank-app.su
@@ -21940,10 +21837,10 @@ d +.taiwanjustice.net
 d +.taiwanncf.org.tw
 d +.taiwannews.com.tw
 d +.taiwansex.tw
+d +.taiwantoday.tw
 d +.taiwantt.org.tw
 d +.tajimabank.co.jp
 d +.take2games.com
-d +.takegoto.com
 d +.takens.tw
 d +.taknai.com
 d +.takporn.com
@@ -22223,6 +22120,7 @@ d +.theclasshroom.com
 d +.thecleversense.com
 d +.theclub.com.hk
 d +.theclubprive.com
+d +.thecollectivehk.com
 d +.thecompaqstore.com
 d +.theconversation.com
 d +.thecuckold.com
@@ -22286,6 +22184,7 @@ d +.thenewporn.com
 d +.thenewslens.com
 d +.thenextweb.com
 d +.thenipslip.com
+d +.theonlinecitizen.com
 d +.theopportunityproject.org
 d +.thepaypalshop.com
 d +.thepervs.com
@@ -22322,6 +22221,7 @@ d +.thesims4.com
 d +.thesimssocial.com
 d +.thestandard.com.hk
 d +.thestandnews.com
+d +.thestar.com
 d +.thestationbymaker.com
 d +.thesun.co.uk
 d +.thesun.ie
@@ -22336,7 +22236,6 @@ d +.thetranny.com
 d +.thetread.com
 d +.thetvdb.com
 d +.thetype.com
-d +.theuab.net
 d +.theverge.com
 d +.thevirtualsexreview.com
 d +.thewaltdisneycompany.com
@@ -22345,6 +22244,7 @@ d +.theweek.in
 d +.thewgo.org
 d +.thewirechina.com
 d +.thewitcher.com
+d +.thewitnesshk.com
 d +.thewonderful101.com
 d +.theync.com
 d +.theyxxx.com
@@ -22730,7 +22630,6 @@ d +.tracker.gg
 d +.tracker.network
 d +.tracking-location.com
 d +.tradeup.com
-d +.tradevip1.com
 d +.tradingview.com
 d +.trae.ai
 d +.trafficmanager.net
@@ -22871,7 +22770,6 @@ d +.tsuradou.noonvob.com
 d +.tsyum.com
 d +.tt1069.com
 d +.ttcdn-us.com
-d +.tteshop.com
 d +.ttl.com.tw
 d +.ttlivecdn.com
 d +.ttoverseaus.net
@@ -23281,7 +23179,6 @@ d +.unrealtournament.com
 d +.unseen.is
 d +.unsplash.com
 d +.unstable.icu
-d +.unstyle.us
 d +.unusualporn.net
 d +.unwire.hk
 d +.uo.com
@@ -23397,7 +23294,6 @@ d +.uyghurtribunal.com
 d +.uygur.fc2web.com
 d +.uymaarip.com
 d +.v-av.com
-d +.v-has.com
 d +.v.gd
 d +.v.ps
 d +.v.recipes
@@ -23781,11 +23677,9 @@ d +.vip-beats.com
 d +.vip-enterprise.com
 d +.vipbeatsbydre.com
 d +.vipergirls.to
-d +.vipheadphones.com
 d +.vipissy.com
 d +.vipmatureporn.com
 d +.vipoo.es
-d +.vipshoes2.com
 d +.vipstudiocali.com
 d +.viqeo.tv
 d +.viqeotv.com
@@ -24450,7 +24344,6 @@ d +.warnerbrosgames.com
 d +.warp.plus
 d +.warroom.org
 d +.warthunder.com
-d +.wasdj.com
 d +.waselpro.com
 d +.washa.tv
 d +.washingtondcbmw.com
@@ -24688,10 +24581,6 @@ d +.wholefoodsmarket.co.uk
 d +.wholefoodsmarket.com
 d +.wholekidsfoundation.org
 d +.wholeplanetfoundation.org
-d +.wholesale-exporter1.com
-d +.wholesalediscountpurses.com
-d +.wholesalefine.com
-d +.wholesaleonlinemart.com
 d +.wholevideos.com
 d +.whonix.org
 d +.whoreasianporn.com
@@ -24911,6 +24800,7 @@ d +.wolfberries.ru
 d +.wolframalpha.com
 d +.wolfsex-me.sbs
 d +.wolterskluwer.com
+d +.womany.net
 d +.wombo.ai
 d +.womensnikeshox.com
 d +.womenwill.com
@@ -24945,7 +24835,6 @@ d +.workspaceair.com
 d +.workspaceone.com
 d +.workstations.tv
 d +.world3d.biz
-d +.worldcoinpay.com
 d +.worldcuprussia.com
 d +.worldcurrencycard.co.za
 d +.worldemojiawards.com
