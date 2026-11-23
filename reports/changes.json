@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T02:09:04+00:00",
-  "generation": "bf2bc5ec45e21f0d485bc101f53ad86c955f37d48d848bcb76d6e8e9977c2ba2",
+  "generated_at": "2026-11-23T14:00:08+00:00",
+  "generation": "c4c02fbe6498a19b5f76086bc3b66879816bacd4e71cc6a59a589e4bb990f6cf",
   "changed": true,
   "files": [
     {
@@ -154,18 +154,18 @@
     {
       "path": "clash-domain/AI.yaml",
       "before": 307,
-      "after": 307,
-      "added": [],
+      "after": 309,
+      "added": [
+        "+.ovh.us",
+        "+.us.ovhcloud.com"
+      ],
       "removed": []
     },
     {
       "path": "clash-domain/America.yaml",
-      "before": 1689,
+      "before": 1691,
       "after": 1691,
-      "added": [
-        "+.replit.com",
-        "+.tortoisegit.org"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -213,8 +213,20 @@
     {
       "path": "clash-domain/HK.yaml",
       "before": 1296,
-      "after": 1296,
-      "added": [],
+      "after": 1307,
+      "added": [
+        "+.adyen.com",
+        "+.adyenpayments.com",
+        "+.kimsufi.com",
+        "+.ovh.ca",
+        "+.ovh.co.uk",
+        "+.ovh.com",
+        "+.ovh.de",
+        "+.ovh.ie",
+        "+.ovh.net",
+        "+.ovhcloud.com",
+        "+.soyoustart.com"
+      ],
       "removed": []
     },
     {
@@ -226,33 +238,10 @@
     },
     {
       "path": "clash-domain/Media.yaml",
-      "before": 11104,
+      "before": 11121,
       "after": 11121,
-      "added": [
-        "+.51papaya.com",
-        "+.cnbccouncils.com",
-        "+.fanza.jp",
-        "+.focusfeatures.com",
-        "+.hayu.com",
-        "+.illumination.com",
-        "+.nbcumv.com",
-        "+.nbcunicareers.com",
-        "+.nbcuniversalprivacy.com",
-        "+.udxfpp.com",
-        "+.universalbeijingresort.com",
-        "+.universalhorrorunleashed.com",
-        "+.universalkidsresort.com",
-        "+.universalpictures.co.uk",
-        "+.universalpicturesathome.com",
-        "+.universalproductsexperiences.com",
-        "+.universalukproject.co.uk",
-        "+.uphe.com",
-        "+.usj.co.jp"
-      ],
-      "removed": [
-        "+.imagetwist.com",
-        "+.mycdn.me"
-      ]
+      "added": [],
+      "removed": []
     },
     {
       "path": "clash-domain/Microsoft.yaml",
@@ -284,34 +273,9 @@
     },
     {
       "path": "clash-domain/Proxy.yaml",
-      "before": 29872,
+      "before": 29896,
       "after": 29896,
-      "added": [
-        "+.bravotv.com",
-        "+.cnbccouncils.com",
-        "+.fanza.jp",
-        "+.focusfeatures.com",
-        "+.hayu.com",
-        "+.hkt",
-        "+.illumination.com",
-        "+.nbcumv.com",
-        "+.nbcunicareers.com",
-        "+.nbcuniversalprivacy.com",
-        "+.pccw",
-        "+.replit.com",
-        "+.telemundo.com",
-        "+.tortoisegit.org",
-        "+.udxfpp.com",
-        "+.universalbeijingresort.com",
-        "+.universalhorrorunleashed.com",
-        "+.universalkidsresort.com",
-        "+.universalpictures.co.uk",
-        "+.universalpicturesathome.com",
-        "+.universalproductsexperiences.com",
-        "+.universalukproject.co.uk",
-        "+.uphe.com",
-        "+.usj.co.jp"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -2171,8 +2135,8 @@
     },
     {
       "collections": "AI",
-      "input": 850,
-      "output": 338,
+      "input": 852,
+      "output": 340,
       "duplicates": 466,
       "covered": 22,
       "merged": 39
@@ -2243,9 +2207,9 @@
     },
     {
       "collections": "HK",
-      "input": 5099,
-      "output": 4018,
-      "duplicates": 784,
+      "input": 5112,
+      "output": 4029,
+      "duplicates": 786,
       "covered": 44,
       "merged": 288
     },
@@ -2327,17 +2291,6 @@
   ],
   "broad": {
     "filtered": [],
-    "new": [
-      {
-        "path": "clash-domain/Proxy.yaml",
-        "rule": "+.hkt",
-        "reason": "覆盖公共后缀 .hkt 下的域名"
-      },
-      {
-        "path": "clash-domain/Proxy.yaml",
-        "rule": "+.pccw",
-        "reason": "覆盖公共后缀 .pccw 下的域名"
-      }
-    ]
+    "new": []
   }
 }

@@ -16,7 +16,7 @@
 | Direct | `classical` | 53 | DIRECT | [YAML](clash-classic/Direct-classic.yaml) |
 | NS | `domain` | 7 | 🏖️ Community | [YAML](clash-domain/NS.yaml) · [MRS](clash-domain/NS.mrs) |
 | NS | `classical` | 1 | 🏖️ Community | [YAML](clash-classic/NS-classic.yaml) |
-| AI | `domain` | 307 | 🗨️ ChatGPT | [YAML](clash-domain/AI.yaml) · [MRS](clash-domain/AI.mrs) |
+| AI | `domain` | 309 | 🗨️ ChatGPT | [YAML](clash-domain/AI.yaml) · [MRS](clash-domain/AI.mrs) |
 | AI | `ipcidr` | 23 | 🗨️ ChatGPT | [YAML](clash-ipcidr/AI-ipcidr.yaml) · [MRS](clash-ipcidr/AI-ipcidr.mrs) |
 | AI | `classical` | 8 | 🗨️ ChatGPT | [YAML](clash-classic/AI-classic.yaml) |
 | TikTok | `domain` | 58 | 📱 TikTok | [YAML](clash-domain/TikTok.yaml) · [MRS](clash-domain/TikTok.mrs) |
@@ -42,7 +42,7 @@
 | Japan | `domain` | 285 | 🌺 日本专线 | [YAML](clash-domain/Japan.yaml) · [MRS](clash-domain/Japan.mrs) |
 | Japan | `ipcidr` | 19 | 🌺 日本专线 | [YAML](clash-ipcidr/Japan-ipcidr.yaml) · [MRS](clash-ipcidr/Japan-ipcidr.mrs) |
 | Japan | `classical` | 4 | 🌺 日本专线 | [YAML](clash-classic/Japan-classic.yaml) |
-| HK | `domain` | 1,296 | 🛫 香港专线 | [YAML](clash-domain/HK.yaml) · [MRS](clash-domain/HK.mrs) |
+| HK | `domain` | 1,307 | 🛫 香港专线 | [YAML](clash-domain/HK.yaml) · [MRS](clash-domain/HK.mrs) |
 | HK | `ipcidr` | 2,716 | 🛫 香港专线 | [YAML](clash-ipcidr/HK-ipcidr.yaml) · [MRS](clash-ipcidr/HK-ipcidr.mrs) |
 | HK | `classical` | 6 | 🛫 香港专线 | [YAML](clash-classic/HK-classic.yaml) |
 | Apple | `domain` | 1,561 | 🍎 Apple | [YAML](clash-domain/Apple.yaml) · [MRS](clash-domain/Apple.mrs) |

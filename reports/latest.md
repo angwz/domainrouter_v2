@@ -1,17 +1,12 @@
 # 规则更新说明
 
-- 生成时间（UTC）：2026-11-23T02:09:04+00:00
-- generation：`bf2bc5ec45e21f0d`
+- 生成时间（UTC）：2026-11-23T14:00:08+00:00
+- generation：`c4c02fbe6498a19b`
 - 结果：有变化，已更新发布文件
 
 ## 宽泛规则
 
-本次过滤上游规则 0 条，新发布的宽泛规则 2 条。完整清单见 [broad-rules.md](broad-rules.md)。
-
-| 新发布 | 说明 | 文件 |
-| --- | --- | --- |
-| `+.hkt` | 覆盖公共后缀 .hkt 下的域名 | `clash-domain/Proxy.yaml` |
-| `+.pccw` | 覆盖公共后缀 .pccw 下的域名 | `clash-domain/Proxy.yaml` |
+本次过滤上游规则 0 条，新发布的宽泛规则 0 条。完整清单见 [broad-rules.md](broad-rules.md)。
 
 ## 来源
 
@@ -21,88 +16,38 @@
 
 | 文件 | 条目 | 新增 | 删除 |
 | --- | --- | --- | --- |
-| `clash-domain/America.yaml` | 1689 → 1691 | 2 | 0 |
-| `clash-domain/Media.yaml` | 11104 → 11121 | 19 | 2 |
-| `clash-domain/Proxy.yaml` | 29872 → 29896 | 24 | 0 |
+| `clash-domain/AI.yaml` | 307 → 309 | 2 | 0 |
+| `clash-domain/HK.yaml` | 1296 → 1307 | 11 | 0 |
 
 <details>
-<summary><code>clash-domain/America.yaml</code></summary>
+<summary><code>clash-domain/AI.yaml</code></summary>
 
 新增（2）：
 
 ```text
-+.replit.com
-+.tortoisegit.org
++.ovh.us
++.us.ovhcloud.com
 ```
 
 </details>
 
 <details>
-<summary><code>clash-domain/Media.yaml</code></summary>
+<summary><code>clash-domain/HK.yaml</code></summary>
 
-新增（19）：
-
-```text
-+.51papaya.com
-+.cnbccouncils.com
-+.fanza.jp
-+.focusfeatures.com
-+.hayu.com
-+.illumination.com
-+.nbcumv.com
-+.nbcunicareers.com
-+.nbcuniversalprivacy.com
-+.udxfpp.com
-+.universalbeijingresort.com
-+.universalhorrorunleashed.com
-+.universalkidsresort.com
-+.universalpictures.co.uk
-+.universalpicturesathome.com
-+.universalproductsexperiences.com
-+.universalukproject.co.uk
-+.uphe.com
-+.usj.co.jp
-```
-
-删除（2）：
+新增（11）：
 
 ```text
-+.imagetwist.com
-+.mycdn.me
-```
-
-</details>
-
-<details>
-<summary><code>clash-domain/Proxy.yaml</code></summary>
-
-新增（24）：
-
-```text
-+.bravotv.com
-+.cnbccouncils.com
-+.fanza.jp
-+.focusfeatures.com
-+.hayu.com
-+.hkt
-+.illumination.com
-+.nbcumv.com
-+.nbcunicareers.com
-+.nbcuniversalprivacy.com
-+.pccw
-+.replit.com
-+.telemundo.com
-+.tortoisegit.org
-+.udxfpp.com
-+.universalbeijingresort.com
-+.universalhorrorunleashed.com
-+.universalkidsresort.com
-+.universalpictures.co.uk
-+.universalpicturesathome.com
-+.universalproductsexperiences.com
-+.universalukproject.co.uk
-+.uphe.com
-+.usj.co.jp
++.adyen.com
++.adyenpayments.com
++.kimsufi.com
++.ovh.ca
++.ovh.co.uk
++.ovh.com
++.ovh.de
++.ovh.ie
++.ovh.net
++.ovhcloud.com
++.soyoustart.com
 ```
 
 </details>
@@ -113,7 +58,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Direct | 3778 | 2566 | 347 | 22 | 859 |
 | NS | 9 | 8 | 1 | 0 | 0 |
-| AI | 850 | 338 | 466 | 22 | 39 |
+| AI | 852 | 340 | 466 | 22 | 39 |
 | TikTok | 75 | 61 | 12 | 2 | 0 |
 | Bilibili | 1539 | 1177 | 310 | 48 | 8 |
 | Tencent | 3376 | 2650 | 558 | 167 | 0 |
@@ -122,7 +67,7 @@
 | Google | 8869 | 7980 | 612 | 217 | 85 |
 | Telegram | 97 | 54 | 33 | 0 | 10 |
 | Japan | 547 | 308 | 195 | 43 | 0 |
-| HK | 5099 | 4018 | 784 | 44 | 288 |
+| HK | 5112 | 4029 | 786 | 44 | 288 |
 | Apple | 3468 | 1594 | 1428 | 285 | 4 |
 | Singapore | 2202 | 1092 | 1100 | 5 | 6 |
 | America | 2511 | 1695 | 631 | 179 | 8 |

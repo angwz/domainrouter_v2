@@ -1,330 +1,332 @@
 # NAME: AI
 # GROUP: 🗨️ ChatGPT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-20 10:49:08 (UTC+8)
+# UPDATED: 2026-11-23 22:00:08 (UTC+8)
 # TYPE: domain
-# TOTAL: 307
-# SOURCE A: MetaCubeX · geosite/x.yaml
-# SOURCE B: blackmatrix7 · Twitter/Twitter.list
-# SOURCE C: MetaCubeX · geosite/bing.yaml
-# SOURCE D: blackmatrix7 · Bing/Bing.list
-# SOURCE E: blackmatrix7 · Copilot/Copilot.list
-# SOURCE F: MetaCubeX · geosite/category-ai-!cn.yaml
-# SOURCE G: MetaCubeX · geosite/category-ai-chat-!cn.yaml
-# SOURCE H: ruleset.skk.moe · non_ip/ai.txt
-# SOURCE I: MetaCubeX · geosite/anthropic.yaml
-# SOURCE J: blackmatrix7 · Anthropic/Anthropic.list
-# SOURCE K: blackmatrix7 · Claude/Claude.list
-# SOURCE L: MetaCubeX · geosite/google-gemini.yaml
-# SOURCE M: blackmatrix7 · Gemini/Gemini.list
-# SOURCE N: my.wei
+# TOTAL: 309
+# SOURCE A: my.wei
+# SOURCE B: MetaCubeX · geosite/x.yaml
+# SOURCE C: blackmatrix7 · Twitter/Twitter.list
+# SOURCE D: MetaCubeX · geosite/bing.yaml
+# SOURCE E: blackmatrix7 · Bing/Bing.list
+# SOURCE F: blackmatrix7 · Copilot/Copilot.list
+# SOURCE G: MetaCubeX · geosite/category-ai-!cn.yaml
+# SOURCE H: MetaCubeX · geosite/category-ai-chat-!cn.yaml
+# SOURCE I: ruleset.skk.moe · non_ip/ai.txt
+# SOURCE J: MetaCubeX · geosite/anthropic.yaml
+# SOURCE K: blackmatrix7 · Anthropic/Anthropic.list
+# SOURCE L: blackmatrix7 · Claude/Claude.list
+# SOURCE M: MetaCubeX · geosite/google-gemini.yaml
+# SOURCE N: blackmatrix7 · Gemini/Gemini.list
 # SOURCE O: MetaCubeX · geosite/openai.yaml
 # SOURCE P: blackmatrix7 · OpenAI/OpenAI.list
 payload:
-  - '+.bing'                           # C
-  - '+.ads-twitter.com'                # A B
-  - '+.agentclientprotocol.com'        # F G
-  - '+.ai.com'                         # H P
-  - '+.ai.studio'                      # F G L
-  - '+.algolia.net'                    # E P
-  - '+.ant.dev'                        # F G I
-  - '+.anthropic.com'                  # F G H I J K
-  - '+.anthropic.team'                 # F G I
-  - '+.antigravity-unleash.goog'       # F G L  合并 antigravity-unleash.goog H
-  - '+.antigravity.google'             # F G L  合并 antigravity.google H
-  - '+.antspace.dev'                   # F G I
-  - '+.anythingllm.com'                # F G
-  - '+.arena.ai'                       # F G
-  - '+.artificialanalysis.ai'          # F G
-  - '+.auth0.com'                      # E N P
-  - '+.bing.com'                       # C D  覆盖 +.cn.bing.com C, +.edgeservices.bing.com E 等 8 条
-  - '+.bing.net'                       # C D  覆盖 +.cn.bing.net C, +.cn.mm.bing.net C
-  - '+.bing123.com'                    # C
-  - '+.bingads.com'                    # C D
-  - '+.bingagencyawards.com'           # C D
-  - '+.bingapis.com'                   # C  覆盖 services.bingapis.com E
-  - '+.bingapistatistics.com'          # C D
-  - '+.bingparachute.com'              # C
-  - '+.bingsandbox.com'                # C D
-  - '+.bingstatic.com'                 # C
-  - '+.bingvisualsearch.com'           # C D
-  - '+.bingworld.com'                  # C D
-  - '+.bluehatnights.com'              # C
-  - '+.cerebras.ai'                    # F G
-  - '+.chat.com'                       # F G H O
-  - '+.chatbotclaude.com'              # F G I
-  - '+.chatgpt.com'                    # E F G H O P
-  - '+.chatgpt.site'                   # F G H O
-  - '+.chutes.ai'                      # F G
-  - '+.cici.com'                       # F G
-  - '+.ciciai.com'                     # F G
-  - '+.ciciaicdn.com'                  # F G
-  - '+.clau.de'                        # F G H I
-  - '+.claude.ai'                      # F G H I J K
-  - '+.claude.app'                     # F G I
-  - '+.claude.com'                     # F G H I
-  - '+.claude.dev'                     # F G I
-  - '+.claude.new'                     # F G I
-  - '+.claude.site'                    # F G I  合并 claude.site H
-  - '+.claudeacademy.com'              # F G I
-  - '+.claudemcpclient.com'            # F G I
-  - '+.claudemcpcontent.com'           # F G I
-  - '+.claudepages.dev'                # F G I
-  - '+.claudestudio.com'               # F G I
-  - '+.claudeusercontent.com'          # F G I  覆盖 bridge.claudeusercontent.com H
-  - '+.clawhub.ai'                     # F G
-  - '+.cline.bot'                      # F G
-  - '+.clipdrop.co'                    # F G H
-  - '+.cloudflareinsights.com'         # N  覆盖 static.cloudflareinsights.com E P
-  - '+.cms-twdigitalassets.com'        # A B
-  - '+.codeium.com'                    # F G  覆盖 inference.codeium.com H, server.codeium.com H
-  - '+.codeiumdata.com'                # F G
-  - '+.coderabbit.ai'                  # F G
-  - '+.cohere.ai'                      # F G
-  - '+.cohere.com'                     # F G
-  - '+.comfy.org'                      # F G
-  - '+.comfyci.org'                    # F G
-  - '+.comfyregistry.org'              # F G
-  - '+.commandcode.ai'                 # F G
-  - '+.context7.com'                   # F G
-  - '+.copilot-stg.com'                # C F G
-  - '+.copilot.com'                    # C F G
-  - '+.coze.com'                       # F G
-  - '+.crewai.com'                     # F G
-  - '+.crixet.com'                     # F G O
-  - '+.cursor-cdn.com'                 # F G
-  - '+.cursor.com'                     # F G
-  - '+.cursor.sh'                      # F G H
-  - '+.cursorapi.com'                  # F G
-  - '+.cursorvm.com'                   # F G
-  - '+.deepmind.com'                   # F G H L M
-  - '+.deepmind.google'                # F G H L M
-  - '+.deepwiki.com'                   # F G
-  - '+.deepwiki.org'                   # F G
-  - '+.devin.ai'                       # F G
-  - '+.diabrowser.com'                 # F G
-  - '+.diabrowser.engineering'         # F G
-  - '+.dictate.ms'                     # C
-  - '+.dify.ai'                        # F G H
-  - '+.dola.com'                       # F G
-  - '+.dreamgen.com'                   # F G
-  - '+.duck.ai'                        # F G
-  - '+.elevenlabs.com'                 # F G
-  - '+.elevenlabs.io'                  # F G
-  - '+.elevenlabsusercontent.com'      # F G
-  - '+.envato-static.com'              # F G
-  - '+.envato.com'                     # F G
-  - '+.envatousercontent.com'          # F G
-  - '+.featuregates.org'               # E N P
-  - '+.flipwithsurface.com'            # C
-  - '+.flow.google'                    # F G L
-  - '+.g.ai'                           # H
-  - '+.gemini.google'                  # F G H L
-  - '+.generativeai.google'            # F G H L M
-  - '+.githubcopilot.com'              # F G
-  - '+.grazie.ai'                      # F G
-  - '+.grok.com'                       # A B F G H
-  - '+.grokbot.com'                    # A F G
-  - '+.grokipedia.com'                 # A F G
-  - '+.groq.com'                       # F G H
-  - '+.h2o.ai'                         # F G
-  - '+.hf.co'                          # F G
-  - '+.hf.space'                       # F G
-  - '+.huggingface.co'                 # F G
-  - '+.identrust.com'                  # E N P
-  - '+.intercom.io'                    # E N P
-  - '+.intercomcdn.com'                # E N P
-  - '+.jasper.ai'                      # F G H
-  - '+.jetbrains.ai'                   # F G  覆盖 api.jetbrains.ai H
-  - '+.jules.google'                   # F G L
-  - '+.kimi.ai'                        # F G
-  - '+.kiro.dev'                       # F G
-  - '+.labs.google'                    # F G L
-  - '+.langchain.com'                  # F G
-  - '+.launchdarkly.com'               # E P
-  - '+.liveperson.net'                 # F G
-  - '+.lmstudio.ai'                    # F G
-  - '+.lovart.ai'                      # F G
-  - '+.lpsnmedia.net'                  # F G
-  - '+.magnific.com'                   # F G
-  - '+.manus.im'                       # F G
-  - '+.manuscdn.com'                   # F G
-  - '+.marscode.com'                   # F G
-  - '+.masalladeloslimites.com'        # C
-  - '+.meta.ai'                        # F G H
-  - '+.metaaiusercontent.com'          # F G
-  - '+.metaaivm.com'                   # F G
-  - '+.microsoft-give.com'             # C
-  - '+.microsoftcloudsummit.com'       # C
-  - '+.microsoftdiplomados.com'        # C
-  - '+.microsoftlatamholiday.com'      # C
-  - '+.microsoftmxfilantropia.com'     # C
-  - '+.microsoftpartnersolutions.com'  # C
-  - '+.midjourney.com'                 # F G
-  - '+.minimax.io'                     # F G
-  - '+.mistral.ai'                     # F G
-  - '+.moonshot.ai'                    # F G
-  - '+.mozilla.ai'                     # F G
-  - '+.msunlimitedcloudsummit.com'     # C
-  - '+.muse.ai'                        # F G
-  - '+.notebook.google'                # F G L
-  - '+.notebooklm.google'              # F G H L
-  - '+.notegpt.io'                     # F G
-  - '+.nousresearch.com'               # F G
-  - '+.novelai.net'                    # F G
-  - '+.oaistatic.com'                  # E F G H N O P
-  - '+.oaistatsig.com'                 # F G O
-  - '+.oaiusercontent.com'             # E F G O P
-  - '+.observeit.net'                  # E P
-  - '+.office365love.com'              # C
-  - '+.office365tw.com'                # C
-  - '+.ollama.com'                     # F G
-  - '+.opal.google'                    # F G L
-  - '+.openai.com'                     # E F G N O P
-  - '+.openai.org'                     # F G O
-  - '+.openart.ai'                     # F G H
-  - '+.openclaw.ai'                    # F G
-  - '+.opencode.ai'                    # F G
-  - '+.openrouter.ai'                  # F G  合并 openrouter.ai H
-  - '+.openspec.dev'                   # F G
-  - '+.oystermercury.top'              # F G
-  - '+.periscope.tv'                   # A B
-  - '+.perplexity.ai'                  # F G H
-  - '+.perplexity.com'                 # F G
-  - '+.plannotator.ai'                 # F G
-  - '+.poe.com'                        # F G H
-  - '+.poecdn.net'                     # F G
-  - '+.pplx.ai'                        # F G
-  - '+.pscp.tv'                        # A B
-  - '+.qoder.com'                      # F G
-  - '+.renovacionoffice.com'           # C
-  - '+.segment.io'                     # E P
-  - '+.sentry.io'                      # E N P  覆盖 o33249.ingest.sentry.io F G N O, o1158394.ingest.us.sentry.io F G I 等 3 条
-  - '+.sider.ai'                       # F G
-  - '+.sora.com'                       # F G H O
-  - '+.spicywriter.com'                # F G
-  - '+.sprinklesapp.com'               # C
-  - '+.stripe.com'                     # E N P
-  - '+.syntx.ai'                       # F G
-  - '+.t.co'                           # A B
-  - '+.talkai.info'                    # F G
-  - '+.tapnow.ai'                      # F G
-  - '+.tellapart.com'                  # A B
-  - '+.themeforest.net'                # F G
-  - '+.trae.ai'                        # F G
-  - '+.tripo3d.ai'                     # F G
-  - '+.tweetdeck.com'                  # A B
-  - '+.twimg.co'                       # B
-  - '+.twimg.com'                      # A B
-  - '+.twimg.org'                      # B
-  - '+.twitpic.com'                    # A B
-  - '+.twitter.biz'                    # A B
-  - '+.twitter.com'                    # A B
-  - '+.twitter.jp'                     # A B
-  - '+.twittercommunity.com'           # A B
-  - '+.twitterflightschool.com'        # A B
-  - '+.twitterinc.com'                 # A B
-  - '+.twitteroauth.com'               # A B
-  - '+.twitterstat.us'                 # A B
-  - '+.twtrdns.net'                    # A B
-  - '+.twttr.com'                      # A B
-  - '+.twttr.net'                      # A B
-  - '+.twvid.com'                      # A B
-  - '+.typesafe.ai'                    # F G
-  - '+.vine.co'                        # A B
-  - '+.windsurf.build'                 # F G
-  - '+.windsurf.com'                   # F G  覆盖 server.self-serve.windsurf.com H
-  - '+.x.ai'                           # A F G H
-  - '+.x.com'                          # A B  覆盖 +.grok.x.com F G
-  - '+.youmind.ai'                     # F G
-  - '+.youmind.com'                    # F G
-  - '+.youmind.site'                   # F G
-  - '+.aicode.googleapis.com'          # F G L  合并 aicode.googleapis.com H
-  - '+.aida.googleapis.com'            # F G L  合并 aida.googleapis.com H
-  - '+.aisandbox-pa.googleapis.com'    # F G L  合并 aisandbox-pa.googleapis.com H
-  - '+.aistudio.google.com'            # F G H L
-  - '+.api.microsoftapp.net'           # E
-  - '+.api.statsig.com'                # P  合并 api.statsig.com E N
-  - '+.apis.google.com'                # M
-  - '+.bard.google.com'                # F G H L M
-  - '+.bing-shopping.microsoft-falcon.io'  # E
-  - '+.bing.com.cn'                    # C D
-  - '+.challenges.cloudflare.com'      # E N
-  - '+.chatgpt.livekit.cloud'          # E F G O P
-  - '+.client-api.arkoselabs.com'      # E N P
-  - '+.cloudcode-pa.googleapis.com'    # H  合并 cloudcode-pa.googleapis.com F G L
-  - '+.copilot.cloud.microsoft'        # C F G
-  - '+.copilot.microsoft.com'          # C F G  合并 copilot.microsoft.com E
-  - '+.ditu.live.com'                  # C
-  - '+.events.statsigapi.net'          # E N P
-  - '+.flow.google.com'                # F G L
-  - '+.geller-pa.googleapis.com'       # F G H L
-  - '+.gemini.google.com'              # F G H L M
-  - '+.gemini.gstatic.com'             # F G L
-  - '+.generativelanguage.googleapis.com'  # F G H L
-  - '+.host.livekit.cloud'             # E F G O P
-  - '+.jules.google.com'               # F G L  合并 jules.google.com H
-  - '+.labs.google.com'                # F G L
-  - '+.makersuite.google.com'          # F G H L  合并 makersuite.google.com M
-  - '+.notebook.google.com'            # F G L
-  - '+.notebooklm.google.com'          # F G H L
-  - '+.opal.google.com'                # F G L
-  - '+.openaiapi-site.azureedge.net'   # E P  合并 openaiapi-site.azureedge.net F G N O
-  - '+.openaicom.imgix.net'            # E P  合并 openaicom.imgix.net F G N O
-  - '+.proactivebackend-pa.googleapis.com'  # F G H L M
-  - '+.robinfrontend-pa.googleapis.com'  # F G L  合并 robinfrontend-pa.googleapis.com H
-  - '+.stitch.withgoogle.com'          # F G L
-  - '+.turn.livekit.cloud'             # E F G O P
-  - '+.coderabbit.gallery.vsassets.io'  # F G
-  - '+.gateway.ai.cloudflare.com'      # F G  合并 gateway.ai.cloudflare.com H
-  - '+.grazie.aws.intellij.net'        # F G
-  - '+.labstailwind.pa.googleapis.com'  # F G L
-  - '+.twitter.map.fastly.net'         # A
-  - '+.openai.com.cdn.cloudflare.net'  # F G O  覆盖 chat.openai.com.cdn.cloudflare.net E N P
-  - 'browser-intake-datadoghq.com'     # E F G N O P
-  - 'ai.google.dev'                    # F G H L M
-  - 'antigravity-pa.googleapis.com'    # F G L
-  - 'antigravity.googleapis.com'       # F G L
-  - 'api.github.com'                   # H
-  - 'api.msn.com'                      # E
-  - 'api.revenuecat.com'               # N
-  - 'appsgenaiserver-pa.googleapis.com'  # F G L
-  - 'assets.msn.com'                   # E
-  - 'cdn.usefathom.com'                # K
-  - 'cloud.zed.dev'                    # H
-  - 'cloudaicompanion.googleapis.com'  # F G L
-  - 'copilot-proxy.githubusercontent.com'  # F G
-  - 'copilot-telemetry-service.githubusercontent.com'  # F G
-  - 'copilot-telemetry.githubusercontent.com'  # F G
-  - 'copilot-workspace.githubnext.com'  # F G
-  - 'daily-cloudcode-pa.googleapis.com'  # F G H L
-  - 'in.appcenter.ms'                  # E
-  - 'location.microsoft.com'           # C E
-  - 'notebooklm-pa.googleapis.com'     # F G L
-  - 'notebooklm.googleapis.com'        # F G L
-  - 'oaic.report-uri.com'              # N
-  - 'openai-api.arkoselabs.com'        # E P
-  - 'openai.qualtrics.com'             # F G O
-  - 'pplx-res.cloudinary.com'          # F G
-  - 'production-openaicom-storage.azureedge.net'  # E F G N O P
-  - 'servd-anthropic-website.b-cdn.net'  # F G I J
-  - 'alkalicore-pa.clients6.google.com'  # F G H L
-  - 'alkalimakersuite-pa.clients6.google.com'  # F G L M
-  - 'appsgenaiserver-pa.clients.google.com'  # F G L
-  - 'appsgenaiserver-pa.clients6.google.com'  # F G L
-  - 'daily-cloudcode-pa.sandbox.googleapis.com'  # H
-  - 'gateway.bingviz.microsoft.net'    # E
-  - 'gateway.bingviz.microsoftapp.net'  # E
-  - 'geminiweb-pa.clients.google.com'  # F G L
-  - 'geminiweb-pa.clients6.google.com'  # F G L
-  - 'odc.officeapps.live.com'          # E
-  - 'openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net'  # F G N O P
-  - 'ppl-ai-file-upload.s3.amazonaws.com'  # F G
-  - 'production-copilot-host-westus.webpubsub.azure.com'  # F G
-  - 'webchannel-alkalimakersuite-pa.clients6.google.com'  # F G L
-  - 'copilotprodattachments.blob.core.windows.net'  # F G
-  - 'http-intake.logs.us5.datadoghq.com'  # F G I
-  - 'openaiassets.blob.core.windows.net'  # F G O
-  - 'openaicomproductionae4b.blob.core.windows.net'  # E F G N O P
-  - 'self.events.data.microsoft.com'   # E
-  - '7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe'  # H
+  - '+.bing'                           # D
+  - '+.ads-twitter.com'                # B C
+  - '+.agentclientprotocol.com'        # G H
+  - '+.ai.com'                         # I P
+  - '+.ai.studio'                      # G H M
+  - '+.algolia.net'                    # F P
+  - '+.ant.dev'                        # G H J
+  - '+.anthropic.com'                  # G H I J K L
+  - '+.anthropic.team'                 # G H J
+  - '+.antigravity-unleash.goog'       # G H M  合并 antigravity-unleash.goog I
+  - '+.antigravity.google'             # G H M  合并 antigravity.google I
+  - '+.antspace.dev'                   # G H J
+  - '+.anythingllm.com'                # G H
+  - '+.arena.ai'                       # G H
+  - '+.artificialanalysis.ai'          # G H
+  - '+.auth0.com'                      # A F P
+  - '+.bing.com'                       # D E  覆盖 +.cn.bing.com D, +.edgeservices.bing.com F 等 8 条
+  - '+.bing.net'                       # D E  覆盖 +.cn.bing.net D, +.cn.mm.bing.net D
+  - '+.bing123.com'                    # D
+  - '+.bingads.com'                    # D E
+  - '+.bingagencyawards.com'           # D E
+  - '+.bingapis.com'                   # D  覆盖 services.bingapis.com F
+  - '+.bingapistatistics.com'          # D E
+  - '+.bingparachute.com'              # D
+  - '+.bingsandbox.com'                # D E
+  - '+.bingstatic.com'                 # D
+  - '+.bingvisualsearch.com'           # D E
+  - '+.bingworld.com'                  # D E
+  - '+.bluehatnights.com'              # D
+  - '+.cerebras.ai'                    # G H
+  - '+.chat.com'                       # G H I O
+  - '+.chatbotclaude.com'              # G H J
+  - '+.chatgpt.com'                    # F G H I O P
+  - '+.chatgpt.site'                   # G H I O
+  - '+.chutes.ai'                      # G H
+  - '+.cici.com'                       # G H
+  - '+.ciciai.com'                     # G H
+  - '+.ciciaicdn.com'                  # G H
+  - '+.clau.de'                        # G H I J
+  - '+.claude.ai'                      # G H I J K L
+  - '+.claude.app'                     # G H J
+  - '+.claude.com'                     # G H I J
+  - '+.claude.dev'                     # G H J
+  - '+.claude.new'                     # G H J
+  - '+.claude.site'                    # G H J  合并 claude.site I
+  - '+.claudeacademy.com'              # G H J
+  - '+.claudemcpclient.com'            # G H J
+  - '+.claudemcpcontent.com'           # G H J
+  - '+.claudepages.dev'                # G H J
+  - '+.claudestudio.com'               # G H J
+  - '+.claudeusercontent.com'          # G H J  覆盖 bridge.claudeusercontent.com I
+  - '+.clawhub.ai'                     # G H
+  - '+.cline.bot'                      # G H
+  - '+.clipdrop.co'                    # G H I
+  - '+.cloudflareinsights.com'         # A  覆盖 static.cloudflareinsights.com F P
+  - '+.cms-twdigitalassets.com'        # B C
+  - '+.codeium.com'                    # G H  覆盖 inference.codeium.com I, server.codeium.com I
+  - '+.codeiumdata.com'                # G H
+  - '+.coderabbit.ai'                  # G H
+  - '+.cohere.ai'                      # G H
+  - '+.cohere.com'                     # G H
+  - '+.comfy.org'                      # G H
+  - '+.comfyci.org'                    # G H
+  - '+.comfyregistry.org'              # G H
+  - '+.commandcode.ai'                 # G H
+  - '+.context7.com'                   # G H
+  - '+.copilot-stg.com'                # D G H
+  - '+.copilot.com'                    # D G H
+  - '+.coze.com'                       # G H
+  - '+.crewai.com'                     # G H
+  - '+.crixet.com'                     # G H O
+  - '+.cursor-cdn.com'                 # G H
+  - '+.cursor.com'                     # G H
+  - '+.cursor.sh'                      # G H I
+  - '+.cursorapi.com'                  # G H
+  - '+.cursorvm.com'                   # G H
+  - '+.deepmind.com'                   # G H I M N
+  - '+.deepmind.google'                # G H I M N
+  - '+.deepwiki.com'                   # G H
+  - '+.deepwiki.org'                   # G H
+  - '+.devin.ai'                       # G H
+  - '+.diabrowser.com'                 # G H
+  - '+.diabrowser.engineering'         # G H
+  - '+.dictate.ms'                     # D
+  - '+.dify.ai'                        # G H I
+  - '+.dola.com'                       # G H
+  - '+.dreamgen.com'                   # G H
+  - '+.duck.ai'                        # G H
+  - '+.elevenlabs.com'                 # G H
+  - '+.elevenlabs.io'                  # G H
+  - '+.elevenlabsusercontent.com'      # G H
+  - '+.envato-static.com'              # G H
+  - '+.envato.com'                     # G H
+  - '+.envatousercontent.com'          # G H
+  - '+.featuregates.org'               # A F P
+  - '+.flipwithsurface.com'            # D
+  - '+.flow.google'                    # G H M
+  - '+.g.ai'                           # I
+  - '+.gemini.google'                  # G H I M
+  - '+.generativeai.google'            # G H I M N
+  - '+.githubcopilot.com'              # G H
+  - '+.grazie.ai'                      # G H
+  - '+.grok.com'                       # B C G H I
+  - '+.grokbot.com'                    # B G H
+  - '+.grokipedia.com'                 # B G H
+  - '+.groq.com'                       # G H I
+  - '+.h2o.ai'                         # G H
+  - '+.hf.co'                          # G H
+  - '+.hf.space'                       # G H
+  - '+.huggingface.co'                 # G H
+  - '+.identrust.com'                  # A F P
+  - '+.intercom.io'                    # A F P
+  - '+.intercomcdn.com'                # A F P
+  - '+.jasper.ai'                      # G H I
+  - '+.jetbrains.ai'                   # G H  覆盖 api.jetbrains.ai I
+  - '+.jules.google'                   # G H M
+  - '+.kimi.ai'                        # G H
+  - '+.kiro.dev'                       # G H
+  - '+.labs.google'                    # G H M
+  - '+.langchain.com'                  # G H
+  - '+.launchdarkly.com'               # F P
+  - '+.liveperson.net'                 # G H
+  - '+.lmstudio.ai'                    # G H
+  - '+.lovart.ai'                      # G H
+  - '+.lpsnmedia.net'                  # G H
+  - '+.magnific.com'                   # G H
+  - '+.manus.im'                       # G H
+  - '+.manuscdn.com'                   # G H
+  - '+.marscode.com'                   # G H
+  - '+.masalladeloslimites.com'        # D
+  - '+.meta.ai'                        # G H I
+  - '+.metaaiusercontent.com'          # G H
+  - '+.metaaivm.com'                   # G H
+  - '+.microsoft-give.com'             # D
+  - '+.microsoftcloudsummit.com'       # D
+  - '+.microsoftdiplomados.com'        # D
+  - '+.microsoftlatamholiday.com'      # D
+  - '+.microsoftmxfilantropia.com'     # D
+  - '+.microsoftpartnersolutions.com'  # D
+  - '+.midjourney.com'                 # G H
+  - '+.minimax.io'                     # G H
+  - '+.mistral.ai'                     # G H
+  - '+.moonshot.ai'                    # G H
+  - '+.mozilla.ai'                     # G H
+  - '+.msunlimitedcloudsummit.com'     # D
+  - '+.muse.ai'                        # G H
+  - '+.notebook.google'                # G H M
+  - '+.notebooklm.google'              # G H I M
+  - '+.notegpt.io'                     # G H
+  - '+.nousresearch.com'               # G H
+  - '+.novelai.net'                    # G H
+  - '+.oaistatic.com'                  # A F G H I O P
+  - '+.oaistatsig.com'                 # G H O
+  - '+.oaiusercontent.com'             # F G H O P
+  - '+.observeit.net'                  # F P
+  - '+.office365love.com'              # D
+  - '+.office365tw.com'                # D
+  - '+.ollama.com'                     # G H
+  - '+.opal.google'                    # G H M
+  - '+.openai.com'                     # A F G H O P
+  - '+.openai.org'                     # G H O
+  - '+.openart.ai'                     # G H I
+  - '+.openclaw.ai'                    # G H
+  - '+.opencode.ai'                    # G H
+  - '+.openrouter.ai'                  # G H  合并 openrouter.ai I
+  - '+.openspec.dev'                   # G H
+  - '+.ovh.us'                         # A
+  - '+.oystermercury.top'              # G H
+  - '+.periscope.tv'                   # B C
+  - '+.perplexity.ai'                  # G H I
+  - '+.perplexity.com'                 # G H
+  - '+.plannotator.ai'                 # G H
+  - '+.poe.com'                        # G H I
+  - '+.poecdn.net'                     # G H
+  - '+.pplx.ai'                        # G H
+  - '+.pscp.tv'                        # B C
+  - '+.qoder.com'                      # G H
+  - '+.renovacionoffice.com'           # D
+  - '+.segment.io'                     # F P
+  - '+.sentry.io'                      # A F P  覆盖 o33249.ingest.sentry.io A G H O, o1158394.ingest.us.sentry.io G H J 等 3 条
+  - '+.sider.ai'                       # G H
+  - '+.sora.com'                       # G H I O
+  - '+.spicywriter.com'                # G H
+  - '+.sprinklesapp.com'               # D
+  - '+.stripe.com'                     # A F P
+  - '+.syntx.ai'                       # G H
+  - '+.t.co'                           # B C
+  - '+.talkai.info'                    # G H
+  - '+.tapnow.ai'                      # G H
+  - '+.tellapart.com'                  # B C
+  - '+.themeforest.net'                # G H
+  - '+.trae.ai'                        # G H
+  - '+.tripo3d.ai'                     # G H
+  - '+.tweetdeck.com'                  # B C
+  - '+.twimg.co'                       # C
+  - '+.twimg.com'                      # B C
+  - '+.twimg.org'                      # C
+  - '+.twitpic.com'                    # B C
+  - '+.twitter.biz'                    # B C
+  - '+.twitter.com'                    # B C
+  - '+.twitter.jp'                     # B C
+  - '+.twittercommunity.com'           # B C
+  - '+.twitterflightschool.com'        # B C
+  - '+.twitterinc.com'                 # B C
+  - '+.twitteroauth.com'               # B C
+  - '+.twitterstat.us'                 # B C
+  - '+.twtrdns.net'                    # B C
+  - '+.twttr.com'                      # B C
+  - '+.twttr.net'                      # B C
+  - '+.twvid.com'                      # B C
+  - '+.typesafe.ai'                    # G H
+  - '+.vine.co'                        # B C
+  - '+.windsurf.build'                 # G H
+  - '+.windsurf.com'                   # G H  覆盖 server.self-serve.windsurf.com I
+  - '+.x.ai'                           # B G H I
+  - '+.x.com'                          # B C  覆盖 +.grok.x.com G H
+  - '+.youmind.ai'                     # G H
+  - '+.youmind.com'                    # G H
+  - '+.youmind.site'                   # G H
+  - '+.aicode.googleapis.com'          # G H M  合并 aicode.googleapis.com I
+  - '+.aida.googleapis.com'            # G H M  合并 aida.googleapis.com I
+  - '+.aisandbox-pa.googleapis.com'    # G H M  合并 aisandbox-pa.googleapis.com I
+  - '+.aistudio.google.com'            # G H I M
+  - '+.api.microsoftapp.net'           # F
+  - '+.api.statsig.com'                # P  合并 api.statsig.com A F
+  - '+.apis.google.com'                # N
+  - '+.bard.google.com'                # G H I M N
+  - '+.bing-shopping.microsoft-falcon.io'  # F
+  - '+.bing.com.cn'                    # D E
+  - '+.challenges.cloudflare.com'      # A F
+  - '+.chatgpt.livekit.cloud'          # F G H O P
+  - '+.client-api.arkoselabs.com'      # A F P
+  - '+.cloudcode-pa.googleapis.com'    # I  合并 cloudcode-pa.googleapis.com G H M
+  - '+.copilot.cloud.microsoft'        # D G H
+  - '+.copilot.microsoft.com'          # D G H  合并 copilot.microsoft.com F
+  - '+.ditu.live.com'                  # D
+  - '+.events.statsigapi.net'          # A F P
+  - '+.flow.google.com'                # G H M
+  - '+.geller-pa.googleapis.com'       # G H I M
+  - '+.gemini.google.com'              # G H I M N
+  - '+.gemini.gstatic.com'             # G H M
+  - '+.generativelanguage.googleapis.com'  # G H I M
+  - '+.host.livekit.cloud'             # F G H O P
+  - '+.jules.google.com'               # G H M  合并 jules.google.com I
+  - '+.labs.google.com'                # G H M
+  - '+.makersuite.google.com'          # G H I M  合并 makersuite.google.com N
+  - '+.notebook.google.com'            # G H M
+  - '+.notebooklm.google.com'          # G H I M
+  - '+.opal.google.com'                # G H M
+  - '+.openaiapi-site.azureedge.net'   # F P  合并 openaiapi-site.azureedge.net A G H O
+  - '+.openaicom.imgix.net'            # F P  合并 openaicom.imgix.net A G H O
+  - '+.proactivebackend-pa.googleapis.com'  # G H I M N
+  - '+.robinfrontend-pa.googleapis.com'  # G H M  合并 robinfrontend-pa.googleapis.com I
+  - '+.stitch.withgoogle.com'          # G H M
+  - '+.turn.livekit.cloud'             # F G H O P
+  - '+.us.ovhcloud.com'                # A
+  - '+.coderabbit.gallery.vsassets.io'  # G H
+  - '+.gateway.ai.cloudflare.com'      # G H  合并 gateway.ai.cloudflare.com I
+  - '+.grazie.aws.intellij.net'        # G H
+  - '+.labstailwind.pa.googleapis.com'  # G H M
+  - '+.twitter.map.fastly.net'         # B
+  - '+.openai.com.cdn.cloudflare.net'  # G H O  覆盖 chat.openai.com.cdn.cloudflare.net A F P
+  - 'browser-intake-datadoghq.com'     # A F G H O P
+  - 'ai.google.dev'                    # G H I M N
+  - 'antigravity-pa.googleapis.com'    # G H M
+  - 'antigravity.googleapis.com'       # G H M
+  - 'api.github.com'                   # I
+  - 'api.msn.com'                      # F
+  - 'api.revenuecat.com'               # A
+  - 'appsgenaiserver-pa.googleapis.com'  # G H M
+  - 'assets.msn.com'                   # F
+  - 'cdn.usefathom.com'                # L
+  - 'cloud.zed.dev'                    # I
+  - 'cloudaicompanion.googleapis.com'  # G H M
+  - 'copilot-proxy.githubusercontent.com'  # G H
+  - 'copilot-telemetry-service.githubusercontent.com'  # G H
+  - 'copilot-telemetry.githubusercontent.com'  # G H
+  - 'copilot-workspace.githubnext.com'  # G H
+  - 'daily-cloudcode-pa.googleapis.com'  # G H I M
+  - 'in.appcenter.ms'                  # F
+  - 'location.microsoft.com'           # D F
+  - 'notebooklm-pa.googleapis.com'     # G H M
+  - 'notebooklm.googleapis.com'        # G H M
+  - 'oaic.report-uri.com'              # A
+  - 'openai-api.arkoselabs.com'        # F P
+  - 'openai.qualtrics.com'             # G H O
+  - 'pplx-res.cloudinary.com'          # G H
+  - 'production-openaicom-storage.azureedge.net'  # A F G H O P
+  - 'servd-anthropic-website.b-cdn.net'  # G H J K
+  - 'alkalicore-pa.clients6.google.com'  # G H I M
+  - 'alkalimakersuite-pa.clients6.google.com'  # G H M N
+  - 'appsgenaiserver-pa.clients.google.com'  # G H M
+  - 'appsgenaiserver-pa.clients6.google.com'  # G H M
+  - 'daily-cloudcode-pa.sandbox.googleapis.com'  # I
+  - 'gateway.bingviz.microsoft.net'    # F
+  - 'gateway.bingviz.microsoftapp.net'  # F
+  - 'geminiweb-pa.clients.google.com'  # G H M
+  - 'geminiweb-pa.clients6.google.com'  # G H M
+  - 'odc.officeapps.live.com'          # F
+  - 'openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net'  # A G H O P
+  - 'ppl-ai-file-upload.s3.amazonaws.com'  # G H
+  - 'production-copilot-host-westus.webpubsub.azure.com'  # G H
+  - 'webchannel-alkalimakersuite-pa.clients6.google.com'  # G H M
+  - 'copilotprodattachments.blob.core.windows.net'  # G H
+  - 'http-intake.logs.us5.datadoghq.com'  # G H J
+  - 'openaiassets.blob.core.windows.net'  # G H O
+  - 'openaicomproductionae4b.blob.core.windows.net'  # A F G H O P
+  - 'self.events.data.microsoft.com'   # F
+  - '7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe'  # I

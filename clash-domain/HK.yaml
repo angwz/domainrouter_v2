@@ -1,9 +1,9 @@
 # NAME: HK
 # GROUP: 🛫 香港专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-23 22:00:08 (UTC+8)
 # TYPE: domain
-# TOTAL: 1296
+# TOTAL: 1307
 # SOURCE A: my.wei
 # SOURCE B: MetaCubeX · geosite/duolingo.yaml
 # SOURCE C: blackmatrix7 · Duolingo/Duolingo.list
@@ -63,6 +63,8 @@ payload:
   - '+.accountpaypal.com'         # I J
   - '+.accountpaypal.net'         # I J
   - '+.accountpaypal.org'         # I J
+  - '+.adyen.com'                 # A
+  - '+.adyenpayments.com'         # A
   - '+.ae-rus.net'                # O
   - '+.aedns.ru'                  # O
   - '+.aeplatform.ru'             # O
@@ -448,6 +450,7 @@ payload:
   - '+.imagedelivery.net'         # D
   - '+.industrialtoys.com'        # AD AE
   - '+.isbgpsafeyet.com'          # D
+  - '+.kimsufi.com'               # A
   - '+.kirbysepicyarn.com'        # X Y
   - '+.kirbysuperstarultra.com'   # X Y
   - '+.krakenjs.com'              # I J
@@ -610,6 +613,12 @@ payload:
   - '+.origin.com'                # AD AE
   - '+.origin.tv'                 # AD AE
   - '+.orithegame.com'            # V W
+  - '+.ovh.ca'                    # A
+  - '+.ovh.com'                   # A
+  - '+.ovh.de'                    # A
+  - '+.ovh.ie'                    # A
+  - '+.ovh.net'                   # A
+  - '+.ovhcloud.com'              # A
   - '+.pa9pal.com'                # I J
   - '+.paaypal.com'               # I J
   - '+.pacloudflare.com'          # D E
@@ -719,7 +728,7 @@ payload:
   - '+.paypal-team.com'           # I J
   - '+.paypal-viewpoints.net'     # I J
   - '+.paypal.ca'                 # I J
-  - '+.paypal.com'                # I J
+  - '+.paypal.com'                # A I J
   - '+.paypal.info'               # I J
   - '+.paypal.jp'                 # I J
   - '+.paypal.me'                 # I J
@@ -754,7 +763,7 @@ payload:
   - '+.paypalnetwork.info'        # I J
   - '+.paypalnetwork.net'         # I J
   - '+.paypalnetwork.org'         # I J
-  - '+.paypalobjects.com'         # I J
+  - '+.paypalobjects.com'         # A I J
   - '+.paypalonline.net'          # I J
   - '+.paypalonline.org'          # I J
   - '+.paypalprepagata.com'       # I J
@@ -858,6 +867,7 @@ payload:
   - '+.sovcloud-static.cn'        # G
   - '+.sovcloud-usercontent.cn'   # G
   - '+.sovcloud.cn'               # G
+  - '+.soyoustart.com'            # A
   - '+.spearhead.kr'              # AD AE
   - '+.speedcurve.com'            # F
   - '+.speedhunters.com'          # AD AE
@@ -1119,6 +1129,7 @@ payload:
   - '+.oss-me-east-1.aliyuncs.com'  # O
   - '+.oss-us-east-1.aliyuncs.com'  # O
   - '+.oss-us-west-1.aliyuncs.com'  # O
+  - '+.ovh.co.uk'                 # A
   - '+.paypal.com.cn'             # I J
   - '+.paypal.com.sg'             # I J
   - '+.paypal.net.cn'             # I J

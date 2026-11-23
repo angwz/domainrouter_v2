@@ -215,20 +215,20 @@
       "collections": [
         "AI"
       ],
-      "entries": 307,
+      "entries": 309,
       "format": "mrs",
       "path": "clash-domain/AI.mrs",
-      "sha256": "04df2504976800269c121326c85f61eddb99cb80dbc8bcb2f35fbffeba4bb6be"
+      "sha256": "a2afe9bc9216c35ec9272ca7df4b34dee6599e71236934c5c3f53d17c0461c5c"
     },
     {
       "behavior": "domain",
       "collections": [
         "AI"
       ],
-      "entries": 307,
+      "entries": 309,
       "format": "yaml",
       "path": "clash-domain/AI.yaml",
-      "sha256": "089fee1fb76f13ab3c22324889690b58314828980dad1f1a1e02e4a0953dbec7"
+      "sha256": "5d5c2cb7637eec3a19b0f981731e927272b18cbdcf546afcf76cee80a1ee4efa"
     },
     {
       "behavior": "domain",
@@ -375,20 +375,20 @@
       "collections": [
         "HK"
       ],
-      "entries": 1296,
+      "entries": 1307,
       "format": "mrs",
       "path": "clash-domain/HK.mrs",
-      "sha256": "4275dea3efe4e0ecea80478d68e4850d139088cd5ffc7ebf8750e05668bcdbd4"
+      "sha256": "27cbb11cf7a62dc4bc01709ce2f03779093286bc8c3e953e1cb3a1939ed61899"
     },
     {
       "behavior": "domain",
       "collections": [
         "HK"
       ],
-      "entries": 1296,
+      "entries": 1307,
       "format": "yaml",
       "path": "clash-domain/HK.yaml",
-      "sha256": "f196094aad78d1b0066f9fa3bfa9e687cedae5bcac141b84bbbeb8e1ed7e0284"
+      "sha256": "324115d402a6e4cfdd6aa5de2011a677d992ba3fd5ca3a6b6db98aa5b100f1aa"
     },
     {
       "behavior": "domain",
@@ -972,18 +972,18 @@
     }
   ],
   "documents": {
-    "README.md": "c98f6ec40c91947a2a6051db887a677c1bd093ffeed272d3c0a1160cabf6498e",
+    "README.md": "bdff6cea38a14c3c3d896af5e67e7b7d6a778fa9687b0722e182f8a7585a1e62",
     "reports/broad-rules.md": "bb63fed7f7896506a565e0c207dba11308cd893c17cac23fc849123b78767253"
   },
   "engine": "9feac1bb2da74cc90b5d702b80962993e21b86b3f565ceb8ac4d95579cc5f30e",
-  "generation": "bf2bc5ec45e21f0d485bc101f53ad86c955f37d48d848bcb76d6e8e9977c2ba2",
+  "generation": "c4c02fbe6498a19b5f76086bc3b66879816bacd4e71cc6a59a589e4bb990f6cf",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "218335c6e5a328716714c6fe01efc34f1de0f838b4687c84bbe966d4e2480251"
   },
   "inputs": {
     "groups": "218335c6e5a328716714c6fe01efc34f1de0f838b4687c84bbe966d4e2480251",
-    "rules": "d6297da4519932137302323ddeff73a92b5ae4bbb0f22bb65624c083d289af6a",
+    "rules": "6b46d5dbfbb4f586cc318740364dc9d25340b844137c6611ca0e21b67a1c6f91",
     "sources": {
       "002e649058dcadcf": "47cbef120375369cc598bde820ca051fa22aadd0c3f6ba0a5ecdcac7012b8895",
       "008b3ec0423aef73": "aeab215b54dbef79fde0cc21a554e10bed27c5e1303b856c5f15e3f893e016f8",
