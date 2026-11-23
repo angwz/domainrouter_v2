@@ -1,9 +1,9 @@
 # NAME: America
 # GROUP: ⛳ 美国专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-17 12:18:37 (UTC+8)
+# UPDATED: 2026-11-23 10:09:04 (UTC+8)
 # TYPE: domain
-# TOTAL: 1689
+# TOTAL: 1691
 # SOURCE A: my.wei
 # SOURCE B: blackmatrix7 · USMedia/USMedia.list
 # SOURCE C: MetaCubeX · geosite/category-dev.yaml
@@ -1145,6 +1145,7 @@ payload:
   - '+.registerhulu.com'        # B
   - '+.remirepo.net'            # C
   - '+.renderingtoolkit.org'    # C I
+  - '+.replit.com'              # C
   - '+.repo.new'                # C
   - '+.researchandcare.org'     # C D
   - '+.researchgate.net'        # G H
@@ -1318,6 +1319,7 @@ payload:
   - '+.timelinestoryteller.com'  # C
   - '+.tmimgcdn.com'            # C
   - '+.topcoder.com'            # C
+  - '+.tortoisegit.org'         # C
   - '+.totalmateria.com'        # G
   - '+.toutapp.com'             # E F
   - '+.trustedanalytics.com'    # I J

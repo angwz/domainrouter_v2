@@ -1,9 +1,9 @@
 # NAME: Media
 # GROUP: 🛖 国际流媒体
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-23 10:09:04 (UTC+8)
 # TYPE: domain
-# TOTAL: 11104
+# TOTAL: 11121
 # SOURCE A: blackmatrix7 · GlobalMedia/GlobalMedia.list
 # SOURCE B: MetaCubeX · geosite/category-media.yaml
 # SOURCE C: blackmatrix7 · IPTVOther/IPTVOther.list
@@ -208,6 +208,7 @@ payload:
   - '+.51lieqi.com'             # F
   - '+.51luoli.info'            # F
   - '+.51mh.app'                # F
+  - '+.51papaya.com'            # F
   - '+.51pincha.cc'             # F
   - '+.520aa.tv'                # F
   - '+.520avtv.com'             # F
@@ -1257,7 +1258,7 @@ payload:
   - '+.bravoteens.com'          # F
   - '+.bravotube.net'           # F
   - '+.bravotube.tv'            # F
-  - '+.bravotv.com'             # A
+  - '+.bravotv.com'             # A B
   - '+.braze.com'               # A H
   - '+.brazz.org'               # F
   - '+.brazzer.com'             # F
@@ -1539,6 +1540,7 @@ payload:
   - '+.clubtubes.com'           # F
   - '+.clzz2.xyz'               # F
   - '+.cnbc.com'                # A B
+  - '+.cnbccouncils.com'        # B
   - '+.cnbcfm.com'              # A B
   - '+.cnbeta.com'              # B
   - '+.cnbetacdn.com'           # B
@@ -2308,6 +2310,7 @@ payload:
   - '+.fantasiasguatemala.com'  # F
   - '+.fantasti.cc'             # F
   - '+.fantv.hk'                # B  覆盖 media.fantv.hk C
+  - '+.fanza.jp'                # F
   - '+.fap-xxx.com'             # F
   - '+.fap18.net'               # F
   - '+.fap666.com'              # F
@@ -2438,6 +2441,7 @@ payload:
   - '+.fmav.top'                # F
   - '+.fmav51.icu'              # F
   - '+.fnlondon.com'            # B
+  - '+.focusfeatures.com'       # B
   - '+.follasian.com'           # F
   - '+.footseen.com'            # F
   - '+.footstockings.com'       # F
@@ -3057,6 +3061,7 @@ payload:
   - '+.hayabusa.dev'            # A D
   - '+.hayabusa.io'             # A D
   - '+.hayabusa.media'          # A D
+  - '+.hayu.com'                # B
   - '+.hbo.com'                 # A D
   - '+.hboasia.com'             # A D
   - '+.hbogo.com'               # A D
@@ -3577,6 +3582,7 @@ payload:
   - '+.ikanmh.xyz'              # F
   - '+.iknowthatgirl.com'       # F
   - '+.illgames.jp'             # F
+  - '+.illumination.com'        # B
   - '+.illusion111.com'         # F
   - '+.illusionas.com'          # F
   - '+.illusionchn.com'         # F
@@ -3596,7 +3602,6 @@ payload:
   - '+.ilovexs.com'             # F
   - '+.imagefap.com'            # F
   - '+.imagepost.com'           # F
-  - '+.imagetwist.com'          # F
   - '+.imaypb.com'              # F
   - '+.imgschan.xyz'            # F
   - '+.imhentai.xxx'            # F
@@ -4715,7 +4720,7 @@ payload:
   - '+.mrskin.com'              # F
   - '+.mrssiren.com'            # F
   - '+.mrvideosdesexo.xxx'      # F
-  - '+.msnbc.com'               # A B
+  - '+.msnbc.com'               # A
   - '+.mt0011.site'             # F
   - '+.mtao.fun'                # F
   - '+.mtvnservices.com'        # A B
@@ -4762,7 +4767,6 @@ payload:
   - '+.mybukkakeporn.com'       # F
   - '+.mycams.com'              # F
   - '+.mycartoonsexgames.com'   # F
-  - '+.mycdn.me'                # F
   - '+.myclitgames.com'         # F
   - '+.mycomicsxxx.com'         # F
   - '+.mydirtyhobby.com'        # F
@@ -4885,8 +4889,11 @@ payload:
   - '+.nbcolympics.com'         # B
   - '+.nbcsports.com'           # A B
   - '+.nbcudigitaladops.com'    # A B
+  - '+.nbcumv.com'              # B
   - '+.nbcuni.com'              # A B
+  - '+.nbcunicareers.com'       # B
   - '+.nbcuniversal.com'        # B
+  - '+.nbcuniversalprivacy.com'  # B
   - '+.nbdh15.buzz'             # F
   - '+.nbys.tv'                 # A
   - '+.nbys1.tv'                # A
@@ -6865,7 +6872,7 @@ payload:
   - '+.teenwebcamtube.com'      # F
   - '+.teeztube.com'            # F
   - '+.telegram-porn.com'       # F
-  - '+.telemundo.com'           # A
+  - '+.telemundo.com'           # A B
   - '+.tellme.pw'               # F
   - '+.temetube.xyz'            # F
   - '+.terk.nl'                 # F
@@ -7245,6 +7252,7 @@ payload:
   - '+.udn.com'                 # B
   - '+.udndata.com'             # B
   - '+.udnfunlife.com'          # B
+  - '+.udxfpp.com'              # B
   - '+.uflash.tv'               # F
   - '+.uguisupapa.net'          # F
   - '+.uhairy.com'              # F
@@ -7260,16 +7268,22 @@ payload:
   - '+.uncensoredsexparties.com'  # F
   - '+.underhentai.net'         # F
   - '+.uninhibitedcomix.com'    # F
+  - '+.universalbeijingresort.com'  # B
+  - '+.universalhorrorunleashed.com'  # B
   - '+.universalkids.com'       # A
+  - '+.universalkidsresort.com'  # B
   - '+.universalorlando.com'    # B
   - '+.universalpictures.com'   # B
+  - '+.universalpicturesathome.com'  # B
   - '+.universalpicturesinternational.com'  # B
+  - '+.universalproductsexperiences.com'  # B
   - '+.universalstudioshollywood.com'  # B
   - '+.unkoscene.com'           # F
   - '+.unusualporn.net'         # F
   - '+.unwire.hk'               # B
   - '+.up01.cc'                 # F
   - '+.updatetube.com'          # F
+  - '+.uphe.com'                # B
   - '+.upholdjustice.org'       # B
   - '+.upjav.cc'                # F
   - '+.uplay-istrip.com'        # F
@@ -8805,6 +8819,9 @@ payload:
   - '+.ulifestyle.com.hk'       # B
   - '+.umagazine.com.hk'        # B
   - '+.umsoplaneta.com.br'      # B
+  - '+.universalpictures.co.uk'  # B
+  - '+.universalukproject.co.uk'  # B
+  - '+.usj.co.jp'               # B
   - '+.v.smtcdns.com'           # A
   - '+.v.smtcdns.net'           # A
   - '+.valor.com.br'            # B

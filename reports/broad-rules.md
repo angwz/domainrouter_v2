@@ -97,7 +97,7 @@
 
 - 子串匹配：`youtube`
 
-## 已发布：整个公共后缀（206）
+## 已发布：整个公共后缀（208）
 
 `clash-domain/AI.yaml` → 🗨️ ChatGPT
 
@@ -291,6 +291,7 @@
 - 覆盖公共后缀 .guge 下的域名：`+.guge`
 - 覆盖公共后缀 .hangout 下的域名：`+.hangout`
 - 覆盖公共后缀 .hbo 下的域名：`+.hbo`
+- 覆盖公共后缀 .hkt 下的域名：`+.hkt`
 - 覆盖公共后缀 .hotmail 下的域名：`+.hotmail`
 - 覆盖公共后缀 .hsbc 下的域名：`+.hsbc`
 - 覆盖公共后缀 .ibm 下的域名：`+.ibm`
@@ -308,6 +309,7 @@
 - 覆盖公共后缀 .office 下的域名：`+.office`
 - 覆盖公共后缀 .oracle 下的域名：`+.oracle`
 - 覆盖公共后缀 .panasonic 下的域名：`+.panasonic`
+- 覆盖公共后缀 .pccw 下的域名：`+.pccw`
 - 覆盖公共后缀 .playstation 下的域名：`+.playstation`
 - 覆盖公共后缀 .porn 下的域名：`+.porn`
 - 覆盖公共后缀 .samsung 下的域名：`+.samsung`

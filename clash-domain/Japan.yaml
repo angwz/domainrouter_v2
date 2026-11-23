@@ -1,7 +1,7 @@
 # NAME: Japan
 # GROUP: 🌺 日本专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-23 10:09:04 (UTC+8)
 # TYPE: domain
 # TOTAL: 285
 # SOURCE A: my.wei
@@ -18,7 +18,7 @@ payload:
   - '+.amazon'                 # B C
   - '+.aws'                    # B C
   - '+.imdb'                   # B C
-  - '+.jp'                     # A  覆盖 +.aboutamazon.jp B C, +.amazon.jp B C 等 29 条
+  - '+.jp'                     # A  覆盖 +.aboutamazon.jp B C, +.amazon.jp B C 等 30 条
   - '+.kindle'                 # B C
   - '+.nico'                   # H  覆盖 +.dmc.nico I
   - '+.xn--cckwcxetd'          # B C

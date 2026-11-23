@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-22 09:53:10 (UTC+8)
+# UPDATED: 2026-11-23 10:09:04 (UTC+8)
 # TYPE: domain
-# TOTAL: 29872
+# TOTAL: 29896
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -38,6 +38,7 @@ payload:
   - '+.guge'                 # B
   - '+.hangout'              # B
   - '+.hbo'                  # B
+  - '+.hkt'                  # B
   - '+.hotmail'              # B
   - '+.hsbc'                 # B
   - '+.ibm'                  # B
@@ -55,6 +56,7 @@ payload:
   - '+.office'               # B
   - '+.oracle'               # B
   - '+.panasonic'            # B
+  - '+.pccw'                 # B
   - '+.playstation'          # B
   - '+.porn'                 # B
   - '+.samsung'              # B
@@ -4479,6 +4481,7 @@ payload:
   - '+.bravoteens.com'       # B C
   - '+.bravotube.net'        # A B C
   - '+.bravotube.tv'         # B C
+  - '+.bravotv.com'          # B
   - '+.brawlstars.com'       # B C
   - '+.brawlstarsgame.com'   # B C
   - '+.brazilpartneruniversity.com'  # B C
@@ -5757,6 +5760,7 @@ payload:
   - '+.cn6.eu'               # A C
   - '+.cnabc.com'            # A C
   - '+.cnbc.com'             # B
+  - '+.cnbccouncils.com'     # B
   - '+.cnbcfm.com'           # B
   - '+.cnbeta.com'           # B
   - '+.cnbetacdn.com'        # B
@@ -8689,6 +8693,7 @@ payload:
   - '+.fantom.network'       # B C
   - '+.fantv.hk'             # A B C
   - '+.fanyue.info'          # A C
+  - '+.fanza.jp'             # B
   - '+.fap-xxx.com'          # B C
   - '+.fap18.net'            # B C
   - '+.fap666.com'           # B C
@@ -9165,6 +9170,7 @@ payload:
   - '+.fnmt.es'              # B C
   - '+.foampositeshoes.com'  # B C
   - '+.fochk.org'            # A B C
+  - '+.focusfeatures.com'    # B
   - '+.focustaiwan.tw'       # A B C
   - '+.focusvpn.com'         # A C
   - '+.fofg-europe.net'      # A C
@@ -11007,6 +11013,7 @@ payload:
   - '+.hayabusa.media'       # B C
   - '+.hayday.com'           # B C
   - '+.haydaygame.com'       # B C
+  - '+.hayu.com'             # B
   - '+.hayya.ae'             # B C
   - '+.hbabit.com'           # B C
   - '+.hbfile.net'           # B C
@@ -12420,6 +12427,7 @@ payload:
   - '+.ilife.wang'           # B C
   - '+.illgames.jp'          # B C
   - '+.illianacomputerrecycling.com'  # C
+  - '+.illumination.com'     # B
   - '+.illusion.jp'          # C
   - '+.illusion111.com'      # B C
   - '+.illusionas.com'       # B C
@@ -16243,7 +16251,7 @@ payload:
   - '+.msinnovationchallenge.com'  # B C
   - '+.msn.com'              # A B C
   - '+.msn.net'              # B C
-  - '+.msnbc.com'            # B C
+  - '+.msnbc.com'            # C
   - '+.msnewskids.com'       # B C
   - '+.msnewskids.net'       # B C
   - '+.msnewskids.org'       # B C
@@ -16690,8 +16698,11 @@ payload:
   - '+.nbcolympics.com'      # B C
   - '+.nbcsports.com'        # B C
   - '+.nbcudigitaladops.com'  # B C
+  - '+.nbcumv.com'           # B
   - '+.nbcuni.com'           # B C
+  - '+.nbcunicareers.com'    # B
   - '+.nbcuniversal.com'     # B C
+  - '+.nbcuniversalprivacy.com'  # B
   - '+.nbdh15.buzz'          # B C
   - '+.nbtvpn.com'           # A B C
   - '+.nbys.tv'              # B C
@@ -20040,6 +20051,7 @@ payload:
   - '+.renyurenquan.org'     # A B C
   - '+.renzhe.cloud'         # B C
   - '+.repe21.com'           # B C
+  - '+.replit.com'           # B
   - '+.repo.new'             # B C
   - '+.report-megafon.ru'    # B C
   - '+.repotama.com'         # B C
@@ -22638,6 +22650,7 @@ payload:
   - '+.telegramdownload.com'  # B C
   - '+.telekom.com'          # B C
   - '+.telekom.de'           # B C
+  - '+.telemundo.com'        # B
   - '+.telerik.com'          # B C
   - '+.telesco.pe'           # A B C
   - '+.telesec.de'           # B C
@@ -23295,6 +23308,7 @@ payload:
   - '+.torrenty.org'         # A B C
   - '+.torrentz.eu'          # A C
   - '+.torrindex.net'        # B C
+  - '+.tortoisegit.org'      # B
   - '+.tortoisesvn.net'      # A B C
   - '+.torvpn.com'           # A B C
   - '+.tospo-keiba.jp'       # B C
@@ -23852,6 +23866,7 @@ payload:
   - '+.udnfunlife.com'       # B C
   - '+.udomain.hk'           # A B C
   - '+.udtrucksmeena.com'    # B C
+  - '+.udxfpp.com'           # B
   - '+.ueberamazon.de'       # B C
   - '+.uflash.tv'            # B C
   - '+.ufreevpn.com'         # A C
@@ -23940,9 +23955,14 @@ payload:
   - '+.unitedsocialpress.com'  # A C
   - '+.unity.com'            # B C
   - '+.unity3d.com'          # A B C
+  - '+.universalbeijingresort.com'  # B
+  - '+.universalhorrorunleashed.com'  # B
+  - '+.universalkidsresort.com'  # B
   - '+.universalorlando.com'  # B C
   - '+.universalpictures.com'  # B C
+  - '+.universalpicturesathome.com'  # B
   - '+.universalpicturesinternational.com'  # B C
+  - '+.universalproductsexperiences.com'  # B
   - '+.universalscalablefirmware.org'  # B C
   - '+.universalstudioshollywood.com'  # B C
   - '+.universitypressscholarship.com'  # B C
@@ -23979,6 +23999,7 @@ payload:
   - '+.upfrontcfd.com'       # B C
   - '+.upfrontfea.com'       # B C
   - '+.upghsbc.com'          # A B C
+  - '+.uphe.com'             # B
   - '+.upholdjustice.org'    # A B C
   - '+.upjav.cc'             # B C
   - '+.uplay-istrip.com'     # B C
@@ -29338,8 +29359,11 @@ payload:
   - '+.unblock.cn.com'       # B
   - '+.unext.co.jp'          # B C
   - '+.unification.org.tw'   # A C
+  - '+.universalpictures.co.uk'  # B
+  - '+.universalukproject.co.uk'  # B
   - '+.url.com.tw'           # A C
   - '+.us.weibo.com'         # C
+  - '+.usj.co.jp'            # B
   - '+.uyghur.co.uk'         # A C
   - '+.uyghurensemble.co.uk'  # A C
   - '+.v2.hysteria.network'  # A B C
