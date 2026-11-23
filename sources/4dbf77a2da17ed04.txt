@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27204, "fetched_at": "2026-11-22T01:52:16+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f40fee6fc3bf7bd5cf19c922f91143d1636a9b28954b0f87242381e6b55f7116", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27227, "fetched_at": "2026-11-23T02:07:53+00:00", "format": "auto", "invalid": 0, "raw_sha256": "bfb170e7950e8308a74f3a8f7b0bb98a3dc1951afeb4166e3817a97425581a98", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -4485,6 +4485,7 @@ d +.bravoporn.com
 d +.bravoteens.com
 d +.bravotube.net
 d +.bravotube.tv
+d +.bravotv.com
 d +.brawlstars.com
 d +.brawlstarsgame.com
 d +.brazilpartneruniversity.com
@@ -5708,6 +5709,7 @@ d +.cn.sandscotaicentral.com
 d +.cn.shafaqna.com
 d +.cna.com.tw
 d +.cnbc.com
+d +.cnbccouncils.com
 d +.cnbcfm.com
 d +.cnbeta.com
 d +.cnbeta.com.tw
@@ -8584,6 +8586,7 @@ d +.fantasti.cc
 d +.fantom.foundation
 d +.fantom.network
 d +.fantv.hk
+d +.fanza.jp
 d +.fap-xxx.com
 d +.fap18.net
 d +.fap666.com
@@ -9031,6 +9034,7 @@ d +.fnlondon.com
 d +.fnmt.es
 d +.foampositeshoes.com
 d +.fochk.org
+d +.focusfeatures.com
 d +.focustaiwan.tw
 d +.fofg.org
 d +.foftolia.com
@@ -10817,6 +10821,7 @@ d +.hayabusa.io
 d +.hayabusa.media
 d +.hayday.com
 d +.haydaygame.com
+d +.hayu.com
 d +.hayya.ae
 d +.hbabit.com
 d +.hbfile.net
@@ -11262,6 +11267,7 @@ d +.hkpeanut.com
 d +.hkporn.net
 d +.hkreadingcity.net
 d +.hkreporter.com
+d +.hkt
 d +.hkt-enterprise.com
 d +.hkt-eye.com
 d +.hkt.com
@@ -12182,6 +12188,7 @@ d +.ilife.gr
 d +.ilife.wang
 d +.illawarramercury.com.au
 d +.illgames.jp
+d +.illumination.com
 d +.illusion111.com
 d +.illusionas.com
 d +.illusionchn.com
@@ -15926,7 +15933,6 @@ d +.msk.ilnk.info
 d +.msk.kitazawa.me
 d +.msn.com
 d +.msn.net
-d +.msnbc.com
 d +.msnewskids.com
 d +.msnewskids.net
 d +.msnewskids.org
@@ -16324,8 +16330,11 @@ d +.nbcnews.com
 d +.nbcolympics.com
 d +.nbcsports.com
 d +.nbcudigitaladops.com
+d +.nbcumv.com
 d +.nbcuni.com
+d +.nbcunicareers.com
 d +.nbcuniversal.com
+d +.nbcuniversalprivacy.com
 d +.nbdh15.buzz
 d +.nbtvpn.com
 d +.nbys.tv
@@ -17953,6 +17962,7 @@ d +.pbxes.com
 d +.pbxes.org
 d +.pc.com
 d +.pca.st
+d +.pccw
 d +.pccw.com
 d +.pccwglobal.com
 d +.pccwsolutions.com
@@ -19547,6 +19557,7 @@ d +.rentry.co
 d +.renyurenquan.org
 d +.renzhe.cloud
 d +.repe21.com
+d +.replit.com
 d +.repo.new
 d +.report-megafon.ru
 d +.repotama.com
@@ -22003,6 +22014,7 @@ d +.telegram.space
 d +.telegramdownload.com
 d +.telekom.com
 d +.telekom.de
+d +.telemundo.com
 d +.telerik.com
 d +.telesco.pe
 d +.telesec.de
@@ -22592,6 +22604,7 @@ d +.torrentprivacy.com
 d +.torrentproject.se
 d +.torrenty.org
 d +.torrindex.net
+d +.tortoisegit.org
 d +.tortoisesvn.net
 d +.torvpn.com
 d +.tosh.comedycentral.com
@@ -23083,6 +23096,7 @@ d +.udndata.com
 d +.udnfunlife.com
 d +.udomain.hk
 d +.udtrucksmeena.com
+d +.udxfpp.com
 d +.ueberamazon.de
 d +.uflash.tv
 d +.uforadio.com.tw
@@ -23160,11 +23174,18 @@ d +.uniswap.org
 d +.united.ru
 d +.unity.com
 d +.unity3d.com
+d +.universalbeijingresort.com
+d +.universalhorrorunleashed.com
+d +.universalkidsresort.com
 d +.universalorlando.com
+d +.universalpictures.co.uk
 d +.universalpictures.com
+d +.universalpicturesathome.com
 d +.universalpicturesinternational.com
+d +.universalproductsexperiences.com
 d +.universalscalablefirmware.org
 d +.universalstudioshollywood.com
+d +.universalukproject.co.uk
 d +.universitypressscholarship.com
 d +.unknownspace.org
 d +.unkoscene.com
@@ -23191,6 +23212,7 @@ d +.updatetube.com
 d +.upfrontcfd.com
 d +.upfrontfea.com
 d +.upghsbc.com
+d +.uphe.com
 d +.upholdjustice.org
 d +.upjav.cc
 d +.uplay-istrip.com
@@ -23240,6 +23262,7 @@ d +.userpxt.io
 d +.usersdrive.com
 d +.usertrust.com
 d +.usfk.mil
+d +.usj.co.jp
 d +.usma.edu
 d +.usno.navy.mil
 d +.usocial.pro

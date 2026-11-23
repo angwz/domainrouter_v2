@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1580, "fetched_at": "2026-11-08T23:58:20+00:00", "format": "auto", "invalid": 0, "raw_sha256": "765bbbb2a09d8a7dfda4df6a167ee78862737eb98a53f81ab458c14c18a1189d", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-media.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1598, "fetched_at": "2026-11-23T02:07:56+00:00", "format": "auto", "invalid": 0, "raw_sha256": "92c0a7f256d940a88386a985cf1946fed48a221813755cdd69a2255800057a9a", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-media.yaml", "version": 1}
 d +.1917live.red
 d +.1degree.com.au
 d +.1prime.ru
@@ -172,6 +172,7 @@ d +.book1917.live
 d +.bookclubgirl.com
 d +.bowenpress.com
 d +.boxun.com
+d +.bravotv.com
 d +.breitbart.com
 d +.bridge-studio.co.uk
 d +.broadpressinc.com
@@ -234,6 +235,7 @@ d +.cmmedia.com.tw
 d +.cn-cdn1.skymansion.net
 d +.cna.com.tw
 d +.cnbc.com
+d +.cnbccouncils.com
 d +.cnbcfm.com
 d +.cnbeta.com
 d +.cnbeta.com.tw
@@ -412,6 +414,7 @@ d +.fgmtv.org
 d +.financialadvisoriq.com
 d +.flatmates.com.au
 d +.fnlondon.com
+d +.focusfeatures.com
 d +.forbes.com
 d +.forbesimg.com
 d +.fortuneinsight.com
@@ -666,6 +669,7 @@ d +.harpercollinsadvantage.com
 d +.harpercollinschildrensbooks.co.uk
 d +.harpercollinschristian.com
 d +.harpercollinsspeakersbureau.com
+d +.hayu.com
 d +.hcpdts.com
 d +.headlinejobs.hk
 d +.heraldsun.com.au
@@ -714,6 +718,7 @@ d +.ign.jp
 d +.ignites.com
 d +.ignitesasia.com
 d +.igniteseurope.com
+d +.illumination.com
 d +.ind.sh
 d +.india.com
 d +.indiancolleges.com
@@ -841,7 +846,6 @@ d +.move.com
 d +.moveaws.com
 d +.mpfinance.com
 d +.mpweekly.com
-d +.msnbc.com
 d +.mtvnservices.com
 d +.my-formosa.com
 d +.my-magazine.me
@@ -889,8 +893,11 @@ d +.nbcnews.com
 d +.nbcolympics.com
 d +.nbcsports.com
 d +.nbcudigitaladops.com
+d +.nbcumv.com
 d +.nbcuni.com
+d +.nbcunicareers.com
 d +.nbcuniversal.com
+d +.nbcuniversalprivacy.com
 d +.neigbuy.com
 d +.neow.in
 d +.neowin.net
@@ -1307,6 +1314,7 @@ d +.techspot.com
 d +.techtudo.com
 d +.techtudo.com.br
 d +.teenchoice.com
+d +.telemundo.com
 d +.testonfox.com
 d +.the-japan-news.com
 d +.the-tls.co.uk
@@ -1407,21 +1415,31 @@ d +.udn.com
 d +.udn.com.tw
 d +.udndata.com
 d +.udnfunlife.com
+d +.udxfpp.com
 d +.ukraina.ru
 d +.ulifestyle.com.hk
 d +.umagazine.com.hk
 d +.umsoplaneta.com
 d +.umsoplaneta.com.br
+d +.universalbeijingresort.com
+d +.universalhorrorunleashed.com
+d +.universalkidsresort.com
 d +.universalorlando.com
+d +.universalpictures.co.uk
 d +.universalpictures.com
+d +.universalpicturesathome.com
 d +.universalpicturesinternational.com
+d +.universalproductsexperiences.com
 d +.universalstudioshollywood.com
+d +.universalukproject.co.uk
 d +.unwire.hk
+d +.uphe.com
 d +.upholdjustice.org
 d +.upmedia.mg
 d +.urduvoa.com
 d +.usatoday.com
 d +.usatodaynetworkservice.com
+d +.usj.co.jp
 d +.valor.com.br
 d +.valoreconomico.com.br
 d +.valorinveste.com

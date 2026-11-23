@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 17, "fetched_at": "2026-11-08T23:58:11+00:00", "format": "auto", "invalid": 0, "raw_sha256": "7293d5938eb4e35e47f70bf9f158e8da34072b9b47b91f3381107d7a2612a335", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/dmm.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 18, "fetched_at": "2026-11-23T02:07:55+00:00", "format": "auto", "invalid": 0, "raw_sha256": "4735069a4af2697eaf7df82df59d052f857a1d28ef4e0d3efdb6e2accb732976", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/dmm.yaml", "version": 1}
 d +.ad.games.dmm.com
 d +.bluekai.com
 d +.dmm-extension.com
@@ -6,6 +6,7 @@ d +.dmm.co.jp
 d +.dmm.com
 d +.dmmapis.com
 d +.dmmrex.com
+d +.fanza.jp
 d +.fout.jp
 d +.gmossp-sp.jp
 d +.i-mobile.co.jp

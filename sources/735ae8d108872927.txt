@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 6521, "fetched_at": "2026-11-08T23:58:20+00:00", "format": "auto", "invalid": 0, "raw_sha256": "477feeb5dd78c20b16308f02188dceaceb36b7b019719e96011947f04bb22196", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-porn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 6521, "fetched_at": "2026-11-23T02:07:56+00:00", "format": "auto", "invalid": 0, "raw_sha256": "ebefefac22f17bebee98e5cf9b367c2d09b73188acfa0be483a54cc4eebc117b", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-porn.yaml", "version": 1}
 d +.02weqj32.com
 d +.04647.club
 d +.0cgdklr5sfwj.com
@@ -180,6 +180,7 @@ d +.51dh.site
 d +.51lieqi.com
 d +.51luoli.info
 d +.51mh.app
+d +.51papaya.com
 d +.51pincha.cc
 d +.520aa.tv
 d +.520avtv.com
@@ -1808,6 +1809,7 @@ d +.fansta.me
 d +.fansteek.com
 d +.fantasiasguatemala.com
 d +.fantasti.cc
+d +.fanza.jp
 d +.fap-xxx.com
 d +.fap18.net
 d +.fap666.com
@@ -2754,7 +2756,6 @@ d +.iloveinterracial.com
 d +.ilovexs.com
 d +.imagefap.com
 d +.imagepost.com
-d +.imagetwist.com
 d +.imaypb.com
 d +.imgschan.xyz
 d +.imhentai.xxx
@@ -3753,7 +3754,6 @@ d +.myboylove.com
 d +.mybukkakeporn.com
 d +.mycams.com
 d +.mycartoonsexgames.com
-d +.mycdn.me
 d +.myclitgames.com
 d +.mycomicsxxx.com
 d +.mydirtyhobby.com

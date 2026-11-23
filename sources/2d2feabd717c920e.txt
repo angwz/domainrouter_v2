@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 696, "fetched_at": "2026-11-17T04:17:32+00:00", "format": "auto", "invalid": 0, "raw_sha256": "4f22939fa8c50b66af4900e2cceb6320f15e68d24c535c091c64699a0c9b3eed", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 698, "fetched_at": "2026-11-23T02:07:55+00:00", "format": "auto", "invalid": 0, "raw_sha256": "451c94a67e0e0f472054c7e5edc18f6310e29011d7dc672724066924f86ddea2", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml", "version": 1}
 d +.01.org
 d +.accountkit.com
 d +.acpica.com
@@ -440,6 +440,7 @@ d +.redislabs.com
 d +.regex101.com
 d +.remirepo.net
 d +.renderingtoolkit.org
+d +.replit.com
 d +.repo.new
 d +.researchandcare.org
 d +.researchkit.cn
@@ -526,6 +527,7 @@ d +.timelinestoryteller.com
 d +.timestamp.apple.com
 d +.tmimgcdn.com
 d +.topcoder.com
+d +.tortoisegit.org
 d +.ubuntu-touch.io
 d +.ubuntu.com
 d +.ubuntu.net

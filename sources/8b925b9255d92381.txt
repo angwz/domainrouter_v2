@@ -1,3 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 2, "fetched_at": "2026-11-08T23:58:11+00:00", "format": "auto", "invalid": 0, "raw_sha256": "a87eab12c4b989c2f6f24f1069b89f2f9531e6ebac337b2d239d6e49055d1f83", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/dmm-porn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 3, "fetched_at": "2026-11-23T02:07:55+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f4f4490f904100ff72524d9eec456cc861183213b3065c8c0a1fc5f7f1622040", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/dmm-porn.yaml", "version": 1}
 d +.dmm.co.jp
 d +.dmmrex.com
+d +.fanza.jp
