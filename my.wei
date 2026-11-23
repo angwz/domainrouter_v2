@@ -199,7 +199,26 @@ https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/azur
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DNS/DNS.list
 
+
+# OVH
+ovhcloud.com
+ovh.com
+ovh.net
+ovh.ie
+ovh.co.uk
+ovh.de
+ovh.ca
+kimsufi.com
+soyoustart.com
+
 # PayPal
+
+# For OVH Pay
+adyen.com
+adyenpayments.com
+paypal.com
+paypalobjects.com
+
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.yaml
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.list
 
@@ -280,6 +299,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash
 
 
 [AI]
+
+# OVH US
+us.ovhcloud.com
+ovh.us
+
 
 # X
 https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/x.yaml
