@@ -1,9 +1,9 @@
 # NAME: AI
 # GROUP: 🗨️ ChatGPT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-23 22:00:08 (UTC+8)
+# UPDATED: 2026-11-25 12:44:47 (UTC+8)
 # TYPE: domain
-# TOTAL: 309
+# TOTAL: 310
 # SOURCE A: my.wei
 # SOURCE B: MetaCubeX · geosite/x.yaml
 # SOURCE C: blackmatrix7 · Twitter/Twitter.list
@@ -120,6 +120,7 @@ payload:
   - '+.flow.google'                    # G H M
   - '+.g.ai'                           # I
   - '+.gemini.google'                  # G H I M
+  - '+.gemma.ai'                       # G H M
   - '+.generativeai.google'            # G H I M N
   - '+.githubcopilot.com'              # G H
   - '+.grazie.ai'                      # G H

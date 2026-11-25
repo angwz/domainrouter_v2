@@ -1,9 +1,9 @@
 # NAME: ChinaMedia
 # GROUP: DIRECT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-20 10:49:08 (UTC+8)
+# UPDATED: 2026-11-25 12:44:47 (UTC+8)
 # TYPE: domain
-# TOTAL: 5507
+# TOTAL: 5511
 # SOURCE A: MetaCubeX · geosite/category-social-media-cn.yaml
 # SOURCE B: MetaCubeX · geosite/category-media-cn.yaml
 # SOURCE C: blackmatrix7 · ChinaMedia/ChinaMedia.list
@@ -3762,6 +3762,7 @@ payload:
   - '+.vshabo.com'             # M
   - '+.vuxmpw.com'             # M
   - '+.vzuu.com'               # A
+  - '+.wahlap.net'             # E
   - '+.wali.com'               # P Q
   - '+.wallstcn.com'           # B
   - '+.wallstreetcn.com'       # B
@@ -4224,6 +4225,7 @@ payload:
   - '+.chinatelecom.org.cn'    # AA
   - '+.chinaunicom.com.cn'     # W Z
   - '+.chinaunicom.com.hk'     # W Z
+  - '+.chunithm.wahlap.com'    # E
   - '+.citv.net.cn'            # B C
   - '+.client-update.queniuqe.com'  # E G
   - '+.cloudnet-ecloud.com.cn'  # O
@@ -4344,6 +4346,7 @@ payload:
   - '+.lpl.com.cn'             # E F G
   - '+.lydaas.com.cn'          # L
   - '+.lydass.com.cn'          # L
+  - '+.maimai.wahlap.com'      # E
   - '+.mariokart.com.cn'       # E F G
   - '+.material.istreamsche.com'  # M
   - '+.media-rockstargames-com.akamaized.net'  # F  合并 media-rockstargames-com.akamaized.net E G
@@ -4429,6 +4432,7 @@ payload:
   - '+.tanxlog.istreamsche.com'  # M
   - '+.taotv.com.cn'           # M
   - '+.techweb.com.cn'         # B
+  - '+.tgk-wcaime.wahlap.com'  # E
   - '+.thinkprinter.com.cn'    # J
   - '+.thumb-yz01.kuaipandata.com'  # Q
   - '+.thumb-yz02.kuaipandata.com'  # Q

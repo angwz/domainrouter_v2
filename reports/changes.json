@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T14:00:08+00:00",
-  "generation": "c4c02fbe6498a19b5f76086bc3b66879816bacd4e71cc6a59a589e4bb990f6cf",
+  "generated_at": "2026-11-25T04:44:47+00:00",
+  "generation": "8d90dfc8c336d88eef9e050c6ee891be6408264a0c798826659f72d939781066",
   "changed": true,
   "files": [
     {
@@ -153,11 +153,10 @@
     },
     {
       "path": "clash-domain/AI.yaml",
-      "before": 307,
-      "after": 309,
+      "before": 309,
+      "after": 310,
       "added": [
-        "+.ovh.us",
-        "+.us.ovhcloud.com"
+        "+.gemma.ai"
       ],
       "removed": []
     },
@@ -192,8 +191,13 @@
     {
       "path": "clash-domain/ChinaMedia.yaml",
       "before": 5507,
-      "after": 5507,
-      "added": [],
+      "after": 5511,
+      "added": [
+        "+.chunithm.wahlap.com",
+        "+.maimai.wahlap.com",
+        "+.tgk-wcaime.wahlap.com",
+        "+.wahlap.net"
+      ],
       "removed": []
     },
     {
@@ -206,27 +210,17 @@
     {
       "path": "clash-domain/Google.yaml",
       "before": 879,
-      "after": 879,
-      "added": [],
+      "after": 880,
+      "added": [
+        "+.gemma.ai"
+      ],
       "removed": []
     },
     {
       "path": "clash-domain/HK.yaml",
-      "before": 1296,
+      "before": 1307,
       "after": 1307,
-      "added": [
-        "+.adyen.com",
-        "+.adyenpayments.com",
-        "+.kimsufi.com",
-        "+.ovh.ca",
-        "+.ovh.co.uk",
-        "+.ovh.com",
-        "+.ovh.de",
-        "+.ovh.ie",
-        "+.ovh.net",
-        "+.ovhcloud.com",
-        "+.soyoustart.com"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -274,8 +268,10 @@
     {
       "path": "clash-domain/Proxy.yaml",
       "before": 29896,
-      "after": 29896,
-      "added": [],
+      "after": 29897,
+      "added": [
+        "+.gemma.ai"
+      ],
       "removed": []
     },
     {
@@ -725,7 +721,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml",
       "format": "auto",
-      "entries": 27227,
+      "entries": 27228,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1117,7 +1113,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.yaml",
       "format": "auto",
-      "entries": 218,
+      "entries": 219,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1125,7 +1121,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-chat-!cn.yaml",
       "format": "auto",
-      "entries": 218,
+      "entries": 219,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1165,7 +1161,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-gemini.yaml",
       "format": "auto",
-      "entries": 49,
+      "entries": 50,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1781,7 +1777,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.yaml",
       "format": "auto",
-      "entries": 1078,
+      "entries": 1079,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1917,7 +1913,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml",
       "format": "auto",
-      "entries": 1062,
+      "entries": 1066,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2135,9 +2131,9 @@
     },
     {
       "collections": "AI",
-      "input": 852,
-      "output": 340,
-      "duplicates": 466,
+      "input": 855,
+      "output": 341,
+      "duplicates": 468,
       "covered": 22,
       "merged": 39
     },
@@ -2183,8 +2179,8 @@
     },
     {
       "collections": "Google",
-      "input": 8869,
-      "output": 7980,
+      "input": 8870,
+      "output": 7981,
       "duplicates": 612,
       "covered": 217,
       "merged": 85
@@ -2239,8 +2235,8 @@
     },
     {
       "collections": "ChinaMedia",
-      "input": 9981,
-      "output": 7252,
+      "input": 9985,
+      "output": 7256,
       "duplicates": 2223,
       "covered": 426,
       "merged": 117
@@ -2271,8 +2267,8 @@
     },
     {
       "collections": "Proxy",
-      "input": 69492,
-      "output": 30054,
+      "input": 69493,
+      "output": 30055,
       "duplicates": 32796,
       "covered": 6540,
       "merged": 102

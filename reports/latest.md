@@ -1,7 +1,7 @@
 # 规则更新说明
 
-- 生成时间（UTC）：2026-11-23T14:00:08+00:00
-- generation：`c4c02fbe6498a19b`
+- 生成时间（UTC）：2026-11-25T04:44:47+00:00
+- generation：`8d90dfc8c336d88e`
 - 结果：有变化，已更新发布文件
 
 ## 宽泛规则
@@ -16,38 +16,54 @@
 
 | 文件 | 条目 | 新增 | 删除 |
 | --- | --- | --- | --- |
-| `clash-domain/AI.yaml` | 307 → 309 | 2 | 0 |
-| `clash-domain/HK.yaml` | 1296 → 1307 | 11 | 0 |
+| `clash-domain/AI.yaml` | 309 → 310 | 1 | 0 |
+| `clash-domain/ChinaMedia.yaml` | 5507 → 5511 | 4 | 0 |
+| `clash-domain/Google.yaml` | 879 → 880 | 1 | 0 |
+| `clash-domain/Proxy.yaml` | 29896 → 29897 | 1 | 0 |
 
 <details>
 <summary><code>clash-domain/AI.yaml</code></summary>
 
-新增（2）：
+新增（1）：
 
 ```text
-+.ovh.us
-+.us.ovhcloud.com
++.gemma.ai
 ```
 
 </details>
 
 <details>
-<summary><code>clash-domain/HK.yaml</code></summary>
+<summary><code>clash-domain/ChinaMedia.yaml</code></summary>
 
-新增（11）：
+新增（4）：
 
 ```text
-+.adyen.com
-+.adyenpayments.com
-+.kimsufi.com
-+.ovh.ca
-+.ovh.co.uk
-+.ovh.com
-+.ovh.de
-+.ovh.ie
-+.ovh.net
-+.ovhcloud.com
-+.soyoustart.com
++.chunithm.wahlap.com
++.maimai.wahlap.com
++.tgk-wcaime.wahlap.com
++.wahlap.net
+```
+
+</details>
+
+<details>
+<summary><code>clash-domain/Google.yaml</code></summary>
+
+新增（1）：
+
+```text
++.gemma.ai
+```
+
+</details>
+
+<details>
+<summary><code>clash-domain/Proxy.yaml</code></summary>
+
+新增（1）：
+
+```text
++.gemma.ai
 ```
 
 </details>
@@ -58,24 +74,24 @@
 | --- | --- | --- | --- | --- | --- |
 | Direct | 3778 | 2566 | 347 | 22 | 859 |
 | NS | 9 | 8 | 1 | 0 | 0 |
-| AI | 852 | 340 | 466 | 22 | 39 |
+| AI | 855 | 341 | 468 | 22 | 39 |
 | TikTok | 75 | 61 | 12 | 2 | 0 |
 | Bilibili | 1539 | 1177 | 310 | 48 | 8 |
 | Tencent | 3376 | 2650 | 558 | 167 | 0 |
 | Netflix | 1303 | 1158 | 24 | 0 | 122 |
 | YouTube | 361 | 184 | 176 | 1 | 0 |
-| Google | 8869 | 7980 | 612 | 217 | 85 |
+| Google | 8870 | 7981 | 612 | 217 | 85 |
 | Telegram | 97 | 54 | 33 | 0 | 10 |
 | Japan | 547 | 308 | 195 | 43 | 0 |
 | HK | 5112 | 4029 | 786 | 44 | 288 |
 | Apple | 3468 | 1594 | 1428 | 285 | 4 |
 | Singapore | 2202 | 1092 | 1100 | 5 | 6 |
 | America | 2511 | 1695 | 631 | 179 | 8 |
-| ChinaMedia | 9981 | 7252 | 2223 | 426 | 117 |
+| ChinaMedia | 9985 | 7256 | 2223 | 426 | 117 |
 | OneDrive | 1086 | 684 | 385 | 13 | 8 |
 | Microsoft | 1511 | 770 | 611 | 123 | 14 |
 | Media | 13903 | 12602 | 1002 | 262 | 55 |
-| Proxy | 69492 | 30054 | 32796 | 6540 | 102 |
+| Proxy | 69493 | 30055 | 32796 | 6540 | 102 |
 | China | 506861 | 123422 | 337589 | 72 | 45779 |
 
 ## 会触发 DNS 解析的手写内联规则

@@ -1,9 +1,9 @@
 # NAME: Google
 # GROUP: 📩 Google
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-25 12:44:47 (UTC+8)
 # TYPE: domain
-# TOTAL: 879
+# TOTAL: 880
 # SOURCE A: MetaCubeX · geosite/google.yaml
 # SOURCE B: blackmatrix7 · Google/Google.list
 payload:
@@ -218,6 +218,7 @@ payload:
   - '+.g.page'              # A B
   - '+.gateway.dev'         # A B
   - '+.gcr.io'              # A B
+  - '+.gemma.ai'            # A
   - '+.gerritcodereview.com'  # A B
   - '+.get.app'             # A B
   - '+.get.dev'             # A B

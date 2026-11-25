@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-23 10:09:04 (UTC+8)
+# UPDATED: 2026-11-25 12:44:47 (UTC+8)
 # TYPE: domain
-# TOTAL: 29896
+# TOTAL: 29897
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -10022,6 +10022,7 @@ payload:
   - '+.gemfire.net'          # B C
   - '+.gemfury.com'          # B C
   - '+.gemini.com'           # B C
+  - '+.gemma.ai'             # B
   - '+.genbank.ru'           # B C
   - '+.gencraft.com'         # A B C
   - '+.gendai.net'           # B C
