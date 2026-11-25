@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 49, "fetched_at": "2026-11-08T23:58:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "40c485dad07a502b12ced8878e66ed966e411ccd79ff4432f40e4c0f1b0a4476", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-gemini.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 50, "fetched_at": "2026-11-25T04:44:02+00:00", "format": "auto", "invalid": 0, "raw_sha256": "68f5782cdf07b791f8bdae332d8df0cc359a2fe17171e6a4022934708b66303a", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-gemini.yaml", "version": 1}
 d +.ai.studio
 d +.aicode.googleapis.com
 d +.aida.googleapis.com
@@ -15,6 +15,7 @@ d +.geller-pa.googleapis.com
 d +.gemini.google
 d +.gemini.google.com
 d +.gemini.gstatic.com
+d +.gemma.ai
 d +.generativeai.google
 d +.generativelanguage.googleapis.com
 d +.jules.google

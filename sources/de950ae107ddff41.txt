@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1078, "fetched_at": "2026-11-08T23:58:20+00:00", "format": "auto", "invalid": 0, "raw_sha256": "6e219c19c9b1c571041b2b0c71993d40f39b5961ef8933cdd816a4cb434c1656", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1079, "fetched_at": "2026-11-25T04:44:03+00:00", "format": "auto", "invalid": 0, "raw_sha256": "d256d9dfc27e2a29ac511c3a5d2981cd8597d2d9a12c6c2b46c6cce8eccbf59f", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.yaml", "version": 1}
 d +.0emm.com
 d +.1e100.net
 d +.1ucrs.com
@@ -206,6 +206,7 @@ d +.g.page
 d +.gateway.dev
 d +.gbiz
 d +.gcr.io
+d +.gemma.ai
 d +.gerritcodereview.com
 d +.get.app
 d +.get.dev

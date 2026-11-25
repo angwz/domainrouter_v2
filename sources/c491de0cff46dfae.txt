@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 218, "fetched_at": "2026-11-19T02:54:34+00:00", "format": "auto", "invalid": 0, "raw_sha256": "0a4b4f360af34e6569ec90daace5cc48dec585a19cacf2f5b308b372a6815d09", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-chat-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 219, "fetched_at": "2026-11-25T04:44:02+00:00", "format": "auto", "invalid": 0, "raw_sha256": "96e443ca5e2daba4fe980977eea417491d9f2c49b4ad61d4f1e5ae399d813d55", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-chat-!cn.yaml", "version": 1}
 d +.agentclientprotocol.com
 d +.ai.studio
 d +.aicode.googleapis.com
@@ -88,6 +88,7 @@ d +.geller-pa.googleapis.com
 d +.gemini.google
 d +.gemini.google.com
 d +.gemini.gstatic.com
+d +.gemma.ai
 d +.generativeai.google
 d +.generativelanguage.googleapis.com
 d +.githubcopilot.com

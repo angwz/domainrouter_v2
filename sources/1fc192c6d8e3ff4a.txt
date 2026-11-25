@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1062, "fetched_at": "2026-11-20T02:48:00+00:00", "format": "auto", "invalid": 0, "raw_sha256": "69d29cbdd59958a9a75d27c5c5c64327afc289118b70c8160c447fc9a3c6f9f7", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 1066, "fetched_at": "2026-11-25T04:44:03+00:00", "format": "auto", "invalid": 0, "raw_sha256": "b81e3f981bccfddbed64c0e96bad14024d07c6772571a3c9dc6535fc2b54a146", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml", "version": 1}
 d +.100classicbooks.com
 d +.17173.com
 d +.17173cdn.com
@@ -148,6 +148,7 @@ d +.cgyouxi.com
 d +.championshipseriesleague.com
 d +.changyou.com
 d +.chillingo.com
+d +.chunithm.wahlap.com
 d +.chunkbase.com
 d +.clash.com
 d +.clashmini.com
@@ -420,6 +421,7 @@ d +.maddenseason.info
 d +.maddenseason.net
 d +.maddenseason.org
 d +.mail4399.com
+d +.maimai.wahlap.com
 d +.maindown4399.com
 d +.makearmanotwar.com
 d +.marioandluigidreamteam.com
@@ -807,6 +809,7 @@ d +.tarkov.com
 d +.teamneedforspeed.com
 d +.tellmewhygame.com
 d +.testplus.cn
+d +.tgk-wcaime.wahlap.com
 d +.tgpro.top
 d +.tgprocs.net
 d +.thedreadwolfrises.com
@@ -860,6 +863,7 @@ d +.vrzwk.cn
 d +.vrzwk.com
 d +.vrzwk.net
 d +.vrzwk.top
+d +.wahlap.net
 d +.wanmei.com
 d +.wanwan4399.com
 d +.wargaming.com
