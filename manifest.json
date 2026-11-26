@@ -15,10 +15,10 @@
       "collections": [
         "America"
       ],
-      "entries": 4,
+      "entries": 5,
       "format": "yaml",
       "path": "clash-classic/America-classic.yaml",
-      "sha256": "0ed91cfc0aec08cdbc19e53489efa9bbcfc49409df5abd69383e0acfbefbe7d1"
+      "sha256": "e41ff2314d6d5872cdec1fcb3efaa5bff0be5ec5ea5563e01c08397b3bc040ef"
     },
     {
       "behavior": "classical",
@@ -85,10 +85,10 @@
       "collections": [
         "HK"
       ],
-      "entries": 6,
+      "entries": 5,
       "format": "yaml",
       "path": "clash-classic/HK-classic.yaml",
-      "sha256": "1d9218602d1d51470fbca1b10c6a5d4a7db4064f44d5debcf55e627b5f5bb2b3"
+      "sha256": "d5e597eec1312235e59f59ffaff7a7234345e1c6d2bd4cdf5c1ef7261077db74"
     },
     {
       "behavior": "classical",
@@ -215,40 +215,40 @@
       "collections": [
         "AI"
       ],
-      "entries": 310,
+      "entries": 308,
       "format": "mrs",
       "path": "clash-domain/AI.mrs",
-      "sha256": "c4c264c7a725314e436cb2d316df384bab3eae9a4751b8328595ab84f2ac6033"
+      "sha256": "4ba1495a0c547920eed8cf927db04199255ac9d96a83edae75d03c50a814e1e5"
     },
     {
       "behavior": "domain",
       "collections": [
         "AI"
       ],
-      "entries": 310,
+      "entries": 308,
       "format": "yaml",
       "path": "clash-domain/AI.yaml",
-      "sha256": "d9de5080ef2eb385f6618701c730dcb7880d30fba5c1b61fb75f8413df93bd25"
+      "sha256": "9fea2436c081566d33694e998e1c6b7fadaeddbf3a4734b1fc412b7ec9f5521b"
     },
     {
       "behavior": "domain",
       "collections": [
         "America"
       ],
-      "entries": 1694,
+      "entries": 1934,
       "format": "mrs",
       "path": "clash-domain/America.mrs",
-      "sha256": "07b64f406afdfb2179071de1d57c7acf43847ea8967dca6f9843596b4e78bb6d"
+      "sha256": "515e1c974903f3e7d99e6267548b64bdb9a6e08877c1ddaa70d5b5e66b67008d"
     },
     {
       "behavior": "domain",
       "collections": [
         "America"
       ],
-      "entries": 1694,
+      "entries": 1934,
       "format": "yaml",
       "path": "clash-domain/America.yaml",
-      "sha256": "8d05a05c8fa1f692764dbf1b359e20771a93dfbdb31dd8aa9e81f677f9d6a968"
+      "sha256": "50e1d2b995375700ead22be58bf4f7ceda80904abdb72d719eb00d750cd67b2b"
     },
     {
       "behavior": "domain",
@@ -375,20 +375,20 @@
       "collections": [
         "HK"
       ],
-      "entries": 1307,
+      "entries": 1063,
       "format": "mrs",
       "path": "clash-domain/HK.mrs",
-      "sha256": "27cbb11cf7a62dc4bc01709ce2f03779093286bc8c3e953e1cb3a1939ed61899"
+      "sha256": "724245945163a2a0844f09aac68f36f24b856b1cc6aaa99b424723f62de2d9bd"
     },
     {
       "behavior": "domain",
       "collections": [
         "HK"
       ],
-      "entries": 1307,
+      "entries": 1063,
       "format": "yaml",
       "path": "clash-domain/HK.yaml",
-      "sha256": "324115d402a6e4cfdd6aa5de2011a677d992ba3fd5ca3a6b6db98aa5b100f1aa"
+      "sha256": "13ba8f67550de4f738cee1b27e8c681d7daa151a330629ab06f93cbbcb0268ad"
     },
     {
       "behavior": "domain",
@@ -515,20 +515,20 @@
       "collections": [
         "Proxy"
       ],
-      "entries": 29902,
+      "entries": 29913,
       "format": "mrs",
       "path": "clash-domain/Proxy.mrs",
-      "sha256": "550d3f457de0c1c2c680da50d03cb516515128e604cd2fd1458c1b6680e9623d"
+      "sha256": "1ad31e0c76994d8b464a229d87edaad5f3602b14023457ad11cabc38dff951d7"
     },
     {
       "behavior": "domain",
       "collections": [
         "Proxy"
       ],
-      "entries": 29902,
+      "entries": 29913,
       "format": "yaml",
       "path": "clash-domain/Proxy.yaml",
-      "sha256": "d6e7849457387781abfeee605899ce5ff89a8217eec287a48dd1b3f3747ea316"
+      "sha256": "f672f6b39234997e6c2403017065a4c59b239c5b5f4638450b4ff47243dc2143"
     },
     {
       "behavior": "domain",
@@ -695,20 +695,20 @@
       "collections": [
         "China"
       ],
-      "entries": 12571,
+      "entries": 12584,
       "format": "mrs",
       "path": "clash-ipcidr/China-ipcidr.mrs",
-      "sha256": "794d2e259f5e9a54519686c3541fbf71670d6782975e624f6e34438d3d14a28f"
+      "sha256": "134c53b86375c297993253ce652638a1f097dbdeb57e63bda64cb680bfd234c1"
     },
     {
       "behavior": "ipcidr",
       "collections": [
         "China"
       ],
-      "entries": 12571,
+      "entries": 12584,
       "format": "yaml",
       "path": "clash-ipcidr/China-ipcidr.yaml",
-      "sha256": "cea908c68093bd2d14c6dac7334b556561ca42b7eae65dd27eefd8a6acf2fb23"
+      "sha256": "d4a612d2cd3eca77047c3b189fef983de9522b3b37d5f7be22eb2f72882b2015"
     },
     {
       "behavior": "ipcidr",
@@ -755,20 +755,20 @@
       "collections": [
         "Google"
       ],
-      "entries": 7090,
+      "entries": 6915,
       "format": "mrs",
       "path": "clash-ipcidr/Google-ipcidr.mrs",
-      "sha256": "9551d86e2e908250579ff6223c55f92a1456fdd2287b6cce6a1e72d7bf049ae4"
+      "sha256": "042d0455cf31008cc5b12684ecc4cde092c3f6ef7bbf2e3868dfff7d3040c7b5"
     },
     {
       "behavior": "ipcidr",
       "collections": [
         "Google"
       ],
-      "entries": 7090,
+      "entries": 6915,
       "format": "yaml",
       "path": "clash-ipcidr/Google-ipcidr.yaml",
-      "sha256": "4fc80bee2c52122480f48b31fdd35d31a7746a0998dccc778ad0e4b9d658153d"
+      "sha256": "191369b281056270482b5402166fc6c833ac8f98ee2cc3aed975bd7e3a21a7e8"
     },
     {
       "behavior": "ipcidr",
@@ -898,7 +898,7 @@
       "entries": 141,
       "format": "mrs",
       "path": "clash-ipcidr/Singapore-ipcidr.mrs",
-      "sha256": "b92e224e1179fdee4446a6e52a44116f4942c637768266c513ccd69cb082f60d"
+      "sha256": "7168f8c1e6ce58346f25977478ea334e0b59af14b3c1edddc797ebcac6c17102"
     },
     {
       "behavior": "ipcidr",
@@ -908,7 +908,7 @@
       "entries": 141,
       "format": "yaml",
       "path": "clash-ipcidr/Singapore-ipcidr.yaml",
-      "sha256": "7d69eaa2616d92523d34c2d22f49ef8485e7066ea255cbaa0f3286046e2df2b3"
+      "sha256": "d5857ad54e49d630514b9af16c0533cc8a364894aee8c55f13b7da219c06645a"
     },
     {
       "behavior": "ipcidr",
@@ -972,18 +972,18 @@
     }
   ],
   "documents": {
-    "README.md": "17aa192b74b5378c91be2793516b1bcbbc7314e3542caeaeb5d69edd09294f9b",
-    "reports/broad-rules.md": "bb63fed7f7896506a565e0c207dba11308cd893c17cac23fc849123b78767253"
+    "README.md": "32b9dbae70be9fdc5fcea6a06894387d055460c84ace6908a47547adff4ec3ea",
+    "reports/broad-rules.md": "3a11a4575d13dd8aabe1b0cf1ca9f9c104c8106043375af9e84c61acab7111c3"
   },
   "engine": "9feac1bb2da74cc90b5d702b80962993e21b86b3f565ceb8ac4d95579cc5f30e",
-  "generation": "2a695324d5295c732a2e070d243442754ec8ecdb313fb52788d96fea12eaeac1",
+  "generation": "de7af85cbcf0379e60825e0f3d377409318289369b10c3ee1d60c6a18ac7e3a4",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
-    "sha256": "218335c6e5a328716714c6fe01efc34f1de0f838b4687c84bbe966d4e2480251"
+    "sha256": "f725c2c404a91da397bf22a0cd6ba933d970f010c5245f79804b9e569e1ab1a7"
   },
   "inputs": {
-    "groups": "218335c6e5a328716714c6fe01efc34f1de0f838b4687c84bbe966d4e2480251",
-    "rules": "6b46d5dbfbb4f586cc318740364dc9d25340b844137c6611ca0e21b67a1c6f91",
+    "groups": "f725c2c404a91da397bf22a0cd6ba933d970f010c5245f79804b9e569e1ab1a7",
+    "rules": "1e44e279c1eedbe46762b8d184a480739c3fe46ce6b4e039b2f6c12d754ed58f",
     "sources": {
       "002e649058dcadcf": "47cbef120375369cc598bde820ca051fa22aadd0c3f6ba0a5ecdcac7012b8895",
       "008b3ec0423aef73": "aeab215b54dbef79fde0cc21a554e10bed27c5e1303b856c5f15e3f893e016f8",
@@ -1053,7 +1053,7 @@
       "3f0588e46e5788a3": "3a88c4da6b373f498236f658f62ce694c89dab19b3b5e8b53d4be99c6edba9c4",
       "3f9efe38c6932d85": "93ffcadcc8fd3ab012f8b6f2d57e70443ca8ed2f619ba178175e85c21eae4734",
       "3ffe475e11ce3b02": "dcfe2498face7fe73bf36945e69f6f13dd7501b564df7aab8797980d31b3b5b5",
-      "4523ab808e700920": "729725ec38f496da3246a18db938ff5dc4c5c807c574c973fb1d3551de909643",
+      "4523ab808e700920": "5933478592713f505849b326a0fc69b060d88bcb7ad5f0bbf8c401857fd1af96",
       "463dcf0e8d0bdc0f": "23664e623e615ff67bb35fc2edca189c34bd371c67aa87d5afefc1c763cff163",
       "464c77502871830a": "8f8789395b55fbbc9d16d66e588f8d6acb9d5b761f4a9cc5f3901e49a6503ff3",
       "4702a22012077b6e": "7a995a3092d36486cd5e34f4a34842cceb0cbf5fdf4972255f9a9277f87a487a",
@@ -1063,10 +1063,10 @@
       "4ade71e90a28c580": "1439b798167ff8db69fbe63be1be21a861f437399e829d16de9cf8428a39190e",
       "4b40d5e7e5100aed": "f387e3cd6acac7c0746d92d015a3ace108621229f4baf49a052c23b1437bb177",
       "4ca06a8d9fc5525f": "7a680e0c1d5fc1902915a2a020a3d5d255d6cb3329f37efd7552c3ae6a141f63",
-      "4d4a906da5693139": "a525a9680185048738b6dce293680fa7de0014efb1f885d3c1ab30ac07cf1c06",
+      "4d4a906da5693139": "f123c1a7be2384d490b11d07c0a248b1ebb5bf6f700d191ac36116f94b0356ce",
       "4d7e6dda0407aefc": "8e9b1274f3f92ac1f1da78e5c61fff2c4bb91065b9f96548fb40dfd5b0789108",
       "4d8f9eac3c2b44b4": "38ef6215ebf6cf6caf7449f9e45c99b2acd758472913b85d47de5c05b4f76308",
-      "4dbf77a2da17ed04": "aaa9ac64243c81bcd043b503d40fede6abfdb773804038ec586b273c902ef424",
+      "4dbf77a2da17ed04": "9b28ff0029da0c640e86d8786ede0073da1c88c8ffa1240171103893b17d3bb7",
       "4fab523dea5d3ee4": "2dd14e5f987c24db37114d13de930e976fa2f864028dec5adff768b78b61b4a3",
       "5025f4667e1d962f": "9a0e3362266b1b10da3b8bc50e0937effea730871d5607c36467e6dda45c84fd",
       "5178625e0840c548": "113f065eab71ee3757d421e922811d7524e89f01b9b504e68f74cec160cba5e7",
@@ -1190,7 +1190,7 @@
       "f4da0136c14623d9": "714c21ef617d496bbb6b8e703226226690824173b90aec02ab2eab8bd471a629",
       "f56fdcb20e68d4f3": "d55830f987df2ad879ea4f4ba0e7a9759682c667e35697bd497cb702a07dafbf",
       "f57cfe0afb0794e9": "31d4613b40f237f91dd31e2304645e941b37dad8d89cb5effd7b6a7f69f47500",
-      "f960d4f9ac71e7be": "621bf1cd4107d07798bafc0b721972ddb07dcd1b8f6d0bcb33fe0f418ec8bddc",
+      "f960d4f9ac71e7be": "1228ed444f14075fdbfec4f930a0472a9f814bcd1adcf0d8b853190b87a67369",
       "fb602fa1f905165c": "f25e60df602a47d9d8271dfa008d4102250c3c1a61b62c309679ae86ae68f264",
       "fc179e1d6331d819": "c38071db1b489e18648fa9d4201b31ad59d6d7e3ef8b698abfd2dfb43acbb727",
       "fe478933d63b4ceb": "58c1b44413a3daee0dfe3418f74f0cf0bc3c3303f010503e3104b6d3af747fe1",

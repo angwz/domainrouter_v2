@@ -1,16 +1,18 @@
 # NAME: America
 # GROUP: ⛳ 美国专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-26 19:40:32 (UTC+8)
 # TYPE: classical
-# TOTAL: 4
-# DOMAIN-KEYWORD: 1
+# TOTAL: 5
+# DOMAIN-KEYWORD: 2
 # PROCESS-NAME: 3
-# SOURCE A: blackmatrix7 · USMedia/USMedia.list
-# SOURCE B: blackmatrix7 · Adobe/Adobe.list
+# SOURCE A: blackmatrix7 · PayPal/PayPal.list
+# SOURCE B: blackmatrix7 · USMedia/USMedia.list
+# SOURCE C: blackmatrix7 · Adobe/Adobe.list
 payload:
-  - 'DOMAIN-KEYWORD,adobe'                  # B
+  - 'DOMAIN-KEYWORD,adobe'                  # C
+  - 'DOMAIN-KEYWORD,paypal'                 # A
 
-  - 'PROCESS-NAME,com.cbs.app'              # A
-  - 'PROCESS-NAME,com.hulu.plus'            # A
-  - 'PROCESS-NAME,com.showtime.standalone'  # A
+  - 'PROCESS-NAME,com.cbs.app'              # B
+  - 'PROCESS-NAME,com.hulu.plus'            # B
+  - 'PROCESS-NAME,com.showtime.standalone'  # B

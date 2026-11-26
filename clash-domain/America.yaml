@@ -1,1711 +1,1953 @@
 # NAME: America
 # GROUP: ⛳ 美国专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-26 11:54:15 (UTC+8)
+# UPDATED: 2026-11-26 19:40:32 (UTC+8)
 # TYPE: domain
-# TOTAL: 1694
+# TOTAL: 1934
 # SOURCE A: my.wei
-# SOURCE B: blackmatrix7 · USMedia/USMedia.list
-# SOURCE C: MetaCubeX · geosite/category-dev.yaml
-# SOURCE D: blackmatrix7 · Developer/Developer.list
-# SOURCE E: MetaCubeX · geosite/adobe.yaml
-# SOURCE F: blackmatrix7 · Adobe/Adobe.list
-# SOURCE G: MetaCubeX · geosite/category-scholar-!cn.yaml
-# SOURCE H: blackmatrix7 · Scholar/Scholar.list
-# SOURCE I: MetaCubeX · geosite/intel.yaml
-# SOURCE J: blackmatrix7 · Intel/Intel.list
+# SOURCE B: MetaCubeX · geosite/paypal.yaml
+# SOURCE C: blackmatrix7 · PayPal/PayPal.list
+# SOURCE D: blackmatrix7 · USMedia/USMedia.list
+# SOURCE E: MetaCubeX · geosite/category-dev.yaml
+# SOURCE F: blackmatrix7 · Developer/Developer.list
+# SOURCE G: MetaCubeX · geosite/adobe.yaml
+# SOURCE H: blackmatrix7 · Adobe/Adobe.list
+# SOURCE I: MetaCubeX · geosite/category-scholar-!cn.yaml
+# SOURCE J: blackmatrix7 · Scholar/Scholar.list
+# SOURCE K: MetaCubeX · geosite/intel.yaml
+# SOURCE L: blackmatrix7 · Intel/Intel.list
 payload:
-  - '+.android'                 # C
-  - '+.java'                    # C
-  - '+.mit'                     # G H
-  - '+.us'                      # A  覆盖 +.hulu.us B, +.intel.us I J 等 3 条
-  - '+.01.org'                  # C I J
-  - '+.10xfotolia.com'          # E F
-  - '+.112263.com'              # B
-  - '+.1lib.cloud'              # G H
-  - '+.1lib.cz'                 # G
-  - '+.1lib.domains'            # G H
-  - '+.1lib.education'          # G H
-  - '+.1lib.eu'                 # G H
-  - '+.1lib.limited'            # G H
-  - '+.1lib.pl'                 # G H
-  - '+.1lib.sk'                 # G
-  - '+.1lib.to'                 # G H
-  - '+.1lib.tw'                 # G H
-  - '+.2lib.org'                # G H
-  - '+.2o7.net'                 # E F
-  - '+.3lib.net'                # G H
-  - '+.aacrjournals.org'        # G
-  - '+.ac.ir'                   # G
-  - '+.ac.uk'                   # G  覆盖 +.ic.ac.uk H, +.imperial.ac.uk H 等 3 条
-  - '+.accountkit.com'          # C
-  - '+.aclweb.org'              # G H
-  - '+.acm.org'                 # G H
-  - '+.acpica.com'              # C I J
-  - '+.acrobat.com'             # E F
-  - '+.acs.org'                 # G H
-  - '+.adaptivecards.io'        # C
-  - '+.adbecrsl.com'            # E F
-  - '+.adobe-aemassets-value.com'  # E F
-  - '+.adobe-audience-finder.com'  # E F
-  - '+.adobe-video-partner-finder.com'  # E F
-  - '+.adobe.com'               # E F  覆盖 +.advertising.adobe.com E, 3dns-1.adobe.com E 等 132 条
-  - '+.adobe.io'                # E F
-  - '+.adobe.ly'                # E F
-  - '+.adobeaemcloud.com'       # E F
-  - '+.adobeaemcloud.net'       # E F
-  - '+.adobeawards.com'         # E F
-  - '+.adobecc.com'             # E F
-  - '+.adobecce.com'            # E F
-  - '+.adobeccstatic.com'       # E F
-  - '+.adobecontent.io'         # E F
-  - '+.adobecreativityawards.com'  # E F
-  - '+.adobedc.cn'              # E F
-  - '+.adobedc.net'             # E F
-  - '+.adobedemo.com'           # E F
-  - '+.adobedtm.com'            # E F
-  - '+.adobeexchange.com'       # E F
-  - '+.adobeexperienceawards.com'  # E F
-  - '+.adobegov.com'            # E F
-  - '+.adobehiddentreasures.com'  # E F
-  - '+.adobejanus.com'          # E F
-  - '+.adobeku.com'             # E F
-  - '+.adobelanding.com'        # E F
-  - '+.adobelogin.com'          # E F
-  - '+.adobeoobe.com'           # E F
-  - '+.adobeplatinumclub.com'   # E F
-  - '+.adobeprojectm.com'       # E F
-  - '+.adobesc.com'             # E F
-  - '+.adobesign.com'           # E F
-  - '+.adobesigncdn.com'        # E F
-  - '+.adobespark.com'          # E F
-  - '+.adobess.com'             # E F
-  - '+.adobestats.io'           # E
-  - '+.adobestock.com'          # E F
-  - '+.adobetag.com'            # E F
-  - '+.adobetarget.com'         # E F
-  - '+.adobetcstrialdvd.com'    # E F
-  - '+.adobetechcomm.com'       # E F
-  - '+.adobetechcommcallback.com'  # E F
-  - '+.adobetechcommdemo.com'   # E F
-  - '+.adobexdplatform.com'     # E F
-  - '+.adventofcode.com'        # C
-  - '+.agu.org'                 # G
-  - '+.aiaa.org'                # G H
-  - '+.aimsciences.org'         # G
-  - '+.aip.org'                 # H
-  - '+.airiti.com'              # G
-  - '+.airitilibrary.com'       # G
-  - '+.alexanderstreet.com'     # G
-  - '+.almalinux.org'           # C
-  - '+.alphaxiv.org'            # G
-  - '+.alpinelinux.org'         # C
-  - '+.altera.com'              # I J
-  - '+.alteraforum.com'         # I J
-  - '+.alteraforums.com'        # J
-  - '+.alteraforums.net'        # J
-  - '+.alterauserforum.com'     # J
-  - '+.alterauserforum.net'     # J
-  - '+.alterauserforums.com'    # J
-  - '+.alterauserforums.net'    # J
-  - '+.altmetric.com'           # G H
-  - '+.amamanualofstyle.com'    # G H
-  - '+.amlg.io'                 # B
-  - '+.amp.dev'                 # C
-  - '+.ampproject.com'          # C
-  - '+.ampproject.net'          # C
-  - '+.ampproject.org'          # C  覆盖 cdn.ampproject.org C
-  - '+.ams.org'                 # G H
-  - '+.anaconda.cloud'          # C
-  - '+.anaconda.com'            # C
-  - '+.anaconda.org'            # C
-  - '+.analytictech.com'        # G H
-  - '+.anatomy.tv'              # G
-  - '+.anb.org'                 # G H
-  - '+.android.com'             # C
-  - '+.androidify.com'          # C
-  - '+.annualreviews.org'       # G H
-  - '+.apa.org'                 # G H
-  - '+.apache.org'              # C D
-  - '+.api-extractor.com'       # C
-  - '+.apisof.net'              # C
-  - '+.appcenter.ms'            # C
-  - '+.apple-cloudkit.com'      # C D
-  - '+.apple-mapkit.com'        # C D  覆盖 cdn-cn.apple-mapkit.com C, cdn-cn1.apple-mapkit.com C 等 10 条
-  - '+.appleswift.com'          # C D
-  - '+.apress.com'              # G H
-  - '+.aps.org'                 # G H
-  - '+.arabidopsis.org'         # G
-  - '+.archlinux.de'            # C
-  - '+.archlinux.org'           # C
-  - '+.archlinux.page'          # C
-  - '+.archlinuxarm.org'        # C
-  - '+.archlinuxcn.org'         # C
-  - '+.art1lib.com'             # G H
-  - '+.artixlinux.org'          # C
-  - '+.artstor.org'             # G
-  - '+.arxiv.org'               # G H
-  - '+.ascelibrary.org'         # G H
-  - '+.asha.org'                # G H
-  - '+.askubuntu.com'           # C
-  - '+.asm.org'                 # G H
-  - '+.asme.org'                # G H
-  - '+.asminternational.org'    # G
-  - '+.asn-online.org'          # G
-  - '+.aspbjournals.org'        # G
-  - '+.aspenpublishing.com'     # G
-  - '+.assetsadobe.com'         # E F
-  - '+.astm.org'                # G H
-  - '+.atlassian.com'           # D
-  - '+.atom.io'                 # C
-  - '+.atscaleconference.com'   # C
-  - '+.authorxml.com'           # E F
-  - '+.azurecr.io'              # C
-  - '+.b-ok.africa'             # G H
-  - '+.b-ok.asia'               # G H
-  - '+.b-ok.cc'                 # G H
-  - '+.b-ok.global'             # G H
-  - '+.b-ok.org'                # G H
-  - '+.badgen.net'              # C
-  - '+.barefootnetworks.com'    # I J
-  - '+.behance.net'             # E F
-  - '+.berkeley.edu'            # G H
-  - '+.bintray.com'             # C  覆盖 homebrew.bintray.com C
-  - '+.biologists.com'          # G
-  - '+.biomedcentral.com'       # G H
-  - '+.bioone.org'              # G
-  - '+.biorxiv.org'             # G H
-  - '+.bitvise.com'             # C
-  - '+.blackstonespoliceservice.com'  # G H
-  - '+.blackwell-synergy.com'   # H
-  - '+.blazor.net'              # C
-  - '+.blogoverflow.com'        # C
-  - '+.bloomsburycollections.com'  # G
-  - '+.bloomsburydesignlibrary.com'  # G
-  - '+.bluefootcms.com'         # E F
-  - '+.bmj.com'                 # G H
-  - '+.bmonkeys.net'            # C
-  - '+.boldgrid.com'            # C
-  - '+.book4you.org'            # G H
-  - '+.bookfi.net'              # G H
-  - '+.booksc.eu'               # G H
-  - '+.booksc.me'               # G H
-  - '+.booksc.org'              # G H
-  - '+.booksc.xyz'              # G H
-  - '+.bookshome.info'          # G H
-  - '+.bookshome.net'           # G H
-  - '+.bookshome.world'         # G H
-  - '+.booksinprint.com'        # G
-  - '+.bootstrapcdn.com'        # C
-  - '+.botframework.com'        # C
-  - '+.botorch.org'             # C
-  - '+.braventures.com'         # C
-  - '+.braveux.com'             # C
-  - '+.brepolis.net'            # G
-  - '+.brew.sh'                 # C
-  - '+.brill.com'               # G H
-  - '+.buck.build'              # C
-  - '+.buckbuild.com'           # C
-  - '+.bugsnag.com'             # C
-  - '+.builtwithnix.org'        # C
-  - '+.businesscatalyst.com'    # E F
-  - '+.busybox.net'             # C
-  - '+.buyaltera.com'           # I J
-  - '+.bvdinfo.com'             # G
-  - '+.cabdirect.org'           # H
-  - '+.cachix.org'              # C
-  - '+.cairn.info'              # G
-  - '+.calendarserver.org'      # C D
-  - '+.callhulu.com'            # B
-  - '+.cambridge.org'           # G H
-  - '+.cambridgedigital.net'    # G H
-  - '+.cambridgemaths.org'      # G H
-  - '+.cambridgeschoolshakespeare.com'  # G H
-  - '+.canonical.com'           # C
-  - '+.capitaliq.com'           # G
-  - '+.carekit.org'             # C D
-  - '+.cas.org'                 # G H
-  - '+.cbs.com'                 # B
-  - '+.cbsaavideo.com'          # B
-  - '+.cbscorporation.com'      # B
-  - '+.cbsi.com'                # B
-  - '+.cbsi.video'              # B
-  - '+.cbsiam.com'              # B
-  - '+.cbsig.net'               # B
-  - '+.cbsimg.net'              # B
-  - '+.cbsinteractive.com'      # B
-  - '+.cbsistatic.com'          # B
-  - '+.cbsivideo.com'           # B
-  - '+.cbsnews.com'             # B
-  - '+.cbspressexpress.com'     # B
-  - '+.cbsradio.com'            # B
-  - '+.cbssports.com'           # B
-  - '+.cbsstatic.com'           # B
-  - '+.cbsstore.com'            # B
-  - '+.cbssvideo.com'           # B
-  - '+.cbstelevisioncity.com'   # B
-  - '+.ccnsite.com'             # E F
-  - '+.ccpsx.com'               # E F
-  - '+.ceicdata.com'            # G
-  - '+.celeron.com'             # I J
-  - '+.celeron.net'             # I J
-  - '+.cell.com'                # G H
-  - '+.centos.org'              # C
-  - '+.centrino.com'            # I J
-  - '+.centrino.net'            # I J
-  - '+.chemnetbase.com'         # G
-  - '+.chips.com'               # I J
-  - '+.chocolatey.org'          # C
-  - '+.choicereviews.org'       # G
-  - '+.cilk.com'                # I J
-  - '+.cilk.net'                # I J
-  - '+.cios.org'                # G
-  - '+.cityu.hk'                # G
-  - '+.clarivate.com'           # G H
-  - '+.clearlinux.cn'           # J
-  - '+.clearlinux.org'          # C I J
-  - '+.clinicalkey.com'         # G
-  - '+.clojure.org'             # C
-  - '+.cloudinsights.com'       # I J
-  - '+.cloudwp.dev'             # C
-  - '+.clusterconnection.com'   # I J
-  - '+.cmu.edu'                 # G
-  - '+.cnki.net'                # H
-  - '+.cnpmjs.org'              # C
-  - '+.cochranelibrary.com'     # G
-  - '+.codeberg.org'            # C
-  - '+.codeberg.page'           # C
-  - '+.codebuff.com'            # C
-  - '+.codeforaliving.io'       # C
-  - '+.codethemicrobit.com'     # C
-  - '+.comm-verse.com'          # I
-  - '+.compass.is'              # C
-  - '+.componentkit.org'        # C
-  - '+.compose-spec.io'         # C
-  - '+.compresspdf.new'         # E F
-  - '+.computer.org'            # G H
-  - '+.computingreviews.com'    # G H
-  - '+.comsoc.org'              # G
-  - '+.conda.io'                # C
-  - '+.consul.io'               # C
-  - '+.coreduo.com'             # I J
-  - '+.coreextreme.com'         # I J
-  - '+.cotolia.com'             # E F
-  - '+.cpan.org'                # C
-  - '+.cqvip.com'               # H
-  - '+.crashlytics.com'         # C  覆盖 firebase-settings.crashlytics.com C, update.crashlytics.com C
-  - '+.crates.io'               # C
-  - '+.creativecloud.com'       # E F
-  - '+.creativesdk.com'         # E F
-  - '+.crocoblock.com'          # C
-  - '+.crossref.org'            # H
-  - '+.crosswalk-project.com'   # I J
-  - '+.crosswalk-project.net'   # I J
-  - '+.csiro.au'                # H
-  - '+.csrankings.org'          # G
-  - '+.cuhk.hk'                 # G
-  - '+.cups.org'                # C D
-  - '+.cve.org'                 # C
-  - '+.cygwin.com'              # C
-  - '+.cython.org'              # C
-  - '+.dart.dev'                # C
-  - '+.dartlang.org'            # C
-  - '+.dartpad.dev'             # C
-  - '+.datalore.io'             # C
-  - '+.datasheets360.com'       # G
-  - '+.de1lib.org'              # G H
-  - '+.debian.com'              # D
-  - '+.debian.org'              # C
-  - '+.deepdyve.com'            # H
-  - '+.degruyter.com'           # G H
-  - '+.demandbase.com'          # F
-  - '+.demdex.net'              # E F
-  - '+.deno.com'                # C
-  - '+.deno.land'               # C
-  - '+.dentalhypotheses.com'    # G H
-  - '+.dependabot.com'          # C
-  - '+.dev.to'                  # C
-  - '+.developria.com'          # E F
-  - '+.devopsassessment.net'    # C
-  - '+.discourse-cdn.com'       # C
-  - '+.discourse.group'         # C
-  - '+.discourse.org'           # C
-  - '+.dml-lang.org'            # I
-  - '+.doceapower.com'          # I J
-  - '+.docker.com'              # C D
-  - '+.docker.io'               # C D
-  - '+.dockerstatic.com'        # C
-  - '+.docs.rs'                 # C
-  - '+.doi.info'                # G H
-  - '+.doi.org'                 # G H
-  - '+.dollarfotoclub.com'      # E F
-  - '+.dollarphotoclub.com'     # E F
-  - '+.dollarphotosclub.com'    # E F
-  - '+.dot.net'                 # C
-  - '+.dotdeb.org'              # C
-  - '+.douwriteright.com'       # E F
-  - '+.draftjs.org'             # C
-  - '+.dtci.co'                 # B
-  - '+.dtci.technology'         # B
-  - '+.easic.com'               # I J
-  - '+.ebsco.com'               # G
-  - '+.ebscohost.com'           # G H
-  - '+.echocdn.com'             # E F
-  - '+.echosign.com'            # E F
-  - '+.ecr.aws'                 # C
-  - '+.edgefonts.net'           # E F
-  - '+.editorx.com'             # C
-  - '+.edu.hk'                  # G
-  - '+.edu.ir'                  # G
-  - '+.eduhk.hk'                # G
-  - '+.elastic.co'              # D
-  - '+.elastic.com'             # D
-  - '+.electrochem.org'         # G
-  - '+.electronjs.org'          # C
-  - '+.elegantthemes.com'       # C
-  - '+.elementary.io'           # C
-  - '+.elgaronline.com'         # G
-  - '+.elifesciences.org'       # G H
-  - '+.elixir-lang.org'         # C
-  - '+.elrepo.org'              # C
-  - '+.els-cdn.com'             # G H
-  - '+.elsevier-ae.com'         # G H
-  - '+.elsevier.com'            # G H
-  - '+.elsevier.io'             # G H
-  - '+.embase.com'              # G
-  - '+.embed.ly'                # C
-  - '+.embedly.com'             # C
-  - '+.embs.org'                # G
-  - '+.emcs.org'                # G
-  - '+.emerald.com'             # G H
-  - '+.ems-ph.org'              # G
-  - '+.enablementadobe.com'     # E F
-  - '+.endnote.com'             # H
-  - '+.engineeringvillage.com'  # G H
-  - '+.enpirion.com'            # I J
-  - '+.epigeum.com'             # G H
-  - '+.erlang.org'              # C
-  - '+.espn.com'                # B
-  - '+.espn.net'                # B
-  - '+.espncdn.com'             # B
-  - '+.espnqa.com'              # B
-  - '+.eurekaselect.com'        # G
-  - '+.europepmc.org'           # G H
-  - '+.evise.com'               # G H
-  - '+.exascale-tech.com'       # I J
-  - '+.exploreintel.com'        # I J
-  - '+.f8.com'                  # C
-  - '+.facebookappcenter.info'  # C
-  - '+.facebookappcenter.net'   # C
-  - '+.facebookappcenter.org'   # C
-  - '+.facebookconnect.com'     # C
-  - '+.facebookdevelopergarage.com'  # C
-  - '+.faciometrics.com'        # C
-  - '+.facultyopinions.com'     # G
-  - '+.fastlane.ci'             # C
-  - '+.fastlane.tools'          # C
-  - '+.fasttext.cc'             # C
-  - '+.fbf8.com'                # C
-  - '+.fbinfer.com'             # C
-  - '+.fblitho.com'             # C
-  - '+.fbredex.com'             # C
-  - '+.fbrell.com'              # C
-  - '+.fedoraforum.org'         # C
-  - '+.fedorainfracloud.org'    # C
-  - '+.fedoramagazine.org'      # C
-  - '+.fedorapeople.org'        # C
-  - '+.fedoraproject.org'       # C
-  - '+.ffmpeg.org'              # C
-  - '+.ffotolia.com'            # E F
-  - '+.fightforux.com'          # C
-  - '+.filezilla-project.org'   # C
-  - '+.findyourlimits.com'      # B
-  - '+.fiotolia.com'            # E F
-  - '+.firebase.com'            # C
-  - '+.firebase.dev'            # C
-  - '+.firebase.io'             # C
-  - '+.firebaseapp.com'         # C
-  - '+.firebaseio.com'          # C
-  - '+.flathub.org'             # C
-  - '+.flatpak.org'             # C
-  - '+.flow.dev'                # C
-  - '+.flow.org'                # C
-  - '+.flowtype.org'            # C
-  - '+.flutter.dev'             # C
-  - '+.flutterapp.com'          # C
-  - '+.foftolia.com'            # E F
-  - '+.fonolia.com'             # E F
-  - '+.fontawesome.com'         # C D
-  - '+.fortawesome.com'         # C
-  - '+.forthebadge.com'         # C
-  - '+.fotiolia.com'            # E F
-  - '+.fotoiia.com'             # E F
-  - '+.fotolia-noticias.com'    # E F
-  - '+.fotolia.cc'              # E F
-  - '+.fotolia.com'             # E F
-  - '+.fotolia.tv'              # E F
-  - '+.fotolja.com'             # E F
-  - '+.foundationdb.org'        # C D
-  - '+.fptolia.com'             # E F
-  - '+.framer.com'              # C
-  - '+.framer.website'          # C
-  - '+.framercanvas.com'        # C
-  - '+.framerstatic.com'        # C
-  - '+.framerusercontent.com'   # C
-  - '+.freebsd.org'             # C
-  - '+.freebuff.com'            # C
-  - '+.freehulu.com'            # B
-  - '+.frescolib.org'           # C
-  - '+.frontiersin.org'         # G H
-  - '+.ftcdn.net'               # E F
-  - '+.fundinginstitutional.com'  # G
-  - '+.fury.blog'               # C
-  - '+.fury.co'                 # C
-  - '+.fury.dev'                # C
-  - '+.fury.help'               # C
-  - '+.fury.io'                 # C
-  - '+.gale.com'                # G H
-  - '+.galegroup.com'           # G H
-  - '+.gamesstack.com'          # C
-  - '+.gcr.io'                  # C D
-  - '+.gemfury.com'             # C
-  - '+.gentoo.org'              # C
-  - '+.geolytics.com'           # G
-  - '+.geoscienceworld.org'     # H
-  - '+.geotrust.com'            # F
-  - '+.getbootstrap.com'        # C
-  - '+.getcomposer.org'         # C
-  - '+.getfedora.org'           # C
-  - '+.getpaint.net'            # C
-  - '+.getsafety.com'           # C
-  - '+.getsentry.com'           # C
-  - '+.getzola.org'             # C
-  - '+.gfotolia.com'            # E F
-  - '+.ggsrv.com'               # G H
-  - '+.gh.io'                   # C
-  - '+.ghcr.io'                 # C
-  - '+.ghe.com'                 # C
-  - '+.git-scm.com'             # C
-  - '+.git.io'                  # C
-  - '+.gitbook.com'             # C
-  - '+.gitbook.io'              # C
-  - '+.gitgud.io'               # C
-  - '+.github.ai'               # C
-  - '+.github.blog'             # C
-  - '+.github.career'           # C
-  - '+.github.com'              # C  覆盖 +.cafe.github.com C, +.collector.github.com C
-  - '+.github.community'        # C
-  - '+.github.dev'              # C
-  - '+.github.io'               # C  覆盖 nix-community.github.io C
-  - '+.github1s.com'            # C
-  - '+.githubapp.com'           # C
-  - '+.githubassets.com'        # C
-  - '+.githubcopilot.com'       # C
-  - '+.githubhackathon.com'     # C
-  - '+.githubnext.com'          # C  覆盖 copilot-workspace.githubnext.com C
-  - '+.githubpreview.dev'       # C
-  - '+.githubstatus.com'        # C
-  - '+.githubsupport.com'       # C
-  - '+.githubuniverse.com'      # C
-  - '+.githubusercontent.com'   # C  覆盖 copilot-proxy.githubusercontent.com C, copilot-telemetry-service.githubusercontent.com C 等 3 条
-  - '+.gitlab-static.net'       # C
-  - '+.gitlab.com'              # C D
-  - '+.gitlab.io'               # C D
-  - '+.gitlab.net'              # C
-  - '+.global-sci.org'          # G
-  - '+.globalsign.com'          # F
-  - '+.globalspec.com'          # G
-  - '+.gnome.org'               # C
-  - '+.gnu.org'                 # C
-  - '+.go-lang.com'             # C
-  - '+.go-lang.net'             # C
-  - '+.go-lang.org'             # C
-  - '+.go.dev'                  # C
-  - '+.godaddy.com'             # F
-  - '+.godbolt.org'             # C
-  - '+.godoc.org'               # C
-  - '+.golang.com'              # C
-  - '+.golang.net'              # C
-  - '+.golang.org'              # C
-  - '+.gordonmoore.com'         # I J
-  - '+.gostorego.com'           # E F
-  - '+.grafana.com'             # C
-  - '+.grafana.net'             # C
-  - '+.granulate.io'            # I
-  - '+.graphengine.io'          # C
-  - '+.grazie.ai'               # C
-  - '+.grss-ieee.org'           # G
-  - '+.hackharassment.com'      # I
-  - '+.hacklang.org'            # C
-  - '+.hashicorp.com'           # C
-  - '+.haskell.org'             # C
-  - '+.haskellstack.org'        # C
-  - '+.heinonline.org'          # G
-  - '+.hex.pm'                  # C
-  - '+.hexdocs.pm'              # C
-  - '+.hhvm.com'                # C
-  - '+.highwirepress.com'       # G
-  - '+.hindawi.com'             # G H
-  - '+.hivepress.io'            # C
-  - '+.hk1lib.org'              # G H
-  - '+.hkbu.hk'                 # G
-  - '+.hku.hk'                  # G
-  - '+.hkust.hk'                # G
-  - '+.hooloo.tv'               # B
-  - '+.hoolu.com'               # B
-  - '+.hoolu.tv'                # B
-  - '+.hotcrp.com'              # G
-  - '+.hu1u.com'                # B
-  - '+.huloo.cc'                # B
-  - '+.huloo.tv'                # B
-  - '+.hulu.com'                # B
-  - '+.hulu.tv'                 # B
-  - '+.huluaction.com'          # B
-  - '+.huluad.com'              # B
-  - '+.huluapp.com'             # B
-  - '+.huluasks.com'            # B
-  - '+.hulucall.com'            # B
-  - '+.hulufree.com'            # B
-  - '+.hulugans.com'            # B
-  - '+.hulugermany.com'         # B
-  - '+.hulugo.com'              # B
-  - '+.huluim.com'              # B
-  - '+.huluinstantmessenger.com'  # B
-  - '+.huluitaly.com'           # B
-  - '+.hulunet.com'             # B
-  - '+.hulunetwork.com'         # B
-  - '+.huluplus.com'            # B
-  - '+.hulupremium.com'         # B
-  - '+.hulupurchase.com'        # B
-  - '+.huluqa.com'              # B
-  - '+.hulurussia.com'          # B
-  - '+.huluspain.com'           # B
-  - '+.hulusports.com'          # B
-  - '+.hulustream.com'          # B
-  - '+.huluteam.com'            # B
-  - '+.hulutv.com'              # B
-  - '+.huluusa.com'             # B
-  - '+.hyperscan.io'            # C I J
-  - '+.icevirtuallibrary.com'   # G H
-  - '+.ieee-aess.org'           # G
-  - '+.ieee-cas.org'            # G
-  - '+.ieee-ccnc.org'           # G
-  - '+.ieee-ceda.org'           # G
-  - '+.ieee-ecce.org'           # G
-  - '+.ieee-edusociety.org'     # G
-  - '+.ieee-ies.org'            # G
-  - '+.ieee-ims.org'            # G
-  - '+.ieee-into-focus.org'     # G
-  - '+.ieee-isto.org'           # G
-  - '+.ieee-npss.org'           # G
-  - '+.ieee-pels.org'           # G
-  - '+.ieee-pes.org'            # G
-  - '+.ieee-ras.org'            # G
-  - '+.ieee-region6.org'        # G
-  - '+.ieee-sensors.org'        # G
-  - '+.ieee-tems.org'           # G
-  - '+.ieee-uffc.org'           # G
-  - '+.ieee-vics.org'           # G
-  - '+.ieee.ca'                 # G
-  - '+.ieee.org'                # G H
-  - '+.ieee.tv'                 # G
-  - '+.ieeeaps.org'             # G
-  - '+.ieeecomputer.org'        # H
-  - '+.ieeecomputersociety.org'  # H
-  - '+.ieeecsc.org'             # G
-  - '+.ieeecss.org'             # G
-  - '+.ieeeday.org'             # G
-  - '+.ieeedeis.org'            # G
-  - '+.ieeefoundation.org'      # G
-  - '+.ieeemagnetics.org'       # G
-  - '+.ieeemce.org'             # G
-  - '+.ieeenano.org'            # G
-  - '+.ieeeoes.org'             # G
-  - '+.ieeer10.org'             # G
-  - '+.ieeer5.org'              # G
-  - '+.ieeer8.org'              # G
-  - '+.ieeesmc.org'             # G
-  - '+.ieeesystemscouncil.org'  # G
-  - '+.ieeeusa.org'             # G
-  - '+.igi-global.com'          # G
-  - '+.igpublish.com'           # G
-  - '+.imageglass.org'          # C
-  - '+.imagineecommerce.com'    # E F
-  - '+.imf.org'                 # H
-  - '+.imperialbusiness.school'  # G H
-  - '+.informs.org'             # G H
-  - '+.insidefilms.com'         # I J
-  - '+.insiderdevtour.com'      # C
-  - '+.insight.tech'            # I
-  - '+.intc.com'                # I J
-  - '+.intel-research.net'      # I J
-  - '+.intel-university-collaboration.net'  # I J
-  - '+.intel.ac'                # I J
-  - '+.intel.ae'                # I J
-  - '+.intel.af'                # I J
-  - '+.intel.ag'                # I J
-  - '+.intel.ai'                # I J
-  - '+.intel.ar'                # I J
-  - '+.intel.at'                # I J
-  - '+.intel.az'                # I J
-  - '+.intel.ba'                # I J
-  - '+.intel.bg'                # I J
-  - '+.intel.bh'                # I J
-  - '+.intel.bi'                # I J
-  - '+.intel.bo'                # I J
-  - '+.intel.bs'                # I J
-  - '+.intel.by'                # I J
-  - '+.intel.ca'                # I J
-  - '+.intel.cc'                # I J
-  - '+.intel.cg'                # I J
-  - '+.intel.ch'                # I J
-  - '+.intel.cl'                # I J
-  - '+.intel.cm'                # I J
-  - '+.intel.cn'                # I J
-  - '+.intel.co'                # I
-  - '+.intel.com'               # I J
-  - '+.intel.cr'                # I J
-  - '+.intel.cu'                # I J
-  - '+.intel.cz'                # I J
-  - '+.intel.de'                # I J
-  - '+.intel.dev'               # I
-  - '+.intel.dk'                # I J
-  - '+.intel.dz'                # I J
-  - '+.intel.ec'                # I J
-  - '+.intel.ee'                # I J
-  - '+.intel.eg'                # I J
-  - '+.intel.es'                # I J
-  - '+.intel.eu'                # I J
-  - '+.intel.fi'                # I J
-  - '+.intel.fr'                # I J
-  - '+.intel.ga'                # I J
-  - '+.intel.gd'                # I J
-  - '+.intel.ge'                # I J
-  - '+.intel.gg'                # I
-  - '+.intel.gl'                # I J
-  - '+.intel.gm'                # I J
-  - '+.intel.gr'                # I J
-  - '+.intel.gs'                # I J
-  - '+.intel.gt'                # I J
-  - '+.intel.gy'                # I J
-  - '+.intel.hk'                # I J
-  - '+.intel.hn'                # I J
-  - '+.intel.ht'                # I J
-  - '+.intel.hu'                # I J
-  - '+.intel.id'                # I
-  - '+.intel.ie'                # I J
-  - '+.intel.in'                # I J
-  - '+.intel.io'                # I J
-  - '+.intel.it'                # I J
-  - '+.intel.je'                # I J
-  - '+.intel.jo'                # I J
-  - '+.intel.jp'                # I J
-  - '+.intel.ke'                # I J
-  - '+.intel.la'                # I J
-  - '+.intel.lc'                # I J
-  - '+.intel.lk'                # I J
-  - '+.intel.lt'                # I J
-  - '+.intel.lu'                # I J
-  - '+.intel.ly'                # I J
-  - '+.intel.ma'                # I J
-  - '+.intel.md'                # I J
-  - '+.intel.me'                # I J
-  - '+.intel.mg'                # I J
-  - '+.intel.mk'                # I J
-  - '+.intel.mn'                # I J
-  - '+.intel.mp'                # I J
-  - '+.intel.mt'                # I J
-  - '+.intel.mu'                # I J
-  - '+.intel.mw'                # I J
-  - '+.intel.mx'                # I J
-  - '+.intel.my'                # I J
-  - '+.intel.ng'                # I J
-  - '+.intel.nl'                # I J
-  - '+.intel.nu'                # I J
-  - '+.intel.nz'                # I J
-  - '+.intel.pa'                # I J
-  - '+.intel.pe'                # I J
-  - '+.intel.ph'                # I J
-  - '+.intel.pl'                # I J
-  - '+.intel.pn'                # I J
-  - '+.intel.re'                # I J
-  - '+.intel.ro'                # I J
-  - '+.intel.ru'                # I J
-  - '+.intel.rw'                # I J
-  - '+.intel.sa'                # I J
-  - '+.intel.sc'                # I J
-  - '+.intel.se'                # I J
-  - '+.intel.sg'                # I J
-  - '+.intel.si'                # I J
-  - '+.intel.sk'                # I J
-  - '+.intel.sn'                # I J
-  - '+.intel.sr'                # I J
-  - '+.intel.st'                # I J
-  - '+.intel.sv'                # I J
-  - '+.intel.sx'                # I J
-  - '+.intel.sy'                # I J
-  - '+.intel.tf'                # I J
-  - '+.intel.tj'                # I J
-  - '+.intel.tl'                # I J
-  - '+.intel.tm'                # I J
-  - '+.intel.tn'                # I J
-  - '+.intel.tt'                # I J
-  - '+.intel.tv'                # I J
-  - '+.intel.tw'                # I J
-  - '+.intel.ua'                # I J
-  - '+.intel.uk'                # I J
-  - '+.intel.uy'                # I J
-  - '+.intel.uz'                # I J
-  - '+.intel.vg'                # I J
-  - '+.intel.vn'                # I J
-  - '+.intel.vu'                # I J
-  - '+.intel.wf'                # I J
-  - '+.intel.yt'                # I J
-  - '+.intelamericasstore.com'  # I J
-  - '+.intelapacstore.com'      # I J
-  - '+.intelatom.net'           # I J
-  - '+.intelcapital.com'        # I J
-  - '+.intelcapital.net'        # I J
-  - '+.intelcloudbuilders.com'  # I J
-  - '+.intelcloudfinder.com'    # I J
-  - '+.intelemeastore.com'      # I J
-  - '+.inteleventexpress.com'   # I J
-  - '+.intelforchange.com'      # I J
-  - '+.intelfreepress.com'      # I J
-  - '+.intelgo.net'             # I J
-  - '+.intelinsight.com'        # I J
-  - '+.inteliotmarketplace.com'  # I J
-  - '+.intell.com'              # I J
-  - '+.intellearningseries.com'  # I J
-  - '+.intellij.com'            # C
-  - '+.intellij.net'            # C
-  - '+.intellij.org'            # C
-  - '+.intellinuxgraphics.com'  # C I J
-  - '+.intellinuxgraphics.net'  # C I J
-  - '+.intellinuxwireless.net'  # I J
-  - '+.intelnervana.com'        # I J
-  - '+.intelnet.component'      # J
-  - '+.intelplay.com'           # I J
-  - '+.intelquark.com'          # I J
-  - '+.intelrealsense.cn'       # I J
-  - '+.intelrealsense.com'      # I J
-  - '+.intelrealsense.net'      # I
-  - '+.intelreimbursement.com'  # I
-  - '+.intelrxt.com'            # I J
-  - '+.intelsalestraining.com'  # I J
-  - '+.intelsecurity.com'       # I J
-  - '+.intelserveredge.com'     # I J
-  - '+.intelsoftwarenetwork.com'  # I J
-  - '+.intelstore.com'          # I J
-  - '+.inteltechnologyprovider.com'  # I J
-  - '+.intelvmwarecybersecurity.com'  # I J
-  - '+.ioinformatics.org'       # G
-  - '+.iop.org'                 # G H
-  - '+.iranlms.ir'              # G
-  - '+.isca-speech.org'         # G H
-  - '+.isiknowledge.com'        # G H
-  - '+.itnel.com'               # I J
-  - '+.itsoc.org'               # G
-  - '+.ius.io'                  # C
-  - '+.iwaponline.com'          # G
-  - '+.jamanetwork.com'         # G H
-  - '+.japanknowledge.com'      # G H
-  - '+.java.com'                # C
-  - '+.java.net'                # C
-  - '+.jb.gg'                   # C
-  - '+.jbc.org'                 # H
-  - '+.jbe-platform.com'        # G H
-  - '+.jenkins.io'              # C
-  - '+.jetbra.in'               # D
-  - '+.jetbrains.ai'            # C
-  - '+.jetbrains.cloud'         # C
-  - '+.jetbrains.com'           # C  覆盖 +.cdn.jetbrains.com C
-  - '+.jetbrains.dev'           # C
-  - '+.jetbrains.net'           # C
-  - '+.jetbrains.org'           # C
-  - '+.jetbrains.ru'            # C
-  - '+.jetbrains.space'         # C
-  - '+.jetbrains.team'          # C
-  - '+.jfrog.com'               # C
-  - '+.jfrog.org'               # C
-  - '+.jhu.edu'                 # H  覆盖 muse.jhu.edu G
-  - '+.jitpack.io'              # D
-  - '+.jmlr.org'                # G H
-  - '+.jneurosci.org'           # G H
-  - '+.joinmaidez.com'          # B
-  - '+.jove.com'                # G
-  - '+.jquery.com'              # C
-  - '+.jquerymobile.com'        # C
-  - '+.jqueryui.com'            # C
-  - '+.js.org'                  # C
-  - '+.jstor.org'               # G H
-  - '+.jtt.ir'                  # G
-  - '+.jupyter.org'             # C
-  - '+.jwt.ms'                  # C
-  - '+.k8s.io'                  # C
-  - '+.kali.org'                # C
-  - '+.karger.com'              # G H
-  - '+.kde.org'                 # C
-  - '+.kernel.org'              # C
-  - '+.knovel.com'              # G H
-  - '+.kotl.in'                 # C
-  - '+.kotlinconf.com'          # C
-  - '+.kotlinlang.org'          # C
-  - '+.ktor.io'                 # C
-  - '+.kubernetes.io'           # C
-  - '+.kuke.com'                # G H
-  - '+.latencytop.com'          # I J
-  - '+.launchpad.net'           # C
-  - '+.launchpadcontent.net'    # C
-  - '+.launchpadlibrarian.com'  # C
-  - '+.launchpadlibrarian.net'  # C
-  - '+.launchpadlibrarian.org'  # C
-  - '+.lede-project.org'        # C
-  - '+.lexisnexis.com'          # G
-  - '+.lfai.foundation'         # C
-  - '+.libguides.com'           # H
-  - '+.libsolutions.app'        # G H
-  - '+.libsolutions.domains'    # G H
-  - '+.libsolutions.net'        # G H
-  - '+.liebertpub.com'          # H
-  - '+.linux.org'               # C
-  - '+.linuxfoundation.org'     # C
-  - '+.linuxfromscratch.org'    # C
-  - '+.linuxmint.com'           # C
-  - '+.literatumonline.com'     # G H
-  - '+.livinno.org'             # G
-  - '+.lookinside.com'          # I J
-  - '+.lua.org'                 # C
-  - '+.lxqt-project.org'        # C
-  - '+.ma1lib.org'              # G H
-  - '+.macosforge.org'          # C D
-  - '+.macosicons.com'          # D
-  - '+.macports.org'            # C
-  - '+.macromedia.com'          # E F
-  - '+.macruby.com'             # C D
-  - '+.macruby.net'             # C D
-  - '+.macruby.org'             # C D
-  - '+.madsrevolution.net'      # H
-  - '+.mageconf.com'            # E F
-  - '+.magento.com'             # E F
-  - '+.magento.net'             # E F
-  - '+.magentocommerce.com'     # E F
-  - '+.magentoliveconference.com'  # E F
-  - '+.magentomobile.com'       # E F
-  - '+.makebettercode.com'      # I J
-  - '+.makeitopen.com'          # C
-  - '+.makesenseofdata.com'     # I J
-  - '+.manjaro.org'             # C
-  - '+.mariadb.org'             # C
-  - '+.marketing-cloud.com'     # E F
-  - '+.marketing-nirvana.com'   # E F
-  - '+.marketo.com'             # E F
-  - '+.marketo.net'             # E F
-  - '+.marketo.tv'              # E F
-  - '+.marketodesigner.com'     # E F
-  - '+.marketolive.com'         # E F
-  - '+.mate-desktop.org'        # C
-  - '+.mathoverflow.net'        # C
-  - '+.maven.org'               # D
-  - '+.mcrouter.net'            # C
-  - '+.mcrouter.org'            # C
-  - '+.mdpi.com'                # G H
-  - '+.meccontroller.com'       # I
-  - '+.medium.com'              # D
-  - '+.medrxiv.org'             # G
-  - '+.mendeley.com'            # G
-  - '+.messengerdevelopers.com'  # C
-  - '+.metacpan.org'            # C
-  - '+.microbit.org'            # C
-  - '+.microsoftadc.com'        # C
-  - '+.microsoftgamestack.com'  # C
-  - '+.microsoftiotinsiderlabs.com'  # C
-  - '+.microsoftreactor.cn'     # C
-  - '+.microsoftreactor.info'   # C
-  - '+.microsoftreactor.net'    # C
-  - '+.microsoftreactor.org'    # C
-  - '+.microsoftsilverlight.com'  # C
-  - '+.microsoftsilverlight.net'  # C
-  - '+.microsoftsilverlight.org'  # C
-  - '+.microsoftsqlserver.com'  # C
-  - '+.mingw.org'               # C
-  - '+.mit.edu'                 # G H
-  - '+.mit.net'                 # G H
-  - '+.mitpressjournals.org'    # G H
-  - '+.mktdns.com'              # E F
-  - '+.mkto-c0100.com'          # E F
-  - '+.mktorest.com'            # E F
-  - '+.mktroute.com'            # E F
-  - '+.mmdnn.com'               # C
-  - '+.mobatek.net'             # C
-  - '+.mobilemarketo.com'       # E F
-  - '+.mochajs.org'             # C
-  - '+.modperl.pl'              # C
-  - '+.mongodb.com'             # C
-  - '+.mongodb.org'             # C
-  - '+.mono-project.com'        # C
-  - '+.morganclaypool.com'      # G
-  - '+.motocms.com'             # C
-  - '+.motolia.com'             # E F
-  - '+.motopress.com'           # C
-  - '+.movidius.com'            # I J
-  - '+.movidius.net'            # I J
-  - '+.movidius.org'            # I
-  - '+.mpg.de'                  # H
-  - '+.mpv.io'                  # C
-  - '+.msdn.com'                # C
-  - '+.msinnovationchallenge.com'  # C
-  - '+.mspairlift.com'          # C
-  - '+.msropendata.com'         # C
-  - '+.msys2.org'               # C
-  - '+.mtt.org'                 # G
-  - '+.mtvnservices.com'        # B
-  - '+.mushymush.tv'            # B
-  - '+.mvnrepository.com'       # D
-  - '+.myhulu.com'              # B
-  - '+.myilibrary.com'          # H
-  - '+.myjetbrains.com'         # C
-  - '+.mynixos.com'             # C
-  - '+.myoctocat.com'           # C
-  - '+.mysql.com'               # C
-  - '+.mystrikingly.com'        # C
-  - '+.nature.com'              # G H
-  - '+.naturemag.org'           # G
-  - '+.nejm.org'                # G H
-  - '+.neovim.io'               # C
-  - '+.nervanasys.com'          # I J
-  - '+.netfilter.org'           # C
-  - '+.neurology.org'           # G H
-  - '+.nevex.com'               # I J
-  - '+.newisiknowledge.com'     # G H
-  - '+.newpipe.net'             # C
-  - '+.newrelic.com'            # F
-  - '+.nextgenerationcenter.com'  # I J
-  - '+.nftables.org'            # C
-  - '+.nginx.com'               # C
-  - '+.nginx.org'               # C
-  - '+.niosii.com'              # I J
-  - '+.niosii.net'              # I J
-  - '+.nix-community.org'       # C
-  - '+.nix.dev'                 # C
-  - '+.nix.store'               # C
-  - '+.nixcon.org'              # C
-  - '+.nixcon2017.org'          # C
-  - '+.nixlang.com'             # C
-  - '+.nixos.org'               # C
-  - '+.nixos.wiki'              # C
-  - '+.nixpkgs.org'             # C
-  - '+.nodejs.org'              # C
-  - '+.nodesource.com'          # C
-  - '+.nomadproject.io'         # C
-  - '+.notepad-plus-plus.org'   # C
-  - '+.npm.community'           # C
-  - '+.npmjs.com'               # C
-  - '+.npmjs.org'               # C
-  - '+.nuget.org'               # C
-  - '+.nugettest.org'           # C
-  - '+.octocaptcha.com'         # C
-  - '+.oecd-ilibrary.org'       # G H
-  - '+.oed.com'                 # G H
-  - '+.ogp.me'                  # C
-  - '+.omekinteractive.com'     # I J
-  - '+.omniroot.com'            # F
-  - '+.omnitek.tv'              # I J
-  - '+.omniture.com'            # E F
-  - '+.omscr.com'               # G H
-  - '+.omtrdc.net'              # E F  覆盖 +.appleworldwidedeveloper.hb-api.omtrdc.net D, +.appleworldwidedeveloper.sc.omtrdc.net D 等 8 条
-  - '+.oneapi.com'              # C I J
-  - '+.oneapi.io'               # C I
-  - '+.opac-project.eu'         # G
-  - '+.openai.com'              # D
-  - '+.openamt.com'             # I J
-  - '+.opencas.io'              # C I
-  - '+.opendroneid.org'         # C I J
-  - '+.opengraphprotocol.com'   # C
-  - '+.opengraphprotocol.org'   # C
-  - '+.openjsf.org'             # C
-  - '+.openresty.org'           # C
-  - '+.openreview.net'          # G
-  - '+.opensource.guide'        # C
-  - '+.openssl.org'             # C
-  - '+.opensuse.org'            # C
-  - '+.opentranslatorstothings.org'  # C
-  - '+.openvino.ai'             # C I
-  - '+.openvinotoolkit.org'     # C I J
-  - '+.openwrt.org'             # C
-  - '+.optanedifference.com'    # I J
-  - '+.optica.org'              # G H
-  - '+.originalhulu.com'        # B
-  - '+.osapublishing.org'       # G H
-  - '+.osdn.net'                # C
-  - '+.ospray.net'              # C I J
-  - '+.ospray.org'              # C I J
-  - '+.oup.com'                 # G H
-  - '+.ouplaw.com'              # G H
-  - '+.ovid.com'                # G H
-  - '+.oxfordaasc.com'          # G H
-  - '+.oxfordartonline.com'     # G H
-  - '+.oxfordbibliographies.com'  # G H
-  - '+.oxfordclinicalpsych.com'  # G H
-  - '+.oxforddnb.com'           # G H
-  - '+.oxfordfirstsource.com'   # G H
-  - '+.oxfordhandbooks.com'     # G H
-  - '+.oxfordlawtrove.com'      # G H
-  - '+.oxfordmedicine.com'      # G H
-  - '+.oxfordmusiconline.com'   # G H
-  - '+.oxfordpoliticstrove.com'  # G H
-  - '+.oxfordre.com'            # G H
-  - '+.oxfordreference.com'     # G H
-  - '+.oxfordscholarlyeditions.com'  # G H
-  - '+.oxfordscholarship.com'   # G H
-  - '+.oxfordwesternmusic.com'  # G H
-  - '+.packagecloud.io'         # C
-  - '+.packagist.org'           # C
-  - '+.packer.io'               # C
-  - '+.paint.net'               # C
-  - '+.paramount.com'           # B
-  - '+.paramountplus.com'       # B
-  - '+.parastorage.com'         # C
-  - '+.parse.com'               # C
-  - '+.passwordday.org'         # I
-  - '+.payhulu.com'             # B
-  - '+.pc.com'                  # I J
-  - '+.pcre.org'                # C
-  - '+.pdf.new'                 # E F
-  - '+.peerj.com'               # G H
-  - '+.pentium.com'             # I J
-  - '+.pentium.net'             # I J
-  - '+.perl.org'                # C
-  - '+.phantomjs.org'           # C
-  - '+.photolia.net'            # E F
-  - '+.photonicssociety.org'    # G
-  - '+.photoshop.com'           # E F
-  - '+.php.net'                 # C
-  - '+.physiology.org'          # G H
-  - '+.pintool.com'             # I J
-  - '+.piwheels.org'            # C
-  - '+.pkgbuild.com'            # C
-  - '+.pkulaw.com'              # H
-  - '+.placesdocs.com'          # E F
-  - '+.plasma-mobile.org'       # C
-  - '+.playerjs.io'             # C
-  - '+.plos.org'                # G H
-  - '+.pluto.tv'                # B
-  - '+.pmem.org'                # I
-  - '+.pnas.org'                # G H
-  - '+.polymer-project.org'     # C
-  - '+.polymerproject.org'      # C
-  - '+.polyu.hk'                # G
-  - '+.poshtestgallery.com'     # C
-  - '+.postgresql.org'          # C
-  - '+.postman-echo.com'        # D
-  - '+.postman.com'             # C
-  - '+.poweredbyintel.com'      # I J
-  - '+.pplusstatic.com'         # B
-  - '+.princeton.edu'           # G H
-  - '+.projectcircuitbreaker.com'  # I
-  - '+.projecteuclid.org'       # G
-  - '+.proquest.com'            # G H
-  - '+.psyccareers.com'         # G H
-  - '+.pub.dev'                 # C
-  - '+.putty.org'               # C
-  - '+.pwabuilder.com'          # C
-  - '+.pycon.org'               # C
-  - '+.pypa.io'                 # C
-  - '+.pypi.io'                 # C
-  - '+.pypi.org'                # C
-  - '+.pyrobot.org'             # C
-  - '+.python.org'              # C D
-  - '+.pythonhosted.org'        # C D
-  - '+.pyup.io'                 # C
-  - '+.qt-project.org'          # C
-  - '+.qt.io'                   # C
-  - '+.qualtrics.com'           # J
-  - '+.quay.io'                 # C D
-  - '+.r-project.org'           # C
-  - '+.raspberrypi.org'         # C
-  - '+.raspbian.org'            # C
-  - '+.react.com'               # C
-  - '+.reactjs.com'             # C
-  - '+.reactjs.org'             # C
-  - '+.readcube.com'            # H
-  - '+.readthedocs-hosted.com'  # C
-  - '+.readthedocs.com'         # C
-  - '+.readthedocs.io'          # C
-  - '+.readthedocs.org'         # C
-  - '+.reaxys.com'              # G
-  - '+.recoiljs.org'            # C
-  - '+.reconinstruments.com'    # I J
-  - '+.reconjet.com'            # I J
-  - '+.reddit.com'              # D
-  - '+.redhat.com'              # C D
-  - '+.redhat.org'              # C
-  - '+.redis.io'                # C
-  - '+.redislabs.com'           # C
-  - '+.regex101.com'            # C
-  - '+.registerhulu.com'        # B
-  - '+.remirepo.net'            # C
-  - '+.renderingtoolkit.org'    # C I
-  - '+.replit.com'              # C
-  - '+.repo.new'                # C
-  - '+.researchandcare.org'     # C D
-  - '+.researchgate.net'        # G H
-  - '+.researchintel.com'       # I J
-  - '+.researchkit.cn'          # C D
-  - '+.researchkit.hk'          # C D
-  - '+.researchkit.net'         # C D
-  - '+.researchkit.org'         # C D
-  - '+.researchkit.tv'          # C D
-  - '+.revenue-performance-management.com'  # E F
-  - '+.rocksdb.com'             # C
-  - '+.rocksdb.net'             # C
-  - '+.rocksdb.org'             # C
-  - '+.rockylinux.org'          # C
-  - '+.routledgehandbooks.com'  # G H
-  - '+.royalsocietypublishing.org'  # G H
-  - '+.rpmfusion.org'           # C
-  - '+.rsc.org'                 # G H
-  - '+.ruby-lang.org'           # C
-  - '+.rubygems.org'            # C
-  - '+.rupress.org'             # G
-  - '+.rust-lang.org'           # C
-  - '+.rustup.rs'               # C
-  - '+.s2stagehance.com'        # E F
-  - '+.sae.org'                 # G
-  - '+.safetycli.com'           # C
-  - '+.saffrontech.com'         # I J
-  - '+.sagepub.com'             # G H
-  - '+.sanjesh.org'             # G
-  - '+.sankie.net'              # C
-  - '+.scala-lang.org'          # C
-  - '+.scala-sbt.org'           # C
-  - '+.scene7.com'              # E F
-  - '+.scholarpedia.org'        # G H
-  - '+.sci-hub.ee'              # G
-  - '+.sci-hub.se'              # G
-  - '+.sci-hub.st'              # G
-  - '+.sci-hub.tw'              # H
-  - '+.science.com'             # G
-  - '+.science.org'             # G H
-  - '+.sciencedirect.com'       # G H
-  - '+.sciencedirectassets.com'  # G H
-  - '+.sciencemag.org'          # G H
-  - '+.sciencenets.com'         # H
-  - '+.scienceonline.org'       # G
-  - '+.scientificamerican.com'  # G H
-  - '+.scientificlinux.org'     # C
-  - '+.scitation.org'           # G H
-  - '+.scival.com'              # G
-  - '+.scoop.sh'                # C
-  - '+.scopus.com'              # G H
-  - '+.semanticscholar.org'     # G H
-  - '+.sensorynetworks.com'     # I J
-  - '+.sentry-cdn.com'          # C
-  - '+.sentry.dev'              # C
-  - '+.sentry.io'               # C
-  - '+.serialssolutions.com'    # G H  覆盖 ulrichsweb.serialssolutions.com G
-  - '+.serverfault.com'         # C
-  - '+.servicetalk.io'          # C D
-  - '+.sg1lib.org'              # G H
-  - '+.sharif.edu'              # G
-  - '+.sharif.ir'               # G
-  - '+.shellcheck.net'          # C
-  - '+.shields.io'              # C
-  - '+.showtime.com'            # B
-  - '+.siam.org'                # G H
-  - '+.sigcomm.org'             # G
-  - '+.sign.new'                # E F
-  - '+.signalprocessingsociety.org'  # G
-  - '+.sigops.org'              # G
-  - '+.sigopt.com'              # I
-  - '+.silicon-mobility.com'    # I
-  - '+.siliconmobility.com'     # I
-  - '+.silverchair-cdn.com'     # G H
-  - '+.singlelogin.app'         # G H
-  - '+.singlelogin.me'          # G H
-  - '+.singlelogin.re'          # G
-  - '+.singlelogin.site'        # G
-  - '+.siport.com'              # I J
-  - '+.sipriyearbook.org'       # G H
-  - '+.smart-edge.com'          # I J
-  - '+.smart-edge.info'         # I
-  - '+.smart-edge.io'           # I
-  - '+.smart-edge.net'          # I
-  - '+.smart-edge.org'          # I
-  - '+.smart-edge.systems'      # I
-  - '+.smartedge.info'          # I
-  - '+.snap-telemetry.io'       # C I J
-  - '+.snapcraft.io'            # C
-  - '+.snapstore.io'            # C
-  - '+.sonatype.org'            # D
-  - '+.sourcegraph.com'         # C D
-  - '+.sourcehut.org'           # C
-  - '+.spiedigitallibrary.org'  # G H
-  - '+.spring.io'               # D
-  - '+.spring.net'              # D
-  - '+.springer.com'            # G H
-  - '+.springerlink.com'        # G H
-  - '+.springernature.com'      # G H
-  - '+.sqlite.org'              # C
-  - '+.sqlserveronlinux.com'    # C
-  - '+.sr.ht'                   # C
-  - '+.srttu.edu'               # G
-  - '+.sstatic.net'             # C
-  - '+.stackage.org'            # C
-  - '+.stackapps.com'           # C
-  - '+.stackauth.com'           # C
-  - '+.stackexchange.com'       # C
-  - '+.stackmod.blog'           # C
-  - '+.stackoverflow.blog'      # C
-  - '+.stackoverflow.co'        # C
-  - '+.stackoverflow.com'       # C D
-  - '+.stackoverflow.email'     # C
-  - '+.stackoverflow.help'      # C
-  - '+.stackoverflow.net'       # C
-  - '+.stackoverflowbusiness.com'  # C
-  - '+.stackoverflowcareers.com'  # C
-  - '+.stackoverflowjobs.com'   # C
-  - '+.stackoverflowsolutions.com'  # C
-  - '+.stackoverflowteams.com'  # C
-  - '+.stacksnippets.net'       # C
-  - '+.standardsuniversity.org'  # G
-  - '+.statsmakemecry.com'      # G H
-  - '+.stockagainstphotography.com'  # C
-  - '+.storageclassmemory.io'   # I
-  - '+.storageclassmemory.org'  # I
-  - '+.strikingly.com'          # C
-  - '+.strikinglycdn.com'       # C
-  - '+.sublimetext.com'         # C
-  - '+.sundanceignite2016.com'  # E F
-  - '+.superuser.com'           # C
-  - '+.swift.org'               # C D
-  - '+.swiftui.cn'              # C D
-  - '+.symantec.com'            # F
-  - '+.symcb.com'               # F
-  - '+.symcd.com'               # F
-  - '+.system76.com'            # C
-  - '+.talkingkotlin.com'       # C
-  - '+.tampermonkey.net'        # C
-  - '+.tandfonline.com'         # G H
-  - '+.taylorandfrancis.com'    # G H
-  - '+.taylorfrancis.com'       # G H
-  - '+.technologyandsociety.org'  # G
-  - '+.techstreet.com'          # G
-  - '+.templatemonster.com'     # C
-  - '+.tenbyfotolia.com'        # E F
-  - '+.termius.com'             # C
-  - '+.termux.com'              # C
-  - '+.termux.dev'              # C
-  - '+.termux.org'              # C
-  - '+.terraform.io'            # C
-  - '+.tex-talk.net'            # C
-  - '+.thawte.com'              # F
-  - '+.thegithubshop.com'       # C
-  - '+.thehulubraintrust.com'   # B
-  - '+.theintelstore.com'       # I J
-  - '+.thelancet.com'           # G H
-  - '+.thesffblog.com'          # C
-  - '+.thieme-connect.com'      # G
-  - '+.thieme-connect.de'       # G
-  - '+.thieme.de'               # G
-  - '+.threadingbuildingblocks.org'  # I
-  - '+.thunderbolttechnology.net'  # I J
-  - '+.tickdata.com'            # G
-  - '+.tilda.cc'                # C
-  - '+.tilda.ru'                # C
-  - '+.tilda.ws'                # C
-  - '+.tildaapi.com'            # C
-  - '+.tildacdn.com'            # C
-  - '+.tildacdn.net'            # C
-  - '+.timelinestoryteller.com'  # C
-  - '+.tmimgcdn.com'            # C
-  - '+.topcoder.com'            # C
-  - '+.tortoisegit.org'         # C
-  - '+.totalmateria.com'        # G
-  - '+.toutapp.com'             # E F
-  - '+.trustedanalytics.com'    # I J
-  - '+.trustedanalytics.net'    # I J
-  - '+.tryengineering.org'      # G
-  - '+.tubemogul.com'           # E
-  - '+.turnitin.com'            # H
-  - '+.typekit.com'             # E F
-  - '+.typekit.net'             # E F
-  - '+.ubuntu-touch.io'         # C
-  - '+.ubuntu.com'              # C
-  - '+.ubuntu.net'              # C
-  - '+.ubuntuforums.org'        # C
-  - '+.uchicago.edu'            # G H
-  - '+.ucla.edu'                # G H
-  - '+.ukwhoswho.com'           # G H
-  - '+.umass.edu'               # G H
-  - '+.un.org'                  # H
-  - '+.uni-bielefeld.de'        # H
-  - '+.unity.com'               # C
-  - '+.unity3d.com'             # C  覆盖 +.iads.unity3d.com C, +.unityads.unity3d.com C 等 8 条
-  - '+.universalscalablefirmware.org'  # C I
-  - '+.universitypressscholarship.com'  # G H
-  - '+.unpkg.com'               # C D
-  - '+.usaco.org'               # G
-  - '+.usenix.org'              # G
-  - '+.uwpcommunitytoolkit.com'  # C
-  - '+.v8.dev'                  # C
-  - '+.v8project.org'           # C
-  - '+.vagrantcloud.com'        # C
-  - '+.vagrantup.com'           # C
-  - '+.vaultproject.io'         # C
-  - '+.verisign.com'            # F
-  - '+.veryshortintroductions.com'  # G H
-  - '+.vfsforgit.com'           # C
-  - '+.vfsforgit.org'           # C
-  - '+.viacbs.com'              # B
-  - '+.viacom.com'              # B
-  - '+.viacomcbs.com'           # B
-  - '+.viacomcbspressexpress.com'  # B
-  - '+.videojs.com'             # C
-  - '+.videolan.org'            # C
-  - '+.videopress.com'          # C
-  - '+.vim.org'                 # C
-  - '+.visualstudio-staging.com'  # C
-  - '+.visualstudio.co'         # C
-  - '+.visualstudio.com'        # C  覆盖 dc.services.visualstudio.com C, rt.services.visualstudio.com C
-  - '+.visualstudio.eu'         # C
-  - '+.visualstudio.net'        # C
-  - '+.vivox.com'               # C
-  - '+.vokevr.com'              # I J
-  - '+.votolia.com'             # E F
-  - '+.vpro.com'                # I J
-  - '+.vpro.net'                # I J
-  - '+.vsassets.io'             # C
-  - '+.vscode-cdn.net'          # C
-  - '+.vscode-unpkg.net'        # C
-  - '+.vscode-webview.net'      # C
-  - '+.vscode.dev'              # C
-  - '+.vscodeedu.app'           # C
-  - '+.vscodeedu.com'           # C
-  - '+.vtsociety.org'           # G
-  - '+.w.org'                   # C
-  - '+.wanfangdata.com'         # H
-  - '+.wapm.io'                 # C
-  - '+.wasmer.io'               # C
-  - '+.watchespn.com'           # B
-  - '+.webflow-ext.com'         # C
-  - '+.webflow.com'             # C
-  - '+.webflow.io'              # C
-  - '+.webkit.org'              # C D
-  - '+.webkitgtk.org'           # C D
-  - '+.weblate.org'             # C
-  - '+.webobjects.com'          # C D
-  - '+.webofknowledge.com'      # G H
-  - '+.webofscience.com'        # G H
-  - '+.website-files.com'       # C
-  - '+.westlaw.com'             # G H
-  - '+.westlawchina.com'        # H
-  - '+.wiley.com'               # G H
-  - '+.wireshark.org'           # C
-  - '+.wix-code.com'            # C
-  - '+.wix.com'                 # C
-  - '+.wixanswers.com'          # C
-  - '+.wixapps.net'             # C
-  - '+.wixmp.com'               # C
-  - '+.wixsite.com'             # C
-  - '+.wixstatic.com'           # C
-  - '+.wkap.nl'                 # G H
-  - '+.wolterskluwer.com'       # G
-  - '+.wordcamp.org'            # C
-  - '+.wordpress.com'           # C
-  - '+.wordpress.net'           # C
-  - '+.wordpress.org'           # C
-  - '+.wordpress.tv'            # C
-  - '+.worldbank.org'           # H  覆盖 databank.worldbank.org G
-  - '+.worldscientific.com'     # G H
-  - '+.worldsecureemail.com'    # E F
-  - '+.worldsecuresystems.com'  # E F
-  - '+.wp-themes.com'           # C
-  - '+.wp.com'                  # C
-  - '+.wpewebkit.org'           # C D
-  - '+.wpmailsmtp.com'          # C
-  - '+.wpvip.com'               # C
-  - '+.wwwhuluplus.com'         # B
-  - '+.x.org'                   # C
-  - '+.xamarin.com'             # C
-  - '+.xeon.com'                # I J
-  - '+.xfce.org'                # C
-  - '+.xn--fiq80y.hk'           # G
-  - '+.xn--fiq80y.xn--j6w193g'  # G
-  - '+.xn--fiq80y3xbiwr.hk'     # G
-  - '+.xn--fiq80y3xbiwr.xn--j6w193g'  # G
-  - '+.xn--fiq80y3xbiwrs0kiu9d.hk'  # G
-  - '+.xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g'  # G
-  - '+.xn--pssu7ci2j23mp9ny48b.hk'  # G
-  - '+.xn--pssu7ci2j23mp9ny48b.xn--j6w193g'  # G
-  - '+.xn--pssu7ci3q5oge0ai91q.xn--j6w193g'  # G
-  - '+.xn--pssu7cv61af44b.hk'   # G
-  - '+.xn--pssu7cv61af44b.xn--j6w193g'  # G
-  - '+.xn--pssu7cz8nr8ibkx1e8a.xn--j6w193g'  # G
-  - '+.xn--uis44a.xn--j6w193g'  # G
-  - '+.xn--wcvs22d.xn--j6w193g'  # G
-  - '+.xn--ztsq84g.cn'          # I J
-  - '+.xposed.info'             # C
-  - '+.xscale.com'              # I J
-  - '+.yale.edu'                # G H
-  - '+.yarnpkg.com'             # C
-  - '+.yogalayout.com'          # C
-  - '+.youtrack.cloud'          # C
-  - '+.z-lib.fm'                # G
-  - '+.z-lib.gd'                # G
-  - '+.z-lib.gl'                # G
-  - '+.z-lib.org'               # G H
-  - '+.z-library.se'            # G
-  - '+.z-library.sk'            # G
-  - '+.zed.dev'                 # C
-  - '+.zenodo.org'              # G
-  - '+.ziglang.org'             # C
-  - '+.zlib.life'               # G H
-  - '+.zlibcdn.com'             # G H
-  - '+.zlibcdn2.com'            # G H
-  - '+.zotero.org'              # H
-  - '+.zsh.org'                 # C
-  - '+.academic.eb.com'         # G
-  - '+.acaric.co.jp'            # G
-  - '+.altera.co.jp'            # I
-  - '+.amdigital.co.uk'         # G
-  - '+.assetshuluimcom-a.akamaihd.net'  # B
-  - '+.bam.nr-data.net'         # F
-  - '+.cws-hulu.conviva.com'    # B
-  - '+.developer.apple.com'     # C D
-  - '+.developerservices2.apple.com'  # C D
-  - '+.devimages-cdn.apple.com'  # C D
-  - '+.devstreaming-cdn.apple.com'  # C D
-  - '+.dlib.eastview.com'       # G
-  - '+.dln1.ncdn.ec'            # G
-  - '+.espn.co.uk'              # B
-  - '+.firebase.google.com'     # C
-  - '+.greenend.org.uk'         # C
-  - '+.hanzhen.xmulib.org'      # G
-  - '+.icsd.fiz-karlsruhe.de'   # G
-  - '+.imperial.insendi.com'    # H  合并 imperial.insendi.com G
-  - '+.infolinker.com.tw'       # G
-  - '+.intel.co.ae'             # I J
-  - '+.intel.co.cr'             # I J
-  - '+.intel.co.id'             # I J
-  - '+.intel.co.il'             # I J
-  - '+.intel.co.jp'             # I J
-  - '+.intel.co.kr'             # I J
-  - '+.intel.co.uk'             # I J
-  - '+.intel.co.za'             # I J
-  - '+.intel.com.ar'            # I J
-  - '+.intel.com.au'            # I J
-  - '+.intel.com.bo'            # I J
-  - '+.intel.com.br'            # I J
-  - '+.intel.com.cn'            # I J
-  - '+.intel.com.co'            # I J
-  - '+.intel.com.ec'            # I J
-  - '+.intel.com.hk'            # I J
-  - '+.intel.com.jm'            # I J
-  - '+.intel.com.mx'            # I J
-  - '+.intel.com.my'            # I J
-  - '+.intel.com.pe'            # I J
-  - '+.intel.com.ph'            # I J
-  - '+.intel.com.pr'            # I J
-  - '+.intel.com.py'            # I J
-  - '+.intel.com.tr'            # I J
-  - '+.intel.com.tw'            # I J
-  - '+.intel.com.uy'            # I J
-  - '+.intel.com.ve'            # I J
-  - '+.jetbrains.com.cn'        # C
-  - '+.lawdata.com.tw'          # G H
-  - '+.mageconf.com.ua'         # E F
-  - '+.marketo.co.uk'           # E F
-  - '+.mcr.microsoft.com'       # C
-  - '+.microsoftreactor.com.cn'  # C
-  - '+.ncl.edu.tw'              # G
-  - '+.nii.ac.jp'               # G
-  - '+.p-events-delivery.akamaized.net'  # D  合并 p-events-delivery.akamaized.net C
-  - '+.playgrounds-cdn.apple.com'  # C D
-  - '+.prod.hjholdings.tv'      # B
-  - '+.reactorms.com.cn'        # C
-  - '+.researchkit.com.cn'      # C D
-  - '+.sci-hub.it.nf'           # G
-  - '+.sci-hub.mksa.top'        # G
-  - '+.sci.hubg.org'            # G
-  - '+.swiftui.com.cn'          # C D
-  - '+.tandf.co.uk'             # G H
-  - '+.timestamp.apple.com'     # C D
-  - '+.uq.edu.au'               # H
-  - '+.uq.h5p.com'              # H
-  - '+.visualstudio.co.uk'      # C
-  - '+.wanfangdata.com.cn'      # H
-  - '+.apple.com.akadns.net'    # D
-  - '+.cbsplaylistserver.aws.syncbak.com'  # B
-  - '+.cbsservice.aws.syncbak.com'  # B
-  - '+.courier-push-apple.com.akadns.net'  # D
-  - '+.debian.map.fastlydns.net'  # C
-  - '+.jstage.jst.go.jp'        # G
-  - '+.ncbi.nlm.nih.gov'        # G H
-  - '+.notary-submissions-prod.s3-accelerate.amazonaws.com'  # D  合并 notary-submissions-prod.s3-accelerate.amazonaws.com C
-  - '+.push-apple.com.akadns.net'  # D
-  - '+.cbsi.live.ott.irdeto.com'  # B
-  - '+.hulu.playback.edge.bamgrid.com'  # B
-  - '+.notary-submissions-prod.s3.us-west-2.amazonaws.com'  # D  合并 notary-submissions-prod.s3.us-west-2.amazonaws.com C
-  - 'adobeereg.com'             # E
-  - 'amp.akamaized.net'         # C
-  - 'android.googlesource.com'  # C
-  - 'angle.com.tw'              # G
-  - 'beck-online.beck.de'       # G
-  - 'bingsettingssearch.trafficmanager.net'  # C
-  - 'crashlyticsreports-pa.googleapis.com'  # C
-  - 'crl.versign.net'           # E
-  - 'd29vzk4ow07wi7.cloudfront.net'  # C
-  - 'database.asahi.com'        # G
-  - 'default.exp-tas.com'       # C
-  - 'developer.microsoft.com'   # C
-  - 'developers.facebook.com'   # C
-  - 'dl.begellhouse.com'        # G
-  - 'dotnetcli.trafficmanager.net'  # C
-  - 'dtlgalleryint.cloudapp.net'  # C
-  - 'firebase.googleapis.com'   # C
-  - 'firebaseappcheck.googleapis.com'  # C
-  - 'firebaseappdistribution.googleapis.com'  # C
-  - 'firebaseapptesters.googleapis.com'  # C
-  - 'firebasedynamiclinks-ipv4.googleapis.com'  # C
-  - 'firebasedynamiclinks-ipv6.googleapis.com'  # C
-  - 'firebasedynamiclinks.googleapis.com'  # C
-  - 'firebaseinappmessaging.googleapis.com'  # C
-  - 'firebaseinstallations.googleapis.com'  # C
-  - 'firebaselogging-pa.googleapis.com'  # C
-  - 'firebaselogging.googleapis.com'  # C
-  - 'firebaseperusertopics-pa.googleapis.com'  # C
-  - 'firebaseremoteconfig.googleapis.com'  # C
-  - 'firstsearch.oclc.org'      # G
-  - 'github-api.arkoselabs.com'  # C
-  - 'link.theplatform.com'      # B
-  - 'medone-education.thieme.com'  # G
-  - 'ood.opsource.net'          # E
-  - 'packages.microsoft.com'    # C
-  - 'poshtestgallery.cloudapp.net'  # C
-  - 'psg-int-centralus.cloudapp.net'  # C
-  - 'psg-int-eastus.cloudapp.net'  # C
-  - 'rink.hockeyapp.net'        # C
-  - 'scholar.google.ae'         # G
-  - 'scholar.google.at'         # G
-  - 'scholar.google.be'         # G
-  - 'scholar.google.bg'         # G
-  - 'scholar.google.ca'         # G
-  - 'scholar.google.cat'        # G
-  - 'scholar.google.ch'         # G
-  - 'scholar.google.cl'         # G
-  - 'scholar.google.cn'         # G
-  - 'scholar.google.com'        # G H
-  - 'scholar.google.cz'         # G
-  - 'scholar.google.de'         # G
-  - 'scholar.google.dk'         # G
-  - 'scholar.google.es'         # G
-  - 'scholar.google.fi'         # G
-  - 'scholar.google.fr'         # G
-  - 'scholar.google.gr'         # G
-  - 'scholar.google.hn'         # G
-  - 'scholar.google.hr'         # G
-  - 'scholar.google.hu'         # G
-  - 'scholar.google.is'         # G
-  - 'scholar.google.it'         # G
-  - 'scholar.google.li'         # G
-  - 'scholar.google.lt'         # G
-  - 'scholar.google.lu'         # G
-  - 'scholar.google.lv'         # G
-  - 'scholar.google.nl'         # G
-  - 'scholar.google.no'         # G
-  - 'scholar.google.pl'         # G
-  - 'scholar.google.pt'         # G
-  - 'scholar.google.ro'         # G
-  - 'scholar.google.ru'         # G
-  - 'scholar.google.se'         # G
-  - 'scholar.google.si'         # G
-  - 'scholar.google.sk'         # G
-  - 'scholar.googleusercontent.com'  # G
-  - 'sundry-star-net-geo.trafficmanager.net'  # C
-  - 'vscode-sync-insiders.trafficmanager.net'  # C
-  - 'vscode-sync.trafficmanager.net'  # C
-  - 'vsmarketplacebadge.apphb.com'  # C
-  - 'az764295.vo.msecnd.net'    # C
-  - 'builds.dotnet.microsoft.com'  # C
-  - 'cc-ext-prod-pkgs.s3.amazonaws.com'  # F
-  - 'docker-pinata-support.s3.amazonaws.com'  # C
-  - 'download.visualstudio.microsoft.com'  # C
-  - 'elib.maruzen.co.jp'        # G
-  - 'github-cloud.s3.amazonaws.com'  # C
-  - 'github-production-release-asset-2e65be.s3.amazonaws.com'  # C
-  - 'github-production-repository-file-5c1aeb.s3.amazonaws.com'  # C
-  - 'github-production-repository-image-32fea6.s3.amazonaws.com'  # C
-  - 'github-production-upload-manifest-file-7fdce7.s3.amazonaws.com'  # C
-  - 'github-production-user-asset-6210df.s3.amazonaws.com'  # C
-  - 'gitlab-assets.oss-cn-hongkong.aliyuncs.com'  # C
-  - 'production-copilot-host-westus.webpubsub.azure.com'  # C
-  - 'scholar.google.co.cr'      # G
-  - 'scholar.google.co.id'      # G
-  - 'scholar.google.co.il'      # G
-  - 'scholar.google.co.in'      # G
-  - 'scholar.google.co.jp'      # G
-  - 'scholar.google.co.kr'      # G
-  - 'scholar.google.co.nz'      # G
-  - 'scholar.google.co.th'      # G
-  - 'scholar.google.co.uk'      # G
-  - 'scholar.google.co.ve'      # G
-  - 'scholar.google.co.za'      # G
-  - 'scholar.google.com.ar'     # G
-  - 'scholar.google.com.au'     # G
-  - 'scholar.google.com.bo'     # G
-  - 'scholar.google.com.br'     # G
-  - 'scholar.google.com.co'     # G
-  - 'scholar.google.com.cu'     # G
-  - 'scholar.google.com.do'     # G
-  - 'scholar.google.com.ec'     # G
-  - 'scholar.google.com.eg'     # G
-  - 'scholar.google.com.gt'     # G
-  - 'scholar.google.com.hk'     # G
-  - 'scholar.google.com.ly'     # G
-  - 'scholar.google.com.mx'     # G
-  - 'scholar.google.com.my'     # G
-  - 'scholar.google.com.ni'     # G
-  - 'scholar.google.com.pa'     # G
-  - 'scholar.google.com.pe'     # G
-  - 'scholar.google.com.ph'     # G
-  - 'scholar.google.com.pk'     # G
-  - 'scholar.google.com.pr'     # G
-  - 'scholar.google.com.py'     # G
-  - 'scholar.google.com.sg'     # G
-  - 'scholar.google.com.sv'     # G
-  - 'scholar.google.com.tr'     # G
-  - 'scholar.google.com.tw'     # G
-  - 'scholar.google.com.ua'     # G
-  - 'scholar.google.com.uy'     # G
-  - 'scholar.google.com.vn'     # G
-  - 'scholar.l.google.com'      # G
-  - 't21.nikkei.co.jp'          # G
-  - 't21ipau.nikkei.co.jp'      # G
-  - 'vscode.search.windows.net'  # C
-  - 'wrds-www.wharton.upenn.edu'  # G
-  - 'copilotprodattachments.blob.core.windows.net'  # C
-  - 'docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com'  # C
-  - 'espn.api.edge.bamgrid.com'  # B
-  - 'productionresultssa0.blob.core.windows.net'  # C
-  - 'productionresultssa1.blob.core.windows.net'  # C
-  - 'productionresultssa10.blob.core.windows.net'  # C
-  - 'productionresultssa11.blob.core.windows.net'  # C
-  - 'productionresultssa12.blob.core.windows.net'  # C
-  - 'productionresultssa13.blob.core.windows.net'  # C
-  - 'productionresultssa14.blob.core.windows.net'  # C
-  - 'productionresultssa15.blob.core.windows.net'  # C
-  - 'productionresultssa16.blob.core.windows.net'  # C
-  - 'productionresultssa17.blob.core.windows.net'  # C
-  - 'productionresultssa18.blob.core.windows.net'  # C
-  - 'productionresultssa19.blob.core.windows.net'  # C
-  - 'productionresultssa2.blob.core.windows.net'  # C
-  - 'productionresultssa3.blob.core.windows.net'  # C
-  - 'productionresultssa4.blob.core.windows.net'  # C
-  - 'productionresultssa5.blob.core.windows.net'  # C
-  - 'productionresultssa6.blob.core.windows.net'  # C
-  - 'productionresultssa7.blob.core.windows.net'  # C
-  - 'productionresultssa8.blob.core.windows.net'  # C
-  - 'productionresultssa9.blob.core.windows.net'  # C
-  - 'vscode.blob.core.windows.net'  # C
-  - 'vscode.download.prss.microsoft.com'  # C
+  - '+.android'                # E
+  - '+.java'                   # E
+  - '+.mit'                    # I J
+  - '+.us'                     # A  覆盖 +.hulu.us D, +.intel.us K L 等 11 条
+  - '+.01.org'                 # E K L
+  - '+.10xfotolia.com'         # G H
+  - '+.112263.com'             # D
+  - '+.1lib.cloud'             # I J
+  - '+.1lib.cz'                # I
+  - '+.1lib.domains'           # I J
+  - '+.1lib.education'         # I J
+  - '+.1lib.eu'                # I J
+  - '+.1lib.limited'           # I J
+  - '+.1lib.pl'                # I J
+  - '+.1lib.sk'                # I
+  - '+.1lib.to'                # I J
+  - '+.1lib.tw'                # I J
+  - '+.2lib.org'               # I J
+  - '+.2o7.net'                # G H
+  - '+.3lib.net'               # I J
+  - '+.aacrjournals.org'       # I
+  - '+.ac.ir'                  # I
+  - '+.ac.uk'                  # I  覆盖 +.ic.ac.uk J, +.imperial.ac.uk J 等 3 条
+  - '+.account-paypal.info'    # B C
+  - '+.account-paypal.net'     # B C
+  - '+.account-paypal.org'     # B C
+  - '+.accountkit.com'         # E
+  - '+.accountpaypal.com'      # B C
+  - '+.accountpaypal.net'      # B C
+  - '+.accountpaypal.org'      # B C
+  - '+.aclweb.org'             # I J
+  - '+.acm.org'                # I J
+  - '+.acpica.com'             # E K L
+  - '+.acrobat.com'            # G H
+  - '+.acs.org'                # I J
+  - '+.adaptivecards.io'       # E
+  - '+.adbecrsl.com'           # G H
+  - '+.adobe-aemassets-value.com'  # G H
+  - '+.adobe-audience-finder.com'  # G H
+  - '+.adobe-video-partner-finder.com'  # G H
+  - '+.adobe.com'              # G H  覆盖 +.advertising.adobe.com G, 3dns-1.adobe.com G 等 132 条
+  - '+.adobe.io'               # G H
+  - '+.adobe.ly'               # G H
+  - '+.adobeaemcloud.com'      # G H
+  - '+.adobeaemcloud.net'      # G H
+  - '+.adobeawards.com'        # G H
+  - '+.adobecc.com'            # G H
+  - '+.adobecce.com'           # G H
+  - '+.adobeccstatic.com'      # G H
+  - '+.adobecontent.io'        # G H
+  - '+.adobecreativityawards.com'  # G H
+  - '+.adobedc.cn'             # G H
+  - '+.adobedc.net'            # G H
+  - '+.adobedemo.com'          # G H
+  - '+.adobedtm.com'           # G H
+  - '+.adobeexchange.com'      # G H
+  - '+.adobeexperienceawards.com'  # G H
+  - '+.adobegov.com'           # G H
+  - '+.adobehiddentreasures.com'  # G H
+  - '+.adobejanus.com'         # G H
+  - '+.adobeku.com'            # G H
+  - '+.adobelanding.com'       # G H
+  - '+.adobelogin.com'         # G H
+  - '+.adobeoobe.com'          # G H
+  - '+.adobeplatinumclub.com'  # G H
+  - '+.adobeprojectm.com'      # G H
+  - '+.adobesc.com'            # G H
+  - '+.adobesign.com'          # G H
+  - '+.adobesigncdn.com'       # G H
+  - '+.adobespark.com'         # G H
+  - '+.adobess.com'            # G H
+  - '+.adobestats.io'          # G
+  - '+.adobestock.com'         # G H
+  - '+.adobetag.com'           # G H
+  - '+.adobetarget.com'        # G H
+  - '+.adobetcstrialdvd.com'   # G H
+  - '+.adobetechcomm.com'      # G H
+  - '+.adobetechcommcallback.com'  # G H
+  - '+.adobetechcommdemo.com'  # G H
+  - '+.adobexdplatform.com'    # G H
+  - '+.adventofcode.com'       # E
+  - '+.agu.org'                # I
+  - '+.aiaa.org'               # I J
+  - '+.aimsciences.org'        # I
+  - '+.aip.org'                # J
+  - '+.airiti.com'             # I
+  - '+.airitilibrary.com'      # I
+  - '+.alexanderstreet.com'    # I
+  - '+.almalinux.org'          # E
+  - '+.alphaxiv.org'           # I
+  - '+.alpinelinux.org'        # E
+  - '+.altera.com'             # K L
+  - '+.alteraforum.com'        # K L
+  - '+.alteraforums.com'       # L
+  - '+.alteraforums.net'       # L
+  - '+.alterauserforum.com'    # L
+  - '+.alterauserforum.net'    # L
+  - '+.alterauserforums.com'   # L
+  - '+.alterauserforums.net'   # L
+  - '+.altmetric.com'          # I J
+  - '+.amamanualofstyle.com'   # I J
+  - '+.amlg.io'                # D
+  - '+.amp.dev'                # E
+  - '+.ampproject.com'         # E
+  - '+.ampproject.net'         # E
+  - '+.ampproject.org'         # E  覆盖 cdn.ampproject.org E
+  - '+.ams.org'                # I J
+  - '+.anaconda.cloud'         # E
+  - '+.anaconda.com'           # E
+  - '+.anaconda.org'           # E
+  - '+.analytictech.com'       # I J
+  - '+.anatomy.tv'             # I
+  - '+.anb.org'                # I J
+  - '+.android.com'            # E
+  - '+.androidify.com'         # E
+  - '+.anfutong.cn'            # B C
+  - '+.anfutong.com'           # B C
+  - '+.annualreviews.org'      # I J
+  - '+.apa.org'                # I J
+  - '+.apache.org'             # E F
+  - '+.api-extractor.com'      # E
+  - '+.apisof.net'             # E
+  - '+.appcenter.ms'           # E
+  - '+.apple-cloudkit.com'     # E F
+  - '+.apple-mapkit.com'       # E F  覆盖 cdn-cn.apple-mapkit.com E, cdn-cn1.apple-mapkit.com E 等 10 条
+  - '+.appleswift.com'         # E F
+  - '+.apress.com'             # I J
+  - '+.aps.org'                # I J
+  - '+.arabidopsis.org'        # I
+  - '+.archlinux.de'           # E
+  - '+.archlinux.org'          # E
+  - '+.archlinux.page'         # E
+  - '+.archlinuxarm.org'       # E
+  - '+.archlinuxcn.org'        # E
+  - '+.art1lib.com'            # I J
+  - '+.artixlinux.org'         # E
+  - '+.artstor.org'            # I
+  - '+.arxiv.org'              # I J
+  - '+.ascelibrary.org'        # I J
+  - '+.asha.org'               # I J
+  - '+.askubuntu.com'          # E
+  - '+.asm.org'                # I J
+  - '+.asme.org'               # I J
+  - '+.asminternational.org'   # I
+  - '+.asn-online.org'         # I
+  - '+.aspbjournals.org'       # I
+  - '+.aspenpublishing.com'    # I
+  - '+.assetsadobe.com'        # G H
+  - '+.astm.org'               # I J
+  - '+.atlassian.com'          # F
+  - '+.atom.io'                # E
+  - '+.atscaleconference.com'  # E
+  - '+.authorxml.com'          # G H
+  - '+.azurecr.io'             # E
+  - '+.b-ok.africa'            # I J
+  - '+.b-ok.asia'              # I J
+  - '+.b-ok.cc'                # I J
+  - '+.b-ok.global'            # I J
+  - '+.b-ok.org'               # I J
+  - '+.badgen.net'             # E
+  - '+.barefootnetworks.com'   # K L
+  - '+.behance.net'            # G H
+  - '+.beibao.cn'              # B C
+  - '+.beibao.com'             # B C
+  - '+.berkeley.edu'           # I J
+  - '+.bill-safe.com'          # B C
+  - '+.billmelater.com'        # B C
+  - '+.billmelater.info'       # B C
+  - '+.billmelater.net'        # B C
+  - '+.bintray.com'            # E  覆盖 homebrew.bintray.com E
+  - '+.biologists.com'         # I
+  - '+.biomedcentral.com'      # I J
+  - '+.bioone.org'             # I
+  - '+.biorxiv.org'            # I J
+  - '+.bitvise.com'            # E
+  - '+.blackstonespoliceservice.com'  # I J
+  - '+.blackwell-synergy.com'  # J
+  - '+.blazor.net'             # E
+  - '+.blogoverflow.com'       # E
+  - '+.bloomsburycollections.com'  # I
+  - '+.bloomsburydesignlibrary.com'  # I
+  - '+.bluefootcms.com'        # G H
+  - '+.bmj.com'                # I J
+  - '+.bml.info'               # B C
+  - '+.bmonkeys.net'           # E
+  - '+.boldgrid.com'           # E
+  - '+.book4you.org'           # I J
+  - '+.bookfi.net'             # I J
+  - '+.booksc.eu'              # I J
+  - '+.booksc.me'              # I J
+  - '+.booksc.org'             # I J
+  - '+.booksc.xyz'             # I J
+  - '+.bookshome.info'         # I J
+  - '+.bookshome.net'          # I J
+  - '+.bookshome.world'        # I J
+  - '+.booksinprint.com'       # I
+  - '+.bootstrapcdn.com'       # E
+  - '+.botframework.com'       # E
+  - '+.botorch.org'            # E
+  - '+.braintreegateway.com'   # B C
+  - '+.braintreegateway.tv'    # B C
+  - '+.braintreepayments.com'  # B C
+  - '+.braintreepayments.info'  # B C
+  - '+.braintreepayments.org'  # B C
+  - '+.braintreepayments.tv'   # B C
+  - '+.braintreepaymentsolutions.com'  # B C
+  - '+.braintreeps.com'        # B C
+  - '+.braventures.com'        # E
+  - '+.braveux.com'            # E
+  - '+.brepolis.net'           # I
+  - '+.brew.sh'                # E
+  - '+.briantreepayments.net'  # B C
+  - '+.briantreepayments.tv'   # B C
+  - '+.brill.com'              # I J
+  - '+.buck.build'             # E
+  - '+.buckbuild.com'          # E
+  - '+.bugsnag.com'            # E
+  - '+.builtwithnix.org'       # E
+  - '+.businesscatalyst.com'   # G H
+  - '+.busybox.net'            # E
+  - '+.buyaltera.com'          # K L
+  - '+.buyfast-paysmart.net'   # B C
+  - '+.bvdinfo.com'            # I
+  - '+.cabdirect.org'          # J
+  - '+.cachix.org'             # E
+  - '+.cairn.info'             # I
+  - '+.calendarserver.org'     # E F
+  - '+.callhulu.com'           # D
+  - '+.cambridge.org'          # I J
+  - '+.cambridgedigital.net'   # I J
+  - '+.cambridgemaths.org'     # I J
+  - '+.cambridgeschoolshakespeare.com'  # I J
+  - '+.canonical.com'          # E
+  - '+.capitaliq.com'          # I
+  - '+.card.io'                # B C
+  - '+.carekit.org'            # E F
+  - '+.cas.org'                # I J
+  - '+.cash2.com'              # B C
+  - '+.cashify.com'            # B C
+  - '+.cashify.net'            # B C
+  - '+.cbs.com'                # D
+  - '+.cbsaavideo.com'         # D
+  - '+.cbscorporation.com'     # D
+  - '+.cbsi.com'               # D
+  - '+.cbsi.video'             # D
+  - '+.cbsiam.com'             # D
+  - '+.cbsig.net'              # D
+  - '+.cbsimg.net'             # D
+  - '+.cbsinteractive.com'     # D
+  - '+.cbsistatic.com'         # D
+  - '+.cbsivideo.com'          # D
+  - '+.cbsnews.com'            # D
+  - '+.cbspressexpress.com'    # D
+  - '+.cbsradio.com'           # D
+  - '+.cbssports.com'          # D
+  - '+.cbsstatic.com'          # D
+  - '+.cbsstore.com'           # D
+  - '+.cbssvideo.com'          # D
+  - '+.cbstelevisioncity.com'  # D
+  - '+.ccnsite.com'            # G H
+  - '+.ccpsx.com'              # G H
+  - '+.ceicdata.com'           # I
+  - '+.celeron.com'            # K L
+  - '+.celeron.net'            # K L
+  - '+.cell.com'               # I J
+  - '+.centos.org'             # E
+  - '+.centrino.com'           # K L
+  - '+.centrino.net'           # K L
+  - '+.chemnetbase.com'        # I
+  - '+.chips.com'              # K L
+  - '+.chocolatey.org'         # E
+  - '+.choicereviews.org'      # I
+  - '+.cilk.com'               # K L
+  - '+.cilk.net'               # K L
+  - '+.cios.org'               # I
+  - '+.cityu.hk'               # I
+  - '+.clarivate.com'          # I J
+  - '+.clearlinux.cn'          # L
+  - '+.clearlinux.org'         # E K L
+  - '+.clinicalkey.com'        # I
+  - '+.clojure.org'            # E
+  - '+.cloudinsights.com'      # K L
+  - '+.cloudwp.dev'            # E
+  - '+.clusterconnection.com'  # K L
+  - '+.cmu.edu'                # I
+  - '+.cnki.net'               # J
+  - '+.cnpmjs.org'             # E
+  - '+.cochranelibrary.com'    # I
+  - '+.codeberg.org'           # E
+  - '+.codeberg.page'          # E
+  - '+.codebuff.com'           # E
+  - '+.codeforaliving.io'      # E
+  - '+.codethemicrobit.com'    # E
+  - '+.comm-verse.com'         # K
+  - '+.compass.is'             # E
+  - '+.componentkit.org'       # E
+  - '+.compose-spec.io'        # E
+  - '+.compresspdf.new'        # G H
+  - '+.computer.org'           # I J
+  - '+.computingreviews.com'   # I J
+  - '+.comsoc.org'             # I
+  - '+.conda.io'               # E
+  - '+.consul.io'              # E
+  - '+.coreduo.com'            # K L
+  - '+.coreextreme.com'        # K L
+  - '+.cotolia.com'            # G H
+  - '+.cpan.org'               # E
+  - '+.cqvip.com'              # J
+  - '+.crashlytics.com'        # E  覆盖 firebase-settings.crashlytics.com E, update.crashlytics.com E
+  - '+.crates.io'              # E
+  - '+.creativecloud.com'      # G H
+  - '+.creativesdk.com'        # G H
+  - '+.crocoblock.com'         # E
+  - '+.crossref.org'           # J
+  - '+.crosswalk-project.com'  # K L
+  - '+.crosswalk-project.net'  # K L
+  - '+.csiro.au'               # J
+  - '+.csrankings.org'         # I
+  - '+.cuhk.hk'                # I
+  - '+.cups.org'               # E F
+  - '+.cve.org'                # E
+  - '+.cygwin.com'             # E
+  - '+.cython.org'             # E
+  - '+.dart.dev'               # E
+  - '+.dartlang.org'           # E
+  - '+.dartpad.dev'            # E
+  - '+.datalore.io'            # E
+  - '+.datasheets360.com'      # I
+  - '+.de1lib.org'             # I J
+  - '+.debian.com'             # F
+  - '+.debian.org'             # E
+  - '+.deepdyve.com'           # J
+  - '+.degruyter.com'          # I J
+  - '+.demandbase.com'         # H
+  - '+.demdex.net'             # G H
+  - '+.deno.com'               # E
+  - '+.deno.land'              # E
+  - '+.dentalhypotheses.com'   # I J
+  - '+.dependabot.com'         # E
+  - '+.dev.to'                 # E
+  - '+.developria.com'         # G H
+  - '+.devopsassessment.net'   # E
+  - '+.devtools-paypal.com'    # B C
+  - '+.discourse-cdn.com'      # E
+  - '+.discourse.group'        # E
+  - '+.discourse.org'          # E
+  - '+.dml-lang.org'           # K
+  - '+.doceapower.com'         # K L
+  - '+.docker.com'             # E F
+  - '+.docker.io'              # E F
+  - '+.dockerstatic.com'       # E
+  - '+.docs.rs'                # E
+  - '+.doi.info'               # I J
+  - '+.doi.org'                # I J
+  - '+.dollarfotoclub.com'     # G H
+  - '+.dollarphotoclub.com'    # G H
+  - '+.dollarphotosclub.com'   # G H
+  - '+.dot.net'                # E
+  - '+.dotdeb.org'             # E
+  - '+.douwriteright.com'      # G H
+  - '+.draftjs.org'            # E
+  - '+.dtci.co'                # D
+  - '+.dtci.technology'        # D
+  - '+.easic.com'              # K L
+  - '+.ebsco.com'              # I
+  - '+.ebscohost.com'          # I J
+  - '+.echocdn.com'            # G H
+  - '+.echosign.com'           # G H
+  - '+.ecr.aws'                # E
+  - '+.edgefonts.net'          # G H
+  - '+.editorx.com'            # E
+  - '+.edu.hk'                 # I
+  - '+.edu.ir'                 # I
+  - '+.eduhk.hk'               # I
+  - '+.elastic.co'             # F
+  - '+.elastic.com'            # F
+  - '+.electrochem.org'        # I
+  - '+.electronjs.org'         # E
+  - '+.elegantthemes.com'      # E
+  - '+.elementary.io'          # E
+  - '+.elgaronline.com'        # I
+  - '+.elifesciences.org'      # I J
+  - '+.elixir-lang.org'        # E
+  - '+.elrepo.org'             # E
+  - '+.els-cdn.com'            # I J
+  - '+.elsevier-ae.com'        # I J
+  - '+.elsevier.com'           # I J
+  - '+.elsevier.io'            # I J
+  - '+.embase.com'             # I
+  - '+.embed.ly'               # E
+  - '+.embedly.com'            # E
+  - '+.embs.org'               # I
+  - '+.emcs.org'               # I
+  - '+.emerald.com'            # I J
+  - '+.ems-ph.org'             # I
+  - '+.enablementadobe.com'    # G H
+  - '+.endnote.com'            # J
+  - '+.engineeringvillage.com'  # I J
+  - '+.enpirion.com'           # K L
+  - '+.epigeum.com'            # I J
+  - '+.erlang.org'             # E
+  - '+.espn.com'               # D
+  - '+.espn.net'               # D
+  - '+.espncdn.com'            # D
+  - '+.espnqa.com'             # D
+  - '+.eurekaselect.com'       # I
+  - '+.europepmc.org'          # I J
+  - '+.evise.com'              # I J
+  - '+.exascale-tech.com'      # K L
+  - '+.experiencebillmelater.com'  # B C
+  - '+.exploreintel.com'       # K L
+  - '+.f8.com'                 # E
+  - '+.facebookappcenter.info'  # E
+  - '+.facebookappcenter.net'  # E
+  - '+.facebookappcenter.org'  # E
+  - '+.facebookconnect.com'    # E
+  - '+.facebookdevelopergarage.com'  # E
+  - '+.faciometrics.com'       # E
+  - '+.facultyopinions.com'    # I
+  - '+.fastlane.ci'            # E
+  - '+.fastlane.tools'         # E
+  - '+.fasttext.cc'            # E
+  - '+.fbf8.com'               # E
+  - '+.fbinfer.com'            # E
+  - '+.fblitho.com'            # E
+  - '+.fbredex.com'            # E
+  - '+.fbrell.com'             # E
+  - '+.fedoraforum.org'        # E
+  - '+.fedorainfracloud.org'   # E
+  - '+.fedoramagazine.org'     # E
+  - '+.fedorapeople.org'       # E
+  - '+.fedoraproject.org'      # E
+  - '+.ffmpeg.org'             # E
+  - '+.ffotolia.com'           # G H
+  - '+.fightforux.com'         # E
+  - '+.filezilla-project.org'  # E
+  - '+.filipino-music.net'     # B C
+  - '+.findyourlimits.com'     # D
+  - '+.fiotolia.com'           # G H
+  - '+.firebase.com'           # E
+  - '+.firebase.dev'           # E
+  - '+.firebase.io'            # E
+  - '+.firebaseapp.com'        # E
+  - '+.firebaseio.com'         # E
+  - '+.flathub.org'            # E
+  - '+.flatpak.org'            # E
+  - '+.flow.dev'               # E
+  - '+.flow.org'               # E
+  - '+.flowtype.org'           # E
+  - '+.flutter.dev'            # E
+  - '+.flutterapp.com'         # E
+  - '+.foftolia.com'           # G H
+  - '+.fonolia.com'            # G H
+  - '+.fontawesome.com'        # E F
+  - '+.fortawesome.com'        # E
+  - '+.forthebadge.com'        # E
+  - '+.fotiolia.com'           # G H
+  - '+.fotoiia.com'            # G H
+  - '+.fotolia-noticias.com'   # G H
+  - '+.fotolia.cc'             # G H
+  - '+.fotolia.com'            # G H
+  - '+.fotolia.tv'             # G H
+  - '+.fotolja.com'            # G H
+  - '+.foundationdb.org'       # E F
+  - '+.fptolia.com'            # G H
+  - '+.framer.com'             # E
+  - '+.framer.website'         # E
+  - '+.framercanvas.com'       # E
+  - '+.framerstatic.com'       # E
+  - '+.framerusercontent.com'  # E
+  - '+.freebsd.org'            # E
+  - '+.freebuff.com'           # E
+  - '+.freehulu.com'           # D
+  - '+.frescolib.org'          # E
+  - '+.frontiersin.org'        # I J
+  - '+.ftcdn.net'              # G H
+  - '+.fundinginstitutional.com'  # I
+  - '+.fundpaypal.com'         # B C
+  - '+.fury.blog'              # E
+  - '+.fury.co'                # E
+  - '+.fury.dev'               # E
+  - '+.fury.help'              # E
+  - '+.fury.io'                # E
+  - '+.gale.com'               # I J
+  - '+.galegroup.com'          # I J
+  - '+.gamesstack.com'         # E
+  - '+.gcr.io'                 # E F
+  - '+.gemfury.com'            # E
+  - '+.gentoo.org'             # E
+  - '+.geolytics.com'          # I
+  - '+.geoscienceworld.org'    # J
+  - '+.geotrust.com'           # H
+  - '+.getbootstrap.com'       # E
+  - '+.getbraintree.com'       # B C
+  - '+.getcomposer.org'        # E
+  - '+.getfedora.org'          # E
+  - '+.getpaint.net'           # E
+  - '+.getsafety.com'          # E
+  - '+.getsentry.com'          # E
+  - '+.getzola.org'            # E
+  - '+.gfotolia.com'           # G H
+  - '+.ggsrv.com'              # I J
+  - '+.gh.io'                  # E
+  - '+.ghcr.io'                # E
+  - '+.ghe.com'                # E
+  - '+.git-scm.com'            # E
+  - '+.git.io'                 # E
+  - '+.gitbook.com'            # E
+  - '+.gitbook.io'             # E
+  - '+.gitgud.io'              # E
+  - '+.github.ai'              # E
+  - '+.github.blog'            # E
+  - '+.github.career'          # E
+  - '+.github.com'             # E  覆盖 +.cafe.github.com E, +.collector.github.com E
+  - '+.github.community'       # E
+  - '+.github.dev'             # E
+  - '+.github.io'              # E  覆盖 nix-community.github.io E
+  - '+.github1s.com'           # E
+  - '+.githubapp.com'          # E
+  - '+.githubassets.com'       # E
+  - '+.githubcopilot.com'      # E
+  - '+.githubhackathon.com'    # E
+  - '+.githubnext.com'         # E  覆盖 copilot-workspace.githubnext.com E
+  - '+.githubpreview.dev'      # E
+  - '+.githubstatus.com'       # E
+  - '+.githubsupport.com'      # E
+  - '+.githubuniverse.com'     # E
+  - '+.githubusercontent.com'  # E  覆盖 copilot-proxy.githubusercontent.com E, copilot-telemetry-service.githubusercontent.com E 等 3 条
+  - '+.gitlab-static.net'      # E
+  - '+.gitlab.com'             # E F
+  - '+.gitlab.io'              # E F
+  - '+.gitlab.net'             # E
+  - '+.global-sci.org'         # I
+  - '+.globalsign.com'         # H
+  - '+.globalspec.com'         # I
+  - '+.gmoney.org'             # B C
+  - '+.gnome.org'              # E
+  - '+.gnu.org'                # E
+  - '+.go-lang.com'            # E
+  - '+.go-lang.net'            # E
+  - '+.go-lang.org'            # E
+  - '+.go.dev'                 # E
+  - '+.godaddy.com'            # H
+  - '+.godbolt.org'            # E
+  - '+.godoc.org'              # E
+  - '+.golang.com'             # E
+  - '+.golang.net'             # E
+  - '+.golang.org'             # E
+  - '+.gordonmoore.com'        # K L
+  - '+.gostorego.com'          # G H
+  - '+.grafana.com'            # E
+  - '+.grafana.net'            # E
+  - '+.granulate.io'           # K
+  - '+.graphengine.io'         # E
+  - '+.grazie.ai'              # E
+  - '+.grss-ieee.org'          # I
+  - '+.hackharassment.com'     # K
+  - '+.hacklang.org'           # E
+  - '+.hashicorp.com'          # E
+  - '+.haskell.org'            # E
+  - '+.haskellstack.org'       # E
+  - '+.heinonline.org'         # I
+  - '+.hex.pm'                 # E
+  - '+.hexdocs.pm'             # E
+  - '+.hhvm.com'               # E
+  - '+.highwirepress.com'      # I
+  - '+.hindawi.com'            # I J
+  - '+.hivepress.io'           # E
+  - '+.hk1lib.org'             # I J
+  - '+.hkbu.hk'                # I
+  - '+.hku.hk'                 # I
+  - '+.hkust.hk'               # I
+  - '+.hooloo.tv'              # D
+  - '+.hoolu.com'              # D
+  - '+.hoolu.tv'               # D
+  - '+.hotcrp.com'             # I
+  - '+.hu1u.com'               # D
+  - '+.huloo.cc'               # D
+  - '+.huloo.tv'               # D
+  - '+.hulu.com'               # D
+  - '+.hulu.tv'                # D
+  - '+.huluaction.com'         # D
+  - '+.huluad.com'             # D
+  - '+.huluapp.com'            # D
+  - '+.huluasks.com'           # D
+  - '+.hulucall.com'           # D
+  - '+.hulufree.com'           # D
+  - '+.hulugans.com'           # D
+  - '+.hulugermany.com'        # D
+  - '+.hulugo.com'             # D
+  - '+.huluim.com'             # D
+  - '+.huluinstantmessenger.com'  # D
+  - '+.huluitaly.com'          # D
+  - '+.hulunet.com'            # D
+  - '+.hulunetwork.com'        # D
+  - '+.huluplus.com'           # D
+  - '+.hulupremium.com'        # D
+  - '+.hulupurchase.com'       # D
+  - '+.huluqa.com'             # D
+  - '+.hulurussia.com'         # D
+  - '+.huluspain.com'          # D
+  - '+.hulusports.com'         # D
+  - '+.hulustream.com'         # D
+  - '+.huluteam.com'           # D
+  - '+.hulutv.com'             # D
+  - '+.huluusa.com'            # D
+  - '+.hyperscan.io'           # E K L
+  - '+.i-o-u.info'             # B C
+  - '+.icevirtuallibrary.com'  # I J
+  - '+.ieee-aess.org'          # I
+  - '+.ieee-cas.org'           # I
+  - '+.ieee-ccnc.org'          # I
+  - '+.ieee-ceda.org'          # I
+  - '+.ieee-ecce.org'          # I
+  - '+.ieee-edusociety.org'    # I
+  - '+.ieee-ies.org'           # I
+  - '+.ieee-ims.org'           # I
+  - '+.ieee-into-focus.org'    # I
+  - '+.ieee-isto.org'          # I
+  - '+.ieee-npss.org'          # I
+  - '+.ieee-pels.org'          # I
+  - '+.ieee-pes.org'           # I
+  - '+.ieee-ras.org'           # I
+  - '+.ieee-region6.org'       # I
+  - '+.ieee-sensors.org'       # I
+  - '+.ieee-tems.org'          # I
+  - '+.ieee-uffc.org'          # I
+  - '+.ieee-vics.org'          # I
+  - '+.ieee.ca'                # I
+  - '+.ieee.org'               # I J
+  - '+.ieee.tv'                # I
+  - '+.ieeeaps.org'            # I
+  - '+.ieeecomputer.org'       # J
+  - '+.ieeecomputersociety.org'  # J
+  - '+.ieeecsc.org'            # I
+  - '+.ieeecss.org'            # I
+  - '+.ieeeday.org'            # I
+  - '+.ieeedeis.org'           # I
+  - '+.ieeefoundation.org'     # I
+  - '+.ieeemagnetics.org'      # I
+  - '+.ieeemce.org'            # I
+  - '+.ieeenano.org'           # I
+  - '+.ieeeoes.org'            # I
+  - '+.ieeer10.org'            # I
+  - '+.ieeer5.org'             # I
+  - '+.ieeer8.org'             # I
+  - '+.ieeesmc.org'            # I
+  - '+.ieeesystemscouncil.org'  # I
+  - '+.ieeeusa.org'            # I
+  - '+.igi-global.com'         # I
+  - '+.igpublish.com'          # I
+  - '+.imageglass.org'         # E
+  - '+.imagineecommerce.com'   # G H
+  - '+.imf.org'                # J
+  - '+.imperialbusiness.school'  # I J
+  - '+.informs.org'            # I J
+  - '+.insidefilms.com'        # K L
+  - '+.insiderdevtour.com'     # E
+  - '+.insight.tech'           # K
+  - '+.intc.com'               # K L
+  - '+.intel-research.net'     # K L
+  - '+.intel-university-collaboration.net'  # K L
+  - '+.intel.ac'               # K L
+  - '+.intel.ae'               # K L
+  - '+.intel.af'               # K L
+  - '+.intel.ag'               # K L
+  - '+.intel.ai'               # K L
+  - '+.intel.ar'               # K L
+  - '+.intel.at'               # K L
+  - '+.intel.az'               # K L
+  - '+.intel.ba'               # K L
+  - '+.intel.bg'               # K L
+  - '+.intel.bh'               # K L
+  - '+.intel.bi'               # K L
+  - '+.intel.bo'               # K L
+  - '+.intel.bs'               # K L
+  - '+.intel.by'               # K L
+  - '+.intel.ca'               # K L
+  - '+.intel.cc'               # K L
+  - '+.intel.cg'               # K L
+  - '+.intel.ch'               # K L
+  - '+.intel.cl'               # K L
+  - '+.intel.cm'               # K L
+  - '+.intel.cn'               # K L
+  - '+.intel.co'               # K
+  - '+.intel.com'              # K L
+  - '+.intel.cr'               # K L
+  - '+.intel.cu'               # K L
+  - '+.intel.cz'               # K L
+  - '+.intel.de'               # K L
+  - '+.intel.dev'              # K
+  - '+.intel.dk'               # K L
+  - '+.intel.dz'               # K L
+  - '+.intel.ec'               # K L
+  - '+.intel.ee'               # K L
+  - '+.intel.eg'               # K L
+  - '+.intel.es'               # K L
+  - '+.intel.eu'               # K L
+  - '+.intel.fi'               # K L
+  - '+.intel.fr'               # K L
+  - '+.intel.ga'               # K L
+  - '+.intel.gd'               # K L
+  - '+.intel.ge'               # K L
+  - '+.intel.gg'               # K
+  - '+.intel.gl'               # K L
+  - '+.intel.gm'               # K L
+  - '+.intel.gr'               # K L
+  - '+.intel.gs'               # K L
+  - '+.intel.gt'               # K L
+  - '+.intel.gy'               # K L
+  - '+.intel.hk'               # K L
+  - '+.intel.hn'               # K L
+  - '+.intel.ht'               # K L
+  - '+.intel.hu'               # K L
+  - '+.intel.id'               # K
+  - '+.intel.ie'               # K L
+  - '+.intel.in'               # K L
+  - '+.intel.io'               # K L
+  - '+.intel.it'               # K L
+  - '+.intel.je'               # K L
+  - '+.intel.jo'               # K L
+  - '+.intel.jp'               # K L
+  - '+.intel.ke'               # K L
+  - '+.intel.la'               # K L
+  - '+.intel.lc'               # K L
+  - '+.intel.lk'               # K L
+  - '+.intel.lt'               # K L
+  - '+.intel.lu'               # K L
+  - '+.intel.ly'               # K L
+  - '+.intel.ma'               # K L
+  - '+.intel.md'               # K L
+  - '+.intel.me'               # K L
+  - '+.intel.mg'               # K L
+  - '+.intel.mk'               # K L
+  - '+.intel.mn'               # K L
+  - '+.intel.mp'               # K L
+  - '+.intel.mt'               # K L
+  - '+.intel.mu'               # K L
+  - '+.intel.mw'               # K L
+  - '+.intel.mx'               # K L
+  - '+.intel.my'               # K L
+  - '+.intel.ng'               # K L
+  - '+.intel.nl'               # K L
+  - '+.intel.nu'               # K L
+  - '+.intel.nz'               # K L
+  - '+.intel.pa'               # K L
+  - '+.intel.pe'               # K L
+  - '+.intel.ph'               # K L
+  - '+.intel.pl'               # K L
+  - '+.intel.pn'               # K L
+  - '+.intel.re'               # K L
+  - '+.intel.ro'               # K L
+  - '+.intel.ru'               # K L
+  - '+.intel.rw'               # K L
+  - '+.intel.sa'               # K L
+  - '+.intel.sc'               # K L
+  - '+.intel.se'               # K L
+  - '+.intel.sg'               # K L
+  - '+.intel.si'               # K L
+  - '+.intel.sk'               # K L
+  - '+.intel.sn'               # K L
+  - '+.intel.sr'               # K L
+  - '+.intel.st'               # K L
+  - '+.intel.sv'               # K L
+  - '+.intel.sx'               # K L
+  - '+.intel.sy'               # K L
+  - '+.intel.tf'               # K L
+  - '+.intel.tj'               # K L
+  - '+.intel.tl'               # K L
+  - '+.intel.tm'               # K L
+  - '+.intel.tn'               # K L
+  - '+.intel.tt'               # K L
+  - '+.intel.tv'               # K L
+  - '+.intel.tw'               # K L
+  - '+.intel.ua'               # K L
+  - '+.intel.uk'               # K L
+  - '+.intel.uy'               # K L
+  - '+.intel.uz'               # K L
+  - '+.intel.vg'               # K L
+  - '+.intel.vn'               # K L
+  - '+.intel.vu'               # K L
+  - '+.intel.wf'               # K L
+  - '+.intel.yt'               # K L
+  - '+.intelamericasstore.com'  # K L
+  - '+.intelapacstore.com'     # K L
+  - '+.intelatom.net'          # K L
+  - '+.intelcapital.com'       # K L
+  - '+.intelcapital.net'       # K L
+  - '+.intelcloudbuilders.com'  # K L
+  - '+.intelcloudfinder.com'   # K L
+  - '+.intelemeastore.com'     # K L
+  - '+.inteleventexpress.com'  # K L
+  - '+.intelforchange.com'     # K L
+  - '+.intelfreepress.com'     # K L
+  - '+.intelgo.net'            # K L
+  - '+.intelinsight.com'       # K L
+  - '+.inteliotmarketplace.com'  # K L
+  - '+.intell.com'             # K L
+  - '+.intellearningseries.com'  # K L
+  - '+.intellij.com'           # E
+  - '+.intellij.net'           # E
+  - '+.intellij.org'           # E
+  - '+.intellinuxgraphics.com'  # E K L
+  - '+.intellinuxgraphics.net'  # E K L
+  - '+.intellinuxwireless.net'  # K L
+  - '+.intelnervana.com'       # K L
+  - '+.intelnet.component'     # L
+  - '+.intelplay.com'          # K L
+  - '+.intelquark.com'         # K L
+  - '+.intelrealsense.cn'      # K L
+  - '+.intelrealsense.com'     # K L
+  - '+.intelrealsense.net'     # K
+  - '+.intelreimbursement.com'  # K
+  - '+.intelrxt.com'           # K L
+  - '+.intelsalestraining.com'  # K L
+  - '+.intelsecurity.com'      # K L
+  - '+.intelserveredge.com'    # K L
+  - '+.intelsoftwarenetwork.com'  # K L
+  - '+.intelstore.com'         # K L
+  - '+.inteltechnologyprovider.com'  # K L
+  - '+.intelvmwarecybersecurity.com'  # K L
+  - '+.ioinformatics.org'      # I
+  - '+.iop.org'                # I J
+  - '+.iranlms.ir'             # I
+  - '+.isca-speech.org'        # I J
+  - '+.isiknowledge.com'       # I J
+  - '+.itnel.com'              # K L
+  - '+.itsoc.org'              # I
+  - '+.ius.io'                 # E
+  - '+.iwaponline.com'         # I
+  - '+.jamanetwork.com'        # I J
+  - '+.japanknowledge.com'     # I J
+  - '+.java.com'               # E
+  - '+.java.net'               # E
+  - '+.jb.gg'                  # E
+  - '+.jbc.org'                # J
+  - '+.jbe-platform.com'       # I J
+  - '+.jenkins.io'             # E
+  - '+.jetbra.in'              # F
+  - '+.jetbrains.ai'           # E
+  - '+.jetbrains.cloud'        # E
+  - '+.jetbrains.com'          # E  覆盖 +.cdn.jetbrains.com E
+  - '+.jetbrains.dev'          # E
+  - '+.jetbrains.net'          # E
+  - '+.jetbrains.org'          # E
+  - '+.jetbrains.ru'           # E
+  - '+.jetbrains.space'        # E
+  - '+.jetbrains.team'         # E
+  - '+.jfrog.com'              # E
+  - '+.jfrog.org'              # E
+  - '+.jhu.edu'                # J  覆盖 muse.jhu.edu I
+  - '+.jitpack.io'             # F
+  - '+.jmlr.org'               # I J
+  - '+.jneurosci.org'          # I J
+  - '+.joinmaidez.com'         # D
+  - '+.jove.com'               # I
+  - '+.jquery.com'             # E
+  - '+.jquerymobile.com'       # E
+  - '+.jqueryui.com'           # E
+  - '+.js.org'                 # E
+  - '+.jstor.org'              # I J
+  - '+.jtt.ir'                 # I
+  - '+.jupyter.org'            # E
+  - '+.jwt.ms'                 # E
+  - '+.k8s.io'                 # E
+  - '+.kali.org'               # E
+  - '+.karger.com'             # I J
+  - '+.kde.org'                # E
+  - '+.kernel.org'             # E
+  - '+.knovel.com'             # I J
+  - '+.kotl.in'                # E
+  - '+.kotlinconf.com'         # E
+  - '+.kotlinlang.org'         # E
+  - '+.krakenjs.com'           # B C
+  - '+.ktor.io'                # E
+  - '+.kubernetes.io'          # E
+  - '+.kuke.com'               # I J
+  - '+.latencytop.com'         # K L
+  - '+.launchpad.net'          # E
+  - '+.launchpadcontent.net'   # E
+  - '+.launchpadlibrarian.com'  # E
+  - '+.launchpadlibrarian.net'  # E
+  - '+.launchpadlibrarian.org'  # E
+  - '+.lede-project.org'       # E
+  - '+.lexisnexis.com'         # I
+  - '+.lfai.foundation'        # E
+  - '+.libguides.com'          # J
+  - '+.libsolutions.app'       # I J
+  - '+.libsolutions.domains'   # I J
+  - '+.libsolutions.net'       # I J
+  - '+.liebertpub.com'         # J
+  - '+.linux.org'              # E
+  - '+.linuxfoundation.org'    # E
+  - '+.linuxfromscratch.org'   # E
+  - '+.linuxmint.com'          # E
+  - '+.literatumonline.com'    # I J
+  - '+.livinno.org'            # I
+  - '+.loanbuilder.com'        # B C
+  - '+.login-paypal.com'       # B C
+  - '+.login-paypal.info'      # B C
+  - '+.lookinside.com'         # K L
+  - '+.lua.org'                # E
+  - '+.lxqt-project.org'       # E
+  - '+.ma1lib.org'             # I J
+  - '+.macosforge.org'         # E F
+  - '+.macosicons.com'         # F
+  - '+.macports.org'           # E
+  - '+.macromedia.com'         # G H
+  - '+.macruby.com'            # E F
+  - '+.macruby.net'            # E F
+  - '+.macruby.org'            # E F
+  - '+.madsrevolution.net'     # J
+  - '+.mageconf.com'           # G H
+  - '+.magento.com'            # G H
+  - '+.magento.net'            # G H
+  - '+.magentocommerce.com'    # G H
+  - '+.magentoliveconference.com'  # G H
+  - '+.magentomobile.com'      # G H
+  - '+.makebettercode.com'     # K L
+  - '+.makeitopen.com'         # E
+  - '+.makesenseofdata.com'    # K L
+  - '+.manjaro.org'            # E
+  - '+.mariadb.org'            # E
+  - '+.marketing-cloud.com'    # G H
+  - '+.marketing-nirvana.com'  # G H
+  - '+.marketo.com'            # G H
+  - '+.marketo.net'            # G H
+  - '+.marketo.tv'             # G H
+  - '+.marketodesigner.com'    # G H
+  - '+.marketolive.com'        # G H
+  - '+.mate-desktop.org'       # E
+  - '+.mathoverflow.net'       # E
+  - '+.maven.org'              # F
+  - '+.mcrouter.net'           # E
+  - '+.mcrouter.org'           # E
+  - '+.mdpi.com'               # I J
+  - '+.meccontroller.com'      # K
+  - '+.medium.com'             # F
+  - '+.medrxiv.org'            # I
+  - '+.mendeley.com'           # I
+  - '+.messengerdevelopers.com'  # E
+  - '+.metacpan.org'           # E
+  - '+.microbit.org'           # E
+  - '+.microsoftadc.com'       # E
+  - '+.microsoftgamestack.com'  # E
+  - '+.microsoftiotinsiderlabs.com'  # E
+  - '+.microsoftreactor.cn'    # E
+  - '+.microsoftreactor.info'  # E
+  - '+.microsoftreactor.net'   # E
+  - '+.microsoftreactor.org'   # E
+  - '+.microsoftsilverlight.com'  # E
+  - '+.microsoftsilverlight.net'  # E
+  - '+.microsoftsilverlight.org'  # E
+  - '+.microsoftsqlserver.com'  # E
+  - '+.mingw.org'              # E
+  - '+.mit.edu'                # I J
+  - '+.mit.net'                # I J
+  - '+.mitpressjournals.org'   # I J
+  - '+.mktdns.com'             # G H
+  - '+.mkto-c0100.com'         # G H
+  - '+.mktorest.com'           # G H
+  - '+.mktroute.com'           # G H
+  - '+.mmdnn.com'              # E
+  - '+.mobatek.net'            # E
+  - '+.mobilemarketo.com'      # G H
+  - '+.mochajs.org'            # E
+  - '+.modperl.pl'             # E
+  - '+.mongodb.com'            # E
+  - '+.mongodb.org'            # E
+  - '+.mono-project.com'       # E
+  - '+.morganclaypool.com'     # I
+  - '+.motocms.com'            # E
+  - '+.motolia.com'            # G H
+  - '+.motopress.com'          # E
+  - '+.movidius.com'           # K L
+  - '+.movidius.net'           # K L
+  - '+.movidius.org'           # K
+  - '+.mpg.de'                 # J
+  - '+.mpv.io'                 # E
+  - '+.msdn.com'               # E
+  - '+.msinnovationchallenge.com'  # E
+  - '+.mspairlift.com'         # E
+  - '+.msropendata.com'        # E
+  - '+.msys2.org'              # E
+  - '+.mtt.org'                # I
+  - '+.mtvnservices.com'       # D
+  - '+.mushymush.tv'           # D
+  - '+.mvnrepository.com'      # F
+  - '+.myhulu.com'             # D
+  - '+.myilibrary.com'         # J
+  - '+.myjetbrains.com'        # E
+  - '+.mynixos.com'            # E
+  - '+.myoctocat.com'          # E
+  - '+.mysql.com'              # E
+  - '+.mystrikingly.com'       # E
+  - '+.mywaytopay.info'        # B C
+  - '+.mywaytopay.net'         # B C
+  - '+.nature.com'             # I J
+  - '+.naturemag.org'          # I
+  - '+.nejm.org'               # I J
+  - '+.neovim.io'              # E
+  - '+.nervanasys.com'         # K L
+  - '+.netfilter.org'          # E
+  - '+.neurology.org'          # I J
+  - '+.nevex.com'              # K L
+  - '+.newisiknowledge.com'    # I J
+  - '+.newpipe.net'            # E
+  - '+.newrelic.com'           # H
+  - '+.nextgenerationcenter.com'  # K L
+  - '+.nftables.org'           # E
+  - '+.nginx.com'              # E
+  - '+.nginx.org'              # E
+  - '+.niosii.com'             # K L
+  - '+.niosii.net'             # K L
+  - '+.nix-community.org'      # E
+  - '+.nix.dev'                # E
+  - '+.nix.store'              # E
+  - '+.nixcon.org'             # E
+  - '+.nixcon2017.org'         # E
+  - '+.nixlang.com'            # E
+  - '+.nixos.org'              # E
+  - '+.nixos.wiki'             # E
+  - '+.nixpkgs.org'            # E
+  - '+.nodejs.org'             # E
+  - '+.nodesource.com'         # E
+  - '+.nomadproject.io'        # E
+  - '+.notepad-plus-plus.org'  # E
+  - '+.npm.community'          # E
+  - '+.npmjs.com'              # E
+  - '+.npmjs.org'              # E
+  - '+.nuget.org'              # E
+  - '+.nugettest.org'          # E
+  - '+.octocaptcha.com'        # E
+  - '+.oecd-ilibrary.org'      # I J
+  - '+.oed.com'                # I J
+  - '+.ogp.me'                 # E
+  - '+.omekinteractive.com'    # K L
+  - '+.omniroot.com'           # H
+  - '+.omnitek.tv'             # K L
+  - '+.omniture.com'           # G H
+  - '+.omscr.com'              # I J
+  - '+.omtrdc.net'             # G H  覆盖 +.appleworldwidedeveloper.hb-api.omtrdc.net F, +.appleworldwidedeveloper.sc.omtrdc.net F 等 8 条
+  - '+.oneapi.com'             # E K L
+  - '+.oneapi.io'              # E K
+  - '+.opac-project.eu'        # I
+  - '+.openai.com'             # F
+  - '+.openamt.com'            # K L
+  - '+.opencas.io'             # E K
+  - '+.opendroneid.org'        # E K L
+  - '+.opengraphprotocol.com'  # E
+  - '+.opengraphprotocol.org'  # E
+  - '+.openjsf.org'            # E
+  - '+.openresty.org'          # E
+  - '+.openreview.net'         # I
+  - '+.opensource.guide'       # E
+  - '+.openssl.org'            # E
+  - '+.opensuse.org'           # E
+  - '+.opentranslatorstothings.org'  # E
+  - '+.openvino.ai'            # E K
+  - '+.openvinotoolkit.org'    # E K L
+  - '+.openwrt.org'            # E
+  - '+.optanedifference.com'   # K L
+  - '+.optica.org'             # I J
+  - '+.originalhulu.com'       # D
+  - '+.osapublishing.org'      # I J
+  - '+.osdn.net'               # E
+  - '+.ospray.net'             # E K L
+  - '+.ospray.org'             # E K L
+  - '+.oup.com'                # I J
+  - '+.ouplaw.com'             # I J
+  - '+.ovid.com'               # I J
+  - '+.oxfordaasc.com'         # I J
+  - '+.oxfordartonline.com'    # I J
+  - '+.oxfordbibliographies.com'  # I J
+  - '+.oxfordclinicalpsych.com'  # I J
+  - '+.oxforddnb.com'          # I J
+  - '+.oxfordfirstsource.com'  # I J
+  - '+.oxfordhandbooks.com'    # I J
+  - '+.oxfordlawtrove.com'     # I J
+  - '+.oxfordmedicine.com'     # I J
+  - '+.oxfordmusiconline.com'  # I J
+  - '+.oxfordpoliticstrove.com'  # I J
+  - '+.oxfordre.com'           # I J
+  - '+.oxfordreference.com'    # I J
+  - '+.oxfordscholarlyeditions.com'  # I J
+  - '+.oxfordscholarship.com'  # I J
+  - '+.oxfordwesternmusic.com'  # I J
+  - '+.pa9pal.com'             # B C
+  - '+.paaypal.com'            # B C
+  - '+.packagecloud.io'        # E
+  - '+.packagist.org'          # E
+  - '+.packer.io'              # E
+  - '+.paily.net'              # B C
+  - '+.paily.org'              # B C
+  - '+.paint.net'              # E
+  - '+.paipal.com'             # B C
+  - '+.paramount.com'          # D
+  - '+.paramountplus.com'      # D
+  - '+.parastorage.com'        # E
+  - '+.parse.com'              # E
+  - '+.passwordday.org'        # K
+  - '+.pavpal.com'             # B C
+  - '+.paydiant.com'           # B C
+  - '+.payhulu.com'            # D
+  - '+.paylike.com'            # B C
+  - '+.paypa1.com'             # B C
+  - '+.paypa1.org'             # B C
+  - '+.paypaal.com'            # B C
+  - '+.paypal-activate.com'    # B C
+  - '+.paypal-activate.info'   # B C
+  - '+.paypal-activate.org'    # B C
+  - '+.paypal-apac.com'        # B C
+  - '+.paypal-apps.com'        # B C
+  - '+.paypal-biz.com'         # B C
+  - '+.paypal-brandcentral.com'  # B C
+  - '+.paypal-business.com'    # B C
+  - '+.paypal-business.net'    # B C
+  - '+.paypal-business.org'    # B C
+  - '+.paypal-cardcash.com'    # B C
+  - '+.paypal-cash.com'        # B C
+  - '+.paypal-center.com'      # B C
+  - '+.paypal-center.info'     # B C
+  - '+.paypal-center.net'      # B C
+  - '+.paypal-center.org'      # B C
+  - '+.paypal-communication.com'  # B C
+  - '+.paypal-communications.com'  # B C
+  - '+.paypal-communications.net'  # B C
+  - '+.paypal-community.com'   # B C
+  - '+.paypal-community.net'   # B C
+  - '+.paypal-comunidad.com'   # B C
+  - '+.paypal-corp.com'        # B C
+  - '+.paypal-database.com'    # B C
+  - '+.paypal-donations.com'   # B C
+  - '+.paypal-dynamic.com'     # B C
+  - '+.paypal-engineering.com'  # B C
+  - '+.paypal-europe.com'      # B C
+  - '+.paypal-excelinvoicing.com'  # B C
+  - '+.paypal-exchanges.com'   # B C
+  - '+.paypal-forward.com'     # B C
+  - '+.paypal-galactic.com'    # B C
+  - '+.paypal-gift.com'        # B C
+  - '+.paypal-gifts.com'       # B C
+  - '+.paypal-gpplus.com'      # B C
+  - '+.paypal-here.com'        # B C
+  - '+.paypal-hrsystem.com'    # B C
+  - '+.paypal-innovationlab.com'  # B C
+  - '+.paypal-integration.com'  # B C
+  - '+.paypal-japan.com'       # B C
+  - '+.paypal-knowledge.com'   # B C
+  - '+.paypal-labs.com'        # B C
+  - '+.paypal-latam.com'       # B C
+  - '+.paypal-learning.com'    # B C
+  - '+.paypal-login.com'       # B C
+  - '+.paypal-login.info'      # B C
+  - '+.paypal-login.org'       # B C
+  - '+.paypal-luxury.com'      # B C
+  - '+.paypal-mainstreet.net'  # B C
+  - '+.paypal-marketing.com'   # B C
+  - '+.paypal-media.com'       # B C
+  - '+.paypal-merchantloyalty.com'  # B C
+  - '+.paypal-mktg.com'        # C
+  - '+.paypal-mobilemoney.com'  # B C
+  - '+.paypal-network.org'     # B C
+  - '+.paypal-notice.com'      # B C
+  - '+.paypal-notify.com'      # B C
+  - '+.paypal-online.info'     # B C
+  - '+.paypal-online.net'      # B C
+  - '+.paypal-online.org'      # B C
+  - '+.paypal-optimizer.com'   # B C
+  - '+.paypal-pages.com'       # B C
+  - '+.paypal-photocard.com'   # B C
+  - '+.paypal-plaza.com'       # B C
+  - '+.paypal-portal.com'      # B C
+  - '+.paypal-prepagata.com'   # B C
+  - '+.paypal-prepagata.net'   # B C
+  - '+.paypal-prepaid.com'     # B C
+  - '+.paypal-profile.com'     # B C
+  - '+.paypal-proserv.com'     # B C
+  - '+.paypal-qrshopping.org'  # B C
+  - '+.paypal-recargacelular.com'  # B C
+  - '+.paypal-redeem.com'      # B C
+  - '+.paypal-referral.com'    # B C
+  - '+.paypal-retail.com'      # B C
+  - '+.paypal-scoop.com'       # B C
+  - '+.paypal-search.com'      # B C
+  - '+.paypal-secure.net'      # B C
+  - '+.paypal-secure.org'      # B C
+  - '+.paypal-security.net'    # B C
+  - '+.paypal-security.org'    # B C
+  - '+.paypal-service.org'     # B C
+  - '+.paypal-signin.com'      # B C
+  - '+.paypal-special.com'     # B C
+  - '+.paypal-specialoffers.com'  # B C
+  - '+.paypal-sptam.com'       # B C
+  - '+.paypal-status.com'      # B C
+  - '+.paypal-support.com'     # B C
+  - '+.paypal-survey.com'      # B C
+  - '+.paypal-survey.org'      # B C
+  - '+.paypal-team.com'        # B C
+  - '+.paypal-viewpoints.net'  # B C
+  - '+.paypal.ca'              # B C
+  - '+.paypal.com'             # A B C
+  - '+.paypal.hk'              # B C
+  - '+.paypal.info'            # B C
+  - '+.paypal.jp'              # B C
+  - '+.paypal.me'              # B C
+  - '+.paypal.so'              # B C
+  - '+.paypalbeacon.com'       # B C
+  - '+.paypalbenefits.com'     # B C
+  - '+.paypalbrasil.com'       # B C
+  - '+.paypalcommunity.cn'     # B C
+  - '+.paypalcommunity.com'    # B C
+  - '+.paypalcommunity.net'    # B C
+  - '+.paypalcommunity.org'    # B C
+  - '+.paypalcorp.com'         # B C
+  - '+.paypalcredit.com'       # B C
+  - '+.paypalcreditcard.com'   # B C
+  - '+.paypalgivingfund.org'   # B C
+  - '+.paypalhere.cn'          # B C
+  - '+.paypalhere.com'         # B C
+  - '+.paypalhere.info'        # B C
+  - '+.paypalhere.net'         # B C
+  - '+.paypalhere.org'         # B C
+  - '+.paypalhere.tv'          # B C
+  - '+.paypali.net'            # B C
+  - '+.paypalinc.com'          # B C
+  - '+.paypalindia.com'        # B C
+  - '+.paypalinsuranceservices.org'  # B C
+  - '+.paypall.com'            # B C
+  - '+.paypallabs.com'         # B C
+  - '+.paypalme.com'           # B C
+  - '+.paypalnet.net'          # B C
+  - '+.paypalnet.org'          # B C
+  - '+.paypalnetwork.info'     # B C
+  - '+.paypalnetwork.net'      # B C
+  - '+.paypalnetwork.org'      # B C
+  - '+.paypalobjects.com'      # A B C
+  - '+.paypalonline.net'       # B C
+  - '+.paypalonline.org'       # B C
+  - '+.paypalprepagata.com'    # B C
+  - '+.paypalprepagata.net'    # B C
+  - '+.paypalservice.com'      # B C
+  - '+.paypalshopping.com'     # B C
+  - '+.paypalshopping.net'     # B C
+  - '+.paypalsurvey.com'       # B C
+  - '+.paypalx.com'            # B C
+  - '+.paypaly.com'            # B C
+  - '+.payppal.com'            # B C
+  - '+.payypal.com'            # B C
+  - '+.pc.com'                 # K L
+  - '+.pcre.org'               # E
+  - '+.pdf.new'                # G H
+  - '+.pdncommunity.com'       # B C
+  - '+.peerj.com'              # I J
+  - '+.pentium.com'            # K L
+  - '+.pentium.net'            # K L
+  - '+.perl.org'               # E
+  - '+.phantomjs.org'          # E
+  - '+.photolia.net'           # G H
+  - '+.photonicssociety.org'   # I
+  - '+.photoshop.com'          # G H
+  - '+.php.net'                # E
+  - '+.physiology.org'         # I J
+  - '+.pintool.com'            # K L
+  - '+.piwheels.org'           # E
+  - '+.pkgbuild.com'           # E
+  - '+.pkulaw.com'             # J
+  - '+.placesdocs.com'         # G H
+  - '+.plasma-mobile.org'      # E
+  - '+.playerjs.io'            # E
+  - '+.plos.org'               # I J
+  - '+.pluto.tv'               # D
+  - '+.pmem.org'               # K
+  - '+.pnas.org'               # I J
+  - '+.polymer-project.org'    # E
+  - '+.polymerproject.org'     # E
+  - '+.polyu.hk'               # I
+  - '+.poshtestgallery.com'    # E
+  - '+.postgresql.org'         # E
+  - '+.postman-echo.com'       # F
+  - '+.postman.com'            # E
+  - '+.poweredbyintel.com'     # K L
+  - '+.pp-soc.com'             # B C
+  - '+.ppaypal.com'            # B C
+  - '+.pplusstatic.com'        # D
+  - '+.pppds.com'              # B C
+  - '+.princeton.edu'          # I J
+  - '+.projectcircuitbreaker.com'  # K
+  - '+.projecteuclid.org'      # I
+  - '+.proquest.com'           # I J
+  - '+.psyccareers.com'        # I J
+  - '+.pub.dev'                # E
+  - '+.putty.org'              # E
+  - '+.pwabuilder.com'         # E
+  - '+.pycon.org'              # E
+  - '+.pypa.io'                # E
+  - '+.pypi.io'                # E
+  - '+.pypi.org'               # E
+  - '+.pypl.com'               # B C
+  - '+.pypl.info'              # B C
+  - '+.pypl.net'               # B C
+  - '+.pypl.tv'                # B C
+  - '+.pyrobot.org'            # E
+  - '+.python.org'             # E F
+  - '+.pythonhosted.org'       # E F
+  - '+.pyup.io'                # E
+  - '+.qt-project.org'         # E
+  - '+.qt.io'                  # E
+  - '+.qualtrics.com'          # L
+  - '+.quay.io'                # E F
+  - '+.r-project.org'          # E
+  - '+.raspberrypi.org'        # E
+  - '+.raspbian.org'           # E
+  - '+.react.com'              # E
+  - '+.reactjs.com'            # E
+  - '+.reactjs.org'            # E
+  - '+.readcube.com'           # J
+  - '+.readthedocs-hosted.com'  # E
+  - '+.readthedocs.com'        # E
+  - '+.readthedocs.io'         # E
+  - '+.readthedocs.org'        # E
+  - '+.reaxys.com'             # I
+  - '+.recoiljs.org'           # E
+  - '+.reconinstruments.com'   # K L
+  - '+.reconjet.com'           # K L
+  - '+.reddit.com'             # F
+  - '+.redhat.com'             # E F
+  - '+.redhat.org'             # E
+  - '+.redis.io'               # E
+  - '+.redislabs.com'          # E
+  - '+.regex101.com'           # E
+  - '+.registerhulu.com'       # D
+  - '+.remirepo.net'           # E
+  - '+.renderingtoolkit.org'   # E K
+  - '+.replit.com'             # E
+  - '+.repo.new'               # E
+  - '+.researchandcare.org'    # E F
+  - '+.researchgate.net'       # I J
+  - '+.researchintel.com'      # K L
+  - '+.researchkit.cn'         # E F
+  - '+.researchkit.hk'         # E F
+  - '+.researchkit.net'        # E F
+  - '+.researchkit.org'        # E F
+  - '+.researchkit.tv'         # E F
+  - '+.revenue-performance-management.com'  # G H
+  - '+.rocksdb.com'            # E
+  - '+.rocksdb.net'            # E
+  - '+.rocksdb.org'            # E
+  - '+.rockylinux.org'         # E
+  - '+.routledgehandbooks.com'  # I J
+  - '+.royalsocietypublishing.org'  # I J
+  - '+.rpmfusion.org'          # E
+  - '+.rsc.org'                # I J
+  - '+.ruby-lang.org'          # E
+  - '+.rubygems.org'           # E
+  - '+.rupress.org'            # I
+  - '+.rust-lang.org'          # E
+  - '+.rustup.rs'              # E
+  - '+.s-xoom.com'             # B C
+  - '+.s2stagehance.com'       # G H
+  - '+.sae.org'                # I
+  - '+.safetycli.com'          # E
+  - '+.saffrontech.com'        # K L
+  - '+.sagepub.com'            # I J
+  - '+.sanjesh.org'            # I
+  - '+.sankie.net'             # E
+  - '+.scala-lang.org'         # E
+  - '+.scala-sbt.org'          # E
+  - '+.scene7.com'             # G H
+  - '+.scholarpedia.org'       # I J
+  - '+.sci-hub.ee'             # I
+  - '+.sci-hub.se'             # I
+  - '+.sci-hub.st'             # I
+  - '+.sci-hub.tw'             # J
+  - '+.science.com'            # I
+  - '+.science.org'            # I J
+  - '+.sciencedirect.com'      # I J
+  - '+.sciencedirectassets.com'  # I J
+  - '+.sciencemag.org'         # I J
+  - '+.sciencenets.com'        # J
+  - '+.scienceonline.org'      # I
+  - '+.scientificamerican.com'  # I J
+  - '+.scientificlinux.org'    # E
+  - '+.scitation.org'          # I J
+  - '+.scival.com'             # I
+  - '+.scoop.sh'               # E
+  - '+.scopus.com'             # I J
+  - '+.secure-paypal.info'     # B C
+  - '+.securepaypal.info'      # B C
+  - '+.semanticscholar.org'    # I J
+  - '+.sensorynetworks.com'    # K L
+  - '+.sentry-cdn.com'         # E
+  - '+.sentry.dev'             # E
+  - '+.sentry.io'              # E
+  - '+.serialssolutions.com'   # I J  覆盖 ulrichsweb.serialssolutions.com I
+  - '+.serverfault.com'        # E
+  - '+.servicetalk.io'         # E F
+  - '+.sg1lib.org'             # I J
+  - '+.sharif.edu'             # I
+  - '+.sharif.ir'              # I
+  - '+.shellcheck.net'         # E
+  - '+.shields.io'             # E
+  - '+.showtime.com'           # D
+  - '+.siam.org'               # I J
+  - '+.sigcomm.org'            # I
+  - '+.sign.new'               # G H
+  - '+.signalprocessingsociety.org'  # I
+  - '+.sigops.org'             # I
+  - '+.sigopt.com'             # K
+  - '+.silicon-mobility.com'   # K
+  - '+.siliconmobility.com'    # K
+  - '+.silverchair-cdn.com'    # I J
+  - '+.simility.com'           # B C
+  - '+.singlelogin.app'        # I J
+  - '+.singlelogin.me'         # I J
+  - '+.singlelogin.re'         # I
+  - '+.singlelogin.site'       # I
+  - '+.siport.com'             # K L
+  - '+.sipriyearbook.org'      # I J
+  - '+.smart-edge.com'         # K L
+  - '+.smart-edge.info'        # K
+  - '+.smart-edge.io'          # K
+  - '+.smart-edge.net'         # K
+  - '+.smart-edge.org'         # K
+  - '+.smart-edge.systems'     # K
+  - '+.smartedge.info'         # K
+  - '+.snap-telemetry.io'      # E K L
+  - '+.snapcraft.io'           # E
+  - '+.snapstore.io'           # E
+  - '+.sonatype.org'           # F
+  - '+.sourcegraph.com'        # E F
+  - '+.sourcehut.org'          # E
+  - '+.spiedigitallibrary.org'  # I J
+  - '+.spring.io'              # F
+  - '+.spring.net'             # F
+  - '+.springer.com'           # I J
+  - '+.springerlink.com'       # I J
+  - '+.springernature.com'     # I J
+  - '+.sqlite.org'             # E
+  - '+.sqlserveronlinux.com'   # E
+  - '+.sr.ht'                  # E
+  - '+.srttu.edu'              # I
+  - '+.sslpaypal.org'          # B C
+  - '+.sstatic.net'            # E
+  - '+.stackage.org'           # E
+  - '+.stackapps.com'          # E
+  - '+.stackauth.com'          # E
+  - '+.stackexchange.com'      # E
+  - '+.stackmod.blog'          # E
+  - '+.stackoverflow.blog'     # E
+  - '+.stackoverflow.co'       # E
+  - '+.stackoverflow.com'      # E F
+  - '+.stackoverflow.email'    # E
+  - '+.stackoverflow.help'     # E
+  - '+.stackoverflow.net'      # E
+  - '+.stackoverflowbusiness.com'  # E
+  - '+.stackoverflowcareers.com'  # E
+  - '+.stackoverflowjobs.com'  # E
+  - '+.stackoverflowsolutions.com'  # E
+  - '+.stackoverflowteams.com'  # E
+  - '+.stacksnippets.net'      # E
+  - '+.standardsuniversity.org'  # I
+  - '+.statsmakemecry.com'     # I J
+  - '+.stockagainstphotography.com'  # E
+  - '+.storageclassmemory.io'  # K
+  - '+.storageclassmemory.org'  # K
+  - '+.strikingly.com'         # E
+  - '+.strikinglycdn.com'      # E
+  - '+.sublimetext.com'        # E
+  - '+.sundanceignite2016.com'  # G H
+  - '+.superuser.com'          # E
+  - '+.swift.org'              # E F
+  - '+.swiftbank.info'         # B C
+  - '+.swiftcapital.com'       # B C
+  - '+.swiftfinancial.com'     # B C
+  - '+.swiftfinancial.info'    # B C
+  - '+.swiftfinancial.net'     # B C
+  - '+.swiftui.cn'             # E F
+  - '+.symantec.com'           # H
+  - '+.symcb.com'              # H
+  - '+.symcd.com'              # H
+  - '+.system76.com'           # E
+  - '+.talkingkotlin.com'      # E
+  - '+.tampermonkey.net'       # E
+  - '+.tandfonline.com'        # I J
+  - '+.taylorandfrancis.com'   # I J
+  - '+.taylorfrancis.com'      # I J
+  - '+.technologyandsociety.org'  # I
+  - '+.techstreet.com'         # I
+  - '+.templatemonster.com'    # E
+  - '+.tenbyfotolia.com'       # G H
+  - '+.termius.com'            # E
+  - '+.termux.com'             # E
+  - '+.termux.dev'             # E
+  - '+.termux.org'             # E
+  - '+.terraform.io'           # E
+  - '+.tex-talk.net'           # E
+  - '+.thawte.com'             # H
+  - '+.thegithubshop.com'      # E
+  - '+.thehulubraintrust.com'  # D
+  - '+.theintelstore.com'      # K L
+  - '+.thelancet.com'          # I J
+  - '+.thepaypalshop.com'      # B C
+  - '+.thesffblog.com'         # E
+  - '+.theshoppingexpresslane.net'  # B C
+  - '+.thieme-connect.com'     # I
+  - '+.thieme-connect.de'      # I
+  - '+.thieme.de'              # I
+  - '+.threadingbuildingblocks.org'  # K
+  - '+.thunderbolttechnology.net'  # K L
+  - '+.tickdata.com'           # I
+  - '+.tilda.cc'               # E
+  - '+.tilda.ru'               # E
+  - '+.tilda.ws'               # E
+  - '+.tildaapi.com'           # E
+  - '+.tildacdn.com'           # E
+  - '+.tildacdn.net'           # E
+  - '+.timelinestoryteller.com'  # E
+  - '+.tmimgcdn.com'           # E
+  - '+.topcoder.com'           # E
+  - '+.tortoisegit.org'        # E
+  - '+.totalmateria.com'       # I
+  - '+.toutapp.com'            # G H
+  - '+.trustedanalytics.com'   # K L
+  - '+.trustedanalytics.net'   # K L
+  - '+.tryengineering.org'     # I
+  - '+.tubemogul.com'          # G
+  - '+.turnitin.com'           # J
+  - '+.typekit.com'            # G H
+  - '+.typekit.net'            # G H
+  - '+.ubuntu-touch.io'        # E
+  - '+.ubuntu.com'             # E
+  - '+.ubuntu.net'             # E
+  - '+.ubuntuforums.org'       # E
+  - '+.uchicago.edu'           # I J
+  - '+.ucla.edu'               # I J
+  - '+.ukwhoswho.com'          # I J
+  - '+.umass.edu'              # I J
+  - '+.un.org'                 # J
+  - '+.uni-bielefeld.de'       # J
+  - '+.unity.com'              # E
+  - '+.unity3d.com'            # E  覆盖 +.iads.unity3d.com E, +.unityads.unity3d.com E 等 8 条
+  - '+.universalscalablefirmware.org'  # E K
+  - '+.universitypressscholarship.com'  # I J
+  - '+.unpkg.com'              # E F
+  - '+.usaco.org'              # I
+  - '+.usenix.org'             # I
+  - '+.uwpcommunitytoolkit.com'  # E
+  - '+.v8.dev'                 # E
+  - '+.v8project.org'          # E
+  - '+.vagrantcloud.com'       # E
+  - '+.vagrantup.com'          # E
+  - '+.vaultproject.io'        # E
+  - '+.venmo-touch.com'        # B C
+  - '+.venmo.com'              # B C
+  - '+.venmo.info'             # B C
+  - '+.venmo.net'              # B C
+  - '+.venmo.org'              # B C
+  - '+.verisign.com'           # H
+  - '+.veryshortintroductions.com'  # I J
+  - '+.vfsforgit.com'          # E
+  - '+.vfsforgit.org'          # E
+  - '+.viacbs.com'             # D
+  - '+.viacom.com'             # D
+  - '+.viacomcbs.com'          # D
+  - '+.viacomcbspressexpress.com'  # D
+  - '+.videojs.com'            # E
+  - '+.videolan.org'           # E
+  - '+.videopress.com'         # E
+  - '+.vim.org'                # E
+  - '+.visualstudio-staging.com'  # E
+  - '+.visualstudio.co'        # E
+  - '+.visualstudio.com'       # E  覆盖 dc.services.visualstudio.com E, rt.services.visualstudio.com E
+  - '+.visualstudio.eu'        # E
+  - '+.visualstudio.net'       # E
+  - '+.vivox.com'              # E
+  - '+.vokevr.com'             # K L
+  - '+.votolia.com'            # G H
+  - '+.vpro.com'               # K L
+  - '+.vpro.net'               # K L
+  - '+.vsassets.io'            # E
+  - '+.vscode-cdn.net'         # E
+  - '+.vscode-unpkg.net'       # E
+  - '+.vscode-webview.net'     # E
+  - '+.vscode.dev'             # E
+  - '+.vscodeedu.app'          # E
+  - '+.vscodeedu.com'          # E
+  - '+.vtsociety.org'          # I
+  - '+.w.org'                  # E
+  - '+.wanfangdata.com'        # J
+  - '+.wapm.io'                # E
+  - '+.wasmer.io'              # E
+  - '+.watchespn.com'          # D
+  - '+.webflow-ext.com'        # E
+  - '+.webflow.com'            # E
+  - '+.webflow.io'             # E
+  - '+.webkit.org'             # E F
+  - '+.webkitgtk.org'          # E F
+  - '+.weblate.org'            # E
+  - '+.webmoneyinfo.com'       # B C
+  - '+.webobjects.com'         # E F
+  - '+.webofknowledge.com'     # I J
+  - '+.webofscience.com'       # I J
+  - '+.website-files.com'      # E
+  - '+.westlaw.com'            # I J
+  - '+.westlawchina.com'       # J
+  - '+.wiley.com'              # I J
+  - '+.wiremoneytoirelandwithxoomeasierandcheaper.com'  # B C
+  - '+.wireshark.org'          # E
+  - '+.wix-code.com'           # E
+  - '+.wix.com'                # E
+  - '+.wixanswers.com'         # E
+  - '+.wixapps.net'            # E
+  - '+.wixmp.com'              # E
+  - '+.wixsite.com'            # E
+  - '+.wixstatic.com'          # E
+  - '+.wkap.nl'                # I J
+  - '+.wolterskluwer.com'      # I
+  - '+.wordcamp.org'           # E
+  - '+.wordpress.com'          # E
+  - '+.wordpress.net'          # E
+  - '+.wordpress.org'          # E
+  - '+.wordpress.tv'           # E
+  - '+.worldbank.org'          # J  覆盖 databank.worldbank.org I
+  - '+.worldscientific.com'    # I J
+  - '+.worldsecureemail.com'   # G H
+  - '+.worldsecuresystems.com'  # G H
+  - '+.wp-themes.com'          # E
+  - '+.wp.com'                 # E
+  - '+.wpewebkit.org'          # E F
+  - '+.wpmailsmtp.com'         # E
+  - '+.wpvip.com'              # E
+  - '+.www-paypal.info'        # B C
+  - '+.wwwhuluplus.com'        # D
+  - '+.wwwxoom.com'            # B C
+  - '+.x.org'                  # E
+  - '+.xamarin.com'            # E
+  - '+.xeon.com'               # K L
+  - '+.xfce.org'               # E
+  - '+.xn--bnq297cix3a.cn'     # B C
+  - '+.xn--fiq80y.hk'          # I
+  - '+.xn--fiq80y.xn--j6w193g'  # I
+  - '+.xn--fiq80y3xbiwr.hk'    # I
+  - '+.xn--fiq80y3xbiwr.xn--j6w193g'  # I
+  - '+.xn--fiq80y3xbiwrs0kiu9d.hk'  # I
+  - '+.xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g'  # I
+  - '+.xn--pssu7ci2j23mp9ny48b.hk'  # I
+  - '+.xn--pssu7ci2j23mp9ny48b.xn--j6w193g'  # I
+  - '+.xn--pssu7ci3q5oge0ai91q.xn--j6w193g'  # I
+  - '+.xn--pssu7cv61af44b.hk'  # I
+  - '+.xn--pssu7cv61af44b.xn--j6w193g'  # I
+  - '+.xn--pssu7cz8nr8ibkx1e8a.xn--j6w193g'  # I
+  - '+.xn--uis44a.xn--j6w193g'  # I
+  - '+.xn--wcvs22d.xn--j6w193g'  # I
+  - '+.xn--ztsq84g.cn'         # K L
+  - '+.xoom-experience.com'    # B C
+  - '+.xoom.com'               # B C
+  - '+.xoom.io'                # B C
+  - '+.xoomcom.com'            # B C
+  - '+.xposed.info'            # E
+  - '+.xscale.com'             # K L
+  - '+.yale.edu'               # I J
+  - '+.yarnpkg.com'            # E
+  - '+.yogalayout.com'         # E
+  - '+.youtrack.cloud'         # E
+  - '+.z-lib.fm'               # I
+  - '+.z-lib.gd'               # I
+  - '+.z-lib.gl'               # I
+  - '+.z-lib.org'              # I J
+  - '+.z-library.se'           # I
+  - '+.z-library.sk'           # I
+  - '+.zed.dev'                # E
+  - '+.zenodo.org'             # I
+  - '+.ziglang.org'            # E
+  - '+.zlib.life'              # I J
+  - '+.zlibcdn.com'            # I J
+  - '+.zlibcdn2.com'           # I J
+  - '+.zotero.org'             # J
+  - '+.zsh.org'                # E
+  - '+.academic.eb.com'        # I
+  - '+.acaric.co.jp'           # I
+  - '+.altera.co.jp'           # K
+  - '+.amdigital.co.uk'        # I
+  - '+.anfutong.com.cn'        # B C
+  - '+.assetshuluimcom-a.akamaihd.net'  # D
+  - '+.bam.nr-data.net'        # H
+  - '+.beibao.com.cn'          # B C
+  - '+.cws-hulu.conviva.com'   # D
+  - '+.developer.apple.com'    # E F
+  - '+.developerservices2.apple.com'  # E F
+  - '+.devimages-cdn.apple.com'  # E F
+  - '+.devstreaming-cdn.apple.com'  # E F
+  - '+.dlib.eastview.com'      # I
+  - '+.dln1.ncdn.ec'           # I
+  - '+.espn.co.uk'             # D
+  - '+.firebase.google.com'    # E
+  - '+.greenend.org.uk'        # E
+  - '+.hanzhen.xmulib.org'     # I
+  - '+.icsd.fiz-karlsruhe.de'  # I
+  - '+.imperial.insendi.com'   # J  合并 imperial.insendi.com I
+  - '+.infolinker.com.tw'      # I
+  - '+.intel.co.ae'            # K L
+  - '+.intel.co.cr'            # K L
+  - '+.intel.co.id'            # K L
+  - '+.intel.co.il'            # K L
+  - '+.intel.co.jp'            # K L
+  - '+.intel.co.kr'            # K L
+  - '+.intel.co.uk'            # K L
+  - '+.intel.co.za'            # K L
+  - '+.intel.com.ar'           # K L
+  - '+.intel.com.au'           # K L
+  - '+.intel.com.bo'           # K L
+  - '+.intel.com.br'           # K L
+  - '+.intel.com.cn'           # K L
+  - '+.intel.com.co'           # K L
+  - '+.intel.com.ec'           # K L
+  - '+.intel.com.hk'           # K L
+  - '+.intel.com.jm'           # K L
+  - '+.intel.com.mx'           # K L
+  - '+.intel.com.my'           # K L
+  - '+.intel.com.pe'           # K L
+  - '+.intel.com.ph'           # K L
+  - '+.intel.com.pr'           # K L
+  - '+.intel.com.py'           # K L
+  - '+.intel.com.tr'           # K L
+  - '+.intel.com.tw'           # K L
+  - '+.intel.com.uy'           # K L
+  - '+.intel.com.ve'           # K L
+  - '+.jetbrains.com.cn'       # E
+  - '+.lawdata.com.tw'         # I J
+  - '+.mageconf.com.ua'        # G H
+  - '+.marketo.co.uk'          # G H
+  - '+.mcr.microsoft.com'      # E
+  - '+.microsoftreactor.com.cn'  # E
+  - '+.ncl.edu.tw'             # I
+  - '+.nii.ac.jp'              # I
+  - '+.p-events-delivery.akamaized.net'  # F  合并 p-events-delivery.akamaized.net E
+  - '+.paypal.com.cn'          # B C
+  - '+.paypal.com.hk'          # B C
+  - '+.paypal.com.sg'          # B C
+  - '+.paypal.net.cn'          # B C
+  - '+.paypal.org.cn'          # B C
+  - '+.paypalhere.com.cn'      # B C
+  - '+.playgrounds-cdn.apple.com'  # E F
+  - '+.prod.hjholdings.tv'     # D
+  - '+.reactorms.com.cn'       # E
+  - '+.researchkit.com.cn'     # E F
+  - '+.sci-hub.it.nf'          # I
+  - '+.sci-hub.mksa.top'       # I
+  - '+.sci.hubg.org'           # I
+  - '+.swiftui.com.cn'         # E F
+  - '+.tandf.co.uk'            # I J
+  - '+.timestamp.apple.com'    # E F
+  - '+.uq.edu.au'              # J
+  - '+.uq.h5p.com'             # J
+  - '+.us.ovhcloud.com'        # A
+  - '+.visualstudio.co.uk'     # E
+  - '+.wanfangdata.com.cn'     # J
+  - '+.xoom.net.cn'            # B C
+  - '+.apple.com.akadns.net'   # F
+  - '+.cbsplaylistserver.aws.syncbak.com'  # D
+  - '+.cbsservice.aws.syncbak.com'  # D
+  - '+.courier-push-apple.com.akadns.net'  # F
+  - '+.debian.map.fastlydns.net'  # E
+  - '+.jstage.jst.go.jp'       # I
+  - '+.ncbi.nlm.nih.gov'       # I J
+  - '+.notary-submissions-prod.s3-accelerate.amazonaws.com'  # F  合并 notary-submissions-prod.s3-accelerate.amazonaws.com E
+  - '+.push-apple.com.akadns.net'  # F
+  - '+.venmo.s3.amazonaws.com'  # C  合并 venmo.s3.amazonaws.com B
+  - '+.cbsi.live.ott.irdeto.com'  # D
+  - '+.hulu.playback.edge.bamgrid.com'  # D
+  - '+.notary-submissions-prod.s3.us-west-2.amazonaws.com'  # F  合并 notary-submissions-prod.s3.us-west-2.amazonaws.com E
+  - 'adobeereg.com'            # G
+  - 'amp.akamaized.net'        # E
+  - 'android.googlesource.com'  # E
+  - 'angle.com.tw'             # I
+  - 'beck-online.beck.de'      # I
+  - 'bingsettingssearch.trafficmanager.net'  # E
+  - 'crashlyticsreports-pa.googleapis.com'  # E
+  - 'crl.versign.net'          # G
+  - 'd29vzk4ow07wi7.cloudfront.net'  # E
+  - 'database.asahi.com'       # I
+  - 'default.exp-tas.com'      # E
+  - 'developer.microsoft.com'  # E
+  - 'developers.facebook.com'  # E
+  - 'dl.begellhouse.com'       # I
+  - 'dotnetcli.trafficmanager.net'  # E
+  - 'dtlgalleryint.cloudapp.net'  # E
+  - 'firebase.googleapis.com'  # E
+  - 'firebaseappcheck.googleapis.com'  # E
+  - 'firebaseappdistribution.googleapis.com'  # E
+  - 'firebaseapptesters.googleapis.com'  # E
+  - 'firebasedynamiclinks-ipv4.googleapis.com'  # E
+  - 'firebasedynamiclinks-ipv6.googleapis.com'  # E
+  - 'firebasedynamiclinks.googleapis.com'  # E
+  - 'firebaseinappmessaging.googleapis.com'  # E
+  - 'firebaseinstallations.googleapis.com'  # E
+  - 'firebaselogging-pa.googleapis.com'  # E
+  - 'firebaselogging.googleapis.com'  # E
+  - 'firebaseperusertopics-pa.googleapis.com'  # E
+  - 'firebaseremoteconfig.googleapis.com'  # E
+  - 'firstsearch.oclc.org'     # I
+  - 'github-api.arkoselabs.com'  # E
+  - 'link.theplatform.com'     # D
+  - 'medone-education.thieme.com'  # I
+  - 'ood.opsource.net'         # G
+  - 'packages.microsoft.com'   # E
+  - 'poshtestgallery.cloudapp.net'  # E
+  - 'psg-int-centralus.cloudapp.net'  # E
+  - 'psg-int-eastus.cloudapp.net'  # E
+  - 'rink.hockeyapp.net'       # E
+  - 'scholar.google.ae'        # I
+  - 'scholar.google.at'        # I
+  - 'scholar.google.be'        # I
+  - 'scholar.google.bg'        # I
+  - 'scholar.google.ca'        # I
+  - 'scholar.google.cat'       # I
+  - 'scholar.google.ch'        # I
+  - 'scholar.google.cl'        # I
+  - 'scholar.google.cn'        # I
+  - 'scholar.google.com'       # I J
+  - 'scholar.google.cz'        # I
+  - 'scholar.google.de'        # I
+  - 'scholar.google.dk'        # I
+  - 'scholar.google.es'        # I
+  - 'scholar.google.fi'        # I
+  - 'scholar.google.fr'        # I
+  - 'scholar.google.gr'        # I
+  - 'scholar.google.hn'        # I
+  - 'scholar.google.hr'        # I
+  - 'scholar.google.hu'        # I
+  - 'scholar.google.is'        # I
+  - 'scholar.google.it'        # I
+  - 'scholar.google.li'        # I
+  - 'scholar.google.lt'        # I
+  - 'scholar.google.lu'        # I
+  - 'scholar.google.lv'        # I
+  - 'scholar.google.nl'        # I
+  - 'scholar.google.no'        # I
+  - 'scholar.google.pl'        # I
+  - 'scholar.google.pt'        # I
+  - 'scholar.google.ro'        # I
+  - 'scholar.google.ru'        # I
+  - 'scholar.google.se'        # I
+  - 'scholar.google.si'        # I
+  - 'scholar.google.sk'        # I
+  - 'scholar.googleusercontent.com'  # I
+  - 'sundry-star-net-geo.trafficmanager.net'  # E
+  - 'vscode-sync-insiders.trafficmanager.net'  # E
+  - 'vscode-sync.trafficmanager.net'  # E
+  - 'vsmarketplacebadge.apphb.com'  # E
+  - 'az764295.vo.msecnd.net'   # E
+  - 'builds.dotnet.microsoft.com'  # E
+  - 'cc-ext-prod-pkgs.s3.amazonaws.com'  # H
+  - 'docker-pinata-support.s3.amazonaws.com'  # E
+  - 'download.visualstudio.microsoft.com'  # E
+  - 'elib.maruzen.co.jp'       # I
+  - 'github-cloud.s3.amazonaws.com'  # E
+  - 'github-production-release-asset-2e65be.s3.amazonaws.com'  # E
+  - 'github-production-repository-file-5c1aeb.s3.amazonaws.com'  # E
+  - 'github-production-repository-image-32fea6.s3.amazonaws.com'  # E
+  - 'github-production-upload-manifest-file-7fdce7.s3.amazonaws.com'  # E
+  - 'github-production-user-asset-6210df.s3.amazonaws.com'  # E
+  - 'gitlab-assets.oss-cn-hongkong.aliyuncs.com'  # E
+  - 'production-copilot-host-westus.webpubsub.azure.com'  # E
+  - 'scholar.google.co.cr'     # I
+  - 'scholar.google.co.id'     # I
+  - 'scholar.google.co.il'     # I
+  - 'scholar.google.co.in'     # I
+  - 'scholar.google.co.jp'     # I
+  - 'scholar.google.co.kr'     # I
+  - 'scholar.google.co.nz'     # I
+  - 'scholar.google.co.th'     # I
+  - 'scholar.google.co.uk'     # I
+  - 'scholar.google.co.ve'     # I
+  - 'scholar.google.co.za'     # I
+  - 'scholar.google.com.ar'    # I
+  - 'scholar.google.com.au'    # I
+  - 'scholar.google.com.bo'    # I
+  - 'scholar.google.com.br'    # I
+  - 'scholar.google.com.co'    # I
+  - 'scholar.google.com.cu'    # I
+  - 'scholar.google.com.do'    # I
+  - 'scholar.google.com.ec'    # I
+  - 'scholar.google.com.eg'    # I
+  - 'scholar.google.com.gt'    # I
+  - 'scholar.google.com.hk'    # I
+  - 'scholar.google.com.ly'    # I
+  - 'scholar.google.com.mx'    # I
+  - 'scholar.google.com.my'    # I
+  - 'scholar.google.com.ni'    # I
+  - 'scholar.google.com.pa'    # I
+  - 'scholar.google.com.pe'    # I
+  - 'scholar.google.com.ph'    # I
+  - 'scholar.google.com.pk'    # I
+  - 'scholar.google.com.pr'    # I
+  - 'scholar.google.com.py'    # I
+  - 'scholar.google.com.sg'    # I
+  - 'scholar.google.com.sv'    # I
+  - 'scholar.google.com.tr'    # I
+  - 'scholar.google.com.tw'    # I
+  - 'scholar.google.com.ua'    # I
+  - 'scholar.google.com.uy'    # I
+  - 'scholar.google.com.vn'    # I
+  - 'scholar.l.google.com'     # I
+  - 't21.nikkei.co.jp'         # I
+  - 't21ipau.nikkei.co.jp'     # I
+  - 'vscode.search.windows.net'  # E
+  - 'wrds-www.wharton.upenn.edu'  # I
+  - 'copilotprodattachments.blob.core.windows.net'  # E
+  - 'docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com'  # E
+  - 'espn.api.edge.bamgrid.com'  # D
+  - 'productionresultssa0.blob.core.windows.net'  # E
+  - 'productionresultssa1.blob.core.windows.net'  # E
+  - 'productionresultssa10.blob.core.windows.net'  # E
+  - 'productionresultssa11.blob.core.windows.net'  # E
+  - 'productionresultssa12.blob.core.windows.net'  # E
+  - 'productionresultssa13.blob.core.windows.net'  # E
+  - 'productionresultssa14.blob.core.windows.net'  # E
+  - 'productionresultssa15.blob.core.windows.net'  # E
+  - 'productionresultssa16.blob.core.windows.net'  # E
+  - 'productionresultssa17.blob.core.windows.net'  # E
+  - 'productionresultssa18.blob.core.windows.net'  # E
+  - 'productionresultssa19.blob.core.windows.net'  # E
+  - 'productionresultssa2.blob.core.windows.net'  # E
+  - 'productionresultssa3.blob.core.windows.net'  # E
+  - 'productionresultssa4.blob.core.windows.net'  # E
+  - 'productionresultssa5.blob.core.windows.net'  # E
+  - 'productionresultssa6.blob.core.windows.net'  # E
+  - 'productionresultssa7.blob.core.windows.net'  # E
+  - 'productionresultssa8.blob.core.windows.net'  # E
+  - 'productionresultssa9.blob.core.windows.net'  # E
+  - 'vscode.blob.core.windows.net'  # E
+  - 'vscode.download.prss.microsoft.com'  # E

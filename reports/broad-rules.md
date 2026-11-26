@@ -19,7 +19,7 @@
 
 `clash-classic/America-classic.yaml` → ⛳ 美国专线
 
-- 子串匹配：`adobe`
+- 子串匹配：`adobe` `paypal`
 
 `clash-classic/Apple-classic.yaml` → 🍎 Apple
 
@@ -46,7 +46,7 @@
 `clash-classic/HK-classic.yaml` → 🛫 香港专线
 
 - 手写 · 子串匹配：`annas-archive`
-- 子串匹配：`github` `paypal` `steambroadcast` `steamstore` `steamuserimages`
+- 子串匹配：`github` `steambroadcast` `steamstore` `steamuserimages`
 
 `clash-classic/Japan-classic.yaml` → 🌺 日本专线
 

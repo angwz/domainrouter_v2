@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-26 11:54:15 (UTC+8)
+# UPDATED: 2026-11-26 19:40:32 (UTC+8)
 # TYPE: domain
-# TOTAL: 29902
+# TOTAL: 29913
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -15256,12 +15256,14 @@ payload:
   - '+.megacamz.com'         # B C
   - '+.megaeth.com'          # B C
   - '+.megafilmporno.com'    # B C
+  - '+.megafon.cloud'        # B
   - '+.megafon.com'          # B C
   - '+.megafon.ru'           # B C
   - '+.megafonpro.ru'        # B C
   - '+.megahdporno.net'      # C
   - '+.megalodon.jp'         # A B C
   - '+.megapay.nz'           # B C
+  - '+.megapbx.ru'           # B
   - '+.megaphone.fm'         # B C
   - '+.megapornfreehd.com'   # B C
   - '+.megapornpics.com'     # B C
@@ -15269,6 +15271,7 @@ payload:
   - '+.megarotic.com'        # A C
   - '+.megas4.com'           # B C
   - '+.megasrv.de'           # B C
+  - '+.megatech-it.ru'       # B
   - '+.megatitsminka.com'    # B C
   - '+.megaupload.com'       # A C
   - '+.megavideo.com'        # A C
@@ -15374,6 +15377,7 @@ payload:
   - '+.mgo.com'              # B C
   - '+.mgoon.com'            # A B C
   - '+.mgstage.com'          # A B C
+  - '+.mgts.ru'              # B
   - '+.mh4u.org'             # A B C
   - '+.mhcb.ru'              # B C
   - '+.mhcbr.ru'             # B C
@@ -15906,6 +15910,7 @@ payload:
   - '+.mobile01.com'         # A B C
   - '+.mobilefacebook.com'   # B C
   - '+.mobileicq.com'        # B C
+  - '+.mobileid.ru'          # B
   - '+.mobileinternational.com'  # B C
   - '+.mobilemarketo.com'    # B C
   - '+.mobileme.dk'          # B C
@@ -16309,6 +16314,7 @@ payload:
   - '+.mullvad.net'          # A B C
   - '+.mult34.com'           # B C
   - '+.multicurrencycashpassport.com'  # B C
+  - '+.multifon.ru'          # B
   - '+.multiply.com'         # A B C
   - '+.multiplydiversity.com'  # B C
   - '+.multipornfor.me'      # C
@@ -17554,6 +17560,7 @@ payload:
   - '+.o3o.ca'               # A B C
   - '+.o3t.ru'               # B C
   - '+.o3team.ru'            # B C
+  - '+.o7.com'               # B
   - '+.oaistatic.com'        # B C
   - '+.oaistatsig.com'       # B C
   - '+.oaiusercontent.com'   # B C  覆盖 +.files.oaiusercontent.com A
@@ -17770,6 +17777,7 @@ payload:
   - '+.onion.ly'             # A B C
   - '+.onionshare.org'       # B C
   - '+.onkakao.net'          # B C
+  - '+.onlime.ru'            # B
   - '+.online-deals.net'     # B C
   - '+.online-instagram.com'  # B C
   - '+.onlineapplestore.com'  # B C
@@ -20243,6 +20251,7 @@ payload:
   - '+.roshy.tv'             # B C
   - '+.rossiyasegodnya.com'  # B C
   - '+.rostaxi.org'          # B C
+  - '+.rostelecom-rb.ru'     # B
   - '+.rostelecom.ru'        # B C
   - '+.rotten.com'           # A C
   - '+.rou.video'            # A B C
@@ -21758,6 +21767,7 @@ payload:
   - '+.spb.com'              # A B C
   - '+.spbexchange.ru'       # B C
   - '+.spcc-sp.com'          # B C
+  - '+.spd-mgts.ru'          # B
   - '+.speakerdeck.com'      # A B C
   - '+.spearhead.kr'         # B C
   - '+.specialtyheadphones.com'  # C
@@ -26018,6 +26028,7 @@ payload:
   - '+.xn--d1abkf4ap.fun'    # B C
   - '+.xn--d1acpjx3f.xn--p1ai'  # B C
   - '+.xn--d4ty0ojsqzfd.com'  # B C
+  - '+.xn--e1aapchhekkk.xn--p1ai'  # B
   - '+.xn--e1adjldbbpv.xn--90ais'  # B C
   - '+.xn--e1aigb.xn--p1ai'  # B C
   - '+.xn--fiq80y.hk'        # B C
