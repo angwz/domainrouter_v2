@@ -1,9 +1,9 @@
 # NAME: America
 # GROUP: ⛳ 美国专线
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-23 10:09:04 (UTC+8)
+# UPDATED: 2026-11-26 11:54:15 (UTC+8)
 # TYPE: domain
-# TOTAL: 1691
+# TOTAL: 1694
 # SOURCE A: my.wei
 # SOURCE B: blackmatrix7 · USMedia/USMedia.list
 # SOURCE C: MetaCubeX · geosite/category-dev.yaml
@@ -213,6 +213,7 @@ payload:
   - '+.buyaltera.com'           # I J
   - '+.bvdinfo.com'             # G
   - '+.cabdirect.org'           # H
+  - '+.cachix.org'              # C
   - '+.cairn.info'              # G
   - '+.calendarserver.org'      # C D
   - '+.callhulu.com'            # B
@@ -1369,6 +1370,7 @@ payload:
   - '+.visualstudio.com'        # C  覆盖 dc.services.visualstudio.com C, rt.services.visualstudio.com C
   - '+.visualstudio.eu'         # C
   - '+.visualstudio.net'        # C
+  - '+.vivox.com'               # C
   - '+.vokevr.com'              # I J
   - '+.votolia.com'             # E F
   - '+.vpro.com'                # I J
@@ -1537,6 +1539,7 @@ payload:
   - '+.cbsplaylistserver.aws.syncbak.com'  # B
   - '+.cbsservice.aws.syncbak.com'  # B
   - '+.courier-push-apple.com.akadns.net'  # D
+  - '+.debian.map.fastlydns.net'  # C
   - '+.jstage.jst.go.jp'        # G
   - '+.ncbi.nlm.nih.gov'        # G H
   - '+.notary-submissions-prod.s3-accelerate.amazonaws.com'  # D  合并 notary-submissions-prod.s3-accelerate.amazonaws.com C

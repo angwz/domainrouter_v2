@@ -1,7 +1,7 @@
 # 规则更新说明
 
-- 生成时间（UTC）：2026-11-25T04:44:47+00:00
-- generation：`8d90dfc8c336d88e`
+- 生成时间（UTC）：2026-11-26T03:54:15+00:00
+- generation：`2a695324d5295c73`
 - 结果：有变化，已更新发布文件
 
 ## 宽泛规则
@@ -16,43 +16,18 @@
 
 | 文件 | 条目 | 新增 | 删除 |
 | --- | --- | --- | --- |
-| `clash-domain/AI.yaml` | 309 → 310 | 1 | 0 |
-| `clash-domain/ChinaMedia.yaml` | 5507 → 5511 | 4 | 0 |
-| `clash-domain/Google.yaml` | 879 → 880 | 1 | 0 |
-| `clash-domain/Proxy.yaml` | 29896 → 29897 | 1 | 0 |
+| `clash-domain/America.yaml` | 1691 → 1694 | 3 | 0 |
+| `clash-domain/Proxy.yaml` | 29897 → 29902 | 5 | 0 |
 
 <details>
-<summary><code>clash-domain/AI.yaml</code></summary>
+<summary><code>clash-domain/America.yaml</code></summary>
 
-新增（1）：
-
-```text
-+.gemma.ai
-```
-
-</details>
-
-<details>
-<summary><code>clash-domain/ChinaMedia.yaml</code></summary>
-
-新增（4）：
+新增（3）：
 
 ```text
-+.chunithm.wahlap.com
-+.maimai.wahlap.com
-+.tgk-wcaime.wahlap.com
-+.wahlap.net
-```
-
-</details>
-
-<details>
-<summary><code>clash-domain/Google.yaml</code></summary>
-
-新增（1）：
-
-```text
-+.gemma.ai
++.cachix.org
++.debian.map.fastlydns.net
++.vivox.com
 ```
 
 </details>
@@ -60,10 +35,14 @@
 <details>
 <summary><code>clash-domain/Proxy.yaml</code></summary>
 
-新增（1）：
+新增（5）：
 
 ```text
-+.gemma.ai
++.cachix.org
++.fastly-insights.com
++.fastlydns.net
++.vivox.com
+courses.myecnu.org
 ```
 
 </details>
@@ -86,12 +65,12 @@
 | HK | 5112 | 4029 | 786 | 44 | 288 |
 | Apple | 3468 | 1594 | 1428 | 285 | 4 |
 | Singapore | 2202 | 1092 | 1100 | 5 | 6 |
-| America | 2511 | 1695 | 631 | 179 | 8 |
+| America | 2514 | 1698 | 631 | 179 | 8 |
 | ChinaMedia | 9985 | 7256 | 2223 | 426 | 117 |
 | OneDrive | 1086 | 684 | 385 | 13 | 8 |
 | Microsoft | 1511 | 770 | 611 | 123 | 14 |
 | Media | 13903 | 12602 | 1002 | 262 | 55 |
-| Proxy | 69493 | 30055 | 32796 | 6540 | 102 |
+| Proxy | 69498 | 30060 | 32796 | 6540 | 102 |
 | China | 506861 | 123422 | 337589 | 72 | 45779 |
 
 ## 会触发 DNS 解析的手写内联规则

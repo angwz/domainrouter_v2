@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T04:44:47+00:00",
-  "generation": "8d90dfc8c336d88eef9e050c6ee891be6408264a0c798826659f72d939781066",
+  "generated_at": "2026-11-26T03:54:15+00:00",
+  "generation": "2a695324d5295c732a2e070d243442754ec8ecdb313fb52788d96fea12eaeac1",
   "changed": true,
   "files": [
     {
@@ -153,18 +153,20 @@
     },
     {
       "path": "clash-domain/AI.yaml",
-      "before": 309,
+      "before": 310,
       "after": 310,
-      "added": [
-        "+.gemma.ai"
-      ],
+      "added": [],
       "removed": []
     },
     {
       "path": "clash-domain/America.yaml",
       "before": 1691,
-      "after": 1691,
-      "added": [],
+      "after": 1694,
+      "added": [
+        "+.cachix.org",
+        "+.debian.map.fastlydns.net",
+        "+.vivox.com"
+      ],
       "removed": []
     },
     {
@@ -190,14 +192,9 @@
     },
     {
       "path": "clash-domain/ChinaMedia.yaml",
-      "before": 5507,
+      "before": 5511,
       "after": 5511,
-      "added": [
-        "+.chunithm.wahlap.com",
-        "+.maimai.wahlap.com",
-        "+.tgk-wcaime.wahlap.com",
-        "+.wahlap.net"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -209,11 +206,9 @@
     },
     {
       "path": "clash-domain/Google.yaml",
-      "before": 879,
+      "before": 880,
       "after": 880,
-      "added": [
-        "+.gemma.ai"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -267,10 +262,14 @@
     },
     {
       "path": "clash-domain/Proxy.yaml",
-      "before": 29896,
-      "after": 29897,
+      "before": 29897,
+      "after": 29902,
       "added": [
-        "+.gemma.ai"
+        "+.cachix.org",
+        "+.fastly-insights.com",
+        "+.fastlydns.net",
+        "+.vivox.com",
+        "courses.myecnu.org"
       ],
       "removed": []
     },
@@ -721,7 +720,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml",
       "format": "auto",
-      "entries": 27228,
+      "entries": 27233,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1241,7 +1240,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml",
       "format": "auto",
-      "entries": 698,
+      "entries": 701,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2227,8 +2226,8 @@
     },
     {
       "collections": "America",
-      "input": 2511,
-      "output": 1695,
+      "input": 2514,
+      "output": 1698,
       "duplicates": 631,
       "covered": 179,
       "merged": 8
@@ -2267,8 +2266,8 @@
     },
     {
       "collections": "Proxy",
-      "input": 69493,
-      "output": 30055,
+      "input": 69498,
+      "output": 30060,
       "duplicates": 32796,
       "covered": 6540,
       "merged": 102

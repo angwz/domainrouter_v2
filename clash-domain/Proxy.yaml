@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-25 12:44:47 (UTC+8)
+# UPDATED: 2026-11-26 11:54:15 (UTC+8)
 # TYPE: domain
-# TOTAL: 29897
+# TOTAL: 29902
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -4797,6 +4797,7 @@ payload:
   - '+.cachefly.com'         # A B C
   - '+.cachefly.net'         # A B C
   - '+.cachinese.com'        # A C
+  - '+.cachix.org'           # B
   - '+.cacnw.com'            # A B C
   - '+.cactusvpn.com'        # A B C
   - '+.cad-mep.com'          # B C
@@ -8750,10 +8751,12 @@ payload:
   - '+.fastlane.ci'          # B C
   - '+.fastlane.tools'       # B C
   - '+.fastly-edge.com'      # B C  覆盖 google-ohttp-relay-safebrowsing.fastly-edge.com B, mozilla-ohttp.fastly-edge.com B
+  - '+.fastly-insights.com'  # B
   - '+.fastly-terrarium.com'  # B C
   - '+.fastly.com'           # B C
   - '+.fastly.io'            # B C
   - '+.fastly.net'           # A B C  覆盖 lastfm-img.freetls.fastly.net B, lastfm.freetls.fastly.net B 等 5 条
+  - '+.fastlydns.net'        # B
   - '+.fastlylabs.com'       # B C
   - '+.fastlylb.net'         # B C  覆盖 spotify.map.fastlylb.net B
   - '+.fastmail.com'         # A C
@@ -24596,6 +24599,7 @@ payload:
   - '+.vivaldi.com'          # A B C
   - '+.vivatube.com'         # A C
   - '+.vivaxnxx.com'         # B C
+  - '+.vivox.com'            # B
   - '+.vivthomas.com'        # A B C
   - '+.vixen.com'            # B C
   - '+.vixengroup.com'       # B C
@@ -29822,6 +29826,7 @@ payload:
   - 'cisco.evergage.com'     # B C
   - 'clubhouse.pubnubapi.com'  # C
   - 'community.oneplus.com'  # C
+  - 'courses.myecnu.org'     # B
   - 'crl.versign.net'        # B C
   - 'databank.worldbank.org'  # B C
   - 'deutschewelle.h-cdn.com'  # B C
