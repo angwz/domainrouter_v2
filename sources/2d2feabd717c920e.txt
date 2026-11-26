@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 698, "fetched_at": "2026-11-23T02:07:55+00:00", "format": "auto", "invalid": 0, "raw_sha256": "451c94a67e0e0f472054c7e5edc18f6310e29011d7dc672724066924f86ddea2", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 701, "fetched_at": "2026-11-26T03:53:11+00:00", "format": "auto", "invalid": 0, "raw_sha256": "b5af92fe1aa17aba8ee90a4dd7e0a7a18b54c1b86a7f23d9b44058a22519f76d", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-dev.yaml", "version": 1}
 d +.01.org
 d +.accountkit.com
 d +.acpica.com
@@ -52,6 +52,7 @@ d +.buckbuild.com
 d +.bugsnag.com
 d +.builtwithnix.org
 d +.busybox.net
+d +.cachix.org
 d +.cafe.github.com
 d +.calendarserver.org
 d +.canonical.com
@@ -88,6 +89,7 @@ d +.dart.dev
 d +.dartlang.org
 d +.dartpad.dev
 d +.datalore.io
+d +.debian.map.fastlydns.net
 d +.debian.org
 d +.deno.com
 d +.deno.land
@@ -555,6 +557,7 @@ d +.visualstudio.co.uk
 d +.visualstudio.com
 d +.visualstudio.eu
 d +.visualstudio.net
+d +.vivox.com
 d +.vsassets.io
 d +.vscode-cdn.net
 d +.vscode-unpkg.net
