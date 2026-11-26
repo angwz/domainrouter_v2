@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27233, "fetched_at": "2026-11-26T03:53:09+00:00", "format": "auto", "invalid": 0, "raw_sha256": "fbdbfc3e77bdcf47e395ba6a5a137c1f455b70dcec3b140aab619b0021892920", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27244, "fetched_at": "2026-11-26T11:39:42+00:00", "format": "auto", "invalid": 0, "raw_sha256": "7141b08eff34860163504280a55ebe8c5c2671e23ecd381546c367354b866d8e", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -14920,12 +14920,14 @@ d +.megaad.nz
 d +.megacamz.com
 d +.megaeth.com
 d +.megafilmporno.com
+d +.megafon.cloud
 d +.megafon.com
 d +.megafon.ru
 d +.megafonpro.ru
 d +.megalodon.jp
 d +.megamon.co.kr
 d +.megapay.nz
+d +.megapbx.ru
 d +.megaphone.fm
 d +.megapornfreehd.com
 d +.megaporno.com.br
@@ -14933,6 +14935,7 @@ d +.megapornpics.com
 d +.megaproxy.com
 d +.megas4.com
 d +.megasrv.de
+d +.megatech-it.ru
 d +.megatitsminka.com
 d +.megogo.net
 d +.megurineluka.com
@@ -15026,6 +15029,7 @@ d +.mgo-images.com
 d +.mgo.com
 d +.mgoon.com
 d +.mgstage.com
+d +.mgts.ru
 d +.mh4u.org
 d +.mhcb.ru
 d +.mhcbr.ru
@@ -15596,6 +15600,7 @@ d +.mobile.de
 d +.mobile01.com
 d +.mobilefacebook.com
 d +.mobileicq.com
+d +.mobileid.ru
 d +.mobileinternational.com
 d +.mobilemarketo.com
 d +.mobileme.dk
@@ -15989,6 +15994,7 @@ d +.mulheresafoder.com
 d +.mullvad.net
 d +.mult34.com
 d +.multicurrencycashpassport.com
+d +.multifon.ru
 d +.multiply.com
 d +.multiplydiversity.com
 d +.multporn.net
@@ -17217,6 +17223,7 @@ d +.o365weve.com
 d +.o3o.ca
 d +.o3t.ru
 d +.o3team.ru
+d +.o7.com
 d +.oaistatic.com
 d +.oaistatsig.com
 d +.oaiusercontent.com
@@ -17420,6 +17427,7 @@ d +.onion.city
 d +.onion.ly
 d +.onionshare.org
 d +.onkakao.net
+d +.onlime.ru
 d +.online-deals.net
 d +.online-instagram.com
 d +.online.recoveryversion.org
@@ -19735,6 +19743,7 @@ d +.rosemarydoll.com
 d +.roshy.tv
 d +.rossiyasegodnya.com
 d +.rostaxi.org
+d +.rostelecom-rb.ru
 d +.rostelecom.ru
 d +.rou.video
 d +.roudao6.buzz
@@ -21184,6 +21193,7 @@ d +.spatial.io
 d +.spb.com
 d +.spbexchange.ru
 d +.spcc-sp.com
+d +.spd-mgts.ru
 d +.speakerdeck.com
 d +.spearhead.kr
 d +.spectraltube.com
@@ -25242,6 +25252,7 @@ d +.xn--czq75pvv1aj5c.org
 d +.xn--d1abkf4ap.fun
 d +.xn--d1acpjx3f.xn--p1ai
 d +.xn--d4ty0ojsqzfd.com
+d +.xn--e1aapchhekkk.xn--p1ai
 d +.xn--e1adjldbbpv.xn--90ais
 d +.xn--e1aigb.xn--p1ai
 d +.xn--fiq80y.hk
