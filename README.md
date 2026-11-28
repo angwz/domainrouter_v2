@@ -59,7 +59,7 @@
 | OneDrive | `domain` | 672 | ⛅ OneDrive | [YAML](clash-domain/OneDrive.yaml) · [MRS](clash-domain/OneDrive.mrs) |
 | OneDrive | `ipcidr` | 3 | ⛅ OneDrive | [YAML](clash-ipcidr/OneDrive-ipcidr.yaml) · [MRS](clash-ipcidr/OneDrive-ipcidr.mrs) |
 | OneDrive | `classical` | 9 | ⛅ OneDrive | [YAML](clash-classic/OneDrive-classic.yaml) |
-| Microsoft | `domain` | 763 | 🪟 Microsoft | [YAML](clash-domain/Microsoft.yaml) · [MRS](clash-domain/Microsoft.mrs) |
+| Microsoft | `domain` | 764 | 🪟 Microsoft | [YAML](clash-domain/Microsoft.yaml) · [MRS](clash-domain/Microsoft.mrs) |
 | Microsoft | `classical` | 7 | 🪟 Microsoft | [YAML](clash-classic/Microsoft-classic.yaml) |
 | Media | `domain` | 11,121 | 🛖 国际流媒体 | [YAML](clash-domain/Media.yaml) · [MRS](clash-domain/Media.mrs) |
 | Media | `ipcidr` | 1,439 | 🛖 国际流媒体 | [YAML](clash-ipcidr/Media-ipcidr.yaml) · [MRS](clash-ipcidr/Media-ipcidr.mrs) |

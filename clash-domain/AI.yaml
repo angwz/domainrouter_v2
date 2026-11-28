@@ -1,7 +1,7 @@
 # NAME: AI
 # GROUP: 🗨️ ChatGPT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-26 19:40:32 (UTC+8)
+# UPDATED: 2026-11-28 11:41:42 (UTC+8)
 # TYPE: domain
 # TOTAL: 308
 # SOURCE A: MetaCubeX · geosite/x.yaml
@@ -77,7 +77,7 @@ payload:
   - '+.clipdrop.co'                    # F G H
   - '+.cloudflareinsights.com'         # N  覆盖 static.cloudflareinsights.com E P
   - '+.cms-twdigitalassets.com'        # A B
-  - '+.codeium.com'                    # F G  覆盖 inference.codeium.com H, server.codeium.com H
+  - '+.codeium.com'                    # F G  覆盖 server.codeium.com H
   - '+.codeiumdata.com'                # F G
   - '+.coderabbit.ai'                  # F G
   - '+.cohere.ai'                      # F G

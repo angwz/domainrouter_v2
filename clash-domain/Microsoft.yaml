@@ -1,9 +1,9 @@
 # NAME: Microsoft
 # GROUP: 🪟 Microsoft
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-17 12:18:37 (UTC+8)
+# UPDATED: 2026-11-28 11:41:42 (UTC+8)
 # TYPE: domain
-# TOTAL: 763
+# TOTAL: 764
 # SOURCE A: MetaCubeX · geosite/microsoft.yaml
 # SOURCE B: blackmatrix7 · Microsoft/Microsoft.list
 # SOURCE C: ruleset.skk.moe · non_ip/microsoft.txt
@@ -762,6 +762,7 @@ payload:
   - '+.msn.com.nsatc.net'        # B
   - '+.vip5.afdorigin-prod-am02.afdogw.com'  # B
   - '+.livetileedge.dsx.mp.microsoft.com.edgekey.net'  # B
+  - 'aurora-customization-usw2.lithium.com'  # A
   - 'github-api.arkoselabs.com'  # A
   - 'vsmarketplacebadge.apphb.com'  # A B
   - 'github-cloud.s3.amazonaws.com'  # A
