@@ -1,4 +1,4 @@
-# {"detected_format": "auto→surge", "entries": 60, "fetched_at": "2026-11-20T02:47:58+00:00", "format": "auto", "invalid": 0, "raw_sha256": "715e26395174b08c1140e0ebcd640ce1dbe7c140dfa052317f7d0e1cf957f1b4", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/non_ip/ai.txt", "version": 1}
+# {"detected_format": "auto→surge", "entries": 59, "fetched_at": "2026-11-28T03:40:56+00:00", "format": "auto", "invalid": 0, "raw_sha256": "758f4bdae785ff0e48333099c5bf59eacd93286b548ab685bd874a065977f28f", "skipped": 0, "url": "https://ruleset.skk.moe/Clash/non_ip/ai.txt", "version": 1}
 c DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 c DOMAIN-KEYWORD,openai
 d +.ai.com
@@ -53,7 +53,6 @@ d cloud.zed.dev
 d daily-cloudcode-pa.googleapis.com
 d daily-cloudcode-pa.sandbox.googleapis.com
 d gateway.ai.cloudflare.com
-d inference.codeium.com
 d jules.google.com
 d openrouter.ai
 d robinfrontend-pa.googleapis.com

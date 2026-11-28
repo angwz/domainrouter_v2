@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 759, "fetched_at": "2026-11-17T04:17:34+00:00", "format": "auto", "invalid": 0, "raw_sha256": "2851028486c4a1c07324a65808ccd22e147da2a4d5d270588a8c3e9099b374b0", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 760, "fetched_at": "2026-11-28T03:40:57+00:00", "format": "auto", "invalid": 0, "raw_sha256": "2b56a920f7b23b59c05e6a3c33416d9131f41c32763fcbcb83f0085cb9a1a3c8", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml", "version": 1}
 d +.1drv.com
 d +.21vbc.com
 d +.21vbluecloud.com
@@ -636,6 +636,7 @@ d +.xboxservices.com
 d +.xboxstudios.com
 d +.xbx.lv
 d +.yammer.com
+d aurora-customization-usw2.lithium.com
 d az764295.vo.msecnd.net
 d azure.microsoft.com
 d azuremarketplace.microsoft.com
