@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 882, "fetched_at": "2026-11-17T16:43:10+00:00", "format": "auto", "invalid": 0, "raw_sha256": "6709bf389b3f8574ae9c48a3f3032026788b6eec6463d475a62d5e78d8065bb8", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-games-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 883, "fetched_at": "2026-11-28T04:38:22+00:00", "format": "auto", "invalid": 0, "raw_sha256": "7bfd37c59b9ca5831649cbad99316f818f60ff12d6a81d82e7658d74f7bf83a1", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-games-!cn.yaml", "version": 1}
 d +.100classicbooks.com
 d +.2k.com
 d +.2kcoretech.online
@@ -184,6 +184,7 @@ d +.fabricmc.net
 d +.faceit-cdn.net
 d +.faceit.com
 d +.fanatical.com
+d +.fce.gg
 d +.ficgs.com
 d +.fifastreet.com
 d +.fifastreet3.com

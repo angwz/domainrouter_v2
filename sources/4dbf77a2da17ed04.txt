@@ -1,4 +1,4 @@
-# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27244, "fetched_at": "2026-11-26T11:39:42+00:00", "format": "auto", "invalid": 0, "raw_sha256": "7141b08eff34860163504280a55ebe8c5c2671e23ecd381546c367354b866d8e", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
+# {"detected_format": "auto→mihomo-yaml/auto", "entries": 27249, "fetched_at": "2026-11-28T04:38:19+00:00", "format": "auto", "invalid": 0, "raw_sha256": "f3732de7ff4c982c899fc4329db266c11d9764c58efd720b943517ad700a294e", "skipped": 0, "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml", "version": 1}
 d +.000webhost.com
 d +.01.org
 d +.02weqj32.com
@@ -1065,6 +1065,7 @@ d +.ai7995.site
 d +.ai91porn.cc
 d +.aiaa.org
 d +.aiasahi.jp
+d +.aicu.cc
 d +.aidc.com.tw
 d +.aihub.top
 d +.aimei133.com
@@ -6257,6 +6258,7 @@ d +.dandanplay.com
 d +.dandanplay.net
 d +.dandanzan.cc
 d +.danke4china.net
+d +.danmakus.com
 d +.danmarkbeatsbydrdre.com
 d +.danskpornofilm.com
 d +.dansmovies.com
@@ -8710,6 +8712,7 @@ d +.fc2cn.com
 d +.fc2ppv.tv
 d +.fcacebook.com
 d +.fcaebook.com
+d +.fce.gg
 d +.fcebook.com
 d +.fcebookk.com
 d +.fcfacebook.com
@@ -21165,6 +21168,7 @@ d +.soyjak.party
 d +.soyjak.st
 d +.sp.cool
 d +.spacebattles.com
+d +.spacedesk.net
 d +.spaceexplored.com
 d +.spaceforce.mil
 d +.spacely.com.au
@@ -26529,6 +26533,7 @@ d asahishimbun.sc.omtrdc.net
 d assets.ppy.sh
 d audio-ak-spotify-com.akamaized.net
 d audio4-ak-spotify-com.akamaized.net
+d aurora-customization-usw2.lithium.com
 d avatargarenanow-a.akamaihd.net
 d az764295.vo.msecnd.net
 d azure.microsoft.com
