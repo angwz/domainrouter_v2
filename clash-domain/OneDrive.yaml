@@ -1,7 +1,7 @@
 # NAME: OneDrive
 # GROUP: ⛅ OneDrive
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-28 12:39:24 (UTC+8)
 # TYPE: domain
 # TOTAL: 672
 # SOURCE A: MetaCubeX · geosite/onedrive.yaml
@@ -156,6 +156,8 @@ payload:
   - '+.npupt.com'              # C E F
   - '+.onedrive.com'           # A B
   - '+.open.cd'                # C E F
+  - '+.opentracker.xyz'        # D
+  - '+.opentrackr.org'         # D  覆盖 tracker.opentrackr.org E F
   - '+.oppaiti.me'             # E F
   - '+.orpheus.network'        # C E F
   - '+.ourbits.club'           # C E F
@@ -217,6 +219,7 @@ payload:
   - '+.worldboxingvideoarchive.com'  # D
   - '+.xwt-classics.net'       # D
   - '+.yuwabits.net'           # D
+  - '+.zer0day.ch'             # D  合并 zer0day.ch E F
   - '+.zhuque.in'              # C
   - '+.zmpt.cc'                # C
   - '+.zone-torrent.net'       # D
@@ -288,7 +291,6 @@ payload:
   - 'openbittorrent.com'       # D
   - 'opentor.org'              # D E F
   - 'opentracker.io'           # D
-  - 'opentrackr.org'           # D
   - 'orgtgju.org'              # E F
   - 'potuk.com'                # D
   - 'pow7.com'                 # D
@@ -316,7 +318,6 @@ payload:
   - 'wepzone.net'              # D
   - 'xbtrutor.com'             # D
   - 'xtremewrestlingtorrents.net'  # D
-  - 'zer0day.ch'               # E F
   - 'zupix.online'             # D
   - '0d.kebhana.mx'            # D
   - '10.rarbg.com'             # D
@@ -574,7 +575,6 @@ payload:
   - 'tracker.open-internet.nl'  # D
   - 'tracker.openbittorrent.com'  # D
   - 'tracker.opentorrent.top'  # E F
-  - 'tracker.opentrackr.org'   # D E F
   - 'tracker.openwebtorrent.com'  # E F
   - 'tracker.picotorrent.one'  # D
   - 'tracker.pirateparty.gr'   # D

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T03:41:42+00:00",
-  "generation": "448e718b2591cf4141b5ec85e112e6d4ba514bbbf7feb14ae099f46f68d979e9",
+  "generated_at": "2026-11-28T04:39:24+00:00",
+  "generation": "3c3d1032031822674d383d26506d2004c3d1110822ca54c2020c39a487906a74",
   "changed": true,
   "files": [
     {
@@ -126,8 +126,10 @@
     {
       "path": "clash-classic/Telegram-classic.yaml",
       "before": 12,
-      "after": 12,
-      "added": [],
+      "after": 13,
+      "added": [
+        "AND,((DST-PORT,5223),(IP-CIDR,17.0.0.0/8,no-resolve))"
+      ],
       "removed": []
     },
     {
@@ -189,8 +191,10 @@
     {
       "path": "clash-domain/ChinaMedia.yaml",
       "before": 5511,
-      "after": 5511,
-      "added": [],
+      "after": 5512,
+      "added": [
+        "+.fce.gg"
+      ],
       "removed": []
     },
     {
@@ -230,11 +234,9 @@
     },
     {
       "path": "clash-domain/Microsoft.yaml",
-      "before": 763,
+      "before": 764,
       "after": 764,
-      "added": [
-        "aurora-customization-usw2.lithium.com"
-      ],
+      "added": [],
       "removed": []
     },
     {
@@ -255,14 +257,27 @@
       "path": "clash-domain/OneDrive.yaml",
       "before": 672,
       "after": 672,
-      "added": [],
-      "removed": []
+      "added": [
+        "+.opentracker.xyz",
+        "+.opentrackr.org",
+        "+.zer0day.ch"
+      ],
+      "removed": [
+        "opentrackr.org",
+        "tracker.opentrackr.org",
+        "zer0day.ch"
+      ]
     },
     {
       "path": "clash-domain/Proxy.yaml",
       "before": 29913,
-      "after": 29913,
-      "added": [],
+      "after": 29917,
+      "added": [
+        "+.aicu.cc",
+        "+.danmakus.com",
+        "+.fce.gg",
+        "+.spacedesk.net"
+      ],
       "removed": []
     },
     {
@@ -275,8 +290,12 @@
     {
       "path": "clash-domain/Telegram.yaml",
       "before": 28,
-      "after": 28,
-      "added": [],
+      "after": 31,
+      "added": [
+        "+.courier-push-apple.com.akadns.net",
+        "+.push-apple.com.akadns.net",
+        "+.push.apple.com"
+      ],
       "removed": []
     },
     {
@@ -401,8 +420,14 @@
     {
       "path": "clash-ipcidr/Telegram-ipcidr.yaml",
       "before": 14,
-      "after": 14,
-      "added": [],
+      "after": 19,
+      "added": [
+        "17.188.128.0/18",
+        "17.188.20.0/23",
+        "17.249.0.0/16",
+        "17.252.0.0/16",
+        "17.57.144.0/22"
+      ],
       "removed": []
     },
     {
@@ -712,7 +737,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml",
       "format": "auto",
-      "entries": 27244,
+      "entries": 27249,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1720,7 +1745,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-public-tracker.yaml",
       "format": "auto",
-      "entries": 437,
+      "entries": 438,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1904,7 +1929,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.yaml",
       "format": "auto",
-      "entries": 1066,
+      "entries": 1067,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -1920,7 +1945,7 @@
     {
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-games-!cn.yaml",
       "format": "auto",
-      "entries": 882,
+      "entries": 883,
       "failures": 0,
       "failed_days": 0,
       "error": ""
@@ -2178,8 +2203,8 @@
     },
     {
       "collections": "Telegram",
-      "input": 97,
-      "output": 54,
+      "input": 106,
+      "output": 63,
       "duplicates": 33,
       "covered": 0,
       "merged": 10
@@ -2226,19 +2251,19 @@
     },
     {
       "collections": "ChinaMedia",
-      "input": 9985,
-      "output": 7256,
-      "duplicates": 2223,
+      "input": 9987,
+      "output": 7257,
+      "duplicates": 2224,
       "covered": 426,
       "merged": 117
     },
     {
       "collections": "OneDrive",
-      "input": 1086,
+      "input": 1087,
       "output": 684,
-      "duplicates": 385,
-      "covered": 13,
-      "merged": 8
+      "duplicates": 384,
+      "covered": 14,
+      "merged": 10
     },
     {
       "collections": "Microsoft",
@@ -2258,10 +2283,10 @@
     },
     {
       "collections": "Proxy",
-      "input": 69509,
-      "output": 30071,
+      "input": 69514,
+      "output": 30075,
       "duplicates": 32796,
-      "covered": 6540,
+      "covered": 6541,
       "merged": 102
     },
     {
@@ -2278,6 +2303,12 @@
   ],
   "broad": {
     "filtered": [],
-    "new": []
+    "new": [
+      {
+        "path": "clash-classic/Telegram-classic.yaml",
+        "rule": "AND,((DST-PORT,5223),(IP-CIDR,17.0.0.0/8,no-resolve))",
+        "reason": "AND：不区分目标，按连接属性匹配；/8 大网段"
+      }
+    ]
   }
 }

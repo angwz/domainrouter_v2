@@ -1,9 +1,9 @@
 # NAME: Proxy
 # GROUP: 🌠 节点选择
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-26 19:40:32 (UTC+8)
+# UPDATED: 2026-11-28 12:39:24 (UTC+8)
 # TYPE: domain
-# TOTAL: 29913
+# TOTAL: 29917
 # SOURCE A: blackmatrix7 · Proxy/Proxy.list
 # SOURCE B: MetaCubeX · geosite/geolocation-!cn.yaml
 # SOURCE C: blackmatrix7 · Global/Global.list
@@ -1203,6 +1203,7 @@ payload:
   - '+.aiasahi.jp'           # B C
   - '+.aibaobei.me'          # C
   - '+.aicoin.com'           # C
+  - '+.aicu.cc'              # B
   - '+.aihub.top'            # A B C
   - '+.aimei133.com'         # B C
   - '+.aimoon.com'           # C
@@ -6350,6 +6351,7 @@ payload:
   - '+.danemarket.com'       # C
   - '+.danilo.to'            # A C
   - '+.danke4china.net'      # A B C
+  - '+.danmakus.com'         # B
   - '+.danmarkbeatsbydrdre.com'  # B C
   - '+.danskpornofilm.com'   # B C
   - '+.dansmovies.com'       # B C
@@ -8829,6 +8831,7 @@ payload:
   - '+.fc2web.com'           # A C  覆盖 +.uygur.fc2web.com B
   - '+.fcacebook.com'        # B C
   - '+.fcaebook.com'         # B C
+  - '+.fce.gg'               # B
   - '+.fcebook.com'          # B C
   - '+.fcebookk.com'         # B C
   - '+.fcfacebook.com'       # B C
@@ -14483,7 +14486,7 @@ payload:
   - '+.litenews.hk'          # A B C
   - '+.literatumonline.com'  # B C
   - '+.literotica.com'       # B C
-  - '+.lithium.com'          # A C  覆盖 +.i.lithium.com B
+  - '+.lithium.com'          # A C  覆盖 +.i.lithium.com B, aurora-customization-usw2.lithium.com B
   - '+.littleasians.com'     # B C
   - '+.littlehj.com'         # A C
   - '+.littlesexdolls.com'   # B C
@@ -21740,6 +21743,7 @@ payload:
   - '+.soylentnews.org'      # A C
   - '+.sp.cool'              # B C
   - '+.spacebattles.com'     # B
+  - '+.spacedesk.net'        # B
   - '+.spaceexplored.com'    # B C
   - '+.spaceforce.mil'       # A B C
   - '+.spacemail.com'        # B C

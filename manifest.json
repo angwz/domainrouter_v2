@@ -175,10 +175,10 @@
       "collections": [
         "Telegram"
       ],
-      "entries": 12,
+      "entries": 13,
       "format": "yaml",
       "path": "clash-classic/Telegram-classic.yaml",
-      "sha256": "91d09bb69b3ca3df24e5309851b28c7cd5dd21f747efac232136b86e4f23055b"
+      "sha256": "1b413505f1eec3305726638b099fdd4c216eb2ff4645085eb238d072b6070897"
     },
     {
       "behavior": "classical",
@@ -315,20 +315,20 @@
       "collections": [
         "ChinaMedia"
       ],
-      "entries": 5511,
+      "entries": 5512,
       "format": "mrs",
       "path": "clash-domain/ChinaMedia.mrs",
-      "sha256": "25ed23b5cfa5c6527e7ec8bf669dcad4c1f8923632cd63fb79eb99a1c2b6131e"
+      "sha256": "ab6ea6b752dc998a6375bcd427c22a2c997639e3093b88499adac32a9c516e29"
     },
     {
       "behavior": "domain",
       "collections": [
         "ChinaMedia"
       ],
-      "entries": 5511,
+      "entries": 5512,
       "format": "yaml",
       "path": "clash-domain/ChinaMedia.yaml",
-      "sha256": "fb1d0b2d131a007a46d514cc6851d6333e45de2d56ebfc3f7265db11953708ae"
+      "sha256": "1507981175273dd54a214550baaa872c9aa5d4adf5aaf00f5f21b31e8133bf09"
     },
     {
       "behavior": "domain",
@@ -498,7 +498,7 @@
       "entries": 672,
       "format": "mrs",
       "path": "clash-domain/OneDrive.mrs",
-      "sha256": "d47a38c078418da73e17a96d365bbccae4c4720a94e49f5a5abbfe9678d0bb78"
+      "sha256": "9de8222e3794283dbdfd827140c39b4c7f27ce48d9b8f496fb0b16657bd08198"
     },
     {
       "behavior": "domain",
@@ -508,27 +508,27 @@
       "entries": 672,
       "format": "yaml",
       "path": "clash-domain/OneDrive.yaml",
-      "sha256": "ef59d58ed9dba84f5f037f75670db728aaa03ff318e37acca4ad97702f61c25c"
+      "sha256": "78ad771d5d6c99bf8a32b83c8c0fd3fb3489d6bce32e46860233fb16babe0f2d"
     },
     {
       "behavior": "domain",
       "collections": [
         "Proxy"
       ],
-      "entries": 29913,
+      "entries": 29917,
       "format": "mrs",
       "path": "clash-domain/Proxy.mrs",
-      "sha256": "1ad31e0c76994d8b464a229d87edaad5f3602b14023457ad11cabc38dff951d7"
+      "sha256": "58ec9e567d516189e33c7f718854811fb6050a6bc7d5c065bb5bee3580a14999"
     },
     {
       "behavior": "domain",
       "collections": [
         "Proxy"
       ],
-      "entries": 29913,
+      "entries": 29917,
       "format": "yaml",
       "path": "clash-domain/Proxy.yaml",
-      "sha256": "f672f6b39234997e6c2403017065a4c59b239c5b5f4638450b4ff47243dc2143"
+      "sha256": "1d190bd643a7354a09bf57a838fc42536d8c608f1c80f6406e91586c6750615c"
     },
     {
       "behavior": "domain",
@@ -555,20 +555,20 @@
       "collections": [
         "Telegram"
       ],
-      "entries": 28,
+      "entries": 31,
       "format": "mrs",
       "path": "clash-domain/Telegram.mrs",
-      "sha256": "a6a3480610675f4f3cc1eaf8712dc0c3fe754971ad8370d23002373a90df0f5f"
+      "sha256": "82433954fbd96085d18c0cd79a2d82c49b7c9d929f89c5f6a507ff09d074ad75"
     },
     {
       "behavior": "domain",
       "collections": [
         "Telegram"
       ],
-      "entries": 28,
+      "entries": 31,
       "format": "yaml",
       "path": "clash-domain/Telegram.yaml",
-      "sha256": "260b440035922977e18cdcf8f77bade682f952fb2a435906d133a118bbe983cc"
+      "sha256": "6065eb6e61c538b179b13f329a68b236eefdd185fca9c2d2686a99c00f72a80e"
     },
     {
       "behavior": "domain",
@@ -915,20 +915,20 @@
       "collections": [
         "Telegram"
       ],
-      "entries": 14,
+      "entries": 19,
       "format": "mrs",
       "path": "clash-ipcidr/Telegram-ipcidr.mrs",
-      "sha256": "a3809b596d3fba285cc76a43b6964fd38008ffb0f5b0a470a8a028f68c5b4f56"
+      "sha256": "d1ab351cbf13f019248c3e3527a0e465377121cddc2fe52fe664831dfd9a8506"
     },
     {
       "behavior": "ipcidr",
       "collections": [
         "Telegram"
       ],
-      "entries": 14,
+      "entries": 19,
       "format": "yaml",
       "path": "clash-ipcidr/Telegram-ipcidr.yaml",
-      "sha256": "7cb07d1a60d2d80eb93879511f4e4582c419017f1544dfe2955835af64832ca6"
+      "sha256": "4b74a00941a8d738fd7462cc821cdb1a543db8d270afda8efb5ac107ca57bd29"
     },
     {
       "behavior": "ipcidr",
@@ -972,24 +972,24 @@
     }
   ],
   "documents": {
-    "README.md": "8137635fe4e92f77ffe9ad1cacb3311642dd2abe5d2fec77b685f519165c3742",
-    "reports/broad-rules.md": "3a11a4575d13dd8aabe1b0cf1ca9f9c104c8106043375af9e84c61acab7111c3"
+    "README.md": "667ee81daf353b91720040e0a3b2c73d9ab6e12df7e803881d5b90b49ecc94f1",
+    "reports/broad-rules.md": "d3a66c030e72618d6345bc27f468fee61ebf6f2837bcef886f521ff8211855e3"
   },
   "engine": "9feac1bb2da74cc90b5d702b80962993e21b86b3f565ceb8ac4d95579cc5f30e",
-  "generation": "448e718b2591cf4141b5ec85e112e6d4ba514bbbf7feb14ae099f46f68d979e9",
+  "generation": "3c3d1032031822674d383d26506d2004c3d1110822ca54c2020c39a487906a74",
   "generator": "domainrouter_v2 2.0.0",
   "groups": {
     "sha256": "f725c2c404a91da397bf22a0cd6ba933d970f010c5245f79804b9e569e1ab1a7"
   },
   "inputs": {
     "groups": "f725c2c404a91da397bf22a0cd6ba933d970f010c5245f79804b9e569e1ab1a7",
-    "rules": "1e44e279c1eedbe46762b8d184a480739c3fe46ce6b4e039b2f6c12d754ed58f",
+    "rules": "3eea46e5461f1b4afe3c851d4a2ad90a34f8fdcf8e16976ee8438a5cf00b90de",
     "sources": {
       "002e649058dcadcf": "47cbef120375369cc598bde820ca051fa22aadd0c3f6ba0a5ecdcac7012b8895",
       "008b3ec0423aef73": "aeab215b54dbef79fde0cc21a554e10bed27c5e1303b856c5f15e3f893e016f8",
       "01345f694c37249f": "6abdbe3af3f0edbe03288f9b7cd4963361824a2fbf1cd40307d58a395f43da18",
       "015b9589de9e75ab": "5e12e3faf1fefe6970fb7e3101ace27917a30fc379a1c4ec0cd2927cce30a8dc",
-      "0200aa5ea0bde8f7": "2d0b5b114e79f2bfafd0f8da2cb3252c66ea144c341a9dc8b73f93a71d8e156c",
+      "0200aa5ea0bde8f7": "b9784a4af853f3ed571d28cae1557fdf052e74d1e8f90bde0ec14753ac9797cf",
       "0293607df14456b1": "559ea68db96af2c0e09cb7f2697f642f092f4ef47c11db7b31448db01faedf7b",
       "02aa40e9b4d19aec": "42f2909450021fcbad762faf3a9ff6d1b6ba732c361d0fab2eaf7a26a3491f9e",
       "02dbb3de20375dd0": "42f2909450021fcbad762faf3a9ff6d1b6ba732c361d0fab2eaf7a26a3491f9e",
@@ -1018,7 +1018,7 @@
       "1ce0cb25605b070e": "661ae23a78ffa34c0211ce16d30963d4eee2b9bcc27eaeae41224633db95bf5e",
       "1df48e2113a591dd": "0356f6d775ec135120853c4584b9b3cc8390bab683ab63d2b5ec2d0cfc436e1a",
       "1ec8aaf3bb05ff93": "834e82c8a32936c563e44193fdaac05aa6deb1dbb5185d5838b34496110b6ede",
-      "1fc192c6d8e3ff4a": "1355ef27d20bfb5c0389d939da47943587826e28eae5ccf8bc117d0ba0a9fe70",
+      "1fc192c6d8e3ff4a": "3592d0aaa56a7522c3bec3791fab6db545fc8354730bf5866d1284ca0393a963",
       "1ffc472249847e58": "dd69a6ce903949f2602638c0e61aa4268670d0a9ff8f781578aeb83a238c383d",
       "20015dad0aebf6ce": "36666d05953ac95577a92bfe5f238550c16281cadcbba81df2ff59952aa8f8dd",
       "225cdd1a5c882c0f": "0f9653a442a29c482e8cbea431e8c9b33118f6a100edcbd1b5e304fbd7c7d5a3",
@@ -1043,7 +1043,7 @@
       "33d53accdb3d1120": "614a34d69ee5d4a2e5936db0234d0eff5e61db0394aa99872e624182b03a85ce",
       "375e7d3bee48a749": "b85585e3a67e92aa2a04a91c833f5889a9c67a2dd149e91b2c46190e72baa05e",
       "3813db0e0261e6ea": "9059d66b5d01cf8198bb2438ce6b42c48440ed5309bedbe9dfb74742367b65b1",
-      "3815a4bda1a884da": "5bed0b2d7977a02f091cd4baf00fba5e270ad3b56ff161ed7b8bd965a9a728c5",
+      "3815a4bda1a884da": "75da7a1c5d782649b802cb167ebf851ed94f5fd0928b94f45b046792d28ace1a",
       "38be8a9332754ddc": "4c4a8c979519e43dffee50b8bd8471f90c4505782d615c70f114f4c93a50709c",
       "38ceb95814eaf88b": "f4f030d3fbb9275f0f0495a9f07631f70f62b70ef9105500e0e6f3561371faf5",
       "397fee53157b871c": "0d26a0deda6deac028354208cc86c41c8d88ef33f052ead8933ab32d516f1c2d",
@@ -1066,7 +1066,7 @@
       "4d4a906da5693139": "f123c1a7be2384d490b11d07c0a248b1ebb5bf6f700d191ac36116f94b0356ce",
       "4d7e6dda0407aefc": "8e9b1274f3f92ac1f1da78e5c61fff2c4bb91065b9f96548fb40dfd5b0789108",
       "4d8f9eac3c2b44b4": "38ef6215ebf6cf6caf7449f9e45c99b2acd758472913b85d47de5c05b4f76308",
-      "4dbf77a2da17ed04": "9b28ff0029da0c640e86d8786ede0073da1c88c8ffa1240171103893b17d3bb7",
+      "4dbf77a2da17ed04": "1c5417fecf99400f7d34f4ff5c96874e87a86503915a9c9ce4f7872dcd79bf5c",
       "4fab523dea5d3ee4": "2dd14e5f987c24db37114d13de930e976fa2f864028dec5adff768b78b61b4a3",
       "5025f4667e1d962f": "9a0e3362266b1b10da3b8bc50e0937effea730871d5607c36467e6dda45c84fd",
       "5178625e0840c548": "113f065eab71ee3757d421e922811d7524e89f01b9b504e68f74cec160cba5e7",

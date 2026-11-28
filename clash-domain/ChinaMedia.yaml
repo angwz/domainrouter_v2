@@ -1,9 +1,9 @@
 # NAME: ChinaMedia
 # GROUP: DIRECT
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-25 12:44:47 (UTC+8)
+# UPDATED: 2026-11-28 12:39:24 (UTC+8)
 # TYPE: domain
-# TOTAL: 5511
+# TOTAL: 5512
 # SOURCE A: MetaCubeX · geosite/category-social-media-cn.yaml
 # SOURCE B: MetaCubeX · geosite/category-media-cn.yaml
 # SOURCE C: blackmatrix7 · ChinaMedia/ChinaMedia.list
@@ -1451,6 +1451,7 @@ payload:
   - '+.fastidea.cc'            # M
   - '+.fastidea.me'            # M
   - '+.fcapp.run'              # L
+  - '+.fce.gg'                 # E G
   - '+.feihuo.com'             # E
   - '+.feizhu.cn'              # L M
   - '+.feizhu.com'             # L M

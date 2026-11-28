@@ -1,25 +1,29 @@
 # NAME: Telegram
 # GROUP: 🛸 Telegram
 # REPO: https://github.com/angwz/domainrouter_v2
-# UPDATED: 2026-11-09 07:59:16 (UTC+8)
+# UPDATED: 2026-11-28 12:39:24 (UTC+8)
 # TYPE: classical
-# TOTAL: 12
+# TOTAL: 13
 # DOMAIN-KEYWORD: 1
 # IP-ASN: 5
+# AND: 1
 # PROCESS-NAME: 6
-# SOURCE A: blackmatrix7 · Telegram/Telegram.list
+# SOURCE A: my.wei
+# SOURCE B: blackmatrix7 · Telegram/Telegram.list
 payload:
-  - 'DOMAIN-KEYWORD,nicegram'            # A
+  - 'DOMAIN-KEYWORD,nicegram'              # B
 
-  - 'IP-ASN,211157,no-resolve'           # A
-  - 'IP-ASN,44907,no-resolve'            # A
-  - 'IP-ASN,59930,no-resolve'            # A
-  - 'IP-ASN,62014,no-resolve'            # A
-  - 'IP-ASN,62041,no-resolve'            # A
+  - 'IP-ASN,211157,no-resolve'             # B
+  - 'IP-ASN,44907,no-resolve'              # B
+  - 'IP-ASN,59930,no-resolve'              # B
+  - 'IP-ASN,62014,no-resolve'              # B
+  - 'IP-ASN,62041,no-resolve'              # B
 
-  - 'PROCESS-NAME,Telegram.exe'          # A
-  - 'PROCESS-NAME,nekox.messenger'       # A
-  - 'PROCESS-NAME,org.telegram.messenger'  # A
-  - 'PROCESS-NAME,telegram-desktop'      # A
-  - 'PROCESS-NAME,tw.nekomimi.nekogram'  # A
-  - 'PROCESS-NAME,xyz.nextalone.nagram'  # A
+  - 'AND,((DST-PORT,5223),(IP-CIDR,17.0.0.0/8,no-resolve))'  # A
+
+  - 'PROCESS-NAME,Telegram.exe'            # B
+  - 'PROCESS-NAME,nekox.messenger'         # B
+  - 'PROCESS-NAME,org.telegram.messenger'  # B
+  - 'PROCESS-NAME,telegram-desktop'        # B
+  - 'PROCESS-NAME,tw.nekomimi.nekogram'    # B
+  - 'PROCESS-NAME,xyz.nextalone.nagram'    # B

@@ -460,3 +460,9 @@
 `clash-classic/Direct-classic.yaml` → DIRECT
 
 - 手写 · 不区分目标，按连接属性匹配：`DST-PORT,9993` `SRC-PORT,9993`
+
+## 已发布：逻辑规则（1）
+
+`clash-classic/Telegram-classic.yaml` → 🛸 Telegram
+
+- 手写 · AND：不区分目标，按连接属性匹配；/8 大网段：`AND,((DST-PORT,5223),(IP-CIDR,17.0.0.0/8,no-resolve))`
